@@ -9,7 +9,7 @@ const files=[
  "daily-life-scenarios.js","daily-life-vocabulary.js","daily-life-200.js",
  "academic-expansions-first.js","academic-expansions-second.js",
  "academic-question-guidance.js","academic-vocab-distractors.js","academic-200.js",
- "listening-campus-cases.js","listening-200.js"
+ "listening-campus-cases.js","listening-rationales.js","listening-200.js"
 ];
 for(const name of files){
  const s=fs.readFileSync(root+"/collections/"+name,"utf8");
