@@ -1,4 +1,4 @@
-name: Validate and package TOEFL Official Format 200
+name: Validate and package TOEFL Reading 600
 on:
   push:
     branches: [main]
@@ -13,7 +13,7 @@ on:
       - '.github/workflows/package-extended-100.yml'
   workflow_dispatch:
 concurrency:
-  group: toefl-official-format-200-release
+  group: toefl-reading-600-release
   cancel-in-progress: true
 permissions:
   contents: write
@@ -30,7 +30,7 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-      - name: Validate 200 passages, 2,000 blanks, original IDs, and storage
+      - name: Validate 600 Reading activities, 8 question types, saved IDs and answer keys
         run: node tools/validate-collection.mjs
       - name: Install isolated test browser
         run: npx playwright install --with-deps chromium
@@ -49,19 +49,19 @@ jobs:
           cp -R assets audio docs collections /tmp/toefl-release/site/
           (
             cd /tmp/toefl-release/site
-            zip -q -r /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Official_Format_200.zip .
+            zip -q -r /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Reading_600.zip .
           )
           cp index.html LICENSE.txt PUBLISHING.txt README.md THIRD_PARTY_NOTICES.md VERIFICATION.md package.json package-lock.json /tmp/toefl-release/project/
           cp -R assets audio docs collections tools .github /tmp/toefl-release/project/
           cp example-bank.json /tmp/toefl-release/project/
           (
             cd /tmp/toefl-release/project
-            zip -q -r /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Project_200.zip .
+            zip -q -r /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Reading_600.zip .
           )
-          unzip -tq /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Official_Format_200.zip
-          unzip -tq /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Project_200.zip
-          unzip -q /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Official_Format_200.zip -d /tmp/toefl-release/extracted-site
-          unzip -q /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Project_200.zip -d /tmp/toefl-release/extracted-project
+          unzip -tq /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Reading_600.zip
+          unzip -tq /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Reading_600.zip
+          unzip -q /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Reading_600.zip -d /tmp/toefl-release/extracted-site
+          unzip -q /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Reading_600.zip -d /tmp/toefl-release/extracted-project
           (
             cd /tmp/toefl-release/extracted-site
             node "$GITHUB_WORKSPACE/tools/validate-collection.mjs"
@@ -81,14 +81,14 @@ jobs:
           kill $(cat /tmp/toefl-extracted.pid)
       - name: Publish checksums and manifest
         run: |
-          rm -f downloads/TOEFL_Practice_Studio_Pages_Extended_100.zip downloads/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip
+          rm -f downloads/TOEFL_Practice_Studio_Pages_Extended_100.zip downloads/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip downloads/TOEFL_Practice_Studio_Pages_Official_Format_200.zip downloads/TOEFL_Practice_Studio_Editable_Project_200.zip
           cp /tmp/toefl-release/*.zip downloads/
           cd downloads
           sha256sum *.zip > SHA256SUMS.txt
           find . -maxdepth 1 -type f -printf '%f %s bytes\n' > FILE_MANIFEST.txt
       - uses: actions/upload-artifact@v4
         with:
-          name: TOEFL-Official-Format-200-Verified-ZIPs
+          name: TOEFL-Reading-600-Verified-ZIPs
           path: downloads/
           retention-days: 90
       - name: Publish direct-download ZIPs to the same GitHub Pages repository
