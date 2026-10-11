@@ -36,7 +36,7 @@ LISTENING_ORIGINAL_TAGS={
  const[C,H]=Q.useState(!1),[G,E]=Q.useState(""),[_,g]=Q.useState(!1);
  const R=Q.useRef(null),k=ep(),token=Q.useRef(0);
  Q.useEffect(()=>()=>{token.current++;R.current?.pause();window.speechSynthesis?.cancel()},[]);
- const P=()=>{H(!1);T?.(!0)};
+ const P=()=>{H(!1);d?.(!0);T?.(!0)};
  const fail=(message)=>{H(!1);d?.(!1);T?.(!1);E(message)};
  function ve(){
   E("");
@@ -66,7 +66,7 @@ LISTENING_ORIGINAL_TAGS={
     utterance.rate=S?1:p.rate;
     const voice=turn.role==="Man"?voice1:voice0;
     if(voice)utterance.voice=voice;
-    utterance.onstart=()=>{if(index===0){H(!0);d?.(!0)}};
+    utterance.onstart=()=>{if(index===0)H(!0)};
     utterance.onend=()=>speakTurn(index+1);
     utterance.onerror=ev=>{if(run===token.current)fail("The browser voice could not play. Choose a different English voice in Settings or try another browser.")};
     window.speechSynthesis.speak(utterance);
@@ -76,7 +76,7 @@ LISTENING_ORIGINAL_TAGS={
    const I=new Audio(new URL(o.audio,document.baseURI).href);
    R.current=I;I.playbackRate=S?1:p.rate;I.onended=P;
    I.onerror=()=>fail("Recorded audio could not load. Change to text-to-speech in Settings.");
-   I.play().then(()=>{H(!0);d?.(!0)}).catch(()=>fail("Audio playback was blocked. Press Play again, or switch to text-to-speech."));
+   I.play().then(()=>{H(!0)}).catch(()=>fail("Audio playback was blocked. Press Play again, or switch to text-to-speech."));
   }
  }
  return s.jsxs("div",{className:"audio-panel",children:[
