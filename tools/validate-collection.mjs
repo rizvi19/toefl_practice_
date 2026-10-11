@@ -14,6 +14,7 @@ for(const path of [
  "collections/academic-expansions-first.js",
  "collections/academic-expansions-second.js",
  "collections/academic-question-guidance.js",
+ "collections/academic-vocab-distractors.js",
  "collections/academic-200.js"
  ])vm.runInNewContext(read(root+"/"+path),{window:win},{timeout:30000});
 const CTW=win.__TOEFL_CTW_200_EXT__,DL=win.__TOEFL_DAILY_200__,AC=win.__TOEFL_ACADEMIC_200__;
