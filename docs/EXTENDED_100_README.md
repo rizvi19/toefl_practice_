@@ -5,8 +5,8 @@ This independent practice collection adds **100 complete academic/social passage
 - IDs: `ctw26-ext-001` through `ctw26-ext-100`; they are distinct from all original IDs.
 - Four rotating practice variations per topic across 25 mixed topics.
 - Grades and explanations are handled by the existing React app. Each answer has a passage-specific contextual explanation.
-- The original **120-item full practice form** remains the separate `xi.items` data source.
-- The shared library joins the original 120, the 100 extended passages, and the current visitor's imported items without altering any existing imports.
+- The original **60-screen full practice form (120 questions)** remains the separate `xi.items` data source.
+- The shared library joins the original 60 activity screens, the 100 extended passages, and the current visitor's imported items without altering any existing imports.
 - Existing browser data remains under the `toefl-studio-v1` key with compatible progress and response formats.
 
 ## Public website and publishing
