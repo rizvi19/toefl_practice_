@@ -93,17 +93,29 @@ jobs:
           retention-days: 90
       - name: Publish direct-download ZIPs to the same GitHub Pages repository
         run: |
+          set -euo pipefail
           git config user.name "TOEFL Studio Release Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add downloads
-          if ! git diff --cached --quiet; then
-            git commit -m "Publish extracted-tested GitHub upload and editable project ZIPs [skip ci]"
-            for attempt in 1 2 3 4 5 6 7 8; do
-              git fetch origin main
-              git rebase origin/main
-              if git push origin HEAD:main; then exit 0; fi
-              sleep $((attempt * 2))
-            done
-            echo "Publishing failed after eight safe retries"
-            exit 1
-          fi
+          for attempt in 1 2 3 4 5 6 7 8; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p downloads
+            rm -f downloads/TOEFL_Practice_Studio_Pages_Extended_100.zip \
+                  downloads/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip \
+                  downloads/TOEFL_Practice_Studio_Pages_Official_Format_200.zip \
+                  downloads/TOEFL_Practice_Studio_Editable_Project_200.zip
+            cp /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Reading_600.zip downloads/
+            cp /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Reading_600.zip downloads/
+            (cd downloads && sha256sum *.zip > SHA256SUMS.txt)
+            (cd downloads && find . -maxdepth 1 -type f -printf '%f %s bytes\\n' > FILE_MANIFEST.txt)
+            git add -A downloads
+            if git diff --cached --quiet; then
+              echo "Verified release files already match main."
+              exit 0
+            fi
+            git commit -m "Publish extracted-tested Reading 600 ZIPs [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          echo "Release publishing failed after eight safe attempts"
+          exit 1
