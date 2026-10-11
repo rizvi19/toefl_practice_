@@ -1,0 +1,98 @@
+name: Validate and package TOEFL Extended 100
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'audio/**'
+      - 'docs/**'
+      - 'collections/**'
+      - 'tools/**'
+      - 'package.json'
+      - '.github/workflows/package-extended-100.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Validate 100 passages, 1,000 blanks, original IDs, and storage
+        run: node tools/validate-collection.mjs
+      - name: Install isolated test browser
+        run: npx playwright install --with-deps chromium
+      - name: Test live-style GitHub Pages repository subpath
+        run: |
+          node tools/serve-subpath.mjs > /tmp/toefl-server.log 2>&1 &
+          echo $! > /tmp/toefl-server.pid
+          sleep 3
+          node tools/smoke-playwright.mjs
+          kill $(cat /tmp/toefl-server.pid)
+      - name: Prepare exact root-upload and editable source ZIPs
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/toefl-release/site /tmp/toefl-release/project downloads
+          cp index.html LICENSE.txt PUBLISHING.txt THIRD_PARTY_NOTICES.md /tmp/toefl-release/site/
+          cp -R assets audio docs collections /tmp/toefl-release/site/
+          (
+            cd /tmp/toefl-release/site
+            zip -q -r /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Extended_100.zip .
+          )
+          cp index.html LICENSE.txt PUBLISHING.txt README.md THIRD_PARTY_NOTICES.md VERIFICATION.md package.json package-lock.json /tmp/toefl-release/project/
+          cp -R assets audio docs collections tools .github /tmp/toefl-release/project/
+          cp example-bank.json /tmp/toefl-release/project/
+          (
+            cd /tmp/toefl-release/project
+            zip -q -r /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip .
+          )
+          unzip -tq /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Extended_100.zip
+          unzip -tq /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip
+          unzip -q /tmp/toefl-release/TOEFL_Practice_Studio_Pages_Extended_100.zip -d /tmp/toefl-release/extracted-site
+          unzip -q /tmp/toefl-release/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip -d /tmp/toefl-release/extracted-project
+          (
+            cd /tmp/toefl-release/extracted-site
+            node "$GITHUB_WORKSPACE/tools/validate-collection.mjs"
+          )
+          (
+            cd /tmp/toefl-release/extracted-project
+            node tools/validate-collection.mjs
+          )
+          ls -lh /tmp/toefl-release/*.zip
+      - name: Test extracted Pages ZIP under exact GitHub Pages path
+        run: |
+          set -euo pipefail
+          SITE_ROOT=/tmp/toefl-release/extracted-site node tools/serve-subpath.mjs > /tmp/toefl-server-extracted.log 2>&1 &
+          echo $! > /tmp/toefl-extracted.pid
+          sleep 3
+          SITE_ROOT=/tmp/toefl-release/extracted-site node tools/smoke-playwright.mjs
+          kill $(cat /tmp/toefl-extracted.pid)
+      - name: Publish checksums and manifest
+        run: |
+          cp /tmp/toefl-release/*.zip downloads/
+          cd downloads
+          sha256sum *.zip > SHA256SUMS.txt
+          find . -maxdepth 1 -type f -printf '%f %s bytes\n' > FILE_MANIFEST.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TOEFL-Extended-100-Verified-ZIPs
+          path: downloads/
+          retention-days: 90
+      - name: Publish direct-download ZIPs to the same GitHub Pages repository
+        run: |
+          git config user.name "TOEFL Studio Release Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add downloads
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish extracted-tested GitHub upload and editable project ZIPs [skip ci]"
+            git push
+          fi
