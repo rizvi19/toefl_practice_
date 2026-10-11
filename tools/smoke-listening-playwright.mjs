@@ -8,7 +8,7 @@ for(const file of [
  "daily-life-vocabulary.js","daily-life-200.js","academic-expansions-first.js",
  "academic-expansions-second.js","academic-question-guidance.js",
  "academic-vocab-distractors.js","academic-200.js",
- "listening-campus-cases.js","listening-200.js"
+ "listening-campus-cases.js","listening-rationales.js","listening-200.js"
 ])vm.runInNewContext(fs.readFileSync(root+"/collections/"+file,"utf8"),{window:w});
 const bank=w.__TOEFL_LISTENING_EXTENDED__;
 const browser=await chromium.launch({headless:true});
