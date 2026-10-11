@@ -1,4 +1,4 @@
-TOEFL_Practice_Studio_Pages_Reading_600.zip 19980301 bytes
+TOEFL_Practice_Studio_Pages_Reading_600.zip 19985451 bytes
 SHA256SUMS.txt 223 bytes
-TOEFL_Practice_Studio_Editable_Reading_600.zip 19993989 bytes
+TOEFL_Practice_Studio_Editable_Reading_600.zip 19999927 bytes
 FILE_MANIFEST.txt 0 bytes
