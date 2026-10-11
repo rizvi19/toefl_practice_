@@ -176,6 +176,7 @@ for(const [id,title,paragraph] of oldRevisions){
 if(extended.length!==197||Object.keys(revised).length!==3)throw Error("Expected 197 extended + 3 original");
 if(new Set(extended.map(x=>x.id)).size!==197)throw Error("Duplicate IDs");
 if(extended.some(x=>x.pieces.filter(p=>typeof p==="object").length!==10))throw Error("Not ten endings");
+Object.defineProperty(window,"__TOEFL_ACADEMIC_TOPICS__",{value:topics,configurable:false});
 Object.defineProperty(window,"__TOEFL_CTW_200_EXT__",{value:extended,configurable:false});
 Object.defineProperty(window,"__TOEFL_CTW_REVISED__",{value:revised,configurable:false});
 })();
