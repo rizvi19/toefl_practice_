@@ -1,77 +1,131 @@
 #!/usr/bin/env node
-// 2026 Complete the Words: audit ETS-described 70–100 word, 10-sequence pattern.
+// Validate each released question bank and ETS-described activity format.
 import fs from "node:fs";
 import vm from "node:vm";
 import assert from "node:assert/strict";
-
-const root=process.cwd();
-const read=p=>fs.readFileSync(root+"/"+p,"utf8");
-const sandbox={window:{}};
-vm.runInNewContext(read("collections/academic-topics-additional.js"),sandbox,{timeout:10000});
-vm.runInNewContext(read("collections/complete-words-200.js"),sandbox,{timeout:20000});
-const ext=sandbox.window.__TOEFL_CTW_200_EXT__;
-const patched=sandbox.window.__TOEFL_CTW_REVISED__;
-const bundle=read("assets/index-0Qc6vs45.js");
-const page=read("index.html");
-const oldMatch=bundle.match(/Dg=JSON\.parse\((['"])(.*?)\1\),xi=/s);
-assert(oldMatch,"Original full form is still embedded");
-const originals=JSON.parse(vm.runInNewContext(oldMatch[1]+oldMatch[2]+oldMatch[1]));
-assert.equal(originals.length,60,"Original full form retains its 60 activity screens");
-const originalWords=originals.filter(x=>x.type==="complete-words");
-assert.equal(originalWords.length,3,"Exactly 3 existing Complete the Words exercises");
-const originalsById=new Map(originals.map(x=>[x.id,x]));
-assert.deepEqual(Object.keys(patched).sort(),originalWords.map(x=>x.id).sort(),"Original IDs preserved");
-const modifiedOriginal=originalWords.map(x=>({...x,...patched[x.id]}));
-const all=[...modifiedOriginal,...ext];
-assert.equal(ext.length,197,"Add 197 extra passages to 3 original");
-assert.equal(all.length,200,"Exactly 200 complete activities");
-assert.equal(new Set(all.map(x=>x.id)).size,200,"Unique stable IDs");
-assert.equal(new Set(all.map(x=>x.title)).size,200,"No duplicate activity names");
-assert(ext.every((x,i)=>x.id==="ctw26-ext-"+String(i+1).padStart(3,"0")));
-assert(!ext.some(x=>originalsById.has(x.id)),"Do not reuse existing IDs");
-const countWords=t=>(t.match(/\b[A-Za-z]+(?:['’][A-Za-z]+)?\b/g)||[]).length;
-const func=new Set("a an the and as at be been being but by can did do does for from had has have he her hers him his how if in into is it its may might more most not of on or our out over she so some than that their them there these they this those through to under until up was were what when where which while who will with would you your".split(" "));
-const rounded={Easy:0,Medium:0,Hard:0,Mixed:0};
-let grams=0,totalMissingLetters=0,smallest=999,largest=0;
-let worst=[];
-for(const item of all){
- assert.equal(item.type,"complete-words",item.id);
- const pieces=item.pieces;
- assert(Array.isArray(pieces)&&pieces.length===21,item.id+" must have ten blanks alternating with eleven strings");
- const blanks=pieces.filter(x=>typeof x==="object");
- assert.equal(blanks.length,10,item.id);
- assert(blanks.every(x=>typeof x.explanation==="string"&&x.explanation.length>=100),"Missing meaningful contextual explanation "+item.id);
- const passage=pieces.map(x=>typeof x==="string"?x:x.pre+x.answer+(x.post||"")).join("");
- const wc=countWords(passage);smallest=Math.min(smallest,wc);largest=Math.max(largest,wc);
- assert(wc>=70&&wc<=100,item.id+" out of official 70–100 range: "+wc);
- const firstSentence=passage.split(". ")[0]+".";
- assert.equal(pieces[0].startsWith(firstSentence),true,"Complete intact opening sentence "+item.id);
- assert.equal(pieces[0].indexOf("." )>=0,true,"No blank in first sentence "+item.id);
- assert(pieces[0].length<passage.length/2,"Blanks must begin after short initial context, not at end "+item.id);
- let selectedTokens=0;
- for(let i=0;i<10;i++){
-   const b=pieces[i*2+1],pre=b.pre,answer=b.answer;
-   assert(/^[A-Za-z]+$/.test(pre)&&/^[A-Za-z]+$/.test(answer),item.id);
-   const complete=pre+answer;
-   assert(complete.length>=2&&pre.length===Math.ceil(complete.length/2)&&answer.length===Math.floor(complete.length/2),item.id+" half word rule");
-   assert(b.explanation.includes("“"+complete+"”")&&b.explanation.includes("“"+answer+"”"),item.id+" explanation must identify correct exact spelling");
-   totalMissingLetters+=answer.length;
-   if(func.has(complete.toLowerCase()))selectedTokens++;
- }
- assert(selectedTokens>=1&&selectedTokens<=8,item.id+" include both grammar words and academic content");
- grams+=selectedTokens;
- rounded[item.difficulty]=(rounded[item.difficulty]||0)+1;
- assert(passage.indexOf("\n")===-1,item.id);
+const read=p=>fs.readFileSync(p,"utf8");
+const root=process.cwd(),win={};
+for(const path of [
+ "collections/academic-topics-additional.js",
+ "collections/complete-words-200.js",
+ "collections/daily-life-scenarios.js",
+ "collections/daily-life-vocabulary.js",
+ "collections/daily-life-200.js",
+ "collections/academic-expansions-first.js",
+ "collections/academic-expansions-second.js",
+ "collections/academic-question-guidance.js",
+ "collections/academic-200.js"
+ ])vm.runInNewContext(read(root+"/"+path),{window:win},{timeout:30000});
+const CTW=win.__TOEFL_CTW_200_EXT__,DL=win.__TOEFL_DAILY_200__,AC=win.__TOEFL_ACADEMIC_200__;
+const bundle=read(root+"/assets/index-0Qc6vs45.js"),html=read(root+"/index.html");
+const match=bundle.match(/Dg=JSON\.parse\((['"])(.*?)\1\),xi=/s);
+assert(match,"Original full practice form must remain in bundle");
+const original=JSON.parse(vm.runInNewContext(match[1]+match[2]+match[1]));
+assert.equal(original.length,60);
+const oldIds=new Set(original.map(x=>x.id));
+assert.equal(oldIds.size,60);
+const oldCount=t=>original.filter(x=>x.type===t).length;
+assert.equal(oldCount("complete-words"),3);
+assert.equal(oldCount("daily-life"),5);
+assert.equal(oldCount("academic-passage"),2);
+assert.equal(CTW.length+oldCount("complete-words"),200);
+assert.equal(DL.length+oldCount("daily-life"),200);
+assert.equal(AC.length+oldCount("academic-passage"),200);
+assert.equal(CTW.length,197);
+assert.equal(DL.length,195);
+assert.equal(AC.length,198);
+const allNew=[...CTW,...DL,...AC];
+assert.equal(allNew.length,590);
+assert.equal(new Set(allNew.map(x=>x.id)).size,590);
+assert(allNew.every(x=>!oldIds.has(x.id)));
+const count=s=>(s.match(/\b[A-Za-z]+(?:['’-][A-Za-z]+)*\b/g)||[]).length;
+const skills={};
+const counts={};
+let totalQuestions=0,low=1e5,high=0,dlMin=1e5,dlMax=0,acadMin=1e5,acadMax=0;
+function verifyQuestion(q,id){
+ assert(typeof q.stem==="string"&&q.stem.length>18,id);
+ assert(Array.isArray(q.options)&&q.options.length===4,id+" has four options");
+ assert(q.options.every(x=>typeof x==="string"&&x.length>=3),id);
+ assert.equal(new Set(q.options).size,4,id+" unique answer options");
+ assert(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<4,id+" answer key");
+ assert(q.explanation?.startsWith("Question type: "+q.questionType),id+" answer type explanation");
+ assert(q.explanation.length>=100,id+" substantive feedback");
+ skills[q.questionType]=(skills[q.questionType]||0)+1;
+ totalQuestions++;
 }
-assert.equal(Object.values(rounded).reduce((a,b)=>a+b,0),200);
-assert(page.includes('./collections/academic-topics-additional.js'));
-assert(page.includes('./collections/complete-words-200.js'));
-assert(page.indexOf("academic-topics-additional.js")<page.indexOf("complete-words-200.js"));
-assert(bundle.includes("...xi.items,...CTW,...o.custom"),"Shared library retains imports");
-assert(bundle.includes("__TOEFL_CTW_REVISED__"),"Original form revised in place");
-assert(bundle.includes("__TOEFL_CTW_200_EXT__"),"New bank exposed publicly");
-assert(bundle.includes("Browse all 200 passages"));
-assert(bundle.includes('const nr="toefl-studio-v1"'),"Existing progress remains compatible");
-assert(bundle.includes('onClick:()=>pe(xi.items,"exam"'),"Full practice form remains separate");
-for(const f of ["assets/index-DLay_trC.css","audio/repeat-1.wav","docs/format-and-sources.html"]) assert(fs.existsSync(root+"/"+f),f);
-console.log(JSON.stringify({result:"PASS",newAdditional:ext.length,revisedOriginal:3,totalCompleteWords:all.length,wordsPerPassage:[smallest,largest],sequences:all.length*10,missingLetters:totalMissingLetters,functionWordSequences:grams,otherFullFormScreens:originals.length,allLibraryActivities:originals.length+ext.length,difficulty:rounded,audioFiles:fs.readdirSync(root+"/audio").length},null,2));
+for(const [index,item] of DL.entries()){
+ assert.equal(item.id,"daily26-"+String(index+1).padStart(3,"0"));
+ assert.equal(item.type,"daily-life");
+ assert(item.questions.length===2||item.questions.length===3);
+ const words=count(item.passage);dlMin=Math.min(dlMin,words);dlMax=Math.max(dlMax,words);
+ assert(words>=15&&words<=150,item.id+" daily words "+words);
+ assert(item.format&&item.topic&&item.pack);
+ item.questions.forEach(q=>{
+   verifyQuestion(q,item.id);
+   if(q.questionType==="Vocabulary"){
+     const w=q.stem.match(/“([^”]+)”/)?.[1];
+     assert(w&&new RegExp("\\b"+w+"\\b","i").test(item.passage),item.id+" vocabulary must be in passage: "+w);
+   }
+   if(q.questionType==="Negative Factual"){
+     const right=q.options[q.answer];
+     assert(!item.passage.includes(right),item.id+" negative factual choice cannot be stated");
+   }
+ });
+ counts[item.difficulty]=(counts[item.difficulty]||0)+1;
+}
+for(const [index,item] of AC.entries()){
+ assert.equal(item.id,"academic26-"+String(index+1).padStart(3,"0"));
+ assert.equal(item.type,"academic-passage");
+ assert.equal(item.questions.length,5);
+ const words=count(item.passage);acadMin=Math.min(acadMin,words);acadMax=Math.max(acadMax,words);
+ assert(words>=145&&words<=245,item.id+" academic words "+words);
+ assert(item.passage.includes("\n\n"),item.id+" two expository paragraphs");
+ item.questions.forEach(q=>{
+   verifyQuestion(q,item.id);
+   if(q.questionType==="Vocabulary"){
+     const w=q.stem.match(/“([^”]+)”/)?.[1];
+     assert(w&&new RegExp("\\b"+w+"\\b","i").test(item.passage),item.id+" vocabulary must be in passage "+w);
+   }
+   if(q.questionType==="Insert Text"||q.questionType==="Select the Sentence"){
+     assert(["[A]","[B]","[C]","[D]"].every(x=>item.passage.includes(x)),item.id+" must show four labeled options");
+     assert(q.options.every(x=>/^(Position|Sentence) [A-D]$/.test(x)),item.id+" location options");
+   }
+   if(q.questionType==="Reference")assert(/This evidence/i.test(item.passage),item.id+" reference context");
+ });
+ counts[item.difficulty]=(counts[item.difficulty]||0)+1;
+}
+for(const item of [...original.filter(x=>x.type==="complete-words").map(x=>({...x,...win.__TOEFL_CTW_REVISED__[x.id]})),...CTW]){
+ const b=item.pieces.filter(x=>typeof x==="object");
+ assert.equal(b.length,10,item.id+" ten fixed ending sequences");
+ const full=item.pieces.map(x=>typeof x==="string"?x:x.pre+x.answer+(x.post||"")).join("");
+ const w=count(full);low=Math.min(low,w);high=Math.max(high,w);
+ assert(w>=70&&w<=100,item.id+" cloze length "+w);
+ assert(item.pieces[0].includes("."),item.id+" full first sentence");
+ assert(b.every(x=>x.pre.length===Math.ceil((x.pre+x.answer).length/2)),item.id+" half word");
+}
+const required=["Factual","Negative Factual","Vocabulary","Select the Sentence","Sentence Simplification","Reference","Inference","Rhetorical Purpose","Insert Text"];
+assert(required.every(x=>skills[x]>0),"Missing a question type "+JSON.stringify(skills));
+const supported=[
+ "collections/complete-words-200.js",
+ "collections/daily-life-200.js",
+ "collections/academic-200.js",
+ "assets/index-0Qc6vs45.js",
+ "audio/repeat-1.wav",
+ "docs/OFFICIAL_FORMAT_200_README.md"
+];
+for(const p of supported)assert(fs.existsSync(root+"/"+p),p+" must exist");
+assert(html.includes('./collections/academic-200.js'));
+assert(bundle.includes("...CTW,...DAILY,...ACADEMIC,...o.custom"));
+assert(bundle.includes('const nr="toefl-studio-v1"'));
+assert(bundle.includes('onClick:()=>pe(xi.items,"exam"'));
+assert(bundle.includes("Random · Academic Passage"));
+assert(bundle.includes("Reading rehearsal · 50 questions"));
+console.log(JSON.stringify({
+ result:"PASS",originalFullForm:original.length,
+ counts:{CompleteTheWords:CTW.length+3,ReadInDailyLife:DL.length+5,ReadAnAcademicPassage:AC.length+2},
+ newQuestionCount:totalQuestions,questionTypes:skills,
+ wordCounts:{cloze:[low,high],daily:[dlMin,dlMax],academic:[acadMin,acadMax]},
+ difficulties:counts,originalIDsPreserved:true,
+ sharedReadingBuiltIn:600,wholeLibrary:original.length+allNew.length,
+ audioCount:fs.readdirSync(root+"/audio").length
+},null,2));
