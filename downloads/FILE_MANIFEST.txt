@@ -1,4 +1,4 @@
 SHA256SUMS.txt 231 bytes
-TOEFL_Practice_Studio_Pages_Official_Format_200.zip 19935048 bytes
-TOEFL_Practice_Studio_Editable_Project_200.zip 19947980 bytes
+TOEFL_Practice_Studio_Pages_Official_Format_200.zip 19943845 bytes
+TOEFL_Practice_Studio_Editable_Project_200.zip 19956777 bytes
 FILE_MANIFEST.txt 0 bytes
