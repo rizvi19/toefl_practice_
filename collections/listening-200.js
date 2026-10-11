@@ -88,34 +88,30 @@ for(let i=0;i<50;i++){
   response.push(fn("choose-response",v,prompts[v],[q],36,{speechAct:["information request","expression of concern","conditional inquiry","indirect request for advice"][v]}));
  }
  const convTexts=[
-  "Woman: Did you see the notice about "+title.toLowerCase()+"?\n"+
-  "Man: I did. It's at "+place+" on "+when+". They're hoping to "+benefit+".\n"+
+  "Woman: Did you hear about "+title.toLowerCase()+"?\n"+
+  "Man: It's at "+place+" on "+when+". They hope to "+benefit+".\n"+
   "Woman: "+concern+"\n"+
   "Man: "+reassurance+"\n"+
-  "Woman: I also wasn't sure what I should do to get involved.\n"+
-  "Man: "+capitalize(action)+", and do it by "+cutoff+".\n"+
-  "Woman: Oh, that clears things up. I'll check the instructions before making plans.",
-  "Man: I thought the "+title.toLowerCase()+" would be simple, but "+concern.toLowerCase()+"\n"+
-  "Woman: I can see why that worries you. "+reassurance+"\n"+
-  "Man: That makes a difference, actually. I was about to give up on it.\n"+
-  "Woman: Well, don't assume the arrangements are fixed until you've checked them.\n"+
-  "Man: You're right. "+feeling+"\n"+
-  "Woman: So you'll get in touch rather than simply miss the event?\n"+
-  "Man: Exactly. I'd rather ask than make a bad assumption.",
-  "Woman: Why does the "+title.toLowerCase()+" have so many instructions?\n"+
-  "Man: Well, the notice says to "+requirement+".\n"+
-  "Woman: That sounds fussy. Isn't the point to "+benefit+"?\n"+
-  "Man: It is, but there's a practical reason. "+twist+"\n"+
-  "Woman: Ah, so the instruction isn't there just to make things complicated.\n"+
-  "Man: Right. And if "+exception+", you can "+alternative+".\n"+
-  "Woman: All right, I'll read the details more carefully.",
-  "Man: Have you decided whether you're going to the "+title.toLowerCase()+"?\n"+
-  "Woman: I want to, especially because it should "+benefit+".\n"+
-  "Man: Same here, but I have to "+action+" by "+cutoff+".\n"+
-  "Woman: That's soon. And the instructions also say to "+requirement+".\n"+
+  "Woman: How do we sign up?\n"+
+  "Man: "+capitalize(action)+" by "+cutoff+".",
+  "Man: I thought "+title.toLowerCase()+" would be simple, but "+concern.toLowerCase()+"\n"+
+  "Woman: That sounds frustrating. "+reassurance+"\n"+
+  "Man: I was about to give up. "+feeling+"\n"+
+  "Woman: Why not check with staff first?\n"+
+  "Man: You're right. I'd rather ask than assume I can't join.",
+  "Woman: Why so many rules for "+title.toLowerCase()+"?\n"+
+  "Man: The notice says to "+requirement+".\n"+
+  "Woman: But isn't the aim to "+benefit+"?\n"+
+  "Man: Sure, yet there's a practical reason. "+twist+"\n"+
+  "Woman: Oh, that explains the rule.\n"+
+  "Man: And if "+exception+", you can "+alternative+".",
+  "Man: Are you going to "+title.toLowerCase()+"?\n"+
+  "Woman: I'd like to; it should "+benefit+".\n"+
+  "Man: Remember to "+action+" by "+cutoff+".\n"+
+  "Woman: Yes, and we must "+requirement+".\n"+
   "Man: "+concern+"\n"+
-  "Woman: Maybe the alternative is worth exploring. "+reassurance+"\n"+
-  "Man: Good point. I was treating a complication as a complete cancellation."
+  "Woman: Perhaps this helps: "+reassurance+"\n"+
+  "Man: So a complication isn't necessarily a cancellation."
  ];
  // Each conversation is one complete 2-speaker situation, followed by exactly two MCQs.
  const mainCorrect="They are discussing arrangements and a possible difficulty with "+title.toLowerCase()+".";
@@ -187,10 +183,10 @@ for(let i=0;i<50;i++){
   conversation.push(fn("conversation",v,convTexts[v],qConv[v],150,{format:"two-speaker dialogue"}));
  }
  const annTexts=[
-  "Hello, students. This is the Campus Activities Office with a reminder about "+title.toLowerCase()+". It takes place "+when+" at "+place+". The aim is to "+benefit+". If you'd like to come, please "+action+" by "+cutoff+". Remember to "+requirement+". We want everyone to have the information needed to arrive prepared, so please check the posted instructions before setting out.",
-  "An important update for students interested in "+title.toLowerCase()+": "+twist+" The activity is scheduled for "+when+" at "+place+". If "+exception+", please "+alternative+". Rather than guessing that the usual arrangements will work, review the event notice before leaving home. The goal is still to "+benefit+". We appreciate your flexibility while staff make the arrangements clear.",
-  "Are you curious about "+title.toLowerCase()+"? It's a chance to "+benefit+". "+feeling+" If you're thinking of joining us, please "+action+" before "+cutoff+". And one detail matters: "+requirement+". These steps are meant to keep the session manageable, not discourage newcomers. We're looking forward to welcoming participants at "+place+" on "+when+".",
-  "Good afternoon. A quick clarification about "+title.toLowerCase()+": the registration cutoff is "+cutoff+", while the activity itself is planned for "+when+". Those are two separate times, so please don't confuse them. The location is "+place+". Students should "+requirement+". If "+exception+", please "+alternative+". Checking in advance helps everyone take part smoothly and gives staff time to respond to individual circumstances."
+  "Hello, students. Here's a reminder about "+title.toLowerCase()+". It takes place "+when+" at "+place+". The goal is to "+benefit+". To join, "+action+" by "+cutoff+". And remember to "+requirement+". Please read the notice before arriving, so you have the information you need.",
+  "An update about "+title.toLowerCase()+": "+twist+" The event is planned for "+when+" at "+place+". If "+exception+", please "+alternative+". Check the updated notice rather than assuming the usual arrangements will work. We appreciate your flexibility.",
+  "Interested in "+title.toLowerCase()+"? It's a chance to "+benefit+". "+feeling+" To participate, "+action+" before "+cutoff+". Please also "+requirement+". These steps help the session run smoothly. We're looking forward to seeing you at "+place+".",
+  "A clarification about "+title.toLowerCase()+": registration closes "+cutoff+", but the event itself takes place "+when+". Don't confuse the two. Meet at "+place+". Remember to "+requirement+". If "+exception+", please "+alternative+". Contacting staff early allows time for arrangements."
  ];
  const qAnn=[
   [
