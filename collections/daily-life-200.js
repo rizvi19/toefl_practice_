@@ -59,5 +59,5 @@ for(let i=0;i<events.length;i++){
  }
 }
 if(out.length!==200||out.some(x=>x.questions.length<2||x.questions.length>3))throw Error("Daily activity count mismatch");
-Object.defineProperty(window,"__TOEFL_DAILY_200__",{value:out,configurable:false});
+Object.defineProperty(window,"__TOEFL_DAILY_200__",{value:out.slice(0,195),configurable:false});
 })();
