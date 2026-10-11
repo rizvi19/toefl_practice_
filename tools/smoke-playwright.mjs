@@ -25,7 +25,11 @@ const allSlots=expected.reduce((n,x)=>n+x.answer.length,0);
 assert.equal(await page.locator(".letter-slot").count(),allSlots,"fixed letter slot count");
 await page.locator(".letter-slot").first().fill(expected[0].answer[0]);
 assert.equal(await page.locator(".letter-slot").first().inputValue(),expected[0].answer[0]);
+await page.waitForFunction(({id,letter})=>{
+ try{return JSON.parse(localStorage.getItem("toefl-studio-v1")).session?.responses?.[id]?.blanks?.[0]?.[0]===letter}catch{return false}
+},{id:activity.id,letter:expected[0].answer[0]});
 await page.reload({waitUntil:"networkidle"});
+await page.getByRole("button",{name:/Resume session/i}).click();
 assert.equal(await page.locator(".letter-slot").first().inputValue(),expected[0].answer[0],"browser persistence on reload");
 for(let w=0;w<10;w++){
  const inputs=page.locator(".word-group").nth(w).locator("input");
