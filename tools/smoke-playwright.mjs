@@ -7,7 +7,7 @@ const root=process.env.SITE_ROOT||".",win={};
 for(const file of [
 "academic-topics-additional.js","complete-words-200.js","daily-life-scenarios.js",
 "daily-life-vocabulary.js","daily-life-200.js","academic-expansions-first.js",
-"academic-expansions-second.js","academic-question-guidance.js","academic-200.js"
+"academic-expansions-second.js","academic-question-guidance.js","academic-vocab-distractors.js","academic-200.js"
 ])vm.runInNewContext(fs.readFileSync(root+"/collections/"+file,"utf8"),{window:win});
 const first=win.__TOEFL_CTW_200_EXT__[0],daily=win.__TOEFL_DAILY_200__[0],academic=win.__TOEFL_ACADEMIC_200__[0];
 const browser=await chromium.launch({headless:true});
