@@ -1,0 +1,12 @@
+/* Accessible ETS-style paragraph markers and in-context insertion previews. */
+.reading-marker-hint{margin:0 0 .8rem;font-size:.875rem;font-weight:600;color:var(--muted,#52656a)}
+.reading-interactive-text{white-space:pre-wrap;line-height:1.85;margin:0;overflow-wrap:break-word}
+.reading-position{display:inline-flex;align-items:center;justify-content:center;border:1.5px solid #327e80;background:#f2fbfb;color:#155c61;border-radius:5px;padding:2px 5px;font:inherit;font-weight:700;min-height:28px;min-width:37px;cursor:pointer;margin-inline:2px}
+.reading-position:hover{background:#e1f4f3;border-color:#155c61}
+.reading-position:focus-visible{outline:3px solid #d99d32;outline-offset:2px}
+.reading-position.selected{background:#176b73;color:#fff;border-color:#176b73}
+.reading-position:disabled{opacity:.65;cursor:default}
+.reading-selected-sentence{background:#e9f3ef;border-radius:3px;box-decoration-break:clone}
+.reading-inserted-preview{background:#fff0c5;color:#26383b;padding:.12rem .25rem;border-bottom:2px solid #ca7b25;box-decoration-break:clone}
+.high-contrast .reading-position{border-width:2px}
+@media (prefers-reduced-motion:reduce){.reading-position{transition:none}}
