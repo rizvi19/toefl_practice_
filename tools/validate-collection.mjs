@@ -45,7 +45,7 @@ assert.equal(bundle.includes('const nr="toefl-studio-v1"'),true);
 assert.equal(bundle.includes('onClick:()=>pe(xi.items,"exam"'),true);
 assert.equal(bundle.includes("Complete the Words — Extended 100"),true);
 // Read the original embedded question bank, rather than counting strings in React UI.
-const match=bundle.match(/Dg=JSON\.parse\(('[\\s\\S]*?')\),xi=/);
+const match=bundle.match(/Dg=JSON\\.parse\\((['\"])(.*?)\\1\\),xi=/s);
 if(!match)throw Error("Cannot locate the immutable original bank");
 const original=JSON.parse(vm.runInNewContext(match[1]));
 assert.equal(original.length,120);
