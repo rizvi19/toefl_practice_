@@ -48,7 +48,7 @@ Error generating stack: `+l.message+`
  s.jsx("h2",{children:"Optional full Reading practice"}),
  s.jsx("p",{children:"Follow the ETS reading task order: Complete the Words → Read in Daily Life → Read an Academic Passage. Select session mode and Timed above. These are independent, non-adaptive practice activities."}),
  s.jsxs("div",{className:"actions",children:[
-  s.jsx("button",{className:"btn primary",onClick:readingCircuit,children:"Reading trio · 18 questions"}),
+  s.jsx("button",{className:"btn primary",onClick:readingCircuit,children:"Reading trio · 17–18 questions"}),
   s.jsx("button",{className:"btn secondary",onClick:readingFullRehearsal,children:"Reading rehearsal · 50 questions"})
  ]}),
  s.jsx("p",{className:"fine-print",children:"The 50-question rehearsal follows two reading-stage sequences (35 then 15 answers), but uses per-activity timers and permits study-mode navigation. It does not reproduce ETS adaptive routing, module deadlines or official scoring."})
