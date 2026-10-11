@@ -7,7 +7,8 @@
 const topics=window.__TOEFL_ACADEMIC_TOPICS__;
 const extra=[...(window.__TOEFL_ACADEMIC_EXPANSIONS_FIRST__||[]),...(window.__TOEFL_ACADEMIC_EXPANSIONS_SECOND__||[])];
 const guidance=window.__TOEFL_ACADEMIC_GUIDANCE__;
-if(topics?.length!==50||extra.length!==50||guidance?.length!==50)throw Error("Academic dossier count mismatch");
+const vocabDistractors=window.__TOEFL_ACADEMIC_VOCAB_DISTRACTORS__;
+if(topics?.length!==50||extra.length!==50||guidance?.length!==50||vocabDistractors?.length!==50)throw Error("Academic dossier count mismatch");
 const wc=s=>(s.match(/\b[A-Za-z]+(?:['’-][A-Za-z]+)*\b/g)||[]).length;
 function sentences(s){return (s.match(/[^.!?]+[.!?](?:\s|$)/g)||[]).map(x=>x.trim()).filter(Boolean);}
 const labels=["A","B","C","D"];
@@ -77,7 +78,7 @@ for(let i=0;i<50;i++){
   const qMain=()=>q("Which of the following is explicitly reported in the passage about "+title.toLowerCase()+"?",basic[1],
    [falseClaim,"The passage concludes that this subject has no measurable consequences in any setting.","Researchers have established that every region follows exactly the same conditions."],
    "Factual","The passage specifically states: “"+basic[1]+"”","the alternatives introduce sweeping unsupported claims or contradict the text",i+v);
-  const wrongVoc=[extra[(i+8)%50][3],extra[(i+19)%50][3],extra[(i+36)%50][3]];
+  const wrongVoc=vocabDistractors[i];
   const qVocab=()=>q('The word “'+term+'” in paragraph 2 is closest in meaning to',meaning,wrongVoc,
    "Vocabulary","In context, “"+term+"” means "+meaning+". The relevant sentence is: “"+ext[at]+"”","other definitions do not fit the word's function in this passage",i+v+1);
   const trueStatements=[basic[0],basic[1],basic[3]];
