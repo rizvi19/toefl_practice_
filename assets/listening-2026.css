@@ -1,0 +1,8 @@
+/* Official-format Listening 2026 controls. */
+.listening-collection .actions { display:flex; flex-wrap:wrap; gap:.625rem; margin-block:.55rem 1rem; }
+.listening-collection .actions>.btn { white-space:normal; text-wrap:balance; max-width:100%; }
+.listening-audio-gate { padding:1rem 1.25rem; margin-top:.5rem; border:1px dashed #739395; border-radius:10px; background:rgba(25,100,107,.055); color:inherit; font-weight:600; }
+.audio-panel .transcript {white-space:pre-wrap;line-height:1.65}
+.audio-panel .error { max-width:75ch }
+@media (max-width:650px) { .listening-collection .actions>.btn { flex:1 1 100%; } }
+@media (prefers-reduced-motion:reduce){ .listening-collection .btn{transition:none} }
