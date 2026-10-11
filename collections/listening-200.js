@@ -66,16 +66,16 @@ for(let i=0;i<50;i++){
   "I'd ask the organizers first rather than assume there's still space."
  ];
  const responseWrongs=[
-  ["At "+others[0][1]+".","I haven't been to that café in ages.","The project will be marked next week."],
-  ["That's great; everything must be going perfectly.","You should ignore the event instructions completely.","I thought the cafeteria opened after lunch."],
-  ["They've canceled every activity for the rest of the semester.","You don't need to ask anyone or follow the instructions.","It was fascinating to read about "+others[1][0].toLowerCase()+"."],
-  ["Yes, the deadline is just a suggestion; there is no need to contact anyone.","The professor's lecture on "+others[2][0].toLowerCase()+" was fascinating.","No, I don't think the venue has any windows."]
+  ["At "+others[0][1]+".","I know the registration deadline, but not where we meet.","I think the place changed, though I can't say where."],
+  ["Well, the event sounds interesting, so there can't be any problem.","You could just ignore the preparation requirement.","Did you remember to submit the event form last week?"],
+  ["That probably means the entire event is canceled for everyone.","It's fine to ignore the special-arrangement instructions.","You should only worry about the main event's starting time."],
+  ["Sure, deadlines are never enforced, so just show up.","You could wait until after the event to ask if you can join.","Maybe the building's opening hours are different on weekends."]
  ];
  const responseWhy=[
-  ["That is a different campus location, not the announced venue.","It changes to a different topic.","It offers information about an unrelated deadline."],
-  ["It ignores the speaker's concern and reverses the emotional tone.","It contradicts the need to follow event arrangements.","It changes to a different campus service."],
-  ["No universal campus closure has been announced.","This contradicts the conditional instructions for the problem.","It switches to a different event rather than addressing the difficulty."],
-  ["A stated cutoff should not be dismissed without confirmation.","An unrelated lecture does not resolve the practical question.","A comment about the building does not answer the implied request for advice."]
+  ["That is a plausible but different venue.","It discusses a cutoff rather than answering the question about where to meet.","It expresses uncertainty and never gives a usable location."],
+  ["Interest in an activity does not eliminate the expressed scheduling problem.","The requirement should not be disregarded without checking.","It asks about an administrative detail without acknowledging the immediate concern."],
+  ["The contingency does not amount to canceling the event for everyone.","The speaker should follow rather than ignore the published alternative.","Knowing the start time does not resolve the specified exception."],
+  ["There is no basis for ignoring a published cutoff.","Waiting until afterward is unlikely to resolve uncertainty about joining.","Opening hours do not establish whether late registration is accepted."]
  ];
  const responseEvidences=[
   "The question asks for the meeting location of "+title+"; the event is at "+place+".",
@@ -284,13 +284,13 @@ for(let i=0;i<50;i++){
   const firstFact=core[1];
   const mainCorrect="How researchers explain "+title.toLowerCase()+" using observations and qualified interpretations.";
   const mainWrong=[
-   "A complete personal biography of the first scholar to investigate "+title.toLowerCase()+".",
+   "The one specific detail that "+core[1].replace(/[.]$/,"").toLowerCase()+".",
    "Why every scientific interpretation of "+title.toLowerCase()+" has now been rejected.",
-   "A list of exact dates when universities first began teaching "+area.toLowerCase()+"."
+   "The isolated observation that "+info[0].replace(/[.]$/,"").toLowerCase()+"."
   ];
   const qMain=()=>question("What is the main focus of the talk?",mainCorrect,mainWrong,"Main Idea",
    "The speaker develops a process or phenomenon, illustrates evidence, and warns against overgeneralization.",
-   ["The talk is not organized as a biography.","The speaker treats the evidence as useful, not entirely discredited.","No history of course dates is presented."],i+v);
+   ["That is a supporting detail rather than the overall explanatory focus.","The speaker treats the evidence as useful, not entirely discredited.","That example is important but cannot summarize the whole discussion."],i+v);
   const qFact=()=>question("Which point does the speaker make about "+title.toLowerCase()+"?",firstFact,[
     falseClaim,
     "The same process always produces identical outcomes without regard to conditions.",
@@ -305,19 +305,19 @@ for(let i=0;i<50;i++){
   ["The speaker acknowledges uncertainty.","That assertion conflicts with the passage's qualifications.","The final discussion expressly supports further investigation."],i+v+2);
   const qMethod=()=>question("How does the lecturer make the topic more understandable?",
    "By giving a general explanation, then adding evidence and an important qualification.",[
-    "By reading a strict chronological list of university administrators.",
-    "By conducting a live interview with two unnamed students.",
-    "By giving unrelated instructions for booking a laboratory appointment."
+    "By listing historical dates without relating any observations to a mechanism.",
+    "By presenting two opposing speakers without reaching an explanation.",
+    "By giving a definition alone, with no examples or qualifications."
    ],"Method","The structure moves from a broad mechanism through supporting details to limits on interpretation.",
-   ["It is an explanation, not a list of administrators.","Only one lecturer speaks.","The text remains focused on the academic concept."],i+v+3);
+   ["The talk explains interacting conditions rather than presenting a chronology.","Only one lecturer speaks and develops a connected account.","The lecturer provides evidence and cautions beyond an initial definition."],i+v+3);
   const example=info[Math.min(v,info.length-1)];
   const qPurpose=()=>question("Why does the lecturer include the discussion that begins '"+example.slice(0,54).replace(/[,.!?]$/,"")+"…'?",
    "To develop the central explanation with a specific piece of evidence or limitation.",[
-    "To announce an unrelated examination deadline.",
-    "To admit that none of the talk's factual statements could ever be checked.",
-    "To replace the topic with a biography of the speaker."
+    "To establish an exception-free rule that the whole field must follow.",
+    "To argue that future comparisons are unnecessary once a single example is known.",
+    "To shift from scientific interpretation to the personal history of a researcher."
    ],"Purpose","The highlighted part belongs to the evidence and limitations in the lecturer's second explanation, clarifying the mechanism rather than changing subjects.",
-   ["The talk does not discuss an exam deadline.","The speaker advocates checking and comparing evidence.","No autobiographical account appears."],i+v+2);
+   ["The lecturer repeatedly emphasizes limits rather than universal rules.","The lecturer advocates comparing evidence rather than stopping investigation.","The passage remains focused on interpretation, not someone's personal life."],i+v+2);
   const qAttitude=()=>question("What attitude does the lecturer express toward the evidence?",
    "Interested in the findings, but cautious about conclusions that go beyond them.",[
     "Disappointed that the field has never produced useful observations.",
