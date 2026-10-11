@@ -165,9 +165,7 @@ for(let i=0;i<50;i++){
    ["No violators are named.","No external historical study is cited.","He clearly gives a reason and an alternative."],i+2)
   ],
   [
-   question("What important deadline do the speakers mention?",cutoff,[
-    others[0][4],others[1][4],others[2][4]
-   ],"Factual","The man says he needs to "+action+" by "+cutoff+".",
+   question("What important deadline do the speakers mention?",cutoff,[...new Set([...others.map(row=>row[4]),...campus.map(row=>row[4])].filter(value=>value!==cutoff))].slice(0,3),"Factual","The man says he needs to "+action+" by "+cutoff+".",
    ["This is a different event's deadline.","This deadline belongs to another campus activity.","The conversation does not say that cutoff."],i+2),
    question("What can be inferred about the man's view of participation difficulties?","He now recognizes that a difficulty does not necessarily rule out taking part.",[
     "He believes every issue results in the permanent cancellation of campus activities.",
