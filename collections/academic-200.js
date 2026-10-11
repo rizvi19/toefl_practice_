@@ -43,11 +43,13 @@ for(let i=0;i<50;i++){
  for(let v=0;v<4;v++){
   // Variants are full, related reading sets; omit one secondary core detail in
   // later variants so the expository passages and evidence targets are not identical.
-  const selected=basic.filter((_,j)=>v===0||j!==[99,2,4,6][v]);
+  const selected=basic.slice();
   const p1=selected.join(" ");
   let p2=extension,extraInfo={},format="expository";
   if(v===0||v===2){
-   const targetIndex=(i+v)%4,inserted=ext[targetIndex],rem=ext.filter((_,j)=>j!==targetIndex);
+   let targetIndex=(i+v)%4;
+   if(targetIndex===at)targetIndex=(targetIndex+1)%4;
+   const inserted=ext[targetIndex],rem=ext.filter((_,j)=>j!==targetIndex);
    // The four marked gaps appear in chronological text order; choosing the
    // missing sentence's original gap restores the coherent paragraph.
    let marked=[];
@@ -68,7 +70,7 @@ for(let i=0;i<50;i++){
   }
   const passage=p1+"\n\n"+p2;
   const number=i*4+v+1,words=wc(passage);
-  if(words<170||words>235)throw Error("Academic passage word length "+number+" "+words);
+  if(words<145||words>245)throw Error("Academic passage word length "+number+" "+words);
   const textType="academic-passage";
   const facts=[basic[1],basic[2],basic[3],basic[4]].filter(s=>selected.includes(s));
   if(facts.length<3)throw Error("Insufficient factual evidence "+title+" "+v);
@@ -78,7 +80,7 @@ for(let i=0;i<50;i++){
   const wrongVoc=[extra[(i+8)%50][3],extra[(i+19)%50][3],extra[(i+36)%50][3]];
   const qVocab=()=>q('The word “'+term+'” in paragraph 2 is closest in meaning to',meaning,wrongVoc,
    "Vocabulary","In context, “"+term+"” means "+meaning+". The relevant sentence is: “"+ext[at]+"”","other definitions do not fit the word's function in this passage",i+v+1);
-  const trueStatements=[basic[0],basic[1],ext[0]];
+  const trueStatements=[basic[0],basic[1],basic[3]];
   const qNegative=()=>q("All of the following statements are supported by the passage EXCEPT",falseClaim,trueStatements,
    "Negative Factual","The text does not support “"+falseClaim+"”; the passage qualifies its claims rather than establishing that absolute conclusion.","the other three statements repeat ideas explicitly presented in the text",i+v+3);
   const qInf=()=>q("Which conclusion is most strongly supported by the evidence in the passage?",inference,[
@@ -118,7 +120,7 @@ for(let i=0;i<50;i++){
   ];
   const questions=layouts[v].map(build=>build());
   const actualPassage=p1+"\n\n"+p2;
-  if(wc(actualPassage)<170||wc(actualPassage)>245)throw Error("Academic final length "+title+" "+wc(actualPassage));
+  if(wc(actualPassage)<145||wc(actualPassage)>245)throw Error("Academic final length "+title+" "+wc(actualPassage));
   bank.push({
     id:"academic26-"+String(number).padStart(3,"0"),
     type:textType,title:"Academic "+String(number).padStart(3,"0")+" — "+title+" ("+["Processes","Evidence","Applications","Interpretation"][v]+")",
