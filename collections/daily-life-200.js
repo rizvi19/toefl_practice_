@@ -39,7 +39,7 @@ for(let i=0;i<events.length;i++){
   const passage=texts[v],wc=wordCount(passage);
   if(wc<15||wc>150)throw Error("Daily text length "+title+" v"+v+" words "+wc);
   // Distractors are independent campus requirements/deadlines, never borrowed from this text.
-  const other=(field,steps)=>steps.map(d=>events[(i+d)%events.length][field]).filter(x=>x!==events[i][field]).slice(0,3);
+  const other=(field,steps)=>[...new Set([...steps,...Array.from({length:49},(_,n)=>n+1)].map(d=>events[(i+d)%events.length][field]).filter(x=>x!==events[i][field]))].slice(0,3);
   const wrongActions=other(3,[9,19,31,47,3]),wrongRequirements=other(5,[11,23,39,6,7]),wrongCutoffs=other(4,[7,21,36,44,13]);
   const wrongMeanings=[events[(i+13)%50][10],events[(i+29)%50][10],events[(i+41)%50][10]];
   const q={
