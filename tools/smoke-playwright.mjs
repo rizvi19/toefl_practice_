@@ -69,6 +69,12 @@ await rows.nth(2).getByRole("button",{name:/Practice/}).click();
 assert.equal(await page.locator(".questions fieldset").count(),5);
 const text=await page.locator(".reading-passage").innerText();
 assert(text.includes("[A]")&&text.includes("[B]")&&text.includes("[C]")&&text.includes("[D]"));
+const insertNumber=academic.questions.findIndex(q=>q.questionType==="Insert Text");
+assert(insertNumber>=0);
+const position=String.fromCharCode(65+academic.questions[insertNumber].answer);
+await page.getByRole("button",{name:"Insert at position "+position}).click();
+assert.equal(await page.locator(".reading-inserted-preview").count(),1,"Insertion preview visible in passage");
+assert.equal(await page.locator(".questions fieldset").nth(insertNumber).locator('input[type="radio"][value="'+academic.questions[insertNumber].answer+'"]').isChecked(),true,"Passage marker and MCQ agree");
 for(let j=0;j<academic.questions.length;j++)
  await page.locator(".questions fieldset").nth(j).locator('input[type="radio"][value="'+academic.questions[j].answer+'"]').check({force:true});
 await page.getByRole("button",{name:/Check answers/i}).click();
