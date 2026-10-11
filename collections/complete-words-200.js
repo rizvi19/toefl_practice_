@@ -143,7 +143,7 @@ for(let t=0;t<topics.length;t++){
    if(extended.length===197)break;
    let sentenceIDs=[0,...sentenceLists[variant]];
    let paragraph=sentenceIDs.map(i=>sentences[i]).join(" ");
-   if(wordCount(paragraph)<70){
+   if(wordCount(paragraph)<76){
      const remaining=[0,1,2,3,4,5,6,7].find(i=>!sentenceIDs.includes(i));
      if(remaining===undefined)throw Error("Cannot extend short passage "+title);
      sentenceIDs.splice(sentenceIDs.length-1,0,remaining);
