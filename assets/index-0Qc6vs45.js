@@ -162,6 +162,20 @@ function ir(){return new Promise((o,p)=>{const S=indexedDB.open("toefl-studio-au
   s.jsx("button",{className:"btn primary",onClick:()=>randomListening("conversation"),children:"Random · Conversation"}),
   s.jsx("button",{className:"btn primary",onClick:()=>randomListening("announcement"),children:"Random · Announcement"}),
   s.jsx("button",{className:"btn primary",onClick:()=>randomListening("academic-talk"),children:"Random · Academic Talk"})
+ ]}),
+ s.jsxs("details",{className:"listening-strategies",children:[
+  s.jsx("summary",{children:"Chapter 3 · See Listening strategies and question types"}),
+  s.jsx("p",{children:"Choose a Response: identify whether the spoken prompt is a request, offer, question, or comment. Infer speaker intent and choose a natural, socially appropriate reply."}),
+  s.jsx("p",{children:"Conversations: identify who is speaking, the setting, the problem, and the decision. Announcements: listen for purpose, dates, requirements, warnings and transitions. Academic Talks: note topic, structure, key examples, contrasts and speaker attitude."}),
+  s.jsx("ul",{children:[
+   s.jsx("li",{children:"Main Idea — distinguish the main message from a minor detail; expect paraphrasing."}),
+   s.jsx("li",{children:"Factual — locate explicitly stated details; watch for changed names, times and conditions."}),
+   s.jsx("li",{children:"Inference — combine clues and tone but reject conclusions that go beyond the evidence."}),
+   s.jsx("li",{children:"Purpose — ask why the speaker mentions a detail, example or change of subject."}),
+   s.jsx("li",{children:"Method — notice sequencing, examples, analogies, comparisons and signal phrases."}),
+   s.jsx("li",{children:"Attitude — distinguish enthusiasm, frustration and caution through delivery and evaluative language."})
+  ]}),
+  s.jsx("p",{children:"In one-play rehearsal, take short notes, answer confidently, and move forward. In study mode, replay and inspect each explanation to identify the missed cue."})
  ]})
  ]}),
  s.jsxs("section",{className:"panel extra-collection listening-collection",children:[
