@@ -1,0 +1,3 @@
+Extract this ZIP. Upload ALL its contents to the root of a GitHub repository. In Settings > Pages choose Deploy from a branch, main / (root). Keep assets/, audio/ and docs/ intact. Do not upload the ZIP itself. No Node installation is needed for this prebuilt website.
+
+This is independent practice, not an official ETS simulator. Writing and speaking use self-review. Audio recording requires HTTPS or localhost.

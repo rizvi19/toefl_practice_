@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "name": "My additional practice",
+  "items": [
+    {
+      "id": "custom-words-01",
+      "type": "complete-words",
+      "title": "Learning through retrieval",
+      "difficulty": "Mixed",
+      "pack": "Campus & discovery",
+      "pieces": [
+        "Students often review a chapter by reading it several times, but another method can make learning more durable. When ",
+        {
+          "pre": "learn",
+          "answer": "ers",
+          "explanation": "Context and spelling require “learners”."
+        },
+        " ",
+        {
+          "pre": "at",
+          "answer": "tempt",
+          "explanation": "Context and spelling require “attempt”."
+        },
+        " to recall an idea ",
+        {
+          "pre": "with",
+          "answer": "out",
+          "explanation": "Context and spelling require “without”."
+        },
+        " looking at their notes, they ",
+        {
+          "pre": "stren",
+          "answer": "gthen",
+          "explanation": "Context and spelling require “strengthen”."
+        },
+        " the connections ",
+        {
+          "pre": "bet",
+          "answer": "ween",
+          "explanation": "Context and spelling require “between”."
+        },
+        " related concepts. This ",
+        {
+          "pre": "proc",
+          "answer": "ess",
+          "explanation": "Context and spelling require “process”."
+        },
+        " can feel ",
+        {
+          "pre": "diff",
+          "answer": "icult",
+          "explanation": "Context and spelling require “difficult”."
+        },
+        ", especially when information is still ",
+        {
+          "pre": "unfam",
+          "answer": "iliar",
+          "explanation": "Context and spelling require “unfamiliar”."
+        },
+        ". However, the effort helps students ",
+        {
+          "pre": "identi",
+          "answer": "fy",
+          "explanation": "Context and spelling require “identify”."
+        },
+        " what they do not yet ",
+        {
+          "pre": "under",
+          "answer": "stand",
+          "explanation": "Context and spelling require “understand”."
+        },
+        ". A short quiz can therefore serve as a learning activity rather than merely a measure of performance. Feedback remains important because an incorrect memory should be corrected before it becomes a habit."
+      ],
+      "seconds": 180
+    },
+    {
+      "id": "custom-response-01",
+      "type": "choose-response",
+      "title": "Campus exchange 1",
+      "difficulty": "Mixed",
+      "pack": "Campus & discovery",
+      "script": "Could you keep an eye on my bag while I refill my water bottle?",
+      "seconds": 40,
+      "questions": [
+        {
+          "stem": "Choose the best response.",
+          "options": [
+            "Sure, I’ll be right here.",
+            "I bought the bag last year.",
+            "The bottle is blue.",
+            "I have already read that book."
+          ],
+          "answer": 0,
+          "explanation": "“Keep an eye on” means watch something temporarily."
+        }
+      ]
+    },
+    {
+      "id": "custom-email-01",
+      "type": "email",
+      "title": "A problem with a shared workspace",
+      "difficulty": "Mixed",
+      "pack": "Campus & discovery",
+      "seconds": 420,
+      "prompt": "You use a shared study room in your residence hall. Recently, the room has been left untidy and some students have had difficulty finding a seat. Write an email to the residence coordinator, Ms. Patel. Explain the problem, describe how it affects students, and suggest a practical solution. You have 7 minutes for this practice task.",
+      "checklist": [
+        "I explain both the untidiness and seating problem.",
+        "I describe a specific effect on students.",
+        "I propose a practical solution and make a polite request.",
+        "My greeting, tone and closing suit the coordinator.",
+        "My ideas are clear, connected and grammatically controlled."
+      ],
+      "sample": "Dear Ms. Patel,\nI am writing about the shared study room on the second floor. Over the past week, food wrappers and unused books have often been left on the tables. These items make it difficult to tell which seats are available. Yesterday, several students returned to their rooms without finding a place to study.\nCould we introduce a simple rule asking students to clear their tables before leaving? A notice at the entrance and a small bin beside the door might help. It could also be useful to remind residents that belongings should not be left to reserve a seat for a long period.\nThank you for considering these suggestions.\nBest regards,\nAlex"
+    },
+    {
+      "id": "custom-repeat-01",
+      "type": "repeat",
+      "title": "Campus tour · sentence 1",
+      "difficulty": "Mixed",
+      "pack": "Campus & discovery",
+      "prompt": "You are listening to information during a campus tour. Listen to the sentence, then repeat it as accurately and clearly as you can.",
+      "script": "The help desk is beside the main entrance.",
+      "responseSeconds": 8,
+      "seconds": 30,
+      "checklist": [
+        "I repeat all the words in the original order.",
+        "My pronunciation is understandable.",
+        "I keep a natural rhythm and place pauses at meaningful boundaries."
+      ]
+    }
+  ]
+}
