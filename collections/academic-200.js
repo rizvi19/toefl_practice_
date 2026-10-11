@@ -107,7 +107,7 @@ for(let i=0;i<50;i++){
     // The referent is explicit in the preceding exposition but not in the question.
     p2+=referenceLine;
   }
-  const qSelect=()=>q("Identify the labeled sentence in paragraph 2 that discusses the term “"+term+"” in its academic context.",
+  const qSelect=()=>q("Identify the labeled sentence in paragraph 2 that communicates the idea of “"+meaning+"” in the context of "+title.toLowerCase()+".",
     "Sentence "+labels[extraInfo.sentenceAnswer],labels.filter((_,j)=>j!==extraInfo.sentenceAnswer).map(x=>"Sentence "+x),
     "Select the Sentence","Sentence "+labels[extraInfo.sentenceAnswer]+" is: “"+extraInfo.sentenceText+"” Its wording and context establish how “"+term+"” is being used.","the other three labeled sentences address other details in the paragraph",i+v+2);
   const qInsert=()=>q('Where would this sentence best fit in paragraph 2? “'+extraInfo.inserted+'”',
