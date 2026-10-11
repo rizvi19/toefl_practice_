@@ -45,7 +45,7 @@ The answer review gives a correct answer, objective question-type label, passage
 - **Random · Complete the Words**
 - **Random · Daily Life**
 - **Random · Academic Passage**
-- **Reading trio · 18 questions**: Complete the Words → Daily Life → Academic Passage. Actual total can vary by one question because Daily Life texts may contain two or three questions; the interface label is a nominal estimate.
+- **Reading trio · 17–18 questions**: Complete the Words → Daily Life → Academic Passage. Actual total can vary by one question because Daily Life texts may contain two or three questions; the interface label is a nominal estimate.
 - **Reading rehearsal · 50 questions**: 2 Complete the Words + a 3-question Daily Life + a 2-question Daily Life + 2 Academic (35 answers), followed by 1 Complete the Words + 1 Academic (15 answers). This is the intended chronological task sequence across two blocks.
 
 **Important:** The longer rehearsal is **not a true ETS multistage adaptive test**. It does not have the official 21/9-minute module clocks, module-level review boundaries, adaptive branching, or official scoring. Study mode uses the existing per-activity timer and retains its feedback, autosaving, and navigation features. These distinctions are disclosed in the UI.
