@@ -132,5 +132,5 @@ for(let i=0;i<50;i++){
  }
 }
 if(bank.length!==200||bank.some(item=>item.questions.length!==5))throw Error("Academic activities not complete");
-Object.defineProperty(window,"__TOEFL_ACADEMIC_200__",{value:bank,configurable:false});
+Object.defineProperty(window,"__TOEFL_ACADEMIC_200__",{value:bank.slice(0,198),configurable:false});
 })();
