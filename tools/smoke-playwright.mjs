@@ -82,6 +82,7 @@ await page.getByRole("button",{name:"Random · Daily Life"}).click();
 const t=await page.evaluate(()=>JSON.parse(localStorage.getItem("toefl-studio-v1")).session.items[0].type);
 assert.equal(t,"daily-life");
 await page.getByRole("button",{name:/Finish session/i}).click();
+await page.getByRole("dialog",{name:"Finish this session?"}).getByRole("button",{name:"Continue"}).click();
 
 // Optional combined Reading sequence of 35 + 15 graded answers (non-adaptive).
 await enter();
@@ -97,6 +98,7 @@ assert.equal(session.items.reduce((n,x)=>n+questions(x),0),50);
 assert.equal(session.items.slice(0,6).reduce((n,x)=>n+questions(x),0),35);
 assert.equal(session.items.slice(6).reduce((n,x)=>n+questions(x),0),15);
 await page.getByRole("button",{name:/Finish session/i}).click();
+await page.getByRole("dialog",{name:"Finish this session?"}).getByRole("button",{name:"Continue"}).click();
 
 // Original full form is separate and keeps all 60 original activity screens.
 await enter();
