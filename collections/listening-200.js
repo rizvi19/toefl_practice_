@@ -6,11 +6,11 @@
  */
 (function(){
 "use strict";
-const cases=window.__TOEFL_LISTENING_CAMPUS_CASES__,campus=window.__TOEFL_DAILY_SCENARIOS__;
+const cases=window.__TOEFL_LISTENING_CAMPUS_CASES__,campus=window.__TOEFL_DAILY_SCENARIOS__,rationales=window.__TOEFL_LISTENING_RATIONALES__;
 const topics=window.__TOEFL_ACADEMIC_TOPICS__;
 const expansions=[...(window.__TOEFL_ACADEMIC_EXPANSIONS_FIRST__||[]),...(window.__TOEFL_ACADEMIC_EXPANSIONS_SECOND__||[])];
 const guidance=window.__TOEFL_ACADEMIC_GUIDANCE__;
-if([cases?.length,campus?.length,topics?.length,expansions.length,guidance?.length].some(n=>n!==50))throw Error("Listening dossiers must contain 50 entries each");
+if([cases?.length,campus?.length,rationales?.length,topics?.length,expansions.length,guidance?.length].some(n=>n!==50))throw Error("Listening dossiers must contain 50 entries each");
 const count=s=>(s.match(/\b[A-Za-z]+(?:['’-][A-Za-z]+)*\b/g)||[]).length;
 const sentence=s=>(s.match(/[^.!?]+[.!?](?:\s|$)/g)||[]).map(x=>x.trim()).filter(Boolean);
 const capitalize=s=>s[0].toUpperCase()+s.slice(1);
@@ -102,7 +102,7 @@ for(let i=0;i<50;i++){
   "Woman: Why so many rules for "+title.toLowerCase()+"?\n"+
   "Man: The notice says to "+requirement+".\n"+
   "Woman: But isn't the aim to "+benefit+"?\n"+
-  "Man: Sure, yet there's a practical reason. "+twist+"\n"+
+  "Man: Sure. "+rationales[i]+"\n"+
   "Woman: Oh, that explains the rule.\n"+
   "Man: And if "+exception+", you can "+alternative+".",
   "Man: Are you going to "+title.toLowerCase()+"?\n"+
@@ -155,7 +155,7 @@ for(let i=0;i<50;i++){
     "To announce that the activity has been canceled.",
     "To persuade the woman to ignore the requirement.",
     "To change the subject to a different university."
-   ],"Purpose","He responds directly to the woman's complaint by explaining the rationale: "+twist,
+   ],"Purpose","He responds directly to the woman's complaint by explaining the rationale: "+rationales[i],
    ["No cancellation is announced.","He defends rather than dismisses the instruction.","They continue discussing the same activity."],i+1),
    question("How does the man explain the requirement?","By identifying its practical purpose and then discussing an exception.",[
     "By listing names of people who broke the rules.",
