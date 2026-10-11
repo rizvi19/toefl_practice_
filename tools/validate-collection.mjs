@@ -116,7 +116,7 @@ const supported=[
 ];
 for(const p of supported)assert(fs.existsSync(root+"/"+p),p+" must exist");
 assert(html.includes('./collections/academic-200.js'));
-assert(bundle.includes("...CTW,...DAILY,...ACADEMIC,...o.custom"));
+assert(bundle.includes("...CTW,...DAILY,...ACADEMIC,...LISTENING_ALL,...o.custom"));
 assert(bundle.includes('const nr="toefl-studio-v1"'));
 assert(bundle.includes('onClick:()=>pe(xi.items,"exam"'));
 assert(bundle.includes("Random · Academic Passage"));
