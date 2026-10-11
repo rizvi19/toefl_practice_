@@ -20,6 +20,7 @@ page.on("response",r=>{if(r.status()>=400)failed.push(r.status()+" "+r.url())});
 // Deterministic voices cover missing-recording fallback. The Kokoro-specific
 // test separately verifies actual native MP3 playback and completion.
 await page.addInitScript(()=>{
+ const data=JSON.parse(localStorage.getItem("toefl-studio-v1")||"null");if(data){data.settings={...data.settings,audioMode:"tts",kokoroBrowserVersion:1};localStorage.setItem("toefl-studio-v1",JSON.stringify(data))}else localStorage.setItem("toefl-studio-v1",JSON.stringify({history:[],custom:[],session:null,settings:{voice:"",rate:1,audioMode:"tts",kokoroBrowserVersion:1,contrast:false}}));
  window.__speechHistory=[];
  class MockUtterance{constructor(text){this.text=text}}
  Object.defineProperty(window,"SpeechSynthesisUtterance",{value:MockUtterance,configurable:true});

@@ -114,7 +114,7 @@ def serve(engine,allow_generation):
             except Exception as exc:
                 print('Generation failed:',exc,flush=True);self.send_error(500,'Generation failed; use browser narration')
     print('Kokoro helper: http://127.0.0.1:8766',flush=True)
-    print('Open https://rizvi19.github.io/toefl_practice_/ and choose Settings > Kokoro (local, on demand)',flush=True)
+    print('Open https://rizvi19.github.io/toefl_practice_/ and choose Settings > Kokoro (local helper)',flush=True)
     print('Generation scope: '+('selected activities on demand' if allow_generation else 'pilot only; other activities use existing audio/browser speech'),flush=True)
     ThreadingHTTPServer(('127.0.0.1',8766),Handler).serve_forever()
 

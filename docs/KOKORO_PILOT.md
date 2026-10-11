@@ -1,12 +1,18 @@
 # Kokoro Listening integration
 
-The website offers Settings → Audio source → Kokoro (local, on demand). The helper runs on each visitor's own PC, on 127.0.0.1:8766. It uses an existing Kokoro Python environment, CPU PyTorch, local model, af_heart/am_michael voices and FFmpeg. It installs or downloads nothing. Start Launch-Kokoro.cmd and leave the window open. Setup and a small portable helper download are linked from Settings (docs/kokoro.html).
+## Directly from GitHub Pages
 
-Original recordings always have priority in recorded/Kokoro modes. The shared MP3 pilot is also available without the helper. For other activities, Kokoro mode posts only the stable activity ID and SHA-256 of its script; the helper uses the actual extracted activity text and refuses stale scripts. Generation starts only when Play is pressed. Missing helper or generation failure uses browser speech. Explicit Browser text-to-speech continues to use browser narration. The browser may require the user to grant local network access to the public site.
+Open https://rizvi19.github.io/toefl_practice_/ and select Settings → Audio source → Kokoro (in this browser). Press Play audio on a Listening activity. No Python, helper, account or paid service is required. Original recordings and the single shared MP3 still play first; missing recordings are generated on demand in a CPU browser worker.
 
-Examination playback stays at normal speed, once only; native audio completion unlocks questions. Transcripts remain restricted. Scores, progress, original full form, 800 Listening activities and original recordings are retained.
+First use downloads approximately 118 MB: one 92,361,116-byte q8 ONNX model, the required CPU WASM runtime, browser JavaScript and American voice files as needed. No alternative checkpoints, GPU libraries or datasets are downloaded. Model/voices are cached by the browser; clearing site data or browser eviction may require downloading them again. Once cached, generation can work offline while the website is already loaded; initial website navigation still requires internet.
 
-## One shared pilot
+Audio uses af_heart for narration and Woman, and am_michael for Man. Conversation labels are removed and turns have natural pauses. Long scripts are split into sentences so the complete text is generated. MP3 is mono 24 kHz, 48 kbps, approximately 360 KB/minute. Only played activities are generated, with a separate 20 MB browser MP3 cache that removes older generated recordings. Existing progress, scores and microphone recordings use their original storage.
+
+Old recorded/local-helper preferences migrate to browser Kokoro once; explicit Browser text-to-speech preferences are preserved. If browser generation fails, the player reports the fallback and uses browser speech. The initial model setup and generation time are excluded from a timed activity's countdown. Actual audio playback follows the existing timing, one-play exam behavior, native audio-completion gate and transcript restrictions.
+
+The optional local Python helper remains available as Kokoro (local helper). Its setup is in docs/kokoro.html. It reuses the existing installation and downloads nothing.
+
+## Shared pilot and local helper
 
 conversation26-001: Campus conversation 001 — Restoring the campus greenhouse · Details.
 Woman af_heart / Man am_michael. 35.14 seconds, 211,485 bytes, MP3 mono 24 kHz 48 kbps. Generation and encoding took 10.70 seconds plus 5.51 seconds initial model loading. The script comes from existing collection data; labels are stripped only for narration. There is only one shared generated MP3. The rest generate individually on users' PCs as needed.
@@ -25,4 +31,4 @@ Selected CLI generation is still possible with --id conversation26-002 (repeat -
 
 ## Tests
 
-Data validators cover 60 original screens, 600 Reading activities, 800 Listening activities and 1,800 Listening questions. Browser checks cover persisted Settings, helper use/fallback, real MP3 playback, 2/2 scoring, no exam replay/transcript, completion gating, 32+15 rehearsal structure and original practice modes. The model, environment and two existing American voices are reused. No paid API, dependency installation or model download is needed.
+Data validators cover 60 original screens, 600 Reading activities, 800 Listening activities and 1,800 Listening questions. Browser checks cover persisted Settings, helper use/fallback, real MP3 playback, 2/2 scoring, no exam replay/transcript, completion gating, 32+15 rehearsal structure and original practice modes. The model, environment and two existing American voices are reused. The optional Python helper requires no new installation. Browser mode uses the separate approved quantized model download.

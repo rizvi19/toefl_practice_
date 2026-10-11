@@ -9,6 +9,6 @@ if not defined FFMPEG_EXE if exist "%LOCALAPPDATA%\Programs\Stremio\ffmpeg.exe" 
 if not defined FFMPEG_EXE for %%F in (ffmpeg.exe) do if not "%%~$PATH:F"=="" set "FFMPEG_EXE=%%~$PATH:F"
 if not defined FFMPEG_EXE set /p "FFMPEG_EXE=Path to your existing ffmpeg.exe: "
 echo Keep this window running. Open https://rizvi19.github.io/toefl_practice_/
-echo Choose Settings then Kokoro (local, on demand), and Check connection.
+echo Choose Settings then Kokoro (local helper), and Check connection.
 "%KOKORO_PYTHON%" "tools\kokoro-local.py" --serve --allow-generation --kokoro-home "%KOKORO_HOME%" --ffmpeg "%FFMPEG_EXE%"
 pause

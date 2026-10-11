@@ -3,7 +3,8 @@
 <style>
 :root{color-scheme:light;font:17px/1.65 system-ui,sans-serif;color:#173934;background:#f4f7f2}body{margin:0}main{max-width:780px;margin:48px auto;padding:32px;background:white;border:1px solid #dbe5db;border-radius:20px}h1{font-size:2.1rem;line-height:1.2}h2{font-size:1.25rem;margin-top:2rem}a{color:#16685e}code,pre{font-size:14px;background:#f1f5f1}pre{padding:16px;overflow:auto;border-radius:8px}.button{display:inline-block;background:#176b5e;color:white;text-decoration:none;padding:12px 20px;border-radius:10px;font-weight:650}.eyebrow{color:#176b5e;font-weight:700;letter-spacing:.08em;font-size:12px}.note{background:#edf5f0;padding:16px;border-radius:12px}li{margin-bottom:12px}@media(max-width:850px){main{margin:16px;padding:24px}}
 </style></head><body><main>
-<a href="https://rizvi19.github.io/toefl_practice_/">← Back to Practice Studio</a><p class="eyebrow">YOUR PC · YOUR VOICES</p><h1>Use your local Kokoro for Listening.</h1>
+<a href="https://rizvi19.github.io/toefl_practice_/">← Back to Practice Studio</a><p class="eyebrow">YOUR PC · YOUR VOICES</p><h1>Use Kokoro for Listening.</h1>
+<p class="note"><strong>For the easiest setup:</strong> open Practice Studio → Settings → Audio source → <strong>Kokoro (in this browser)</strong>, then press Play audio. Your browser downloads about 118 MB once and creates only the audio you practice. No helper is required. The steps below are the optional way to reuse an existing Python installation.</p>
 <p>Practice Studio can create an activity’s audio when you press Play. Run the small helper on the same PC as your browser. Your existing Kokoro installation supplies the voices; the website keeps your scores and progress as usual.</p>
 <p><a class="button" href="Kokoro-Local-Helper.zip" download>Download local helper</a></p>
 <p class="note">This download contains the helper and activity scripts only. It includes no Python, PyTorch, models or installers. It never generates the full activity bank automatically.</p>
@@ -11,7 +12,7 @@
 <ol>
 <li>Extract the ZIP to a small folder on a drive with room for a 20 MB audio cache. Keep the files together.</li>
 <li>Double-click <strong>Launch-Kokoro.cmd</strong>. Supply your existing Kokoro environment’s <code>python.exe</code>, model folder and <code>ffmpeg.exe</code> if asked. The model folder must contain <code>config.json</code>, <code>kokoro-v1_0.pth</code> and <code>voices/af_heart.pt</code> plus <code>voices/am_michael.pt</code>. A LocalTTS folder containing <code>models/kokoro</code> also works.</li>
-<li>Keep the helper window running. In <a href="https://rizvi19.github.io/toefl_practice_/">Practice Studio</a>, open <strong>Settings → Audio source → Kokoro (local, on demand)</strong>, then <strong>Check connection</strong>.</li>
+<li>Keep the helper window running. In <a href="https://rizvi19.github.io/toefl_practice_/">Practice Studio</a>, open <strong>Settings → Audio source → Kokoro (local helper)</strong>, then <strong>Check connection</strong>.</li>
 <li>If your browser asks for local network access, allow this site to connect to your helper. See <a href="https://developer.chrome.com/blog/local-network-access">Chrome’s explanation</a>. No browser security settings need to be disabled.</li>
 <li>Choose a Listening activity and press <strong>Play audio</strong>. The first missing recording takes a little time to generate; cached recordings play directly.</li>
 </ol>

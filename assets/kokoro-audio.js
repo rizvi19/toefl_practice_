@@ -13,12 +13,21 @@ async function manifest(){
   return fetch(manifestURL,{cache:'no-store',signal:AbortSignal.timeout(5000)})
     .then(r=>r.ok?r.json():{recordings:{}}).catch(()=>({recordings:{}}));
 }
-export async function resolveListeningAudio(item,settings={}){
+export async function resolveListeningAudio(item,settings={},onProgress=()=>{}){
   if(item.audio)return {url:new URL(item.audio,document.baseURI).href,label:'Recorded narration'};
   const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(item.script)))).map(x=>x.toString(16).padStart(2,'0')).join('');
   const entry=(await manifest()).recordings?.[item.id];
   if(entry&&/^audio\/generated\/[A-Za-z0-9_-]+\.mp3$/.test(entry.path)){
     if(digest===entry.script_sha256)return {url:new URL(entry.path,document.baseURI).href,label:'Kokoro American English'};
+  }
+  if(settings.audioMode==='kokoro-browser'){
+    try{
+      const {browserKokoroAudio}=await import('./browser-kokoro.js?v=1');
+      return await browserKokoroAudio(item,digest,onProgress);
+    }catch(error){
+      console.warn('Browser Kokoro:',error);
+      return {fallback:true,label:'Kokoro could not load · using browser English voice'};
+    }
   }
   if(settings.audioMode==='kokoro'){
     try{

@@ -6,6 +6,7 @@ const browser=await chromium.launch({channel:'msedge',headless:true});
 const page=await browser.newPage();page.setDefaultTimeout(15000);
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await page.addInitScript(()=>{
+ if(!localStorage.getItem("toefl-studio-v1"))localStorage.setItem("toefl-studio-v1",JSON.stringify({history:[],custom:[],session:null,settings:{voice:"",rate:1,audioMode:"recorded",kokoroBrowserVersion:1,contrast:false}}));
  window.__speechHistory=[];
  class Utterance{constructor(text){this.text=text}}
  Object.defineProperty(window,'SpeechSynthesisUtterance',{value:Utterance,configurable:true});
