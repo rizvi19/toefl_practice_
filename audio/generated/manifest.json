@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "recordings": {
+    "conversation26-001": {
+      "path": "audio/generated/conversation26-001.mp3",
+      "script_sha256": "fbbe0bdb464a61bc633723e370dc2044e6750404c658cbea428e9ae04d4d1c0f",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 35.14,
+      "bytes": 211485,
+      "generation_seconds": 10.696796000003815,
+      "load_seconds": 5.506638799997745,
+      "created_at": 1791750922.7451696,
+      "format": "MP3 mono 24 kHz 48 kbps"
+    }
+  }
+}

@@ -17,8 +17,8 @@ page.setDefaultTimeout(20000);
 const errors=[],failed=[];
 page.on("pageerror",e=>errors.push(e.message));
 page.on("response",r=>{if(r.status()>=400)failed.push(r.status()+" "+r.url())});
-// Deterministic stand-in for native English voices. It models the browser
-// speech API without falsely claiming that generated MP3 assets exist.
+// Deterministic voices cover missing-recording fallback. The Kokoro-specific
+// test separately verifies actual native MP3 playback and completion.
 await page.addInitScript(()=>{
  window.__speechHistory=[];
  class MockUtterance{constructor(text){this.text=text}}
@@ -57,8 +57,11 @@ for(const [type,label] of categories){
  await page.getByRole("button",{name:label,exact:true}).click();
  const rows=page.locator(".activity-row");
  assert.equal(await rows.count(),200,type+" browse must show 200");
- const selected=bank[type][0];
- await rows.nth(type==="choose-response"?15:4).getByRole("button",{name:/Practice/}).click();
+ const manifestPath=root+"/audio/generated/manifest.json";
+ const recordings=fs.existsSync(manifestPath)?JSON.parse(fs.readFileSync(manifestPath,"utf8")).recordings:{};
+ const fallbackIndex=bank[type].findIndex(item=>!recordings[item.id]);
+ const selected=bank[type][fallbackIndex];
+ await rows.nth((type==="choose-response"?15:4)+fallbackIndex).getByRole("button",{name:/Practice/}).click();
  const session=await page.evaluate(()=>JSON.parse(localStorage.getItem("toefl-studio-v1")).session);
  assert.equal(session.items[0].type,type);
  assert.equal(session.items[0].questions.length,selected.questions.length);
