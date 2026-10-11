@@ -11,7 +11,8 @@ for(let t=0;t<topicData.length;t++){
  if(sentences.length!==8)throw Error("Need 8 sentences: "+title);
  for(let variant=0;variant<4;variant++){
   const difficulty=["Easy","Medium","Hard","Mixed"][(t+variant)%4];
-  const paragraph=variants[variant].map(n=>sentences[n]).join(" ");
+  const openers=["An introductory course might explore "+title.toLowerCase()+" by connecting evidence with everyday examples.","Researchers studying "+title.toLowerCase()+" often compare several explanations before reaching conclusions.","A seminar discussion of "+title.toLowerCase()+" can reveal connections across different fields.","Understanding "+title.toLowerCase()+" involves interpreting observations rather than memorizing isolated facts."];
+  const paragraph=[openers[variant],...variants[variant].map(n=>sentences[n])].join(" ");
   const re=/\b[A-Za-z]{5,}\b/g;
   const words=[...paragraph.matchAll(re)].map(x=>({word:x[0],offset:x.index}))
     .filter(x=>x.offset>paragraph.indexOf(".")+1 && !skip.has(x.word.toLowerCase()) && (difficulty==="Hard"?x.word.length>=7:x.word.length>=5));
