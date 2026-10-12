@@ -1,0 +1,6 @@
+/* Custom practice countdown: compact, keyboard-accessible library control */
+.library-options .custom-timer-control{display:flex;flex-direction:column;gap:5px;min-width:170px;font-weight:600}
+.library-options .custom-timer-control span{font-size:13px}
+.library-options .custom-timer-control input{width:100%;max-width:190px;min-width:0}
+.library-options .custom-timer-control input:disabled{opacity:.55}
+@media(max-width:640px){.library-options .custom-timer-control{width:100%}.library-options .custom-timer-control input{max-width:100%}}
