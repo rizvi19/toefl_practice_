@@ -54,7 +54,7 @@ try{
   // Bad durations are rejected rather than accidentally starting a default clock.
   await custom().fill("0.2");
   await page.getByRole("button",{name:"Random · Conversation"}).click();
-  assert.match(await page.getByRole("alert").first().innerText(),/between 0.5 and 240 minutes/);
+  assert.match(await page.getByRole("status").first().innerText(),/between 0.5 and 240 minutes/);
   assert.equal((await page.evaluate(()=>JSON.parse(localStorage.getItem("toefl-studio-v1")).session)),null);
   await custom().fill("3");
   await page.getByRole("button",{name:"Listening full rehearsal · 47 questions"}).click();
