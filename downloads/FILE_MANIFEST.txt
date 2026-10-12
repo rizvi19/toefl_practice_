@@ -1,1 +1,1 @@
-TOEFL_Studio_Pages_Reading600_Listening800.zip 21261289 bytes\nSHA256SUMS.txt 229 bytes\nTOEFL_Studio_Editable_Reading600_Listening800.zip 21291837 bytes\nFILE_MANIFEST.txt 0 bytes\n
+TOEFL_Studio_Pages_Reading600_Listening800.zip 21627504 bytes\nSHA256SUMS.txt 229 bytes\nTOEFL_Studio_Editable_Reading600_Listening800.zip 22345914 bytes\nFILE_MANIFEST.txt 0 bytes\n
