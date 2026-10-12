@@ -4,7 +4,7 @@ import path from 'node:path';
 import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
 export function listeningCatalog(root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..')) {
-  const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),window={};
+  const html=fs.readFileSync(path.join(root,'library.html'),'utf8'),window={};
   for(const match of html.matchAll(/<script src="\.\/(collections\/[^"<>]+)"/g))
     vm.runInNewContext(fs.readFileSync(path.join(root,match[1]),'utf8'),{window},{timeout:30000});
   const src=fs.readFileSync(path.join(root,'assets/index-0Qc6vs45.js'),'utf8');

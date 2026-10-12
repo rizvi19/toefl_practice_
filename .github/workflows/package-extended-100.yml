@@ -1,9 +1,12 @@
-name: Validate and package TOEFL 2026 Reading 600 + Listening 800
+name: Validate and package TOEFL 2026 section tests and practice library
 on:
   push:
     branches: [main]
     paths:
       - 'index.html'
+      - 'library.html'
+      - 'exam/**'
+      - 'tests/**'
       - 'assets/**'
       - 'audio/**'
       - 'docs/**'
@@ -30,6 +33,11 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+      - name: Verify section bank and adaptive engine
+        run: |
+          node tools/build-exam-bank.mjs
+          git diff --exit-code -- exam/bank.json
+          node --test tests/section-core.test.mjs
       - name: Validate 600 Reading activities, 8 question types, saved IDs and answer keys
         run: node tools/validate-collection.mjs
       - name: Validate all 800 Listening activities, 1,800 answer keys and Chapter 3 skills
@@ -44,19 +52,21 @@ jobs:
           node tools/smoke-playwright.mjs
           node tools/smoke-listening-playwright.mjs
           node tools/smoke-timers-playwright.mjs
+          node tests/section-browser.mjs
+          node tests/section-audio.mjs
           kill $(cat /tmp/toefl-server.pid)
       - name: Prepare exact root-upload and editable source ZIPs
         run: |
           set -euo pipefail
           mkdir -p /tmp/toefl-release/site /tmp/toefl-release/project downloads
-          cp index.html LICENSE.txt PUBLISHING.txt THIRD_PARTY_NOTICES.md /tmp/toefl-release/site/
-          cp -R assets audio docs collections /tmp/toefl-release/site/
+          cp index.html library.html LICENSE.txt PUBLISHING.txt THIRD_PARTY_NOTICES.md /tmp/toefl-release/site/
+          cp -R assets audio docs collections exam /tmp/toefl-release/site/
           (
             cd /tmp/toefl-release/site
             zip -q -r /tmp/toefl-release/TOEFL_Studio_Pages_Reading600_Listening800.zip .
           )
-          cp index.html LICENSE.txt PUBLISHING.txt README.md THIRD_PARTY_NOTICES.md VERIFICATION.md package.json package-lock.json /tmp/toefl-release/project/
-          cp -R assets audio docs collections tools .github /tmp/toefl-release/project/
+          cp index.html library.html LICENSE.txt PUBLISHING.txt README.md THIRD_PARTY_NOTICES.md VERIFICATION.md package.json package-lock.json /tmp/toefl-release/project/
+          cp -R assets audio docs collections exam tests tools .github /tmp/toefl-release/project/
           cp example-bank.json /tmp/toefl-release/project/
           (
             cd /tmp/toefl-release/project
@@ -86,6 +96,8 @@ jobs:
           SITE_ROOT=/tmp/toefl-release/extracted-site node tools/smoke-playwright.mjs
           SITE_ROOT=/tmp/toefl-release/extracted-site node tools/smoke-listening-playwright.mjs
           node tools/smoke-timers-playwright.mjs
+          node tests/section-browser.mjs
+          node tests/section-audio.mjs
           kill $(cat /tmp/toefl-extracted.pid)
       - name: Publish checksums and manifest
         run: |

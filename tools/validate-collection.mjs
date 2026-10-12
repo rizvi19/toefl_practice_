@@ -18,7 +18,7 @@ for(const path of [
  "collections/academic-200.js"
  ])vm.runInNewContext(read(root+"/"+path),{window:win},{timeout:30000});
 const CTW=win.__TOEFL_CTW_200_EXT__,DL=win.__TOEFL_DAILY_200__,AC=win.__TOEFL_ACADEMIC_200__;
-const bundle=read(root+"/assets/index-0Qc6vs45.js"),html=read(root+"/index.html");
+const bundle=read(root+"/assets/index-0Qc6vs45.js"),html=read(root+"/library.html");
 const match=bundle.match(/Dg=JSON\.parse\((['"])(.*?)\1\),(?:READING_ORIGINAL_TAGS=|xi=)/s);
 assert(match,"Original full practice form must remain in bundle");
 const original=JSON.parse(vm.runInNewContext(match[1]+match[2]+match[1]));

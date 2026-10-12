@@ -59,7 +59,7 @@ assert.equal(new Set(all.map(x=>x.id)).size,all.length);
 assert(all.every(x=>!base.some(b=>b.id===x.id)),"No historical question IDs overwritten");
 assert.equal(base.length,60);
 assert.equal(base.filter(x=>["choose-response","conversation","announcement","academic-talk"].includes(x.type)).length,27);
-const html=fs.readFileSync(root+"/index.html","utf8");
+const html=fs.readFileSync(root+"/library.html","utf8");
 assert(html.includes("./collections/listening-200.js"),"Listening source loaded on website");
 assert(src.includes("...LISTENING"),"Integrated shared library");
 assert(src.includes('const nr="toefl-studio-v1"'),"Original storage key unchanged");

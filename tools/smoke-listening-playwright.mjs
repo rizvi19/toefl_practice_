@@ -11,7 +11,7 @@ for(const file of [
  "listening-campus-cases.js","listening-rationales.js","listening-200.js"
 ])vm.runInNewContext(fs.readFileSync(root+"/collections/"+file,"utf8"),{window:w});
 const bank=w.__TOEFL_LISTENING_EXTENDED__;
-const browser=await chromium.launch({headless:true});
+const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':undefined});
 const page=await browser.newPage();
 page.setDefaultTimeout(20000);
 const errors=[],failed=[];
@@ -38,7 +38,7 @@ await page.addInitScript(()=>{
  };
  Object.defineProperty(window,"speechSynthesis",{configurable:true,value:synth});
 });
-const url="http://127.0.0.1:4177/toefl_practice_/";
+const url="http://127.0.0.1:4177/toefl_practice_/library.html";
 const enter=async()=>page.getByRole("button",{name:/Practice library/i}).first().click();
 const endSession=async()=>{
  await page.getByRole("button",{name:"Finish session"}).click();

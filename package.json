@@ -1,12 +1,15 @@
 {
-  "name": "toefl-practice-studio-extended-100",
-  "version": "1.1.0",
+  "name": "toefl-practice-studio",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "Validation and packaging tools for prebuilt TOEFL Practice Studio",
+  "description": "TOEFL 2026 independent adaptive section tests and preserved practice library",
   "scripts": {
     "validate": "node tools/validate-collection.mjs",
-    "smoke": "node tools/smoke-playwright.mjs"
+    "smoke": "node tools/smoke-playwright.mjs",
+    "build:bank": "node tools/build-exam-bank.mjs",
+    "test:sections": "node --test tests/section-core.test.mjs",
+    "test:browser": "node tests/section-browser.mjs && node tests/section-audio.mjs"
   },
   "devDependencies": {
     "playwright": "1.56.1"

@@ -1,3 +1,20 @@
+# Section tests verification — 12 October 2026
+
+- 100 generated forms for each section satisfy 35 + 15 Reading / 32 + 15 Listening totals, with no repeated activity IDs and distinct upper/lower task composition. Listening totals match the published blueprint task ranges.
+- Complete browser journeys: Reading 50/50 and Listening 47/47; estimated score 6.0. Reading Back, Review and flags preserve answers. Listening blocks choices until audio completes and locks earlier questions.
+- Customized Reading duration, saved absolute deadlines, module expiry, lower route, extended time away, incomplete attempts, answer review, transcripts, mistake filter and JSON download verified.
+- Real WAV playback (4.05 seconds) verified through native `playing` and `ended` events, without TTS. Recording failures keep choices locked and offer a speech retry. Reload recovery is reported as nonstandard practice.
+- Desktop 1440px and mobile 390px screenshots reviewed; no horizontal overflow, runtime errors or unintended failed asset requests.
+- Existing Reading, Listening and custom-timer library browser checks pass at `library.html`; historical storage key and all 1,400 Reading/Listening activity IDs retained.
+- Bank validation: 200 activities for every task type; 600 Reading + 800 Listening. Generated bank is rebuilt and checked for drift in CI.
+- No protected uploaded questions, audio, answer keys or screenshots published. Sources under the synced project remain unchanged.
+
+Verification scripts: `tests/section-core.test.mjs`, `tests/section-browser.mjs`, `tests/section-audio.mjs`, `tools/validate-collection.mjs`, `tools/validate-listening.mjs` and legacy library smoke checks. Browser speech is mocked only for the fast full-form interaction tests; recorded audio is tested with native playback separately. Voice quality across every browser/OS is not validated.
+
+---
+
+## Earlier library verification
+
 # Release verification — 11 October 2026
 
 Verified locally on Windows using Node 24.19.0 and an isolated headless Microsoft Edge browser.

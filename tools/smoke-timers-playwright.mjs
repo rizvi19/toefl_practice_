@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import {chromium} from "playwright";
 
-const browser=await chromium.launch({headless:true});
+const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':undefined});
 const page=await browser.newPage();
 page.setDefaultTimeout(15000);
 const errors=[],failed=[];
@@ -14,7 +14,7 @@ await page.addInitScript(()=>{
     settings:{voice:"",rate:1,audioMode:"tts",kokoroBrowserVersion:1,contrast:false}
   }));
 });
-const url="http://127.0.0.1:4177/toefl_practice_/";
+const url="http://127.0.0.1:4177/toefl_practice_/library.html";
 const session=()=>page.evaluate(()=>JSON.parse(localStorage.getItem("toefl-studio-v1")).session);
 const library=()=>page.getByRole("button",{name:"Practice library"}).first().click();
 const custom=()=>page.getByRole("spinbutton",{name:"Custom timer in minutes"});

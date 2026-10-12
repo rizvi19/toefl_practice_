@@ -1,3 +1,6 @@
 tools/__pycache__/
 audio/generated/*.partial.mp3
 audio/generated/manifest.tmp
+
+node_modules/
+tests/screenshots/

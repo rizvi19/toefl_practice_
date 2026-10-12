@@ -18,7 +18,7 @@ await page.addInitScript(()=>{
 const bank=listeningCatalog(),pilot=bank.find(x=>x.id==='conversation26-001');
 const enter=()=>page.getByRole('button',{name:/Practice library/i}).first().click();
 const finish=async()=>{await page.getByRole('button',{name:'Finish session',exact:true}).click();await page.getByRole('dialog').getByRole('button',{name:'Continue',exact:true}).click()};
-await page.goto('http://127.0.0.1:8766/toefl_practice_/',{waitUntil:'networkidle'});
+await page.goto('http://127.0.0.1:8766/toefl_practice_/library.html',{waitUntil:'networkidle'});
 await enter();await page.getByRole('button',{name:'Browse 200 Conversations',exact:true}).click();
 await page.locator('.activity-row').nth(4).getByRole('button',{name:/Practice/}).click();
 let session=await page.evaluate(()=>JSON.parse(localStorage.getItem('toefl-studio-v1')).session);

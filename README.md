@@ -1,3 +1,28 @@
+# TOEFL Practice Studio — 2026 section tests
+
+Live: https://rizvi19.github.io/toefl_practice_/
+
+The main page provides separate Reading and Listening section tests with customizable module timers, practice adaptive routing and estimated 1–6 section scores. Reading defaults to 25 minutes; Listening defaults to 29 on the upper route. The previous practice studio is preserved at `library.html`, including Writing, Speaking, imports, recordings, Kokoro controls and historical item IDs.
+
+- Editable exam source: `exam/app.js`, `exam/core.js`, `exam/style.css`.
+- Readable format/scoring documentation: `docs/SECTION_TESTS_2026.html`.
+- Bank generation: `npm run build:bank` extracts the already published independently authored activities into `exam/bank.json`.
+- Engine checks: `npm run test:sections`.
+- Browser checks: run `node tools/serve-subpath.mjs`, then `npm run test:browser`. Tests use installed Edge on Windows and Playwright Chromium in CI.
+- Existing library checks: `npm run validate`, `node tools/validate-listening.mjs` and the three `tools/smoke-*-playwright.mjs` scripts.
+
+Deploy from main / root in GitHub Pages. No server or framework build is required. GitHub Actions validates both the exam and library and produces updated site/source download ZIPs.
+
+## Simulation limits
+
+The router uses a transparent 70% Module 1 threshold. Scores use `round-to-half(1 + 5 × accuracy)`. These are uncalibrated training choices, not ETS algorithms or validated TOEFL predictions. Module time continues through Help, confirmations, audio, reload and time away. Interrupted playback recovery is reported. Available recordings are real synthetic audio files; the rest use device English voices. Related question variants revisit topics.
+
+No user-uploaded publisher passages, questions, transcripts, answer keys, screenshots or recordings are included in this update. The bank is the existing independently authored collection. See the format page for ETS sources and the reference materials inspected on 12 October 2026.
+
+---
+
+## Earlier library release documentation
+
 # TOEFL Practice Studio — 2026 Reading & Listening
 
 **Live website:** https://rizvi19.github.io/toefl_practice_/

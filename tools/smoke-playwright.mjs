@@ -10,13 +10,13 @@ for(const file of [
 "academic-expansions-second.js","academic-question-guidance.js","academic-vocab-distractors.js","academic-200.js"
 ])vm.runInNewContext(fs.readFileSync(root+"/collections/"+file,"utf8"),{window:win});
 const first=win.__TOEFL_CTW_200_EXT__[0],daily=win.__TOEFL_DAILY_200__[0],academic=win.__TOEFL_ACADEMIC_200__[0];
-const browser=await chromium.launch({headless:true});
+const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':undefined});
 const page=await browser.newPage();
 page.setDefaultTimeout(18000);
 const errors=[],failed=[];
 page.on("pageerror",x=>errors.push(x.message));
 page.on("response",r=>{if(r.status()>=400)failed.push(r.status()+" "+r.url())});
-const url="http://127.0.0.1:4177/toefl_practice_/";
+const url="http://127.0.0.1:4177/toefl_practice_/library.html";
 await page.goto(url,{waitUntil:"networkidle"});
 const enter=async()=>{await page.getByRole("button",{name:/Practice library/i}).first().click();};
 await enter();
@@ -111,7 +111,7 @@ await enter();
 await page.getByRole("button",{name:/Full practice form/i}).click();
 assert((await page.locator(".practice-toolbar").innerText()).includes("60"));
 for(const f of ["audio/repeat-1.wav","docs/format-and-sources.html"]){
- const response=await page.request.get(url+f);
+ const response=await page.request.get(new URL(f,url).href);
  assert.equal(response.status(),200,f+" at repository subpath");
 }
 assert.equal(errors.length,0,"JavaScript errors: "+errors.join("; "));
