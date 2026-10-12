@@ -18,6 +18,12 @@ All three Reading tasks and four Listening tasks have **random activity selector
 
 **Learning material and answer reviews:** All new Reading tasks follow the Chapter 2 skill categories; Listening follows the Chapter 3 task and six comprehension-question types. New question reviews identify the type, substantiate the answer, explain all three rejected options and supply a useful strategy.
 
+### Custom practice timers
+
+Open **Practice library**, keep **Timed** enabled, and enter any duration from **0.5 to 240 minutes** in **Custom timer (minutes)**. Leave it blank for recommended timing, or uncheck Timed for untimed practice. The choice is applied whenever you start an activity, random activity, circuit, full form or rehearsal. In study sessions the custom duration resets for each activity; in exam mode it applies to the section, with individual Writing blocks timed separately; the 47-question Listening rehearsal has one shared timer.
+
+**Checking answers immediately stops the study countdown**, so it cannot expire while you review explanations. **Save & continue** starts a fresh countdown for the next study activity. Finishing a session removes its timer and saves the report. Existing practice history and saved question IDs remain intact.
+
 ### Sound and recordings
 
 The 38 original WAV files remain available. Additional Listening exercises use **browser English voice narration**; conversations alternate two voices when the browser makes at least two English voices available. Browser TTS is not equivalent to professionally recorded speech. Choose a voice in Settings. The full Listening rehearsal hides transcripts and blocks replay; study mode offers transcripts and repetitions.
