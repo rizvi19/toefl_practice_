@@ -43,6 +43,7 @@ jobs:
           sleep 3
           node tools/smoke-playwright.mjs
           node tools/smoke-listening-playwright.mjs
+          node tools/smoke-timers-playwright.mjs
           kill $(cat /tmp/toefl-server.pid)
       - name: Prepare exact root-upload and editable source ZIPs
         run: |
@@ -84,6 +85,7 @@ jobs:
           sleep 3
           SITE_ROOT=/tmp/toefl-release/extracted-site node tools/smoke-playwright.mjs
           SITE_ROOT=/tmp/toefl-release/extracted-site node tools/smoke-listening-playwright.mjs
+          node tools/smoke-timers-playwright.mjs
           kill $(cat /tmp/toefl-extracted.pid)
       - name: Publish checksums and manifest
         run: |
