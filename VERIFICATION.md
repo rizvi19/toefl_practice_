@@ -1,15 +1,20 @@
-# Section tests verification — 12 October 2026
+# Reading upgrade verification — 13 October 2026
 
-- 100 generated forms for each section satisfy 35 + 15 Reading / 32 + 15 Listening totals, with no repeated activity IDs and distinct upper/lower task composition. Listening totals match the published blueprint task ranges.
-- Complete browser journeys: Reading 50/50 and Listening 47/47; estimated score 6.0. Reading Back, Review and flags preserve answers. Listening blocks choices until audio completes and locks earlier questions.
-- Customized Reading duration, saved absolute deadlines, module expiry, lower route, extended time away, incomplete attempts, answer review, transcripts, mistake filter and JSON download verified.
-- Real WAV playback (4.05 seconds) verified through native `playing` and `ended` events, without TTS. Recording failures keep choices locked and offer a speech retry. Reload recovery is reported as nonstandard practice.
-- Desktop 1440px and mobile 390px screenshots reviewed; no horizontal overflow, runtime errors or unintended failed asset requests.
-- Existing Reading, Listening and custom-timer library browser checks pass at `library.html`; historical storage key and all 1,400 Reading/Listening activity IDs retained.
-- Bank validation: 200 activities for every task type; 600 Reading + 800 Listening. Generated bank is rebuilt and checked for drift in CI.
-- No protected uploaded questions, audio, answer keys or screenshots published. Sources under the synced project remain unchanged.
+All checks below passed locally on Windows with Node 23.5 and Edge, under the exact `/toefl_practice_/` repository subpath. Chromium runs in the updated GitHub Actions workflow; hosted CI results must be read separately.
 
-Verification scripts: `tests/section-core.test.mjs`, `tests/section-browser.mjs`, `tests/section-audio.mjs`, `tools/validate-collection.mjs`, `tools/validate-listening.mjs` and legacy library smoke checks. Browser speech is mocked only for the fast full-form interaction tests; recorded audio is tested with native playback separately. Voice quality across every browser/OS is not validated.
+- Bank build and validation: 222 distinct Reading activities / 1,400 scored items; generated library and exam banks agree. Every key, evidence quotation, length, option set and deletion is checked. Audit: 49 exact duplicate copies and 1,375 similar passage pairs in the baseline, zero in the active replacement under the documented threshold.
+- 12 unit tests pass, including 600 seeded forms across six presets, all answer keys, 20 option-shuffle seeds per MCQ activity, invalid schema rejection, pool exhaustion, routing, custom timing, partial scores and mixed task/skill feedback.
+- Reading browser test: five screenshot layouts plus adaptive and custom forms, editorial levels, viewed-only exposure history, repeat avoidance, reload and shared library history. Desktop/mobile setup and active-test screenshots inspected; no horizontal overflow.
+- Complete section journeys: Reading 50/50 and Listening 47/47. Back, Review, flags, locked modules, persisted answers, fixed/automatic routes, module expiry, result download, mistake filter and feedback verified. No JavaScript errors or unexpected failed asset requests.
+- Native recorded audio: 4.053-second WAV played through actual playing/ended events without TTS. Choices stay hidden until completion; interrupted reload recovery and recording-failure fallback pass.
+- Preserved library checks: all 800 Listening activities / 1,800 keys, two-voice conversation narration, 32 + 15-question rehearsal, one-play audio, grading and storage pass. Reading cloze 10/10, daily 2/2, academic 5/5, random selection, insertion markers, full Reading practice and original 60-screen full form pass.
+- Custom library timer: 2.5-minute duration, stop on submission, reset on next activity, invalid-input rejection, rehearsal, untimed mode and default timing all pass.
+- Extracted Pages archive passes the same section, Reading/library, Listening/audio and timer browser checks, plus bank validators. ZIP integrity and required runtime files are verified. Repeated builds reproduce the generated banks exactly.
+- All 44 Listening/audio source files, the Listening bank fingerprint and original non-Reading full-form data match the baseline. Uploaded publisher files and screenshots are outside the repository and unchanged.
+
+Commands: `npm run build:bank`, `npm run audit:reading`, `npm run validate`, `node tools/validate-listening.mjs`, `npm run test:sections`, `npm run test:browser`, `npm run smoke`, `node tools/smoke-listening-playwright.mjs`, `node tools/smoke-timers-playwright.mjs`. Browser speech is mocked for fast full-form tests; recorded audio uses native playback separately. Test success verifies implemented behavior, not psychometric scoring or voice quality on every device.
+
+Current release details: [Reading v2](docs/READING_V2_RELEASE.md). Historical verification below describes earlier versions, not the active Reading bank.
 
 ---
 

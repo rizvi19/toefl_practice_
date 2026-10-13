@@ -1,23 +1,37 @@
-# TOEFL Practice Studio — 2026 section tests
+# TOEFL Practice Studio — Reading quality upgrade (2026)
 
 Live: https://rizvi19.github.io/toefl_practice_/
 
-The main page provides separate Reading and Listening section tests with customizable module timers, practice adaptive routing and estimated 1–6 section scores. Reading defaults to 25 minutes; Listening defaults to 29 on the upper route. The previous practice studio is preserved at `library.html`, including Writing, Speaking, imports, recordings, Kokoro controls and historical item IDs.
+Reading now has **222 distinct activities / 1,400 scored items**: 100 Complete the Words, 30 Daily Life Short, 30 Daily Life Long, 30 Text Chain and 32 Academic Passage activities. It offers history-aware selection, shuffled choices, mixed/intermediate/advanced pools, six presets, editable module structures and task/skill feedback. The default is 35 + 15 items in 21 + 9 minutes. Listening's 800 activities, audio, Writing and Speaking are preserved.
 
-- Editable exam source: `exam/app.js`, `exam/core.js`, `exam/style.css`.
-- Readable format/scoring documentation: `docs/SECTION_TESTS_2026.html`.
-- Bank generation: `npm run build:bank` extracts the already published independently authored activities into `exam/bank.json`.
-- Engine checks: `npm run test:sections`.
-- Browser checks: run `node tools/serve-subpath.mjs`, then `npm run test:browser`. Tests use installed Edge on Windows and Playwright Chromium in CI.
-- Existing library checks: `npm run validate`, `node tools/validate-listening.mjs` and the three `tools/smoke-*-playwright.mjs` scripts.
+See [Reading release details](docs/READING_V2_RELEASE.md), [before/after audit](docs/READING_QUALITY_AUDIT.json) and [format/scoring page](docs/SECTION_TESTS_2026.html). The four uploaded PDFs and five-layout screenshot informed structure; none of their publisher content is included.
 
-Deploy from main / root in GitHub Pages. No server or framework build is required. GitHub Actions validates both the exam and library and produces updated site/source download ZIPs.
+## Build and verify
 
-## Simulation limits
+```sh
+npm ci
+npm run build:bank
+npm run audit:reading
+npm run validate
+node tools/validate-listening.mjs
+npm run test:sections
+node tools/serve-subpath.mjs
+# In another terminal while the preview server runs:
+npm run test:browser
+npm run smoke
+node tools/smoke-listening-playwright.mjs
+node tools/smoke-timers-playwright.mjs
+```
 
-The router uses a transparent 70% Module 1 threshold. Scores use `round-to-half(1 + 5 × accuracy)`. These are uncalibrated training choices, not ETS algorithms or validated TOEFL predictions. Module time continues through Help, confirmations, audio, reload and time away. Interrupted playback recovery is reported. Available recordings are real synthetic audio files; the rest use device English voices. Related question variants revisit topics.
+Content sources are in `reading/`. Commit all generated bank files together. The audit needs the baseline commit in Git history. Windows browser tests use Edge; CI installs Chromium. `python tools/package-release.py ../reading-release` creates verified Pages and editable source archives outside the repository.
 
-No user-uploaded publisher passages, questions, transcripts, answer keys, screenshots or recordings are included in this update. The bank is the existing independently authored collection. See the format page for ETS sources and the reference materials inspected on 12 October 2026.
+GitHub Pages serves main / root without a server build. Include `reading/` with the other runtime folders. Actions validates pull requests and generates archives as workflow artifacts; historical files in `downloads/` are not this release. The original compiled practice library remains at `library.html` with a tested Reading adapter. Its 60-activity full form keeps its non-Reading slots and replaces only Reading material; overall active library size is 1,045 activities.
+
+## Practice limits
+
+**Local estimated practice score** uses `round-to-half(1 + 5 × accuracy)`. Its display follows ETS's 2026 1–6 reporting scale, but the formula and 70% routing threshold are uncalibrated local choices. These are not validated TOEFL predictions, equivalent difficulty forms or CEFR results. Incomplete/ended-early new Reading attempts have no score estimate. Editorial pool levels and automatic mechanical checks do not substitute for external item calibration or expert review.
+
+Reading exposure history persists in the same browser and is shared by random library and section practice. Unseen eligible items are preferred; exhausted pools rotate least-used, oldest items. Only viewed material is counted. Clearing storage resets the ledger, and concurrent tabs are not coordinated. Old saved attempts keep their frozen content.
 
 ---
 

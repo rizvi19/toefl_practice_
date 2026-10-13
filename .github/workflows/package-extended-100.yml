@@ -1,25 +1,16 @@
-name: Validate and package TOEFL 2026 section tests and practice library
+name: Validate and package Reading quality upgrade
 on:
   push:
     branches: [main]
-    paths:
-      - 'index.html'
-      - 'library.html'
-      - 'exam/**'
-      - 'tests/**'
-      - 'assets/**'
-      - 'audio/**'
-      - 'docs/**'
-      - 'collections/**'
-      - 'tools/**'
-      - 'package.json'
-      - '.github/workflows/package-extended-100.yml'
+    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+  pull_request:
+    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   workflow_dispatch:
 concurrency:
-  group: toefl-reading-listening-1400-release
+  group: reading-quality-${{ github.ref }}
   cancel-in-progress: true
 permissions:
-  contents: write
+  contents: read
 jobs:
   validate-package:
     runs-on: ubuntu-latest
@@ -32,112 +23,46 @@ jobs:
         with:
           node-version: '22'
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
-      - name: Verify section bank and adaptive engine
+        run: npm ci --no-audit --no-fund
+      - name: Rebuild and validate Reading; fingerprint unchanged Listening
         run: |
-          node tools/build-exam-bank.mjs
-          git diff --exit-code -- exam/bank.json
-          node --test tests/section-core.test.mjs
-      - name: Validate 600 Reading activities, 8 question types, saved IDs and answer keys
-        run: node tools/validate-collection.mjs
-      - name: Validate all 800 Listening activities, 1,800 answer keys and Chapter 3 skills
-        run: node tools/validate-listening.mjs
-      - name: Install isolated test browser
+          npm run build:bank
+          npm run audit:reading
+          git diff --exit-code -- reading/bank.json reading/library-bank.js exam/bank.json docs/READING_QUALITY_AUDIT.json
+          npm run validate
+          node tools/validate-listening.mjs
+          npm run test:sections
+      - name: Install test browser
         run: npx playwright install --with-deps chromium
-      - name: Test live-style GitHub Pages repository subpath
+      - name: Verify GitHub Pages subpath and preserved library/audio
         run: |
+          set -euo pipefail
           node tools/serve-subpath.mjs > /tmp/toefl-server.log 2>&1 &
-          echo $! > /tmp/toefl-server.pid
-          sleep 3
-          node tools/smoke-playwright.mjs
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          sleep 2
+          npm run test:browser
+          npm run smoke
           node tools/smoke-listening-playwright.mjs
           node tools/smoke-timers-playwright.mjs
-          node tests/section-browser.mjs
-          node tests/section-audio.mjs
-          kill $(cat /tmp/toefl-server.pid)
-      - name: Prepare exact root-upload and editable source ZIPs
+      - name: Package and verify extracted runtime
         run: |
           set -euo pipefail
-          mkdir -p /tmp/toefl-release/site /tmp/toefl-release/project downloads
-          cp index.html library.html LICENSE.txt PUBLISHING.txt THIRD_PARTY_NOTICES.md /tmp/toefl-release/site/
-          cp -R assets audio docs collections exam /tmp/toefl-release/site/
-          (
-            cd /tmp/toefl-release/site
-            zip -q -r /tmp/toefl-release/TOEFL_Studio_Pages_Reading600_Listening800.zip .
-          )
-          cp index.html library.html LICENSE.txt PUBLISHING.txt README.md THIRD_PARTY_NOTICES.md VERIFICATION.md package.json package-lock.json /tmp/toefl-release/project/
-          cp -R assets audio docs collections exam tests tools .github /tmp/toefl-release/project/
-          cp example-bank.json /tmp/toefl-release/project/
-          (
-            cd /tmp/toefl-release/project
-            zip -q -r /tmp/toefl-release/TOEFL_Studio_Editable_Reading600_Listening800.zip .
-          )
-          unzip -tq /tmp/toefl-release/TOEFL_Studio_Pages_Reading600_Listening800.zip
-          unzip -tq /tmp/toefl-release/TOEFL_Studio_Editable_Reading600_Listening800.zip
-          unzip -q /tmp/toefl-release/TOEFL_Studio_Pages_Reading600_Listening800.zip -d /tmp/toefl-release/extracted-site
-          unzip -q /tmp/toefl-release/TOEFL_Studio_Editable_Reading600_Listening800.zip -d /tmp/toefl-release/extracted-project
-          (
-            cd /tmp/toefl-release/extracted-site
-            node "$GITHUB_WORKSPACE/tools/validate-collection.mjs"
-            node "$GITHUB_WORKSPACE/tools/validate-listening.mjs"
-          )
-          (
-            cd /tmp/toefl-release/extracted-project
-            node tools/validate-collection.mjs
-            node tools/validate-listening.mjs
-          )
-          ls -lh /tmp/toefl-release/*.zip
-      - name: Test extracted Pages ZIP under exact GitHub Pages path
-        run: |
-          set -euo pipefail
-          SITE_ROOT=/tmp/toefl-release/extracted-site node tools/serve-subpath.mjs > /tmp/toefl-server-extracted.log 2>&1 &
-          echo $! > /tmp/toefl-extracted.pid
-          sleep 3
-          SITE_ROOT=/tmp/toefl-release/extracted-site node tools/smoke-playwright.mjs
-          SITE_ROOT=/tmp/toefl-release/extracted-site node tools/smoke-listening-playwright.mjs
+          python tools/package-release.py /tmp/toefl-reading-release
+          SITE_ROOT=/tmp/toefl-reading-release/extracted-pages node tools/validate-collection.mjs
+          SITE_ROOT=/tmp/toefl-reading-release/extracted-pages node tools/validate-listening.mjs
+          SITE_ROOT=/tmp/toefl-reading-release/extracted-pages node tools/serve-subpath.mjs > /tmp/toefl-extracted.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          sleep 2
+          npm run test:browser
+          npm run smoke
+          node tools/smoke-listening-playwright.mjs
           node tools/smoke-timers-playwright.mjs
-          node tests/section-browser.mjs
-          node tests/section-audio.mjs
-          kill $(cat /tmp/toefl-extracted.pid)
-      - name: Publish checksums and manifest
-        run: |
-          rm -f downloads/TOEFL_Practice_Studio_Pages_Extended_100.zip downloads/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip downloads/TOEFL_Practice_Studio_Pages_Official_Format_200.zip downloads/TOEFL_Practice_Studio_Editable_Project_200.zip downloads/TOEFL_Practice_Studio_Pages_Reading_600.zip downloads/TOEFL_Practice_Studio_Editable_Reading_600.zip
-          cp /tmp/toefl-release/*.zip downloads/
-          cd downloads
-          sha256sum *.zip > SHA256SUMS.txt
-          find . -maxdepth 1 -type f -printf '%f %s bytes\n' > FILE_MANIFEST.txt
       - uses: actions/upload-artifact@v4
         with:
-          name: TOEFL-Reading-Listening-1400-Verified-ZIPs
-          path: downloads/
+          name: TOEFL-Reading222-Items1400-Listening800-Verified
+          path: |
+            /tmp/toefl-reading-release/*.zip
+            /tmp/toefl-reading-release/SHA256SUMS.txt
           retention-days: 90
-      - name: Publish direct-download ZIPs to the same GitHub Pages repository
-        run: |
-          set -euo pipefail
-          git config user.name "TOEFL Studio Release Bot"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          for attempt in 1 2 3 4 5 6 7 8; do
-            git fetch origin main
-            git reset --hard origin/main
-            mkdir -p downloads
-            rm -f downloads/TOEFL_Practice_Studio_Pages_Extended_100.zip \
-                  downloads/TOEFL_Practice_Studio_Editable_Project_Extended_100.zip \
-                  downloads/TOEFL_Practice_Studio_Pages_Official_Format_200.zip \
-                  downloads/TOEFL_Practice_Studio_Editable_Project_200.zip \
-                  downloads/TOEFL_Practice_Studio_Pages_Reading_600.zip \
-                  downloads/TOEFL_Practice_Studio_Editable_Reading_600.zip
-            cp /tmp/toefl-release/TOEFL_Studio_Pages_Reading600_Listening800.zip downloads/
-            cp /tmp/toefl-release/TOEFL_Studio_Editable_Reading600_Listening800.zip downloads/
-            (cd downloads && sha256sum *.zip > SHA256SUMS.txt)
-            (cd downloads && find . -maxdepth 1 -type f -printf '%f %s bytes\\n' > FILE_MANIFEST.txt)
-            git add -A downloads
-            if git diff --cached --quiet; then
-              echo "Verified release files already match main."
-              exit 0
-            fi
-            git commit -m "Publish extracted-tested TOEFL 1400 Reading and Listening ZIPs [skip ci]"
-            if git push origin HEAD:main; then exit 0; fi
-            sleep $((attempt * 2))
-          done
-          echo "Release publishing failed after eight safe attempts"
-          exit 1
