@@ -35,7 +35,7 @@ fs.mkdirSync('tests/screenshots',{recursive:true});
 try{
  await page.goto(url);await page.getByRole('heading',{name:'One section. Full focus.'}).waitFor();
  await page.screenshot({path:'tests/screenshots/desktop-home.png',fullPage:true});
- await button('Take Reading Test').click();assert.equal(await page.locator('#minutes').inputValue(),'25');await page.locator('#minutes').fill('30');assert((await page.locator('#time-plan').innerText()).includes('21:00'));await button('Start Reading Test →').click();assert.equal((await session()).time.first,1260);
+ await button('Take Reading Test').click();assert.equal(await page.locator('#minutes').inputValue(),'30');await page.locator('#minutes').fill('30');assert((await page.locator('#time-plan').innerText()).includes('21:00'));await button('Start Reading Test →').click();assert.equal((await session()).time.first,1260);
  const first=(await session()).form.router[0];await page.locator('[data-blank="0"][data-slot="0"]').fill('x');await button('Next →').click();await button('← Back').click();assert.equal(await page.locator('[data-blank="0"][data-slot="0"]').inputValue(),'x');
  await button('☆ Mark for review').click();await button('Review module').click();assert.equal(await page.locator('[data-jump="0"]').getAttribute('class'),'marked');await page.locator('[data-jump="1"]').click();assert.equal((await session()).index,1);await button('← Back').click();
  const prior=(await session()).deadline;await page.reload();await button('Resume test').click();assert.equal((await session()).deadline,prior);assert.equal(await page.locator('[data-blank="0"][data-slot="0"]').inputValue(),'x');

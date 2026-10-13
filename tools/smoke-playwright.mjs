@@ -3,13 +3,10 @@ import fs from "node:fs";
 import vm from "node:vm";
 import {chromium} from "playwright";
 
-const root=process.env.SITE_ROOT||".",win={};
-for(const file of [
-"academic-topics-additional.js","complete-words-200.js","daily-life-scenarios.js",
-"daily-life-vocabulary.js","daily-life-200.js","academic-expansions-first.js",
-"academic-expansions-second.js","academic-question-guidance.js","academic-vocab-distractors.js","academic-200.js"
-])vm.runInNewContext(fs.readFileSync(root+"/collections/"+file,"utf8"),{window:win});
-const first=win.__TOEFL_CTW_200_EXT__[0],daily=win.__TOEFL_DAILY_200__[0],academic=win.__TOEFL_ACADEMIC_200__[0];
+const root=process.env.SITE_ROOT||'.';
+const bank=JSON.parse(fs.readFileSync(root+'/reading/bank.json','utf8')).items;
+const first=bank.find(x=>x.id==='r2-c004');
+const currentItem=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('toefl-studio-v1')).session.items[0]);
 const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':undefined});
 const page=await browser.newPage();
 page.setDefaultTimeout(18000);
@@ -20,12 +17,12 @@ const url="http://127.0.0.1:4177/toefl_practice_/library.html";
 await page.goto(url,{waitUntil:"networkidle"});
 const enter=async()=>{await page.getByRole("button",{name:/Practice library/i}).first().click();};
 await enter();
-await page.getByRole("heading",{name:/Reading practice · 200 in each task/i}).waitFor();
+await page.getByRole("heading",{name:/Reading practice · 1,400 questions/i}).waitFor();
 
 // Complete the Words: 200 items, 10 fixed word endings, persistence and 10/10 grade.
-await page.getByRole("button",{name:"Browse 200 Complete the Words"}).click();
+await page.getByRole("button",{name:"Browse 100 Complete the Words"}).click();
 let rows=page.locator(".activity-row");
-assert.equal(await rows.count(),200);
+assert.equal(await rows.count(),100);
 await rows.nth(3).getByRole("button",{name:/Practice/}).click();
 assert.equal(await page.locator(".word-group").count(),10);
 const answers=first.pieces.filter(x=>typeof x==="object");
@@ -48,30 +45,32 @@ await page.getByRole("button",{name:/Finish & see report/i}).click();
 
 // Daily Life: 200 full items and answer feedback includes question type.
 await enter();
-await page.getByRole("button",{name:"Browse 200 Daily Life"}).click();
+await page.getByRole("button",{name:"Browse 90 Daily Life"}).click();
 rows=page.locator(".activity-row");
-assert.equal(await rows.count(),200);
+assert.equal(await rows.count(),90);
 await rows.nth(5).getByRole("button",{name:/Practice/}).click();
+const daily=await currentItem();
 assert.equal(await page.locator(".questions fieldset").count(),daily.questions.length);
 for(let j=0;j<daily.questions.length;j++)
  await page.locator(".questions fieldset").nth(j).locator('input[type="radio"][value="'+daily.questions[j].answer+'"]').check({force:true});
 await page.getByRole("button",{name:/Check answers/i}).click();
 await page.getByText(daily.questions.length+" / "+daily.questions.length+" correct").waitFor();
-assert((await page.locator(".answer-review").innerText()).includes("Question type:"));
+assert((await page.locator(".answer-review").innerText()).includes("Evidence:"));
 await page.getByRole("button",{name:/Finish & see report/i}).click();
 
 // Academic: two-paragraph ~200-word activity with five question types.
 await enter();
-await page.getByRole("button",{name:"Browse 200 Academic Passages"}).click();
+await page.getByRole("button",{name:"Browse 32 Academic Passages"}).click();
 rows=page.locator(".activity-row");
-assert.equal(await rows.count(),200);
-await rows.nth(2).getByRole("button",{name:/Practice/}).click();
+assert.equal(await rows.count(),32);
+await rows.nth(30).getByRole("button",{name:/Practice/}).click();
 assert.equal(await page.locator(".questions fieldset").count(),5);
 const text=await page.locator(".reading-passage").innerText();
 assert(text.includes("[A]")&&text.includes("[B]")&&text.includes("[C]")&&text.includes("[D]"));
+const academic=await currentItem();
 const insertNumber=academic.questions.findIndex(q=>q.questionType==="Insert Text");
 assert(insertNumber>=0);
-const position=String.fromCharCode(65+academic.questions[insertNumber].answer);
+const position=academic.questions[insertNumber].options[academic.questions[insertNumber].answer].slice(-1);
 await page.getByRole("button",{name:"Insert at position "+position}).click();
 assert.equal(await page.locator(".reading-inserted-preview").count(),1,"Insertion preview visible in passage");
 assert.equal(await page.locator(".questions fieldset").nth(insertNumber).locator('input[type="radio"][value="'+academic.questions[insertNumber].answer+'"]').isChecked(),true,"Passage marker and MCQ agree");
@@ -79,7 +78,7 @@ for(let j=0;j<academic.questions.length;j++)
  await page.locator(".questions fieldset").nth(j).locator('input[type="radio"][value="'+academic.questions[j].answer+'"]').check({force:true});
 await page.getByRole("button",{name:/Check answers/i}).click();
 await page.getByText("5 / 5 correct").waitFor();
-assert((await page.locator(".answer-review").innerText()).includes("Question type:"));
+assert((await page.locator(".answer-review").innerText()).includes("Evidence:"));
 await page.getByRole("button",{name:/Finish & see report/i}).click();
 
 // Three independent random selectors keep the specified Reading type.
@@ -117,4 +116,4 @@ for(const f of ["audio/repeat-1.wav","docs/format-and-sources.html"]){
 assert.equal(errors.length,0,"JavaScript errors: "+errors.join("; "));
 assert.equal(failed.length,0,"HTTP failures: "+failed.join("; "));
 await browser.close();
-console.log(JSON.stringify({browser:"PASS",readingActivities:600,dailyGrade:daily.questions.length+"/"+daily.questions.length,academicGrade:"5/5",clozeGrade:"10/10",random:"PASS",fullReading:"35+15 questions",originalForm:"60 screens",storage:"PASS",subpath:"PASS"}));
+console.log(JSON.stringify({browser:"PASS",readingActivities:222,dailyGrade:daily.questions.length+"/"+daily.questions.length,academicGrade:"5/5",clozeGrade:"10/10",random:"PASS",fullReading:"35+15 questions",originalForm:"60 screens",storage:"PASS",subpath:"PASS"}));

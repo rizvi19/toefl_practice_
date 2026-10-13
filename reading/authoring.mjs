@@ -1,0 +1,4 @@
+// Original practice content. Options are authored together, then shuffled at selection.
+export const q=(questionType,stem,options,evidence,reason)=>({questionType,stem,options,answer:0,evidence,explanation:`Evidence: “${evidence}” ${reason}`});
+export const daily=(id,variant,title,passage,questions,level='intermediate')=>({id:`r2-${id}`,type:'daily-life',variant,title,passage,questions,level,difficulty:level==='advanced'?'Hard':'Medium',family:`r2-${id}`,topic:title,pack:`Reading 2026 · ${variant}`,seconds:variant==='short'?100:165});
+export const academic=(id,title,passage,questions,level='advanced')=>({id:`r2-ac-${id}`,type:'academic-passage',variant:'academic',title,passage,questions,level,difficulty:level==='advanced'?'Hard':'Medium',family:`r2-ac-${id}`,topic:title,pack:'Reading 2026 · Academic',seconds:300});

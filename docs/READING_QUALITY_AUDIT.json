@@ -1,0 +1,132 @@
+{
+  "baseCommit": "b15a662f881feac44e99d325ad3800075b6b7ac6",
+  "method": "Lowercase alphanumeric normalization; exact passages and 5-word-shingle Jaccard >=0.28. Duplicate MCQs use stem plus unordered options. Mechanical checks cannot certify linguistic difficulty or rule out every semantic ambiguity.",
+  "baseline": {
+    "activities": 600,
+    "scoredItems": 3555,
+    "exactDuplicateCopies": 49,
+    "nearDuplicatePairs": 1375,
+    "nearDuplicateExamples": [
+      {
+        "ids": [
+          "ctw26-ext-001",
+          "ctw26-ext-002"
+        ],
+        "similarity": 0.656
+      },
+      {
+        "ids": [
+          "ctw26-ext-001",
+          "ctw26-ext-003"
+        ],
+        "similarity": 0.678
+      },
+      {
+        "ids": [
+          "ctw26-ext-001",
+          "ctw26-ext-004"
+        ],
+        "similarity": 0.678
+      },
+      {
+        "ids": [
+          "ctw26-ext-001",
+          "academic26-001"
+        ],
+        "similarity": 0.429
+      },
+      {
+        "ids": [
+          "ctw26-ext-001",
+          "academic26-002"
+        ],
+        "similarity": 0.355
+      },
+      {
+        "ids": [
+          "ctw26-ext-001",
+          "academic26-003"
+        ],
+        "similarity": 0.418
+      },
+      {
+        "ids": [
+          "ctw26-ext-001",
+          "academic26-004"
+        ],
+        "similarity": 0.355
+      },
+      {
+        "ids": [
+          "ctw26-ext-002",
+          "ctw26-ext-003"
+        ],
+        "similarity": 0.644
+      }
+    ],
+    "mostRepeatedStems": [
+      [
+        "Which conclusion is most strongly supported by the evidence in the passage?",
+        99
+      ],
+      [
+        "All of the following statements are supported by the passage EXCEPT",
+        99
+      ],
+      [
+        "In the final discussion, what does the phrase “this evidence” most naturally refer to?",
+        99
+      ],
+      [
+        "Which conclusion about participation difficulties is most strongly supported?",
+        97
+      ],
+      [
+        "Which preparation is required for this activity?",
+        87
+      ]
+    ],
+    "maxIdenticalOptionSetReuse": 99
+  },
+  "current": {
+    "activities": 222,
+    "scoredItems": 1400,
+    "exactDuplicateCopies": 0,
+    "nearDuplicatePairs": 0,
+    "nearDuplicateExamples": [],
+    "mostRepeatedStems": [
+      [
+        "Which statement best captures the passage?",
+        2
+      ],
+      [
+        "Where is a parcel collected after two days?",
+        1
+      ],
+      [
+        "Why might a valid arrival code stop working?",
+        1
+      ],
+      [
+        "What still costs money after 5 p.m.?",
+        1
+      ],
+      [
+        "Which visitor can still enter a gallery?",
+        1
+      ]
+    ],
+    "maxIdenticalOptionSetReuse": 2
+  },
+  "listening": {
+    "activities": 800,
+    "unchanged": true,
+    "sha256": "37b51f1966d46ff7456a6bb72fb9d779a013b3d7aaa167d238d3f866fe71cd43"
+  },
+  "validationErrors": [],
+  "originalNonReading": {
+    "activities": 50,
+    "unchanged": true,
+    "sha256": "50c10cfe185fc0875d7f45911eeece0709530125cea733d6aa27e6984f73d6ed"
+  }
+}
