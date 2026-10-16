@@ -9,7 +9,7 @@
     "smoke": "node tools/smoke-playwright.mjs",
     "build:bank": "node tools/build-reading-bank.mjs && node tools/build-exam-bank.mjs",
     "test:sections": "node --test tests/section-core.test.mjs tests/reading-quality.test.mjs",
-    "test:browser": "node tests/section-browser.mjs && node tests/reading-browser.mjs && node tests/section-audio.mjs",
+    "test:browser": "node tests/section-browser.mjs && node tests/reading-browser.mjs && node tests/section-audio.mjs && node tests/section-kokoro.mjs",
     "build:reading": "node tools/build-reading-bank.mjs",
     "audit:reading": "node tools/audit-reading.mjs"
   },

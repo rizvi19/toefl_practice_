@@ -95,7 +95,7 @@ def serve(engine,allow_generation):
             self.send_response(204);self.send_header('Access-Control-Allow-Methods','POST, OPTIONS');self.send_header('Access-Control-Allow-Headers','Content-Type');self.end_headers()
         def do_GET(self):
             if self.path.split('?')[0]== '/api/kokoro/status':
-                self.send_response(200);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(json.dumps({'service':'toefl-kokoro','pilot_only':not allow_generation,'pilot':PILOT}).encode());return
+                self.send_response(200);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(json.dumps({'service':'toefl-kokoro','version':2,'ready':(engine.home/'models/kokoro/kokoro-v1_0.pth').is_file() or (engine.home/'kokoro-v1_0.pth').is_file(),'pilot_only':not allow_generation,'pilot':PILOT}).encode());return
             if not self.path.startswith(PREFIX):self.send_error(404);return
             self.path=self.path[len(PREFIX)-1:];super().do_GET()
         def do_POST(self):

@@ -6,8 +6,8 @@ export async function checkKokoroConnection(){
     const response=await fetch(helper+'/api/kokoro/status',{signal:AbortSignal.timeout(5000)});
     const info=await response.json();
     if(!response.ok||info.service!=='toefl-kokoro')throw new Error('Wrong helper');
-    return info.pilot_only?'Helper connected in pilot-only mode. Restart with --allow-generation.':'Kokoro helper connected. Missing Listening audio will generate when you press Play.';
-  }catch{return 'Cannot connect. Start the local helper and allow this site’s local connection if your browser asks. Browser speech remains available.';}
+    return !info.ready && info.version>=2?'Helper is running, but its model or FFmpeg is missing. Open your Kokoro installation folder and check the helper log.':info.pilot_only?'Helper connected in pilot-only mode. Restart with --allow-generation.':'Kokoro helper connected. Missing Listening audio will generate when you press Play.';
+  }catch{return 'Local Kokoro is not responding, or this browser has blocked local access. Start your installed helper and check again. You can also select Kokoro (in this browser), which needs no helper.';}
 }
 async function manifest(){
   return fetch(manifestURL,{cache:'no-store',signal:AbortSignal.timeout(5000)})

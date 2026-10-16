@@ -8,7 +8,7 @@
 <p>Practice Studio can create an activity’s audio when you press Play. Run the small helper on the same PC as your browser. Your existing Kokoro installation supplies the voices; the website keeps your scores and progress as usual.</p>
 <p><a class="button" href="Kokoro-Local-Helper.zip" download>Download local helper</a></p>
 <p class="note">This download contains the helper and activity scripts only. It includes no Python, PyTorch, models or installers. It never generates the full activity bank automatically.</p>
-<h2>Start with your existing installation</h2>
+<h2>Your installation stays on your PC</h2><p>Closing the website or chat does not uninstall Kokoro. The Python model and browser model are separate: browser cache can be cleared or evicted, while your installed model stays in its installation folder. The local helper must be running to use that installation. For automatic startup, place a shortcut to your helper launcher in the Windows Startup folder (Win+R, <code>shell:startup</code>). On a PC configured with Kokoro Studio, use its desktop shortcut.</p><h2>Start with your existing installation</h2>
 <ol>
 <li>Extract the ZIP to a small folder on a drive with room for a 20 MB audio cache. Keep the files together.</li>
 <li>Double-click <strong>Launch-Kokoro.cmd</strong>. Supply your existing Kokoro environment’s <code>python.exe</code>, model folder and <code>ffmpeg.exe</code> if asked. The model folder must contain <code>config.json</code>, <code>kokoro-v1_0.pth</code> and <code>voices/af_heart.pt</code> plus <code>voices/am_michael.pt</code>. A LocalTTS folder containing <code>models/kokoro</code> also works.</li>
