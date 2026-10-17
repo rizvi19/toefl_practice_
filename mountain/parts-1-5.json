@@ -1,0 +1,2261 @@
+{
+  "version": 1,
+  "origin": "Original TOEFL practice curriculum based on referenced user materials; not copied exercises",
+  "parts": [
+    {
+      "id": 1,
+      "title": "Academic Foundations",
+      "focus": "Sentence structure, agreement and essential research language",
+      "words": [
+        {
+          "id": "1-v1",
+          "term": "analyze",
+          "meaning": "examine something systematically",
+          "example": "Researchers analyze survey responses before drawing conclusions."
+        },
+        {
+          "id": "1-v2",
+          "term": "assess",
+          "meaning": "evaluate quality or significance",
+          "example": "The panel will assess the proposal's feasibility."
+        },
+        {
+          "id": "1-v3",
+          "term": "approach",
+          "meaning": "method of dealing with something",
+          "example": "This approach combines interviews with numerical data."
+        },
+        {
+          "id": "1-v4",
+          "term": "assume",
+          "meaning": "accept without proof",
+          "example": "We should not assume that the two groups are identical."
+        },
+        {
+          "id": "1-v5",
+          "term": "evidence",
+          "meaning": "information supporting a claim",
+          "example": "The evidence supports the original hypothesis."
+        },
+        {
+          "id": "1-v6",
+          "term": "indicate",
+          "meaning": "show or suggest",
+          "example": "The results indicate a gradual improvement."
+        },
+        {
+          "id": "1-v7",
+          "term": "derive",
+          "meaning": "obtain from a source",
+          "example": "The formula was derived from earlier observations."
+        },
+        {
+          "id": "1-v8",
+          "term": "factor",
+          "meaning": "element affecting an outcome",
+          "example": "Sleep is one factor that influences concentration."
+        },
+        {
+          "id": "1-v9",
+          "term": "feature",
+          "meaning": "important characteristic",
+          "example": "One key feature of the device is its low power use."
+        },
+        {
+          "id": "1-v10",
+          "term": "significant",
+          "meaning": "important or large enough to matter",
+          "example": "The study found a significant difference."
+        },
+        {
+          "id": "1-v11",
+          "term": "substantial",
+          "meaning": "large or considerable",
+          "example": "The program required a substantial investment."
+        },
+        {
+          "id": "1-v12",
+          "term": "relevant",
+          "meaning": "connected to the topic",
+          "example": "Please include only relevant examples."
+        },
+        {
+          "id": "1-v13",
+          "term": "accurate",
+          "meaning": "correct and precise",
+          "example": "Accurate measurements are essential in this experiment."
+        },
+        {
+          "id": "1-v14",
+          "term": "adequate",
+          "meaning": "sufficient for a particular purpose",
+          "example": "The sample size was adequate for a pilot study."
+        },
+        {
+          "id": "1-v15",
+          "term": "require",
+          "meaning": "need something as necessary",
+          "example": "The experiment requires specialized equipment."
+        },
+        {
+          "id": "1-v16",
+          "term": "establish",
+          "meaning": "show or set up firmly",
+          "example": "The team established a reliable baseline."
+        },
+        {
+          "id": "1-v17",
+          "term": "identify",
+          "meaning": "recognize or name",
+          "example": "Students must identify the author's main argument."
+        },
+        {
+          "id": "1-v18",
+          "term": "interpret",
+          "meaning": "explain the meaning",
+          "example": "Scientists interpret the data differently."
+        },
+        {
+          "id": "1-v19",
+          "term": "evaluate",
+          "meaning": "judge value or effectiveness",
+          "example": "The committee will evaluate the new policy."
+        },
+        {
+          "id": "1-v20",
+          "term": "method",
+          "meaning": "organized way of doing something",
+          "example": "The researchers used a mixed-method approach."
+        },
+        {
+          "id": "1-v21",
+          "term": "process",
+          "meaning": "series of steps or changes",
+          "example": "Photosynthesis is a biological process."
+        },
+        {
+          "id": "1-v22",
+          "term": "context",
+          "meaning": "surrounding situation that shapes meaning",
+          "example": "The word has a different meaning in this context."
+        },
+        {
+          "id": "1-v23",
+          "term": "concept",
+          "meaning": "general idea",
+          "example": "The concept of sustainability appears throughout the lecture."
+        },
+        {
+          "id": "1-v24",
+          "term": "principle",
+          "meaning": "basic rule or belief",
+          "example": "The principle applies to several disciplines."
+        },
+        {
+          "id": "1-v25",
+          "term": "structure",
+          "meaning": "arrangement of parts",
+          "example": "The report follows a clear structure."
+        },
+        {
+          "id": "1-v26",
+          "term": "objective",
+          "meaning": "goal or impartial",
+          "example": "The main objective is to reduce waste."
+        },
+        {
+          "id": "1-v27",
+          "term": "hypothesis",
+          "meaning": "testable proposed explanation",
+          "example": "The hypothesis predicts a rise in temperature."
+        },
+        {
+          "id": "1-v28",
+          "term": "research",
+          "meaning": "systematic investigation",
+          "example": "Recent research challenges the older theory."
+        },
+        {
+          "id": "1-v29",
+          "term": "source",
+          "meaning": "origin of information or material",
+          "example": "Use a credible source when citing statistics."
+        },
+        {
+          "id": "1-v30",
+          "term": "survey",
+          "meaning": "set of questions used to gather information",
+          "example": "A survey was distributed to 200 students."
+        },
+        {
+          "id": "1-v31",
+          "term": "data",
+          "meaning": "recorded information for analysis",
+          "example": "The data were collected over six months."
+        },
+        {
+          "id": "1-v32",
+          "term": "outcome",
+          "meaning": "final result",
+          "example": "The outcome depended on several variables."
+        },
+        {
+          "id": "1-v33",
+          "term": "contribute",
+          "meaning": "help cause or provide",
+          "example": "Transportation can contribute to air pollution."
+        },
+        {
+          "id": "1-v34",
+          "term": "demonstrate",
+          "meaning": "show clearly with evidence",
+          "example": "The trial demonstrates the method's potential."
+        },
+        {
+          "id": "1-v35",
+          "term": "distinguish",
+          "meaning": "recognize differences",
+          "example": "It is important to distinguish correlation from causation."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "1-p1",
+          "term": "conduct research",
+          "meaning": "carry out a study",
+          "example": "The department plans to conduct research on nutrition."
+        },
+        {
+          "id": "1-p2",
+          "term": "draw a conclusion",
+          "meaning": "reach a judgment from evidence",
+          "example": "We should draw a conclusion only after reviewing the data."
+        },
+        {
+          "id": "1-p3",
+          "term": "take into account",
+          "meaning": "consider as part of a decision",
+          "example": "The model takes uncertainty into account."
+        },
+        {
+          "id": "1-p4",
+          "term": "play a crucial role",
+          "meaning": "have a very important function",
+          "example": "Sleep can play a crucial role in memory."
+        },
+        {
+          "id": "1-p5",
+          "term": "provide evidence",
+          "meaning": "offer information supporting a claim",
+          "example": "The survey provides evidence of changing habits."
+        },
+        {
+          "id": "1-p6",
+          "term": "in terms of",
+          "meaning": "with respect to a particular aspect",
+          "example": "The options differ in terms of cost."
+        },
+        {
+          "id": "1-p7",
+          "term": "as a result",
+          "meaning": "because of something previously mentioned",
+          "example": "Demand rose; as a result, prices increased."
+        },
+        {
+          "id": "1-p8",
+          "term": "in addition to",
+          "meaning": "as well as",
+          "example": "In addition to lectures, students attend labs."
+        },
+        {
+          "id": "1-p9",
+          "term": "according to",
+          "meaning": "as stated by a source",
+          "example": "According to the report, enrollment increased."
+        },
+        {
+          "id": "1-p10",
+          "term": "be based on",
+          "meaning": "use as a foundation",
+          "example": "The policy is based on earlier findings."
+        },
+        {
+          "id": "1-p11",
+          "term": "be responsible for",
+          "meaning": "cause or manage something",
+          "example": "The department is responsible for admissions."
+        },
+        {
+          "id": "1-p12",
+          "term": "be associated with",
+          "meaning": "show a connection with",
+          "example": "The symptom may be associated with stress."
+        },
+        {
+          "id": "1-p13",
+          "term": "raise a question",
+          "meaning": "introduce an issue for discussion",
+          "example": "The finding raises a question about reliability."
+        },
+        {
+          "id": "1-p14",
+          "term": "reach an agreement",
+          "meaning": "come to a shared decision",
+          "example": "Both departments reached an agreement."
+        },
+        {
+          "id": "1-p15",
+          "term": "make a distinction",
+          "meaning": "identify an important difference",
+          "example": "We must make a distinction between theory and evidence."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "1-g1",
+          "title": "Complete clauses",
+          "rule": "An independent clause normally contains a subject and a finite verb and can express a complete thought.",
+          "correct": "The experiment produced reliable results.",
+          "incorrect": "Because the experiment produced reliable results.",
+          "explanation": "A dependent because-clause cannot stand alone as a standard sentence."
+        },
+        {
+          "id": "1-g2",
+          "title": "Subject–verb agreement",
+          "rule": "A singular subject generally takes a singular present-tense verb; a plural subject generally takes a plural form.",
+          "correct": "The number of participants is increasing.",
+          "incorrect": "The number of participants are increasing.",
+          "explanation": "The subject is number, not participants."
+        },
+        {
+          "id": "1-g3",
+          "title": "Intervening phrases",
+          "rule": "A prepositional phrase between subject and verb does not change the head subject's number.",
+          "correct": "The quality of the samples is high.",
+          "incorrect": "The quality of the samples are high.",
+          "explanation": "Quality is singular despite the plural noun samples."
+        },
+        {
+          "id": "1-g4",
+          "title": "There is / there are",
+          "rule": "In existential sentences, agree with the noun phrase after the verb.",
+          "correct": "There are several explanations.",
+          "incorrect": "There is several explanations.",
+          "explanation": "Several explanations is plural."
+        },
+        {
+          "id": "1-g5",
+          "title": "Parallel structure",
+          "rule": "Coordinate items of equal function in the same grammatical form.",
+          "correct": "The course teaches reading, writing, and speaking.",
+          "incorrect": "The course teaches reading, writing, and to speak.",
+          "explanation": "The third item should match the other gerunds."
+        }
+      ],
+      "roots": [
+        {
+          "id": "1-r1",
+          "term": "re-",
+          "meaning": "again or back",
+          "example": "review, reconsider"
+        },
+        {
+          "id": "1-r2",
+          "term": "inter-",
+          "meaning": "between",
+          "example": "interact, international"
+        },
+        {
+          "id": "1-r3",
+          "term": "sub-",
+          "meaning": "under or below",
+          "example": "submarine, subsoil"
+        },
+        {
+          "id": "1-r4",
+          "term": "-tion",
+          "meaning": "action or result noun suffix",
+          "example": "investigation, evaluation"
+        },
+        {
+          "id": "1-r5",
+          "term": "-ive",
+          "meaning": "adjective ending relating to a quality",
+          "example": "effective, selective"
+        },
+        {
+          "id": "1-r6",
+          "term": "-sis",
+          "meaning": "process or condition noun ending",
+          "example": "analysis, hypothesis"
+        },
+        {
+          "id": "1-r7",
+          "term": "cred",
+          "meaning": "believe or trust",
+          "example": "credible, credibility"
+        },
+        {
+          "id": "1-r8",
+          "term": "struct",
+          "meaning": "build",
+          "example": "construct, structure"
+        }
+      ],
+      "traps": [
+        {
+          "id": "1-e1",
+          "incorrect": "The results shows improvement.",
+          "correct": "The results show improvement.",
+          "explanation": "Results is a plural subject."
+        },
+        {
+          "id": "1-e2",
+          "incorrect": "Each students has a laptop.",
+          "correct": "Each student has a laptop.",
+          "explanation": "Each modifies a singular count noun."
+        },
+        {
+          "id": "1-e3",
+          "incorrect": "There is many reasons.",
+          "correct": "There are many reasons.",
+          "explanation": "Reasons is plural."
+        },
+        {
+          "id": "1-e4",
+          "incorrect": "She explained me the procedure.",
+          "correct": "She explained the procedure to me.",
+          "explanation": "Explain takes a thing as object and to before the recipient."
+        },
+        {
+          "id": "1-e5",
+          "incorrect": "Researches show this trend.",
+          "correct": "Research shows this trend.",
+          "explanation": "Research is normally uncountable when referring to work generally."
+        },
+        {
+          "id": "1-e6",
+          "incorrect": "The data is accurate in formal scientific usage.",
+          "correct": "The data are accurate in formal scientific usage.",
+          "explanation": "Formal scientific writing often treats data as plural; singular data is also common in broader usage."
+        },
+        {
+          "id": "1-e7",
+          "incorrect": "He discussed about the results.",
+          "correct": "He discussed the results.",
+          "explanation": "Discuss is directly transitive in this meaning."
+        },
+        {
+          "id": "1-e8",
+          "incorrect": "The informations are useful.",
+          "correct": "The information is useful.",
+          "explanation": "Information is an uncountable noun."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tenses and Time",
+      "focus": "Time relationships and evidence in narratives",
+      "words": [
+        {
+          "id": "2-v1",
+          "term": "occur",
+          "meaning": "happen or take place",
+          "example": "The earthquake occurred shortly before dawn."
+        },
+        {
+          "id": "2-v2",
+          "term": "emerge",
+          "meaning": "appear or become known",
+          "example": "A new pattern emerged in the second trial."
+        },
+        {
+          "id": "2-v3",
+          "term": "evolve",
+          "meaning": "change gradually over time",
+          "example": "Language evolves as societies change."
+        },
+        {
+          "id": "2-v4",
+          "term": "persist",
+          "meaning": "continue to exist",
+          "example": "The problem persisted despite the repairs."
+        },
+        {
+          "id": "2-v5",
+          "term": "precede",
+          "meaning": "come before",
+          "example": "A brief introduction precedes the lecture."
+        },
+        {
+          "id": "2-v6",
+          "term": "subsequent",
+          "meaning": "coming afterward",
+          "example": "Subsequent experiments confirmed the result."
+        },
+        {
+          "id": "2-v7",
+          "term": "prior",
+          "meaning": "earlier or previous",
+          "example": "Prior research examined similar questions."
+        },
+        {
+          "id": "2-v8",
+          "term": "initial",
+          "meaning": "first or beginning",
+          "example": "The initial phase lasted three weeks."
+        },
+        {
+          "id": "2-v9",
+          "term": "recent",
+          "meaning": "happening not long ago",
+          "example": "Recent findings suggest a new explanation."
+        },
+        {
+          "id": "2-v10",
+          "term": "current",
+          "meaning": "present or happening now",
+          "example": "The current design uses less energy."
+        },
+        {
+          "id": "2-v11",
+          "term": "former",
+          "meaning": "earlier of two or previously holding a role",
+          "example": "The former approach was more expensive."
+        },
+        {
+          "id": "2-v12",
+          "term": "latter",
+          "meaning": "second of two items mentioned",
+          "example": "Of the two methods, the latter was faster."
+        },
+        {
+          "id": "2-v13",
+          "term": "gradual",
+          "meaning": "happening in small stages",
+          "example": "The glacier underwent gradual retreat."
+        },
+        {
+          "id": "2-v14",
+          "term": "rapid",
+          "meaning": "happening quickly",
+          "example": "The population experienced rapid growth."
+        },
+        {
+          "id": "2-v15",
+          "term": "temporary",
+          "meaning": "lasting only a limited time",
+          "example": "The shortage was temporary."
+        },
+        {
+          "id": "2-v16",
+          "term": "permanent",
+          "meaning": "continuing indefinitely",
+          "example": "The flood caused permanent damage."
+        },
+        {
+          "id": "2-v17",
+          "term": "duration",
+          "meaning": "length of time",
+          "example": "The duration of the treatment was eight weeks."
+        },
+        {
+          "id": "2-v18",
+          "term": "interval",
+          "meaning": "time or space between events",
+          "example": "Measurements were taken at regular intervals."
+        },
+        {
+          "id": "2-v19",
+          "term": "phase",
+          "meaning": "stage in a process",
+          "example": "The project entered its final phase."
+        },
+        {
+          "id": "2-v20",
+          "term": "transition",
+          "meaning": "change from one state to another",
+          "example": "The transition took several years."
+        },
+        {
+          "id": "2-v21",
+          "term": "generation",
+          "meaning": "people born around the same period",
+          "example": "Each generation faces different challenges."
+        },
+        {
+          "id": "2-v22",
+          "term": "period",
+          "meaning": "span of time",
+          "example": "The region experienced a prolonged dry period."
+        },
+        {
+          "id": "2-v23",
+          "term": "sequence",
+          "meaning": "specific order of events",
+          "example": "The sequence of events was unclear."
+        },
+        {
+          "id": "2-v24",
+          "term": "schedule",
+          "meaning": "plan assigning times",
+          "example": "The seminar schedule changed yesterday."
+        },
+        {
+          "id": "2-v25",
+          "term": "deadline",
+          "meaning": "last acceptable time",
+          "example": "The scholarship deadline is Friday."
+        },
+        {
+          "id": "2-v26",
+          "term": "postpone",
+          "meaning": "delay until a later time",
+          "example": "The department postponed the workshop."
+        },
+        {
+          "id": "2-v27",
+          "term": "resume",
+          "meaning": "begin again after stopping",
+          "example": "Classes will resume next week."
+        },
+        {
+          "id": "2-v28",
+          "term": "maintain",
+          "meaning": "keep something at the same level",
+          "example": "The machine maintains a constant temperature."
+        },
+        {
+          "id": "2-v29",
+          "term": "decline",
+          "meaning": "become smaller or less",
+          "example": "The species began to decline."
+        },
+        {
+          "id": "2-v30",
+          "term": "fluctuate",
+          "meaning": "change irregularly",
+          "example": "Energy prices fluctuate throughout the year."
+        },
+        {
+          "id": "2-v31",
+          "term": "accelerate",
+          "meaning": "cause to move or develop faster",
+          "example": "Higher temperatures can accelerate evaporation."
+        },
+        {
+          "id": "2-v32",
+          "term": "stabilize",
+          "meaning": "become steady",
+          "example": "The readings stabilized after ten minutes."
+        },
+        {
+          "id": "2-v33",
+          "term": "monitor",
+          "meaning": "observe over time",
+          "example": "Researchers monitored air quality daily."
+        },
+        {
+          "id": "2-v34",
+          "term": "anticipate",
+          "meaning": "expect in advance",
+          "example": "The team anticipated several difficulties."
+        },
+        {
+          "id": "2-v35",
+          "term": "eventually",
+          "meaning": "in the end after some time",
+          "example": "The soil eventually recovered."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "2-p1",
+          "term": "over time",
+          "meaning": "gradually as time passes",
+          "example": "The species adapted over time."
+        },
+        {
+          "id": "2-p2",
+          "term": "by the time",
+          "meaning": "before or not later than a particular moment",
+          "example": "By the time we arrived, the talk had begun."
+        },
+        {
+          "id": "2-p3",
+          "term": "so far",
+          "meaning": "up to the present",
+          "example": "So far, the team has interviewed 40 people."
+        },
+        {
+          "id": "2-p4",
+          "term": "in recent years",
+          "meaning": "during the recent past",
+          "example": "In recent years, renewable energy has expanded."
+        },
+        {
+          "id": "2-p5",
+          "term": "at present",
+          "meaning": "currently",
+          "example": "At present, the library closes at nine."
+        },
+        {
+          "id": "2-p6",
+          "term": "for the past decade",
+          "meaning": "throughout the previous ten years",
+          "example": "The city has expanded for the past decade."
+        },
+        {
+          "id": "2-p7",
+          "term": "in the long term",
+          "meaning": "over an extended future period",
+          "example": "The policy could save money in the long term."
+        },
+        {
+          "id": "2-p8",
+          "term": "in the short term",
+          "meaning": "over the near future",
+          "example": "In the short term, repairs will disrupt traffic."
+        },
+        {
+          "id": "2-p9",
+          "term": "on a regular basis",
+          "meaning": "repeatedly according to a schedule",
+          "example": "The samples are checked on a regular basis."
+        },
+        {
+          "id": "2-p10",
+          "term": "ahead of schedule",
+          "meaning": "earlier than planned",
+          "example": "The renovation finished ahead of schedule."
+        },
+        {
+          "id": "2-p11",
+          "term": "fall behind",
+          "meaning": "make slower progress than expected",
+          "example": "Some students fall behind when they miss classes."
+        },
+        {
+          "id": "2-p12",
+          "term": "catch up with",
+          "meaning": "reach the same level as",
+          "example": "She worked hard to catch up with her classmates."
+        },
+        {
+          "id": "2-p13",
+          "term": "in advance",
+          "meaning": "before the event",
+          "example": "Please register in advance."
+        },
+        {
+          "id": "2-p14",
+          "term": "from time to time",
+          "meaning": "occasionally",
+          "example": "The temperature changes from time to time."
+        },
+        {
+          "id": "2-p15",
+          "term": "as soon as",
+          "meaning": "immediately when",
+          "example": "Call the office as soon as you receive the letter."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "2-g1",
+          "title": "Present simple versus continuous",
+          "rule": "Use present simple for habits and general truths; present continuous for an action in progress or temporary situation.",
+          "correct": "The laboratory tests samples every week.",
+          "incorrect": "The laboratory is testing samples every week as a permanent rule.",
+          "explanation": "A permanent routine is usually expressed with simple present."
+        },
+        {
+          "id": "2-g2",
+          "title": "Simple past",
+          "rule": "A finished action at a specific past time normally takes the past simple.",
+          "correct": "The team published the paper in 2022.",
+          "incorrect": "The team has published the paper in 2022.",
+          "explanation": "A specific finished year favors simple past."
+        },
+        {
+          "id": "2-g3",
+          "title": "Present perfect",
+          "rule": "Use have/has + past participle for relevant experience or changes through the present, without a specified finished past time.",
+          "correct": "Researchers have identified three patterns so far.",
+          "incorrect": "Researchers identified three patterns so far.",
+          "explanation": "So far describes an unfinished period up to now."
+        },
+        {
+          "id": "2-g4",
+          "title": "Past perfect",
+          "rule": "Use had + past participle to show an action completed before another past event.",
+          "correct": "The lecture had started before we arrived.",
+          "incorrect": "The lecture has started before we arrived yesterday.",
+          "explanation": "Both events are located in the past, with one earlier."
+        },
+        {
+          "id": "2-g5",
+          "title": "Time clauses",
+          "rule": "In future-time clauses after when/as soon as/until, use present tense for the future condition.",
+          "correct": "We will begin when everyone arrives.",
+          "incorrect": "We will begin when everyone will arrive.",
+          "explanation": "The main clause can use will, but a future-time when-clause usually uses present simple."
+        }
+      ],
+      "roots": [
+        {
+          "id": "2-r1",
+          "term": "chron",
+          "meaning": "time",
+          "example": "chronology, chronic"
+        },
+        {
+          "id": "2-r2",
+          "term": "pre-",
+          "meaning": "before",
+          "example": "preview, prehistoric"
+        },
+        {
+          "id": "2-r3",
+          "term": "post-",
+          "meaning": "after",
+          "example": "postgraduate, postwar"
+        },
+        {
+          "id": "2-r4",
+          "term": "trans-",
+          "meaning": "across or change",
+          "example": "transfer, transition"
+        },
+        {
+          "id": "2-r5",
+          "term": "ante-",
+          "meaning": "before",
+          "example": "antecedent, antecedent"
+        },
+        {
+          "id": "2-r6",
+          "term": "-ment",
+          "meaning": "state or result noun suffix",
+          "example": "development, adjustment"
+        },
+        {
+          "id": "2-r7",
+          "term": "-ly",
+          "meaning": "often an adverb ending",
+          "example": "gradually, recently"
+        },
+        {
+          "id": "2-r8",
+          "term": "temp",
+          "meaning": "time",
+          "example": "temporary, contemporary"
+        }
+      ],
+      "traps": [
+        {
+          "id": "2-e1",
+          "incorrect": "I have visited the museum yesterday.",
+          "correct": "I visited the museum yesterday.",
+          "explanation": "A definite completed past time normally takes simple past."
+        },
+        {
+          "id": "2-e2",
+          "incorrect": "He is knowing the answer.",
+          "correct": "He knows the answer.",
+          "explanation": "Know is usually a stative verb."
+        },
+        {
+          "id": "2-e3",
+          "incorrect": "When she will arrive, we will start.",
+          "correct": "When she arrives, we will start.",
+          "explanation": "Future time clause uses present."
+        },
+        {
+          "id": "2-e4",
+          "incorrect": "I am living here since 2020.",
+          "correct": "I have lived here since 2020.",
+          "explanation": "Since marks a starting point continuing to now."
+        },
+        {
+          "id": "2-e5",
+          "incorrect": "The experiment had began.",
+          "correct": "The experiment had begun.",
+          "explanation": "Use past participle begun after had."
+        },
+        {
+          "id": "2-e6",
+          "incorrect": "She has been here since three hours.",
+          "correct": "She has been here for three hours.",
+          "explanation": "For marks duration; since marks the starting point."
+        },
+        {
+          "id": "2-e7",
+          "incorrect": "I used to studying late.",
+          "correct": "I used to study late.",
+          "explanation": "Used to takes the base verb."
+        },
+        {
+          "id": "2-e8",
+          "incorrect": "The class starts in 8 p.m.",
+          "correct": "The class starts at 8 p.m.",
+          "explanation": "Use at for exact clock times."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nouns and Precision",
+      "focus": "Articles, countability, quantities and meaningful distinctions",
+      "words": [
+        {
+          "id": "3-v1",
+          "term": "proportion",
+          "meaning": "part compared with the whole",
+          "example": "A large proportion of students commute."
+        },
+        {
+          "id": "3-v2",
+          "term": "percentage",
+          "meaning": "part out of one hundred",
+          "example": "The percentage increased from 20 to 30."
+        },
+        {
+          "id": "3-v3",
+          "term": "majority",
+          "meaning": "more than half",
+          "example": "The majority of respondents preferred option A."
+        },
+        {
+          "id": "3-v4",
+          "term": "minority",
+          "meaning": "smaller group or share",
+          "example": "Only a minority supported the change."
+        },
+        {
+          "id": "3-v5",
+          "term": "quantity",
+          "meaning": "amount or number",
+          "example": "The quantity of waste has decreased."
+        },
+        {
+          "id": "3-v6",
+          "term": "amount",
+          "meaning": "total quantity of uncountable material",
+          "example": "The amount of rainfall varied."
+        },
+        {
+          "id": "3-v7",
+          "term": "number",
+          "meaning": "count of individual things",
+          "example": "The number of applicants doubled."
+        },
+        {
+          "id": "3-v8",
+          "term": "range",
+          "meaning": "set of values between limits",
+          "example": "The temperatures covered a wide range."
+        },
+        {
+          "id": "3-v9",
+          "term": "volume",
+          "meaning": "quantity of space occupied",
+          "example": "The tank has a volume of ten liters."
+        },
+        {
+          "id": "3-v10",
+          "term": "capacity",
+          "meaning": "maximum amount held or ability",
+          "example": "The auditorium reached full capacity."
+        },
+        {
+          "id": "3-v11",
+          "term": "resource",
+          "meaning": "something useful or available",
+          "example": "Fresh water is a limited resource."
+        },
+        {
+          "id": "3-v12",
+          "term": "equipment",
+          "meaning": "tools used for a purpose",
+          "example": "The laboratory purchased new equipment."
+        },
+        {
+          "id": "3-v13",
+          "term": "material",
+          "meaning": "substance used to make something",
+          "example": "The bridge uses recycled material."
+        },
+        {
+          "id": "3-v14",
+          "term": "substance",
+          "meaning": "material with particular properties",
+          "example": "The substance reacts with water."
+        },
+        {
+          "id": "3-v15",
+          "term": "phenomenon",
+          "meaning": "observable event or occurrence",
+          "example": "The phenomenon attracted scientific interest."
+        },
+        {
+          "id": "3-v16",
+          "term": "criterion",
+          "meaning": "standard used to judge",
+          "example": "Cost was the main criterion."
+        },
+        {
+          "id": "3-v17",
+          "term": "analysis",
+          "meaning": "detailed examination",
+          "example": "The analysis revealed an unexpected pattern."
+        },
+        {
+          "id": "3-v18",
+          "term": "basis",
+          "meaning": "main foundation or reason",
+          "example": "The policy has a scientific basis."
+        },
+        {
+          "id": "3-v19",
+          "term": "category",
+          "meaning": "class of related things",
+          "example": "Each response fits into one category."
+        },
+        {
+          "id": "3-v20",
+          "term": "type",
+          "meaning": "kind or class",
+          "example": "This type of soil retains moisture."
+        },
+        {
+          "id": "3-v21",
+          "term": "variety",
+          "meaning": "different forms or types",
+          "example": "The garden contains a variety of plants."
+        },
+        {
+          "id": "3-v22",
+          "term": "component",
+          "meaning": "part of a larger system",
+          "example": "Memory is a key component of learning."
+        },
+        {
+          "id": "3-v23",
+          "term": "element",
+          "meaning": "basic part",
+          "example": "Trust is an essential element of teamwork."
+        },
+        {
+          "id": "3-v24",
+          "term": "aspect",
+          "meaning": "particular feature of something",
+          "example": "One aspect of the project needs revision."
+        },
+        {
+          "id": "3-v25",
+          "term": "property",
+          "meaning": "characteristic of something",
+          "example": "Elasticity is a physical property."
+        },
+        {
+          "id": "3-v26",
+          "term": "characteristic",
+          "meaning": "typical feature",
+          "example": "Curiosity is a common characteristic of children."
+        },
+        {
+          "id": "3-v27",
+          "term": "distribution",
+          "meaning": "way things are spread",
+          "example": "The distribution of income differs by region."
+        },
+        {
+          "id": "3-v28",
+          "term": "frequency",
+          "meaning": "how often something happens",
+          "example": "The frequency of storms increased."
+        },
+        {
+          "id": "3-v29",
+          "term": "ratio",
+          "meaning": "relationship between two quantities",
+          "example": "The ratio of teachers to students is one to twenty."
+        },
+        {
+          "id": "3-v30",
+          "term": "average",
+          "meaning": "typical value calculated from a group",
+          "example": "The average score rose slightly."
+        },
+        {
+          "id": "3-v31",
+          "term": "approximate",
+          "meaning": "close to but not exact",
+          "example": "The approximate cost is $200."
+        },
+        {
+          "id": "3-v32",
+          "term": "precise",
+          "meaning": "exact and clearly defined",
+          "example": "The device provides precise readings."
+        },
+        {
+          "id": "3-v33",
+          "term": "sufficient",
+          "meaning": "enough for a purpose",
+          "example": "The available data are sufficient for comparison."
+        },
+        {
+          "id": "3-v34",
+          "term": "numerous",
+          "meaning": "many in number",
+          "example": "Numerous studies address the same issue."
+        },
+        {
+          "id": "3-v35",
+          "term": "scarce",
+          "meaning": "limited or hard to obtain",
+          "example": "Clean drinking water is scarce in the area."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "3-p1",
+          "term": "a large proportion of",
+          "meaning": "a significant share",
+          "example": "A large proportion of residents use public transport."
+        },
+        {
+          "id": "3-p2",
+          "term": "a wide range of",
+          "meaning": "many different types",
+          "example": "The course covers a wide range of topics."
+        },
+        {
+          "id": "3-p3",
+          "term": "a great deal of",
+          "meaning": "a large amount of",
+          "example": "The study required a great deal of effort."
+        },
+        {
+          "id": "3-p4",
+          "term": "a number of",
+          "meaning": "several",
+          "example": "A number of students volunteered."
+        },
+        {
+          "id": "3-p5",
+          "term": "the number of",
+          "meaning": "the count of",
+          "example": "The number of visitors has increased."
+        },
+        {
+          "id": "3-p6",
+          "term": "an amount of",
+          "meaning": "a quantity of uncountable material",
+          "example": "Only a small amount of water remained."
+        },
+        {
+          "id": "3-p7",
+          "term": "a piece of evidence",
+          "meaning": "one item of supporting information",
+          "example": "The report contained a useful piece of evidence."
+        },
+        {
+          "id": "3-p8",
+          "term": "a body of research",
+          "meaning": "a collection of related studies",
+          "example": "A body of research supports the claim."
+        },
+        {
+          "id": "3-p9",
+          "term": "on average",
+          "meaning": "considering a typical or mean value",
+          "example": "On average, students spent two hours commuting."
+        },
+        {
+          "id": "3-p10",
+          "term": "in total",
+          "meaning": "altogether",
+          "example": "In total, 120 participants completed the task."
+        },
+        {
+          "id": "3-p11",
+          "term": "at least",
+          "meaning": "not less than",
+          "example": "Each applicant needs at least two references."
+        },
+        {
+          "id": "3-p12",
+          "term": "no more than",
+          "meaning": "at most",
+          "example": "The talk should last no more than five minutes."
+        },
+        {
+          "id": "3-p13",
+          "term": "as many as",
+          "meaning": "up to a surprisingly high count",
+          "example": "As many as 300 people attended."
+        },
+        {
+          "id": "3-p14",
+          "term": "in comparison with",
+          "meaning": "when measured against",
+          "example": "In comparison with last year, costs fell."
+        },
+        {
+          "id": "3-p15",
+          "term": "with regard to",
+          "meaning": "concerning",
+          "example": "With regard to safety, the new design is better."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "3-g1",
+          "title": "Countable versus uncountable",
+          "rule": "Use many/few with count nouns and much/little with uncountable nouns.",
+          "correct": "Much information is available.",
+          "incorrect": "Many informations are available.",
+          "explanation": "Information is uncountable in standard English."
+        },
+        {
+          "id": "3-g2",
+          "title": "A/an and the",
+          "rule": "A/an introduces a singular count noun not identified to the listener; the identifies a specific or known referent.",
+          "correct": "A researcher conducted the study.",
+          "incorrect": "Researcher conducted the study.",
+          "explanation": "A singular count noun usually needs a determiner."
+        },
+        {
+          "id": "3-g3",
+          "title": "Zero article",
+          "rule": "Plural and uncountable nouns can express broad generalizations without an article.",
+          "correct": "Technology changes rapidly.",
+          "incorrect": "The technology changes rapidly as a universal generalization.",
+          "explanation": "Use zero article for technology in general; the technology can be correct for a specific technology."
+        },
+        {
+          "id": "3-g4",
+          "title": "Quantifier agreement",
+          "rule": "A number of + plural noun typically takes plural; the number of + plural noun takes singular.",
+          "correct": "A number of students are absent.",
+          "incorrect": "A number of students is absent.",
+          "explanation": "A number of means several and takes plural agreement."
+        },
+        {
+          "id": "3-g5",
+          "title": "Irregular plurals",
+          "rule": "Some Latin/Greek-origin nouns have irregular scholarly plurals; check the intended style and usage.",
+          "correct": "Several criteria were applied.",
+          "incorrect": "Several criterias were applied.",
+          "explanation": "Criteria is already plural; criterion is singular."
+        }
+      ],
+      "roots": [
+        {
+          "id": "3-r1",
+          "term": "multi-",
+          "meaning": "many",
+          "example": "multicultural, multiple"
+        },
+        {
+          "id": "3-r2",
+          "term": "mono-",
+          "meaning": "one",
+          "example": "monologue, monochrome"
+        },
+        {
+          "id": "3-r3",
+          "term": "bi-",
+          "meaning": "two",
+          "example": "bilingual, bilateral"
+        },
+        {
+          "id": "3-r4",
+          "term": "poly-",
+          "meaning": "many",
+          "example": "polygon, polytechnic"
+        },
+        {
+          "id": "3-r5",
+          "term": "-ity",
+          "meaning": "quality or state noun ending",
+          "example": "capacity, stability"
+        },
+        {
+          "id": "3-r6",
+          "term": "-ance",
+          "meaning": "state or quality noun ending",
+          "example": "importance, relevance"
+        },
+        {
+          "id": "3-r7",
+          "term": "-ous",
+          "meaning": "characterized by adjective ending",
+          "example": "numerous, hazardous"
+        },
+        {
+          "id": "3-r8",
+          "term": "quant",
+          "meaning": "how much",
+          "example": "quantity, quantitative"
+        }
+      ],
+      "traps": [
+        {
+          "id": "3-e1",
+          "incorrect": "Many equipments are missing.",
+          "correct": "Several pieces of equipment are missing.",
+          "explanation": "Equipment is uncountable."
+        },
+        {
+          "id": "3-e2",
+          "incorrect": "The researches were convincing.",
+          "correct": "The research findings were convincing.",
+          "explanation": "Research generally is uncountable."
+        },
+        {
+          "id": "3-e3",
+          "incorrect": "An university opened nearby.",
+          "correct": "A university opened nearby.",
+          "explanation": "Choose a based on consonant sound /juː/."
+        },
+        {
+          "id": "3-e4",
+          "incorrect": "These criterias are important.",
+          "correct": "These criteria are important.",
+          "explanation": "Criteria is the plural of criterion."
+        },
+        {
+          "id": "3-e5",
+          "incorrect": "The number of respondents are rising.",
+          "correct": "The number of respondents is rising.",
+          "explanation": "Head subject number is singular."
+        },
+        {
+          "id": "3-e6",
+          "incorrect": "Less students attended.",
+          "correct": "Fewer students attended.",
+          "explanation": "Fewer is preferred with countable people."
+        },
+        {
+          "id": "3-e7",
+          "incorrect": "I need an advice.",
+          "correct": "I need some advice.",
+          "explanation": "Advice is uncountable."
+        },
+        {
+          "id": "3-e8",
+          "incorrect": "There are many phenomenons.",
+          "correct": "There are many phenomena.",
+          "explanation": "Phenomena is the plural of phenomenon."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Complex Sentences",
+      "focus": "Logical connections, clauses and academic cohesion",
+      "words": [
+        {
+          "id": "4-v1",
+          "term": "although",
+          "meaning": "despite the fact that",
+          "example": "Although costs rose, demand remained steady."
+        },
+        {
+          "id": "4-v2",
+          "term": "whereas",
+          "meaning": "in contrast with the fact that",
+          "example": "The first model is cheap, whereas the second is durable."
+        },
+        {
+          "id": "4-v3",
+          "term": "nevertheless",
+          "meaning": "despite what was just said",
+          "example": "The results were uncertain; nevertheless, the trial continued."
+        },
+        {
+          "id": "4-v4",
+          "term": "however",
+          "meaning": "introduces a contrast",
+          "example": "The method is efficient; however, it is expensive."
+        },
+        {
+          "id": "4-v5",
+          "term": "therefore",
+          "meaning": "for that reason",
+          "example": "The sample was contaminated; therefore, the results were discarded."
+        },
+        {
+          "id": "4-v6",
+          "term": "consequently",
+          "meaning": "as a direct result",
+          "example": "The road closed; consequently, traffic increased."
+        },
+        {
+          "id": "4-v7",
+          "term": "furthermore",
+          "meaning": "adding important information",
+          "example": "The library is accessible; furthermore, it stays open late."
+        },
+        {
+          "id": "4-v8",
+          "term": "moreover",
+          "meaning": "in addition and often emphatically",
+          "example": "The device is reliable; moreover, it is inexpensive."
+        },
+        {
+          "id": "4-v9",
+          "term": "nonetheless",
+          "meaning": "in spite of that",
+          "example": "The challenge was substantial; nonetheless, they succeeded."
+        },
+        {
+          "id": "4-v10",
+          "term": "despite",
+          "meaning": "without being prevented by",
+          "example": "Despite the rain, the event continued."
+        },
+        {
+          "id": "4-v11",
+          "term": "because",
+          "meaning": "for the reason that",
+          "example": "Plants grew slowly because the soil was poor."
+        },
+        {
+          "id": "4-v12",
+          "term": "since",
+          "meaning": "because or from a time",
+          "example": "Since the evidence was weak, the claim was revised."
+        },
+        {
+          "id": "4-v13",
+          "term": "unless",
+          "meaning": "except if",
+          "example": "The trip will proceed unless conditions worsen."
+        },
+        {
+          "id": "4-v14",
+          "term": "provided",
+          "meaning": "on the condition that",
+          "example": "Students may enroll provided they meet the requirements."
+        },
+        {
+          "id": "4-v15",
+          "term": "regardless",
+          "meaning": "without being affected by",
+          "example": "The results matter regardless of the method used."
+        },
+        {
+          "id": "4-v16",
+          "term": "otherwise",
+          "meaning": "if not, or in a different way",
+          "example": "Submit the form today; otherwise, your application may be delayed."
+        },
+        {
+          "id": "4-v17",
+          "term": "likewise",
+          "meaning": "in a similar way",
+          "example": "The first group improved; likewise, the second group improved."
+        },
+        {
+          "id": "4-v18",
+          "term": "similarly",
+          "meaning": "in much the same way",
+          "example": "Similarly, the later study reported a small effect."
+        },
+        {
+          "id": "4-v19",
+          "term": "conversely",
+          "meaning": "in the opposite direction or relation",
+          "example": "More insulation reduces heat loss; conversely, poor insulation increases it."
+        },
+        {
+          "id": "4-v20",
+          "term": "alternatively",
+          "meaning": "as another option",
+          "example": "Alternatively, students can attend online."
+        },
+        {
+          "id": "4-v21",
+          "term": "specifically",
+          "meaning": "in a particular or exact way",
+          "example": "The grant supports science, specifically ecological research."
+        },
+        {
+          "id": "4-v22",
+          "term": "namely",
+          "meaning": "that is to say",
+          "example": "The paper focuses on one problem, namely water scarcity."
+        },
+        {
+          "id": "4-v23",
+          "term": "indeed",
+          "meaning": "in fact, for emphasis",
+          "example": "The pattern is complex; indeed, several factors interact."
+        },
+        {
+          "id": "4-v24",
+          "term": "hence",
+          "meaning": "therefore or from this cause",
+          "example": "The equipment failed; hence the delay."
+        },
+        {
+          "id": "4-v25",
+          "term": "thus",
+          "meaning": "as a result or in this manner",
+          "example": "The data were incomplete; thus, no conclusion was drawn."
+        },
+        {
+          "id": "4-v26",
+          "term": "in contrast",
+          "meaning": "showing difference",
+          "example": "In contrast, rural communities saw slower growth."
+        },
+        {
+          "id": "4-v27",
+          "term": "accordingly",
+          "meaning": "in a way that follows",
+          "example": "The timetable changed; accordingly, the meeting moved."
+        },
+        {
+          "id": "4-v28",
+          "term": "meanwhile",
+          "meaning": "during the same period",
+          "example": "Meanwhile, a second team collected samples."
+        },
+        {
+          "id": "4-v29",
+          "term": "subsequently",
+          "meaning": "afterward",
+          "example": "Subsequently, the participants completed a questionnaire."
+        },
+        {
+          "id": "4-v30",
+          "term": "ultimately",
+          "meaning": "in the final outcome",
+          "example": "Ultimately, the committee rejected the plan."
+        },
+        {
+          "id": "4-v31",
+          "term": "clarify",
+          "meaning": "make easier to understand",
+          "example": "The professor clarified the distinction."
+        },
+        {
+          "id": "4-v32",
+          "term": "imply",
+          "meaning": "suggest without stating directly",
+          "example": "The data imply a possible connection."
+        },
+        {
+          "id": "4-v33",
+          "term": "infer",
+          "meaning": "reach a conclusion from evidence",
+          "example": "Readers can infer the author's position."
+        },
+        {
+          "id": "4-v34",
+          "term": "justify",
+          "meaning": "provide good reasons for",
+          "example": "The report must justify the expense."
+        },
+        {
+          "id": "4-v35",
+          "term": "contradict",
+          "meaning": "be inconsistent with",
+          "example": "The new result appears to contradict the theory."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "4-p1",
+          "term": "even though",
+          "meaning": "although with emphasis",
+          "example": "Even though costs increased, attendance remained stable."
+        },
+        {
+          "id": "4-p2",
+          "term": "in spite of",
+          "meaning": "despite something",
+          "example": "In spite of setbacks, the project progressed."
+        },
+        {
+          "id": "4-p3",
+          "term": "on the other hand",
+          "meaning": "introduce an opposing consideration",
+          "example": "The apartment is spacious; on the other hand, it is expensive."
+        },
+        {
+          "id": "4-p4",
+          "term": "by contrast",
+          "meaning": "in comparison showing difference",
+          "example": "By contrast, the second group improved."
+        },
+        {
+          "id": "4-p5",
+          "term": "in other words",
+          "meaning": "express the same idea differently",
+          "example": "The effect was negligible; in other words, it was very small."
+        },
+        {
+          "id": "4-p6",
+          "term": "for instance",
+          "meaning": "introduce an example",
+          "example": "For instance, solar panels reduce fuel use."
+        },
+        {
+          "id": "4-p7",
+          "term": "as a consequence",
+          "meaning": "as a result",
+          "example": "The lake dried up; as a consequence, fish populations declined."
+        },
+        {
+          "id": "4-p8",
+          "term": "owing to",
+          "meaning": "because of",
+          "example": "The lecture was canceled owing to illness."
+        },
+        {
+          "id": "4-p9",
+          "term": "due to",
+          "meaning": "because of",
+          "example": "The delay was due to heavy traffic."
+        },
+        {
+          "id": "4-p10",
+          "term": "as long as",
+          "meaning": "provided that",
+          "example": "You may borrow the book as long as you return it."
+        },
+        {
+          "id": "4-p11",
+          "term": "in case",
+          "meaning": "as a precaution against",
+          "example": "Take notes in case you forget the details."
+        },
+        {
+          "id": "4-p12",
+          "term": "in order to",
+          "meaning": "for the purpose of",
+          "example": "Researchers repeated the trial in order to verify it."
+        },
+        {
+          "id": "4-p13",
+          "term": "rather than",
+          "meaning": "instead of",
+          "example": "Choose evidence rather than speculation."
+        },
+        {
+          "id": "4-p14",
+          "term": "not only ... but also",
+          "meaning": "add two related emphatic points",
+          "example": "The plan is not only affordable but also effective."
+        },
+        {
+          "id": "4-p15",
+          "term": "on the contrary",
+          "meaning": "correct a directly opposing suggestion",
+          "example": "The experiment was not a failure; on the contrary, it yielded useful results."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "4-g1",
+          "title": "Although versus despite",
+          "rule": "Although takes a clause; despite takes a noun phrase or -ing clause.",
+          "correct": "Although it rained, we continued.",
+          "incorrect": "Despite it rained, we continued.",
+          "explanation": "Use despite the rain or despite the fact that it rained."
+        },
+        {
+          "id": "4-g2",
+          "title": "Because versus because of",
+          "rule": "Because introduces a clause; because of introduces a noun phrase.",
+          "correct": "We stayed inside because it was raining.",
+          "incorrect": "We stayed inside because of it was raining.",
+          "explanation": "Because of needs a noun phrase, such as because of the rain."
+        },
+        {
+          "id": "4-g3",
+          "title": "Semicolon transitions",
+          "rule": "A conjunctive adverb such as however often follows a semicolon and precedes a comma between independent clauses.",
+          "correct": "The sample was small; however, results were promising.",
+          "incorrect": "The sample was small, however results were promising.",
+          "explanation": "A comma alone cannot join independent clauses this way."
+        },
+        {
+          "id": "4-g4",
+          "title": "Relative pronouns",
+          "rule": "Use who for people and which/that for things in ordinary restrictive clauses.",
+          "correct": "The student who called yesterday has arrived.",
+          "incorrect": "The student which called yesterday has arrived.",
+          "explanation": "Who refers to people here."
+        },
+        {
+          "id": "4-g5",
+          "title": "Condition versus result",
+          "rule": "If/unless clauses express conditions; the main clause expresses consequences.",
+          "correct": "Unless the data improve, the claim will remain uncertain.",
+          "incorrect": "Unless the data will improve, the claim will remain uncertain.",
+          "explanation": "Future conditions usually use present simple within the unless clause."
+        }
+      ],
+      "roots": [
+        {
+          "id": "4-r1",
+          "term": "con-",
+          "meaning": "together or with",
+          "example": "connect, combine"
+        },
+        {
+          "id": "4-r2",
+          "term": "contra-",
+          "meaning": "against",
+          "example": "contradict, contrast"
+        },
+        {
+          "id": "4-r3",
+          "term": "dis-",
+          "meaning": "apart or reversal",
+          "example": "disagree, disconnect"
+        },
+        {
+          "id": "4-r4",
+          "term": "-ly",
+          "meaning": "frequent adverb ending",
+          "example": "consequently, similarly"
+        },
+        {
+          "id": "4-r5",
+          "term": "-ify",
+          "meaning": "make or cause to become",
+          "example": "clarify, simplify"
+        },
+        {
+          "id": "4-r6",
+          "term": "log",
+          "meaning": "word or reason",
+          "example": "logic, dialogue"
+        },
+        {
+          "id": "4-r7",
+          "term": "sequ",
+          "meaning": "follow",
+          "example": "sequence, subsequent"
+        },
+        {
+          "id": "4-r8",
+          "term": "-ive",
+          "meaning": "adjective suffix",
+          "example": "alternative, consecutive"
+        }
+      ],
+      "traps": [
+        {
+          "id": "4-e1",
+          "incorrect": "Despite he was tired, he continued.",
+          "correct": "Although he was tired, he continued.",
+          "explanation": "Despite cannot directly introduce a finite clause."
+        },
+        {
+          "id": "4-e2",
+          "incorrect": "Although the cost was high, but they agreed.",
+          "correct": "Although the cost was high, they agreed.",
+          "explanation": "Do not add but to an although subordinate clause."
+        },
+        {
+          "id": "4-e3",
+          "incorrect": "Because of she arrived late, she missed it.",
+          "correct": "Because she arrived late, she missed it.",
+          "explanation": "Because of requires a noun phrase."
+        },
+        {
+          "id": "4-e4",
+          "incorrect": "The results improved, however problems remain.",
+          "correct": "The results improved; however, problems remain.",
+          "explanation": "Use a semicolon or period before however joining clauses."
+        },
+        {
+          "id": "4-e5",
+          "incorrect": "The report which I read it was useful.",
+          "correct": "The report which I read was useful.",
+          "explanation": "Remove redundant object pronoun it."
+        },
+        {
+          "id": "4-e6",
+          "incorrect": "Unless you will study, you will fail.",
+          "correct": "Unless you study, you will fail.",
+          "explanation": "Use present simple in future-condition clause."
+        },
+        {
+          "id": "4-e7",
+          "incorrect": "He is interested to science.",
+          "correct": "He is interested in science.",
+          "explanation": "Interested takes in for a field or subject."
+        },
+        {
+          "id": "4-e8",
+          "incorrect": "In the other hand, the price is high.",
+          "correct": "On the other hand, the price is high.",
+          "explanation": "Fixed transition is on the other hand."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Advanced Academic Expression",
+      "focus": "Passive voice, hedging, evaluation and argument",
+      "words": [
+        {
+          "id": "5-v1",
+          "term": "attribute",
+          "meaning": "explain a result as caused by",
+          "example": "The increase was attributed to better training."
+        },
+        {
+          "id": "5-v2",
+          "term": "demonstrate",
+          "meaning": "provide clear proof or an example",
+          "example": "The tests demonstrate a measurable benefit."
+        },
+        {
+          "id": "5-v3",
+          "term": "suggest",
+          "meaning": "indicate as a possibility",
+          "example": "The findings suggest a relationship."
+        },
+        {
+          "id": "5-v4",
+          "term": "propose",
+          "meaning": "put forward for consideration",
+          "example": "The researchers propose a revised model."
+        },
+        {
+          "id": "5-v5",
+          "term": "argue",
+          "meaning": "give reasons supporting a claim",
+          "example": "Some scholars argue that the method is outdated."
+        },
+        {
+          "id": "5-v6",
+          "term": "claim",
+          "meaning": "state something as true, sometimes without proof",
+          "example": "The article claims the process is harmless."
+        },
+        {
+          "id": "5-v7",
+          "term": "contend",
+          "meaning": "maintain an argument or position",
+          "example": "Critics contend that the costs were underestimated."
+        },
+        {
+          "id": "5-v8",
+          "term": "assert",
+          "meaning": "state confidently",
+          "example": "The author asserts that change is necessary."
+        },
+        {
+          "id": "5-v9",
+          "term": "maintain",
+          "meaning": "continue to state or keep in condition",
+          "example": "The report maintains that no changes are needed."
+        },
+        {
+          "id": "5-v10",
+          "term": "emphasize",
+          "meaning": "give special importance to",
+          "example": "The instructor emphasized the safety rules."
+        },
+        {
+          "id": "5-v11",
+          "term": "highlight",
+          "meaning": "draw attention to",
+          "example": "The diagram highlights key differences."
+        },
+        {
+          "id": "5-v12",
+          "term": "acknowledge",
+          "meaning": "accept or recognize a fact",
+          "example": "The authors acknowledge the study's limitations."
+        },
+        {
+          "id": "5-v13",
+          "term": "recognize",
+          "meaning": "identify or accept the importance of",
+          "example": "Researchers recognize the need for further work."
+        },
+        {
+          "id": "5-v14",
+          "term": "concede",
+          "meaning": "admit something reluctantly",
+          "example": "The team conceded that its sample was small."
+        },
+        {
+          "id": "5-v15",
+          "term": "qualify",
+          "meaning": "limit or add conditions to a claim",
+          "example": "The writer qualifies the conclusion carefully."
+        },
+        {
+          "id": "5-v16",
+          "term": "estimate",
+          "meaning": "calculate approximately",
+          "example": "Experts estimate the cost at $2 million."
+        },
+        {
+          "id": "5-v17",
+          "term": "predict",
+          "meaning": "say what may happen in future",
+          "example": "The model predicts increased rainfall."
+        },
+        {
+          "id": "5-v18",
+          "term": "speculate",
+          "meaning": "form a possibility without firm evidence",
+          "example": "Scientists speculate about the cause."
+        },
+        {
+          "id": "5-v19",
+          "term": "induce",
+          "meaning": "cause or bring about",
+          "example": "The substance can induce a chemical reaction."
+        },
+        {
+          "id": "5-v20",
+          "term": "trigger",
+          "meaning": "cause an event to begin",
+          "example": "The announcement triggered a debate."
+        },
+        {
+          "id": "5-v21",
+          "term": "facilitate",
+          "meaning": "make a process easier",
+          "example": "Technology can facilitate cooperation."
+        },
+        {
+          "id": "5-v22",
+          "term": "enable",
+          "meaning": "make something possible",
+          "example": "The grant enabled the team to continue."
+        },
+        {
+          "id": "5-v23",
+          "term": "inhibit",
+          "meaning": "slow down or prevent",
+          "example": "Cold temperatures inhibit bacterial growth."
+        },
+        {
+          "id": "5-v24",
+          "term": "enhance",
+          "meaning": "improve quality or effectiveness",
+          "example": "Regular feedback can enhance learning."
+        },
+        {
+          "id": "5-v25",
+          "term": "diminish",
+          "meaning": "reduce in size or importance",
+          "example": "The effect diminished over time."
+        },
+        {
+          "id": "5-v26",
+          "term": "alleviate",
+          "meaning": "make a problem less severe",
+          "example": "The changes alleviated overcrowding."
+        },
+        {
+          "id": "5-v27",
+          "term": "mitigate",
+          "meaning": "reduce seriousness or harm",
+          "example": "The policy aims to mitigate climate risks."
+        },
+        {
+          "id": "5-v28",
+          "term": "robust",
+          "meaning": "strong and reliable",
+          "example": "The researchers used a robust method."
+        },
+        {
+          "id": "5-v29",
+          "term": "tentative",
+          "meaning": "not yet final or certain",
+          "example": "The committee reached a tentative agreement."
+        },
+        {
+          "id": "5-v30",
+          "term": "plausible",
+          "meaning": "apparently reasonable or believable",
+          "example": "The explanation is plausible but unconfirmed."
+        },
+        {
+          "id": "5-v31",
+          "term": "conclusive",
+          "meaning": "decisive and leaving little doubt",
+          "example": "The study did not produce conclusive evidence."
+        },
+        {
+          "id": "5-v32",
+          "term": "ambiguous",
+          "meaning": "open to more than one meaning",
+          "example": "The wording of the question is ambiguous."
+        },
+        {
+          "id": "5-v33",
+          "term": "nuance",
+          "meaning": "subtle difference in meaning",
+          "example": "The translation missed an important nuance."
+        },
+        {
+          "id": "5-v34",
+          "term": "implication",
+          "meaning": "likely consequence or suggested meaning",
+          "example": "The findings have implications for public health."
+        },
+        {
+          "id": "5-v35",
+          "term": "limitation",
+          "meaning": "restriction or weakness",
+          "example": "The paper describes the limitations of its approach."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "5-p1",
+          "term": "it can be argued that",
+          "meaning": "a reasonable position is",
+          "example": "It can be argued that public transport improves access."
+        },
+        {
+          "id": "5-p2",
+          "term": "the findings suggest that",
+          "meaning": "results tentatively indicate",
+          "example": "The findings suggest that practice improves retention."
+        },
+        {
+          "id": "5-p3",
+          "term": "to some extent",
+          "meaning": "partly but not completely",
+          "example": "The approach is effective to some extent."
+        },
+        {
+          "id": "5-p4",
+          "term": "there is evidence that",
+          "meaning": "supporting information exists for",
+          "example": "There is evidence that sleep affects memory."
+        },
+        {
+          "id": "5-p5",
+          "term": "it is likely that",
+          "meaning": "there is a high possibility",
+          "example": "It is likely that prices will rise."
+        },
+        {
+          "id": "5-p6",
+          "term": "it remains unclear whether",
+          "meaning": "a question has not been resolved",
+          "example": "It remains unclear whether the change is permanent."
+        },
+        {
+          "id": "5-p7",
+          "term": "be attributed to",
+          "meaning": "be explained by a cause",
+          "example": "The improvement may be attributed to better training."
+        },
+        {
+          "id": "5-p8",
+          "term": "be conducted by",
+          "meaning": "be carried out by an agent",
+          "example": "The experiment was conducted by graduate students."
+        },
+        {
+          "id": "5-p9",
+          "term": "be required to",
+          "meaning": "have an obligation to",
+          "example": "Students are required to register in advance."
+        },
+        {
+          "id": "5-p10",
+          "term": "it is worth noting that",
+          "meaning": "an important point is",
+          "example": "It is worth noting that the sample was small."
+        },
+        {
+          "id": "5-p11",
+          "term": "from this perspective",
+          "meaning": "when viewed this way",
+          "example": "From this perspective, the policy seems fair."
+        },
+        {
+          "id": "5-p12",
+          "term": "a possible explanation is",
+          "meaning": "one potential cause is",
+          "example": "A possible explanation is the change in rainfall."
+        },
+        {
+          "id": "5-p13",
+          "term": "cannot be ruled out",
+          "meaning": "cannot be excluded",
+          "example": "Measurement error cannot be ruled out."
+        },
+        {
+          "id": "5-p14",
+          "term": "a key limitation is",
+          "meaning": "an important weakness is",
+          "example": "A key limitation is the short observation period."
+        },
+        {
+          "id": "5-p15",
+          "term": "a stronger argument would",
+          "meaning": "a more convincing claim could",
+          "example": "A stronger argument would include evidence from multiple studies."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "5-g1",
+          "title": "Passive voice",
+          "rule": "Use be + past participle when the action or receiver is more important than the agent.",
+          "correct": "The samples were collected in June.",
+          "incorrect": "The samples were collect in June.",
+          "explanation": "Passive voice requires a past participle."
+        },
+        {
+          "id": "5-g2",
+          "title": "Modal + base form",
+          "rule": "A modal auxiliary is followed by the base form of the verb.",
+          "correct": "The results may indicate a trend.",
+          "incorrect": "The results may indicates a trend.",
+          "explanation": "Do not add -s after may."
+        },
+        {
+          "id": "5-g3",
+          "title": "Hedging claims",
+          "rule": "Use may, might, appear to and suggest for findings that are not definitive.",
+          "correct": "The data may suggest a link.",
+          "incorrect": "The data prove a link when evidence is inconclusive.",
+          "explanation": "The weaker hedge better reflects limited evidence."
+        },
+        {
+          "id": "5-g4",
+          "title": "Comparatives",
+          "rule": "Use comparative + than; avoid a second comparative marker.",
+          "correct": "The second method is more effective than the first.",
+          "incorrect": "The second method is more effective as the first.",
+          "explanation": "Standard comparative construction uses than."
+        },
+        {
+          "id": "5-g5",
+          "title": "Attribution prepositions",
+          "rule": "Use attribute X to Y to describe a proposed cause.",
+          "correct": "The decline was attributed to pollution.",
+          "incorrect": "The decline was attributed by pollution.",
+          "explanation": "Attribute to marks the perceived cause; by may identify an attributing agent."
+        }
+      ],
+      "roots": [
+        {
+          "id": "5-r1",
+          "term": "-ate",
+          "meaning": "verb-forming suffix in many academic words",
+          "example": "facilitate, evaluate"
+        },
+        {
+          "id": "5-r2",
+          "term": "mitig",
+          "meaning": "soften or lessen",
+          "example": "mitigate, mitigation"
+        },
+        {
+          "id": "5-r3",
+          "term": "-ible",
+          "meaning": "capable of being",
+          "example": "plausible, reversible"
+        },
+        {
+          "id": "5-r4",
+          "term": "-tion",
+          "meaning": "noun ending expressing result",
+          "example": "limitation, implication"
+        },
+        {
+          "id": "5-r5",
+          "term": "-ence",
+          "meaning": "state or quality noun ending",
+          "example": "evidence, dependence"
+        },
+        {
+          "id": "5-r6",
+          "term": "auto-",
+          "meaning": "self",
+          "example": "autonomous, automatic"
+        },
+        {
+          "id": "5-r7",
+          "term": "semi-",
+          "meaning": "half or partly",
+          "example": "semifinal, semicircular"
+        },
+        {
+          "id": "5-r8",
+          "term": "-ity",
+          "meaning": "quality noun ending",
+          "example": "uncertainty, validity"
+        }
+      ],
+      "traps": [
+        {
+          "id": "5-e1",
+          "incorrect": "This research was conducted from students.",
+          "correct": "This research was conducted by students.",
+          "explanation": "By marks the passive agent."
+        },
+        {
+          "id": "5-e2",
+          "incorrect": "The results may suggests a link.",
+          "correct": "The results may suggest a link.",
+          "explanation": "Modal may takes the base verb."
+        },
+        {
+          "id": "5-e3",
+          "incorrect": "It is more better than before.",
+          "correct": "It is better than before.",
+          "explanation": "Better is already comparative."
+        },
+        {
+          "id": "5-e4",
+          "incorrect": "The findings prove causation from a correlation alone.",
+          "correct": "The findings suggest an association.",
+          "explanation": "Correlation by itself does not establish causation."
+        },
+        {
+          "id": "5-e5",
+          "incorrect": "The change was attributed for the weather.",
+          "correct": "The change was attributed to the weather.",
+          "explanation": "Attribute X to Y."
+        },
+        {
+          "id": "5-e6",
+          "incorrect": "There is a strong evidences.",
+          "correct": "There is strong evidence.",
+          "explanation": "Evidence is uncountable in standard English."
+        },
+        {
+          "id": "5-e7",
+          "incorrect": "The paper discussed about limitations.",
+          "correct": "The paper discussed limitations.",
+          "explanation": "Discuss does not take about here."
+        },
+        {
+          "id": "5-e8",
+          "incorrect": "The report is more clearer.",
+          "correct": "The report is clearer.",
+          "explanation": "Avoid double comparative marking."
+        }
+      ]
+    }
+  ]
+}
