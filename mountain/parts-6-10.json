@@ -1,0 +1,2261 @@
+{
+  "version": 1,
+  "origin": "Original TOEFL practice curriculum based on referenced user materials; not copied exercises",
+  "parts": [
+    {
+      "id": 6,
+      "title": "Modals and Campus Communication",
+      "focus": "Requests, advice, necessity, permission and nuanced certainty",
+      "words": [
+        {
+          "id": "6-v1",
+          "term": "obligation",
+          "meaning": "something you must do",
+          "example": "Attending the safety briefing is an obligation."
+        },
+        {
+          "id": "6-v2",
+          "term": "mandatory",
+          "meaning": "required by a rule",
+          "example": "The training is mandatory for all assistants."
+        },
+        {
+          "id": "6-v3",
+          "term": "optional",
+          "meaning": "not required",
+          "example": "The workshop is optional."
+        },
+        {
+          "id": "6-v4",
+          "term": "permitted",
+          "meaning": "allowed",
+          "example": "Photography is permitted in the gallery."
+        },
+        {
+          "id": "6-v5",
+          "term": "prohibited",
+          "meaning": "not allowed",
+          "example": "Food is prohibited in the laboratory."
+        },
+        {
+          "id": "6-v6",
+          "term": "eligible",
+          "meaning": "qualified to take part",
+          "example": "Applicants are eligible if they meet the criteria."
+        },
+        {
+          "id": "6-v7",
+          "term": "available",
+          "meaning": "ready for use or access",
+          "example": "The advisor is available after noon."
+        },
+        {
+          "id": "6-v8",
+          "term": "accessible",
+          "meaning": "easy to enter, use or understand",
+          "example": "The library is accessible by public transit."
+        },
+        {
+          "id": "6-v9",
+          "term": "convenient",
+          "meaning": "suitable and easy",
+          "example": "Online booking is convenient for students."
+        },
+        {
+          "id": "6-v10",
+          "term": "appropriate",
+          "meaning": "suitable for a situation",
+          "example": "A polite tone is appropriate in an email."
+        },
+        {
+          "id": "6-v11",
+          "term": "essential",
+          "meaning": "completely necessary",
+          "example": "A valid ID is essential for registration."
+        },
+        {
+          "id": "6-v12",
+          "term": "necessary",
+          "meaning": "required or needed",
+          "example": "It is necessary to submit the form."
+        },
+        {
+          "id": "6-v13",
+          "term": "urgent",
+          "meaning": "needing prompt attention",
+          "example": "The office sent an urgent notification."
+        },
+        {
+          "id": "6-v14",
+          "term": "recommend",
+          "meaning": "suggest as a good idea",
+          "example": "The tutor recommends regular revision."
+        },
+        {
+          "id": "6-v15",
+          "term": "advise",
+          "meaning": "offer guidance",
+          "example": "The advisor advised me to register early."
+        },
+        {
+          "id": "6-v16",
+          "term": "request",
+          "meaning": "ask formally for something",
+          "example": "She submitted a request for an extension."
+        },
+        {
+          "id": "6-v17",
+          "term": "inquire",
+          "meaning": "ask for information",
+          "example": "Students can inquire about tuition assistance."
+        },
+        {
+          "id": "6-v18",
+          "term": "confirm",
+          "meaning": "make certain or verify",
+          "example": "Please confirm your appointment by email."
+        },
+        {
+          "id": "6-v19",
+          "term": "verify",
+          "meaning": "check that something is true",
+          "example": "The registrar will verify your records."
+        },
+        {
+          "id": "6-v20",
+          "term": "notify",
+          "meaning": "inform officially",
+          "example": "The department will notify applicants."
+        },
+        {
+          "id": "6-v21",
+          "term": "inform",
+          "meaning": "give facts to somebody",
+          "example": "The staff informed students of the change."
+        },
+        {
+          "id": "6-v22",
+          "term": "arrange",
+          "meaning": "organize or plan",
+          "example": "We arranged a meeting with the professor."
+        },
+        {
+          "id": "6-v23",
+          "term": "assist",
+          "meaning": "help somebody",
+          "example": "The librarian can assist new students."
+        },
+        {
+          "id": "6-v24",
+          "term": "support",
+          "meaning": "give help or backing",
+          "example": "The program supports first-year students."
+        },
+        {
+          "id": "6-v25",
+          "term": "accommodate",
+          "meaning": "provide room or make adjustments for",
+          "example": "The schedule can accommodate different needs."
+        },
+        {
+          "id": "6-v26",
+          "term": "resolve",
+          "meaning": "solve or settle",
+          "example": "The office resolved the registration problem."
+        },
+        {
+          "id": "6-v27",
+          "term": "complaint",
+          "meaning": "statement of dissatisfaction",
+          "example": "The student filed a complaint."
+        },
+        {
+          "id": "6-v28",
+          "term": "concern",
+          "meaning": "matter that worries someone",
+          "example": "Safety is a major concern."
+        },
+        {
+          "id": "6-v29",
+          "term": "policy",
+          "meaning": "official set of rules",
+          "example": "The university updated its attendance policy."
+        },
+        {
+          "id": "6-v30",
+          "term": "procedure",
+          "meaning": "standard way of doing something",
+          "example": "Follow the procedure for requesting transcripts."
+        },
+        {
+          "id": "6-v31",
+          "term": "requirement",
+          "meaning": "condition that must be met",
+          "example": "The course has a language requirement."
+        },
+        {
+          "id": "6-v32",
+          "term": "application",
+          "meaning": "formal request or use of a method",
+          "example": "Her application was approved."
+        },
+        {
+          "id": "6-v33",
+          "term": "extension",
+          "meaning": "extra time granted",
+          "example": "The professor approved a deadline extension."
+        },
+        {
+          "id": "6-v34",
+          "term": "appointment",
+          "meaning": "arranged meeting at a particular time",
+          "example": "I booked an appointment with my advisor."
+        },
+        {
+          "id": "6-v35",
+          "term": "availability",
+          "meaning": "state of being free or obtainable",
+          "example": "Check the advisor's availability online."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "6-p1",
+          "term": "would you mind + -ing",
+          "meaning": "polite request for an action",
+          "example": "Would you mind sending the schedule?"
+        },
+        {
+          "id": "6-p2",
+          "term": "could you please",
+          "meaning": "polite request",
+          "example": "Could you please explain the requirement?"
+        },
+        {
+          "id": "6-p3",
+          "term": "may I",
+          "meaning": "formal request for permission",
+          "example": "May I leave a few minutes early?"
+        },
+        {
+          "id": "6-p4",
+          "term": "would it be possible to",
+          "meaning": "careful polite request",
+          "example": "Would it be possible to reschedule our meeting?"
+        },
+        {
+          "id": "6-p5",
+          "term": "I would appreciate it if",
+          "meaning": "courteous request",
+          "example": "I would appreciate it if you could reply today."
+        },
+        {
+          "id": "6-p6",
+          "term": "I am writing to inquire about",
+          "meaning": "formal reason for emailing",
+          "example": "I am writing to inquire about course registration."
+        },
+        {
+          "id": "6-p7",
+          "term": "be required to",
+          "meaning": "be obliged to",
+          "example": "Students are required to attend."
+        },
+        {
+          "id": "6-p8",
+          "term": "be allowed to",
+          "meaning": "have permission to",
+          "example": "Participants are allowed to ask questions."
+        },
+        {
+          "id": "6-p9",
+          "term": "be supposed to",
+          "meaning": "be expected to",
+          "example": "We are supposed to submit the form online."
+        },
+        {
+          "id": "6-p10",
+          "term": "be advised to",
+          "meaning": "receive a recommendation to",
+          "example": "Visitors are advised to arrive early."
+        },
+        {
+          "id": "6-p11",
+          "term": "have no choice but to",
+          "meaning": "be forced by circumstances to",
+          "example": "We had no choice but to postpone the event."
+        },
+        {
+          "id": "6-p12",
+          "term": "at your earliest convenience",
+          "meaning": "when you reasonably can",
+          "example": "Please respond at your earliest convenience."
+        },
+        {
+          "id": "6-p13",
+          "term": "in accordance with",
+          "meaning": "following a rule or policy",
+          "example": "Registration must be completed in accordance with the policy."
+        },
+        {
+          "id": "6-p14",
+          "term": "make arrangements for",
+          "meaning": "organize preparations",
+          "example": "The office will make arrangements for the visit."
+        },
+        {
+          "id": "6-p15",
+          "term": "bring to your attention",
+          "meaning": "inform someone of something important",
+          "example": "I would like to bring the issue to your attention."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "6-g1",
+          "title": "Modals use a bare infinitive",
+          "rule": "After can, could, may, might, must, should or would, use the base verb without to.",
+          "correct": "She should contact the office.",
+          "incorrect": "She should to contact the office.",
+          "explanation": "Modals are followed directly by the base verb."
+        },
+        {
+          "id": "6-g2",
+          "title": "Must versus have to",
+          "rule": "Must expresses strong obligation or deduction; have to often signals external necessity. Must not means prohibition; don't have to means no obligation.",
+          "correct": "You don't have to attend the optional seminar.",
+          "incorrect": "You must not attend the optional seminar to mean optional.",
+          "explanation": "Must not prohibits; don't have to means optional."
+        },
+        {
+          "id": "6-g3",
+          "title": "Polite requests",
+          "rule": "Use could you / would you and would you mind + -ing to sound courteous.",
+          "correct": "Would you mind opening the window?",
+          "incorrect": "Would you mind to open the window?",
+          "explanation": "The common would you mind request pattern takes an -ing verb."
+        },
+        {
+          "id": "6-g4",
+          "title": "May / might / must certainty",
+          "rule": "May and might signal possibility; must can express a strong inference rather than a rule.",
+          "correct": "The door is locked; the office must be closed.",
+          "incorrect": "The door is locked; the office must closing.",
+          "explanation": "A deduction uses must + base verb."
+        },
+        {
+          "id": "6-g5",
+          "title": "Advice and consequences",
+          "rule": "Should commonly gives advice, whereas would often describes a hypothetical preference or result.",
+          "correct": "You should read the instructions first.",
+          "incorrect": "You would read the instructions first as ordinary direct advice.",
+          "explanation": "Should is the natural modal for direct advice."
+        }
+      ],
+      "roots": [
+        {
+          "id": "6-r1",
+          "term": "bene-",
+          "meaning": "well or good",
+          "example": "benefit, beneficial"
+        },
+        {
+          "id": "6-r2",
+          "term": "mal-",
+          "meaning": "bad or wrong",
+          "example": "malfunction, malpractice"
+        },
+        {
+          "id": "6-r3",
+          "term": "-ment",
+          "meaning": "noun-forming suffix",
+          "example": "requirement, arrangement"
+        },
+        {
+          "id": "6-r4",
+          "term": "-able",
+          "meaning": "able to be",
+          "example": "available, accessible"
+        },
+        {
+          "id": "6-r5",
+          "term": "-ance",
+          "meaning": "state or quality",
+          "example": "attendance, assistance"
+        },
+        {
+          "id": "6-r6",
+          "term": "pro-",
+          "meaning": "forward or in favor",
+          "example": "propose, proactive"
+        },
+        {
+          "id": "6-r7",
+          "term": "com-",
+          "meaning": "together",
+          "example": "comply, combine"
+        },
+        {
+          "id": "6-r8",
+          "term": "-tion",
+          "meaning": "action or state noun ending",
+          "example": "application, notification"
+        }
+      ],
+      "traps": [
+        {
+          "id": "6-e1",
+          "incorrect": "You must to register today.",
+          "correct": "You must register today.",
+          "explanation": "Must is followed by a base verb."
+        },
+        {
+          "id": "6-e2",
+          "incorrect": "You don't must attend.",
+          "correct": "You don't have to attend.",
+          "explanation": "For absence of obligation use don't have to."
+        },
+        {
+          "id": "6-e3",
+          "incorrect": "Would you mind to help me?",
+          "correct": "Would you mind helping me?",
+          "explanation": "Would you mind is followed by -ing."
+        },
+        {
+          "id": "6-e4",
+          "incorrect": "May you explain it to me?",
+          "correct": "Could you explain it to me?",
+          "explanation": "Could you is the natural request pattern."
+        },
+        {
+          "id": "6-e5",
+          "incorrect": "I am interesting in the course.",
+          "correct": "I am interested in the course.",
+          "explanation": "Interested describes the person's feeling."
+        },
+        {
+          "id": "6-e6",
+          "incorrect": "I look forward to hear from you.",
+          "correct": "I look forward to hearing from you.",
+          "explanation": "To is a preposition here, followed by -ing."
+        },
+        {
+          "id": "6-e7",
+          "incorrect": "Please inform to me the details.",
+          "correct": "Please inform me of the details.",
+          "explanation": "Inform someone of/about something."
+        },
+        {
+          "id": "6-e8",
+          "incorrect": "I need an extension until next Friday please.",
+          "correct": "I would appreciate an extension until next Friday.",
+          "explanation": "Courteous requests are especially valuable in TOEFL email tasks."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Gerunds and Infinitives",
+      "focus": "Verb complementation, purposes and learning strategies",
+      "words": [
+        {
+          "id": "7-v1",
+          "term": "acquire",
+          "meaning": "gain knowledge or a possession",
+          "example": "Students acquire skills through practice."
+        },
+        {
+          "id": "7-v2",
+          "term": "master",
+          "meaning": "learn or control thoroughly",
+          "example": "It takes time to master pronunciation."
+        },
+        {
+          "id": "7-v3",
+          "term": "practice",
+          "meaning": "perform repeatedly to improve",
+          "example": "She practices speaking every day."
+        },
+        {
+          "id": "7-v4",
+          "term": "revise",
+          "meaning": "review or change to improve",
+          "example": "The student revised the essay."
+        },
+        {
+          "id": "7-v5",
+          "term": "retain",
+          "meaning": "continue to remember or possess",
+          "example": "Spaced review helps retain vocabulary."
+        },
+        {
+          "id": "7-v6",
+          "term": "recall",
+          "meaning": "bring information back to mind",
+          "example": "Try to recall the word before revealing it."
+        },
+        {
+          "id": "7-v7",
+          "term": "memorize",
+          "meaning": "learn so that something can be recalled",
+          "example": "He memorized the main definitions."
+        },
+        {
+          "id": "7-v8",
+          "term": "comprehend",
+          "meaning": "understand fully",
+          "example": "Readers must comprehend the author's argument."
+        },
+        {
+          "id": "7-v9",
+          "term": "concentrate",
+          "meaning": "focus attention",
+          "example": "It is hard to concentrate in a noisy room."
+        },
+        {
+          "id": "7-v10",
+          "term": "focus",
+          "meaning": "direct attention toward",
+          "example": "The lesson focuses on sentence structure."
+        },
+        {
+          "id": "7-v11",
+          "term": "engage",
+          "meaning": "participate actively",
+          "example": "Students engage in group discussion."
+        },
+        {
+          "id": "7-v12",
+          "term": "participate",
+          "meaning": "take part",
+          "example": "Everyone participated in the debate."
+        },
+        {
+          "id": "7-v13",
+          "term": "collaborate",
+          "meaning": "work jointly",
+          "example": "Two departments collaborated on the project."
+        },
+        {
+          "id": "7-v14",
+          "term": "cooperate",
+          "meaning": "work together constructively",
+          "example": "The students cooperated on the assignment."
+        },
+        {
+          "id": "7-v15",
+          "term": "attempt",
+          "meaning": "try to accomplish",
+          "example": "Researchers attempted to reproduce the result."
+        },
+        {
+          "id": "7-v16",
+          "term": "intend",
+          "meaning": "plan or mean to do something",
+          "example": "The committee intends to publish the report."
+        },
+        {
+          "id": "7-v17",
+          "term": "aim",
+          "meaning": "have as a goal",
+          "example": "The workshop aims to improve communication."
+        },
+        {
+          "id": "7-v18",
+          "term": "strive",
+          "meaning": "work very hard toward a goal",
+          "example": "Learners strive to become more fluent."
+        },
+        {
+          "id": "7-v19",
+          "term": "prefer",
+          "meaning": "like one alternative more",
+          "example": "I prefer reading articles to watching videos."
+        },
+        {
+          "id": "7-v20",
+          "term": "enjoy",
+          "meaning": "take pleasure in",
+          "example": "Many students enjoy learning languages."
+        },
+        {
+          "id": "7-v21",
+          "term": "avoid",
+          "meaning": "keep away from",
+          "example": "Avoid repeating the same argument."
+        },
+        {
+          "id": "7-v22",
+          "term": "consider",
+          "meaning": "think carefully about a choice",
+          "example": "The team considered changing the timetable."
+        },
+        {
+          "id": "7-v23",
+          "term": "suggest",
+          "meaning": "offer an idea or plan",
+          "example": "The mentor suggested joining a study group."
+        },
+        {
+          "id": "7-v24",
+          "term": "recommend",
+          "meaning": "advise an action",
+          "example": "The professor recommended reading the chapter."
+        },
+        {
+          "id": "7-v25",
+          "term": "postpone",
+          "meaning": "delay an activity",
+          "example": "They postponed holding the seminar."
+        },
+        {
+          "id": "7-v26",
+          "term": "admit",
+          "meaning": "acknowledge something as true",
+          "example": "The authors admitted making a mistake."
+        },
+        {
+          "id": "7-v27",
+          "term": "deny",
+          "meaning": "state that something is not true",
+          "example": "The manager denied receiving the complaint."
+        },
+        {
+          "id": "7-v28",
+          "term": "refuse",
+          "meaning": "decline to do something",
+          "example": "The participant refused to answer."
+        },
+        {
+          "id": "7-v29",
+          "term": "agree",
+          "meaning": "accept a proposal or share an opinion",
+          "example": "They agreed to revise the schedule."
+        },
+        {
+          "id": "7-v30",
+          "term": "decide",
+          "meaning": "make a choice",
+          "example": "The committee decided to continue."
+        },
+        {
+          "id": "7-v31",
+          "term": "expect",
+          "meaning": "anticipate something",
+          "example": "Students expect to receive feedback."
+        },
+        {
+          "id": "7-v32",
+          "term": "manage",
+          "meaning": "succeed in doing despite difficulty",
+          "example": "She managed to finish the task."
+        },
+        {
+          "id": "7-v33",
+          "term": "fail",
+          "meaning": "not succeed",
+          "example": "The experiment failed to confirm the hypothesis."
+        },
+        {
+          "id": "7-v34",
+          "term": "encourage",
+          "meaning": "give confidence or support",
+          "example": "The teacher encouraged students to speak."
+        },
+        {
+          "id": "7-v35",
+          "term": "allow",
+          "meaning": "give permission",
+          "example": "The library allows students to borrow tablets."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "7-p1",
+          "term": "look forward to + -ing",
+          "meaning": "anticipate with pleasure",
+          "example": "I look forward to meeting you."
+        },
+        {
+          "id": "7-p2",
+          "term": "be interested in + -ing",
+          "meaning": "want to do or learn something",
+          "example": "She is interested in studying linguistics."
+        },
+        {
+          "id": "7-p3",
+          "term": "be capable of + -ing",
+          "meaning": "have the ability to",
+          "example": "The system is capable of processing audio."
+        },
+        {
+          "id": "7-p4",
+          "term": "have difficulty + -ing",
+          "meaning": "find an activity hard",
+          "example": "He has difficulty understanding accents."
+        },
+        {
+          "id": "7-p5",
+          "term": "spend time + -ing",
+          "meaning": "use time for an activity",
+          "example": "Students spend time reviewing notes."
+        },
+        {
+          "id": "7-p6",
+          "term": "avoid + -ing",
+          "meaning": "refrain from an activity",
+          "example": "Avoid copying whole sentences."
+        },
+        {
+          "id": "7-p7",
+          "term": "decide to + verb",
+          "meaning": "choose to do something",
+          "example": "They decided to extend the deadline."
+        },
+        {
+          "id": "7-p8",
+          "term": "manage to + verb",
+          "meaning": "succeed in an effort",
+          "example": "We managed to complete the project."
+        },
+        {
+          "id": "7-p9",
+          "term": "agree to + verb",
+          "meaning": "consent to do something",
+          "example": "The office agreed to help."
+        },
+        {
+          "id": "7-p10",
+          "term": "plan to + verb",
+          "meaning": "intend an action",
+          "example": "We plan to study abroad."
+        },
+        {
+          "id": "7-p11",
+          "term": "consider + -ing",
+          "meaning": "think about an option",
+          "example": "Consider taking detailed notes."
+        },
+        {
+          "id": "7-p12",
+          "term": "be used to + -ing",
+          "meaning": "be accustomed to an activity",
+          "example": "She is used to speaking in public."
+        },
+        {
+          "id": "7-p13",
+          "term": "used to + verb",
+          "meaning": "describe a past habit",
+          "example": "He used to study late."
+        },
+        {
+          "id": "7-p14",
+          "term": "in order to + verb",
+          "meaning": "express purpose",
+          "example": "We meet weekly in order to share progress."
+        },
+        {
+          "id": "7-p15",
+          "term": "for the purpose of + -ing",
+          "meaning": "state intended use",
+          "example": "The device was designed for the purpose of measuring pressure."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "7-g1",
+          "title": "Verbs followed by -ing",
+          "rule": "Enjoy, avoid, finish and consider normally take gerunds as verb complements.",
+          "correct": "She enjoys studying biology.",
+          "incorrect": "She enjoys to study biology.",
+          "explanation": "Enjoy normally takes a gerund."
+        },
+        {
+          "id": "7-g2",
+          "title": "Verbs followed by to-infinitive",
+          "rule": "Decide, hope, plan, promise and refuse generally take to + base verb.",
+          "correct": "They decided to postpone the exam.",
+          "incorrect": "They decided postponing the exam.",
+          "explanation": "Decide is normally followed by to-infinitive."
+        },
+        {
+          "id": "7-g3",
+          "title": "Prepositions + gerund",
+          "rule": "A verb after a preposition is generally expressed as an -ing form.",
+          "correct": "She is interested in learning English.",
+          "incorrect": "She is interested in learn English.",
+          "explanation": "In is a preposition, so use the gerund."
+        },
+        {
+          "id": "7-g4",
+          "title": "Stop doing versus stop to do",
+          "rule": "Stop doing means end the activity; stop to do means pause another activity for a purpose.",
+          "correct": "She stopped studying to answer the phone.",
+          "incorrect": "She stopped to studying to answer the phone.",
+          "explanation": "Stop to + base verb expresses purpose."
+        },
+        {
+          "id": "7-g5",
+          "title": "Suggest + gerund",
+          "rule": "Suggest commonly takes a noun, gerund or that-clause, not a personal object + to-infinitive.",
+          "correct": "The professor suggested reviewing the outline.",
+          "incorrect": "The professor suggested us to review the outline.",
+          "explanation": "Use suggested that we review or suggested reviewing."
+        }
+      ],
+      "roots": [
+        {
+          "id": "7-r1",
+          "term": "-ize",
+          "meaning": "make or cause to become",
+          "example": "memorize, organize"
+        },
+        {
+          "id": "7-r2",
+          "term": "re-",
+          "meaning": "again",
+          "example": "revise, recall"
+        },
+        {
+          "id": "7-r3",
+          "term": "co-",
+          "meaning": "together",
+          "example": "collaborate, cooperate"
+        },
+        {
+          "id": "7-r4",
+          "term": "-part",
+          "meaning": "share or division",
+          "example": "participate, department"
+        },
+        {
+          "id": "7-r5",
+          "term": "-tion",
+          "meaning": "noun suffix",
+          "example": "concentration, participation"
+        },
+        {
+          "id": "7-r6",
+          "term": "-ence",
+          "meaning": "state or quality",
+          "example": "preference, competence"
+        },
+        {
+          "id": "7-r7",
+          "term": "-ful",
+          "meaning": "full of",
+          "example": "helpful, careful"
+        },
+        {
+          "id": "7-r8",
+          "term": "-able",
+          "meaning": "capable of",
+          "example": "manageable, memorable"
+        }
+      ],
+      "traps": [
+        {
+          "id": "7-e1",
+          "incorrect": "She enjoys to read.",
+          "correct": "She enjoys reading.",
+          "explanation": "Enjoy normally takes a gerund."
+        },
+        {
+          "id": "7-e2",
+          "incorrect": "We decided going early.",
+          "correct": "We decided to go early.",
+          "explanation": "Decide takes a to-infinitive."
+        },
+        {
+          "id": "7-e3",
+          "incorrect": "I look forward to meet you.",
+          "correct": "I look forward to meeting you.",
+          "explanation": "Look forward to uses preposition to plus -ing."
+        },
+        {
+          "id": "7-e4",
+          "incorrect": "They avoided to answer.",
+          "correct": "They avoided answering.",
+          "explanation": "Avoid takes a gerund."
+        },
+        {
+          "id": "7-e5",
+          "incorrect": "He suggested me to leave.",
+          "correct": "He suggested that I leave.",
+          "explanation": "Suggest does not normally take object + to-infinitive."
+        },
+        {
+          "id": "7-e6",
+          "incorrect": "She made me to repeat.",
+          "correct": "She made me repeat.",
+          "explanation": "Active causative make takes the bare infinitive."
+        },
+        {
+          "id": "7-e7",
+          "incorrect": "I am used to wake up early.",
+          "correct": "I am used to waking up early.",
+          "explanation": "Be used to takes a noun or gerund."
+        },
+        {
+          "id": "7-e8",
+          "incorrect": "I stopped to smoke last year meaning I quit.",
+          "correct": "I stopped smoking last year.",
+          "explanation": "Stopping an ongoing habit takes stop + -ing."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Passive Voice and Processes",
+      "focus": "Scientific processes, explanation and agent focus",
+      "words": [
+        {
+          "id": "8-v1",
+          "term": "transform",
+          "meaning": "change form or nature",
+          "example": "Heat can transform liquid water into vapor."
+        },
+        {
+          "id": "8-v2",
+          "term": "convert",
+          "meaning": "change into another form",
+          "example": "Plants convert sunlight into chemical energy."
+        },
+        {
+          "id": "8-v3",
+          "term": "generate",
+          "meaning": "produce or create",
+          "example": "Wind turbines generate electricity."
+        },
+        {
+          "id": "8-v4",
+          "term": "produce",
+          "meaning": "make or create",
+          "example": "The factory produces recycled paper."
+        },
+        {
+          "id": "8-v5",
+          "term": "manufacture",
+          "meaning": "make goods on a large scale",
+          "example": "The company manufactures medical devices."
+        },
+        {
+          "id": "8-v6",
+          "term": "assemble",
+          "meaning": "put separate parts together",
+          "example": "Workers assemble the components."
+        },
+        {
+          "id": "8-v7",
+          "term": "distribute",
+          "meaning": "spread or deliver",
+          "example": "The agency distributes water supplies."
+        },
+        {
+          "id": "8-v8",
+          "term": "transmit",
+          "meaning": "send from one place to another",
+          "example": "Signals are transmitted through cables."
+        },
+        {
+          "id": "8-v9",
+          "term": "transport",
+          "meaning": "move people or goods",
+          "example": "Trains transport commuters across the city."
+        },
+        {
+          "id": "8-v10",
+          "term": "extract",
+          "meaning": "remove or obtain from a material",
+          "example": "Scientists extract DNA from the sample."
+        },
+        {
+          "id": "8-v11",
+          "term": "isolate",
+          "meaning": "separate from other things",
+          "example": "The team isolated a single variable."
+        },
+        {
+          "id": "8-v12",
+          "term": "combine",
+          "meaning": "join into a single whole",
+          "example": "The technique combines two methods."
+        },
+        {
+          "id": "8-v13",
+          "term": "integrate",
+          "meaning": "bring separate elements together",
+          "example": "The course integrates listening and speaking."
+        },
+        {
+          "id": "8-v14",
+          "term": "modify",
+          "meaning": "change partly",
+          "example": "The researchers modified the original design."
+        },
+        {
+          "id": "8-v15",
+          "term": "adapt",
+          "meaning": "change to suit conditions",
+          "example": "Animals adapt to new environments."
+        },
+        {
+          "id": "8-v16",
+          "term": "adjust",
+          "meaning": "make a small corrective change",
+          "example": "The technician adjusted the instrument."
+        },
+        {
+          "id": "8-v17",
+          "term": "regulate",
+          "meaning": "control using rules or mechanisms",
+          "example": "The government regulates water quality."
+        },
+        {
+          "id": "8-v18",
+          "term": "preserve",
+          "meaning": "protect from damage",
+          "example": "The museum preserves ancient artifacts."
+        },
+        {
+          "id": "8-v19",
+          "term": "conserve",
+          "meaning": "protect resources against waste",
+          "example": "Efficient devices conserve energy."
+        },
+        {
+          "id": "8-v20",
+          "term": "restore",
+          "meaning": "return to an earlier condition",
+          "example": "Volunteers restored the wetland."
+        },
+        {
+          "id": "8-v21",
+          "term": "replace",
+          "meaning": "put something instead of another",
+          "example": "LED lamps replace older bulbs."
+        },
+        {
+          "id": "8-v22",
+          "term": "eliminate",
+          "meaning": "remove completely",
+          "example": "The filter eliminates most impurities."
+        },
+        {
+          "id": "8-v23",
+          "term": "detect",
+          "meaning": "discover or notice",
+          "example": "Sensors detect changes in pressure."
+        },
+        {
+          "id": "8-v24",
+          "term": "measure",
+          "meaning": "determine a quantity",
+          "example": "The device measures oxygen levels."
+        },
+        {
+          "id": "8-v25",
+          "term": "calculate",
+          "meaning": "work out mathematically",
+          "example": "The system calculates the average."
+        },
+        {
+          "id": "8-v26",
+          "term": "record",
+          "meaning": "store information",
+          "example": "The thermometer records the temperature."
+        },
+        {
+          "id": "8-v27",
+          "term": "observe",
+          "meaning": "watch carefully",
+          "example": "Researchers observed animal behavior."
+        },
+        {
+          "id": "8-v28",
+          "term": "inspect",
+          "meaning": "examine closely",
+          "example": "Technicians inspect the bridge each year."
+        },
+        {
+          "id": "8-v29",
+          "term": "operate",
+          "meaning": "work or control a machine",
+          "example": "The device operates automatically."
+        },
+        {
+          "id": "8-v30",
+          "term": "function",
+          "meaning": "perform a particular role",
+          "example": "The membrane functions as a barrier."
+        },
+        {
+          "id": "8-v31",
+          "term": "react",
+          "meaning": "undergo a response",
+          "example": "The chemicals react when mixed."
+        },
+        {
+          "id": "8-v32",
+          "term": "release",
+          "meaning": "allow to escape or make public",
+          "example": "The reaction releases heat."
+        },
+        {
+          "id": "8-v33",
+          "term": "absorb",
+          "meaning": "take in energy or liquid",
+          "example": "Dark surfaces absorb more sunlight."
+        },
+        {
+          "id": "8-v34",
+          "term": "emit",
+          "meaning": "give off energy or material",
+          "example": "Cars emit exhaust gases."
+        },
+        {
+          "id": "8-v35",
+          "term": "decompose",
+          "meaning": "break down into simpler parts",
+          "example": "Organic waste decomposes naturally."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "8-p1",
+          "term": "be composed of",
+          "meaning": "consist of parts",
+          "example": "The device is composed of three layers."
+        },
+        {
+          "id": "8-p2",
+          "term": "be made of",
+          "meaning": "have a material as substance",
+          "example": "The container is made of glass."
+        },
+        {
+          "id": "8-p3",
+          "term": "be made from",
+          "meaning": "use transformed source material",
+          "example": "Paper is made from wood pulp."
+        },
+        {
+          "id": "8-p4",
+          "term": "be converted into",
+          "meaning": "be changed to another form",
+          "example": "Heat is converted into electricity."
+        },
+        {
+          "id": "8-p5",
+          "term": "be subjected to",
+          "meaning": "undergo a procedure or condition",
+          "example": "The material was subjected to pressure."
+        },
+        {
+          "id": "8-p6",
+          "term": "be exposed to",
+          "meaning": "come into contact with",
+          "example": "The sample was exposed to sunlight."
+        },
+        {
+          "id": "8-p7",
+          "term": "be derived from",
+          "meaning": "originate from",
+          "example": "The compound is derived from plants."
+        },
+        {
+          "id": "8-p8",
+          "term": "be carried out",
+          "meaning": "be performed",
+          "example": "The experiment was carried out twice."
+        },
+        {
+          "id": "8-p9",
+          "term": "be obtained from",
+          "meaning": "be taken from a source",
+          "example": "The samples were obtained from the river."
+        },
+        {
+          "id": "8-p10",
+          "term": "be measured in",
+          "meaning": "use a unit of measure",
+          "example": "Temperature is measured in degrees Celsius."
+        },
+        {
+          "id": "8-p11",
+          "term": "be known as",
+          "meaning": "have a particular name",
+          "example": "The process is known as fermentation."
+        },
+        {
+          "id": "8-p12",
+          "term": "be referred to as",
+          "meaning": "be called",
+          "example": "The mechanism is referred to as diffusion."
+        },
+        {
+          "id": "8-p13",
+          "term": "be divided into",
+          "meaning": "be separated into groups",
+          "example": "The material is divided into categories."
+        },
+        {
+          "id": "8-p14",
+          "term": "be equipped with",
+          "meaning": "have necessary equipment",
+          "example": "The lab is equipped with microscopes."
+        },
+        {
+          "id": "8-p15",
+          "term": "be designed to",
+          "meaning": "have an intended purpose",
+          "example": "The sensor is designed to detect motion."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "8-g1",
+          "title": "Passive formation",
+          "rule": "Use an appropriate form of be plus the past participle.",
+          "correct": "The equipment was installed yesterday.",
+          "incorrect": "The equipment was install yesterday.",
+          "explanation": "Installed is the required past participle."
+        },
+        {
+          "id": "8-g2",
+          "title": "Tense preservation",
+          "rule": "When switching from active to passive, preserve the event's tense.",
+          "correct": "They have completed the work. → The work has been completed.",
+          "incorrect": "They have completed the work. → The work was completed when preserving the exact tense.",
+          "explanation": "Present perfect passive uses has/have been + participle."
+        },
+        {
+          "id": "8-g3",
+          "title": "Agent with by",
+          "rule": "Use by to introduce the agent when it matters.",
+          "correct": "The procedure was developed by engineers.",
+          "incorrect": "The procedure was developed from engineers.",
+          "explanation": "From marks origin/source, not the agent in this case."
+        },
+        {
+          "id": "8-g4",
+          "title": "Passive with modals",
+          "rule": "Use modal + be + past participle.",
+          "correct": "The samples must be stored safely.",
+          "incorrect": "The samples must stored safely.",
+          "explanation": "Passive after a modal requires be."
+        },
+        {
+          "id": "8-g5",
+          "title": "Not every verb passivizes",
+          "rule": "An intransitive verb such as arrive has no direct object to move into passive subject position.",
+          "correct": "The train arrived late.",
+          "incorrect": "The train was arrived late.",
+          "explanation": "Arrive is intransitive; the given passive is not valid."
+        }
+      ],
+      "roots": [
+        {
+          "id": "8-r1",
+          "term": "trans-",
+          "meaning": "across",
+          "example": "transmit, transform"
+        },
+        {
+          "id": "8-r2",
+          "term": "con-",
+          "meaning": "together",
+          "example": "convert, conserve"
+        },
+        {
+          "id": "8-r3",
+          "term": "de-",
+          "meaning": "away or down",
+          "example": "decompose, detect"
+        },
+        {
+          "id": "8-r4",
+          "term": "-ize",
+          "meaning": "to make",
+          "example": "stabilize, sterilize"
+        },
+        {
+          "id": "8-r5",
+          "term": "-tion",
+          "meaning": "process/result noun suffix",
+          "example": "transmission, distribution"
+        },
+        {
+          "id": "8-r6",
+          "term": "-ive",
+          "meaning": "relating to",
+          "example": "productive, reactive"
+        },
+        {
+          "id": "8-r7",
+          "term": "port",
+          "meaning": "carry",
+          "example": "transport, portable"
+        },
+        {
+          "id": "8-r8",
+          "term": "spect",
+          "meaning": "look",
+          "example": "inspect, spectator"
+        }
+      ],
+      "traps": [
+        {
+          "id": "8-e1",
+          "incorrect": "The experiment has conducted yesterday.",
+          "correct": "The experiment was conducted yesterday.",
+          "explanation": "Past finished event needs was + participle."
+        },
+        {
+          "id": "8-e2",
+          "incorrect": "The samples must stored safely.",
+          "correct": "The samples must be stored safely.",
+          "explanation": "Passive with modal needs be."
+        },
+        {
+          "id": "8-e3",
+          "incorrect": "The report was wrote by a student.",
+          "correct": "The report was written by a student.",
+          "explanation": "Past participle of write is written."
+        },
+        {
+          "id": "8-e4",
+          "incorrect": "The train was arrived late.",
+          "correct": "The train arrived late.",
+          "explanation": "Arrive is intransitive."
+        },
+        {
+          "id": "8-e5",
+          "incorrect": "The device consists from three parts.",
+          "correct": "The device consists of three parts.",
+          "explanation": "Consist takes of."
+        },
+        {
+          "id": "8-e6",
+          "incorrect": "The experiment was happened last night.",
+          "correct": "The experiment happened last night.",
+          "explanation": "Happen has no ordinary passive form."
+        },
+        {
+          "id": "8-e7",
+          "incorrect": "The data have been collect.",
+          "correct": "The data have been collected.",
+          "explanation": "Present perfect passive needs been + participle."
+        },
+        {
+          "id": "8-e8",
+          "incorrect": "The results were obtained by the river.",
+          "correct": "The results were obtained from the river.",
+          "explanation": "From is natural for the source of samples or data."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Conditionals and Cause",
+      "focus": "Hypothetical situations, consequences and cautious predictions",
+      "words": [
+        {
+          "id": "9-v1",
+          "term": "consequence",
+          "meaning": "result of an event",
+          "example": "One consequence of drought is crop failure."
+        },
+        {
+          "id": "9-v2",
+          "term": "impact",
+          "meaning": "strong effect or influence",
+          "example": "The new policy had a positive impact."
+        },
+        {
+          "id": "9-v3",
+          "term": "effect",
+          "meaning": "result of a cause",
+          "example": "The treatment had an immediate effect."
+        },
+        {
+          "id": "9-v4",
+          "term": "influence",
+          "meaning": "power to affect something",
+          "example": "Family traditions influence food choices."
+        },
+        {
+          "id": "9-v5",
+          "term": "determine",
+          "meaning": "decide or establish exactly",
+          "example": "Temperature may determine growth rates."
+        },
+        {
+          "id": "9-v6",
+          "term": "depend",
+          "meaning": "be conditional upon",
+          "example": "The outcome depends on several factors."
+        },
+        {
+          "id": "9-v7",
+          "term": "rely",
+          "meaning": "depend on or trust",
+          "example": "Many communities rely on groundwater."
+        },
+        {
+          "id": "9-v8",
+          "term": "predict",
+          "meaning": "anticipate using evidence",
+          "example": "Models predict future demand."
+        },
+        {
+          "id": "9-v9",
+          "term": "forecast",
+          "meaning": "estimate a future trend",
+          "example": "Economists forecast moderate growth."
+        },
+        {
+          "id": "9-v10",
+          "term": "probability",
+          "meaning": "likelihood",
+          "example": "The probability of rainfall is low."
+        },
+        {
+          "id": "9-v11",
+          "term": "likelihood",
+          "meaning": "chance of an event",
+          "example": "The likelihood of error decreases with training."
+        },
+        {
+          "id": "9-v12",
+          "term": "risk",
+          "meaning": "possibility of something harmful",
+          "example": "Exposure increases the risk of illness."
+        },
+        {
+          "id": "9-v13",
+          "term": "hazard",
+          "meaning": "possible source of harm",
+          "example": "Flooding poses a hazard to residents."
+        },
+        {
+          "id": "9-v14",
+          "term": "vulnerable",
+          "meaning": "susceptible to harm",
+          "example": "Coastal areas are vulnerable to flooding."
+        },
+        {
+          "id": "9-v15",
+          "term": "resilient",
+          "meaning": "able to recover from difficulty",
+          "example": "Resilient ecosystems recover after disturbances."
+        },
+        {
+          "id": "9-v16",
+          "term": "susceptible",
+          "meaning": "easily affected",
+          "example": "Young plants are susceptible to frost."
+        },
+        {
+          "id": "9-v17",
+          "term": "inevitable",
+          "meaning": "certain to happen",
+          "example": "Some degree of wear is inevitable."
+        },
+        {
+          "id": "9-v18",
+          "term": "uncertain",
+          "meaning": "not known or decided",
+          "example": "The final outcome remains uncertain."
+        },
+        {
+          "id": "9-v19",
+          "term": "possible",
+          "meaning": "capable of happening",
+          "example": "Several explanations are possible."
+        },
+        {
+          "id": "9-v20",
+          "term": "potential",
+          "meaning": "capable of developing or happening",
+          "example": "The approach offers potential benefits."
+        },
+        {
+          "id": "9-v21",
+          "term": "feasible",
+          "meaning": "practical and achievable",
+          "example": "The plan is feasible within the budget."
+        },
+        {
+          "id": "9-v22",
+          "term": "alternative",
+          "meaning": "another option",
+          "example": "The council proposed an alternative route."
+        },
+        {
+          "id": "9-v23",
+          "term": "scenario",
+          "meaning": "possible set of conditions or events",
+          "example": "The team explored a worst-case scenario."
+        },
+        {
+          "id": "9-v24",
+          "term": "assumption",
+          "meaning": "unproven idea accepted temporarily",
+          "example": "The model relies on one major assumption."
+        },
+        {
+          "id": "9-v25",
+          "term": "variable",
+          "meaning": "factor that can change",
+          "example": "Light intensity was the independent variable."
+        },
+        {
+          "id": "9-v26",
+          "term": "constraint",
+          "meaning": "limit or restriction",
+          "example": "Time was the primary constraint."
+        },
+        {
+          "id": "9-v27",
+          "term": "threshold",
+          "meaning": "level at which something changes",
+          "example": "The device activates above a threshold."
+        },
+        {
+          "id": "9-v28",
+          "term": "condition",
+          "meaning": "requirement or state",
+          "example": "Plants grow well under suitable conditions."
+        },
+        {
+          "id": "9-v29",
+          "term": "circumstance",
+          "meaning": "fact affecting a situation",
+          "example": "Under these circumstances, delay is sensible."
+        },
+        {
+          "id": "9-v30",
+          "term": "outweigh",
+          "meaning": "be more important or greater than",
+          "example": "The benefits outweigh the costs."
+        },
+        {
+          "id": "9-v31",
+          "term": "offset",
+          "meaning": "counterbalance an effect",
+          "example": "Lower fuel use may offset some expenses."
+        },
+        {
+          "id": "9-v32",
+          "term": "prevent",
+          "meaning": "stop something from happening",
+          "example": "Vaccination can prevent some infections."
+        },
+        {
+          "id": "9-v33",
+          "term": "avoid",
+          "meaning": "keep from occurring",
+          "example": "Regular maintenance helps avoid breakdowns."
+        },
+        {
+          "id": "9-v34",
+          "term": "reduce",
+          "meaning": "make smaller",
+          "example": "The new system reduces energy use."
+        },
+        {
+          "id": "9-v35",
+          "term": "increase",
+          "meaning": "make greater",
+          "example": "Rainfall may increase in winter."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "9-p1",
+          "term": "if necessary",
+          "meaning": "if a need arises",
+          "example": "We can extend the trial if necessary."
+        },
+        {
+          "id": "9-p2",
+          "term": "in the event of",
+          "meaning": "if something happens",
+          "example": "In the event of a fire, use the stairs."
+        },
+        {
+          "id": "9-p3",
+          "term": "provided that",
+          "meaning": "only if a condition is met",
+          "example": "The program will proceed provided that funding continues."
+        },
+        {
+          "id": "9-p4",
+          "term": "unless otherwise stated",
+          "meaning": "except when a different rule is given",
+          "example": "All fees are final unless otherwise stated."
+        },
+        {
+          "id": "9-p5",
+          "term": "under these circumstances",
+          "meaning": "given these conditions",
+          "example": "Under these circumstances, the plan should change."
+        },
+        {
+          "id": "9-p6",
+          "term": "be likely to",
+          "meaning": "probably happen",
+          "example": "Prices are likely to rise."
+        },
+        {
+          "id": "9-p7",
+          "term": "be unlikely to",
+          "meaning": "probably not happen",
+          "example": "The system is unlikely to fail."
+        },
+        {
+          "id": "9-p8",
+          "term": "as a result of",
+          "meaning": "because of",
+          "example": "The crop failed as a result of drought."
+        },
+        {
+          "id": "9-p9",
+          "term": "lead to",
+          "meaning": "cause a result",
+          "example": "Poor drainage can lead to flooding."
+        },
+        {
+          "id": "9-p10",
+          "term": "result in",
+          "meaning": "produce an outcome",
+          "example": "The update resulted in fewer errors."
+        },
+        {
+          "id": "9-p11",
+          "term": "stem from",
+          "meaning": "originate in a cause",
+          "example": "The conflict stems from a misunderstanding."
+        },
+        {
+          "id": "9-p12",
+          "term": "give rise to",
+          "meaning": "cause to appear",
+          "example": "The experiment gave rise to further questions."
+        },
+        {
+          "id": "9-p13",
+          "term": "pose a risk to",
+          "meaning": "create potential harm",
+          "example": "Pollution poses a risk to wildlife."
+        },
+        {
+          "id": "9-p14",
+          "term": "depend on",
+          "meaning": "be determined by",
+          "example": "Success depends on consistent practice."
+        },
+        {
+          "id": "9-p15",
+          "term": "be conditional on",
+          "meaning": "require some condition",
+          "example": "Admission is conditional on meeting the requirements."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "9-g1",
+          "title": "Zero conditional",
+          "rule": "Use if + present, present for general truths.",
+          "correct": "If water freezes, it expands.",
+          "incorrect": "If water will freeze, it expands.",
+          "explanation": "A general scientific condition ordinarily uses present simple."
+        },
+        {
+          "id": "9-g2",
+          "title": "First conditional",
+          "rule": "Use if + present, will/may/can + base verb for realistic future possibilities.",
+          "correct": "If it rains, we will stay indoors.",
+          "incorrect": "If it will rain, we will stay indoors.",
+          "explanation": "Future condition uses present form."
+        },
+        {
+          "id": "9-g3",
+          "title": "Second conditional",
+          "rule": "Use if + past, would + base for unreal/hypothetical present or future.",
+          "correct": "If I had more time, I would practice daily.",
+          "incorrect": "If I would have more time, I practiced daily.",
+          "explanation": "The hypothetical if-clause uses past form, not would."
+        },
+        {
+          "id": "9-g4",
+          "title": "Third conditional",
+          "rule": "Use if + past perfect, would have + past participle for unreal past alternatives.",
+          "correct": "If they had tested it, they would have found the error.",
+          "incorrect": "If they would test it, they would have found the error.",
+          "explanation": "Unreal past condition uses had + past participle."
+        },
+        {
+          "id": "9-g5",
+          "title": "Unless is if not",
+          "rule": "Unless introduces an exception/negative condition; do not add not if it reverses the intended meaning.",
+          "correct": "Unless the temperature falls, the ice will melt.",
+          "incorrect": "Unless the temperature does not fall, the ice will melt to mean the same thing.",
+          "explanation": "Adding not reverses the condition."
+        }
+      ],
+      "roots": [
+        {
+          "id": "9-r1",
+          "term": "pre-",
+          "meaning": "before",
+          "example": "prevent, predict"
+        },
+        {
+          "id": "9-r2",
+          "term": "pro-",
+          "meaning": "forward",
+          "example": "project, propose"
+        },
+        {
+          "id": "9-r3",
+          "term": "anti-",
+          "meaning": "against",
+          "example": "antibody, antifreeze"
+        },
+        {
+          "id": "9-r4",
+          "term": "-ity",
+          "meaning": "quality noun suffix",
+          "example": "probability, stability"
+        },
+        {
+          "id": "9-r5",
+          "term": "-ible",
+          "meaning": "capable of",
+          "example": "feasible, reversible"
+        },
+        {
+          "id": "9-r6",
+          "term": "-ence",
+          "meaning": "state noun suffix",
+          "example": "dependence, consequence"
+        },
+        {
+          "id": "9-r7",
+          "term": "-ful",
+          "meaning": "full of",
+          "example": "harmful, useful"
+        },
+        {
+          "id": "9-r8",
+          "term": "circum-",
+          "meaning": "around",
+          "example": "circumstance, circumference"
+        }
+      ],
+      "traps": [
+        {
+          "id": "9-e1",
+          "incorrect": "If I will have time, I will call.",
+          "correct": "If I have time, I will call.",
+          "explanation": "First conditional if-clause uses present."
+        },
+        {
+          "id": "9-e2",
+          "incorrect": "If I would know, I would tell you.",
+          "correct": "If I knew, I would tell you.",
+          "explanation": "Second conditional uses past in if-clause."
+        },
+        {
+          "id": "9-e3",
+          "incorrect": "If she studied, she would have passed yesterday.",
+          "correct": "If she had studied, she would have passed yesterday.",
+          "explanation": "Unreal past requires past perfect."
+        },
+        {
+          "id": "9-e4",
+          "incorrect": "Unless you don't revise, you will forget meaning if no revision.",
+          "correct": "Unless you revise, you will forget.",
+          "explanation": "Unless already means if not."
+        },
+        {
+          "id": "9-e5",
+          "incorrect": "This policy may causes problems.",
+          "correct": "This policy may cause problems.",
+          "explanation": "Modal takes bare infinitive."
+        },
+        {
+          "id": "9-e6",
+          "incorrect": "The results depend of temperature.",
+          "correct": "The results depend on temperature.",
+          "explanation": "Fixed phrase depends on."
+        },
+        {
+          "id": "9-e7",
+          "incorrect": "This may lead into damage.",
+          "correct": "This may lead to damage.",
+          "explanation": "Cause/result collocation is lead to."
+        },
+        {
+          "id": "9-e8",
+          "incorrect": "The benefit outweigh the cost.",
+          "correct": "The benefits outweigh the costs.",
+          "explanation": "Plural subject benefits uses base verb."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Relative Clauses and Precision",
+      "focus": "Reference, modifiers, relative clauses and cohesion",
+      "words": [
+        {
+          "id": "10-v1",
+          "term": "refer",
+          "meaning": "mention or direct attention to",
+          "example": "The speaker referred to an earlier study."
+        },
+        {
+          "id": "10-v2",
+          "term": "reference",
+          "meaning": "source or act of mentioning",
+          "example": "The essay includes a reference to the report."
+        },
+        {
+          "id": "10-v3",
+          "term": "specify",
+          "meaning": "state precisely",
+          "example": "Please specify the date of the interview."
+        },
+        {
+          "id": "10-v4",
+          "term": "define",
+          "meaning": "explain exact meaning",
+          "example": "The textbook defines the term clearly."
+        },
+        {
+          "id": "10-v5",
+          "term": "describe",
+          "meaning": "state characteristics",
+          "example": "The article describes three methods."
+        },
+        {
+          "id": "10-v6",
+          "term": "illustrate",
+          "meaning": "explain with examples or visuals",
+          "example": "The diagram illustrates the process."
+        },
+        {
+          "id": "10-v7",
+          "term": "depict",
+          "meaning": "represent in words or images",
+          "example": "The painting depicts a coastal village."
+        },
+        {
+          "id": "10-v8",
+          "term": "outline",
+          "meaning": "give the main points",
+          "example": "The lecturer outlined the historical background."
+        },
+        {
+          "id": "10-v9",
+          "term": "summarize",
+          "meaning": "state essential points briefly",
+          "example": "The student summarized the discussion."
+        },
+        {
+          "id": "10-v10",
+          "term": "paraphrase",
+          "meaning": "express the same idea in new wording",
+          "example": "Paraphrase the passage without changing its meaning."
+        },
+        {
+          "id": "10-v11",
+          "term": "cite",
+          "meaning": "mention a source as support",
+          "example": "The essay cites two recent studies."
+        },
+        {
+          "id": "10-v12",
+          "term": "quote",
+          "meaning": "repeat exact words from a source",
+          "example": "The author quoted the interviewee."
+        },
+        {
+          "id": "10-v13",
+          "term": "elaborate",
+          "meaning": "add details or explain further",
+          "example": "The speaker elaborated on the initial claim."
+        },
+        {
+          "id": "10-v14",
+          "term": "examine",
+          "meaning": "inspect or consider carefully",
+          "example": "The study examines social behavior."
+        },
+        {
+          "id": "10-v15",
+          "term": "categorize",
+          "meaning": "place in groups",
+          "example": "The responses were categorized by theme."
+        },
+        {
+          "id": "10-v16",
+          "term": "classify",
+          "meaning": "arrange into types",
+          "example": "Biologists classify organisms by shared features."
+        },
+        {
+          "id": "10-v17",
+          "term": "compare",
+          "meaning": "examine similarities and differences",
+          "example": "The authors compare two technologies."
+        },
+        {
+          "id": "10-v18",
+          "term": "contrast",
+          "meaning": "emphasize differences",
+          "example": "The lecture contrasts urban and rural life."
+        },
+        {
+          "id": "10-v19",
+          "term": "differentiate",
+          "meaning": "recognize a distinction",
+          "example": "Readers must differentiate fact from opinion."
+        },
+        {
+          "id": "10-v20",
+          "term": "distinguish",
+          "meaning": "identify how things differ",
+          "example": "The chart distinguishes primary and secondary data."
+        },
+        {
+          "id": "10-v21",
+          "term": "connect",
+          "meaning": "link two things",
+          "example": "The paragraph connects causes with effects."
+        },
+        {
+          "id": "10-v22",
+          "term": "relate",
+          "meaning": "establish a connection",
+          "example": "The study relates sleep quality to performance."
+        },
+        {
+          "id": "10-v23",
+          "term": "correspond",
+          "meaning": "match or agree",
+          "example": "The findings correspond to earlier predictions."
+        },
+        {
+          "id": "10-v24",
+          "term": "align",
+          "meaning": "come into agreement",
+          "example": "The recommendations align with the evidence."
+        },
+        {
+          "id": "10-v25",
+          "term": "reflect",
+          "meaning": "show or represent",
+          "example": "The results reflect changes in behavior."
+        },
+        {
+          "id": "10-v26",
+          "term": "represent",
+          "meaning": "stand for or depict",
+          "example": "The figures represent monthly averages."
+        },
+        {
+          "id": "10-v27",
+          "term": "illustration",
+          "meaning": "example or explanatory picture",
+          "example": "The article includes an illustration."
+        },
+        {
+          "id": "10-v28",
+          "term": "description",
+          "meaning": "account of features",
+          "example": "The description was clear and concise."
+        },
+        {
+          "id": "10-v29",
+          "term": "definition",
+          "meaning": "statement of meaning",
+          "example": "A precise definition prevents confusion."
+        },
+        {
+          "id": "10-v30",
+          "term": "interpretation",
+          "meaning": "explanation of meaning",
+          "example": "The data permit more than one interpretation."
+        },
+        {
+          "id": "10-v31",
+          "term": "perspective",
+          "meaning": "particular viewpoint",
+          "example": "The issue looks different from another perspective."
+        },
+        {
+          "id": "10-v32",
+          "term": "viewpoint",
+          "meaning": "position or opinion",
+          "example": "The essay presents an opposing viewpoint."
+        },
+        {
+          "id": "10-v33",
+          "term": "coherent",
+          "meaning": "logical and connected",
+          "example": "The paragraph is coherent and well organized."
+        },
+        {
+          "id": "10-v34",
+          "term": "concise",
+          "meaning": "short and clear without unnecessary words",
+          "example": "A concise answer is easier to follow."
+        },
+        {
+          "id": "10-v35",
+          "term": "explicit",
+          "meaning": "clearly stated rather than implied",
+          "example": "The instructions give explicit requirements."
+        }
+      ],
+      "phrases": [
+        {
+          "id": "10-p1",
+          "term": "which refers to",
+          "meaning": "meaning or identifying something",
+          "example": "The term ecology, which refers to relationships in nature, is widely used."
+        },
+        {
+          "id": "10-p2",
+          "term": "the reason why",
+          "meaning": "explanation of cause",
+          "example": "This is the reason why the schedule changed."
+        },
+        {
+          "id": "10-p3",
+          "term": "the way in which",
+          "meaning": "the manner that",
+          "example": "The paper explains the way in which cells communicate."
+        },
+        {
+          "id": "10-p4",
+          "term": "in which",
+          "meaning": "within which situation or place",
+          "example": "This is the context in which the word appears."
+        },
+        {
+          "id": "10-p5",
+          "term": "according to which",
+          "meaning": "following a stated rule",
+          "example": "The policy according to which applications are reviewed is public."
+        },
+        {
+          "id": "10-p6",
+          "term": "with respect to",
+          "meaning": "concerning",
+          "example": "With respect to cost, the second model is cheaper."
+        },
+        {
+          "id": "10-p7",
+          "term": "as illustrated by",
+          "meaning": "as shown through an example",
+          "example": "The trend is clear, as illustrated by the chart."
+        },
+        {
+          "id": "10-p8",
+          "term": "as described above",
+          "meaning": "as already explained",
+          "example": "As described above, the sample was small."
+        },
+        {
+          "id": "10-p9",
+          "term": "in particular",
+          "meaning": "especially",
+          "example": "Several factors matter, in particular temperature."
+        },
+        {
+          "id": "10-p10",
+          "term": "more precisely",
+          "meaning": "with greater accuracy",
+          "example": "The event happened in May, more precisely on May 12."
+        },
+        {
+          "id": "10-p11",
+          "term": "that is to say",
+          "meaning": "in other words",
+          "example": "The device is portable, that is to say, easy to carry."
+        },
+        {
+          "id": "10-p12",
+          "term": "be related to",
+          "meaning": "have a connection with",
+          "example": "The condition may be related to stress."
+        },
+        {
+          "id": "10-p13",
+          "term": "be consistent with",
+          "meaning": "agree with evidence",
+          "example": "The results are consistent with the hypothesis."
+        },
+        {
+          "id": "10-p14",
+          "term": "draw attention to",
+          "meaning": "make someone notice",
+          "example": "The author draws attention to the limitations."
+        },
+        {
+          "id": "10-p15",
+          "term": "make clear that",
+          "meaning": "state unmistakably",
+          "example": "The instructions make clear that attendance is mandatory."
+        }
+      ],
+      "grammars": [
+        {
+          "id": "10-g1",
+          "title": "Defining relative clauses",
+          "rule": "Use who for people and which/that for things to identify exactly which person or thing is meant.",
+          "correct": "The student who won the award studies biology.",
+          "incorrect": "The student which won the award studies biology.",
+          "explanation": "Who identifies people."
+        },
+        {
+          "id": "10-g2",
+          "title": "Non-defining clauses",
+          "rule": "Use commas for extra information; use who or which, not that, in conventional non-defining clauses.",
+          "correct": "The lecture, which began at nine, was useful.",
+          "incorrect": "The lecture, that began at nine, was useful.",
+          "explanation": "Non-defining clauses are set off by commas and use which/who."
+        },
+        {
+          "id": "10-g3",
+          "title": "Possessive relative whose",
+          "rule": "Use whose for possession or association, including inanimate nouns.",
+          "correct": "The researcher whose article we read is visiting.",
+          "incorrect": "The researcher which article we read is visiting.",
+          "explanation": "Whose acts as a possessive relative determiner."
+        },
+        {
+          "id": "10-g4",
+          "title": "Reduced relative clauses",
+          "rule": "A relative clause using be + participle can sometimes be reduced by deleting relative pronoun and be.",
+          "correct": "The data collected yesterday were verified.",
+          "incorrect": "The data that collected yesterday were verified.",
+          "explanation": "The data are the receiver of collecting, so use passive participle or that were collected."
+        },
+        {
+          "id": "10-g5",
+          "title": "Pronoun reference clarity",
+          "rule": "Make sure it/they/this points unambiguously to the intended noun or event.",
+          "correct": "The experiment failed; this failure prompted a redesign.",
+          "incorrect": "The experiment failed because it was expensive, when it has no clear referent.",
+          "explanation": "Explicit repetition can remove ambiguous pronoun references."
+        }
+      ],
+      "roots": [
+        {
+          "id": "10-r1",
+          "term": "-graph",
+          "meaning": "write or record",
+          "example": "paragraph, photograph"
+        },
+        {
+          "id": "10-r2",
+          "term": "-scribe",
+          "meaning": "write",
+          "example": "describe, subscribe"
+        },
+        {
+          "id": "10-r3",
+          "term": "dict",
+          "meaning": "say or speak",
+          "example": "dictate, dictionary"
+        },
+        {
+          "id": "10-r4",
+          "term": "-tion",
+          "meaning": "action/result noun ending",
+          "example": "definition, interpretation"
+        },
+        {
+          "id": "10-r5",
+          "term": "co-",
+          "meaning": "together",
+          "example": "coherent, correspond"
+        },
+        {
+          "id": "10-r6",
+          "term": "inter-",
+          "meaning": "between",
+          "example": "interpret, interact"
+        },
+        {
+          "id": "10-r7",
+          "term": "-ive",
+          "meaning": "adjective ending",
+          "example": "descriptive, informative"
+        },
+        {
+          "id": "10-r8",
+          "term": "-ize",
+          "meaning": "make or render",
+          "example": "categorize, summarize"
+        }
+      ],
+      "traps": [
+        {
+          "id": "10-e1",
+          "incorrect": "The scientist which spoke won an award.",
+          "correct": "The scientist who spoke won an award.",
+          "explanation": "Use who for people."
+        },
+        {
+          "id": "10-e2",
+          "incorrect": "The report, that was published yesterday, is useful.",
+          "correct": "The report, which was published yesterday, is useful.",
+          "explanation": "Non-defining relatives use which rather than that."
+        },
+        {
+          "id": "10-e3",
+          "incorrect": "The professor whose published the study retired.",
+          "correct": "The professor who published the study retired.",
+          "explanation": "Whose needs a following noun phrase."
+        },
+        {
+          "id": "10-e4",
+          "incorrect": "The data which collected yesterday were reliable.",
+          "correct": "The data collected yesterday were reliable.",
+          "explanation": "Passive reduced relative uses past participle."
+        },
+        {
+          "id": "10-e5",
+          "incorrect": "This is the method which we rely.",
+          "correct": "This is the method on which we rely.",
+          "explanation": "Rely needs on; alternatively the method which we rely on."
+        },
+        {
+          "id": "10-e6",
+          "incorrect": "The paper makes clear about the problem.",
+          "correct": "The paper makes the problem clear.",
+          "explanation": "Make clear takes a direct object or a that-clause."
+        },
+        {
+          "id": "10-e7",
+          "incorrect": "He described about the graph.",
+          "correct": "He described the graph.",
+          "explanation": "Describe is transitive without about."
+        },
+        {
+          "id": "10-e8",
+          "incorrect": "The explanation is briefly and clear.",
+          "correct": "The explanation is brief and clear.",
+          "explanation": "Parallel predicate adjectives should be adjective forms."
+        }
+      ]
+    }
+  ]
+}
