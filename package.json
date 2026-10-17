@@ -13,7 +13,8 @@
     "build:reading": "node tools/build-reading-bank.mjs",
     "audit:reading": "node tools/audit-reading.mjs",
     "build:listening": "node tools/build-listening-bank.mjs",
-    "audit:listening": "node tools/audit-listening.mjs"
+    "audit:listening": "node tools/audit-listening.mjs",
+    "test:mountain": "node --test tests/mountain-quality.test.mjs"
   },
   "devDependencies": {
     "playwright": "1.56.1"
