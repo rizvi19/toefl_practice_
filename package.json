@@ -7,11 +7,13 @@
   "scripts": {
     "validate": "node tools/validate-collection.mjs",
     "smoke": "node tools/smoke-playwright.mjs",
-    "build:bank": "node tools/build-reading-bank.mjs && node tools/build-exam-bank.mjs",
-    "test:sections": "node --test tests/section-core.test.mjs tests/reading-quality.test.mjs",
-    "test:browser": "node tests/section-browser.mjs && node tests/reading-browser.mjs && node tests/section-audio.mjs && node tests/section-kokoro.mjs",
+    "build:bank": "node tools/build-reading-bank.mjs && node tools/build-listening-bank.mjs && node tools/build-exam-bank.mjs",
+    "test:sections": "node --test tests/section-core.test.mjs tests/reading-quality.test.mjs tests/listening-quality.test.mjs",
+    "test:browser": "node tests/section-browser.mjs && node tests/reading-browser.mjs && node tests/listening-browser.mjs && node tests/section-audio.mjs && node tests/section-kokoro.mjs && node tests/listening-recordings.mjs",
     "build:reading": "node tools/build-reading-bank.mjs",
-    "audit:reading": "node tools/audit-reading.mjs"
+    "audit:reading": "node tools/audit-reading.mjs",
+    "build:listening": "node tools/build-listening-bank.mjs",
+    "audit:listening": "node tools/audit-listening.mjs"
   },
   "devDependencies": {
     "playwright": "1.56.1"

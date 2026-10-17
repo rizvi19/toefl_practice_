@@ -22,7 +22,7 @@ export async function resolveListeningAudio(item,settings={},onProgress=()=>{}){
   }
   if(settings.audioMode==='kokoro-browser'){
     try{
-      const {browserKokoroAudio}=await import('./browser-kokoro.js?v=1');
+      const {browserKokoroAudio}=await import('./browser-kokoro.js?v=2');
       return await browserKokoroAudio(item,digest,onProgress);
     }catch(error){
       console.warn('Browser Kokoro:',error);

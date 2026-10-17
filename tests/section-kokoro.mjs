@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 import {newSession,KEY} from '../exam/core.js';
 const url=process.env.TEST_URL||'http://127.0.0.1:4177/toefl_practice_/';
 const bank=JSON.parse(fs.readFileSync('exam/bank.json','utf8')).items;
-const item=bank.find(x=>x.id==='choose-response26-002'),sha=createHash('sha256').update(item.script).digest('hex');
+const item=bank.find(x=>x.id==='l2-r016'),sha=createHash('sha256').update(item.script).digest('hex');
 const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':undefined});
 const page=await browser.newPage(),errors=[];let delay=0,requests=0;
 page.on('pageerror',e=>errors.push(e.message));
@@ -27,6 +27,7 @@ await page.route('http://127.0.0.1:8766/**',async route=>{
  await route.fulfill({headers,contentType:'audio/wav',body:fs.readFileSync('audio/response-01.wav')});
 });
 try{
+ await page.route('**/audio/generated/manifest.json',route=>route.fulfill({json:{recordings:{}}}));
  await page.goto(url);await page.getByRole('button',{name:'Take Listening Test',exact:true}).click();
  assert.equal(await page.locator('#audio-mode').inputValue(),'kokoro-browser','New visitors have browser Kokoro');
  await page.locator('#audio-mode').selectOption('kokoro');

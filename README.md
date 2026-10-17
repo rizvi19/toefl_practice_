@@ -1,10 +1,12 @@
-# TOEFL Practice Studio — Reading quality upgrade (2026)
+# TOEFL Practice Studio — Reading and Listening (2026)
 
 Live: https://rizvi19.github.io/toefl_practice_/
 
-Reading now has **222 distinct activities / 1,400 scored items**: 100 Complete the Words, 30 Daily Life Short, 30 Daily Life Long, 30 Text Chain and 32 Academic Passage activities. It offers history-aware selection, shuffled choices, mixed/intermediate/advanced pools, six presets, editable module structures and task/skill feedback. The default is 35 + 15 items in 21 + 9 minutes. Listening's 800 activities, audio, Writing and Speaking are preserved.
+Listening now has **200 distinct activities / 450 questions**, 50 each of Choose a Response, Conversation, Announcement and Academic Talk. Repetitive generated material has been replaced with independently authored scripts, plausible distractors, exact evidence and a rationale for every option. All 200 activities have matched audio: 27 existing recordings and 173 new Kokoro MP3s. Conversations use two distinct voices. No model download or helper is needed to play these bundled recordings.
 
-See [Reading release details](docs/READING_V2_RELEASE.md), [before/after audit](docs/READING_QUALITY_AUDIT.json) and [format/scoring page](docs/SECTION_TESTS_2026.html). The four uploaded PDFs and five-layout screenshot informed structure; none of their publisher content is included.
+Reading remains **222 activities / 1,400 scored items**. Writing, Speaking, saved historical attempts and the 38 original WAVs are preserved. The active library contains 445 activities: 222 Reading, 200 Listening and 23 Writing/Speaking.
+
+See [Listening release details](docs/LISTENING_V2_RELEASE.md), [Listening before/after audit](docs/LISTENING_QUALITY_AUDIT.json), [Reading release details](docs/READING_V2_RELEASE.md) and [format/scoring](docs/SECTION_TESTS_2026.html). The four uploaded PDFs informed task structure and question design; publisher content is not included.
 
 ## Build and verify
 
@@ -12,26 +14,31 @@ See [Reading release details](docs/READING_V2_RELEASE.md), [before/after audit](
 npm ci
 npm run build:bank
 npm run audit:reading
+npm run audit:listening
 npm run validate
 node tools/validate-listening.mjs
 npm run test:sections
 node tools/serve-subpath.mjs
-# In another terminal while the preview server runs:
+# Another terminal while the server runs:
 npm run test:browser
 npm run smoke
 node tools/smoke-listening-playwright.mjs
 node tools/smoke-timers-playwright.mjs
 ```
 
-Content sources are in `reading/`. Commit all generated bank files together. The audit needs the baseline commit in Git history. Windows browser tests use Edge; CI installs Chromium. `python tools/package-release.py ../reading-release` creates verified Pages and editable source archives outside the repository.
+Content sources are in `reading/` and `listening/`. Commit both generated banks and their library adapters together with `exam/bank.json`. Audits use baseline commits retained in Git history. Windows tests use installed Edge; CI uses Chromium. Browser speech is mocked for full-form navigation tests; separate tests play real WAV/MP3 files to completion at normal speed.
 
-GitHub Pages serves main / root without a server build. Include `reading/` with the other runtime folders. Actions validates pull requests and generates archives as workflow artifacts; historical files in `downloads/` are not this release. The original compiled practice library remains at `library.html` with a tested Reading adapter. Its 60-activity full form keeps its non-Reading slots and replaces only Reading material; overall active library size is 1,045 activities.
+`python tools/package-release.py ../quality-release` creates and extracts verified Pages/source archives outside the repository. GitHub Pages serves main / root with no build. Include `listening/` and `reading/` alongside `exam/`, `assets/`, `audio/`, `collections/` and `docs/`. Actions validates source and extracted Pages files and publishes ZIP workflow artifacts. Existing `downloads/` archives are historical versions.
 
-## Practice limits
+## Practice settings and limits
 
-**Local estimated practice score** uses `round-to-half(1 + 5 × accuracy)`. Its display follows ETS's 2026 1–6 reporting scale, but the formula and 70% routing threshold are uncalibrated local choices. These are not validated TOEFL predictions, equivalent difficulty forms or CEFR results. Incomplete/ended-early new Reading attempts have no score estimate. Editorial pool levels and automatic mechanical checks do not substitute for external item calibration or expert review.
+Reading defaults to 35 + 15 items in 21 + 9 minutes. Listening defaults to 32 + 15 items, with 18 + 11 minutes on the upper route or 18 + 7 on the lower route. Listening offers mixed adaptive, advanced fixed-upper and intermediate fixed-lower presets, editable module activity counts, level and route controls, a custom section timer and custom Module 1 budget. Levels are relative editorial labels, not externally calibrated difficulty or CEFR bands.
 
-Reading exposure history persists in the same browser and is shared by random library and section practice. Unseen eligible items are preferred; exhausted pools rotate least-used, oldest items. Only viewed material is counted. Clearing storage resets the ledger, and concurrent tabs are not coordinated. Old saved attempts keep their frozen content.
+Listening questions appear after audio completion, one at a time; answering unlocks Next. Each stimulus plays once in section tests; study mode retains replay/transcripts. Playback failure and interrupted reload have explicit recovery. Initial Kokoro preparation time is excluded from the countdown, while playback and answering consume time. All currently active items have prebuilt audio; optional browser/local Kokoro and browser English speech remain available.
+
+Selection avoids repeated IDs/families within a form. Shared browser-local exposure ledgers prefer unheard Listening and unseen Reading in the eligible pool, then least-used/oldest material after exhaustion. Listening counts only a successfully completed playback, once per session; sound checks, failed/interrupted playback, hidden branches and review replays are excluded. Clearing storage resets exposure history; concurrent tabs and devices are not coordinated. Old saved attempts keep their frozen content.
+
+**Local estimated practice score** = `round-to-half(1 + 5 × accuracy)`, bounded 1–6. ETS reports official 2026 scores on that scale, but this formula and the local 70% routing threshold are uncalibrated. Incomplete attempts without Module 2 and ended-early attempts have no estimate. Task/skill feedback uses actual configured denominators and counts unanswered questions as incorrect. This is not a validated TOEFL score prediction.
 
 ---
 

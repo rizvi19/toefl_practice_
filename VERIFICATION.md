@@ -1,3 +1,25 @@
+# Listening quality upgrade verification — 17 October 2026
+
+Verified locally on Windows with Node 23.5 and installed Edge under `/toefl_practice_/`. Current release: [Listening v2](docs/LISTENING_V2_RELEASE.md). Reading's previously published question bank is preserved.
+
+- **23 unit tests pass**: all 450 Listening keys, evidence and option rationales; exact/near duplicate rejection; 600 seeded Listening forms across three presets; strict levels; option/key/rationale shuffling; unheard-first selection and pool exhaustion; custom module timing and score denominators; mixed task/skill feedback; audio/answer completion gating; and Reading's 1,400 keys/selection/routing. Shortest/longest correct-choice dominance is checked per Listening task pool. All 1,800 individual choices are distinct. A cross-section script/passages comparison found no Reading/Listening overlap at the documented 0.28 threshold.
+- All 38 pre-existing WAVs and the historical pilot MP3 match baseline `e23943f` byte for byte. The frozen original full-form data and current Reading bank match that baseline.
+- Source browser suites pass: complete Reading 50/50 and Listening 47/47; automatic/fixed routing, reload, module expiry, custom timing, locked earlier answers, no test replay/transcript, result download and feedback. No JavaScript errors or unexpected failed asset requests.
+- New Listening browser checks pass for all presets, custom counts/time, strict levels, fully-heard-only exposure, repeat avoidance, shared library history, reload/replay and 390px/1440px layouts. Desktop/mobile setup and active-test screenshots were visually inspected; no horizontal overflow.
+- Native original WAV playback: 4.053832 seconds, real playing/ended events, no TTS. Interrupted reload recovery and failed-recording speech retry pass; the user's Kokoro preference is retained.
+- Native new MP3 playback at normal speed passes for all four types: l2-r016 (2.375s), l2-c005 (29.865s), l2-n005 (25.375s), l2-t005 (64s). Every selected track completes without TTS/error, exposes questions only after ended, blocks Next before an answer, records one exposure and prevents test replay.
+- Optional helper/browser Kokoro choices and persisted preference pass. A mocked helper uses the actual requested ID/script hash and real WAV playback. Its 12-second preparation delay is excluded from an 11-second module budget; playback and answering consume time. No model download runs in tests.
+- Library checks pass: four Listening task pools, all keys, shuffled grading, two-voice TTS, 32+15 rehearsal, one-play behavior and saved progress. Reading cloze 10/10, daily 2/2, academic 5/5, random/rehearsal, original 60-screen form and subpath assets pass. Custom timer 2.5 minutes, stop on submission, reset on next, invalid input, rehearsal, untimed and default behavior pass.
+- Audio-source checks pass without loading a model: all long-talk chunks retain every word in order; all 46 new conversations preserve every turn and use both assigned voices. The portable helper ZIP matches the current helper and 200-script catalog, contains no models/installers and passes ZIP integrity.
+
+Final inventory: all 200 recordings passed full FFmpeg decoding and non-silence checks; all 173 new MP3s have matched script hashes and protected bundled entries. The strict validator verifies every recording against the audio audit. Both release ZIPs pass CRC checks and extraction. Extracted Pages bank validators and complete Reading 50/50 / Listening 47/47 browser journeys pass. Repeated builds reproduce all five bank/adapter files exactly. The complete browser suites also run against extracted Pages files in CI. Browser speech is mocked only for fast full-form navigation; native WAV/MP3 playback is tested separately. Test success verifies implemented behavior, not external item calibration or voice quality on every device.
+
+Commands: `npm run build:bank`, `npm run audit:reading`, `npm run audit:listening`, `npm run validate`, `node tools/validate-listening.mjs`, `npm run test:sections`, `python tests/listening-audio-source.py`, `python tools/package-kokoro-helper.py --check`, `npm run test:browser`, `npm run smoke`, `node tools/smoke-listening-playwright.mjs`, `node tools/smoke-timers-playwright.mjs`.
+
+---
+
+## Previous Reading release verification
+
 # Reading upgrade verification — 13 October 2026
 
 All checks below passed locally on Windows with Node 23.5 and Edge, under the exact `/toefl_practice_/` repository subpath. Chromium runs in the updated GitHub Actions workflow; hosted CI results must be read separately.
