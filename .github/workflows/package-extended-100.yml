@@ -1,13 +1,13 @@
-name: Validate and package Reading quality upgrade
+name: Validate and package Reading and Listening
 on:
   push:
     branches: [main]
-    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   pull_request:
-    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   workflow_dispatch:
 concurrency:
-  group: reading-quality-${{ github.ref }}
+  group: practice-quality-${{ github.ref }}
   cancel-in-progress: true
 permissions:
   contents: read
@@ -24,11 +24,14 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
-      - name: Rebuild and validate Reading; fingerprint unchanged Listening
+      - name: Rebuild and audit both banks; fingerprint preserved Reading
         run: |
           npm run build:bank
+          python tools/package-kokoro-helper.py --check
+          python tests/listening-audio-source.py
           npm run audit:reading
-          git diff --exit-code -- reading/bank.json reading/library-bank.js exam/bank.json docs/READING_QUALITY_AUDIT.json
+          npm run audit:listening
+          git diff --exit-code -- reading/bank.json reading/library-bank.js listening/bank.json listening/library-bank.js exam/bank.json docs/READING_QUALITY_AUDIT.json docs/LISTENING_QUALITY_AUDIT.json
           npm run validate
           node tools/validate-listening.mjs
           npm run test:sections
@@ -48,10 +51,10 @@ jobs:
       - name: Package and verify extracted runtime
         run: |
           set -euo pipefail
-          python tools/package-release.py /tmp/toefl-reading-release
-          SITE_ROOT=/tmp/toefl-reading-release/extracted-pages node tools/validate-collection.mjs
-          SITE_ROOT=/tmp/toefl-reading-release/extracted-pages node tools/validate-listening.mjs
-          SITE_ROOT=/tmp/toefl-reading-release/extracted-pages node tools/serve-subpath.mjs > /tmp/toefl-extracted.log 2>&1 &
+          python tools/package-release.py /tmp/toefl-quality-release
+          SITE_ROOT=/tmp/toefl-quality-release/extracted-pages node tools/validate-collection.mjs
+          SITE_ROOT=/tmp/toefl-quality-release/extracted-pages node tools/validate-listening.mjs
+          SITE_ROOT=/tmp/toefl-quality-release/extracted-pages node tools/serve-subpath.mjs > /tmp/toefl-extracted.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           sleep 2
@@ -61,8 +64,8 @@ jobs:
           node tools/smoke-timers-playwright.mjs
       - uses: actions/upload-artifact@v4
         with:
-          name: TOEFL-Reading222-Items1400-Listening800-Verified
+          name: TOEFL-Reading222-Items1400-Listening200-Questions450-Verified
           path: |
-            /tmp/toefl-reading-release/*.zip
-            /tmp/toefl-reading-release/SHA256SUMS.txt
+            /tmp/toefl-quality-release/*.zip
+            /tmp/toefl-quality-release/SHA256SUMS.txt
           retention-days: 90

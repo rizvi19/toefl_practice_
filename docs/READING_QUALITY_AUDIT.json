@@ -119,9 +119,9 @@
     "maxIdenticalOptionSetReuse": 2
   },
   "listening": {
-    "activities": 800,
-    "unchanged": true,
-    "sha256": "37b51f1966d46ff7456a6bb72fb9d779a013b3d7aaa167d238d3f866fe71cd43"
+    "activities": 200,
+    "unchanged": false,
+    "sha256": "4f1a3b53a6e06446bec7903b00016d2e859eb3b0eb3c12a7b8be2d11d6270d33"
   },
   "validationErrors": [],
   "originalNonReading": {

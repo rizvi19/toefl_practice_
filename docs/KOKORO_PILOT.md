@@ -1,3 +1,5 @@
+> Current Listening v2: all 200 active activities have bundled audio (27 existing recordings + 173 new Kokoro MP3s), so normal playback needs no model download or helper. See [current release](LISTENING_V2_RELEASE.md). The pilot counts, catalog IDs and portable downloads below describe an earlier release. For current custom generation use the repository helper and current `listening/bank.json`; refresh any portable helper catalog before requesting new IDs. Browser/local Kokoro preferences and on-demand generation remain available.
+
 # Kokoro Listening integration
 
 ## Directly from GitHub Pages

@@ -1,7 +1,7 @@
 // Runs only after Play for an activity needing audio. CPU WASM; one quantized model.
 let tts,loading,TextSplitter,encoderReady=false,queue=Promise.resolve();
 function turns(item){
-  if(item.type!=='conversation')return [{voice:'af_heart',text:item.script.trim()}];
+  if(item.type!=='conversation'){const number=Number(item.id.match(/(\d+)$/)?.[1]);return [{voice:item.type==='academic-talk'&&number%2===0?'am_michael':'af_heart',text:item.script.trim()}];}
   return item.script.split(/\n+/).filter(x=>x.trim()).map(line=>{const m=line.match(/^\s*(Woman|Man):\s*(.+)$/);if(!m)throw Error('Conversation speaker labels are not supported');return {voice:m[1]==='Woman'?'af_heart':'am_michael',text:m[2]}});
 }
 async function load(progress){

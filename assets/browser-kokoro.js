@@ -10,7 +10,7 @@ async function save(entry){
 }
 function generate(item,onProgress){
   if(!worker){
-    worker=new Worker(new URL('./browser-kokoro-worker.js?v=1',import.meta.url));
+    worker=new Worker(new URL('./browser-kokoro-worker.js?v=2',import.meta.url));
     worker.onmessage=({data})=>{const job=jobs.get(data.job);if(!job)return;if(data.type==='progress'){job.progress(data.message);return}clearTimeout(job.timer);jobs.delete(data.job);data.type==='done'?job.resolve(data):job.reject(new Error(data.message))};
     worker.onerror=()=>{for(const job of jobs.values()){clearTimeout(job.timer);job.reject(new Error('Browser Kokoro could not start'))}jobs.clear();worker.terminate();worker=null};
   }

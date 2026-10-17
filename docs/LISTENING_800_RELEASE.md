@@ -1,3 +1,5 @@
+> Historical release. The active bank is now [Listening v2: 200 distinct activities / 450 questions](LISTENING_V2_RELEASE.md). The counts and template behavior below describe the retired bank.
+
 # TOEFL Practice Studio — Listening 800, October 2026
 
 **Website:** https://rizvi19.github.io/toefl_practice_/

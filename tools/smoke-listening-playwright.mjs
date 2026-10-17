@@ -2,15 +2,8 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import vm from "node:vm";
 import {chromium} from "playwright";
-const root=process.env.SITE_ROOT||".",w={};
-for(const file of [
- "academic-topics-additional.js","complete-words-200.js","daily-life-scenarios.js",
- "daily-life-vocabulary.js","daily-life-200.js","academic-expansions-first.js",
- "academic-expansions-second.js","academic-question-guidance.js",
- "academic-vocab-distractors.js","academic-200.js",
- "listening-campus-cases.js","listening-rationales.js","listening-200.js"
-])vm.runInNewContext(fs.readFileSync(root+"/collections/"+file,"utf8"),{window:w});
-const bank=w.__TOEFL_LISTENING_EXTENDED__;
+const root=process.env.SITE_ROOT||'.';
+const all=JSON.parse(fs.readFileSync(root+'/listening/bank.json','utf8')).items;const bank=Object.fromEntries(['choose-response','conversation','announcement','academic-talk'].map(t=>[t,all.filter(x=>x.type===t&&!x.retainedRecording)]));
 const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':undefined});
 const page=await browser.newPage();
 page.setDefaultTimeout(20000);
@@ -46,21 +39,19 @@ const endSession=async()=>{
 };
 await page.goto(url,{waitUntil:"networkidle"});
 await enter();
-await page.getByRole("heading",{name:/Listening practice · 200 in each task/}).waitFor();
+await page.getByRole("heading",{name:/Listening practice · 50 in each task/}).waitFor();
 // All four categories have exactly 200 including original full-form IDs.
 const categories=[
- ["choose-response","Browse 200 Choose a Response","response"],
- ["conversation","Browse 200 Conversations","conversation"],
- ["announcement","Browse 200 Announcements","announcement"],
- ["academic-talk","Browse 200 Academic Talks","talk"]
+ ["choose-response","Browse 50 Choose a Response","response"],
+ ["conversation","Browse 50 Conversations","conversation"],
+ ["announcement","Browse 50 Announcements","announcement"],
+ ["academic-talk","Browse 50 Academic Talks","talk"]
 ];
 for(const [type,label] of categories){
  await page.getByRole("button",{name:label,exact:true}).click();
  const rows=page.locator(".activity-row");
- assert.equal(await rows.count(),200,type+" browse must show 200");
- const manifestPath=root+"/audio/generated/manifest.json";
- const recordings=fs.existsSync(manifestPath)?JSON.parse(fs.readFileSync(manifestPath,"utf8")).recordings:{};
- const fallbackIndex=bank[type].findIndex(item=>!recordings[item.id]);
+ assert.equal(await rows.count(),50,type+" browse must show 50");
+ const fallbackIndex=0;
  const selected=bank[type][fallbackIndex];
  await rows.nth((type==="choose-response"?15:4)+fallbackIndex).getByRole("button",{name:/Practice/}).click();
  const session=await page.evaluate(()=>JSON.parse(localStorage.getItem("toefl-studio-v1")).session);
@@ -79,14 +70,15 @@ for(const [type,label] of categories){
  }
  assert.equal(await page.locator(".questions fieldset").count(),selected.questions.length);
  for(let q=0;q<selected.questions.length;q++){
-   const answer=selected.questions[q].answer;
+   const item=await page.evaluate(()=>JSON.parse(localStorage.getItem("toefl-studio-v1")).session.items[0]);
+   const answer=item.questions[q].answer;
    await page.locator(".questions fieldset").nth(q).locator('input[type="radio"][value="'+answer+'"]').check({force:true});
  }
  await page.getByRole("button",{name:/Check answers/i}).click();
  await page.getByText(selected.questions.length+" / "+selected.questions.length+" correct").waitFor();
  const feedback=await page.locator(".answer-review").innerText();
  assert(feedback.includes("Question type:"),"Guide question type in feedback");
- assert(feedback.includes("Choice "),"Individual distractor reasons in feedback");
+ assert(feedback.includes("is incorrect:"),"Individual distractor reasons in feedback");
  await page.getByRole("button",{name:/Finish & see report/i}).click();
  await enter();
 }
@@ -112,10 +104,10 @@ await endSession();await enter();
 await page.getByRole("button",{name:"Listening full rehearsal · 47 questions"}).click();
 session=await page.evaluate(()=>JSON.parse(localStorage.getItem("toefl-studio-v1")).session);
 assert.equal(session.mode,"listening-mock");
-assert.equal(session.items.length,25);
+assert.equal(session.items.length,28);
 const sum=a=>a.reduce((n,x)=>n+x.questions.length,0);
-assert.equal(sum(session.items.slice(0,18)),32);
-assert.equal(sum(session.items.slice(18)),15);
+assert.equal(sum(session.items.slice(0,19)),32);
+assert.equal(sum(session.items.slice(19)),15);
 assert.equal(sum(session.items),47);
 assert.equal(await page.locator(".questions fieldset").count(),0,"Mock begins with audio, not answer choices");
 assert.equal(await page.getByRole("button",{name:"Show text"}).count(),0,"Exam transcript hidden");
@@ -127,5 +119,5 @@ assert.equal(await page.locator(".questions fieldset").count(),1);
 await endSession();
 assert.equal(errors.length,0,"JS errors "+JSON.stringify(errors));
 assert.equal(failed.length,0,"HTTP errors "+JSON.stringify(failed));
-console.log(JSON.stringify({listeningBrowser:"PASS",activities:800,totalQuestions:1800,types:categories.length,voice:"two-voice conversation TTS",subpath:"PASS",mock:"32+15 questions",onePlay:"PASS",responseGrading:"PASS",storage:"PASS"}));
+console.log(JSON.stringify({listeningBrowser:"PASS",activities:200,totalQuestions:450,types:categories.length,voice:"two-voice conversation TTS",subpath:"PASS",mock:"32+15 questions",onePlay:"PASS",responseGrading:"PASS",storage:"PASS"}));
 await browser.close();

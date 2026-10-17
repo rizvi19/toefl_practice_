@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 const root=path.resolve(process.env.SITE_ROOT||".");
 const prefix="/toefl_practice_/";
-const types={".html":"text/html;charset=utf-8",".js":"text/javascript;charset=utf-8",".css":"text/css;charset=utf-8",".wav":"audio/wav",".woff":"font/woff",".woff2":"font/woff2",".txt":"text/plain;charset=utf-8",".json":"application/json"};
+const types={".html":"text/html;charset=utf-8",".js":"text/javascript;charset=utf-8",".css":"text/css;charset=utf-8",".mp3":"audio/mpeg",".wav":"audio/wav",".woff":"font/woff",".woff2":"font/woff2",".txt":"text/plain;charset=utf-8",".json":"application/json"};
 http.createServer((req,res)=>{
  const pathname=new URL(req.url,"http://localhost").pathname;
  if(!pathname.startsWith(prefix)){res.writeHead(404);res.end("Wrong GitHub Pages prefix");return;}

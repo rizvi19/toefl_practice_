@@ -1,0 +1,153 @@
+{
+  "baseCommit": "e23943f",
+  "method": "Normalized spoken scripts (speaker labels removed); 5-word-shingle Jaccard >=0.28 for scripts >=30 words; exact question duplicates use stem plus unordered options. Generic choose-response directions may legitimately repeat. These checks do not certify psychometric or semantic validity.",
+  "baseline": {
+    "activities": 800,
+    "questions": 1800,
+    "byType": {
+      "choose-response": 200,
+      "conversation": 200,
+      "announcement": 200,
+      "academic-talk": 200
+    },
+    "exactCopies": 0,
+    "nearDuplicatePairs": 294,
+    "nearDuplicateExamples": [
+      {
+        "ids": [
+          "talk26-001",
+          "talk26-002"
+        ],
+        "similarity": 0.49
+      },
+      {
+        "ids": [
+          "talk26-001",
+          "talk26-003"
+        ],
+        "similarity": 0.538
+      },
+      {
+        "ids": [
+          "talk26-001",
+          "talk26-004"
+        ],
+        "similarity": 0.521
+      },
+      {
+        "ids": [
+          "talk26-002",
+          "talk26-003"
+        ],
+        "similarity": 0.483
+      },
+      {
+        "ids": [
+          "talk26-002",
+          "talk26-004"
+        ],
+        "similarity": 0.601
+      },
+      {
+        "ids": [
+          "talk26-003",
+          "talk26-004"
+        ],
+        "similarity": 0.468
+      },
+      {
+        "ids": [
+          "talk26-005",
+          "talk26-006"
+        ],
+        "similarity": 0.464
+      },
+      {
+        "ids": [
+          "talk26-005",
+          "talk26-007"
+        ],
+        "similarity": 0.517
+      }
+    ],
+    "duplicateQuestionCopies": 1155,
+    "maxOptionSetReuse": 147,
+    "duplicateOptionCopies": 6024,
+    "topStems": [
+      [
+        "Choose the most natural response.",
+        185
+      ],
+      [
+        "What is the main focus of the talk?",
+        147
+      ],
+      [
+        "What is most reasonable to infer from the talk?",
+        147
+      ],
+      [
+        "How does the lecturer make the topic more understandable?",
+        147
+      ],
+      [
+        "What attitude does the lecturer express toward the evidence?",
+        98
+      ],
+      [
+        "What is the main topic of the conversation?",
+        49
+      ]
+    ],
+    "venuePromptsWithUnstatedCorrectLocation": 47,
+    "explanationsCitingAbsentReliefPhrase": 49
+  },
+  "current": {
+    "activities": 200,
+    "questions": 450,
+    "byType": {
+      "choose-response": 50,
+      "conversation": 50,
+      "announcement": 50,
+      "academic-talk": 50
+    },
+    "exactCopies": 0,
+    "nearDuplicatePairs": 0,
+    "nearDuplicateExamples": [],
+    "duplicateQuestionCopies": 0,
+    "maxOptionSetReuse": 1,
+    "duplicateOptionCopies": 0,
+    "topStems": [
+      [
+        "Choose the best response.",
+        50
+      ],
+      [
+        "Why must the student narrow the electricity project?",
+        1
+      ],
+      [
+        "Which plan does the professor support?",
+        1
+      ],
+      [
+        "What caused the debate team’s room problem?",
+        1
+      ],
+      [
+        "How can the captain collect the key?",
+        1
+      ],
+      [
+        "What difficulty is the student trying to resolve at the library?",
+        1
+      ]
+    ],
+    "venuePromptsWithUnstatedCorrectLocation": 0,
+    "explanationsCitingAbsentReliefPhrase": 0
+  },
+  "reading": {
+    "unchanged": true,
+    "sha256": "71521059669acd55f8f5671559fff79a19b5b203c7c415437d11d15747f85b7a"
+  }
+}

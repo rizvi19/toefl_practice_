@@ -14,6 +14,2474 @@
       "load_seconds": 5.506638799997745,
       "created_at": 1791750922.7451696,
       "format": "MP3 mono 24 kHz 48 kbps"
+    },
+    "l2-r016": {
+      "path": "audio/generated/l2-r016.mp3",
+      "script_sha256": "bbb0977bdaabd39e484327e7ab8113999664e5b0f1ed95444dad71557e6d6e23",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.375,
+      "bytes": 14781,
+      "generation_seconds": 1.0603195000439882,
+      "load_seconds": 7.235438999952748,
+      "created_at": 1792213084.64841,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r017": {
+      "path": "audio/generated/l2-r017.mp3",
+      "script_sha256": "d003fedb06eb995a831f330ab48373815c6f5f0c689994c389d957a51c016a98",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.775,
+      "bytes": 17229,
+      "generation_seconds": 1.0162661999929696,
+      "load_seconds": 0.0000019000144675374031,
+      "created_at": 1792213085.6762016,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r018": {
+      "path": "audio/generated/l2-r018.mp3",
+      "script_sha256": "3533983c2f31f6b590dd789728f02294b8079a91df4c8dd1ccc3923489fe8680",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.575,
+      "bytes": 16077,
+      "generation_seconds": 0.9791247000102885,
+      "load_seconds": 0.0000010999501682817936,
+      "created_at": 1792213086.6669884,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r019": {
+      "path": "audio/generated/l2-r019.mp3",
+      "script_sha256": "377ecf1aeddd2346d830f385c6e3b1a2d22e25d5f42a7d90d2350d0bd0bfa193",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.475,
+      "bytes": 15501,
+      "generation_seconds": 0.888557700032834,
+      "load_seconds": 9.00006853044033e-7,
+      "created_at": 1792213087.565439,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r020": {
+      "path": "audio/generated/l2-r020.mp3",
+      "script_sha256": "f7bc12f48d078dbac806cd1abfaf02329cfce4af744300118b249d57fe59b6e9",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.425,
+      "bytes": 15213,
+      "generation_seconds": 0.9002209000173025,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792213088.475783,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r021": {
+      "path": "audio/generated/l2-r021.mp3",
+      "script_sha256": "b59ae95e51089b768ddbbf8fd00d6189914f94ed17edd29ac8aba5a8c9152279",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.825,
+      "bytes": 23565,
+      "generation_seconds": 1.9507214999757707,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792213090.438335,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r022": {
+      "path": "audio/generated/l2-r022.mp3",
+      "script_sha256": "7b25d3dfee540263f6c51c1240719220693b9596410e9f97a1526327870b7d44",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.2,
+      "bytes": 19821,
+      "generation_seconds": 1.575408199976664,
+      "load_seconds": 0.000001600012183189392,
+      "created_at": 1792213092.030837,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r023": {
+      "path": "audio/generated/l2-r023.mp3",
+      "script_sha256": "d05e0e9fdafe1bb6c4711b7027f1d87820a750fae5c810763a941fbb0a32a5d0",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.775,
+      "bytes": 17229,
+      "generation_seconds": 1.3141574999899603,
+      "load_seconds": 0.000001500011421740055,
+      "created_at": 1792213093.3636649,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r024": {
+      "path": "audio/generated/l2-r024.mp3",
+      "script_sha256": "356f3c84ff1ffee84a431c2a09d52fadcdcf31ab0a49d684b716ddc751db3b91",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.975,
+      "bytes": 18381,
+      "generation_seconds": 1.4670642000273801,
+      "load_seconds": 0.0000014999532140791416,
+      "created_at": 1792213094.845311,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r025": {
+      "path": "audio/generated/l2-r025.mp3",
+      "script_sha256": "264d3b0a998e628ff9874c49b7ecbca07eaa5abe14f336f7b63c06a4d5007c70",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.025,
+      "bytes": 18813,
+      "generation_seconds": 1.4654464999912307,
+      "load_seconds": 0.0000019000144675374031,
+      "created_at": 1792213096.3350046,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r026": {
+      "path": "audio/generated/l2-r026.mp3",
+      "script_sha256": "b84aecb375150c4778ae9d5ae325b3f3a49d8954c004b2c619ad88c87771a621",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.525,
+      "bytes": 15789,
+      "generation_seconds": 1.2667780999909155,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792213097.623509,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r027": {
+      "path": "audio/generated/l2-r027.mp3",
+      "script_sha256": "31e04def6e24e2c8228fad110495624d50efc5a53ea69a6c441ef71f2f0bd764",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.3,
+      "bytes": 14349,
+      "generation_seconds": 1.1466880000079982,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792213098.795775,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r028": {
+      "path": "audio/generated/l2-r028.mp3",
+      "script_sha256": "84dc2777574ff8f6e9be53686bd9e5b2a73f9218850d2f10c44fdb384387be61",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.8,
+      "bytes": 23421,
+      "generation_seconds": 1.806311399966944,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792213100.6250143,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r029": {
+      "path": "audio/generated/l2-r029.mp3",
+      "script_sha256": "001a43627152acf46ecf98bab4e363192d55f1e4b1c41443bb62e9b4a275a37b",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.8,
+      "bytes": 17373,
+      "generation_seconds": 1.43705000000773,
+      "load_seconds": 0.000001600012183189392,
+      "created_at": 1792213102.079963,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r030": {
+      "path": "audio/generated/l2-r030.mp3",
+      "script_sha256": "ca05416df62f4cde1ff6b2bb0c97c4d5397d4ec8dc4ff99c747e2c048fd9c298",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.325,
+      "bytes": 14493,
+      "generation_seconds": 1.1561160000273958,
+      "load_seconds": 0.000001100008375942707,
+      "created_at": 1792213103.2518928,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r031": {
+      "path": "audio/generated/l2-r031.mp3",
+      "script_sha256": "1f839d717484561f5dc4e0e950e5407d4ee23c70c9bcc6fe3b9115fed0fdca3e",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.45,
+      "bytes": 21261,
+      "generation_seconds": 1.6840635999687947,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792213104.9599416,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r032": {
+      "path": "audio/generated/l2-r032.mp3",
+      "script_sha256": "6972470e3f336118620b32a63036ed740f1a8f202ca08e15243fa040ea62417d",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.275,
+      "bytes": 20253,
+      "generation_seconds": 1.6039112000144087,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792213106.5893202,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r033": {
+      "path": "audio/generated/l2-r033.mp3",
+      "script_sha256": "d0b165cdea5a3f01639627b0a9ee20c0802bd4937de449f640b092d4d80e47bc",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 4.325,
+      "bytes": 26589,
+      "generation_seconds": 2.015059099998325,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792213108.6275613,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r034": {
+      "path": "audio/generated/l2-r034.mp3",
+      "script_sha256": "9c9a92c3561bbbc0666eedd7309a7c2f25ae87dd707c6d968061a6f049195d4d",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.5,
+      "bytes": 15645,
+      "generation_seconds": 1.242470900004264,
+      "load_seconds": 0.000001600012183189392,
+      "created_at": 1792213109.895108,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r035": {
+      "path": "audio/generated/l2-r035.mp3",
+      "script_sha256": "680b14420644b8f6ef526d2de785ba84efff15b50196c86a9deac299450987c7",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.775,
+      "bytes": 17229,
+      "generation_seconds": 1.2797650000429712,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792213111.1959355,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r036": {
+      "path": "audio/generated/l2-r036.mp3",
+      "script_sha256": "b0a2f90ddb469d0f0de145b567aa86c5c8ed5d1696bd86a4d87e717e891c34ce",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.625,
+      "bytes": 16365,
+      "generation_seconds": 1.2563743000500835,
+      "load_seconds": 0.0000011999509297311306,
+      "created_at": 1792213112.4751825,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r037": {
+      "path": "audio/generated/l2-r037.mp3",
+      "script_sha256": "7d5d0bbd025c0b0131664fd1f681325f064b334ea46a09f67bb533dfe0e6c071",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.125,
+      "bytes": 19389,
+      "generation_seconds": 1.5108547999989241,
+      "load_seconds": 0.000001400010660290718,
+      "created_at": 1792213114.0041382,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r038": {
+      "path": "audio/generated/l2-r038.mp3",
+      "script_sha256": "00be97f7970f26e474b0bb9e2aed68db5ec21ebb379aae15c8cdb23c63192844",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.975,
+      "bytes": 18381,
+      "generation_seconds": 1.4350771000026725,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792213115.4638088,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r039": {
+      "path": "audio/generated/l2-r039.mp3",
+      "script_sha256": "c0941ad3e81f9fadba27dae31f536a1eea11d55720712adca6b915a0b7c36950",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.825,
+      "bytes": 17517,
+      "generation_seconds": 1.4333700999850407,
+      "load_seconds": 0.000001700012944638729,
+      "created_at": 1792213116.921774,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r040": {
+      "path": "audio/generated/l2-r040.mp3",
+      "script_sha256": "532fe4cad17c3103cac3104adc774df544384b2c194834929e2111184b6f338a",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.675,
+      "bytes": 16653,
+      "generation_seconds": 1.3556818999932148,
+      "load_seconds": 0.000001500011421740055,
+      "created_at": 1792213118.301614,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r041": {
+      "path": "audio/generated/l2-r041.mp3",
+      "script_sha256": "d2b20e67e6f75c0a000778a60d65f1ffd622657224baf9671336abccaa9221e4",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.8,
+      "bytes": 17373,
+      "generation_seconds": 1.3465910000377335,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792213119.675082,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r042": {
+      "path": "audio/generated/l2-r042.mp3",
+      "script_sha256": "5074838ef17be234e10cec749e22b0844ecd04b4143874a8e32ed52b78a69566",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.725,
+      "bytes": 16941,
+      "generation_seconds": 1.43378289998509,
+      "load_seconds": 0.000001400010660290718,
+      "created_at": 1792213121.1292725,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r043": {
+      "path": "audio/generated/l2-r043.mp3",
+      "script_sha256": "1f9fb8c6b5e5a1b410e15e07ef30c15889f517aad35ba7134eec20af7e42ef47",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.5,
+      "bytes": 21549,
+      "generation_seconds": 1.7183477000216953,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792213122.8760726,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r044": {
+      "path": "audio/generated/l2-r044.mp3",
+      "script_sha256": "e8c3712bcd493d9765a5fff09f75f4009a4d9fed0e5cdb7e85bf4c84a0edf532",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.025,
+      "bytes": 18813,
+      "generation_seconds": 1.4524997000116855,
+      "load_seconds": 0.000001400010660290718,
+      "created_at": 1792213124.3542116,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r045": {
+      "path": "audio/generated/l2-r045.mp3",
+      "script_sha256": "7f8a53aab19d3855622dfe3655ff5fb6ecb55d2b864d2ee8d51167f42e897630",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.2,
+      "bytes": 19821,
+      "generation_seconds": 1.5525875000166707,
+      "load_seconds": 0.0000019000144675374031,
+      "created_at": 1792213125.928277,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r046": {
+      "path": "audio/generated/l2-r046.mp3",
+      "script_sha256": "b7b34fa7178328b6b24ac0a0f3de34ec5fd768c5d0dedb2af7c58d6286d2c64d",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.05,
+      "bytes": 18957,
+      "generation_seconds": 1.5188212000066414,
+      "load_seconds": 0.000001100008375942707,
+      "created_at": 1792213127.461316,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r047": {
+      "path": "audio/generated/l2-r047.mp3",
+      "script_sha256": "06ea79edaddb593e76c3f60b36e4a461d57c3087497db7fef7a9f72c2eb7e9ad",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.975,
+      "bytes": 18381,
+      "generation_seconds": 1.4091320000006817,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792213128.8996553,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r048": {
+      "path": "audio/generated/l2-r048.mp3",
+      "script_sha256": "73d9e73ae1ffc086c3a8531afd230216be8349d69e523a96a6ee34db3521b10f",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.75,
+      "bytes": 17085,
+      "generation_seconds": 1.3513522999710403,
+      "load_seconds": 0.000001100008375942707,
+      "created_at": 1792213130.2793531,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r049": {
+      "path": "audio/generated/l2-r049.mp3",
+      "script_sha256": "6228d444dc4cec3aab35de6586425a0643652ff1eb009f83ed679b90792e3ad2",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 3.25,
+      "bytes": 20109,
+      "generation_seconds": 1.5839640999911353,
+      "load_seconds": 0.000001800013706088066,
+      "created_at": 1792213131.8868093,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-r050": {
+      "path": "audio/generated/l2-r050.mp3",
+      "script_sha256": "3ac6461d7a1f8f034c588fc6fdbbf24174fa1181a7ac2ea82b6799f20acb4d74",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 2.25,
+      "bytes": 14061,
+      "generation_seconds": 1.1058320999727584,
+      "load_seconds": 0.00000200001522898674,
+      "created_at": 1792213133.0208356,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n005": {
+      "path": "audio/generated/l2-n005.mp3",
+      "script_sha256": "89f1fc795aa7cf048695fd6a3dea81faa50b9b533455604437781a4ba63855d9",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.375,
+      "bytes": 152877,
+      "generation_seconds": 10.445136900001671,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792213143.4904678,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n006": {
+      "path": "audio/generated/l2-n006.mp3",
+      "script_sha256": "0688950df4399806d0779c84d9eff4be063425e0ce0695ba3ef0dbb2c15d5b94",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.975,
+      "bytes": 156477,
+      "generation_seconds": 10.590914000000339,
+      "load_seconds": 0.0000030999653972685337,
+      "created_at": 1792213154.1124709,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n007": {
+      "path": "audio/generated/l2-n007.mp3",
+      "script_sha256": "defcdf2b9acc2346794ce441502ac65bf4f5ceea099c6fa59831f101e8195ddc",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 24.575,
+      "bytes": 147981,
+      "generation_seconds": 10.193657699972391,
+      "load_seconds": 0.000002100015990436077,
+      "created_at": 1792213164.342712,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n008": {
+      "path": "audio/generated/l2-n008.mp3",
+      "script_sha256": "f6593cdaf42381927780f7cc7b6a0ea521468fca012e9840dfd4f76fec220cd6",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.55,
+      "bytes": 159933,
+      "generation_seconds": 10.979353600007016,
+      "load_seconds": 0.000001700012944638729,
+      "created_at": 1792213175.3470602,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n009": {
+      "path": "audio/generated/l2-n009.mp3",
+      "script_sha256": "90d28d28655bb0c55de1887e8a15df52e8721c2e9ebc56afb4603df118547908",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.85,
+      "bytes": 161661,
+      "generation_seconds": 11.123655300005339,
+      "load_seconds": 0.0000018999562598764896,
+      "created_at": 1792213186.5079024,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n010": {
+      "path": "audio/generated/l2-n010.mp3",
+      "script_sha256": "89e83f8d3de37bd015d27ec399b851d88f2a3e285a451431ed782baec5bfe405",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 24.85,
+      "bytes": 149709,
+      "generation_seconds": 10.23949890001677,
+      "load_seconds": 0.000001800013706088066,
+      "created_at": 1792213196.7815268,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n011": {
+      "path": "audio/generated/l2-n011.mp3",
+      "script_sha256": "21fed99f4332d022645ae8098c5dd3d08c79c809f93619091965cde953df5bc4",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.125,
+      "bytes": 163389,
+      "generation_seconds": 11.454530699993484,
+      "load_seconds": 0.000001700012944638729,
+      "created_at": 1792213208.2655058,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n012": {
+      "path": "audio/generated/l2-n012.mp3",
+      "script_sha256": "22350d70ef1f2d7bdf3b6e9d8fc47f3be74239491fc222bc1fb497607f47b5af",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.425,
+      "bytes": 153165,
+      "generation_seconds": 10.50505959999282,
+      "load_seconds": 0.000002300017513334751,
+      "created_at": 1792213218.802714,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n013": {
+      "path": "audio/generated/l2-n013.mp3",
+      "script_sha256": "c1c386d3de6638a913d9eba64ab648fd2e4c2bcb25dd3d3ee10a6980c6e34f28",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.2,
+      "bytes": 163821,
+      "generation_seconds": 11.103689799958374,
+      "load_seconds": 0.000002100015990436077,
+      "created_at": 1792213229.9380333,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n014": {
+      "path": "audio/generated/l2-n014.mp3",
+      "script_sha256": "65b846a526ca9010d8953c4a101b13852f52acd3d0a7308aaf4a8bfeae637d30",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.5,
+      "bytes": 159645,
+      "generation_seconds": 10.840375900035724,
+      "load_seconds": 0.0000013999524526298046,
+      "created_at": 1792213240.808398,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n015": {
+      "path": "audio/generated/l2-n015.mp3",
+      "script_sha256": "bc4090b1ecf69c761b77680006dec7cc006738617afdf23eee9a0113a0ae070c",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.7,
+      "bytes": 172749,
+      "generation_seconds": 11.778664999990724,
+      "load_seconds": 0.0000024999608285725117,
+      "created_at": 1792213252.623966,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n016": {
+      "path": "audio/generated/l2-n016.mp3",
+      "script_sha256": "59ec1c78e0308a2818deb1861a1a1e051671eb57a9ba3bfe3df99a6608c8f637",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.3,
+      "bytes": 158349,
+      "generation_seconds": 10.875370499968994,
+      "load_seconds": 0.000002400018274784088,
+      "created_at": 1792213263.5307894,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c005": {
+      "path": "audio/generated/l2-c005.mp3",
+      "script_sha256": "b66a20bd27849e7d2d1192550bacebe78e3159b89c8cfe8893068ae3c7270a3b",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 29.865,
+      "bytes": 179805,
+      "generation_seconds": 13.451588199997786,
+      "load_seconds": 0.0000020999577827751637,
+      "created_at": 1792213277.0173657,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c006": {
+      "path": "audio/generated/l2-c006.mp3",
+      "script_sha256": "ad9e101822698c7e94c54c87a6e4b35a54abb30cb0c085d9f3ca5f91720b8121",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 28.525,
+      "bytes": 171741,
+      "generation_seconds": 12.920144100033212,
+      "load_seconds": 0.0000024999608285725117,
+      "created_at": 1792213289.9734704,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c007": {
+      "path": "audio/generated/l2-c007.mp3",
+      "script_sha256": "4291d9e41a44180b8b43e5ead9fd755698b3bc602a6063bf49393b0bd6741955",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 27.3,
+      "bytes": 164397,
+      "generation_seconds": 12.045653500012122,
+      "load_seconds": 0.00000200001522898674,
+      "created_at": 1792213302.0600035,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c008": {
+      "path": "audio/generated/l2-c008.mp3",
+      "script_sha256": "274f6039d3913fd02a06e41eff3e720178758b11951dbabc39c2ddce3c65ac98",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 28.05,
+      "bytes": 168861,
+      "generation_seconds": 12.470637699996587,
+      "load_seconds": 0.000002300017513334751,
+      "created_at": 1792213314.5644038,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c009": {
+      "path": "audio/generated/l2-c009.mp3",
+      "script_sha256": "640831927ad0188808b5bdd445acf2e11aa4246aca73115cd353f8568d16acbf",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 27.915,
+      "bytes": 168141,
+      "generation_seconds": 12.46032880002167,
+      "load_seconds": 0.000002200016751885414,
+      "created_at": 1792213327.0541017,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c010": {
+      "path": "audio/generated/l2-c010.mp3",
+      "script_sha256": "4c0333115b63f8b7c28898d2df1f5462bd55588d07cfa64f83096c743af7040a",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 28.675,
+      "bytes": 172605,
+      "generation_seconds": 12.568537000042852,
+      "load_seconds": 0.0000022999593056738377,
+      "created_at": 1792213339.6527913,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c011": {
+      "path": "audio/generated/l2-c011.mp3",
+      "script_sha256": "83b8ef31238c8f28817f42219feb954192db6a7f8e7e224b35897b5533c23e21",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 29.24,
+      "bytes": 176061,
+      "generation_seconds": 13.374623299983796,
+      "load_seconds": 0.00000200001522898674,
+      "created_at": 1792213353.0564146,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c012": {
+      "path": "audio/generated/l2-c012.mp3",
+      "script_sha256": "ea8daf94dd548344c3863855ada002cfe944fd11578439467edd782506c27337",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 30.64,
+      "bytes": 184413,
+      "generation_seconds": 14.058078699978068,
+      "load_seconds": 0.000001500011421740055,
+      "created_at": 1792213367.147636,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c013": {
+      "path": "audio/generated/l2-c013.mp3",
+      "script_sha256": "73a35f46725da16209c68d974b028ad914ddacd7085d217b8014f8f3cf5d183c",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 28.65,
+      "bytes": 172461,
+      "generation_seconds": 13.037486399989575,
+      "load_seconds": 0.000002100015990436077,
+      "created_at": 1792213380.2220829,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c014": {
+      "path": "audio/generated/l2-c014.mp3",
+      "script_sha256": "d3857ca96518bfd872c37c47fa8fe8210bb9e1e612f636f3316b3a3e96d67bcb",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 30.315,
+      "bytes": 182541,
+      "generation_seconds": 13.769620699982625,
+      "load_seconds": 0.000002300017513334751,
+      "created_at": 1792213394.0270092,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c015": {
+      "path": "audio/generated/l2-c015.mp3",
+      "script_sha256": "847537d6e1f9498d1884b27c7b386940638aa36f97a1c25072aef4ba6c55efec",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 30.165,
+      "bytes": 181533,
+      "generation_seconds": 13.508149300003424,
+      "load_seconds": 0.0000018999562598764896,
+      "created_at": 1792213407.5699751,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c016": {
+      "path": "audio/generated/l2-c016.mp3",
+      "script_sha256": "e0d7f855317ae8f1ca666b7863b74e05f5e3f98a7ba4565e9fd82ab49fa05728",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 29.565,
+      "bytes": 177933,
+      "generation_seconds": 13.212861900043208,
+      "load_seconds": 0.0000017999554984271526,
+      "created_at": 1792213420.8200328,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c017": {
+      "path": "audio/generated/l2-c017.mp3",
+      "script_sha256": "35352f3be5408774818bdb6371f010c121ce17ba9d599813f7bf99779d199542",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 27.715,
+      "bytes": 166845,
+      "generation_seconds": 12.19360910000978,
+      "load_seconds": 0.000002200016751885414,
+      "created_at": 1792213433.0564885,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c018": {
+      "path": "audio/generated/l2-c018.mp3",
+      "script_sha256": "adc861ac62cf8992adc5d100e72bd5bb0950922a0d2e265dac551ff52d675a25",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 30.765,
+      "bytes": 185133,
+      "generation_seconds": 20.534601000021212,
+      "load_seconds": 0.000001600012183189392,
+      "created_at": 1792213453.6268466,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c019": {
+      "path": "audio/generated/l2-c019.mp3",
+      "script_sha256": "71215590e46ca30d439728d311ca990f4631b1c46c11bba4b93c0315f9966eba",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 29.465,
+      "bytes": 177357,
+      "generation_seconds": 35.49481409997679,
+      "load_seconds": 0.000003400025889277458,
+      "created_at": 1792213489.1649816,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c020": {
+      "path": "audio/generated/l2-c020.mp3",
+      "script_sha256": "6af38e8f2e4be33c09ddbe76bf2009ef1010504c091f5fd02d74accb0700a5fc",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 32.515,
+      "bytes": 195645,
+      "generation_seconds": 39.51972129999194,
+      "load_seconds": 0.000003100023604929447,
+      "created_at": 1792213528.731825,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c021": {
+      "path": "audio/generated/l2-c021.mp3",
+      "script_sha256": "3c64c24770f76a8b1384ce2e0998fa5271c36939e17e3b7169ff204a2d12fcaa",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 27.175,
+      "bytes": 163677,
+      "generation_seconds": 32.78583549999166,
+      "load_seconds": 0.00000300002284348011,
+      "created_at": 1792213561.5687268,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c022": {
+      "path": "audio/generated/l2-c022.mp3",
+      "script_sha256": "7576e1837c77053b902767ae75e3884ddffea401546c782eaaf249e54b2e06d2",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 31.865,
+      "bytes": 191757,
+      "generation_seconds": 37.44421509996755,
+      "load_seconds": 0.000002500019036233425,
+      "created_at": 1792213599.062614,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c023": {
+      "path": "audio/generated/l2-c023.mp3",
+      "script_sha256": "e0403187fcc77a3aeff63ef555f55548e803c4b65ca77a1a24ce623201fd1a9c",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 28.59,
+      "bytes": 172173,
+      "generation_seconds": 33.828364600019995,
+      "load_seconds": 0.0000032999669201672077,
+      "created_at": 1792213632.9375403,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c024": {
+      "path": "audio/generated/l2-c024.mp3",
+      "script_sha256": "3a9ef13d0cf6ba91ce907dafcdccbb8fca0d60d9091701ec2f9be1b9904ac020",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 30.19,
+      "bytes": 181677,
+      "generation_seconds": 36.101038499968126,
+      "load_seconds": 0.000002800021320581436,
+      "created_at": 1792213669.0909994,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c025": {
+      "path": "audio/generated/l2-c025.mp3",
+      "script_sha256": "c43360f0ea4cb2555dbbdc55707fa5f83cf540128b9ae4c2704e286a42fe78bc",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 32.815,
+      "bytes": 197517,
+      "generation_seconds": 38.950166399998125,
+      "load_seconds": 0.000002300017513334751,
+      "created_at": 1792213708.088014,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c026": {
+      "path": "audio/generated/l2-c026.mp3",
+      "script_sha256": "a82dc065fae599e14c694420f6933065d1ec81acf8294a3258382ced4b78ca48",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 29.565,
+      "bytes": 177933,
+      "generation_seconds": 34.922700299997814,
+      "load_seconds": 0.000002700020559132099,
+      "created_at": 1792213743.062418,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c027": {
+      "path": "audio/generated/l2-c027.mp3",
+      "script_sha256": "8261a7af63419cb1650ec3527663c87f08a21fd76f8209a224277cb07498d40f",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 31.725,
+      "bytes": 190893,
+      "generation_seconds": 36.948348100006115,
+      "load_seconds": 0.0000030999653972685337,
+      "created_at": 1792213780.060675,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c028": {
+      "path": "audio/generated/l2-c028.mp3",
+      "script_sha256": "b3ec813260cc20d3d9a41d44ef590f652e4cf36a3e7817852d82402c02a8122b",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 31.665,
+      "bytes": 190605,
+      "generation_seconds": 36.95633120002458,
+      "load_seconds": 0.000005299982149153948,
+      "created_at": 1792213817.0663862,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c029": {
+      "path": "audio/generated/l2-c029.mp3",
+      "script_sha256": "bfbfefba6d5505c9004aed10baaf126af881fb8aef786b5e5d7d69aa2f2de05e",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 29.93,
+      "bytes": 180237,
+      "generation_seconds": 36.82726939994609,
+      "load_seconds": 0.000002600019797682762,
+      "created_at": 1792213853.9417565,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c030": {
+      "path": "audio/generated/l2-c030.mp3",
+      "script_sha256": "e3cb76b48160ab0b1eb57c42aa73e1f11519029c28b7bf47d179e5073dd5510f",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 31.54,
+      "bytes": 189885,
+      "generation_seconds": 36.66952900000615,
+      "load_seconds": 0.0000035999692045152187,
+      "created_at": 1792213890.6608827,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c031": {
+      "path": "audio/generated/l2-c031.mp3",
+      "script_sha256": "c2363b8ca54f52252afc2de4d0de3bf151b40346144a204f3e0dc40883b3470f",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 27.365,
+      "bytes": 164829,
+      "generation_seconds": 32.906088899995666,
+      "load_seconds": 0.0000031999661587178707,
+      "created_at": 1792213923.6175158,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c032": {
+      "path": "audio/generated/l2-c032.mp3",
+      "script_sha256": "28847b810561fbd40b2b66ea1fdae757b67ea534409db3f761c5940b8180fea7",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 29.95,
+      "bytes": 180237,
+      "generation_seconds": 36.049530799966305,
+      "load_seconds": 0.000004800036549568176,
+      "created_at": 1792213959.7205913,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c033": {
+      "path": "audio/generated/l2-c033.mp3",
+      "script_sha256": "eb2a25d583ab0f34d32fa21af9fab99490843924632806eed540fa572b9c8c51",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 29.365,
+      "bytes": 176781,
+      "generation_seconds": 35.953092199983075,
+      "load_seconds": 0.000003600027412176132,
+      "created_at": 1792213995.727481,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c034": {
+      "path": "audio/generated/l2-c034.mp3",
+      "script_sha256": "c32091ae0de15b57bf3efacb5fb4aadffe29e98e1dafb575995ebc21139cb059",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 30.04,
+      "bytes": 180813,
+      "generation_seconds": 36.70561639999505,
+      "load_seconds": 0.000002300017513334751,
+      "created_at": 1792214032.477618,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c035": {
+      "path": "audio/generated/l2-c035.mp3",
+      "script_sha256": "b60655c93914ac72f121e6c7f3d15c6c596628a62d025ce7d539f44998b1b599",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 30.915,
+      "bytes": 186141,
+      "generation_seconds": 37.72552179999184,
+      "load_seconds": 0.0000038000289350748062,
+      "created_at": 1792214070.2522814,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c036": {
+      "path": "audio/generated/l2-c036.mp3",
+      "script_sha256": "70f1eb1e7a1cc3d64e8049b67baf28cfd10538642eda530442d72e0cdfd36f9e",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 30.175,
+      "bytes": 181677,
+      "generation_seconds": 35.89852679998148,
+      "load_seconds": 0.0000028999638743698597,
+      "created_at": 1792214106.2051725,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c037": {
+      "path": "audio/generated/l2-c037.mp3",
+      "script_sha256": "ebaf4a5462b0cd91897b56a7694076b142f7ad3603e1ef791ad4183bf8db8c11",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 28.7,
+      "bytes": 172749,
+      "generation_seconds": 34.85361930000363,
+      "load_seconds": 0.000003999972250312567,
+      "created_at": 1792214141.1176553,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c038": {
+      "path": "audio/generated/l2-c038.mp3",
+      "script_sha256": "6f61a84a720cccf5d38baef9ae9a1351c07d4cf766037a7ac5011199db73124b",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 28.975,
+      "bytes": 174477,
+      "generation_seconds": 35.585161600029096,
+      "load_seconds": 0.000002900022082030773,
+      "created_at": 1792214176.7681148,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c039": {
+      "path": "audio/generated/l2-c039.mp3",
+      "script_sha256": "607e132affa6f4318d3060b65b78e0e9f5a745cc92f13a31d9f594e5aa7629ad",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 29.73,
+      "bytes": 178941,
+      "generation_seconds": 36.230748699977994,
+      "load_seconds": 0.000003200024366378784,
+      "created_at": 1792214213.042265,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c040": {
+      "path": "audio/generated/l2-c040.mp3",
+      "script_sha256": "b5a33789116b9ef958cba868036c9b697e54a2910ebfaa16607eefa8031c4608",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 27.64,
+      "bytes": 166413,
+      "generation_seconds": 33.81558679998852,
+      "load_seconds": 0.000003600027412176132,
+      "created_at": 1792214246.90256,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c041": {
+      "path": "audio/generated/l2-c041.mp3",
+      "script_sha256": "7344c33b437dc0e3a9e19bd2f2fe99ef7d823b51661b197f6dab1df0619ca530",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 29.19,
+      "bytes": 175773,
+      "generation_seconds": 35.88487149996217,
+      "load_seconds": 0.000003500026650726795,
+      "created_at": 1792214282.8363492,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c042": {
+      "path": "audio/generated/l2-c042.mp3",
+      "script_sha256": "1a7e4326eca73acdaf100791e58023586e9d61ee38c83e431add795ac8087c00",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 28.59,
+      "bytes": 172173,
+      "generation_seconds": 35.55621249997057,
+      "load_seconds": 0.000002600019797682762,
+      "created_at": 1792214318.4406896,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c043": {
+      "path": "audio/generated/l2-c043.mp3",
+      "script_sha256": "2bc718974ae6a5352c202e2ca426778ff61a0e75aa602adc728af6ed15224a75",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 28.7,
+      "bytes": 172749,
+      "generation_seconds": 34.66105289995903,
+      "load_seconds": 0.000003600027412176132,
+      "created_at": 1792214353.1651251,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c044": {
+      "path": "audio/generated/l2-c044.mp3",
+      "script_sha256": "ec2e5ac8816307a599a5bf7e802664e37c4574b775635f4996c0d13913c2874a",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 30.815,
+      "bytes": 185421,
+      "generation_seconds": 38.39848889998393,
+      "load_seconds": 0.0000037999707274138927,
+      "created_at": 1792214391.626987,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c045": {
+      "path": "audio/generated/l2-c045.mp3",
+      "script_sha256": "b0143051af8f6e3fca746e28bae38b9ff9f18bad143a1ec169f89390a6a191d7",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 30.315,
+      "bytes": 182541,
+      "generation_seconds": 37.702330800006166,
+      "load_seconds": 0.0000028999638743698597,
+      "created_at": 1792214429.3836925,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c046": {
+      "path": "audio/generated/l2-c046.mp3",
+      "script_sha256": "c56119a476b0ce17fa7f482789b0db21f41e52380e7683fba30738c96d0c333a",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 28.65,
+      "bytes": 172461,
+      "generation_seconds": 34.90508650004631,
+      "load_seconds": 0.0000023999600671231747,
+      "created_at": 1792214464.3336792,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c047": {
+      "path": "audio/generated/l2-c047.mp3",
+      "script_sha256": "501f02ab48941a5e04a9c3d054007d68662f2b1da37d4aeafeb1ce8a8b34b146",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 31.415,
+      "bytes": 189021,
+      "generation_seconds": 40.03599900001427,
+      "load_seconds": 0.0000023999600671231747,
+      "created_at": 1792214504.4190788,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c048": {
+      "path": "audio/generated/l2-c048.mp3",
+      "script_sha256": "77407fb8e11d0b367e090bd643524842ca39455d9c221763aa405aa96731e9a7",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 29.09,
+      "bytes": 175197,
+      "generation_seconds": 77.90021270001307,
+      "load_seconds": 0.000006499991286545992,
+      "created_at": 1792214760.2816696,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c049": {
+      "path": "audio/generated/l2-c049.mp3",
+      "script_sha256": "76f7a075eb8159fb98fd25f871be6ff00d1561e0dbd94667455c7bed70ebcb6e",
+      "voices": [
+        "am_michael",
+        "af_heart"
+      ],
+      "duration_seconds": 30.69,
+      "bytes": 184701,
+      "generation_seconds": 82.83737019996624,
+      "load_seconds": 0.000004500034265220165,
+      "created_at": 1792214843.17906,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-c050": {
+      "path": "audio/generated/l2-c050.mp3",
+      "script_sha256": "8c1d1bbf7c260fd3bb3e4775c1aea83df0d188df46143762b048df7246c00040",
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ],
+      "duration_seconds": 29.425,
+      "bytes": 177213,
+      "generation_seconds": 74.65935879998142,
+      "load_seconds": 0.000002200016751885414,
+      "created_at": 1792214917.8926737,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n017": {
+      "path": "audio/generated/l2-n017.mp3",
+      "script_sha256": "43c983c292cf58c0d43473d69a0c8ea5385fe2a9e812fb6bb18d8442f50d3fff",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.6,
+      "bytes": 160221,
+      "generation_seconds": 29.05226240004413,
+      "load_seconds": 0.000006099988240748644,
+      "created_at": 1792214977.5853631,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n018": {
+      "path": "audio/generated/l2-n018.mp3",
+      "script_sha256": "ad1bd9e640ba9dbc645a0310fb9f275f985ece573e364a76e765875c94bbd492",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.825,
+      "bytes": 173613,
+      "generation_seconds": 31.657480099995155,
+      "load_seconds": 0.000004399975296109915,
+      "created_at": 1792215009.2935882,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n019": {
+      "path": "audio/generated/l2-n019.mp3",
+      "script_sha256": "b0490a6a823a9b5da827925247f11bc57518b7c97360519a5e943793b68f5e0b",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.425,
+      "bytes": 153165,
+      "generation_seconds": 27.162480400002096,
+      "load_seconds": 0.000002300017513334751,
+      "created_at": 1792215036.5035746,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n020": {
+      "path": "audio/generated/l2-n020.mp3",
+      "script_sha256": "cab797cfe58ecdb75bb624b741d1b9b8b54ced00eadae22e392efa47a41a3335",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.4,
+      "bytes": 171021,
+      "generation_seconds": 30.773648599977605,
+      "load_seconds": 0.000002800021320581436,
+      "created_at": 1792215067.3192513,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n021": {
+      "path": "audio/generated/l2-n021.mp3",
+      "script_sha256": "a710c4cfad308d793f41e81073586509071fb482be37eae8d1e05859804754e0",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 29.3,
+      "bytes": 176349,
+      "generation_seconds": 32.8188035999774,
+      "load_seconds": 0.000006699992809444666,
+      "created_at": 1792215126.2473965,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n022": {
+      "path": "audio/generated/l2-n022.mp3",
+      "script_sha256": "526fa65f2f265fb9f6f3b81152538321d809b83569cccf6bf6d807dd6ddbbef0",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.275,
+      "bytes": 158205,
+      "generation_seconds": 27.93447019997984,
+      "load_seconds": 0.00000500003807246685,
+      "created_at": 1792215154.2263956,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n023": {
+      "path": "audio/generated/l2-n023.mp3",
+      "script_sha256": "39a424c3d20fcb06f034847f9bbab21e591b391e83b3ed6ad9d3c7c4f70a884c",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.05,
+      "bytes": 162957,
+      "generation_seconds": 28.755856700008735,
+      "load_seconds": 0.000002900022082030773,
+      "created_at": 1792215183.0297775,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n024": {
+      "path": "audio/generated/l2-n024.mp3",
+      "script_sha256": "cc121d6f7ec72c6b1d35f9ad3358fab78ce0c6380614676bbf8f0a63dbab883e",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.975,
+      "bytes": 174477,
+      "generation_seconds": 30.951516999979503,
+      "load_seconds": 0.000002300017513334751,
+      "created_at": 1792215214.0288513,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n025": {
+      "path": "audio/generated/l2-n025.mp3",
+      "script_sha256": "2c9919f3d2d996be73784682dcb0e076a447ff9057b5061de842e3debe901879",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.125,
+      "bytes": 169293,
+      "generation_seconds": 30.89502460003132,
+      "load_seconds": 0.000007399998139590025,
+      "created_at": 1792215271.9586058,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n026": {
+      "path": "audio/generated/l2-n026.mp3",
+      "script_sha256": "5892a7466b093ecf883e13442aa6b9dc287deba2be8ca3f6dd4dab9c377d660c",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.575,
+      "bytes": 172029,
+      "generation_seconds": 30.99526870000409,
+      "load_seconds": 0.000004799978341907263,
+      "created_at": 1792215303.0006819,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n027": {
+      "path": "audio/generated/l2-n027.mp3",
+      "script_sha256": "e646a887c64dc40aa7c8dce2438a6b013972f6711d37c8faae0a3fb9cddeb65f",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.7,
+      "bytes": 160797,
+      "generation_seconds": 29.091768599988427,
+      "load_seconds": 0.0000038000289350748062,
+      "created_at": 1792215332.1317139,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n028": {
+      "path": "audio/generated/l2-n028.mp3",
+      "script_sha256": "2516fe4a78f425e78b8a13cdbc33b5a95b33012ba8ad1c3093bbef8e8fac0ed5",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.125,
+      "bytes": 169293,
+      "generation_seconds": 29.93993389996467,
+      "load_seconds": 0.000002100015990436077,
+      "created_at": 1792215362.1223085,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n029": {
+      "path": "audio/generated/l2-n029.mp3",
+      "script_sha256": "69449e668bd035bcc1f5554be61e30fab773dbf0183e28532a755eb7c272f15f",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 24.55,
+      "bytes": 147837,
+      "generation_seconds": 12.69979639997473,
+      "load_seconds": 0.00000589998671784997,
+      "created_at": 1792215407.4836562,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n030": {
+      "path": "audio/generated/l2-n030.mp3",
+      "script_sha256": "fc411fc321ed5364e187a9443e4c0ea7630f0942e3c8757a1d164ac78ec59f4a",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.7,
+      "bytes": 154749,
+      "generation_seconds": 11.23544789996231,
+      "load_seconds": 0.000003600027412176132,
+      "created_at": 1792215418.7566795,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n031": {
+      "path": "audio/generated/l2-n031.mp3",
+      "script_sha256": "247d5338bb7615b6e5197cdcfeeb99d503ddb2ca220e5cfa9158fc254cb423e9",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 24.925,
+      "bytes": 150141,
+      "generation_seconds": 10.531330700032413,
+      "load_seconds": 0.0000016999547369778156,
+      "created_at": 1792215429.3224545,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n032": {
+      "path": "audio/generated/l2-n032.mp3",
+      "script_sha256": "fffca306fd767a5c714e1df5b930c6a7e99ec22c247cbf455482f201aa24ccaf",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.825,
+      "bytes": 155613,
+      "generation_seconds": 10.498321899969596,
+      "load_seconds": 0.000001600012183189392,
+      "created_at": 1792215439.859182,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n033": {
+      "path": "audio/generated/l2-n033.mp3",
+      "script_sha256": "7d0e26c512b405552751208ee1694e7072838e7888464d9663769c15cba311a6",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.425,
+      "bytes": 159213,
+      "generation_seconds": 11.318728700047359,
+      "load_seconds": 0.0000018999562598764896,
+      "created_at": 1792215463.0650883,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n034": {
+      "path": "audio/generated/l2-n034.mp3",
+      "script_sha256": "fd76f30d6ff424ddf31c29e45af2701fa23099eea00591f31adc640a23c1cb7d",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.1,
+      "bytes": 151149,
+      "generation_seconds": 10.758873599988874,
+      "load_seconds": 0.00000200001522898674,
+      "created_at": 1792215473.8627558,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n035": {
+      "path": "audio/generated/l2-n035.mp3",
+      "script_sha256": "a288d163c03c01dc8f38d2d22eba533b7171222779bc91e5434b4e66c96fbe77",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 24.65,
+      "bytes": 148557,
+      "generation_seconds": 10.455162600032054,
+      "load_seconds": 0.0000014999532140791416,
+      "created_at": 1792215484.3491874,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n036": {
+      "path": "audio/generated/l2-n036.mp3",
+      "script_sha256": "9c4ceaa4691284c146e9f411111eb8d7a9a9529015f9f214a67c911ae7d23fb5",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.55,
+      "bytes": 165837,
+      "generation_seconds": 11.450065899989568,
+      "load_seconds": 0.0000022999593056738377,
+      "created_at": 1792215495.8327322,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n037": {
+      "path": "audio/generated/l2-n037.mp3",
+      "script_sha256": "a2984d6de1426e9c3de2e9cd56d08b6cb929b4680999ba30a19dd63a7e30d811",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.175,
+      "bytes": 163677,
+      "generation_seconds": 11.05114809999941,
+      "load_seconds": 0.000005099980626255274,
+      "created_at": 1792215518.240721,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n038": {
+      "path": "audio/generated/l2-n038.mp3",
+      "script_sha256": "67d52a845c88eb5e4d17749968ee8f6fb729f37004dc0d0894cb001e3eed25c7",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.525,
+      "bytes": 165693,
+      "generation_seconds": 11.167279099987354,
+      "load_seconds": 0.000002700020559132099,
+      "created_at": 1792215529.4482038,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n039": {
+      "path": "audio/generated/l2-n039.mp3",
+      "script_sha256": "9ccbe1525716088c1d803dc35920256afad0c53a07dab1614a5833493967172a",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.125,
+      "bytes": 169293,
+      "generation_seconds": 11.396372299990617,
+      "load_seconds": 0.0000021999585442245007,
+      "created_at": 1792215540.8768554,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n040": {
+      "path": "audio/generated/l2-n040.mp3",
+      "script_sha256": "36ba9513ee4a8d4e8bc2e60c62fa130b0c63b437af852ddb77a2e627c168edc4",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.05,
+      "bytes": 162957,
+      "generation_seconds": 11.042679500009399,
+      "load_seconds": 0.0000023999600671231747,
+      "created_at": 1792215551.9545302,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n041": {
+      "path": "audio/generated/l2-n041.mp3",
+      "script_sha256": "18e02019c1ca885b30a94972608fe00a678fe3d55efe108c1e3add311fa48b22",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 25.525,
+      "bytes": 153741,
+      "generation_seconds": 10.569163199979812,
+      "load_seconds": 0.0000048999791033566,
+      "created_at": 1792215573.7910862,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n042": {
+      "path": "audio/generated/l2-n042.mp3",
+      "script_sha256": "73b489b03da77af14aed0bd50f387f8784eeb92ddc97e43e26e8d2c2d13e357b",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.35,
+      "bytes": 170733,
+      "generation_seconds": 11.96258619998116,
+      "load_seconds": 0.000003100023604929447,
+      "created_at": 1792215585.789286,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n043": {
+      "path": "audio/generated/l2-n043.mp3",
+      "script_sha256": "fd171aaf55ec615ba5d5850a6052d28b3551fdf0007697b3dc95a1a842d934b7",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.2,
+      "bytes": 157773,
+      "generation_seconds": 10.79339229996549,
+      "load_seconds": 0.000001500011421740055,
+      "created_at": 1792215596.6255429,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n044": {
+      "path": "audio/generated/l2-n044.mp3",
+      "script_sha256": "1db96e10c03e74985107dbe6b8091b9b01c0d6dcf73fc12c7703be8a15f16c26",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.9,
+      "bytes": 161949,
+      "generation_seconds": 11.895307899976615,
+      "load_seconds": 0.000001700012944638729,
+      "created_at": 1792215608.5506115,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n045": {
+      "path": "audio/generated/l2-n045.mp3",
+      "script_sha256": "2ed0ddf746a31a288f2fc483e33618e470febb99dde1707f187def97661773ef",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 24.875,
+      "bytes": 149853,
+      "generation_seconds": 10.459548100014217,
+      "load_seconds": 0.000005599984433501959,
+      "created_at": 1792215630.9479005,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n046": {
+      "path": "audio/generated/l2-n046.mp3",
+      "script_sha256": "e24e6c0c529fb045d18f841dc2936160b59ffa4a88d6cff70e1a39e8d57d003c",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.525,
+      "bytes": 159789,
+      "generation_seconds": 11.886880599951837,
+      "load_seconds": 0.000003900029696524143,
+      "created_at": 1792215642.8630128,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n047": {
+      "path": "audio/generated/l2-n047.mp3",
+      "script_sha256": "61ac68a048d144ccd98ebe4f51f1f49e1615f5e69a5673867b04ef304a2bc1f4",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 27.75,
+      "bytes": 167133,
+      "generation_seconds": 28.957896600011736,
+      "load_seconds": 0.0000027999631129205227,
+      "created_at": 1792215671.8744736,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n048": {
+      "path": "audio/generated/l2-n048.mp3",
+      "script_sha256": "6df3adf50179690cfdf562b940d09da83a26d799f002ae018459b96d1d8dee71",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 28.275,
+      "bytes": 170301,
+      "generation_seconds": 29.748415100038983,
+      "load_seconds": 0.0000025999615900218487,
+      "created_at": 1792215701.6749766,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n049": {
+      "path": "audio/generated/l2-n049.mp3",
+      "script_sha256": "17c48b48e350a903bb40f929908b4d71dbc39672711531c22033f7f9032aa4c9",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 30.475,
+      "bytes": 183405,
+      "generation_seconds": 31.580689000023995,
+      "load_seconds": 0.000008500006515532732,
+      "created_at": 1792215762.8004494,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-n050": {
+      "path": "audio/generated/l2-n050.mp3",
+      "script_sha256": "c543ecf3737c2b47e0acdf830c60e58f497eaa59b2c18c50ba17c060bd6ff6d0",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 26.6,
+      "bytes": 160221,
+      "generation_seconds": 27.513545499998145,
+      "load_seconds": 0.000005199981387704611,
+      "created_at": 1792215790.3732796,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t005": {
+      "path": "audio/generated/l2-t005.mp3",
+      "script_sha256": "89c4bdbe143cb0dba29336b2631171acd844b74823fe551214544207899ec07b",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 64,
+      "bytes": 384573,
+      "generation_seconds": 77.84487150004134,
+      "load_seconds": 0.0000032999669201672077,
+      "created_at": 1792215868.263559,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t006": {
+      "path": "audio/generated/l2-t006.mp3",
+      "script_sha256": "2f3a8e20b3f83093a4588c176691c2eb77d09666fce30091feca40e617eb076e",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 79.97,
+      "bytes": 480477,
+      "generation_seconds": 93.79571109998506,
+      "load_seconds": 0.000004100031219422817,
+      "created_at": 1792215962.1134586,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t007": {
+      "path": "audio/generated/l2-t007.mp3",
+      "script_sha256": "ce6e72f806cfe9d48ecac90aafe53cac2ceeca0f60aec1e85e01c52fbff7fef3",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 75.57,
+      "bytes": 453981,
+      "generation_seconds": 90.6643012999557,
+      "load_seconds": 0.000007499998901039362,
+      "created_at": 1792216083.0707169,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t008": {
+      "path": "audio/generated/l2-t008.mp3",
+      "script_sha256": "12c15771e4737febda3f5a999405c272fa2a4f43f9a89151805a7646c0fa13b7",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 81.22,
+      "bytes": 487965,
+      "generation_seconds": 97.37324580003042,
+      "load_seconds": 0.0000036999699659645557,
+      "created_at": 1792216180.4943173,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t009": {
+      "path": "audio/generated/l2-t009.mp3",
+      "script_sha256": "2dbda4d85325ebced1909b6eb26e3a3c88d77800d351cd9a29bb24398ff9fbf9",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 70.12,
+      "bytes": 421293,
+      "generation_seconds": 84.08234730002005,
+      "load_seconds": 0.000004599976819008589,
+      "created_at": 1792216264.6411555,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t010": {
+      "path": "audio/generated/l2-t010.mp3",
+      "script_sha256": "33796320e10bd7860c3dcdc89340817adfff5c4503f5bbe0d1f8704d79f7d038",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 76.525,
+      "bytes": 459741,
+      "generation_seconds": 89.51810300000943,
+      "load_seconds": 0.0000028999638743698597,
+      "created_at": 1792216354.2095315,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t011": {
+      "path": "audio/generated/l2-t011.mp3",
+      "script_sha256": "846f9c2a851bd3418f3c23978c710d5e4ac7d2538fe7058cbf09092d969bbeea",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 62.73,
+      "bytes": 376941,
+      "generation_seconds": 50.80211769999005,
+      "load_seconds": 0.000007399998139590025,
+      "created_at": 1792216436.9393766,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t012": {
+      "path": "audio/generated/l2-t012.mp3",
+      "script_sha256": "08b7618bc39239b78c11082b05259457200e03eaca46b4d2059dfa7334aceb0f",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 81.75,
+      "bytes": 491133,
+      "generation_seconds": 30.271131600020453,
+      "load_seconds": 0.000001700012944638729,
+      "created_at": 1792216725.7218804,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t013": {
+      "path": "audio/generated/l2-t013.mp3",
+      "script_sha256": "10d13d3dd0de13f52390dae693f4c78f71fba9608c9f9f630eccd2a85c9ca5a7",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 71.45,
+      "bytes": 429357,
+      "generation_seconds": 27.254078899975866,
+      "load_seconds": 0.000001600012183189392,
+      "created_at": 1792216752.9956489,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t014": {
+      "path": "audio/generated/l2-t014.mp3",
+      "script_sha256": "da1fc6246fbdb01599effe654d557273145f3bd457f73e1a6182d40fb654a8c0",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 71.855,
+      "bytes": 431661,
+      "generation_seconds": 26.670845500018913,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792216779.6837249,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t015": {
+      "path": "audio/generated/l2-t015.mp3",
+      "script_sha256": "3da3c24664d9a109bc3a0c7b121024c24b5a29fee0b854d6eaea5a7c97f5ec90",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 68.08,
+      "bytes": 409053,
+      "generation_seconds": 25.41071450000163,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792216805.1115856,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t016": {
+      "path": "audio/generated/l2-t016.mp3",
+      "script_sha256": "545995585194cb396c7ad1d3bd16415a1ef0adc690749ac3abb5a4fe8ca0c333",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 74.98,
+      "bytes": 450525,
+      "generation_seconds": 27.650181000004523,
+      "load_seconds": 0.000002600019797682762,
+      "created_at": 1792216840.191689,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t017": {
+      "path": "audio/generated/l2-t017.mp3",
+      "script_sha256": "2a12834e0809d97460658bb0ec32c2ed9faa288cf0f311bb4ec397990c2b83f7",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 67,
+      "bytes": 402573,
+      "generation_seconds": 26.663342499989085,
+      "load_seconds": 0.000001800013706088066,
+      "created_at": 1792216866.8716745,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t018": {
+      "path": "audio/generated/l2-t018.mp3",
+      "script_sha256": "490516e18d62c46850f509ba6c1ac404d1c644096c989a7af81bc198c23c0fe3",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 76.205,
+      "bytes": 457869,
+      "generation_seconds": 29.48097350000171,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792216896.3670595,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t019": {
+      "path": "audio/generated/l2-t019.mp3",
+      "script_sha256": "9c8f473bc91fbde8ef94d425e85b2972bef52589bcb00d3e437a29c64b93ffef",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 68.355,
+      "bytes": 410781,
+      "generation_seconds": 27.393509999965318,
+      "load_seconds": 8.00006091594696e-7,
+      "created_at": 1792216923.7762957,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t020": {
+      "path": "audio/generated/l2-t020.mp3",
+      "script_sha256": "3eddd210ad1912c9c1bdeeacb610b148992c51f4483942023fb2ae6ff98f5bcc",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 72.78,
+      "bytes": 437277,
+      "generation_seconds": 28.989266799995676,
+      "load_seconds": 0.0000023999600671231747,
+      "created_at": 1792216960.3123906,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t021": {
+      "path": "audio/generated/l2-t021.mp3",
+      "script_sha256": "7591c978a5ba3e329464913a14ed4b7ad52c8e6e824e76997612b8b6f2813380",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 70.38,
+      "bytes": 422877,
+      "generation_seconds": 27.193308699992485,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792216987.5259898,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t022": {
+      "path": "audio/generated/l2-t022.mp3",
+      "script_sha256": "5a0080119222f5c75c9b35cf94a8db3f75da38eb5e03627111c4839264d6487e",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 81.85,
+      "bytes": 491709,
+      "generation_seconds": 32.068965399987064,
+      "load_seconds": 9.00006853044033e-7,
+      "created_at": 1792217019.6149774,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t023": {
+      "path": "audio/generated/l2-t023.mp3",
+      "script_sha256": "ba113af2eeb4c3a8ec8db2cfa609ad21c146c1562360472a72cc05c5d3d83f1c",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 70.175,
+      "bytes": 421581,
+      "generation_seconds": 28.998549100011587,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792217048.632302,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t024": {
+      "path": "audio/generated/l2-t024.mp3",
+      "script_sha256": "b1e295a3238550cdf66db73d8e7357b63de18f7ceef32f0a76f89ea9867d315b",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 80.2,
+      "bytes": 481773,
+      "generation_seconds": 31.303753499989398,
+      "load_seconds": 0.000003700028173625469,
+      "created_at": 1792217087.6267214,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t025": {
+      "path": "audio/generated/l2-t025.mp3",
+      "script_sha256": "a9f2885a7e29eaf8a75ba1ddefb16a380a33888022a359e58f606998c4ad7938",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 75.53,
+      "bytes": 453837,
+      "generation_seconds": 29.66403760004323,
+      "load_seconds": 0.0000012999516911804676,
+      "created_at": 1792217117.3101096,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t026": {
+      "path": "audio/generated/l2-t026.mp3",
+      "script_sha256": "a2ef2f599869f014f937dee3df55f15f312149284ecf76ad1a61851eb4f7560a",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 78.58,
+      "bytes": 472125,
+      "generation_seconds": 31.67599690001225,
+      "load_seconds": 8.00006091594696e-7,
+      "created_at": 1792217149.0059876,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t027": {
+      "path": "audio/generated/l2-t027.mp3",
+      "script_sha256": "f3af021d5f20f4a528f554298947491fbabcf3a5f5226bac8da2857c377482d3",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 72.48,
+      "bytes": 435405,
+      "generation_seconds": 29.72408409998752,
+      "load_seconds": 0.000001300009898841381,
+      "created_at": 1792217178.749398,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t028": {
+      "path": "audio/generated/l2-t028.mp3",
+      "script_sha256": "de6bb405b0931a3af2c6e86028e8450dd6f6c83eb8642591b468548534795e2e",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 75.48,
+      "bytes": 453405,
+      "generation_seconds": 29.947488000034355,
+      "load_seconds": 0.0000027999631129205227,
+      "created_at": 1792217217.0719814,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t029": {
+      "path": "audio/generated/l2-t029.mp3",
+      "script_sha256": "772d55a1b3df1e1afef41f8d02013b6a6fa0c96b4f44ac762498351e4e42d9fe",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 70.255,
+      "bytes": 422157,
+      "generation_seconds": 27.236749099974986,
+      "load_seconds": 0.000001700012944638729,
+      "created_at": 1792217244.330204,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t030": {
+      "path": "audio/generated/l2-t030.mp3",
+      "script_sha256": "b492e65fc149e518e0d41ee16252c91222ac35ec3c81a1d80d21f1f1b2ef7fd0",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 80.68,
+      "bytes": 484653,
+      "generation_seconds": 31.730380500026513,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792217276.0794961,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t031": {
+      "path": "audio/generated/l2-t031.mp3",
+      "script_sha256": "ef57cc4e4415872583040f092afbb0ed9e3756536b46c7b9f3b93e53f5332ba3",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 73.03,
+      "bytes": 438717,
+      "generation_seconds": 28.154241199954413,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792217304.2557693,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t032": {
+      "path": "audio/generated/l2-t032.mp3",
+      "script_sha256": "0388f041161cf5a2677960dcd3e930c24eced4847bff77007a6675114b058a07",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 79.8,
+      "bytes": 479325,
+      "generation_seconds": 31.786448600003496,
+      "load_seconds": 0.000002800021320581436,
+      "created_at": 1792217343.7556143,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t033": {
+      "path": "audio/generated/l2-t033.mp3",
+      "script_sha256": "56a6d281ad05a33e00f406fb9375a21d688aa946f5d14a7ef334118899b56968",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 67.005,
+      "bytes": 402573,
+      "generation_seconds": 26.00137439998798,
+      "load_seconds": 0.000001200009137392044,
+      "created_at": 1792217369.7821808,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t034": {
+      "path": "audio/generated/l2-t034.mp3",
+      "script_sha256": "89e246650fb44d7331538f7a31c1626b5f5264368b72fca4a7c2138e864c55f3",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 78.405,
+      "bytes": 470973,
+      "generation_seconds": 30.446110200020485,
+      "load_seconds": 0.0000010999501682817936,
+      "created_at": 1792217400.2466133,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t035": {
+      "path": "audio/generated/l2-t035.mp3",
+      "script_sha256": "39b0c77b3862f3e8384fdc512c62b4fa2fe9badabb930854c631abb8b215ca64",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 68.18,
+      "bytes": 409629,
+      "generation_seconds": 27.100257900019642,
+      "load_seconds": 9.00006853044033e-7,
+      "created_at": 1792217427.3669076,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t036": {
+      "path": "audio/generated/l2-t036.mp3",
+      "script_sha256": "aa3e6637103f290fa115bb974b9ae46df0a1eac61768d974254cc30c4f2e43ad",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 76.23,
+      "bytes": 458013,
+      "generation_seconds": 29.605444300046656,
+      "load_seconds": 0.0000020999577827751637,
+      "created_at": 1792217464.6449099,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t037": {
+      "path": "audio/generated/l2-t037.mp3",
+      "script_sha256": "6c28788e1686eb53e491bfd03f8db9ffce7b14f42fb8053cd89f133b6207fb50",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 68.455,
+      "bytes": 411357,
+      "generation_seconds": 27.116452600050252,
+      "load_seconds": 0.0000016999547369778156,
+      "created_at": 1792217491.784663,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t038": {
+      "path": "audio/generated/l2-t038.mp3",
+      "script_sha256": "c474752e23a2324287b56d0a33d400198d9bf8dd99dfc8dbc4e7b3f280b44e15",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 76.4,
+      "bytes": 459021,
+      "generation_seconds": 31.092382700007875,
+      "load_seconds": 6.999471224844456e-7,
+      "created_at": 1792217522.9039936,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t039": {
+      "path": "audio/generated/l2-t039.mp3",
+      "script_sha256": "7ed4d15b89f5947ee0f9c78d64586f2ef87c8a42a31ee42a049c3a6fb4667edd",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 68.875,
+      "bytes": 413805,
+      "generation_seconds": 27.59134509996511,
+      "load_seconds": 8.00006091594696e-7,
+      "created_at": 1792217550.5162413,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t040": {
+      "path": "audio/generated/l2-t040.mp3",
+      "script_sha256": "904d4d854a0bc89aa32a0e152ffed38a770d0c4b0d43045829a789381f5af831",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 77.93,
+      "bytes": 468237,
+      "generation_seconds": 29.665642000036314,
+      "load_seconds": 0.0000018999562598764896,
+      "created_at": 1792217587.8567104,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t041": {
+      "path": "audio/generated/l2-t041.mp3",
+      "script_sha256": "e1938f650d1b2ef19110ba217b7d8b607b855f9a9bb9303e9fbe4ca02a6f9565",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 71.255,
+      "bytes": 428061,
+      "generation_seconds": 28.234745900030248,
+      "load_seconds": 0.0000019999570213258266,
+      "created_at": 1792217616.1150177,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t042": {
+      "path": "audio/generated/l2-t042.mp3",
+      "script_sha256": "a34c5db025f564b75e92533b25c4e1d2560ffbdf3d3e22fe15ad53c04dc659fd",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 71.83,
+      "bytes": 431517,
+      "generation_seconds": 28.507662400021218,
+      "load_seconds": 7.999478839337826e-7,
+      "created_at": 1792217644.6451497,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t043": {
+      "path": "audio/generated/l2-t043.mp3",
+      "script_sha256": "b8434ba2de7d8ae3f885d827bc038439a10120147ff9673f2c7e691d29b757ca",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 67.955,
+      "bytes": 408333,
+      "generation_seconds": 26.710329100023955,
+      "load_seconds": 8.00006091594696e-7,
+      "created_at": 1792217671.3758433,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t044": {
+      "path": "audio/generated/l2-t044.mp3",
+      "script_sha256": "0f18018804768f9500d381f3e96939f7afcb80443ec33ad5dfd20779d6daea9d",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 71.825,
+      "bytes": 431517,
+      "generation_seconds": 29.265023699961603,
+      "load_seconds": 0.00000200001522898674,
+      "created_at": 1792217708.7775395,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t045": {
+      "path": "audio/generated/l2-t045.mp3",
+      "script_sha256": "137e837560b9ea038638bc2b6e836b2701d3bac1f35530a789ca8977a23cb92e",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 71.405,
+      "bytes": 429069,
+      "generation_seconds": 28.887331200006884,
+      "load_seconds": 0.000001500011421740055,
+      "created_at": 1792217737.6833816,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t046": {
+      "path": "audio/generated/l2-t046.mp3",
+      "script_sha256": "fd909bbf55bc64e7f8ae0cd724deb2ba1ccd339f8a72bee40fda1805fcab6369",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 81.88,
+      "bytes": 491853,
+      "generation_seconds": 32.43597499997122,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792217770.1459444,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t047": {
+      "path": "audio/generated/l2-t047.mp3",
+      "script_sha256": "916eda6ff9b9cd8e4714048d604bec18822da13c3010d569622b981af6b942e6",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 70.805,
+      "bytes": 425469,
+      "generation_seconds": 29.540189500025008,
+      "load_seconds": 8.999486453831196e-7,
+      "created_at": 1792217799.7068858,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t048": {
+      "path": "audio/generated/l2-t048.mp3",
+      "script_sha256": "9d5c5c75de262539e41a755abc747f090faa7f8d40843a89d4d7c176e0aae478",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 77.175,
+      "bytes": 463629,
+      "generation_seconds": 30.092103399976622,
+      "load_seconds": 0.000002100015990436077,
+      "created_at": 1792217837.4940383,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t049": {
+      "path": "audio/generated/l2-t049.mp3",
+      "script_sha256": "8bda02fcad1e2b62990669d50be58dbee2ec77d45fe22188dca87d8629625b6e",
+      "voices": [
+        "af_heart"
+      ],
+      "duration_seconds": 68.025,
+      "bytes": 408765,
+      "generation_seconds": 26.33623300003819,
+      "load_seconds": 0.0000017999554984271526,
+      "created_at": 1792217863.8537664,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
+    },
+    "l2-t050": {
+      "path": "audio/generated/l2-t050.mp3",
+      "script_sha256": "618442652781b433194c260c4081aa3b8b7b73aff5d6d1d472ac8f12a1d166bc",
+      "voices": [
+        "am_michael"
+      ],
+      "duration_seconds": 82,
+      "bytes": 492573,
+      "generation_seconds": 32.00042990001384,
+      "load_seconds": 0.00000100000761449337,
+      "created_at": 1792217895.873701,
+      "format": "MP3 mono 24 kHz 48 kbps",
+      "bundled": true
     }
   }
 }

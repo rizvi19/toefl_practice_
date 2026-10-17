@@ -18,7 +18,10 @@ def catalog():
     return {x['id']:x for x in json.loads(result.stdout)}
 
 def turns(item):
-    if item['type']!='conversation':return [('af_heart',item['script'].strip())]
+    if item['type']!='conversation':
+        number=re.search(r'(\d+)$',item['id'])
+        voice='am_michael' if item['type']=='academic-talk' and number and int(number.group(1))%2==0 else 'af_heart'
+        return [(voice,item['script'].strip())]
     result=[]
     for line in item['script'].splitlines():
         if not line.strip():continue
@@ -26,6 +29,20 @@ def turns(item):
         if not match:raise ValueError('Unknown conversation role in '+item['id']+'; inspect before generating.')
         result.append(('af_heart' if match[1]=='Woman' else 'am_michael',match[2]))
     return result
+
+
+def speech_chunks(item,text):
+    if item['type']!='academic-talk':return text
+    # Group complete sentences, keeping inference bounded without excessive short calls.
+    groups=[];current=[];size=0
+    for sentence in re.split(r'(?<=[.!?])\s+|\n+',text):
+        if not sentence.strip():continue
+        count=len(sentence.split())
+        if current and size+count>40:
+            groups.append(' '.join(current));current=[];size=0
+        current.append(sentence);size+=count
+    if current:groups.append(' '.join(current))
+    return groups
 
 class Engine:
     def __init__(self,installation,ffmpeg,cache_mb):
@@ -53,12 +70,14 @@ class Engine:
             if shutil.disk_usage(ROOT).free<100_000_000:raise RuntimeError('Less than 100 MB free; generation stopped')
             started=time.perf_counter();self.load();loaded=time.perf_counter()
             import numpy as np
+            import torch
             parts=[];sr=24000
             spoken=turns(item)
-            for voice,text in spoken:
-                for result in self.pipeline(text,voice=self.voices[voice],speed=0.95):
-                    parts.append(result.audio.numpy());parts.append(np.zeros(int(sr*0.12),dtype=np.float32))
-                parts.append(np.zeros(int(sr*(0.32 if item['type']=='conversation' else 0.18)),dtype=np.float32))
+            with torch.inference_mode():
+                for voice,text in spoken:
+                    for result in self.pipeline(speech_chunks(item,text),voice=self.voices[voice],speed=0.95):
+                        parts.append(result.audio.numpy());parts.append(np.zeros(int(sr*0.12),dtype=np.float32))
+                    parts.append(np.zeros(int(sr*(0.32 if item['type']=='conversation' else 0.18)),dtype=np.float32))
             audio=np.concatenate(parts);peak=float(np.abs(audio).max())
             if not np.isfinite(audio).all() or peak<0.01:raise RuntimeError('Invalid/silent Kokoro audio')
             audio=(audio*(0.9/peak)).astype('<f4')
@@ -70,14 +89,14 @@ class Engine:
             entry={'path':path.relative_to(ROOT).as_posix(),'script_sha256':digest,'voices':list(dict.fromkeys(v for v,t in spoken)), 'duration_seconds':len(audio)/sr,'bytes':path.stat().st_size,'generation_seconds':time.perf_counter()-loaded,'load_seconds':loaded-started,'created_at':time.time(),'format':'MP3 mono 24 kHz 48 kbps'}
             data['recordings'][id]=entry
             # Evict only generator-owned MP3s recorded in this manifest; preserve pilot and original WAVs.
-            used=sum(x['bytes'] for x in data['recordings'].values())
+            used=sum(x['bytes'] for x in data['recordings'].values() if not x.get('bundled'))
             for key,old in sorted(list(data['recordings'].items()),key=lambda x:x[1]['created_at']):
                 if used<=self.cache_bytes:break
-                if key in (PILOT,id):continue
+                if key in (PILOT,id) or old.get('bundled'):continue
                 candidate=ROOT/'audio/generated'/f'{key}.mp3'
                 if old['path']!=candidate.relative_to(ROOT).as_posix():continue
                 candidate.unlink(missing_ok=True);used-=old['bytes'];del data['recordings'][key]
-            temp_manifest=MANIFEST.with_suffix('.tmp');temp_manifest.write_text(json.dumps(data,indent=2),encoding='utf-8');temp_manifest.replace(MANIFEST)
+            temp_manifest=MANIFEST.with_suffix('.tmp');temp_manifest.write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8',newline='\n');temp_manifest.replace(MANIFEST)
             print(json.dumps({'id':id,**entry}),flush=True)
             return entry
 
