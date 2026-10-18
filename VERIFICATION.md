@@ -1,3 +1,19 @@
+# Writing section verification — 18 October 2026
+
+[Writing release details](docs/WRITING_2026.md). 12 complete original forms: 120 sentence items, 12 Email prompts and 12 professor/two-student discussions. Local checks use Windows, Node 23.5 and Edge at the GitHub Pages subpath.
+
+- Seven Writing unit tests pass, including all 120 keys, incorrect/incomplete orders and distractors, tile placement limits, independent clocks, expiry protection, frozen session content, individual modes, fresh form rotation, word count and separate feedback packets.
+- The Writing browser journey passes: 10/10 full form, tile removal, Back/Next, flags, Review, keyboard entry, separate 5/7/10 timers, custom six-minute timer, saved drafts and unchanged deadlines after refresh, all three expiries, locked submitted responses, complete task-specific copy packets, selected-text clipboard fallback, JSON download, individual-task modes, fresh selection and literal response escaping.
+- Desktop (1440px) and mobile (390px) layouts were inspected; overflow checks pass. Copying leaves the active clock running. Timing is visible while scrolling long Writing prompts.
+- Existing Reading/Listening unit checks (23), Mountain checks (3), collection validators, section browser journeys and legacy library/timer smoke tests pass. Reading and Listening banks, core engines, recordings, legacy library bundle and Mountain sources are unchanged.
+- Both Pages and editable archives pass integrity and required-file checks. Packaging includes Writing and the existing Mountain route. Writing checks run against source and extracted Pages files in the existing Actions workflow.
+
+Writing feedback is requested by copying a packet; no automatic Email or Discussion grade or official section-score prediction is claimed. The supplied PDFs and synced project sources remain unchanged. The prior conversation could not be retrieved; only available reference materials and the visible transcript were used. Hosted deployment and CI status are verified separately from local checks.
+
+Commands: `npm run test:writing`, `npm run test:writing:browser`, `npm run test:sections`, `npm run test:mountain`, `npm run validate`, `node tools/validate-listening.mjs`, `npm run test:browser`, `npm run smoke`, `node tools/smoke-timers-playwright.mjs`, `python tools/package-release.py ../writing-release`.
+
+---
+
 # Listening quality upgrade verification — 17 October 2026
 
 Verified locally on Windows with Node 23.5 and installed Edge under `/toefl_practice_/`. Current release: [Listening v2](docs/LISTENING_V2_RELEASE.md). Reading's previously published question bank is preserved.

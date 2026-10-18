@@ -10,7 +10,7 @@ if destination == root or root in destination.parents:
     raise SystemExit('Choose an output directory outside the repository.')
 destination.mkdir(parents=True, exist_ok=True)
 common = ['index.html', 'library.html', 'README.md', 'VERIFICATION.md', 'example-bank.json', 'LICENSE.txt', 'PUBLISHING.txt',
-          'THIRD_PARTY_NOTICES.md', 'assets', 'audio', 'collections', 'docs', 'exam', 'reading', 'listening']
+          'THIRD_PARTY_NOTICES.md', 'assets', 'audio', 'collections', 'docs', 'exam', 'reading', 'listening', 'writing.html', 'writing', 'mountain.html', 'mountain']
 source = common + ['package.json', 'package-lock.json',
                    'tests', 'tools', '.github']
 checksums = []
@@ -34,7 +34,7 @@ for kind, entries in [('Pages', common), ('Editable', source)]:
         assert output.testzip() is None
         assert {'reading/engine.js', 'reading/library-bank.js', 'reading/bank.json',
                 'listening/engine.js', 'listening/library-bank.js', 'listening/bank.json',
-                'exam/bank.json', 'example-bank.json', 'index.html', 'library.html'} <= set(output.namelist())
+                'exam/bank.json', 'example-bank.json', 'index.html', 'library.html', 'writing.html', 'writing/app.js', 'writing/core.js', 'writing/content.js', 'writing/prompts.js', 'writing/style.css', 'mountain.html'} <= set(output.namelist())
         output.extractall(destination / f'extracted-{kind.lower()}')
     checksums.append(f'{hashlib.sha256(archive.read_bytes()).hexdigest()}  {archive.name}')
     print(f'Verified {archive.name}: {archive.stat().st_size:,} bytes')

@@ -1,6 +1,10 @@
-# TOEFL Practice Studio — Reading and Listening (2026)
+# TOEFL Practice Studio — Reading, Listening and Writing (2026)
 
 Live: https://rizvi19.github.io/toefl_practice_/
+
+**Writing section:** [writing.html](https://rizvi19.github.io/toefl_practice_/writing.html) — 12 original full tests, 120 exact-graded sentence items with explanations, 12 seven-minute Email scenarios and 12 ten-minute Academic Discussions. Separate copy-for-ChatGPT packets include the full task and response, timing, and structured 0–5 rubric-based feedback instructions. Full/individual modes, configurable clocks, saved composing, word counts, refresh recovery and locked-task review. Sentence practice defaults to the requested 5 minutes; select 6 for the guide’s approximately 23-minute full timing. No automated Email/Discussion grade or official Writing score conversion. [Writing release notes](docs/WRITING_2026.md).
+
+Writing checks: `npm run test:writing`, then `npm run test:writing:browser` while the subpath preview server runs.
 
 Listening now has **200 distinct activities / 450 questions**, 50 each of Choose a Response, Conversation, Announcement and Academic Talk. Repetitive generated material has been replaced with independently authored scripts, plausible distractors, exact evidence and a rationale for every option. All 200 activities have matched audio: 27 existing recordings and 173 new Kokoro MP3s. Conversations use two distinct voices. No model download or helper is needed to play these bundled recordings.
 
