@@ -1,3 +1,11 @@
+# Sentence-history and retry update — 19 October 2026
+
+- All seen new-bank questions are browseable, including skipped items and questions from timed tests. Search, last-result filters and 20-item pagination expose the complete list rather than only recent checked attempts.
+- Practice again starts blank with shuffled tiles and hidden feedback. Prior answers remain saved; checking a retry appends an attempt. Unseen selection and the encounter ledger are unchanged. Active timed questions remain locked.
+- New unit/browser checks verify migration from existing progress, focused/timed/skipped history, result ordering, filters, pagination, fresh retries, reload, earlier scores, unchanged seen counts, exhausted-pool review, active timed protection and mobile layout.
+
+---
+
 # Advanced Writing expansion verification — 19 October 2026
 
 [Expansion details](docs/WRITING_ADVANCED_2026.md) and [content audit](docs/WRITING_ADVANCED_AUDIT.json).
