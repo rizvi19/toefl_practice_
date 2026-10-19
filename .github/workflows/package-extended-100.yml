@@ -2,9 +2,9 @@ name: Validate and package section tests
 on:
   push:
     branches: [main]
-    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   pull_request:
-    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   workflow_dispatch:
 concurrency:
   group: practice-quality-${{ github.ref }}
@@ -35,6 +35,8 @@ jobs:
           npm run validate
           node tools/validate-listening.mjs
           npm run test:sections
+          npm run audit:writing
+          git diff --exit-code -- docs/WRITING_ADVANCED_AUDIT.json
           npm run test:writing
       - name: Install test browser
         run: npx playwright install --with-deps chromium

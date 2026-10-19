@@ -30,3 +30,5 @@ export const discussions = [
 ];
 
 export const formTitles=['Campus coordination','Clubs and community','Student resources','Shared responsibilities','Access and inclusion','Campus services','Living and learning','Plans and priorities','Clear communication','Student initiatives','Mentoring and progress','Practical solutions'];
+import {moreEmails,moreDiscussions,moreTitles} from './prompts-more.js';
+emails.push(...moreEmails);discussions.push(...moreDiscussions);formTitles.push(...moreTitles);

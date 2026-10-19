@@ -4,8 +4,8 @@ import {sentences} from '../writing/content.js';
 import {emails,discussions,formTitles} from '../writing/prompts.js';
 import {DEFAULTS,TASKS,chooseForm,createSession,startTask,closeTask,remaining,placeToken,gradeSentence,sentenceText,sentenceScore,wordCount,feedbackPacket} from '../writing/core.js';
 const form=i=>({id:i,title:formTitles[i],sentences:sentences[i],email:emails[i],discussion:discussions[i]});
-test('12 original complete forms with 120 unique sentence keys and developed writing prompts',()=>{
- assert.equal(sentences.length,12);assert.equal(emails.length,12);assert.equal(discussions.length,12);
+test('12 retained forms with 120 unique sentence keys and 24 developed writing prompt pairs',()=>{
+ assert.equal(sentences.length,12);assert.equal(emails.length,24);assert.equal(discussions.length,24);
  const ids=new Set(),answers=new Set(),contexts=new Set();
  for(const set of sentences){assert.equal(set.length,10);for(const q of set){assert(!ids.has(q.id));ids.add(q.id);assert(q.chunks.length>=3&&q.chunks.length<=7);assert.equal(new Set([...q.chunks,...q.extra]).size,q.chunks.length+q.extra.length);assert(q.context.length>25);assert(q.explanation.length>70);assert(['.','?'].includes(q.suffix));const answer=sentenceText(q,q.chunks.map((_,i)=>i));assert(!answers.has(answer),answer);answers.add(answer);assert(!contexts.has(q.context),q.context);contexts.add(q.context);}}
  for(const p of emails){assert.equal(p.bullets.length,3);assert(wordCount(p.scenario)>=50);assert(p.to&&p.subject&&p.review);}

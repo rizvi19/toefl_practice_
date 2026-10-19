@@ -1,0 +1,273 @@
+{
+  "version": "writing-advanced-v2",
+  "date": "2026-10-19",
+  "newQuestions": 500,
+  "retainedOriginalQuestions": 120,
+  "totalQuestions": 620,
+  "medium": 200,
+  "hard": 300,
+  "emailPrompts": 24,
+  "academicDiscussionPrompts": 24,
+  "slotRange": [
+    3,
+    7
+  ],
+  "withUnusedTile": 22,
+  "exactDuplicateAnswers": 0,
+  "nearDuplicateAnswerPairs": 0,
+  "nearDuplicateCriterion": "Jaccard similarity of lowercase answer word sets > 0.70; an editorial lexical screen, not a semantic or psychometric guarantee.",
+  "maximumAnswerJaccard": 0.4118,
+  "coverage": [
+    {
+      "id": "embedded-wh",
+      "title": "Embedded wh-questions",
+      "questions": 10
+    },
+    {
+      "id": "embedded-whether",
+      "title": "Whether, if and alternative questions",
+      "questions": 10
+    },
+    {
+      "id": "subject-object-questions",
+      "title": "Subject questions versus object questions",
+      "questions": 10
+    },
+    {
+      "id": "nested-direct",
+      "title": "Direct questions with embedded clauses",
+      "questions": 10
+    },
+    {
+      "id": "relative-subject",
+      "title": "Subject relative clauses and clause boundaries",
+      "questions": 10
+    },
+    {
+      "id": "relative-object",
+      "title": "Object relatives and prepositions",
+      "questions": 10
+    },
+    {
+      "id": "relative-possession",
+      "title": "Whose, where and supplementary relatives",
+      "questions": 10
+    },
+    {
+      "id": "reduced-relatives",
+      "title": "Reduced active and passive relative clauses",
+      "questions": 10
+    },
+    {
+      "id": "nominal-relatives",
+      "title": "What, whoever and fused relatives",
+      "questions": 10
+    },
+    {
+      "id": "content-clauses",
+      "title": "Noun content clauses and apposition",
+      "questions": 10
+    },
+    {
+      "id": "real-conditions",
+      "title": "Real conditions with embedded detail",
+      "questions": 10
+    },
+    {
+      "id": "conditional-links",
+      "title": "Unless, provided, as long as and even if",
+      "questions": 10
+    },
+    {
+      "id": "second-conditional",
+      "title": "Hypothetical present and future conditions",
+      "questions": 10
+    },
+    {
+      "id": "third-conditional",
+      "title": "Past unreal conditions",
+      "questions": 10
+    },
+    {
+      "id": "mixed-conditional",
+      "title": "Mixed-time conditionals",
+      "questions": 10
+    },
+    {
+      "id": "wish-preference",
+      "title": "Wish, regret and would rather",
+      "questions": 10
+    },
+    {
+      "id": "future-time",
+      "title": "Future time clauses and completion",
+      "questions": 10
+    },
+    {
+      "id": "past-sequence",
+      "title": "Past perfect and event sequencing",
+      "questions": 10
+    },
+    {
+      "id": "present-perfect",
+      "title": "Present perfect, continuing states and duration",
+      "questions": 10
+    },
+    {
+      "id": "future-perfect",
+      "title": "Future perfect and future continuous",
+      "questions": 10
+    },
+    {
+      "id": "passive-layers",
+      "title": "Modal, progressive and perfect passives",
+      "questions": 10
+    },
+    {
+      "id": "perfect-modals",
+      "title": "Perfect modals: inference, criticism and possibility",
+      "questions": 10
+    },
+    {
+      "id": "causative",
+      "title": "Causative have/get and make/let",
+      "questions": 10
+    },
+    {
+      "id": "reporting-passive",
+      "title": "Reporting passives and infinitive time",
+      "questions": 10
+    },
+    {
+      "id": "reported-sequence",
+      "title": "Reported speech and sequence of tense",
+      "questions": 10
+    },
+    {
+      "id": "verb-complements",
+      "title": "Gerund and infinitive complements",
+      "questions": 10
+    },
+    {
+      "id": "object-infinitive",
+      "title": "Object + infinitive and infinitive subjects",
+      "questions": 10
+    },
+    {
+      "id": "perfect-nonfinite",
+      "title": "Passive and perfect infinitives and gerunds",
+      "questions": 10
+    },
+    {
+      "id": "preposition-gerund",
+      "title": "Prepositions followed by gerunds",
+      "questions": 10
+    },
+    {
+      "id": "participial-control",
+      "title": "Participial clauses and shared subjects",
+      "questions": 10
+    },
+    {
+      "id": "concession",
+      "title": "Concession: although, despite and however",
+      "questions": 10
+    },
+    {
+      "id": "reason-result",
+      "title": "Reason, result and clause versus phrase",
+      "questions": 10
+    },
+    {
+      "id": "purpose",
+      "title": "Purpose, prevention and intended outcomes",
+      "questions": 10
+    },
+    {
+      "id": "comparison",
+      "title": "Comparisons, degree and infinitive complements",
+      "questions": 10
+    },
+    {
+      "id": "parallelism",
+      "title": "Parallel and correlative structures",
+      "questions": 10
+    },
+    {
+      "id": "agreement",
+      "title": "Agreement across long subjects",
+      "questions": 10
+    },
+    {
+      "id": "quantification",
+      "title": "Quantifiers, countability and negative scope",
+      "questions": 10
+    },
+    {
+      "id": "determiners",
+      "title": "Determiners, reference and noun phrases",
+      "questions": 10
+    },
+    {
+      "id": "adverb-scope",
+      "title": "Adverb placement and scope",
+      "questions": 10
+    },
+    {
+      "id": "negative-inversion",
+      "title": "Inversion after negative and restrictive openings",
+      "questions": 10
+    },
+    {
+      "id": "inverted-conditionals",
+      "title": "Conditionals without if",
+      "questions": 10
+    },
+    {
+      "id": "clefts",
+      "title": "It-clefts and what-clefts",
+      "questions": 10
+    },
+    {
+      "id": "anticipatory-it",
+      "title": "Anticipatory it and extraposition",
+      "questions": 10
+    },
+    {
+      "id": "comparative-correlatives",
+      "title": "The more ... the more and proportional change",
+      "questions": 10
+    },
+    {
+      "id": "ellipsis",
+      "title": "Ellipsis, substitution and avoiding repetition",
+      "questions": 10
+    },
+    {
+      "id": "mandative",
+      "title": "Recommendations, requirements and the subjunctive",
+      "questions": 10
+    },
+    {
+      "id": "adjective-participle",
+      "title": "Adjectives, participles and dependent complements",
+      "questions": 10
+    },
+    {
+      "id": "dependent-prepositions",
+      "title": "Dependent prepositions and complex complements",
+      "questions": 10
+    },
+    {
+      "id": "polarity-reference",
+      "title": "Negative polarity, reference and clause links",
+      "questions": 10
+    },
+    {
+      "id": "layered-synthesis",
+      "title": "Layered clauses and competing dependencies",
+      "questions": 10
+    }
+  ],
+  "limits": "Original internally reviewed teaching exercises. Difficulty labels are editorial. Unit checks cannot establish linguistic validity on their own; canonical keys and explanations were also read for grammar, naturalness and context. No external item calibration or independent language-expert review."
+}

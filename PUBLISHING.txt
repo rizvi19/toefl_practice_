@@ -1,7 +1,9 @@
-Extract the current Pages ZIP. Upload ALL its contents to the GitHub repository root. In Settings > Pages choose Deploy from a branch, main / (root). Keep listening/, reading/, writing/, writing.html, mountain/, mountain.html, exam/, assets/, audio/, collections/ and docs/ together. Do not upload the ZIP itself. No Node installation is needed for the prebuilt website.
+Extract the current Pages ZIP. Upload ALL its contents to the GitHub repository root. In Settings > Pages choose Deploy from a branch, main / (root). Keep listening/, reading/, writing/, writing.html, sentence-practice.html, mountain/, mountain.html, exam/, assets/, audio/, collections/ and docs/ together. Do not upload the ZIP itself. No Node installation is needed for the prebuilt website.
 
 Current Pages archive: TOEFL_Studio_Pages_Reading222_Items1400_Listening200_Questions450.zip. The Editable archive includes authoring files, tools and tests. Old downloads/ archives are historical releases. GitHub Actions produces current verified archives as workflow artifacts; it does not push archives to main.
 
 For repository changes, merge the verified Reading/Listening upgrade pull request. Build and verification commands are in README.md. Run Writing unit and browser checks as well; release archives include the Writing and Mountain routes. Listening design and limits are in docs/LISTENING_V2_RELEASE.md; prior Reading details are in docs/READING_V2_RELEASE.md.
 
 Independent practice, not an ETS simulator. Local score estimates and editorial difficulty are uncalibrated. Writing sentence tasks use exact local grading. Email and Discussion use separate copy-for-ChatGPT feedback packets. Speaking uses self-review. Audio recording requires HTTPS or localhost. All 200 active Listening activities include matched recordings; optional browser/local Kokoro settings remain available.
+
+The 19 October Writing expansion includes 500 new questions across 50 grammar families, focused practice with shared no-repeat history, lowercase tiles and 24 prompts each for Email/Discussion. Include the entire writing/ directory. See docs/WRITING_ADVANCED_2026.md.

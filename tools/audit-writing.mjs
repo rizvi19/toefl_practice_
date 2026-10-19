@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {advanced,topics} from '../writing/advanced.js';
+import {sentences} from '../writing/content.js';
+import {emails,discussions} from '../writing/prompts.js';
+import {sentenceText} from '../writing/core.js';
+const text=q=>sentenceText(q,q.chunks.map((_,i)=>i)),canonical=advanced.map(text),legacy=sentences.flat().map(text);
+assert.equal(advanced.length,500);assert.equal(new Set(canonical.map(t=>t.toLowerCase())).size,500);assert.equal(new Set([...canonical,...legacy].map(t=>t.toLowerCase())).size,620);
+const words=canonical.map(t=>new Set(t.toLowerCase().match(/[a-z]+/g)));let max=0,near=0;
+for(let i=0;i<words.length;i++)for(let j=i+1;j<words.length;j++){const a=words[i],b=words[j],common=[...a].filter(t=>b.has(t)).length,ratio=common/(a.size+b.size-common);max=Math.max(max,ratio);if(ratio>.7)near++;}
+assert.equal(near,0);assert.equal(topics.length,50);
+const result={version:'writing-advanced-v2',date:'2026-10-19',newQuestions:500,retainedOriginalQuestions:120,totalQuestions:620,medium:advanced.filter(q=>q.level==='medium').length,hard:advanced.filter(q=>q.level==='hard').length,emailPrompts:emails.length,academicDiscussionPrompts:discussions.length,slotRange:[Math.min(...advanced.map(q=>q.chunks.length)),Math.max(...advanced.map(q=>q.chunks.length))],withUnusedTile:advanced.filter(q=>q.extra.length).length,exactDuplicateAnswers:0,nearDuplicateAnswerPairs:near,nearDuplicateCriterion:'Jaccard similarity of lowercase answer word sets > 0.70; an editorial lexical screen, not a semantic or psychometric guarantee.',maximumAnswerJaccard:Number(max.toFixed(4)),coverage:topics.map(t=>({id:t.id,title:t.title,questions:advanced.filter(q=>q.topic===t.id).length})),limits:'Original internally reviewed teaching exercises. Difficulty labels are editorial. Unit checks cannot establish linguistic validity on their own; canonical keys and explanations were also read for grammar, naturalness and context. No external item calibration or independent language-expert review.'};
+fs.writeFileSync('docs/WRITING_ADVANCED_AUDIT.json',JSON.stringify(result,null,2)+'\n');console.log(`PASS: 500 original additions, 50 families, ${result.medium} medium / ${result.hard} hard; 620 unique total keys; ${emails.length} Email / ${discussions.length} Discussion prompts; no lexical near-duplicate pairs above the documented threshold.`);

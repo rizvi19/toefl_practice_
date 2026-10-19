@@ -1,3 +1,17 @@
+# Advanced Writing expansion verification — 19 October 2026
+
+[Expansion details](docs/WRITING_ADVANCED_2026.md) and [content audit](docs/WRITING_ADVANCED_AUDIT.json).
+
+- 500 new original questions, 50 families, 200 medium/300 hard; 620 unique keys including originals. Each new item has 3–7 slots and item-specific analysis plus a rule/trap explanation. No exact or lexical near-duplicate answer pairs above the documented 0.70 Jaccard threshold. Keys and explanations also received an internal contextual/grammar review; checks do not establish external calibration.
+- 12 Writing unit tests pass, including the prior engine checks plus every new key, lowercase bank display for all 620 items, placement-dependent casing, wrong/incomplete/distractor grading, all 500 drawn without repeats before stopping, filters, storage and active-block reservations.
+- Full Writing and focused-practice browser journeys pass locally under the Pages subpath. Focused checks cover wrong and correct feedback, hidden explanations, keyboard access, saved current questions, skips, pool/whole-bank exhaustion, downloads, shared timed history, reservations and 390px layouts. Desktop and mobile screenshots were visually inspected.
+- Both written prompt banks contain 24 complete original tasks. Existing timers, separate copy packets, saved responses, original test selection and older histories are preserved.
+- Existing Reading/Listening unit tests (23), Mountain checks (3), bank validators and library checks are retained. Reading/Listening question banks, audio and Mountain sources were not changed.
+
+Commands: `npm run test:writing`, `npm run audit:writing`, `npm run test:writing:browser`, `npm run test:sections`, `npm run test:mountain`, `npm run validate`, `node tools/validate-listening.mjs`, `npm run test:browser`, `npm run smoke`, `node tools/smoke-timers-playwright.mjs`.
+
+---
+
 # Writing section verification — 18 October 2026
 
 [Writing release details](docs/WRITING_2026.md). 12 complete original forms: 120 sentence items, 12 Email prompts and 12 professor/two-student discussions. Local checks use Windows, Node 23.5 and Edge at the GitHub Pages subpath.

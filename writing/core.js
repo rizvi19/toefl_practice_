@@ -40,8 +40,15 @@ export function placeToken(s,question,token,now=Date.now()){
   if(a.includes(token))return false;
   const slot=a.indexOf(null);if(slot<0)return false;a[slot]=token;s.responses.sentence[q.id]=a;return true;
 }
-export function gradeSentence(q,response=[]){return response.length===q.chunks.length&&response.every((token,i)=>token===i)?1:0;}
-export function sentenceText(q,response){const tokens=[...q.chunks,...q.extra];return [q.prefix,(response||[]).map(i=>Number.isInteger(i)?tokens[i]:'___').join(' ')].filter(Boolean).join(' ')+q.suffix;}
+export function gradeSentence(q,response=[]){return [q.chunks.map((_,i)=>i),...(q.alternatives||[])].some(key=>response.length===key.length&&response.every((token,i)=>token===key[i]))?1:0;}
+export function tileLabel(q,token,slot=null){
+  let text=[...q.chunks,...q.extra][token]?.toLowerCase()||'';
+  if(slot===null)return text;
+  text=text.replace(/\bi\b/g,'I').replace(/\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday)(s?)\b/g,(_,day,s)=>day[0].toUpperCase()+day.slice(1)+s);
+  if(slot===0&&!q.prefix.trim())text=text.replace(/^\p{L}/u,c=>c.toUpperCase());
+  return text;
+}
+export function sentenceText(q,response){return [q.prefix,(response||[]).map((i,slot)=>Number.isInteger(i)?tileLabel(q,i,slot):'___').join(' ')].filter(Boolean).join(' ')+q.suffix;}
 export function sentenceScore(s){return s.form.sentences.reduce((n,q)=>n+gradeSentence(q,s.responses.sentence[q.id]),0);}
 export function questionText(task,prompt){
   if(task==='email')return `WRITE AN EMAIL\n${prompt.scenario}\n\nWrite an email to ${prompt.to}. In your email:\n${prompt.bullets.map(x=>'- '+x).join('\n')}\nWrite in complete sentences and develop your points.\nTo: ${prompt.to}\nSubject: ${prompt.subject}`;
