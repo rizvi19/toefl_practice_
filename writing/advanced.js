@@ -1,9 +1,10 @@
 import {groups} from './advanced-source.js';
+import {applyDistractor} from './distractors.js?v=writing4';
 import {KEY as WRITING_KEY} from './core.js?v=writing2';
 export const topics=groups.map(({id,title,rule,trap})=>({id,title,rule,trap}));
 export const advanced=groups.flatMap((g,group)=>g.rows.map((line,i)=>{
   const [context,prefix,chunks,suffix,analysis,extra='']=line.split('|');
-  return {id:`wa-${g.id}-${String(i+1).padStart(2,'0')}`,context,prefix,chunks:chunks.split(' / ').map(t=>t.toLowerCase()),suffix,extra:extra?[extra.toLowerCase()]:[],level:i<4?'medium':'hard',topic:g.id,topicTitle:g.title,analysis,rule:g.rule,trap:g.trap,explanation:`${analysis} ${g.rule} Common trap: ${g.trap}`,bankVersion:2};
+  return applyDistractor({id:`wa-${g.id}-${String(i+1).padStart(2,'0')}`,context,prefix,chunks:chunks.split(' / ').map(t=>t.toLowerCase()),suffix,extra:extra?[extra.toLowerCase()]:[],level:i<4?'medium':'hard',topic:g.id,topicTitle:g.title,analysis,rule:g.rule,trap:g.trap,explanation:`${analysis} ${g.rule} Common trap: ${g.trap}`,bankVersion:2});
 }));
 export const EXPOSURE_KEY='toefl-sentence-exposure-v2';
 export function readExposure(storage=globalThis.localStorage){

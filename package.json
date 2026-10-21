@@ -16,7 +16,7 @@
     "audit:listening": "node tools/audit-listening.mjs",
     "test:mountain": "node --test tests/mountain-quality.test.mjs",
     "test:writing": "node --test tests/writing-core.test.mjs tests/writing-advanced.test.mjs tests/writing-history.test.mjs",
-    "test:writing:browser": "node tests/writing-browser.mjs && node tests/writing-practice-browser.mjs && node tests/writing-history-browser.mjs",
+    "test:writing:browser": "node tests/writing-browser.mjs && node tests/writing-practice-browser.mjs && node tests/writing-history-browser.mjs && node tests/writing-distractor-browser.mjs",
     "audit:writing": "node tools/audit-writing.mjs"
   },
   "devDependencies": {

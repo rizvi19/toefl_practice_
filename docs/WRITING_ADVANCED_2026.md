@@ -2,6 +2,16 @@
 
 Live: [Focused sentence practice](https://rizvi19.github.io/toefl_practice_/sentence-practice.html) · [Writing tests](https://rizvi19.github.io/toefl_practice_/writing.html)
 
+## Extra-tile revision — 21 October 2026
+
+The new bank now contains **123 questions with one unused tile** and **377 without**. This adds 101 selective distractors to the earlier 22. The original bank retains its 17 extra-tile questions, for **140 across the 620 questions**. Every extra has an individual post-answer explanation. Traps include auxiliaries inside embedded questions, agreement across intervening clauses, subject/object/possessive pronouns, bare verbs after modals, passive/perfect participles, gerunds after prepositions, causatives, complement patterns, comparisons and parallelism.
+
+Distractors are tied to individual items rather than inserted at random. Some existing chunks were split so a wrong form competes with the relevant correct word instead of being ruled out by the grouping. The completed correct sentence stays unchanged, with 3–7 slots and at most one extra tile. Both focused and timed practice shuffle the extra with the other tiles and reveal its rationale after grading. Directions say an extra word or phrase *may* be unused. All bank labels remain lowercase.
+
+The optional-extra format was checked against the Writing sections of [ETS Full-Length Practice Test 1](https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-full-length-practice-test-1.pdf) and [ETS Teacher Resources Practice Test 2](https://www.ets.org/content/dam/ets-org/pdfs/toefl/toefl-ibt-teachers-resources-practice-test-2.pdf). Those examples contain both types of item. The proportion and difficulty of this site's original distractors are editorial choices, not official ETS specifications. Publisher questions were not copied.
+
+Question IDs and encounter history are retained. Active questions, timed attempts and earlier results keep their frozen tiles, answers and keys. A deliberate retry uses the revised question without changing the earlier result or resetting unseen progress. New regression checks cover this transition, wrong-extra scoring after reload, correct retries, hidden/visible rationale, timed feedback and mobile layout. The machine-readable audit includes counts and trap types; unit tests check every revised extra and every unchanged complete answer.
+
 ## Content
 
 **500 new individually authored sentence exercises**, in addition to the original 120. The expansion contains **200 medium and 300 hard** exercises across **50 grammar families**, ten exercises per family. Every exercise has a short contextual exchange, a fixed opening/ending where appropriate, 3–7 word/phrase slots, one complete canonical key, item-specific analysis, a grammar rule and a common-trap explanation. Selected questions include an unused tile.

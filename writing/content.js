@@ -123,7 +123,8 @@ Did the extra practice help your presentation?|I felt |considerably / more confi
 How did you finish the report so quickly?|My partner helped |me / organize / the evidence / into clear sections|.||Help permits an object followed by a bare infinitive: helped me organize. Into introduces the resulting arrangement.`
 ];
 
+import {applyDistractor} from './distractors.js?v=writing4';
 export const sentences = sentenceSets.map((set, form) => set.trim().split('\n').map((line, i) => {
   const [context, prefix, chunks, suffix, extra, explanation] = line.split('|');
-  return {id:`w${String(form+1).padStart(2,'0')}-s${i+1}`,context,prefix:prefix.trim(),chunks:chunks.split(' / '),suffix,extra:extra?[extra]:[],explanation};
+  return applyDistractor({id:`w${String(form+1).padStart(2,'0')}-s${i+1}`,context,prefix:prefix.trim(),chunks:chunks.split(' / '),suffix,extra:extra?[extra]:[],explanation});
 }));

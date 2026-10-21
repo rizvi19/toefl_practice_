@@ -2,9 +2,32 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {advanced,topics,EXPOSURE_KEY,readExposure,markExposure,eligibleQuestions,selectQuestions,activeWritingIds} from '../writing/advanced.js';
 import {sentences} from '../writing/content.js';
+import {groups} from '../writing/advanced-source.js';
+import {distractors} from '../writing/distractors.js';
 import {emails,discussions} from '../writing/prompts.js';
 import {KEY,gradeSentence,tileLabel,sentenceText} from '../writing/core.js';
 const storage=()=>{const data=new Map();return {getItem:k=>data.get(k)??null,setItem:(k,v)=>data.set(k,v)};};
+test('selective item-specific distractors preserve keys and reject wrong substitutions in every slot',()=>{
+ const all=[...advanced,...sentences.flat()],ids=new Set(all.map(q=>q.id));
+ assert(Object.keys(distractors).every(id=>ids.has(id)),'No orphaned distractor revisions');
+ assert.equal(advanced.filter(q=>q.extra.length===1).length,123);
+ assert.equal(advanced.filter(q=>q.extra.length===0).length,377);
+ assert.equal(sentences.flat().filter(q=>q.extra.length===1).length,17);
+ for(const q of all){
+  assert(q.extra.length<=1,q.id);
+  if(!q.extra.length)continue;
+  assert(q.extraExplanation.length>65,q.id);assert(q.extraType,q.id);
+  assert(q.explanation.includes(q.extraExplanation),q.id);
+  assert.equal(q.extra[0],q.extra[0].toLowerCase(),q.id);
+  const key=q.chunks.map((_,i)=>i);
+  for(let slot=0;slot<key.length;slot++){const wrong=[...key];wrong[slot]=q.chunks.length;assert.equal(gradeSentence(q,wrong),0,q.id);}
+ }
+ for(const g of groups)for(const [i,row] of g.rows.entries()){
+  const original=row.split('|')[2].split(' / ').join(' ').toLowerCase();
+  const revised=advanced.find(q=>q.id===`wa-${g.id}-${String(i+1).padStart(2,'0')}`);
+  assert.equal(revised.chunks.join(' ').toLowerCase(),original,revised.id);
+ }
+});
 test('500 unique original questions across 50 complete grammar families, 200 medium and 300 hard',()=>{
  assert.equal(advanced.length,500);assert.equal(topics.length,50);assert.equal(advanced.filter(q=>q.level==='medium').length,200);assert.equal(advanced.filter(q=>q.level==='hard').length,300);
  const ids=new Set(),answers=new Set(),contexts=new Set();
