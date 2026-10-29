@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {budget,itemCount,answered,createSession,startStage,remaining,advanceStage,canMove,validateSession} from '../chapter6/core.js';
+import {budget,itemCount,answered,createSession,startStage,remaining,advanceStage,canMove,validateSession,scoreSummary} from '../chapter6/core.js';
 const bank=JSON.parse(fs.readFileSync(new URL('../chapter6/bank.json',import.meta.url)));
 test('complete fixed form has 120 items and the source media mapping',()=>{
  assert.deepEqual(bank.stages.map(s=>itemCount(s.items)),[35,15,32,15,10,1,1,7,4]);
@@ -22,4 +22,13 @@ test('separate official and chapter allocations, fixed deadlines and module lock
 });
 test('a first-option answer counts and listening is gated by completed playback',()=>{
  const q=bank.stages[2].items[0],s=createSession('Candidate','official');assert.equal(answered(q,0),1);assert(!canMove(q,s));s.played[q.media]='playing';assert(!canMove(q,s));s.played[q.media]='complete';assert(canMove(q,s));assert.equal(answered(bank.stages[0].items[0],{0:'ieve',1:'line'}),2);
+});
+test('manual section bands calculate an overall result only after all four assessments',()=>{
+ assert.equal(scoreSummary({Reading:5,Listening:5,Writing:5}),null);
+ assert.deepEqual(scoreSummary({Reading:4.5,Listening:5,Writing:4,Speaking:5.5}),{average:4.75,overall:5});
+ assert.deepEqual(scoreSummary({Reading:5,Listening:5,Writing:5,Speaking:5.5}),{average:5.125,overall:5});
+ assert.equal(scoreSummary({Reading:1,Listening:1,Writing:1,Speaking:1}).overall,1);
+ assert.equal(scoreSummary({Reading:6,Listening:6,Writing:6,Speaking:6}).overall,6);
+ assert.equal(scoreSummary({Reading:5,Listening:5,Writing:5,Speaking:30}),null);
+ assert.equal(scoreSummary({Reading:5,Listening:5,Writing:5,Speaking:4.2}),null);
 });

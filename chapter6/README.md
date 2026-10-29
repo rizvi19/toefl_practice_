@@ -10,6 +10,8 @@ Audio and video start automatically. If browser policy blocks playback, the reco
 
 Speaking uses `getUserMedia` and `MediaRecorder` over HTTPS or localhost. Recording starts after the prompt and stops at the response deadline; the next question starts automatically. Recordings are stored in IndexedDB; answer state, events, flags, notes and deadlines use a separate LocalStorage key. Leaving a response flags an interruption. Closing the page during an active recording can lose that recording; use Save & exit or Export first. A JSON backup includes available recording blobs as data URLs and can be imported on another device. There is no server sync or sign-in.
 
+Review includes manual 1–6 section-band fields, including Speaking assessed by the learner or ChatGPT. Once all four bands are entered, the overall practice result is their mean rounded to the nearest half band. These assessments persist and are included in exported backups. No overall result appears while any section is unassessed.
+
 The supplied text does **not** contain its promised answer key, transcripts, scoring conversion or explanations. No official answers or score are invented. Completed cloze words and sentence suggestions are reconstructed study aids. The textile-weaving sentence was severely reordered in the pasted extraction; its reconstruction is disclosed in the player and review. The form is linear, matching the chapter's directions, rather than adaptive. The cleaned source is retained in `source.txt`; PDF watermark identifiers and encoded extraction artifacts are removed.
 
 Validation:
