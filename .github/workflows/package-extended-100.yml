@@ -40,7 +40,7 @@ jobs:
           git diff --exit-code -- docs/WRITING_ADVANCED_AUDIT.json
           npm run test:writing
       - name: Install test browser
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --with-deps chromium chrome
       - name: Verify GitHub Pages subpath and preserved library/audio
         run: |
           set -euo pipefail

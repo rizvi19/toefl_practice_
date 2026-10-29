@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {KEY,createSession} from '../chapter6/core.js';
-const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':undefined,args:['--use-fake-ui-for-media-stream','--use-fake-device-for-media-stream','--autoplay-policy=no-user-gesture-required']});
+const browser=await chromium.launch({headless:true,channel:process.platform==='win32'?'msedge':'chrome',args:['--use-fake-ui-for-media-stream','--use-fake-device-for-media-stream','--autoplay-policy=no-user-gesture-required']});
 const context=await browser.newContext({viewport:{width:1440,height:1000},permissions:['microphone'],acceptDownloads:true});
 const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
 await page.addInitScript(key=>{const seed=sessionStorage.getItem('chapter6-test-seed');if(seed){localStorage.setItem(key,seed);sessionStorage.removeItem('chapter6-test-seed');}},KEY);

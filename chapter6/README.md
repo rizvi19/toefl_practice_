@@ -22,6 +22,6 @@ node tools/serve-subpath.mjs
 node tests/chapter6-browser.mjs
 ```
 
-The browser check uses real audio/video playback at increased speed and a real MediaRecorder with a browser fake microphone. It checks fixed deadlines, module locks, Reading review, Listening autoplay and shared recordings, sentence construction, saved writing, automatic speaking recording and transition, 45-second interview limits, recording backups and responsive layout. Existing section-browser checks cover the homepage integration.
+On Linux CI, the Chapter 6 browser check uses Chrome so the supplied H.264 interview videos can decode; the other browser suites retain their existing Chromium configuration. The browser check uses real audio/video playback at increased speed and a real MediaRecorder with a browser fake microphone. It checks fixed deadlines, module locks, Reading review, Listening autoplay and shared recordings, sentence construction, saved writing, automatic speaking recording and transition, 45-second interview limits, recording backups and responsive layout. Existing section-browser checks cover the homepage integration.
 
 The GitHub repository and GitHub Pages site are public. Making a repository private does not make its Pages website private. GitHub Free requires a public repository for Pages; private Pages access control requires an Enterprise Cloud organization. No frontend password or sign-in is implemented.
