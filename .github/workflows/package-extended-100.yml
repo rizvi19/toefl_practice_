@@ -2,9 +2,9 @@ name: Validate and package section tests
 on:
   push:
     branches: [main]
-    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   pull_request:
-    paths: ['index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   workflow_dispatch:
 concurrency:
   group: practice-quality-${{ github.ref }}
@@ -35,6 +35,7 @@ jobs:
           npm run validate
           node tools/validate-listening.mjs
           npm run test:sections
+          npm run test:chapter6
           npm run audit:writing
           git diff --exit-code -- docs/WRITING_ADVANCED_AUDIT.json
           npm run test:writing
@@ -48,6 +49,7 @@ jobs:
           trap 'kill "$server_pid"' EXIT
           sleep 2
           npm run test:browser
+          npm run test:chapter6:browser
           npm run test:writing:browser
           npm run smoke
           node tools/smoke-listening-playwright.mjs
@@ -63,6 +65,7 @@ jobs:
           trap 'kill "$server_pid"' EXIT
           sleep 2
           npm run test:browser
+          npm run test:chapter6:browser
           npm run test:writing:browser
           npm run smoke
           node tools/smoke-listening-playwright.mjs

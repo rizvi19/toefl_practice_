@@ -17,7 +17,9 @@
     "test:mountain": "node --test tests/mountain-quality.test.mjs",
     "test:writing": "node --test tests/writing-core.test.mjs tests/writing-advanced.test.mjs tests/writing-history.test.mjs",
     "test:writing:browser": "node tests/writing-browser.mjs && node tests/writing-practice-browser.mjs && node tests/writing-history-browser.mjs && node tests/writing-distractor-browser.mjs",
-    "audit:writing": "node tools/audit-writing.mjs"
+    "audit:writing": "node tools/audit-writing.mjs",
+    "test:chapter6": "node --test tests/chapter6-core.test.mjs",
+    "test:chapter6:browser": "node tests/chapter6-browser.mjs"
   },
   "devDependencies": {
     "playwright": "1.56.1"

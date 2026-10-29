@@ -9,7 +9,7 @@ destination = Path(sys.argv[1] if len(sys.argv) > 1 else 'release').resolve()
 if destination == root or root in destination.parents:
     raise SystemExit('Choose an output directory outside the repository.')
 destination.mkdir(parents=True, exist_ok=True)
-common = ['index.html', 'library.html', 'README.md', 'VERIFICATION.md', 'example-bank.json', 'LICENSE.txt', 'PUBLISHING.txt',
+common = ['chapter6.html', 'chapter6', 'index.html', 'library.html', 'README.md', 'VERIFICATION.md', 'example-bank.json', 'LICENSE.txt', 'PUBLISHING.txt',
           'THIRD_PARTY_NOTICES.md', 'assets', 'audio', 'collections', 'docs', 'exam', 'reading', 'listening', 'writing.html', 'sentence-practice.html', 'writing', 'mountain.html', 'mountain']
 source = common + ['package.json', 'package-lock.json',
                    'tests', 'tools', '.github']
@@ -32,7 +32,7 @@ for kind, entries in [('Pages', common), ('Editable', source)]:
             output.writestr(info, path.read_bytes(), compresslevel=9)
     with zipfile.ZipFile(archive) as output:
         assert output.testzip() is None
-        assert {'reading/engine.js', 'reading/library-bank.js', 'reading/bank.json',
+        assert {'chapter6.html', 'chapter6/app.js', 'chapter6/bank.json', 'chapter6/media/video-4.mp4', 'chapter6/media/track-53.mp3', 'reading/engine.js', 'reading/library-bank.js', 'reading/bank.json',
                 'listening/engine.js', 'listening/library-bank.js', 'listening/bank.json',
                 'exam/bank.json', 'example-bank.json', 'index.html', 'library.html', 'writing.html', 'writing/app.js', 'writing/core.js', 'writing/content.js', 'writing/prompts.js', 'writing/style.css', 'writing/advanced.js', 'writing/advanced-source.js', 'writing/distractors.js', 'writing/practice.js', 'writing/practice-history.js', 'writing/prompts-more.js', 'sentence-practice.html', 'mountain.html'} <= set(output.namelist())
         output.extractall(destination / f'extracted-{kind.lower()}')
