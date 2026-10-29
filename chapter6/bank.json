@@ -1,0 +1,1597 @@
+{
+  "id": "chapter6-v1",
+  "title": "Chapter 6 · Full Practice Test 01",
+  "version": 1,
+  "totalItems": 120,
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1260,
+      "chapterSeconds": 1200,
+      "review": true,
+      "items": [
+        {
+          "id": "r1-1",
+          "type": "cloze",
+          "number": 1,
+          "count": 10,
+          "title": "The golden toad",
+          "pieces": [
+            "The extinction of the golden toad, a brightly colored amphibian once found in the cloud forests of Costa Rica, serves as a poignant example of the fragility of tropical ecosystems. The golden toad’s last confirmed sighting was in 1989. Scientists ",
+            {
+              "pre": "bel",
+              "answer": "ieve"
+            },
+            " its ",
+            {
+              "pre": "dec",
+              "answer": "line"
+            },
+            " is ",
+            {
+              "pre": "d",
+              "answer": "ue"
+            },
+            " to ",
+            {
+              "pre": "hab",
+              "answer": "itat"
+            },
+            " destruction, ",
+            {
+              "pre": "chan",
+              "answer": "ging"
+            },
+            " weather ",
+            {
+              "pre": "patt",
+              "answer": "erns"
+            },
+            ", and ",
+            {
+              "pre": "dis",
+              "answer": "ease"
+            },
+            " caused ",
+            {
+              "pre": "b",
+              "answer": "y"
+            },
+            " a ",
+            {
+              "pre": "ty",
+              "answer": "pe"
+            },
+            " of fungus ",
+            {
+              "pre": "th",
+              "answer": "at"
+            },
+            " attacks the skin of amphibians. Conservationists study the golden toad’s demise to understand how climate factors affect amphibian populations. This case underscores the importance of preserving sensitive habitats and addressing global environmental challenges to protect biodiversity."
+          ],
+          "sourceNote": "Blank boundaries reconstructed from the pasted text."
+        },
+        {
+          "id": "r1-11",
+          "type": "cloze",
+          "number": 11,
+          "count": 10,
+          "title": "Insect behavior",
+          "pieces": [
+            "The study of animal behavior, specifically that of insects, provides insight into the complex interactions within ecosystems. Insects ",
+            {
+              "pre": "exhi",
+              "answer": "bit"
+            },
+            " a ",
+            {
+              "pre": "br",
+              "answer": "oad"
+            },
+            " range ",
+            {
+              "pre": "o",
+              "answer": "f"
+            },
+            " behaviors ",
+            {
+              "pre": "fr",
+              "answer": "om"
+            },
+            " foraging ",
+            {
+              "pre": "a",
+              "answer": "nd"
+            },
+            " mating ",
+            {
+              "pre": "t",
+              "answer": "o"
+            },
+            " complex ",
+            {
+              "pre": "soc",
+              "answer": "ial"
+            },
+            " organization. ",
+            {
+              "pre": "F",
+              "answer": "or"
+            },
+            " instance, ",
+            {
+              "pre": "be",
+              "answer": "es"
+            },
+            " perform ",
+            {
+              "pre": "intr",
+              "answer": "icate"
+            },
+            " dances to communicate the location of food sources. Ants communicate using chemical signals called pheromones, which help coordinate complex tasks like defending the colony and locating resources. This cooperative behavior ensures the survival and efficiency of their communities."
+          ],
+          "sourceNote": "The pasted “exhl” was reconstructed as “exhi”; blank boundaries are reconstructed."
+        },
+        {
+          "number": 21,
+          "type": "choice",
+          "prompt": "What can be inferred about Maria Lopez’ spot in the class?",
+          "options": [
+            "She is currently on the waiting list.",
+            "She will lose her spot if she does not respond to this email.",
+            "She will secure her spot after she pays a fee.",
+            "She has indicated to Michael Brown that she cannot attend."
+          ],
+          "title": "Cooking class",
+          "passage": "Subject: Cooking class\n\nMaria Lopez,\n\nThank you for your interest in the Foster Dining Hall cooking class.\n\nThere is currently a waiting list for this popular event. To secure your spot, respond to this email to confirm your registration. There is a $10 fee for the use of equipment and ingredients, payable when you arrive.\n\nHair nets will be provided and must be worn at all times in the dining hall kitchen. We have aprons for you to borrow, or you can bring your own.\n\nBest regards,\n\nMichael Brown",
+          "id": "r1-21"
+        },
+        {
+          "number": 22,
+          "type": "choice",
+          "prompt": "What must Maria Lopez take to the class?",
+          "options": [
+            "A $10 payment",
+            "Some ingredients",
+            "A hair net",
+            "An apron"
+          ],
+          "title": "Cooking class",
+          "passage": "Subject: Cooking class\n\nMaria Lopez,\n\nThank you for your interest in the Foster Dining Hall cooking class.\n\nThere is currently a waiting list for this popular event. To secure your spot, respond to this email to confirm your registration. There is a $10 fee for the use of equipment and ingredients, payable when you arrive.\n\nHair nets will be provided and must be worn at all times in the dining hall kitchen. We have aprons for you to borrow, or you can bring your own.\n\nBest regards,\n\nMichael Brown",
+          "id": "r1-22"
+        },
+        {
+          "number": 23,
+          "type": "choice",
+          "prompt": "What is suggested about Emma’s semester?",
+          "options": [
+            "She is studying in Kyoto as an exchange student.",
+            "She has visited many cities across Japan in the first half of the semester.",
+            "She was too busy with coursework to travel until last weekend.",
+            "She has not spent a lot of time preparing for her midterms."
+          ],
+          "title": "A semester in Japan",
+          "passage": "Emma Lee\n\nI can’t believe I’m already halfway through my exchange semester in Japan. Time really flies when you have a busy class schedule! Last weekend, after wrapping up midterms, I finally headed out of Osaka. My destination? Kyoto.\n\nDay 1: Temples and Shrines: I started my day at the Fushimi Inari Shrine, famous for its thousands of torii gates. It was a steep climb, but the view was absolutely worth it. Later, I visited the Kinkaku-ji, the Golden Pavilion, which was stunning, with its gold-leaf-covered exterior reflecting on the tranquil pond.\n\nDay 2: Exploring Gion Kobu, one of Kyoto's historic districts, was fascinating. I walked through the narrow streets lined with traditional wooden teahouses. The atmosphere was magical, and it seemed as if I was stepping back in time.\n\nI'll share more about Kyoto. Stay tuned for updates! #Travel #Kyoto #Japan #Adventure",
+          "id": "r1-23"
+        },
+        {
+          "number": 24,
+          "type": "choice",
+          "prompt": "What can be inferred about the Kinkaku-ji?",
+          "options": [
+            "It is located within the Fushimi Inari Shrine.",
+            "Its roof is covered with leaves from nearby trees.",
+            "It is located next to a small body of water.",
+            "It is on top of a hill."
+          ],
+          "title": "A semester in Japan",
+          "passage": "Emma Lee\n\nI can’t believe I’m already halfway through my exchange semester in Japan. Time really flies when you have a busy class schedule! Last weekend, after wrapping up midterms, I finally headed out of Osaka. My destination? Kyoto.\n\nDay 1: Temples and Shrines: I started my day at the Fushimi Inari Shrine, famous for its thousands of torii gates. It was a steep climb, but the view was absolutely worth it. Later, I visited the Kinkaku-ji, the Golden Pavilion, which was stunning, with its gold-leaf-covered exterior reflecting on the tranquil pond.\n\nDay 2: Exploring Gion Kobu, one of Kyoto's historic districts, was fascinating. I walked through the narrow streets lined with traditional wooden teahouses. The atmosphere was magical, and it seemed as if I was stepping back in time.\n\nI'll share more about Kyoto. Stay tuned for updates! #Travel #Kyoto #Japan #Adventure",
+          "id": "r1-24"
+        },
+        {
+          "number": 25,
+          "type": "choice",
+          "prompt": "Which statement best characterizes Emma’s experience in Gion Kobu?",
+          "options": [
+            "She was excited to view the performances of street magicians.",
+            "She felt like she was visiting a different historical period.",
+            "She did not have time to see many of the things that she wanted to see there.",
+            "She enjoyed drinking tea in the traditional teahouses."
+          ],
+          "title": "A semester in Japan",
+          "passage": "Emma Lee\n\nI can’t believe I’m already halfway through my exchange semester in Japan. Time really flies when you have a busy class schedule! Last weekend, after wrapping up midterms, I finally headed out of Osaka. My destination? Kyoto.\n\nDay 1: Temples and Shrines: I started my day at the Fushimi Inari Shrine, famous for its thousands of torii gates. It was a steep climb, but the view was absolutely worth it. Later, I visited the Kinkaku-ji, the Golden Pavilion, which was stunning, with its gold-leaf-covered exterior reflecting on the tranquil pond.\n\nDay 2: Exploring Gion Kobu, one of Kyoto's historic districts, was fascinating. I walked through the narrow streets lined with traditional wooden teahouses. The atmosphere was magical, and it seemed as if I was stepping back in time.\n\nI'll share more about Kyoto. Stay tuned for updates! #Travel #Kyoto #Japan #Adventure",
+          "id": "r1-25"
+        },
+        {
+          "number": 26,
+          "type": "choice",
+          "prompt": "The word “feats” in the passage is closest in meaning to",
+          "options": [
+            "examples",
+            "achievements",
+            "skills",
+            "investments"
+          ],
+          "title": "Ancient Aqueducts",
+          "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
+          "id": "r1-26"
+        },
+        {
+          "number": 27,
+          "type": "choice",
+          "prompt": "Why does the author mention public baths, fountains, households, and agriculture?",
+          "options": [
+            "To imply that the construction of Roman aqueducts required a lot of effort",
+            "To indicate that Roman cities needed more water than aqueducts could provide",
+            "To emphasize the rapid growth and impressive sustainability of Roman cities",
+            "To explain the usefulness of Roman aqueducts"
+          ],
+          "title": "Ancient Aqueducts",
+          "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
+          "id": "r1-27"
+        },
+        {
+          "number": 28,
+          "type": "choice",
+          "prompt": "What specific ancient structure is mentioned in the passage as still existing today?",
+          "options": [
+            "A tunnel",
+            "A bridge",
+            "A fountain",
+            "A channel"
+          ],
+          "title": "Ancient Aqueducts",
+          "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
+          "id": "r1-28"
+        },
+        {
+          "number": 29,
+          "type": "choice",
+          "prompt": "What problem with ancient aqueducts is mentioned in the passage?",
+          "options": [
+            "The environmental damage they caused by using groundwater",
+            "The limited amount of water they could provide",
+            "Their frequent lack of durability",
+            "The cost and effort of building and maintaining them"
+          ],
+          "title": "Ancient Aqueducts",
+          "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
+          "id": "r1-29"
+        },
+        {
+          "number": 30,
+          "type": "choice",
+          "prompt": "There are four locations in the passage (marked with [A], [B], [C], and [D]) that indicate where the following sentence could be added. This meant that the source of the water had to be higher than the city to which it was brought. Where would the sentence best fit?",
+          "options": [
+            "Location A",
+            "Location B",
+            "Location C",
+            "Location D"
+          ],
+          "title": "Ancient Aqueducts",
+          "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
+          "id": "r1-30"
+        },
+        {
+          "number": 31,
+          "type": "choice",
+          "prompt": "According to the passage, what does NOT occur inside PV cells?",
+          "options": [
+            "Silicon or another material absorbs sunlight.",
+            "Electrons become less tightly bound to atoms.",
+            "A flow of electric current is captured.",
+            "Electricity is stored in a battery."
+          ],
+          "title": "Advancements in Renewable Energy Engineering",
+          "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
+          "id": "r1-31"
+        },
+        {
+          "number": 32,
+          "type": "choice",
+          "prompt": "What does the author indicate about moonlight solar panels?",
+          "options": [
+            "They are more efficient and cost-effective than traditional PV cells.",
+            "They can function in low-light conditions.",
+            "They can be used to store energy over a long period of time.",
+            "They do not convert energy in real time."
+          ],
+          "title": "Advancements in Renewable Energy Engineering",
+          "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
+          "id": "r1-32"
+        },
+        {
+          "number": 33,
+          "type": "choice",
+          "prompt": "The word “viable” in the passage is closest in meaning to",
+          "options": [
+            "practical",
+            "predictable",
+            "valuable",
+            "adaptable"
+          ],
+          "title": "Advancements in Renewable Energy Engineering",
+          "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
+          "id": "r1-33"
+        },
+        {
+          "number": 34,
+          "type": "choice",
+          "prompt": "The passage suggests that, compared to traditional wind farms, what is an advantage of floating wind farms?",
+          "options": [
+            "They harness wind energy in larger amounts and more consistently.",
+            "They are easier to install and maintain.",
+            "They use underwater cables, which are more cost-effective than cables installed on land.",
+            "They last for a longer time."
+          ],
+          "title": "Advancements in Renewable Energy Engineering",
+          "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
+          "id": "r1-34"
+        },
+        {
+          "number": 35,
+          "type": "choice",
+          "prompt": "There are four locations in the passage (marked with [A], [B], [C], and [D]) that indicate where the following sentence could be added. How do they work? Where would the sentence best fit?",
+          "options": [
+            "Location A",
+            "Location B",
+            "Location C",
+            "Location D"
+          ],
+          "title": "Advancements in Renewable Energy Engineering",
+          "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
+          "id": "r1-35"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "items": [
+        {
+          "id": "r2-1",
+          "type": "cloze",
+          "number": 1,
+          "count": 10,
+          "title": "Textile weaving",
+          "pieces": [
+            "Textile weaving is a traditional craft that involves interlacing threads to create fabric. Weavers use looms to hold the threads in place while they work. ",
+            {
+              "pre": "Nat",
+              "answer": "ural"
+            },
+            " fibers ",
+            {
+              "pre": "li",
+              "answer": "ke"
+            },
+            " wool, ",
+            {
+              "pre": "cot",
+              "answer": "ton"
+            },
+            ", and ",
+            {
+              "pre": "si",
+              "answer": "lk"
+            },
+            " are ",
+            {
+              "pre": "comm",
+              "answer": "only"
+            },
+            " used, ",
+            {
+              "pre": "tho",
+              "answer": "ugh"
+            },
+            " synthetic ",
+            {
+              "pre": "mate",
+              "answer": "rials"
+            },
+            " are ",
+            {
+              "pre": "al",
+              "answer": "so"
+            },
+            " popular. ",
+            {
+              "pre": "Techn",
+              "answer": "iques"
+            },
+            " such ",
+            {
+              "pre": "a",
+              "answer": "s"
+            },
+            " plain weave, twill, and satin weave produce different textures and patterns. Textile weaving has been practiced by cultures worldwide, each developing unique styles. Ikat weaving from Indonesia, for example, uses a resist-dye method to create vibrant colors and symbolic motifs that reflect cultural identity and regional traditions."
+          ],
+          "sourceNote": "The middle sentence and blank order were reconstructed because the pasted PDF text is out of order. Check against the book before treating this as an exact reproduction."
+        },
+        {
+          "number": 11,
+          "type": "choice",
+          "prompt": "Why does the author mention Élisée Reclus and Frédéric Le Play?",
+          "options": [
+            "To identify the origins of social geography as a field of study",
+            "To suggest that social geography has evolved significantly over the years",
+            "To contrast the differences between geography and social geography",
+            "To explain the existence of two independent schools of thought within the field of social geography"
+          ],
+          "title": "Urbanization and Social Geography",
+          "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
+          "id": "r2-11"
+        },
+        {
+          "number": 12,
+          "type": "choice",
+          "prompt": "According to the passage, increased population densities result in",
+          "options": [
+            "sharp declines in living conditions",
+            "stronger bonds with people from a common cultural background",
+            "fewer opportunities to encounter the same individuals multiple times",
+            "a reduction in access to resources like healthcare"
+          ],
+          "title": "Urbanization and Social Geography",
+          "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
+          "id": "r2-12"
+        },
+        {
+          "number": 13,
+          "type": "choice",
+          "prompt": "The word “disparities” in the passage is closest in meaning to",
+          "options": [
+            "inequalities",
+            "difficulties",
+            "debates",
+            "shortages"
+          ],
+          "title": "Urbanization and Social Geography",
+          "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
+          "id": "r2-13"
+        },
+        {
+          "number": 14,
+          "type": "choice",
+          "prompt": "What is NOT mentioned in the passage as a topic included in social geography?",
+          "options": [
+            "How society changes as a result of urbanization",
+            "How population growth affects employment",
+            "How urban resources can be distributed in a fair way",
+            "How to ensure that people from various backgrounds coexist in harmony"
+          ],
+          "title": "Urbanization and Social Geography",
+          "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
+          "id": "r2-14"
+        },
+        {
+          "number": 15,
+          "type": "choice",
+          "prompt": "There are four locations in the passage (marked with [A], [B], [C], and [D]) that indicate where the following sentence could be added. It alters how people interact with the landscape and with each other. Where would the sentence best fit?",
+          "options": [
+            "Location A",
+            "Location B",
+            "Location C",
+            "Location D"
+          ],
+          "title": "Urbanization and Social Geography",
+          "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
+          "id": "r2-15"
+        }
+      ]
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "seconds": 1080,
+      "chapterSeconds": 1080,
+      "items": [
+        {
+          "number": 1,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "What about this evening, then?",
+            "How about a movie?",
+            "Well, I understand.",
+            "Sounds like a plan."
+          ],
+          "id": "l1-1",
+          "media": "track-53.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 2,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "Jenna disagrees.",
+            "It’s a demanding project.",
+            "Keith has all the right skills.",
+            "Let’s find out why."
+          ],
+          "id": "l1-2",
+          "media": "track-54.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 3,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "Sure you do.",
+            "Sorry—I’m new on campus.",
+            "Yes, I love the library.",
+            "This is such a large campus."
+          ],
+          "id": "l1-3",
+          "media": "track-55.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 4,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "I recorded our interviews.",
+            "I missed your show last night.",
+            "I still have time to grab breakfast.",
+            "When did you begin your studies?"
+          ],
+          "id": "l1-4",
+          "media": "track-56.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 5,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "I absolutely love it.",
+            "My favorite restaurant.",
+            "The grocery store is closed.",
+            "I watched a cooking show."
+          ],
+          "id": "l1-5",
+          "media": "track-57.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 6,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "We’re getting new ergonomic chairs next week.",
+            "We had a session about the changes.",
+            "The new layout map was posted online.",
+            "There are a lot of comfortable places to study."
+          ],
+          "id": "l1-6",
+          "media": "track-58.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 7,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "I got an early start.",
+            "Not to my knowledge.",
+            "There’s a restroom on every floor.",
+            "It’s one floor up."
+          ],
+          "id": "l1-7",
+          "media": "track-59.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 8,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "I couldn’t make it.",
+            "Let’s go together.",
+            "I’ll wait for you there.",
+            "Are you going to attend?"
+          ],
+          "id": "l1-8",
+          "media": "track-60.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 9,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "With friends.",
+            "Yoga.",
+            "It’s stressful.",
+            "My dorm room."
+          ],
+          "id": "l1-9",
+          "media": "track-61.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 10,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "I’ll cancel the subscription.",
+            "Oh, I’m sorry to hear that.",
+            "She’s a court-appointed lawyer.",
+            "I decided to reschedule for next week."
+          ],
+          "id": "l1-10",
+          "media": "track-62.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 11,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "Does tomorrow work?",
+            "I’m a big fan of the opera.",
+            "In a minute.",
+            "I’m on vacation"
+          ],
+          "id": "l1-11",
+          "media": "track-63.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 12,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "John did.",
+            "No, they’re on the way.",
+            "Next week, I think.",
+            "I need reading glasses."
+          ],
+          "id": "l1-12",
+          "media": "track-64.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 13,
+          "type": "choice",
+          "prompt": "What did the man say about the new café?",
+          "options": [
+            "The staff is helpful.",
+            "The menu includes vegetarian options.",
+            "The food and drinks are affordable.",
+            "The location is easy to find."
+          ],
+          "id": "l1-13",
+          "media": "track-65.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 14,
+          "type": "choice",
+          "prompt": "What does the woman mean when she says, “I’ll check it out”?",
+          "options": [
+            "She will visit the café.",
+            "She will borrow a book to read.",
+            "She will write a check to the café this weekend.",
+            "She will pay for her items now."
+          ],
+          "id": "l1-14",
+          "media": "track-65.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 15,
+          "type": "choice",
+          "prompt": "Why is the man focusing on four companies?",
+          "options": [
+            "He was assigned to research only those four companies.",
+            "He wanted to compare the most significant competitors.",
+            "He couldn’t find enough information about smaller companies.",
+            "He didn’t have time to research more than four companies."
+          ],
+          "id": "l1-15",
+          "media": "track-66.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 16,
+          "type": "choice",
+          "prompt": "What will the woman probably do next?",
+          "options": [
+            "Help the man write his section",
+            "Print the final version of the project",
+            "Ask the professor for one more day to finish",
+            "Send the man a file with presentation slides"
+          ],
+          "id": "l1-16",
+          "media": "track-66.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 17,
+          "type": "choice",
+          "prompt": "What are the speakers discussing?",
+          "options": [
+            "Their class schedules",
+            "Travel plans for a conference",
+            "Campus housing options",
+            "Progress on a group report"
+          ],
+          "id": "l1-17",
+          "media": "track-67.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 18,
+          "type": "choice",
+          "prompt": "What can be inferred about the woman?",
+          "options": [
+            "She has never traveled by plane before.",
+            "She wants to avoid spending a lot of money.",
+            "She is unfamiliar with the destination.",
+            "She is still working on a presentation."
+          ],
+          "id": "l1-18",
+          "media": "track-67.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 19,
+          "type": "choice",
+          "prompt": "What best describes room 304, according to the announcement?",
+          "options": [
+            "It has received a technical enhancement.",
+            "It was temporarily being used by students.",
+            "It is right next to the library annex.",
+            "It may possibly be converted into a science lab."
+          ],
+          "id": "l1-19",
+          "media": "track-68.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 20,
+          "type": "choice",
+          "prompt": "What does the speaker ask students to do?",
+          "options": [
+            "Review their notes",
+            "Go to the library",
+            "Check their equipment",
+            "Continue to be punctual"
+          ],
+          "id": "l1-20",
+          "media": "track-68.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 21,
+          "type": "choice",
+          "prompt": "What does the speaker imply about the Williams Building?",
+          "options": [
+            "It will soon be closed for renovations.",
+            "It is the largest building on campus.",
+            "It is located far away from where the class meets.",
+            "It was originally constructed as a dormitory for students."
+          ],
+          "id": "l1-21",
+          "media": "track-69.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 22,
+          "type": "choice",
+          "prompt": "What problem is the speaker most likely addressing by making a change?",
+          "options": [
+            "Students have been eating during class.",
+            "Students have been unable to find parking spaces.",
+            "Students have been failing to complete assignments on time.",
+            "Students have been arriving late to class."
+          ],
+          "id": "l1-22",
+          "media": "track-69.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 23,
+          "type": "choice",
+          "prompt": "How may students submit the form discussed in the announcement?",
+          "options": [
+            "By giving it to their professor",
+            "By bringing it to the Economics Department",
+            "By using the university’s online portal",
+            "By sending an email"
+          ],
+          "id": "l1-23",
+          "media": "track-70.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 24,
+          "type": "choice",
+          "prompt": "What is most likely the significance of this week?",
+          "options": [
+            "Orientation for new students is beginning.",
+            "Students are preparing for final exams.",
+            "The semester is ending.",
+            "Students are choosing their majors."
+          ],
+          "id": "l1-24",
+          "media": "track-70.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 25,
+          "type": "choice",
+          "prompt": "What is the talk mainly about?",
+          "options": [
+            "The consequences of using fossil fuels",
+            "A comparison of two sources of renewable energy",
+            "Factors affecting the production of solar power",
+            "Environmental impacts of renewable energy"
+          ],
+          "id": "l1-25",
+          "media": "track-71.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 26,
+          "type": "choice",
+          "prompt": "What does the speaker say about batteries when discussing solar power?",
+          "options": [
+            "They are not needed.",
+            "They are an important innovation.",
+            "They may be damaged by bad weather.",
+            "They can be quite costly."
+          ],
+          "id": "l1-26",
+          "media": "track-71.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 27,
+          "type": "choice",
+          "prompt": "Why does the speaker describe the noises that a wind turbine makes?",
+          "options": [
+            "To explain why they are not usually found in residential areas",
+            "To help listeners distinguish between two types of wind turbines",
+            "To explain how technicians know that a wind turbine needs maintenance",
+            "To identify a common complaint that wind farms receive"
+          ],
+          "id": "l1-27",
+          "media": "track-71.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 28,
+          "type": "choice",
+          "prompt": "What does the speaker imply about wind farms that are located offshore?",
+          "options": [
+            "They are becoming more common.",
+            "They involve extra maintenance costs.",
+            "They are much more productive than other wind farms.",
+            "They are easier to operate than other wind farms."
+          ],
+          "id": "l1-28",
+          "media": "track-71.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 29,
+          "type": "choice",
+          "prompt": "What is the main topic of the talk?",
+          "options": [
+            "The history of graffiti in urban environments",
+            "The evolution and impact of street art on cities",
+            "Different styles of mural painting",
+            "Legal issues surrounding public art"
+          ],
+          "id": "l1-29",
+          "media": "track-72.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 30,
+          "type": "choice",
+          "prompt": "Why does the speaker mention marginalized communities?",
+          "options": [
+            "To explain the financial challenges faced by street artists",
+            "To highlight one of the social issues that street art can address",
+            "To discuss the legality of creating murals without permission",
+            "To describe the aesthetic qualities of street art"
+          ],
+          "id": "l1-30",
+          "media": "track-72.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 31,
+          "type": "choice",
+          "prompt": "What challenge related to street art does the speaker mention?",
+          "options": [
+            "Finding artists to create murals",
+            "Securing funding for large projects",
+            "Gaining official permission to create artwork",
+            "Promoting messages of unity and hope"
+          ],
+          "id": "l1-31",
+          "media": "track-72.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 32,
+          "type": "choice",
+          "prompt": "What is the speaker’s attitude toward street art?",
+          "options": [
+            "Skeptical that it should be considered art",
+            "Mostly negative, because of its legal and practical challenges",
+            "Hopeful that some students will begin creating it",
+            "Generally positive, with recognition of some drawbacks"
+          ],
+          "id": "l1-32",
+          "media": "track-72.mp3",
+          "title": "Listening"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "seconds": 660,
+      "chapterSeconds": 540,
+      "items": [
+        {
+          "number": 1,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "It’s near the library.",
+            "The hours are on the door.",
+            "They get a lot of customers.",
+            "I went there with my friend."
+          ],
+          "id": "l2-1",
+          "media": "track-73.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 2,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "I need to prioritize other work.",
+            "Let’s leave the package at the door.",
+            "I’m not sure that’s the case.",
+            "I forgot to save my work."
+          ],
+          "id": "l2-2",
+          "media": "track-74.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 3,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "Could I listen to it?",
+            "Will it be next Tuesday?",
+            "Yes, let’s go together.",
+            "It was quite informative."
+          ],
+          "id": "l2-3",
+          "media": "track-75.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 4,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "It’s under renovation.",
+            "On Mondays.",
+            "Last week, I think.",
+            "I don’t know its location."
+          ],
+          "id": "l2-4",
+          "media": "track-76.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 5,
+          "type": "choice",
+          "prompt": "Then choose the best response.",
+          "options": [
+            "I received some useful feedback from a tutor.",
+            "I’ll check the schedule and see.",
+            "I’ll probably ask my roommate for some help.",
+            "Could you put some more paper in the printer for me?"
+          ],
+          "id": "l2-5",
+          "media": "track-77.mp3",
+          "title": "Listen and Choose a Response"
+        },
+        {
+          "number": 6,
+          "type": "choice",
+          "prompt": "Why did the woman change the meeting location?",
+          "options": [
+            "The original room was too small.",
+            "The library canceled their reservation.",
+            "The student center is closer to their dorms.",
+            "They needed access to a projector."
+          ],
+          "id": "l2-6",
+          "media": "track-78.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 7,
+          "type": "choice",
+          "prompt": "Why does the man say, “I’ll post the update in our group chat”?",
+          "options": [
+            "To indicate that information in the group chat is confusing",
+            "To double-check the new location",
+            "To confirm that he will notify the other group members",
+            "To invite the woman to join a group chat"
+          ],
+          "id": "l2-7",
+          "media": "track-78.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 8,
+          "type": "choice",
+          "prompt": "What was the man’s response to the performance?",
+          "options": [
+            "He appreciated the wide variety of music played.",
+            "He was moved by the sound of the music.",
+            "He admired the high quality of the audio in the hall.",
+            "He was amazed by the light show that accompanied the music."
+          ],
+          "id": "l2-8",
+          "media": "track-79.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 9,
+          "type": "choice",
+          "prompt": "Why does the woman plan to write a review of the event?",
+          "options": [
+            "To criticize the high cost of tickets",
+            "To encourage more students to attend",
+            "To suggest some different bands for future events",
+            "To propose renovations to the concert hall"
+          ],
+          "id": "l2-9",
+          "media": "track-79.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 10,
+          "type": "choice",
+          "prompt": "According to the speaker, how might students benefit from attending the fair?",
+          "options": [
+            "They can meet new people.",
+            "They can obtain information about volunteer opportunities.",
+            "They can receive a discount at the university bookstore.",
+            "They can learn about campus clubs."
+          ],
+          "id": "l2-10",
+          "media": "track-80.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 11,
+          "type": "choice",
+          "prompt": "What must students do in order to volunteer?",
+          "options": [
+            "Go to the student activities office",
+            "Log on to the university website",
+            "Arrive an hour before the event",
+            "Sign up at the registration booth"
+          ],
+          "id": "l2-11",
+          "media": "track-80.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 12,
+          "type": "choice",
+          "prompt": "What is the main topic of the talk?",
+          "options": [
+            "The spread of cultural beliefs and practices",
+            "Challenges overcome by early farming techniques",
+            "The lasting impact of ancient cultures on modern societies",
+            "Ancient technologies that are still in use today"
+          ],
+          "id": "l2-12",
+          "media": "track-81.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 13,
+          "type": "choice",
+          "prompt": "Why does the speaker mention irrigation systems and terrace farming?",
+          "options": [
+            "To suggest that some ancient practices were more impactful than others",
+            "To provide examples of agricultural techniques that spread to neighboring regions",
+            "To explain how societies moved from hunting and gathering to agriculture",
+            "To illustrate the cultural differences among various regions"
+          ],
+          "id": "l2-13",
+          "media": "track-81.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 14,
+          "type": "choice",
+          "prompt": "What does the speaker say about religious traditions?",
+          "options": [
+            "They often adapted to incorporate local customs.",
+            "They rarely spread beyond their place of origin.",
+            "They had a major influence on the diffusion of language.",
+            "They transformed literacy and recordkeeping."
+          ],
+          "id": "l2-14",
+          "media": "track-81.mp3",
+          "title": "Listening"
+        },
+        {
+          "number": 15,
+          "type": "choice",
+          "prompt": "According to the speaker, why is cultural diffusion sometimes met with resistance?",
+          "options": [
+            "It may require the adoption of new agricultural practices.",
+            "It can become an obstacle to economic progress.",
+            "It may be seen as a threat to existing traditions.",
+            "It often requires learning a new language."
+          ],
+          "id": "l2-15",
+          "media": "track-81.mp3",
+          "title": "Listening"
+        }
+      ]
+    },
+    {
+      "id": "writing-sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "w-1",
+          "number": 1,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "I’m planning a surprise party for my roommate.",
+          "chunks": [
+            "for",
+            "the",
+            "same",
+            "as",
+            "I’m",
+            "doing"
+          ],
+          "frame": [
+            "What a coincidence—",
+            "my roommate."
+          ],
+          "suggested": [
+            "I’m",
+            "doing",
+            "the",
+            "same",
+            "for"
+          ]
+        },
+        {
+          "id": "w-2",
+          "number": 2,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "How are your Polish lessons going?",
+          "chunks": [
+            "to",
+            "that",
+            "simulate",
+            "uses AI",
+            "with an app",
+            "how"
+          ],
+          "frame": [
+            "I’m actually learning on my own",
+            "conversations."
+          ],
+          "suggested": [
+            "with an app",
+            "that",
+            "uses AI",
+            "to",
+            "simulate"
+          ]
+        },
+        {
+          "id": "w-3",
+          "number": 3,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "Tonight, I’m going to try the new restaurant right across from campus.",
+          "chunks": [
+            "with",
+            "from",
+            "went",
+            "I",
+            "the hiking club",
+            "try",
+            "my friends"
+          ],
+          "frame": [
+            "",
+            "last week",
+            "."
+          ],
+          "suggested": [
+            "I",
+            "went",
+            "with",
+            "my friends",
+            "from",
+            "the hiking club"
+          ]
+        },
+        {
+          "id": "w-4",
+          "number": 4,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "I have to finish my homework before dinner.",
+          "chunks": [
+            "subjects",
+            "assignments in",
+            "you",
+            "have",
+            "do",
+            "what"
+          ],
+          "frame": [
+            "",
+            "?"
+          ],
+          "suggested": [
+            "what",
+            "subjects",
+            "do",
+            "you",
+            "have",
+            "assignments in"
+          ]
+        },
+        {
+          "id": "w-5",
+          "number": 5,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "I need to pick up some groceries after class.",
+          "chunks": [
+            "you",
+            "store",
+            "going to",
+            "are",
+            "which"
+          ],
+          "frame": [
+            "",
+            "?"
+          ],
+          "suggested": [
+            "which",
+            "store",
+            "are",
+            "you",
+            "going to"
+          ]
+        },
+        {
+          "id": "w-6",
+          "number": 6,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "The student association is organizing a charity event next month.",
+          "chunks": [
+            "organize",
+            "the children’s",
+            "support",
+            "will",
+            "hospital",
+            "hear"
+          ],
+          "frame": [
+            "I",
+            "the event",
+            "."
+          ],
+          "suggested": [
+            "hear",
+            "will",
+            "support",
+            "the children’s",
+            "hospital"
+          ]
+        },
+        {
+          "id": "w-7",
+          "number": 7,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "I’m thinking about redecorating my dorm room.",
+          "chunks": [
+            "you",
+            "are",
+            "considering",
+            "what",
+            "style"
+          ],
+          "frame": [
+            "",
+            "?"
+          ],
+          "suggested": [
+            "what",
+            "style",
+            "are",
+            "you",
+            "considering"
+          ]
+        },
+        {
+          "id": "w-8",
+          "number": 8,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "I missed the lecture this morning.",
+          "chunks": [
+            "you",
+            "get",
+            "from",
+            "notes",
+            "did",
+            "the"
+          ],
+          "frame": [
+            "",
+            "someone?"
+          ],
+          "suggested": [
+            "did",
+            "you",
+            "get",
+            "the",
+            "notes",
+            "from"
+          ]
+        },
+        {
+          "id": "w-9",
+          "number": 9,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "I’m going to attend the career workshop on Sunday.",
+          "chunks": [
+            "there",
+            "are",
+            "any",
+            "specific",
+            "you’re",
+            "skills",
+            "hoping to"
+          ],
+          "frame": [
+            "",
+            "gain?"
+          ],
+          "suggested": [
+            "are",
+            "there",
+            "any",
+            "specific",
+            "skills",
+            "you’re",
+            "hoping to"
+          ]
+        },
+        {
+          "id": "w-10",
+          "number": 10,
+          "type": "sentence",
+          "title": "Build a Sentence",
+          "prompt": "I have to prepare for the big presentation next week.",
+          "chunks": [
+            "your",
+            "have",
+            "finished",
+            "creating",
+            "slides",
+            "you"
+          ],
+          "frame": [
+            "",
+            "?"
+          ],
+          "suggested": [
+            "have",
+            "you",
+            "finished",
+            "creating",
+            "your",
+            "slides"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "writing-email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "w-11",
+          "number": 11,
+          "type": "essay",
+          "title": "Write an Email",
+          "prompt": "You major in marketing. You recently attended a workshop on digital marketing that was recommended by your professor. You found the workshop extremely informative and believe it greatly benefits your studies. You want to thank the organizer, Ms. Clark, and suggest that similar workshops be held more frequently.\n\nWrite an email to Ms. Clark. In your email, do the following:\n• Thank her for organizing the workshop and mention what you found most valuable about it.\n• Explain how the workshop benefits your studies.\n• Suggest that similar workshops be organized more frequently.\n\nWrite as much as you can and in complete sentences.\n\nYour Response:\n\nTo: Ms. Clark\n\nSubject: Appreciation for digital marketing workshop"
+        }
+      ]
+    },
+    {
+      "id": "writing-discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "w-12",
+          "number": 12,
+          "type": "essay",
+          "title": "Write for an Academic Discussion",
+          "prompt": "Your professor is teaching a class on history. Write a post responding to the professor’s question.\n\nIn your response, you should do the following.\n• Express and support your opinion.\n• Make a contribution to the discussion in your own words.\n\nAn effective response will contain at least 100 words.\n\nDr. Gupta Lately, we have been exploring the value of studying history and its relevance to modern life. Some historians argue that understanding historical events—such as revolutions, social movements, and political conflicts—helps us make sense of current issues like inequality, climate policy, and international relations. Others, however, believe that focusing too much on the past can distract us from solving urgent problems in the present, such as technological changes or public health crises. Which view do you agree with? Why?\n\nAndrew I agree that studying history is essential to understanding current issues. It reveals patterns in human behavior and thus can help us avoid repeating mistakes. This context is crucial for making informed, thoughtful choices in politics, society, and even personal life.\n\nClaire I believe that focusing on the present is more important. It is true that studying history can help build critical-thinking skills, but addressing today’s unique challenges requires immediate action and innovative thinking tailored to current circumstances rather than past lessons."
+        }
+      ]
+    },
+    {
+      "id": "speaking-repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "instruction": "track-82.mp3",
+      "context": "You have volunteered to provide help in a student resource room. The manager is training you to help students use office equipment. Listen to the manager and repeat what the manager says. Repeat only once.",
+      "items": [
+        {
+          "id": "s-1",
+          "number": 1,
+          "type": "speaking",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat only once.",
+          "media": "track-83.mp3",
+          "responseSeconds": 8
+        },
+        {
+          "id": "s-2",
+          "number": 2,
+          "type": "speaking",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat only once.",
+          "media": "track-84.mp3",
+          "responseSeconds": 8
+        },
+        {
+          "id": "s-3",
+          "number": 3,
+          "type": "speaking",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat only once.",
+          "media": "track-85.mp3",
+          "responseSeconds": 10
+        },
+        {
+          "id": "s-4",
+          "number": 4,
+          "type": "speaking",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat only once.",
+          "media": "track-86.mp3",
+          "responseSeconds": 10
+        },
+        {
+          "id": "s-5",
+          "number": 5,
+          "type": "speaking",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat only once.",
+          "media": "track-87.mp3",
+          "responseSeconds": 10
+        },
+        {
+          "id": "s-6",
+          "number": 6,
+          "type": "speaking",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat only once.",
+          "media": "track-88.mp3",
+          "responseSeconds": 12
+        },
+        {
+          "id": "s-7",
+          "number": 7,
+          "type": "speaking",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat only once.",
+          "media": "track-89.mp3",
+          "responseSeconds": 12
+        }
+      ]
+    },
+    {
+      "id": "speaking-interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "instruction": "track-90.mp3",
+      "context": "You have volunteered for a research study at your university about people’s experiences with art and creativity. You will have a short online interview with a researcher. The researcher will ask you some questions.",
+      "items": [
+        {
+          "id": "s-8",
+          "number": 8,
+          "type": "speaking",
+          "title": "Take an Interview",
+          "prompt": "Please answer the interviewer’s question.",
+          "media": "video-1.mp4",
+          "responseSeconds": 45
+        },
+        {
+          "id": "s-9",
+          "number": 9,
+          "type": "speaking",
+          "title": "Take an Interview",
+          "prompt": "Please answer the interviewer’s question.",
+          "media": "video-2.mp4",
+          "responseSeconds": 45
+        },
+        {
+          "id": "s-10",
+          "number": 10,
+          "type": "speaking",
+          "title": "Take an Interview",
+          "prompt": "Please answer the interviewer’s question.",
+          "media": "video-3.mp4",
+          "responseSeconds": 45
+        },
+        {
+          "id": "s-11",
+          "number": 11,
+          "type": "speaking",
+          "title": "Take an Interview",
+          "prompt": "Please answer the interviewer’s question.",
+          "media": "video-4.mp4",
+          "responseSeconds": 45
+        }
+      ]
+    }
+  ],
+  "sourceNotes": [
+    "All prompts and options are from the supplied paste; page headers, personal watermarks and extraction artifacts were removed.",
+    "The Complete the Words text contains reconstructed blank boundaries; the textile-weaving sentence has damaged source order.",
+    "The supplied paste does not contain the answer key. No official score or multiple-choice answer key is invented. Sentence suggestions and completed cloze words are reconstructed study aids.",
+    "The practice form is linear, as stated in the supplied chapter. It does not reproduce adaptive ETS scoring."
+  ],
+  "timingSource": "https://www.ets.org/toefl/test-takers/ibt/about/content.html?version=after-jan-2026"
+}
