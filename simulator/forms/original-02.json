@@ -1,0 +1,3040 @@
+{
+  "id": "original-02",
+  "version": 1,
+  "title": "Full Test 02 · Evidence and Discovery",
+  "description": "New original practice content with distinct adaptive routes and authored answer keys.",
+  "original": true,
+  "baseCount": 120,
+  "routing": {
+    "threshold": 0.7,
+    "notice": "A local 70% router heuristic, not the proprietary ETS adaptive algorithm."
+  },
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "f2-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Scientists study coastal marshes because these wetlands connect land and sea. Their dense roots ",
+            {
+              "pre": "sl",
+              "answer": "ow"
+            },
+            " moving water and ",
+            {
+              "pre": "he",
+              "answer": "lp"
+            },
+            " trap sediment. This ",
+            {
+              "pre": "pro",
+              "answer": "cess"
+            },
+            " can gradually ",
+            {
+              "pre": "ra",
+              "answer": "ise"
+            },
+            " the ground surface, ",
+            {
+              "pre": "al",
+              "answer": "though"
+            },
+            " its speed varies. Some marshes ",
+            {
+              "pre": "ke",
+              "answer": "ep"
+            },
+            " pace with rising water, ",
+            {
+              "pre": "wh",
+              "answer": "ile"
+            },
+            " others become flooded too ",
+            {
+              "pre": "of",
+              "answer": "ten"
+            },
+            ". Researchers compare changes at several sites to ",
+            {
+              "pre": "under",
+              "answer": "stand"
+            },
+            " which conditions favor ",
+            {
+              "pre": "sur",
+              "answer": "vival"
+            },
+            ". The results can guide restoration, but no single measurement reveals everything about a marsh. Long records are especially valuable because storms and unusually dry seasons can temporarily alter the patterns that researchers observe."
+          ],
+          "count": 10,
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Early printed books often contain small differences even when they belong to the same edition. Workers sometimes ",
+            {
+              "pre": "cor",
+              "answer": "rected"
+            },
+            " mistakes while a printing ",
+            {
+              "pre": "jo",
+              "answer": "b"
+            },
+            " was still underway. Sheets printed ",
+            {
+              "pre": "be",
+              "answer": "fore"
+            },
+            " the change could then be ",
+            {
+              "pre": "bou",
+              "answer": "nd"
+            },
+            " together with later ones. These variations ",
+            {
+              "pre": "of",
+              "answer": "fer"
+            },
+            " evidence about the ",
+            {
+              "pre": "pro",
+              "answer": "duction"
+            },
+            " process. Scholars examine many copies ",
+            {
+              "pre": "ra",
+              "answer": "ther"
+            },
+            " than assuming that one is ",
+            {
+              "pre": "typ",
+              "answer": "ical"
+            },
+            ". They also consider marks left by ",
+            {
+              "pre": "rea",
+              "answer": "ders"
+            },
+            " and former ",
+            {
+              "pre": "own",
+              "answer": "ers"
+            },
+            ". A book is therefore both a text and a physical record of decisions made over time, from its manufacture to its use in different collections."
+          ],
+          "count": 10,
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-d1-1",
+          "type": "choice",
+          "prompt": "What should Lena do if she expects to arrive at 2:45?",
+          "options": [
+            "Ask another researcher to collect the notebooks",
+            "Leave her student card in a locker",
+            "Contact the archives before noon",
+            "Bring a pen instead of a pencil"
+          ],
+          "answer": 2,
+          "explanation": "The message asks for contact before noon if arrival will be later than 2:30.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "A collection appointment",
+          "passage": "To: Lena Ortiz\nFrom: Campus Archives\nSubject: Thursday appointment\nYour requested notebooks will be ready in the reading room at 2 p.m. Thursday. Bring your student card. Lockers are provided for bags, and only pencils may be used near the documents. If you cannot arrive by 2:30, please contact us before noon so we can offer the appointment to another researcher.",
+          "documentType": "email",
+          "stimulusId": "f2-r1-d1",
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-d1-2",
+          "type": "choice",
+          "prompt": "What is suggested about reading-room appointments?",
+          "options": [
+            "They can be transferred without contacting staff",
+            "Other researchers may be waiting for a place",
+            "They do not require identification",
+            "They last for exactly thirty minutes"
+          ],
+          "answer": 1,
+          "explanation": "An appointment may be offered to another researcher.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "A collection appointment",
+          "passage": "To: Lena Ortiz\nFrom: Campus Archives\nSubject: Thursday appointment\nYour requested notebooks will be ready in the reading room at 2 p.m. Thursday. Bring your student card. Lockers are provided for bags, and only pencils may be used near the documents. If you cannot arrive by 2:30, please contact us before noon so we can offer the appointment to another researcher.",
+          "documentType": "email",
+          "stimulusId": "f2-r1-d1",
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-d2-1",
+          "type": "choice",
+          "prompt": "Why are students using a hired bus?",
+          "options": [
+            "The survey site has changed",
+            "The department vehicle is unavailable",
+            "More measuring equipment has been ordered",
+            "The east gate is closed to small vehicles"
+          ],
+          "answer": 1,
+          "explanation": "The van is being repaired.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Field survey arrangements",
+          "passage": "Nora, 9:05: The river survey bus leaves at 8 Saturday. I can bring the measuring poles.\nEli, 9:08: Thanks. The department van is being repaired, so we’re taking a hired bus from the east gate.\nNora, 9:10: Is that where we met last time?\nEli, 9:11: No, that was the library steps. Also, the café won’t open early enough. Bring lunch and a full water bottle.\nNora, 9:14: Got it. I’ll tell the others about the meeting point.",
+          "documentType": "messages",
+          "stimulusId": "f2-r1-d2",
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-d2-2",
+          "type": "choice",
+          "prompt": "What detail does Eli correct?",
+          "options": [
+            "The ownership of the measuring poles",
+            "The time the bus will leave",
+            "The location where the group should meet",
+            "The day on which the survey takes place"
+          ],
+          "answer": 2,
+          "explanation": "Nora confuses the east gate with the earlier library meeting point.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Field survey arrangements",
+          "passage": "Nora, 9:05: The river survey bus leaves at 8 Saturday. I can bring the measuring poles.\nEli, 9:08: Thanks. The department van is being repaired, so we’re taking a hired bus from the east gate.\nNora, 9:10: Is that where we met last time?\nEli, 9:11: No, that was the library steps. Also, the café won’t open early enough. Bring lunch and a full water bottle.\nNora, 9:14: Got it. I’ll tell the others about the meeting point.",
+          "documentType": "messages",
+          "stimulusId": "f2-r1-d2",
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-d2-3",
+          "type": "choice",
+          "prompt": "What will Nora probably do next?",
+          "options": [
+            "Change the survey to another weekend",
+            "Arrange repairs to the van",
+            "Reserve tables at the café",
+            "Notify classmates of the correct meeting location"
+          ],
+          "answer": 3,
+          "explanation": "She says she will tell the others.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "Field survey arrangements",
+          "passage": "Nora, 9:05: The river survey bus leaves at 8 Saturday. I can bring the measuring poles.\nEli, 9:08: Thanks. The department van is being repaired, so we’re taking a hired bus from the east gate.\nNora, 9:10: Is that where we met last time?\nEli, 9:11: No, that was the library steps. Also, the café won’t open early enough. Bring lunch and a full water bottle.\nNora, 9:14: Got it. I’ll tell the others about the meeting point.",
+          "documentType": "messages",
+          "stimulusId": "f2-r1-d2",
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a1-1",
+          "type": "choice",
+          "prompt": "Why does the author distinguish a seed bank from a grain warehouse?",
+          "options": [
+            "To suggest that seed banks store more food",
+            "To emphasize that the seeds must remain able to grow",
+            "To contrast the sizes of the two buildings",
+            "To explain why seed banks sell their collections"
+          ],
+          "answer": 1,
+          "explanation": "The first paragraph identifies the ability to produce living plants as the crucial difference.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "The Work of a Seed Bank",
+          "passage": "A seed bank preserves plant material so that future growers can recover varieties that have disappeared from ordinary cultivation. Its purpose differs from that of a grain warehouse: stored seeds must remain capable of producing living plants. Staff therefore test a sample from each collection before deciding how to store it.\nMany crop seeds tolerate drying and low temperatures. These treatments slow the chemical reactions associated with aging, allowing seeds to remain viable for years. However, a freezer is not a permanent solution. Periodic germination tests reveal whether a collection is losing its ability to sprout. When that happens, staff grow new plants and collect a fresh generation of seeds.\nRegeneration creates its own difficulty. If only a few plants reproduce, some of the original genetic diversity may be lost. Banks must grow enough individuals and prevent unwanted pollen from nearby varieties from reaching them. Detailed records identify where each sample originated and how it has been maintained.\nNot every species can be conserved by this method. Some tropical seeds are damaged by drying. Living collections and other preservation techniques are needed for those plants. Seed banking is consequently one part of a broader conservation strategy, rather than a substitute for protecting plants in their natural habitats.",
+          "stimulusId": "f2-r1-a1",
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a1-2",
+          "type": "choice",
+          "prompt": "What prompts staff to regenerate a collection?",
+          "options": [
+            "An increase in the number of freezers",
+            "The discovery of pollen in a warehouse",
+            "A decline in its germination-test results",
+            "A change in the price of the crop"
+          ],
+          "answer": 2,
+          "explanation": "Tests reveal declining ability to sprout, after which a new generation is grown.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The Work of a Seed Bank",
+          "passage": "A seed bank preserves plant material so that future growers can recover varieties that have disappeared from ordinary cultivation. Its purpose differs from that of a grain warehouse: stored seeds must remain capable of producing living plants. Staff therefore test a sample from each collection before deciding how to store it.\nMany crop seeds tolerate drying and low temperatures. These treatments slow the chemical reactions associated with aging, allowing seeds to remain viable for years. However, a freezer is not a permanent solution. Periodic germination tests reveal whether a collection is losing its ability to sprout. When that happens, staff grow new plants and collect a fresh generation of seeds.\nRegeneration creates its own difficulty. If only a few plants reproduce, some of the original genetic diversity may be lost. Banks must grow enough individuals and prevent unwanted pollen from nearby varieties from reaching them. Detailed records identify where each sample originated and how it has been maintained.\nNot every species can be conserved by this method. Some tropical seeds are damaged by drying. Living collections and other preservation techniques are needed for those plants. Seed banking is consequently one part of a broader conservation strategy, rather than a substitute for protecting plants in their natural habitats.",
+          "stimulusId": "f2-r1-a1",
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a1-3",
+          "type": "choice",
+          "prompt": "The word “viable” is closest in meaning to",
+          "options": [
+            "widely available",
+            "genetically identical",
+            "easy to transport",
+            "capable of developing"
+          ],
+          "answer": 3,
+          "explanation": "The context concerns seeds remaining capable of growing.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "The Work of a Seed Bank",
+          "passage": "A seed bank preserves plant material so that future growers can recover varieties that have disappeared from ordinary cultivation. Its purpose differs from that of a grain warehouse: stored seeds must remain capable of producing living plants. Staff therefore test a sample from each collection before deciding how to store it.\nMany crop seeds tolerate drying and low temperatures. These treatments slow the chemical reactions associated with aging, allowing seeds to remain viable for years. However, a freezer is not a permanent solution. Periodic germination tests reveal whether a collection is losing its ability to sprout. When that happens, staff grow new plants and collect a fresh generation of seeds.\nRegeneration creates its own difficulty. If only a few plants reproduce, some of the original genetic diversity may be lost. Banks must grow enough individuals and prevent unwanted pollen from nearby varieties from reaching them. Detailed records identify where each sample originated and how it has been maintained.\nNot every species can be conserved by this method. Some tropical seeds are damaged by drying. Living collections and other preservation techniques are needed for those plants. Seed banking is consequently one part of a broader conservation strategy, rather than a substitute for protecting plants in their natural habitats.",
+          "stimulusId": "f2-r1-a1",
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a1-4",
+          "type": "choice",
+          "prompt": "Why can growing only a few plants be a problem?",
+          "options": [
+            "It may fail to preserve the collection’s genetic variety",
+            "It makes every seed unable to tolerate cold",
+            "It requires pollen from unrelated crops",
+            "It removes the need for collection records"
+          ],
+          "answer": 0,
+          "explanation": "The passage links too few reproducing individuals to loss of diversity.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "The Work of a Seed Bank",
+          "passage": "A seed bank preserves plant material so that future growers can recover varieties that have disappeared from ordinary cultivation. Its purpose differs from that of a grain warehouse: stored seeds must remain capable of producing living plants. Staff therefore test a sample from each collection before deciding how to store it.\nMany crop seeds tolerate drying and low temperatures. These treatments slow the chemical reactions associated with aging, allowing seeds to remain viable for years. However, a freezer is not a permanent solution. Periodic germination tests reveal whether a collection is losing its ability to sprout. When that happens, staff grow new plants and collect a fresh generation of seeds.\nRegeneration creates its own difficulty. If only a few plants reproduce, some of the original genetic diversity may be lost. Banks must grow enough individuals and prevent unwanted pollen from nearby varieties from reaching them. Detailed records identify where each sample originated and how it has been maintained.\nNot every species can be conserved by this method. Some tropical seeds are damaged by drying. Living collections and other preservation techniques are needed for those plants. Seed banking is consequently one part of a broader conservation strategy, rather than a substitute for protecting plants in their natural habitats.",
+          "stimulusId": "f2-r1-a1",
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a1-5",
+          "type": "choice",
+          "prompt": "Which statement best summarizes the passage?",
+          "options": [
+            "Freezing all seeds eliminates the need for other conservation methods",
+            "Seed banks preserve living potential through careful storage and renewal, but cannot conserve every plant",
+            "Tropical seeds survive longer than crop seeds under identical conditions",
+            "Seed banks mainly distribute grain when farms produce too little"
+          ],
+          "answer": 1,
+          "explanation": "Storage, regeneration and limitations organize the entire passage.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The Work of a Seed Bank",
+          "passage": "A seed bank preserves plant material so that future growers can recover varieties that have disappeared from ordinary cultivation. Its purpose differs from that of a grain warehouse: stored seeds must remain capable of producing living plants. Staff therefore test a sample from each collection before deciding how to store it.\nMany crop seeds tolerate drying and low temperatures. These treatments slow the chemical reactions associated with aging, allowing seeds to remain viable for years. However, a freezer is not a permanent solution. Periodic germination tests reveal whether a collection is losing its ability to sprout. When that happens, staff grow new plants and collect a fresh generation of seeds.\nRegeneration creates its own difficulty. If only a few plants reproduce, some of the original genetic diversity may be lost. Banks must grow enough individuals and prevent unwanted pollen from nearby varieties from reaching them. Detailed records identify where each sample originated and how it has been maintained.\nNot every species can be conserved by this method. Some tropical seeds are damaged by drying. Living collections and other preservation techniques are needed for those plants. Seed banking is consequently one part of a broader conservation strategy, rather than a substitute for protecting plants in their natural habitats.",
+          "stimulusId": "f2-r1-a1",
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a2-1",
+          "type": "choice",
+          "prompt": "What is the passage mainly about?",
+          "options": [
+            "Comparing modern rivers with ocean currents",
+            "Explaining why all old maps are unreliable",
+            "Combining evidence to identify former river channels",
+            "Designing roads to prevent rivers from moving"
+          ],
+          "answer": 2,
+          "explanation": "The passage describes complementary methods and their applications.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Reading a River’s Past",
+          "passage": "A river seldom follows one unchanging path across a plain. Over decades, bends migrate as water removes sediment from one bank and deposits it on another. Eventually a river may abandon a bend entirely. Although vegetation can hide the old channel, traces of it remain in the landscape.\nResearchers combine several kinds of evidence to reconstruct these earlier routes. Aerial photographs may reveal curved lines in fields because plants grow differently above buried sand and clay. Historical maps offer another view, but their accuracy varies. A map produced to define property boundaries may represent a channel more carefully than one drawn primarily to show roads.\nSediment cores provide a way to investigate features that photographs only suggest. A core is a narrow column of material extracted from the ground. Coarse sand at one depth and fine mud above it can indicate a change from flowing water to a quieter environment. Dating suitable material helps establish when that change occurred.\nNo single clue determines the whole story. A curved mark could have another origin, and a core represents only a small location. Agreement among photographs, maps and several cores makes an interpretation stronger. Reconstructing past channels is useful beyond historical curiosity: former riverbeds can influence where floodwater moves and where buildings encounter unstable ground.",
+          "stimulusId": "f2-r1-a2",
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a2-2",
+          "type": "choice",
+          "prompt": "Why might plants reveal a buried river channel?",
+          "options": [
+            "Plants preserve the exact date of a flood",
+            "Different buried materials affect their growth",
+            "Roots reproduce the markings of old maps",
+            "All plants grow only on coarse sand"
+          ],
+          "answer": 1,
+          "explanation": "Different growth above sand and clay can reveal curved traces.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Reading a River’s Past",
+          "passage": "A river seldom follows one unchanging path across a plain. Over decades, bends migrate as water removes sediment from one bank and deposits it on another. Eventually a river may abandon a bend entirely. Although vegetation can hide the old channel, traces of it remain in the landscape.\nResearchers combine several kinds of evidence to reconstruct these earlier routes. Aerial photographs may reveal curved lines in fields because plants grow differently above buried sand and clay. Historical maps offer another view, but their accuracy varies. A map produced to define property boundaries may represent a channel more carefully than one drawn primarily to show roads.\nSediment cores provide a way to investigate features that photographs only suggest. A core is a narrow column of material extracted from the ground. Coarse sand at one depth and fine mud above it can indicate a change from flowing water to a quieter environment. Dating suitable material helps establish when that change occurred.\nNo single clue determines the whole story. A curved mark could have another origin, and a core represents only a small location. Agreement among photographs, maps and several cores makes an interpretation stronger. Reconstructing past channels is useful beyond historical curiosity: former riverbeds can influence where floodwater moves and where buildings encounter unstable ground.",
+          "stimulusId": "f2-r1-a2",
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a2-3",
+          "type": "choice",
+          "prompt": "Why does the author discuss a map’s original purpose?",
+          "options": [
+            "Its purpose may affect which details were recorded accurately",
+            "Its purpose determines the age of sediment",
+            "Property maps always omit rivers",
+            "Road maps are necessarily older than property maps"
+          ],
+          "answer": 0,
+          "explanation": "The property-boundary example explains differences in accuracy.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "Reading a River’s Past",
+          "passage": "A river seldom follows one unchanging path across a plain. Over decades, bends migrate as water removes sediment from one bank and deposits it on another. Eventually a river may abandon a bend entirely. Although vegetation can hide the old channel, traces of it remain in the landscape.\nResearchers combine several kinds of evidence to reconstruct these earlier routes. Aerial photographs may reveal curved lines in fields because plants grow differently above buried sand and clay. Historical maps offer another view, but their accuracy varies. A map produced to define property boundaries may represent a channel more carefully than one drawn primarily to show roads.\nSediment cores provide a way to investigate features that photographs only suggest. A core is a narrow column of material extracted from the ground. Coarse sand at one depth and fine mud above it can indicate a change from flowing water to a quieter environment. Dating suitable material helps establish when that change occurred.\nNo single clue determines the whole story. A curved mark could have another origin, and a core represents only a small location. Agreement among photographs, maps and several cores makes an interpretation stronger. Reconstructing past channels is useful beyond historical curiosity: former riverbeds can influence where floodwater moves and where buildings encounter unstable ground.",
+          "stimulusId": "f2-r1-a2",
+          "number": 33,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a2-4",
+          "type": "choice",
+          "prompt": "What does a layer of mud above coarse sand potentially indicate?",
+          "options": [
+            "The absence of water throughout the site’s history",
+            "A recent increase in the speed of the current",
+            "A river that has never changed direction",
+            "A shift to less energetic water conditions"
+          ],
+          "answer": 3,
+          "explanation": "Coarse material is associated with flow, finer mud with quieter conditions.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Reading a River’s Past",
+          "passage": "A river seldom follows one unchanging path across a plain. Over decades, bends migrate as water removes sediment from one bank and deposits it on another. Eventually a river may abandon a bend entirely. Although vegetation can hide the old channel, traces of it remain in the landscape.\nResearchers combine several kinds of evidence to reconstruct these earlier routes. Aerial photographs may reveal curved lines in fields because plants grow differently above buried sand and clay. Historical maps offer another view, but their accuracy varies. A map produced to define property boundaries may represent a channel more carefully than one drawn primarily to show roads.\nSediment cores provide a way to investigate features that photographs only suggest. A core is a narrow column of material extracted from the ground. Coarse sand at one depth and fine mud above it can indicate a change from flowing water to a quieter environment. Dating suitable material helps establish when that change occurred.\nNo single clue determines the whole story. A curved mark could have another origin, and a core represents only a small location. Agreement among photographs, maps and several cores makes an interpretation stronger. Reconstructing past channels is useful beyond historical curiosity: former riverbeds can influence where floodwater moves and where buildings encounter unstable ground.",
+          "stimulusId": "f2-r1-a2",
+          "number": 34,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-r1-a2-5",
+          "type": "choice",
+          "prompt": "The word “reconstruct” is closest in meaning to",
+          "options": [
+            "copy without making changes",
+            "remove from the landscape",
+            "work out from surviving evidence",
+            "physically rebuild in the same place"
+          ],
+          "answer": 2,
+          "explanation": "Researchers infer earlier routes from evidence rather than rebuild the river.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Reading a River’s Past",
+          "passage": "A river seldom follows one unchanging path across a plain. Over decades, bends migrate as water removes sediment from one bank and deposits it on another. Eventually a river may abandon a bend entirely. Although vegetation can hide the old channel, traces of it remain in the landscape.\nResearchers combine several kinds of evidence to reconstruct these earlier routes. Aerial photographs may reveal curved lines in fields because plants grow differently above buried sand and clay. Historical maps offer another view, but their accuracy varies. A map produced to define property boundaries may represent a channel more carefully than one drawn primarily to show roads.\nSediment cores provide a way to investigate features that photographs only suggest. A core is a narrow column of material extracted from the ground. Coarse sand at one depth and fine mud above it can indicate a change from flowing water to a quieter environment. Dating suitable material helps establish when that change occurred.\nNo single clue determines the whole story. A curved mark could have another origin, and a core represents only a small location. Agreement among photographs, maps and several cores makes an interpretation stronger. Reconstructing past channels is useful beyond historical curiosity: former riverbeds can influence where floodwater moves and where buildings encounter unstable ground.",
+          "stimulusId": "f2-r1-a2",
+          "number": 35,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "branches": {
+        "lower": [
+          {
+            "id": "f2-r2-lower-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "An animal does not always choose the closest source of food. A nearby patch may ",
+              {
+                "pre": "con",
+                "answer": "tain"
+              },
+              " little nourishment or expose the animal to ",
+              {
+                "pre": "dan",
+                "answer": "ger"
+              },
+              ". Searching farther away can be ",
+              {
+                "pre": "wo",
+                "answer": "rth"
+              },
+              " the extra effort if the reward is ",
+              {
+                "pre": "gr",
+                "answer": "eater"
+              },
+              ". Researchers describe this choice in terms of costs and ",
+              {
+                "pre": "ben",
+                "answer": "efits"
+              },
+              ". Their models ",
+              {
+                "pre": "com",
+                "answer": "pare"
+              },
+              " the energy gained with the energy ",
+              {
+                "pre": "spe",
+                "answer": "nt"
+              },
+              " searching and handling food. The ",
+              {
+                "pre": "bal",
+                "answer": "ance"
+              },
+              " changes as conditions change. A model is useful when it ",
+              {
+                "pre": "exp",
+                "answer": "lains"
+              },
+              " observed choices, but it must also recognize that animals have limited ",
+              {
+                "pre": "infor",
+                "answer": "mation"
+              },
+              " about their surroundings. They cannot calculate every possible outcome before moving."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-lower-a-1",
+            "type": "choice",
+            "prompt": "What is the main reason for rotating vulnerable objects out of galleries?",
+            "options": [
+              "To restore colors automatically in dark storage",
+              "To reduce the damage caused by continued exposure",
+              "To show that textiles are less important than paintings",
+              "To increase the market price of every object"
+            ],
+            "answer": 1,
+            "explanation": "Rotation limits additional exposure and damage.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Why Museums Rest Some Objects",
+            "passage": "Visitors sometimes assume that an object absent from a museum gallery has been judged unimportant. In fact, rotating objects can be essential to their preservation. Light provides a clear example. It allows visitors to see an object, but exposure can also change the materials from which the object is made.\nColored textiles and works on paper are particularly vulnerable. Light can break chemical bonds in dyes, gradually changing their appearance. The effect depends on both brightness and duration. A moderate light level sustained for many months may cause more damage than a brief period of stronger illumination. Conservators therefore consider cumulative exposure rather than brightness alone.\nPutting an object in darkness does not reverse fading that has already happened. A rest period instead limits the additional damage it receives. Museums may display one textile for a short season and replace it with another while keeping environmental conditions carefully controlled. Digital reproductions sometimes remain available when the original is in storage.\nRotation also creates a communication problem. A visitor who has traveled to see a famous piece may be disappointed. Explaining the conservation schedule helps visitors understand the decision. The museum must balance access now against the possibility of access in the future. Displaying everything continuously would maximize immediate visibility while potentially diminishing what future visitors could experience.",
+            "stimulusId": "f2-r2-lower-a",
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-lower-a-2",
+            "type": "choice",
+            "prompt": "What does “cumulative” emphasize in paragraph 2?",
+            "options": [
+              "The difference between visitors’ preferences",
+              "The number of chemicals used in restoration",
+              "The total effect of exposure over time",
+              "The original cost of the lighting equipment"
+            ],
+            "answer": 2,
+            "explanation": "Brightness and duration together determine cumulative exposure.",
+            "skill": "vocabulary",
+            "task": "academic-passage",
+            "title": "Why Museums Rest Some Objects",
+            "passage": "Visitors sometimes assume that an object absent from a museum gallery has been judged unimportant. In fact, rotating objects can be essential to their preservation. Light provides a clear example. It allows visitors to see an object, but exposure can also change the materials from which the object is made.\nColored textiles and works on paper are particularly vulnerable. Light can break chemical bonds in dyes, gradually changing their appearance. The effect depends on both brightness and duration. A moderate light level sustained for many months may cause more damage than a brief period of stronger illumination. Conservators therefore consider cumulative exposure rather than brightness alone.\nPutting an object in darkness does not reverse fading that has already happened. A rest period instead limits the additional damage it receives. Museums may display one textile for a short season and replace it with another while keeping environmental conditions carefully controlled. Digital reproductions sometimes remain available when the original is in storage.\nRotation also creates a communication problem. A visitor who has traveled to see a famous piece may be disappointed. Explaining the conservation schedule helps visitors understand the decision. The museum must balance access now against the possibility of access in the future. Displaying everything continuously would maximize immediate visibility while potentially diminishing what future visitors could experience.",
+            "stimulusId": "f2-r2-lower-a",
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-lower-a-3",
+            "type": "choice",
+            "prompt": "What can be inferred about a faded textile placed in darkness?",
+            "options": [
+              "It will no longer need environmental controls",
+              "It will become safe for unlimited later display",
+              "Its original color will return after a short rest",
+              "Its existing fading will remain even though further exposure is limited"
+            ],
+            "answer": 3,
+            "explanation": "The text explicitly distinguishes prevention from reversal.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "Why Museums Rest Some Objects",
+            "passage": "Visitors sometimes assume that an object absent from a museum gallery has been judged unimportant. In fact, rotating objects can be essential to their preservation. Light provides a clear example. It allows visitors to see an object, but exposure can also change the materials from which the object is made.\nColored textiles and works on paper are particularly vulnerable. Light can break chemical bonds in dyes, gradually changing their appearance. The effect depends on both brightness and duration. A moderate light level sustained for many months may cause more damage than a brief period of stronger illumination. Conservators therefore consider cumulative exposure rather than brightness alone.\nPutting an object in darkness does not reverse fading that has already happened. A rest period instead limits the additional damage it receives. Museums may display one textile for a short season and replace it with another while keeping environmental conditions carefully controlled. Digital reproductions sometimes remain available when the original is in storage.\nRotation also creates a communication problem. A visitor who has traveled to see a famous piece may be disappointed. Explaining the conservation schedule helps visitors understand the decision. The museum must balance access now against the possibility of access in the future. Displaying everything continuously would maximize immediate visibility while potentially diminishing what future visitors could experience.",
+            "stimulusId": "f2-r2-lower-a",
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-lower-a-4",
+            "type": "choice",
+            "prompt": "Why are digital reproductions mentioned?",
+            "options": [
+              "They can preserve some visitor access when an original is not displayed",
+              "They remove all reasons to preserve originals",
+              "They provide a method of chemically repairing dyes",
+              "They help identify the makers of anonymous objects"
+            ],
+            "answer": 0,
+            "explanation": "Reproductions remain available during storage.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "Why Museums Rest Some Objects",
+            "passage": "Visitors sometimes assume that an object absent from a museum gallery has been judged unimportant. In fact, rotating objects can be essential to their preservation. Light provides a clear example. It allows visitors to see an object, but exposure can also change the materials from which the object is made.\nColored textiles and works on paper are particularly vulnerable. Light can break chemical bonds in dyes, gradually changing their appearance. The effect depends on both brightness and duration. A moderate light level sustained for many months may cause more damage than a brief period of stronger illumination. Conservators therefore consider cumulative exposure rather than brightness alone.\nPutting an object in darkness does not reverse fading that has already happened. A rest period instead limits the additional damage it receives. Museums may display one textile for a short season and replace it with another while keeping environmental conditions carefully controlled. Digital reproductions sometimes remain available when the original is in storage.\nRotation also creates a communication problem. A visitor who has traveled to see a famous piece may be disappointed. Explaining the conservation schedule helps visitors understand the decision. The museum must balance access now against the possibility of access in the future. Displaying everything continuously would maximize immediate visibility while potentially diminishing what future visitors could experience.",
+            "stimulusId": "f2-r2-lower-a",
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-lower-a-5",
+            "type": "choice",
+            "prompt": "Which tension structures the final paragraph?",
+            "options": [
+              "Visitor numbers versus ticket prices",
+              "Present access versus long-term preservation",
+              "Lighting costs versus staffing costs",
+              "Historical accuracy versus artistic creativity"
+            ],
+            "answer": 1,
+            "explanation": "The final paragraph contrasts current visibility with future access.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "Why Museums Rest Some Objects",
+            "passage": "Visitors sometimes assume that an object absent from a museum gallery has been judged unimportant. In fact, rotating objects can be essential to their preservation. Light provides a clear example. It allows visitors to see an object, but exposure can also change the materials from which the object is made.\nColored textiles and works on paper are particularly vulnerable. Light can break chemical bonds in dyes, gradually changing their appearance. The effect depends on both brightness and duration. A moderate light level sustained for many months may cause more damage than a brief period of stronger illumination. Conservators therefore consider cumulative exposure rather than brightness alone.\nPutting an object in darkness does not reverse fading that has already happened. A rest period instead limits the additional damage it receives. Museums may display one textile for a short season and replace it with another while keeping environmental conditions carefully controlled. Digital reproductions sometimes remain available when the original is in storage.\nRotation also creates a communication problem. A visitor who has traveled to see a famous piece may be disappointed. Explaining the conservation schedule helps visitors understand the decision. The museum must balance access now against the possibility of access in the future. Displaying everything continuously would maximize immediate visibility while potentially diminishing what future visitors could experience.",
+            "stimulusId": "f2-r2-lower-a",
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f2-r2-higher-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Archaeologists often recover broken objects rather than complete ones. A fragment of pottery can still ",
+              {
+                "pre": "re",
+                "answer": "veal"
+              },
+              " how a vessel was made and ",
+              {
+                "pre": "u",
+                "answer": "sed"
+              },
+              ". The clay may ",
+              {
+                "pre": "con",
+                "answer": "tain"
+              },
+              " minerals associated with a particular ",
+              {
+                "pre": "reg",
+                "answer": "ion"
+              },
+              ". Marks on the surface can ",
+              {
+                "pre": "sug",
+                "answer": "gest"
+              },
+              " a method of decoration, while traces inside may ",
+              {
+                "pre": "indi",
+                "answer": "cate"
+              },
+              " what the vessel held. Researchers combine these observations to ",
+              {
+                "pre": "de",
+                "answer": "velop"
+              },
+              " an interpretation. They remain ",
+              {
+                "pre": "cau",
+                "answer": "tious"
+              },
+              " because a single fragment rarely provides a ",
+              {
+                "pre": "com",
+                "answer": "plete"
+              },
+              " history. Its location among other finds can be as ",
+              {
+                "pre": "impor",
+                "answer": "tant"
+              },
+              " as its appearance, especially when objects have moved after being discarded."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-higher-a-1",
+            "type": "choice",
+            "prompt": "What is the author’s main point?",
+            "options": [
+              "Scientific models should contain every observable variable",
+              "A failed prediction can guide useful improvements in a scientific model",
+              "Accurate instruments make testing models unnecessary",
+              "Models of lakes cannot produce useful predictions"
+            ],
+            "answer": 1,
+            "explanation": "The passage presents failure as evidence for investigation and revision.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "Learning from an Unsuccessful Prediction",
+            "passage": "Scientific models are simplified accounts of how a system behaves. A model might predict when a lake will develop an algal bloom using measurements of temperature and nutrients. If a bloom occurs earlier than predicted, the discrepancy does not by itself show that modeling is useless. It can instead identify something important that the model leaves out.\nResearchers first examine the observations. A faulty instrument or an irregular sampling schedule may produce an apparent mismatch. If the measurements are dependable, they investigate the assumptions connecting those measurements to the predicted event. For example, mixing caused by wind might bring nutrients to the surface even when average nutrient measurements remain low.\nAdding more variables is not automatically an improvement. A model can become so closely fitted to one set of observations that it performs poorly on new data. Researchers therefore reserve independent observations for testing. A useful revision should explain the initial failure while retaining its ability to make predictions beyond that particular case.\nThis process gives unsuccessful predictions a productive role. They help distinguish incomplete explanations from failures in measurement, and they suggest new observations to collect. A model earns confidence through repeated testing across circumstances, not simply through the number of details it contains or its success in describing events that are already known.",
+            "stimulusId": "f2-r2-higher-a",
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-higher-a-2",
+            "type": "choice",
+            "prompt": "What should researchers check before revising the model’s assumptions?",
+            "options": [
+              "Whether the model has a complex name",
+              "Whether earlier predictions can be kept secret",
+              "Whether the observations themselves are reliable",
+              "Whether every variable can be removed"
+            ],
+            "answer": 2,
+            "explanation": "The second paragraph first examines measurement and sampling.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Learning from an Unsuccessful Prediction",
+            "passage": "Scientific models are simplified accounts of how a system behaves. A model might predict when a lake will develop an algal bloom using measurements of temperature and nutrients. If a bloom occurs earlier than predicted, the discrepancy does not by itself show that modeling is useless. It can instead identify something important that the model leaves out.\nResearchers first examine the observations. A faulty instrument or an irregular sampling schedule may produce an apparent mismatch. If the measurements are dependable, they investigate the assumptions connecting those measurements to the predicted event. For example, mixing caused by wind might bring nutrients to the surface even when average nutrient measurements remain low.\nAdding more variables is not automatically an improvement. A model can become so closely fitted to one set of observations that it performs poorly on new data. Researchers therefore reserve independent observations for testing. A useful revision should explain the initial failure while retaining its ability to make predictions beyond that particular case.\nThis process gives unsuccessful predictions a productive role. They help distinguish incomplete explanations from failures in measurement, and they suggest new observations to collect. A model earns confidence through repeated testing across circumstances, not simply through the number of details it contains or its success in describing events that are already known.",
+            "stimulusId": "f2-r2-higher-a",
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-higher-a-3",
+            "type": "choice",
+            "prompt": "Why does the author mention wind?",
+            "options": [
+              "To explain how to repair a faulty thermometer",
+              "To argue that nutrient measurements should stop",
+              "To identify the only cause of algal blooms",
+              "To illustrate a potentially omitted influence"
+            ],
+            "answer": 3,
+            "explanation": "Wind mixing illustrates an omitted process.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "Learning from an Unsuccessful Prediction",
+            "passage": "Scientific models are simplified accounts of how a system behaves. A model might predict when a lake will develop an algal bloom using measurements of temperature and nutrients. If a bloom occurs earlier than predicted, the discrepancy does not by itself show that modeling is useless. It can instead identify something important that the model leaves out.\nResearchers first examine the observations. A faulty instrument or an irregular sampling schedule may produce an apparent mismatch. If the measurements are dependable, they investigate the assumptions connecting those measurements to the predicted event. For example, mixing caused by wind might bring nutrients to the surface even when average nutrient measurements remain low.\nAdding more variables is not automatically an improvement. A model can become so closely fitted to one set of observations that it performs poorly on new data. Researchers therefore reserve independent observations for testing. A useful revision should explain the initial failure while retaining its ability to make predictions beyond that particular case.\nThis process gives unsuccessful predictions a productive role. They help distinguish incomplete explanations from failures in measurement, and they suggest new observations to collect. A model earns confidence through repeated testing across circumstances, not simply through the number of details it contains or its success in describing events that are already known.",
+            "stimulusId": "f2-r2-higher-a",
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-higher-a-4",
+            "type": "choice",
+            "prompt": "What problem can arise when a model is fitted too closely to one dataset?",
+            "options": [
+              "It may predict new observations poorly",
+              "It will contain too few variables to describe the old data",
+              "It will prevent any instrument from making measurements",
+              "It will necessarily predict blooms later in every lake"
+            ],
+            "answer": 0,
+            "explanation": "The third paragraph describes overfitting without requiring that term.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "Learning from an Unsuccessful Prediction",
+            "passage": "Scientific models are simplified accounts of how a system behaves. A model might predict when a lake will develop an algal bloom using measurements of temperature and nutrients. If a bloom occurs earlier than predicted, the discrepancy does not by itself show that modeling is useless. It can instead identify something important that the model leaves out.\nResearchers first examine the observations. A faulty instrument or an irregular sampling schedule may produce an apparent mismatch. If the measurements are dependable, they investigate the assumptions connecting those measurements to the predicted event. For example, mixing caused by wind might bring nutrients to the surface even when average nutrient measurements remain low.\nAdding more variables is not automatically an improvement. A model can become so closely fitted to one set of observations that it performs poorly on new data. Researchers therefore reserve independent observations for testing. A useful revision should explain the initial failure while retaining its ability to make predictions beyond that particular case.\nThis process gives unsuccessful predictions a productive role. They help distinguish incomplete explanations from failures in measurement, and they suggest new observations to collect. A model earns confidence through repeated testing across circumstances, not simply through the number of details it contains or its success in describing events that are already known.",
+            "stimulusId": "f2-r2-higher-a",
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-r2-higher-a-5",
+            "type": "choice",
+            "prompt": "In this passage, “discrepancy” means",
+            "options": [
+              "an agreement among competing explanations",
+              "a difference between expected and observed outcomes",
+              "a decrease in the number of measurements",
+              "a standard method of collecting samples"
+            ],
+            "answer": 1,
+            "explanation": "The earlier-than-predicted bloom creates the discrepancy.",
+            "skill": "vocabulary",
+            "task": "academic-passage",
+            "title": "Learning from an Unsuccessful Prediction",
+            "passage": "Scientific models are simplified accounts of how a system behaves. A model might predict when a lake will develop an algal bloom using measurements of temperature and nutrients. If a bloom occurs earlier than predicted, the discrepancy does not by itself show that modeling is useless. It can instead identify something important that the model leaves out.\nResearchers first examine the observations. A faulty instrument or an irregular sampling schedule may produce an apparent mismatch. If the measurements are dependable, they investigate the assumptions connecting those measurements to the predicted event. For example, mixing caused by wind might bring nutrients to the surface even when average nutrient measurements remain low.\nAdding more variables is not automatically an improvement. A model can become so closely fitted to one set of observations that it performs poorly on new data. Researchers therefore reserve independent observations for testing. A useful revision should explain the initial failure while retaining its ability to make predictions beyond that particular case.\nThis process gives unsuccessful predictions a productive role. They help distinguish incomplete explanations from failures in measurement, and they suggest new observations to collect. A model earns confidence through repeated testing across circumstances, not simply through the number of details it contains or its success in describing events that are already known.",
+            "stimulusId": "f2-r2-higher-a",
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          }
+        ]
+      }
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "f2-l-router-response-0-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Not at all. Go ahead.",
+            "I held the meeting yesterday.",
+            "The boxes belong to the archive.",
+            "I don’t usually mind the weather."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-0",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Would you mind holding the door while I carry these boxes?"
+          },
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-1-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, the door is made of wood.",
+            "They changed the hours this week.",
+            "The archive opened several years ago.",
+            "I’ll close my notebook now."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-1",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I thought the archive closed at five, not four."
+          },
+          "number": 2,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-2-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I sent three maps last year.",
+            "The map shows the whole region.",
+            "I can email it after lunch.",
+            "It came from the geography office."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-2",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "How soon can you send me the survey map?"
+          },
+          "number": 3,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-3-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The scanner is beside the desk.",
+            "I bought tomorrow’s newspaper.",
+            "It scanned the page very clearly.",
+            "Then I’ll adjust my schedule."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-3",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "The scanner isn’t available until tomorrow."
+          },
+          "number": 4,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-4-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, Maya left it in the drawer.",
+            "We measured the path twice.",
+            "The tape is about five metres long.",
+            "I’ll return from the trip on Sunday."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-4",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Did anyone return the measuring tape?"
+          },
+          "number": 5,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-5-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, permission can be important.",
+            "No, I’m still checking one detail.",
+            "I haven’t met the photographer before.",
+            "The form has a blue heading."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-5",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "You haven’t submitted the permission form yet, have you?"
+          },
+          "number": 6,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-6-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I usually speak quite quietly.",
+            "We moved the chairs yesterday.",
+            "The room next door is empty.",
+            "It was an interesting discussion."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-6",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Could we move our discussion somewhere quieter?"
+          },
+          "number": 7,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-7-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "We opened the building at nine.",
+            "The folder is on the table.",
+            "She asked us a question last week.",
+            "Good idea; some pages look fragile."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-7",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Why don’t we ask the archivist before opening the folder?"
+          },
+          "number": 8,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-8-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "That arrangement works for me.",
+            "The notes were printed yesterday.",
+            "I’d rather not lose the interview file.",
+            "The leader spoke at the meeting."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-8",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I can take notes if you’d rather lead the interview."
+          },
+          "number": 9,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-9-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I’ll receive the next delivery tomorrow.",
+            "Yes, the tear was there on arrival.",
+            "Damage can be expensive to repair.",
+            "The map shows the old bridge."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-9",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Was the map already damaged when you received it?"
+          },
+          "number": 10,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-10-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "There was nothing frightening about it.",
+            "I can ask someone in my seminar.",
+            "Saturday was a busy day last month.",
+            "The seminar usually ends on time."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-10",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I’m afraid we’ll need another volunteer for Saturday."
+          },
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-response-11-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "In the locked tray by reception.",
+            "I signed them this morning.",
+            "The participants were very helpful.",
+            "They should leave before the rain starts."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f2-l-router-response-11",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Where should I leave the signed consent sheets?"
+          },
+          "number": 12,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-conversation-0-1",
+          "type": "choice",
+          "prompt": "What problem does the woman have?",
+          "options": [
+            "The scanner has stopped working",
+            "She has already folded the document",
+            "The document is too large for the available scanner",
+            "She cannot locate the map"
+          ],
+          "answer": 2,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f2-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I booked a scanner for the old maps, but the glass is smaller than the largest sheet.\nMan: The archive has an overhead camera. It photographs large documents without folding them. You’ll need staff supervision, though.\nWoman: That would be better than joining several scans. Can I use it today?\nMan: The archive assistant returns at two. I’ll ask her to reserve a supervised slot.\nWoman: Thanks. I’ll keep the map flat until then."
+          },
+          "number": 13,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-conversation-0-2",
+          "type": "choice",
+          "prompt": "What will the man probably do?",
+          "options": [
+            "Repair the scanner himself",
+            "Arrange help from archive staff",
+            "Move the camera to the library",
+            "Join several scans into one image"
+          ],
+          "answer": 1,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f2-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I booked a scanner for the old maps, but the glass is smaller than the largest sheet.\nMan: The archive has an overhead camera. It photographs large documents without folding them. You’ll need staff supervision, though.\nWoman: That would be better than joining several scans. Can I use it today?\nMan: The archive assistant returns at two. I’ll ask her to reserve a supervised slot.\nWoman: Thanks. I’ll keep the map flat until then."
+          },
+          "number": 14,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-conversation-1-1",
+          "type": "choice",
+          "prompt": "Why are the speakers delaying a message to volunteers?",
+          "options": [
+            "They have lost the volunteers’ contact details",
+            "They have changed the survey date",
+            "They have too few volunteers",
+            "They need to confirm access to the survey site"
+          ],
+          "answer": 3,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f2-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: Our survey team has plenty of volunteers for Saturday, but nobody has checked whether the stream path is open.\nWoman: It was closed after the storm. The parks office said they’d inspect the footbridge this morning.\nMan: Then sending everyone there could waste the whole trip.\nWoman: I’ll call the office after lunch. If the path stays closed, we can use the upstream access by the playing field.\nMan: Good. Let’s wait for that answer before messaging the group."
+          },
+          "number": 15,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-conversation-1-2",
+          "type": "choice",
+          "prompt": "What will the woman do next?",
+          "options": [
+            "Contact the office responsible for the path",
+            "Inspect the bridge by herself",
+            "Cancel the survey immediately",
+            "Meet the volunteers at the closed gate"
+          ],
+          "answer": 0,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f2-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: Our survey team has plenty of volunteers for Saturday, but nobody has checked whether the stream path is open.\nWoman: It was closed after the storm. The parks office said they’d inspect the footbridge this morning.\nMan: Then sending everyone there could waste the whole trip.\nWoman: I’ll call the office after lunch. If the path stays closed, we can use the upstream access by the playing field.\nMan: Good. Let’s wait for that answer before messaging the group."
+          },
+          "number": 16,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-conversation-2-1",
+          "type": "choice",
+          "prompt": "What does the man think is causing confusion?",
+          "options": [
+            "Important information appears too late in the label",
+            "The bowl is displayed upside down",
+            "The label describes the wrong historical period",
+            "Visitors cannot see the display"
+          ],
+          "answer": 0,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f2-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I thought my display label was clear, but visitors keep asking whether this is the original bowl.\nMan: You explain its history in the first paragraph. The fact that it’s a replica is near the bottom.\nWoman: So people may stop reading before they reach that part.\nMan: Exactly. Why not identify it as a replica in the first line and explain why we use one?\nWoman: I’ll revise the opening, then watch whether the same question comes up tomorrow."
+          },
+          "number": 17,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-conversation-2-2",
+          "type": "choice",
+          "prompt": "How will the woman respond to the suggestion?",
+          "options": [
+            "Ask visitors to stop asking questions",
+            "Remove all historical information",
+            "Replace the bowl with another replica",
+            "Revise the label and observe visitors again"
+          ],
+          "answer": 3,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f2-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I thought my display label was clear, but visitors keep asking whether this is the original bowl.\nMan: You explain its history in the first paragraph. The fact that it’s a replica is near the bottom.\nWoman: So people may stop reading before they reach that part.\nMan: Exactly. Why not identify it as a replica in the first line and explain why we use one?\nWoman: I’ll revise the opening, then watch whether the same question comes up tomorrow."
+          },
+          "number": 18,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-announcement-0-1",
+          "type": "choice",
+          "prompt": "Where should the class meet?",
+          "options": [
+            "Inside the storage room",
+            "Beside the bus station",
+            "At the west entrance",
+            "At the reading-room desk"
+          ],
+          "answer": 2,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f2-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Before you leave, a reminder about tomorrow’s archive visit. Meet at the west entrance at ten, not at the reading-room desk. The archivist will take us through the storage area first. Please leave large bags in the lockers. You may photograph the sample documents shown during the workshop, but other material requires separate permission."
+          },
+          "number": 19,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-announcement-0-2",
+          "type": "choice",
+          "prompt": "What may students photograph without separate permission?",
+          "options": [
+            "Every document in storage",
+            "The workshop’s sample documents",
+            "All material in the reading room",
+            "Visitors’ identification cards"
+          ],
+          "answer": 1,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f2-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Before you leave, a reminder about tomorrow’s archive visit. Meet at the west entrance at ten, not at the reading-room desk. The archivist will take us through the storage area first. Please leave large bags in the lockers. You may photograph the sample documents shown during the workshop, but other material requires separate permission."
+          },
+          "number": 20,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-announcement-1-1",
+          "type": "choice",
+          "prompt": "What has changed?",
+          "options": [
+            "The requirement to measure the stream",
+            "The number of monitoring stations",
+            "The day of the trip",
+            "The route used to reach a survey site"
+          ],
+          "answer": 3,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f2-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The stream-monitoring trip will go ahead tomorrow, but the lower footbridge remains closed. We’ll begin at the upstream station and approach the second site from the road. Allow an extra fifteen minutes for the walk. If you borrowed measuring equipment, bring it to the laboratory tonight so we can check the complete set before departure."
+          },
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-announcement-1-2",
+          "type": "choice",
+          "prompt": "Why should equipment be returned tonight?",
+          "options": [
+            "So the full set can be checked before departure",
+            "So students can purchase it",
+            "Because the laboratory will permanently close",
+            "Because measuring is no longer required"
+          ],
+          "answer": 0,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f2-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The stream-monitoring trip will go ahead tomorrow, but the lower footbridge remains closed. We’ll begin at the upstream station and approach the second site from the road. Allow an extra fifteen minutes for the walk. If you borrowed measuring equipment, bring it to the laboratory tonight so we can check the complete set before departure."
+          },
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-announcement-2-1",
+          "type": "choice",
+          "prompt": "Why must drafts arrive by Thursday noon?",
+          "options": [
+            "Visitors will choose the winning label that afternoon",
+            "The objects will be sold on Friday",
+            "Photographs cannot be taken after Thursday",
+            "They need review before printing"
+          ],
+          "answer": 3,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f2-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "For those submitting display labels, the draft deadline is now Thursday at noon. That gives the accessibility team time to review the text before printing. Please submit editable files, not photographs of your pages. Labels should identify replicas clearly. If your object is not an original, put that information near the beginning rather than only in a footnote."
+          },
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-announcement-2-2",
+          "type": "choice",
+          "prompt": "What format is requested?",
+          "options": [
+            "A final poster that cannot be revised",
+            "A handwritten label attached to the object",
+            "A photograph of a printed page",
+            "An editable text file"
+          ],
+          "answer": 3,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f2-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "For those submitting display labels, the draft deadline is now Thursday at noon. That gives the accessibility team time to review the text before printing. Please submit editable files, not photographs of your pages. Labels should identify replicas clearly. If your object is not an original, put that information near the beginning rather than only in a footnote."
+          },
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-0-1",
+          "type": "choice",
+          "prompt": "What is the main point of the talk?",
+          "options": [
+            "Cold weather always causes a permanent population decline",
+            "A change in observed numbers can have several explanations",
+            "Only regional counts provide useful evidence",
+            "Insects cannot be surveyed beside paths"
+          ],
+          "answer": 1,
+          "explanation": "The speaker distinguishes abundance from detection and movement.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Detecting a Change in a Population",
+          "stimulus": {
+            "id": "f2-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "Detecting a Change in a Population",
+            "script": "Imagine counting insects beside a path every afternoon. One week your count drops sharply. Has the population declined? Perhaps, but first consider what else changed. If the second week was colder, insects may simply have been less active and therefore harder to observe. The count measures the animals detected, not automatically every animal present.\nEcologists call attention to detectability for exactly this reason. They may repeat observations at several times, record weather conditions, or use more than one survey method. Agreement between independent methods can make an explanation more convincing. However, adding methods is useful only when researchers understand how each one samples the population.\nHere is another complication. Suppose your path runs beside flowers that finish blooming halfway through the study. Insects may move to another patch without leaving the wider area. A local count could fall even if the regional population remains stable. Expanding the survey to several habitats helps test that possibility.\nThe lesson is not that counts tell us nothing. They are often indispensable. But interpreting a change requires separating changes in abundance, activity and location. Careful records of survey conditions help future researchers judge which explanation the evidence actually supports."
+          },
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-0-2",
+          "type": "choice",
+          "prompt": "Why does the speaker discuss colder weather?",
+          "options": [
+            "It makes observation times irrelevant",
+            "It guarantees a larger count",
+            "It can reduce activity and make insects harder to detect",
+            "It causes every insect to leave the region"
+          ],
+          "answer": 2,
+          "explanation": "Weather is an example of a detection influence.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Detecting a Change in a Population",
+          "stimulus": {
+            "id": "f2-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "Detecting a Change in a Population",
+            "script": "Imagine counting insects beside a path every afternoon. One week your count drops sharply. Has the population declined? Perhaps, but first consider what else changed. If the second week was colder, insects may simply have been less active and therefore harder to observe. The count measures the animals detected, not automatically every animal present.\nEcologists call attention to detectability for exactly this reason. They may repeat observations at several times, record weather conditions, or use more than one survey method. Agreement between independent methods can make an explanation more convincing. However, adding methods is useful only when researchers understand how each one samples the population.\nHere is another complication. Suppose your path runs beside flowers that finish blooming halfway through the study. Insects may move to another patch without leaving the wider area. A local count could fall even if the regional population remains stable. Expanding the survey to several habitats helps test that possibility.\nThe lesson is not that counts tell us nothing. They are often indispensable. But interpreting a change requires separating changes in abundance, activity and location. Careful records of survey conditions help future researchers judge which explanation the evidence actually supports."
+          },
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-0-3",
+          "type": "choice",
+          "prompt": "What might happen when nearby flowers stop blooming?",
+          "options": [
+            "The path will attract more insects automatically",
+            "All survey methods become equally accurate",
+            "The entire regional population must disappear",
+            "Insects may move to another local patch"
+          ],
+          "answer": 3,
+          "explanation": "The flowers example illustrates local movement.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Detecting a Change in a Population",
+          "stimulus": {
+            "id": "f2-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "Detecting a Change in a Population",
+            "script": "Imagine counting insects beside a path every afternoon. One week your count drops sharply. Has the population declined? Perhaps, but first consider what else changed. If the second week was colder, insects may simply have been less active and therefore harder to observe. The count measures the animals detected, not automatically every animal present.\nEcologists call attention to detectability for exactly this reason. They may repeat observations at several times, record weather conditions, or use more than one survey method. Agreement between independent methods can make an explanation more convincing. However, adding methods is useful only when researchers understand how each one samples the population.\nHere is another complication. Suppose your path runs beside flowers that finish blooming halfway through the study. Insects may move to another patch without leaving the wider area. A local count could fall even if the regional population remains stable. Expanding the survey to several habitats helps test that possibility.\nThe lesson is not that counts tell us nothing. They are often indispensable. But interpreting a change requires separating changes in abundance, activity and location. Careful records of survey conditions help future researchers judge which explanation the evidence actually supports."
+          },
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-0-4",
+          "type": "choice",
+          "prompt": "What attitude does the speaker express toward counts?",
+          "options": [
+            "They are useful but require careful interpretation",
+            "They should be abandoned in ecological research",
+            "They are exact measures under all conditions",
+            "They are valuable only without weather records"
+          ],
+          "answer": 0,
+          "explanation": "The conclusion explicitly retains their value while qualifying interpretation.",
+          "skill": "attitude",
+          "task": "academic-talk",
+          "title": "Detecting a Change in a Population",
+          "stimulus": {
+            "id": "f2-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "Detecting a Change in a Population",
+            "script": "Imagine counting insects beside a path every afternoon. One week your count drops sharply. Has the population declined? Perhaps, but first consider what else changed. If the second week was colder, insects may simply have been less active and therefore harder to observe. The count measures the animals detected, not automatically every animal present.\nEcologists call attention to detectability for exactly this reason. They may repeat observations at several times, record weather conditions, or use more than one survey method. Agreement between independent methods can make an explanation more convincing. However, adding methods is useful only when researchers understand how each one samples the population.\nHere is another complication. Suppose your path runs beside flowers that finish blooming halfway through the study. Insects may move to another patch without leaving the wider area. A local count could fall even if the regional population remains stable. Expanding the survey to several habitats helps test that possibility.\nThe lesson is not that counts tell us nothing. They are often indispensable. But interpreting a change requires separating changes in abundance, activity and location. Careful records of survey conditions help future researchers judge which explanation the evidence actually supports."
+          },
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-1-1",
+          "type": "choice",
+          "prompt": "What is the talk mainly about?",
+          "options": [
+            "Why evaluating public space requires attention to different times and conditions",
+            "Why every city square should stay crowded all night",
+            "How to calculate the cost of a single street lamp",
+            "Why daytime interviews should be prohibited"
+          ],
+          "answer": 0,
+          "explanation": "The talk considers time-dependent access and use.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Public Space after Sunset",
+          "stimulus": {
+            "id": "f2-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Public Space after Sunset",
+            "script": "Today I want to consider a familiar place at an unfamiliar time. A city square can be busy at noon and almost empty after sunset. That difference may reflect lighting, transport schedules or the activities permitted there. We should not assume that its daytime use tells us everything about its role in the city.\nResearchers studying public space sometimes conduct observations at several periods rather than choosing only convenient office hours. They note not just how many people are present but what people do and whether particular groups seem absent. Interviews can then explore why someone avoids the space at night. Perhaps the last bus leaves too early, or the route to the square feels uncomfortable.\nLighting can help, but brighter is not automatically better. A very bright area beside a dark passage can make the contrast difficult for pedestrians. Design needs to consider the whole route rather than an isolated lamp. Nearby evening activities may also contribute to a sense that the place is actively used.\nSo, when evaluating a public square, think about a sequence of experiences over time. The goal is not simply to reproduce the noon crowd after dark. It is to understand which conditions support people who would like to use the space then."
+          },
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-1-2",
+          "type": "choice",
+          "prompt": "Why observe a square outside office hours?",
+          "options": [
+            "To study only people employed by the city",
+            "To replace all interviews with headcounts",
+            "To guarantee that more people will be present",
+            "To avoid overlooking patterns absent during convenient daytime periods"
+          ],
+          "answer": 3,
+          "explanation": "Sampling at varied times reveals different use patterns.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Public Space after Sunset",
+          "stimulus": {
+            "id": "f2-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Public Space after Sunset",
+            "script": "Today I want to consider a familiar place at an unfamiliar time. A city square can be busy at noon and almost empty after sunset. That difference may reflect lighting, transport schedules or the activities permitted there. We should not assume that its daytime use tells us everything about its role in the city.\nResearchers studying public space sometimes conduct observations at several periods rather than choosing only convenient office hours. They note not just how many people are present but what people do and whether particular groups seem absent. Interviews can then explore why someone avoids the space at night. Perhaps the last bus leaves too early, or the route to the square feels uncomfortable.\nLighting can help, but brighter is not automatically better. A very bright area beside a dark passage can make the contrast difficult for pedestrians. Design needs to consider the whole route rather than an isolated lamp. Nearby evening activities may also contribute to a sense that the place is actively used.\nSo, when evaluating a public square, think about a sequence of experiences over time. The goal is not simply to reproduce the noon crowd after dark. It is to understand which conditions support people who would like to use the space then."
+          },
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-1-3",
+          "type": "choice",
+          "prompt": "What problem can intense lighting beside darkness create?",
+          "options": [
+            "A guarantee that every group feels welcome",
+            "The disappearance of evening activities",
+            "A difficult visual contrast along a pedestrian route",
+            "A permanent increase in bus frequency"
+          ],
+          "answer": 2,
+          "explanation": "The speaker describes the contrast between bright and dark sections.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Public Space after Sunset",
+          "stimulus": {
+            "id": "f2-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Public Space after Sunset",
+            "script": "Today I want to consider a familiar place at an unfamiliar time. A city square can be busy at noon and almost empty after sunset. That difference may reflect lighting, transport schedules or the activities permitted there. We should not assume that its daytime use tells us everything about its role in the city.\nResearchers studying public space sometimes conduct observations at several periods rather than choosing only convenient office hours. They note not just how many people are present but what people do and whether particular groups seem absent. Interviews can then explore why someone avoids the space at night. Perhaps the last bus leaves too early, or the route to the square feels uncomfortable.\nLighting can help, but brighter is not automatically better. A very bright area beside a dark passage can make the contrast difficult for pedestrians. Design needs to consider the whole route rather than an isolated lamp. Nearby evening activities may also contribute to a sense that the place is actively used.\nSo, when evaluating a public square, think about a sequence of experiences over time. The goal is not simply to reproduce the noon crowd after dark. It is to understand which conditions support people who would like to use the space then."
+          },
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "f2-l-router-talk-1-4",
+          "type": "choice",
+          "prompt": "What does the speaker suggest about the desired nighttime use?",
+          "options": [
+            "It should be judged only by the size of the noon crowd",
+            "It need not duplicate the exact daytime pattern",
+            "It can be understood without asking potential users",
+            "It should exclude people who rely on buses"
+          ],
+          "answer": 1,
+          "explanation": "The final paragraph explicitly rejects reproducing the noon crowd.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "Public Space after Sunset",
+          "stimulus": {
+            "id": "f2-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Public Space after Sunset",
+            "script": "Today I want to consider a familiar place at an unfamiliar time. A city square can be busy at noon and almost empty after sunset. That difference may reflect lighting, transport schedules or the activities permitted there. We should not assume that its daytime use tells us everything about its role in the city.\nResearchers studying public space sometimes conduct observations at several periods rather than choosing only convenient office hours. They note not just how many people are present but what people do and whether particular groups seem absent. Interviews can then explore why someone avoids the space at night. Perhaps the last bus leaves too early, or the route to the square feels uncomfortable.\nLighting can help, but brighter is not automatically better. A very bright area beside a dark passage can make the contrast difficult for pedestrians. Design needs to consider the whole route rather than an isolated lamp. Nearby evening activities may also contribute to a sense that the place is actively used.\nSo, when evaluating a public square, think about a sequence of experiences over time. The goal is not simply to reproduce the noon crowd after dark. It is to understand which conditions support people who would like to use the space then."
+          },
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-02"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "branches": {
+        "lower": [
+          {
+            "id": "f2-l-lower-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The archive holds several collections.",
+              "A key is made of metal.",
+              "Yes, the desk will open shortly.",
+              "I put my bag in a locker yesterday."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-lower-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Is this the queue for the archive lockers?"
+            },
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I’ll bring the folder next week.",
+              "The pencil is shorter than before.",
+              "I wrote the instructions in pencil.",
+              "You can borrow one of mine."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-lower-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I forgot to bring a pencil."
+            },
+            "number": 2,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Yes, send me the draft.",
+              "The display is free to visit.",
+              "I checked out a book yesterday.",
+              "The label has three paragraphs."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-lower-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Are you free to check the display label this afternoon?"
+            },
+            "number": 3,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I left the bus at the last stop.",
+              "Thanks for telling me about the change.",
+              "The gate was painted last summer.",
+              "The west is opposite the east."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-lower-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "The bus is leaving from the west gate today."
+            },
+            "number": 4,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The reference list is on the last page.",
+              "It was a very quiet night.",
+              "Please ask the desk about the loan rules.",
+              "I kept a notebook during the lecture."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-lower-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Can I keep this reference book overnight?"
+            },
+            "number": 5,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-conversation-0-1",
+            "type": "choice",
+            "prompt": "What advice does the woman give?",
+            "options": [
+              "Avoid treating guesses as established identifications",
+              "Write modern dates on the photographs",
+              "Discard images of unfamiliar buildings",
+              "Ask residents to donate only labeled prints"
+            ],
+            "answer": 0,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I can help classify the donated photographs, but I don’t recognize many of the buildings.\nWoman: The date is written on the back of some prints. We also have a folder of old street names.\nMan: Would it be better if I guessed and you checked afterward?\nWoman: Please mark uncertain locations as unknown instead. We can ask residents at the history event.\nMan: All right. I’ll record what we can actually identify and keep the uncertain ones separate."
+            },
+            "number": 6,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the man do?",
+            "options": [
+              "Cancel the community history event",
+              "Identify every building from memory",
+              "Rename streets in the reference folder",
+              "Separate photographs with uncertain locations"
+            ],
+            "answer": 3,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I can help classify the donated photographs, but I don’t recognize many of the buildings.\nWoman: The date is written on the back of some prints. We also have a folder of old street names.\nMan: Would it be better if I guessed and you checked afterward?\nWoman: Please mark uncertain locations as unknown instead. We can ask residents at the history event.\nMan: All right. I’ll record what we can actually identify and keep the uncertain ones separate."
+            },
+            "number": 7,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-conversation-1-1",
+            "type": "choice",
+            "prompt": "What is the woman concerned about?",
+            "options": [
+              "Her partner has not made any charts",
+              "The amount of material exceeds the presentation time",
+              "Questions are not permitted after the talk",
+              "The audience has already seen the results"
+            ],
+            "answer": 1,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: My project partner wants us to include every chart we made in our presentation.\nMan: How much time do you have?\nWoman: Eight minutes, including questions. Just explaining the first six charts takes that long.\nMan: Could you choose the two that answer your research question and keep the rest for questions?\nWoman: That would give the audience a clearer argument. I’ll suggest putting the extra charts in an appendix.\nMan: Then practice once together before making a final cut."
+            },
+            "number": 8,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-conversation-1-2",
+            "type": "choice",
+            "prompt": "What change will she propose?",
+            "options": [
+              "Remove the research question",
+              "Explain every chart more quickly",
+              "Keep the most relevant charts in the main presentation",
+              "Extend the official presentation slot"
+            ],
+            "answer": 2,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: My project partner wants us to include every chart we made in our presentation.\nMan: How much time do you have?\nWoman: Eight minutes, including questions. Just explaining the first six charts takes that long.\nMan: Could you choose the two that answer your research question and keep the rest for questions?\nWoman: That would give the audience a clearer argument. I’ll suggest putting the extra charts in an appendix.\nMan: Then practice once together before making a final cut."
+            },
+            "number": 9,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-announcement-0-1",
+            "type": "choice",
+            "prompt": "Why was the room changed?",
+            "options": [
+              "To maintain access while the lift is unavailable",
+              "To accommodate a larger projector",
+              "Because the workshop will start earlier",
+              "Because photographs are prohibited upstairs"
+            ],
+            "answer": 0,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f2-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The community history workshop has moved from Room 6 to the ground-floor meeting room because the lift is unavailable. The starting time is unchanged. Bring any photographs you want help identifying, but please don’t remove them from fragile albums. We have equipment for photographing album pages safely, and staff will explain how to use it."
+            },
+            "number": 10,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-announcement-0-2",
+            "type": "choice",
+            "prompt": "What should participants do with fragile albums?",
+            "options": [
+              "Separate every page for scanning",
+              "Leave all albums at reception permanently",
+              "Cut the photographs out before arriving",
+              "Keep the photographs inside them"
+            ],
+            "answer": 3,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f2-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The community history workshop has moved from Room 6 to the ground-floor meeting room because the lift is unavailable. The starting time is unchanged. Bring any photographs you want help identifying, but please don’t remove them from fragile albums. We have equipment for photographing album pages safely, and staff will explain how to use it."
+            },
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the main subject?",
+            "options": [
+              "Why engineers avoid testing new materials",
+              "How human memory changes with temperature",
+              "Why all metals straighten when heated",
+              "How a striking material property must be understood before practical use"
+            ],
+            "answer": 3,
+            "explanation": "The talk connects shape return with engineering limitations.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "A Material with a Memory",
+            "stimulus": {
+              "id": "f2-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Material with a Memory",
+              "script": "Some materials return toward a previous shape when conditions change. You may have encountered a demonstration in which a bent metal wire straightens when warmed. It looks as though the wire remembers being straight, although memory here is a description of material behavior rather than a mental process.\nThe explanation involves the internal arrangement of the material. Under one set of conditions, its structure can change in a way that permits deformation. Heating can favor a different arrangement, producing a return toward the earlier form. This behavior depends on the material and on staying within particular operating limits. You cannot assume that bending any metal and heating it will produce the same result.\nEngineers investigate such materials for devices that need controlled movement without a large conventional motor. But the useful movement may be limited, and repeated cycling can affect performance. The design also has to account for how quickly the material heats and cools. A demonstration that happens once on a laboratory bench is not enough to establish reliability in a product.\nThis example illustrates a broader engineering principle. An unusual property becomes useful only when its conditions, limitations and long-term behavior are understood. The striking demonstration is a starting point for design work, not the end of it."
+            },
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-talk-0-2",
+            "type": "choice",
+            "prompt": "Why does the speaker clarify the word “memory”?",
+            "options": [
+              "It describes behavior rather than a mental ability",
+              "It means that the wire stores spoken instructions",
+              "It identifies a method of measuring temperature",
+              "It proves that the material learns from every cycle"
+            ],
+            "answer": 0,
+            "explanation": "The first paragraph distinguishes the analogy from mental memory.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "A Material with a Memory",
+            "stimulus": {
+              "id": "f2-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Material with a Memory",
+              "script": "Some materials return toward a previous shape when conditions change. You may have encountered a demonstration in which a bent metal wire straightens when warmed. It looks as though the wire remembers being straight, although memory here is a description of material behavior rather than a mental process.\nThe explanation involves the internal arrangement of the material. Under one set of conditions, its structure can change in a way that permits deformation. Heating can favor a different arrangement, producing a return toward the earlier form. This behavior depends on the material and on staying within particular operating limits. You cannot assume that bending any metal and heating it will produce the same result.\nEngineers investigate such materials for devices that need controlled movement without a large conventional motor. But the useful movement may be limited, and repeated cycling can affect performance. The design also has to account for how quickly the material heats and cools. A demonstration that happens once on a laboratory bench is not enough to establish reliability in a product.\nThis example illustrates a broader engineering principle. An unusual property becomes useful only when its conditions, limitations and long-term behavior are understood. The striking demonstration is a starting point for design work, not the end of it."
+            },
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-talk-0-3",
+            "type": "choice",
+            "prompt": "Which practical issue is mentioned?",
+            "options": [
+              "The color of the laboratory bench",
+              "The rates of heating and cooling",
+              "The inability to bend any material",
+              "The need for a larger conventional motor in every device"
+            ],
+            "answer": 1,
+            "explanation": "Thermal response speed must enter the design.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "A Material with a Memory",
+            "stimulus": {
+              "id": "f2-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Material with a Memory",
+              "script": "Some materials return toward a previous shape when conditions change. You may have encountered a demonstration in which a bent metal wire straightens when warmed. It looks as though the wire remembers being straight, although memory here is a description of material behavior rather than a mental process.\nThe explanation involves the internal arrangement of the material. Under one set of conditions, its structure can change in a way that permits deformation. Heating can favor a different arrangement, producing a return toward the earlier form. This behavior depends on the material and on staying within particular operating limits. You cannot assume that bending any metal and heating it will produce the same result.\nEngineers investigate such materials for devices that need controlled movement without a large conventional motor. But the useful movement may be limited, and repeated cycling can affect performance. The design also has to account for how quickly the material heats and cools. A demonstration that happens once on a laboratory bench is not enough to establish reliability in a product.\nThis example illustrates a broader engineering principle. An unusual property becomes useful only when its conditions, limitations and long-term behavior are understood. The striking demonstration is a starting point for design work, not the end of it."
+            },
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-lower-talk-0-4",
+            "type": "choice",
+            "prompt": "What can be inferred about one successful demonstration?",
+            "options": [
+              "It shows the effect works outside all limits",
+              "It guarantees identical behavior in any metal",
+              "It does not establish long-term product reliability",
+              "It removes the need for further testing"
+            ],
+            "answer": 2,
+            "explanation": "Repeated operation and operating conditions still need investigation.",
+            "skill": "inference",
+            "task": "academic-talk",
+            "title": "A Material with a Memory",
+            "stimulus": {
+              "id": "f2-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Material with a Memory",
+              "script": "Some materials return toward a previous shape when conditions change. You may have encountered a demonstration in which a bent metal wire straightens when warmed. It looks as though the wire remembers being straight, although memory here is a description of material behavior rather than a mental process.\nThe explanation involves the internal arrangement of the material. Under one set of conditions, its structure can change in a way that permits deformation. Heating can favor a different arrangement, producing a return toward the earlier form. This behavior depends on the material and on staying within particular operating limits. You cannot assume that bending any metal and heating it will produce the same result.\nEngineers investigate such materials for devices that need controlled movement without a large conventional motor. But the useful movement may be limited, and repeated cycling can affect performance. The design also has to account for how quickly the material heats and cools. A demonstration that happens once on a laboratory bench is not enough to establish reliability in a product.\nThis example illustrates a broader engineering principle. An unusual property becomes useful only when its conditions, limitations and long-term behavior are understood. The striking demonstration is a starting point for design work, not the end of it."
+            },
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-02"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f2-l-higher-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The draft has been saved on my laptop.",
+              "Names are printed in alphabetical order.",
+              "You’re right; I’ll verify them first.",
+              "I submitted my application in August."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-higher-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I wouldn’t submit the draft before checking the names."
+            },
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The frame was donated to the museum.",
+              "The picture shows someone waving.",
+              "I wrote the caption by hand.",
+              "Sure. Which side should I lift?"
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-higher-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Could you give me a hand with this frame?"
+            },
+            "number": 2,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Yes, so the responses stay comparable.",
+              "The original is in a plastic folder.",
+              "I usually question unexpected results.",
+              "Several students responded yesterday."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-higher-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Do we have to use the original questionnaire?"
+            },
+            "number": 3,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The room made a good first impression.",
+              "I thought you were doing that.",
+              "The building is under renovation.",
+              "We booked a train ticket instead."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-higher-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I was under the impression that you had booked the room."
+            },
+            "number": 4,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The river was mapped a century ago.",
+              "Overnight accommodation is available downtown.",
+              "Agreed. We should check conditions early.",
+              "We surveyed the same people twice."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f2-l-higher-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "If the river rises overnight, we’d better postpone the survey."
+            },
+            "number": 5,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-conversation-0-1",
+            "type": "choice",
+            "prompt": "Why does the woman advise against watering immediately?",
+            "options": [
+              "The deeper soil already contains enough moisture",
+              "The watering equipment is broken",
+              "The plants have no roots yet",
+              "All trays must remain completely dry"
+            ],
+            "answer": 0,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: The seed trays look dry, but the soil underneath is still wet. Should I water them again?\nWoman: Not yet. The top dries before the deeper layer. Too much water could damage the young roots.\nMan: I was following the timetable on the greenhouse wall.\nWoman: That schedule is for the larger pots. These trays need checking individually. Let’s label them so the next volunteer knows.\nMan: I’ll make a note about checking below the surface."
+            },
+            "number": 6,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the man most likely record?",
+            "options": [
+              "A warning not to inspect the soil",
+              "The date for replacing all larger pots",
+              "A request to remove the greenhouse schedule",
+              "Instructions specific to the seed trays"
+            ],
+            "answer": 3,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: The seed trays look dry, but the soil underneath is still wet. Should I water them again?\nWoman: Not yet. The top dries before the deeper layer. Too much water could damage the young roots.\nMan: I was following the timetable on the greenhouse wall.\nWoman: That schedule is for the larger pots. These trays need checking individually. Let’s label them so the next volunteer knows.\nMan: I’ll make a note about checking below the surface."
+            },
+            "number": 7,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-conversation-1-1",
+            "type": "choice",
+            "prompt": "Why will publication be delayed?",
+            "options": [
+              "The website cannot accept audio files",
+              "The participant has requested removal of some material",
+              "The project agreement forbids all recording",
+              "The interview has not yet taken place"
+            ],
+            "answer": 1,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: My interviewee agreed to be recorded, but now she wants one personal story removed.\nMan: Have you edited the public version yet?\nWoman: No, I was going to upload the whole recording tonight.\nMan: Then first confirm exactly which section she means. Our project agreement lets participants withdraw material before publication.\nWoman: I’ll send her the time markers and wait for confirmation. The edited version can go online afterward.\nMan: Keep a record of the permission change too."
+            },
+            "number": 8,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-conversation-1-2",
+            "type": "choice",
+            "prompt": "What will the woman do before editing?",
+            "options": [
+              "Ask another interviewee to replace the story",
+              "Delete every interview in the project",
+              "Confirm the specific section to remove",
+              "Upload an unedited backup publicly"
+            ],
+            "answer": 2,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f2-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: My interviewee agreed to be recorded, but now she wants one personal story removed.\nMan: Have you edited the public version yet?\nWoman: No, I was going to upload the whole recording tonight.\nMan: Then first confirm exactly which section she means. Our project agreement lets participants withdraw material before publication.\nWoman: I’ll send her the time markers and wait for confirmation. The edited version can go online afterward.\nMan: Keep a record of the permission change too."
+            },
+            "number": 9,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-announcement-0-1",
+            "type": "choice",
+            "prompt": "Why is outdoor collection postponed?",
+            "options": [
+              "The seeds are not ready to collect",
+              "Too few volunteers own outdoor shoes",
+              "The indoor room is closed",
+              "The earlier material has been lost"
+            ],
+            "answer": 0,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f2-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The botanical garden needs volunteers for a seed-cleaning session on Sunday. No previous experience is required. We’ll begin with a demonstration, then work in small groups indoors. Please register so we can prepare enough workstations. Outdoor collection has been postponed because the seeds at the field site are not mature enough yet; this session uses material collected earlier."
+            },
+            "number": 10,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-announcement-0-2",
+            "type": "choice",
+            "prompt": "What should interested volunteers do?",
+            "options": [
+              "Collect immature seeds independently",
+              "Complete an advanced botany course",
+              "Bring their own seed-cleaning machines",
+              "Register before the session"
+            ],
+            "answer": 3,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f2-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The botanical garden needs volunteers for a seed-cleaning session on Sunday. No previous experience is required. We’ll begin with a demonstration, then work in small groups indoors. Please register so we can prepare enough workstations. Outdoor collection has been postponed because the seeds at the field site are not mature enough yet; this session uses material collected earlier."
+            },
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the talk mainly explaining?",
+            "options": [
+              "Why interview recordings need no supporting information",
+              "How to memorize exact dates before an interview",
+              "Why personal memories should always replace written records",
+              "The interaction and context that make oral history valuable evidence"
+            ],
+            "answer": 3,
+            "explanation": "The speaker discusses questioning, interpretation and documentation.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "What Makes an Oral History Useful",
+            "stimulus": {
+              "id": "f2-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "What Makes an Oral History Useful",
+              "script": "An oral-history interview is not simply a container of facts waiting to be collected. It is an interaction between a person recalling experience and another person asking questions. The interviewer’s wording can influence which parts of a story receive attention and how the speaker explains them.\nConsider the difference between asking whether a neighborhood project was successful and asking what changed after it began. The first question may encourage a simple judgment. The second leaves more room for the interviewee to describe mixed outcomes. Neither wording automatically produces a complete account, but they create different opportunities for elaboration.\nHistorians also distinguish a remembered experience from an exact record of an event. Someone may recall an incident clearly but place it in the wrong year. Comparing the interview with letters or newspapers can help establish chronology without making the personal account worthless. The way an event is remembered may itself be historically significant.\nFinally, recordings need context. The date, circumstances and permissions associated with an interview affect how later researchers can use it. Preserving the sound without preserving this information would leave important questions unanswered. A useful oral history therefore combines the interview, responsible questioning and documentation that explains how the account came into being."
+            },
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-talk-0-2",
+            "type": "choice",
+            "prompt": "Why compare the two question wordings?",
+            "options": [
+              "To show how questions can shape the kind of response",
+              "To identify a wording that guarantees a complete history",
+              "To argue that neighborhood projects cannot be studied",
+              "To demonstrate that only yes-or-no answers are useful"
+            ],
+            "answer": 0,
+            "explanation": "Different prompts encourage judgment or elaboration.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "What Makes an Oral History Useful",
+            "stimulus": {
+              "id": "f2-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "What Makes an Oral History Useful",
+              "script": "An oral-history interview is not simply a container of facts waiting to be collected. It is an interaction between a person recalling experience and another person asking questions. The interviewer’s wording can influence which parts of a story receive attention and how the speaker explains them.\nConsider the difference between asking whether a neighborhood project was successful and asking what changed after it began. The first question may encourage a simple judgment. The second leaves more room for the interviewee to describe mixed outcomes. Neither wording automatically produces a complete account, but they create different opportunities for elaboration.\nHistorians also distinguish a remembered experience from an exact record of an event. Someone may recall an incident clearly but place it in the wrong year. Comparing the interview with letters or newspapers can help establish chronology without making the personal account worthless. The way an event is remembered may itself be historically significant.\nFinally, recordings need context. The date, circumstances and permissions associated with an interview affect how later researchers can use it. Preserving the sound without preserving this information would leave important questions unanswered. A useful oral history therefore combines the interview, responsible questioning and documentation that explains how the account came into being."
+            },
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-talk-0-3",
+            "type": "choice",
+            "prompt": "How can written sources assist interpretation?",
+            "options": [
+              "They prove that every personal memory is false",
+              "They can help establish the chronology of a remembered event",
+              "They supply permission automatically",
+              "They remove the need to preserve the interview"
+            ],
+            "answer": 1,
+            "explanation": "Letters and newspapers can help check dates.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "What Makes an Oral History Useful",
+            "stimulus": {
+              "id": "f2-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "What Makes an Oral History Useful",
+              "script": "An oral-history interview is not simply a container of facts waiting to be collected. It is an interaction between a person recalling experience and another person asking questions. The interviewer’s wording can influence which parts of a story receive attention and how the speaker explains them.\nConsider the difference between asking whether a neighborhood project was successful and asking what changed after it began. The first question may encourage a simple judgment. The second leaves more room for the interviewee to describe mixed outcomes. Neither wording automatically produces a complete account, but they create different opportunities for elaboration.\nHistorians also distinguish a remembered experience from an exact record of an event. Someone may recall an incident clearly but place it in the wrong year. Comparing the interview with letters or newspapers can help establish chronology without making the personal account worthless. The way an event is remembered may itself be historically significant.\nFinally, recordings need context. The date, circumstances and permissions associated with an interview affect how later researchers can use it. Preserving the sound without preserving this information would leave important questions unanswered. A useful oral history therefore combines the interview, responsible questioning and documentation that explains how the account came into being."
+            },
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          },
+          {
+            "id": "f2-l-higher-talk-0-4",
+            "type": "choice",
+            "prompt": "What does the speaker imply about an incorrect remembered date?",
+            "options": [
+              "It requires destroying the recording",
+              "It makes the remembered meaning historically irrelevant",
+              "It need not make the entire personal account worthless",
+              "It shows that the interviewee intended to mislead"
+            ],
+            "answer": 2,
+            "explanation": "Chronological error and historical value are distinguished.",
+            "skill": "inference",
+            "task": "academic-talk",
+            "title": "What Makes an Oral History Useful",
+            "stimulus": {
+              "id": "f2-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "What Makes an Oral History Useful",
+              "script": "An oral-history interview is not simply a container of facts waiting to be collected. It is an interaction between a person recalling experience and another person asking questions. The interviewer’s wording can influence which parts of a story receive attention and how the speaker explains them.\nConsider the difference between asking whether a neighborhood project was successful and asking what changed after it began. The first question may encourage a simple judgment. The second leaves more room for the interviewee to describe mixed outcomes. Neither wording automatically produces a complete account, but they create different opportunities for elaboration.\nHistorians also distinguish a remembered experience from an exact record of an event. Someone may recall an incident clearly but place it in the wrong year. Comparing the interview with letters or newspapers can help establish chronology without making the personal account worthless. The way an event is remembered may itself be historically significant.\nFinally, recordings need context. The date, circumstances and permissions associated with an interview affect how later researchers can use it. Preserving the sound without preserving this information would leave important questions unanswered. A useful oral history therefore combines the interview, responsible questioning and documentation that explains how the account came into being."
+            },
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-02"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "original-02-w1",
+          "number": 1,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The archive needs the permission form before Friday.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "already",
+            "asked",
+            "have",
+            "you",
+            "asking",
+            "the participant",
+            "to sign it"
+          ],
+          "solution": [
+            "have",
+            "you",
+            "already",
+            "asked",
+            "the participant",
+            "to sign it"
+          ],
+          "correct": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            6
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w2",
+          "number": 2,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I cannot read the date written on this photograph.",
+          "frame": [
+            "Let’s",
+            "."
+          ],
+          "chunks": [
+            "can",
+            "the archivist",
+            "whether",
+            "ask",
+            "is",
+            "identify it"
+          ],
+          "solution": [
+            "ask",
+            "whether",
+            "the archivist",
+            "can",
+            "identify it"
+          ],
+          "correct": [
+            3,
+            2,
+            1,
+            0,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w3",
+          "number": 3,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Our group will measure the stream again next week.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "as",
+            "before",
+            "than",
+            "we",
+            "should",
+            "use",
+            "the same method"
+          ],
+          "solution": [
+            "we",
+            "should",
+            "use",
+            "the same method",
+            "as",
+            "before"
+          ],
+          "correct": [
+            3,
+            4,
+            5,
+            6,
+            0,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w4",
+          "number": 4,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The exhibition room is smaller than we expected.",
+          "frame": [
+            "Do you know",
+            "?"
+          ],
+          "chunks": [
+            "does",
+            "inside",
+            "display cases",
+            "how many",
+            "fit",
+            "will"
+          ],
+          "solution": [
+            "how many",
+            "display cases",
+            "will",
+            "fit",
+            "inside"
+          ],
+          "correct": [
+            3,
+            2,
+            5,
+            4,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w5",
+          "number": 5,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I have never handled a fragile map.",
+          "frame": [
+            "The assistant will explain",
+            "."
+          ],
+          "chunks": [
+            "damage",
+            "damaging",
+            "it",
+            "the paper",
+            "without",
+            "how",
+            "to support"
+          ],
+          "solution": [
+            "how",
+            "to support",
+            "the paper",
+            "without",
+            "damaging",
+            "it"
+          ],
+          "correct": [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w6",
+          "number": 6,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The survey results seem different from last year.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "changing",
+            "have changed",
+            "the conditions",
+            "whether",
+            "to check",
+            "need",
+            "we"
+          ],
+          "solution": [
+            "we",
+            "need",
+            "to check",
+            "whether",
+            "the conditions",
+            "have changed"
+          ],
+          "correct": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w7",
+          "number": 7,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I would like to join the conservation workshop.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "is",
+            "there",
+            "a place",
+            "that",
+            "I can",
+            "reserve",
+            "where"
+          ],
+          "solution": [
+            "is",
+            "there",
+            "a place",
+            "that",
+            "I can",
+            "reserve"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w8",
+          "number": 8,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The interview files are too large to attach.",
+          "frame": [
+            "Could you",
+            "?"
+          ],
+          "chunks": [
+            "where",
+            "show me",
+            "them",
+            "to upload",
+            "do",
+            "securely"
+          ],
+          "solution": [
+            "show me",
+            "where",
+            "to upload",
+            "them",
+            "securely"
+          ],
+          "correct": [
+            1,
+            0,
+            3,
+            2,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w9",
+          "number": 9,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The label does not mention that the bowl is a replica.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "to appear",
+            "near",
+            "that information",
+            "ought",
+            "the beginning",
+            "appearing"
+          ],
+          "solution": [
+            "that information",
+            "ought",
+            "to appear",
+            "near",
+            "the beginning"
+          ],
+          "correct": [
+            2,
+            3,
+            0,
+            1,
+            4
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-w10",
+          "number": 10,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We have enough volunteers for the first shift.",
+          "frame": [
+            "What we still need is",
+            "."
+          ],
+          "chunks": [
+            "coordinate",
+            "can",
+            "who",
+            "someone",
+            "whom",
+            "session",
+            "the later"
+          ],
+          "solution": [
+            "someone",
+            "who",
+            "can",
+            "coordinate",
+            "the later",
+            "session"
+          ],
+          "correct": [
+            3,
+            2,
+            1,
+            0,
+            6,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-02"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "original-02-w11",
+          "number": 11,
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Ms. Rowan",
+          "subject": "Archive visit arrangements",
+          "scenario": "You coordinate a student group visiting the university archive. Two members need a step-free route, and the confirmation email lists only the entrance with stairs. Your group also wants permission to photograph selected documents for a class presentation.",
+          "points": [
+            "Explain the access requirement and ask which entrance the group should use.",
+            "Ask about the procedure for obtaining photography permission.",
+            "Suggest a practical way to confirm the arrangements before the visit."
+          ],
+          "difficulty": "mixed",
+          "testId": "original-02"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "original-02-w12",
+          "number": 12,
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Dr. Hsu",
+          "question": "Museums have limited resources. Should they prioritize making their collections available online or improving visits to the physical museum? Explain which investment would provide greater educational value.",
+          "students": [
+            [
+              "Ari",
+              "Online access helps people who live far away or cannot travel. Detailed images and explanations can reach an audience much larger than the museum building."
+            ],
+            [
+              "Leila",
+              "Physical visits let people experience the scale and material qualities of objects. Better in-person displays would help visitors learn things that a screen cannot easily communicate."
+            ]
+          ],
+          "difficulty": "mixed",
+          "testId": "original-02"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are being trained to assist visitors at a campus archive.",
+      "items": [
+        {
+          "id": "original-02-s1",
+          "number": 1,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please leave large bags in the lockers.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-02-repeat1",
+            "kind": "repeat",
+            "script": "Please leave large bags in the lockers."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s2",
+          "number": 2,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The reading room opens at nine thirty.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-02-repeat2",
+            "kind": "repeat",
+            "script": "The reading room opens at nine thirty."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s3",
+          "number": 3,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "You may use a pencil when taking notes beside the documents.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-02-repeat3",
+            "kind": "repeat",
+            "script": "You may use a pencil when taking notes beside the documents."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s4",
+          "number": 4,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Ask a member of staff before photographing any material in the collection.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-02-repeat4",
+            "kind": "repeat",
+            "script": "Ask a member of staff before photographing any material in the collection."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s5",
+          "number": 5,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The request form must include the reference number printed in the catalogue.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-02-repeat5",
+            "kind": "repeat",
+            "script": "The request form must include the reference number printed in the catalogue."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s6",
+          "number": 6,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If a document looks damaged, leave it in place and tell the assistant rather than trying to repair it.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-02-repeat6",
+            "kind": "repeat",
+            "script": "If a document looks damaged, leave it in place and tell the assistant rather than trying to repair it."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s7",
+          "number": 7,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Visitors who need to consult oversized maps should reserve the larger table before arriving so that staff can prepare it safely.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-02-repeat7",
+            "kind": "repeat",
+            "script": "Visitors who need to consult oversized maps should reserve the larger table before arriving so that staff can prepare it safely."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "A researcher is studying how students learn outside formal classes.",
+      "items": [
+        {
+          "id": "original-02-s8",
+          "number": 8,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Tell me about a place outside a classroom where you have learned something useful. What did you learn there?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-02-interview1",
+            "kind": "interview",
+            "script": "Tell me about a place outside a classroom where you have learned something useful. What did you learn there?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s9",
+          "number": 9,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe a time when seeing or handling a real object helped you understand an idea. Why was that experience useful?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-02-interview2",
+            "kind": "interview",
+            "script": "Describe a time when seeing or handling a real object helped you understand an idea. Why was that experience useful?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s10",
+          "number": 10,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Some students prefer learning independently, while others prefer guidance from an expert. Which approach works better for you, and why?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-02-interview3",
+            "kind": "interview",
+            "script": "Some students prefer learning independently, while others prefer guidance from an expert. Which approach works better for you, and why?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        },
+        {
+          "id": "original-02-s11",
+          "number": 11,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Do you think universities should spend more money on public learning spaces such as museums and gardens? Explain your view with reasons and examples.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-02-interview4",
+            "kind": "interview",
+            "script": "Do you think universities should spend more money on public learning spaces such as museums and gardens? Explain your view with reasons and examples."
+          },
+          "difficulty": "mixed",
+          "testId": "original-02"
+        }
+      ]
+    }
+  ]
+}

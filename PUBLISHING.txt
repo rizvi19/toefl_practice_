@@ -7,3 +7,5 @@ For repository changes, merge the verified Reading/Listening upgrade pull reques
 Independent practice, not an ETS simulator. Local score estimates and editorial difficulty are uncalibrated. Writing sentence tasks use exact local grading. Email and Discussion use separate copy-for-ChatGPT feedback packets. Speaking uses self-review. Audio recording requires HTTPS or localhost. All 200 active Listening activities include matched recordings; optional browser/local Kokoro settings remain available.
 
 The 19 October Writing expansion includes 500 new questions across 50 grammar families, focused practice with shared no-repeat history, lowercase tiles and 24 prompts each for Email/Discussion. Include the entire writing/ directory. See docs/WRITING_ADVANCED_2026.md.
+
+The full simulator also requires full-tests.html, full-test-help.html and the complete simulator/ directory. Five new original forms and Book Test 01 use pre-generated browser Kokoro prompts; browser Whisper transcribes saved Speaking clips after submission. See docs/FULL_SIMULATOR.md.

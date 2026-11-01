@@ -12,7 +12,9 @@ Speaking uses `getUserMedia` and `MediaRecorder` over HTTPS or localhost. Record
 
 Review includes manual 1–6 section-band fields, including Speaking assessed by the learner or ChatGPT. Once all four bands are entered, the overall practice result is their mean rounded to the nearest half band. These assessments persist and are included in exported backups. No overall result appears while any section is unassessed.
 
-The supplied text does **not** contain its promised answer key, transcripts, scoring conversion or explanations. No official answers or score are invented. Completed cloze words and sentence suggestions are reconstructed study aids. The textile-weaving sentence was severely reordered in the pasted extraction; its reconstruction is disclosed in the player and review. The form is linear, matching the chapter's directions, rather than adaptive. The cleaned source is retained in `source.txt`; PDF watermark identifiers and encoded extraction artifacts are removed.
+The later supplied PDF verifies the answer keys, sentence arrangements and spoken scripts. Unscored book items are explicitly marked; Reading and Listening each have 35 scored items. A one-time migration preserves previously entered words after correcting the OCR fragment `exhi` to `exh`. The cleaned original paste is retained in `source.txt`. The form remains linear, matching the chapter directions.
+
+The review now includes browser Whisper transcription and a complete copy-for-ChatGPT evaluation packet. Existing recordings and history are preserved. The [new full simulator](../full-tests.html) offers the same verified Book Test 01 with Kokoro preparation plus five newly authored adaptive forms. See [setup and scoring notes](../docs/FULL_SIMULATOR.md).
 
 Validation:
 

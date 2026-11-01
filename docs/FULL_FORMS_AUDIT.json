@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "originalForms": 5,
+  "retainedSourceFingerprintsChecked": 367,
+  "uniqueNewStimuli": 295,
+  "checks": [
+    "distinct texts",
+    "no exact retained-bank reuse",
+    "task length ranges",
+    "balanced answer positions",
+    "branch coverage"
+  ],
+  "forms": [
+    {
+      "form": "original-02",
+      "itemsAcrossBothBranches": 150,
+      "audioStimuli": 49,
+      "answerPositions": [
+        21,
+        23,
+        21,
+        22
+      ],
+      "lengths": {
+        "cloze": {
+          "min": 91,
+          "max": 98,
+          "count": 4
+        },
+        "daily-life": {
+          "min": 61,
+          "max": 78,
+          "count": 2
+        },
+        "academic-passage": {
+          "min": 207,
+          "max": 217,
+          "count": 4
+        },
+        "response": {
+          "min": 6,
+          "max": 11,
+          "count": 22
+        },
+        "conversation": {
+          "min": 75,
+          "max": 81,
+          "count": 7
+        },
+        "announcement": {
+          "min": 54,
+          "max": 58,
+          "count": 5
+        },
+        "academic-talk": {
+          "min": 195,
+          "max": 210,
+          "count": 4
+        },
+        "repeat": {
+          "min": 7,
+          "max": 21,
+          "count": 7
+        },
+        "interview": {
+          "min": 19,
+          "max": 24,
+          "count": 4
+        }
+      }
+    },
+    {
+      "form": "original-03",
+      "itemsAcrossBothBranches": 150,
+      "audioStimuli": 49,
+      "answerPositions": [
+        22,
+        21,
+        22,
+        22
+      ],
+      "lengths": {
+        "cloze": {
+          "min": 92,
+          "max": 97,
+          "count": 4
+        },
+        "daily-life": {
+          "min": 61,
+          "max": 75,
+          "count": 2
+        },
+        "academic-passage": {
+          "min": 211,
+          "max": 222,
+          "count": 4
+        },
+        "response": {
+          "min": 7,
+          "max": 13,
+          "count": 22
+        },
+        "conversation": {
+          "min": 73,
+          "max": 80,
+          "count": 7
+        },
+        "announcement": {
+          "min": 57,
+          "max": 66,
+          "count": 5
+        },
+        "academic-talk": {
+          "min": 200,
+          "max": 208,
+          "count": 4
+        },
+        "repeat": {
+          "min": 7,
+          "max": 22,
+          "count": 7
+        },
+        "interview": {
+          "min": 16,
+          "max": 21,
+          "count": 4
+        }
+      }
+    },
+    {
+      "form": "original-04",
+      "itemsAcrossBothBranches": 150,
+      "audioStimuli": 49,
+      "answerPositions": [
+        22,
+        22,
+        20,
+        23
+      ],
+      "lengths": {
+        "cloze": {
+          "min": 94,
+          "max": 97,
+          "count": 4
+        },
+        "daily-life": {
+          "min": 61,
+          "max": 78,
+          "count": 2
+        },
+        "academic-passage": {
+          "min": 208,
+          "max": 220,
+          "count": 4
+        },
+        "response": {
+          "min": 6,
+          "max": 12,
+          "count": 22
+        },
+        "conversation": {
+          "min": 67,
+          "max": 78,
+          "count": 7
+        },
+        "announcement": {
+          "min": 57,
+          "max": 64,
+          "count": 5
+        },
+        "academic-talk": {
+          "min": 198,
+          "max": 207,
+          "count": 4
+        },
+        "repeat": {
+          "min": 6,
+          "max": 24,
+          "count": 7
+        },
+        "interview": {
+          "min": 15,
+          "max": 22,
+          "count": 4
+        }
+      }
+    },
+    {
+      "form": "original-05",
+      "itemsAcrossBothBranches": 150,
+      "audioStimuli": 49,
+      "answerPositions": [
+        22,
+        22,
+        23,
+        20
+      ],
+      "lengths": {
+        "cloze": {
+          "min": 96,
+          "max": 100,
+          "count": 4
+        },
+        "daily-life": {
+          "min": 65,
+          "max": 73,
+          "count": 2
+        },
+        "academic-passage": {
+          "min": 211,
+          "max": 217,
+          "count": 4
+        },
+        "response": {
+          "min": 5,
+          "max": 10,
+          "count": 22
+        },
+        "conversation": {
+          "min": 67,
+          "max": 74,
+          "count": 7
+        },
+        "announcement": {
+          "min": 60,
+          "max": 63,
+          "count": 5
+        },
+        "academic-talk": {
+          "min": 201,
+          "max": 211,
+          "count": 4
+        },
+        "repeat": {
+          "min": 7,
+          "max": 24,
+          "count": 7
+        },
+        "interview": {
+          "min": 14,
+          "max": 20,
+          "count": 4
+        }
+      }
+    },
+    {
+      "form": "original-06",
+      "itemsAcrossBothBranches": 150,
+      "audioStimuli": 49,
+      "answerPositions": [
+        21,
+        22,
+        22,
+        22
+      ],
+      "lengths": {
+        "cloze": {
+          "min": 100,
+          "max": 100,
+          "count": 4
+        },
+        "daily-life": {
+          "min": 62,
+          "max": 75,
+          "count": 2
+        },
+        "academic-passage": {
+          "min": 212,
+          "max": 221,
+          "count": 4
+        },
+        "response": {
+          "min": 6,
+          "max": 14,
+          "count": 22
+        },
+        "conversation": {
+          "min": 68,
+          "max": 76,
+          "count": 7
+        },
+        "announcement": {
+          "min": 58,
+          "max": 62,
+          "count": 5
+        },
+        "academic-talk": {
+          "min": 194,
+          "max": 211,
+          "count": 4
+        },
+        "repeat": {
+          "min": 7,
+          "max": 24,
+          "count": 7
+        },
+        "interview": {
+          "min": 15,
+          "max": 24,
+          "count": 4
+        }
+      }
+    }
+  ],
+  "limits": "Editorial difficulty labels and content checks are not ETS calibration or a guarantee of equivalent test difficulty."
+}

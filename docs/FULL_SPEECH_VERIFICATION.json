@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-01",
+  "environment": "Windows desktop Edge, browser WASM, Kokoro q8 and Whisper q8",
+  "realFullFormAudio": [
+    {
+      "form": "original-02",
+      "engine": "kokoro-82m-q8-browser-v1",
+      "count": 49,
+      "readyAt": 1793527512309,
+      "probe": {
+        "expected": "Please leave large bags in the lockers.",
+        "transcribed": "Please leave large bags in the lockers.",
+        "duration": 3.275,
+        "voices": [
+          "af_heart"
+        ]
+      }
+    }
+  ],
+  "separateWhisperSmallProbe": {
+    "expected": "The campus library opens at nine tomorrow morning.",
+    "transcript": {
+      "text": "The campus library opens at 9 tomorrow morning.",
+      "status": "transcribed",
+      "model": "onnx-community/whisper-small.en",
+      "duration": 4.296,
+      "created": 1793526789885,
+      "notice": "Machine transcription may omit repetitions or mishear words. Delivery and pronunciation require the original recording."
+    },
+    "engine": "kokoro-82m-q8-browser-v1",
+    "voices": [
+      "af_heart"
+    ],
+    "duration": 4.225
+  },
+  "scope": "One complete original form: all 49 possible stimuli, including both adaptive branches. Other forms have manifest/content checks and use the same runtime; their complete audio was not individually rendered in this verification. No physical microphone or human listening-quality assessment is claimed.",
+  "automatedBrowserFlow": "Separate fixture-based 120-item run uses native MediaRecorder with a fake microphone. It is not a model-accuracy test."
+}

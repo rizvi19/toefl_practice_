@@ -1,0 +1,3052 @@
+{
+  "id": "original-06",
+  "version": 1,
+  "title": "Full Test 06 · Designing Better Decisions",
+  "description": "New original practice content with distinct adaptive routes and authored answer keys.",
+  "original": true,
+  "baseCount": 120,
+  "routing": {
+    "threshold": 0.7,
+    "notice": "A local 70% router heuristic, not the proprietary ETS adaptive algorithm."
+  },
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "f6-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A bridge does not remain motionless when people or vehicles cross it. Its materials bend slightly as they ",
+            {
+              "pre": "car",
+              "answer": "ry"
+            },
+            " loads. Engineers calculate these movements to ",
+            {
+              "pre": "en",
+              "answer": "sure"
+            },
+            " that the structure remains ",
+            {
+              "pre": "sa",
+              "answer": "fe"
+            },
+            ". Temperature can also make components expand or ",
+            {
+              "pre": "con",
+              "answer": "tract"
+            },
+            ". Small gaps and movable connections allow those changes without creating excessive ",
+            {
+              "pre": "str",
+              "answer": "ess"
+            },
+            ". During inspections, engineers look for signs that behavior has ",
+            {
+              "pre": "cha",
+              "answer": "nged"
+            },
+            ". A visible movement is not automatically a sign of ",
+            {
+              "pre": "fa",
+              "answer": "ilure"
+            },
+            "; some movement is part of the ",
+            {
+              "pre": "de",
+              "answer": "sign"
+            },
+            ". Understanding the difference between expected flexibility and dangerous damage requires measurements, experience and a clear record of earlier ",
+            {
+              "pre": "cond",
+              "answer": "itions"
+            },
+            " at the ",
+            {
+              "pre": "si",
+              "answer": "te"
+            },
+            "."
+          ],
+          "count": 10,
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "People often remember information when they try to recall it rather than simply reread it. The effort of retrieval can ",
+            {
+              "pre": "str",
+              "answer": "engthen"
+            },
+            " later memory. This does not mean that every difficult attempt is ",
+            {
+              "pre": "use",
+              "answer": "ful"
+            },
+            ". Learners need a chance to check whether their response was ",
+            {
+              "pre": "cor",
+              "answer": "rect"
+            },
+            ". Feedback prevents an error from being ",
+            {
+              "pre": "re",
+              "answer": "peated"
+            },
+            " and helps identify material needing more ",
+            {
+              "pre": "att",
+              "answer": "ention"
+            },
+            ". Spacing practice across several days can also be ",
+            {
+              "pre": "ben",
+              "answer": "eficial"
+            },
+            ". The best schedule depends partly on how long the information must be ",
+            {
+              "pre": "ret",
+              "answer": "ained"
+            },
+            ". Learning strategies should therefore match the learner’s ",
+            {
+              "pre": "go",
+              "answer": "al"
+            },
+            ", rather than relying on a single method for every ",
+            {
+              "pre": "sub",
+              "answer": "ject"
+            },
+            " and ",
+            {
+              "pre": "sit",
+              "answer": "uation"
+            },
+            "."
+          ],
+          "count": 10,
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-d1-1",
+          "type": "choice",
+          "prompt": "What must happen before a new assistant can enter the laboratory?",
+          "options": [
+            "Reception must receive a reference from a professor",
+            "The assistant must work in the laboratory on Wednesday morning",
+            "The assistant must attend a safety orientation",
+            "The assistant must collect two access cards"
+          ],
+          "answer": 2,
+          "explanation": "Activation follows the required orientation.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "A laboratory orientation",
+          "passage": "To: New research assistants\nSubject: Access-card collection\nYour cards are ready at reception. You may collect them now, but laboratory access will activate only after you attend Wednesday’s safety orientation. Please bring your university identification to collect a card. Those unable to attend Wednesday should book the next orientation through the online portal; collecting a card does not waive the training requirement.",
+          "documentType": "email",
+          "stimulusId": "f6-r1-d1",
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-d1-2",
+          "type": "choice",
+          "prompt": "What should someone unable to attend Wednesday do?",
+          "options": [
+            "Use the unactivated card at a different entrance",
+            "Book another orientation online",
+            "Return university identification permanently",
+            "Ask reception to waive the training"
+          ],
+          "answer": 1,
+          "explanation": "The email directs them to book the next session through the portal.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "A laboratory orientation",
+          "passage": "To: New research assistants\nSubject: Access-card collection\nYour cards are ready at reception. You may collect them now, but laboratory access will activate only after you attend Wednesday’s safety orientation. Please bring your university identification to collect a card. Those unable to attend Wednesday should book the next orientation through the online portal; collecting a card does not waive the training requirement.",
+          "documentType": "email",
+          "stimulusId": "f6-r1-d1",
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-d2-1",
+          "type": "choice",
+          "prompt": "Why was the photo-essay deadline extended?",
+          "options": [
+            "The editors received no written articles",
+            "Some contributors experienced technical upload problems",
+            "All previously submitted photographs were rejected",
+            "The caption-editing session was cancelled"
+          ],
+          "answer": 1,
+          "explanation": "The post identifies difficulty uploading large files.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "The student journal deadline",
+          "passage": "Student Journal Editorial Team\nWe’re extending the photo-essay deadline to Sunday because several contributors had difficulty uploading large files. Essays already submitted need no action unless you want to revise them. Please use the new upload form rather than emailing image attachments. Written articles still close on Friday as originally announced. Contributors whose photo essays are accepted will be invited to a short caption-editing session next week; acceptance does not depend on attending in person.",
+          "documentType": "social",
+          "stimulusId": "f6-r1-d2",
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-d2-2",
+          "type": "choice",
+          "prompt": "Which submissions still have a Friday deadline?",
+          "options": [
+            "All image attachments",
+            "Caption-editing reservations",
+            "Written articles",
+            "Revised photo essays"
+          ],
+          "answer": 2,
+          "explanation": "The extension applies only to photo essays.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "The student journal deadline",
+          "passage": "Student Journal Editorial Team\nWe’re extending the photo-essay deadline to Sunday because several contributors had difficulty uploading large files. Essays already submitted need no action unless you want to revise them. Please use the new upload form rather than emailing image attachments. Written articles still close on Friday as originally announced. Contributors whose photo essays are accepted will be invited to a short caption-editing session next week; acceptance does not depend on attending in person.",
+          "documentType": "social",
+          "stimulusId": "f6-r1-d2",
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-d2-3",
+          "type": "choice",
+          "prompt": "What is suggested about the caption-editing session?",
+          "options": [
+            "It will take place before Sunday’s deadline",
+            "It is open only to students who missed the upload deadline",
+            "Attendance is required for an essay to be accepted",
+            "Accepted contributors can participate without attending in person"
+          ],
+          "answer": 3,
+          "explanation": "Acceptance does not depend on in-person attendance.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "The student journal deadline",
+          "passage": "Student Journal Editorial Team\nWe’re extending the photo-essay deadline to Sunday because several contributors had difficulty uploading large files. Essays already submitted need no action unless you want to revise them. Please use the new upload form rather than emailing image attachments. Written articles still close on Friday as originally announced. Contributors whose photo essays are accepted will be invited to a short caption-editing session next week; acceptance does not depend on attending in person.",
+          "documentType": "social",
+          "stimulusId": "f6-r1-d2",
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a1-1",
+          "type": "choice",
+          "prompt": "What is the passage’s central concern?",
+          "options": [
+            "Every negative result proves that a treatment is useless",
+            "Selective reporting can distort the overall evidence about a treatment",
+            "Only successful experiments need methodological descriptions",
+            "Unpublished research always involves dishonest measurements"
+          ],
+          "answer": 1,
+          "explanation": "The text examines how visibility affects the combined evidence.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The Value of a Negative Result",
+          "passage": "An experiment that finds no effect can be difficult to publish. Researchers and readers may be more interested in a new treatment that produces an improvement than in one that appears to do nothing. Yet overlooking negative results can distort the evidence available for making decisions.\nSuppose several teams test the same treatment. If only the successful experiments become widely visible, a later reviewer may conclude that the treatment is more dependable than the full set of experiments would suggest. The problem is not necessarily dishonesty within any individual report. It can arise from the selective visibility of findings across many reports.\nPublishing every unsuccessful experiment without evaluation is not a solution. A study may be too small to detect an important effect or may use an unsuitable measure. Readers need enough methodological information to interpret what the absence of a detected effect actually means. A well-designed negative study can rule out some possibilities, while a weak one may leave the question open.\nSome research systems address selective reporting by recording study plans before results are known. Such records make it easier to identify completed studies that were never published. The aim is not to treat all findings as equally informative, but to prevent the direction of a result from being the main reason it enters the shared body of evidence.",
+          "stimulusId": "f6-r1-a1",
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a1-2",
+          "type": "choice",
+          "prompt": "Why might a reviewer overestimate a treatment’s dependability?",
+          "options": [
+            "Negative studies always use larger samples",
+            "A reviewer cannot read methodological information",
+            "Unsuccessful experiments may be missing from the visible record",
+            "All teams necessarily tested different treatments"
+          ],
+          "answer": 2,
+          "explanation": "The second paragraph explains a biased visible sample of studies.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The Value of a Negative Result",
+          "passage": "An experiment that finds no effect can be difficult to publish. Researchers and readers may be more interested in a new treatment that produces an improvement than in one that appears to do nothing. Yet overlooking negative results can distort the evidence available for making decisions.\nSuppose several teams test the same treatment. If only the successful experiments become widely visible, a later reviewer may conclude that the treatment is more dependable than the full set of experiments would suggest. The problem is not necessarily dishonesty within any individual report. It can arise from the selective visibility of findings across many reports.\nPublishing every unsuccessful experiment without evaluation is not a solution. A study may be too small to detect an important effect or may use an unsuitable measure. Readers need enough methodological information to interpret what the absence of a detected effect actually means. A well-designed negative study can rule out some possibilities, while a weak one may leave the question open.\nSome research systems address selective reporting by recording study plans before results are known. Such records make it easier to identify completed studies that were never published. The aim is not to treat all findings as equally informative, but to prevent the direction of a result from being the main reason it enters the shared body of evidence.",
+          "stimulusId": "f6-r1-a1",
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a1-3",
+          "type": "choice",
+          "prompt": "What qualification does paragraph 3 introduce?",
+          "options": [
+            "A missing effect requires no interpretation",
+            "Small studies always exclude every possible effect",
+            "Negative studies should never be published",
+            "Negative results differ in how informative they are"
+          ],
+          "answer": 3,
+          "explanation": "Study size and measurement influence the meaning of a negative result.",
+          "skill": "organization",
+          "task": "academic-passage",
+          "title": "The Value of a Negative Result",
+          "passage": "An experiment that finds no effect can be difficult to publish. Researchers and readers may be more interested in a new treatment that produces an improvement than in one that appears to do nothing. Yet overlooking negative results can distort the evidence available for making decisions.\nSuppose several teams test the same treatment. If only the successful experiments become widely visible, a later reviewer may conclude that the treatment is more dependable than the full set of experiments would suggest. The problem is not necessarily dishonesty within any individual report. It can arise from the selective visibility of findings across many reports.\nPublishing every unsuccessful experiment without evaluation is not a solution. A study may be too small to detect an important effect or may use an unsuitable measure. Readers need enough methodological information to interpret what the absence of a detected effect actually means. A well-designed negative study can rule out some possibilities, while a weak one may leave the question open.\nSome research systems address selective reporting by recording study plans before results are known. Such records make it easier to identify completed studies that were never published. The aim is not to treat all findings as equally informative, but to prevent the direction of a result from being the main reason it enters the shared body of evidence.",
+          "stimulusId": "f6-r1-a1",
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a1-4",
+          "type": "choice",
+          "prompt": "What is the purpose of recording study plans in advance?",
+          "options": [
+            "To help identify studies absent from the published record",
+            "To guarantee that every treatment will succeed",
+            "To prevent researchers from measuring any outcomes",
+            "To remove the need for later review"
+          ],
+          "answer": 0,
+          "explanation": "Registration makes missing completed studies easier to locate.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "The Value of a Negative Result",
+          "passage": "An experiment that finds no effect can be difficult to publish. Researchers and readers may be more interested in a new treatment that produces an improvement than in one that appears to do nothing. Yet overlooking negative results can distort the evidence available for making decisions.\nSuppose several teams test the same treatment. If only the successful experiments become widely visible, a later reviewer may conclude that the treatment is more dependable than the full set of experiments would suggest. The problem is not necessarily dishonesty within any individual report. It can arise from the selective visibility of findings across many reports.\nPublishing every unsuccessful experiment without evaluation is not a solution. A study may be too small to detect an important effect or may use an unsuitable measure. Readers need enough methodological information to interpret what the absence of a detected effect actually means. A well-designed negative study can rule out some possibilities, while a weak one may leave the question open.\nSome research systems address selective reporting by recording study plans before results are known. Such records make it easier to identify completed studies that were never published. The aim is not to treat all findings as equally informative, but to prevent the direction of a result from being the main reason it enters the shared body of evidence.",
+          "stimulusId": "f6-r1-a1",
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a1-5",
+          "type": "choice",
+          "prompt": "“Rule out” is closest in meaning to",
+          "options": [
+            "include without testing",
+            "eliminate as a reasonable possibility",
+            "publish earlier than expected",
+            "describe as highly desirable"
+          ],
+          "answer": 1,
+          "explanation": "A strong negative study can exclude some explanations.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "The Value of a Negative Result",
+          "passage": "An experiment that finds no effect can be difficult to publish. Researchers and readers may be more interested in a new treatment that produces an improvement than in one that appears to do nothing. Yet overlooking negative results can distort the evidence available for making decisions.\nSuppose several teams test the same treatment. If only the successful experiments become widely visible, a later reviewer may conclude that the treatment is more dependable than the full set of experiments would suggest. The problem is not necessarily dishonesty within any individual report. It can arise from the selective visibility of findings across many reports.\nPublishing every unsuccessful experiment without evaluation is not a solution. A study may be too small to detect an important effect or may use an unsuitable measure. Readers need enough methodological information to interpret what the absence of a detected effect actually means. A well-designed negative study can rule out some possibilities, while a weak one may leave the question open.\nSome research systems address selective reporting by recording study plans before results are known. Such records make it easier to identify completed studies that were never published. The aim is not to treat all findings as equally informative, but to prevent the direction of a result from being the main reason it enters the shared body of evidence.",
+          "stimulusId": "f6-r1-a1",
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a2-1",
+          "type": "choice",
+          "prompt": "What does the passage argue about pictures in instructions?",
+          "options": [
+            "Their meaning is identical for every reader",
+            "They are useful only after an assembly has failed",
+            "They are useful for some information but must be designed and tested carefully",
+            "They always make written explanations unnecessary"
+          ],
+          "answer": 2,
+          "explanation": "The text balances spatial benefits against ambiguity and user needs.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Why Some Instructions Use Pictures",
+          "passage": "Instructions for assembling an object often combine words with diagrams. A diagram can show the relative positions of parts more directly than a long verbal description. This does not mean that pictures are universally easier to understand. Their usefulness depends on what information the task requires and what the reader can interpret.\nAn unfamiliar symbol can create uncertainty. A curved arrow might mean that a component should rotate, but a reader may not know whether the rotation applies to the whole assembly or one small part. Designers can reduce ambiguity by showing an intermediate state or labeling the relevant component.\nTesting instructions with users frequently reveals difficulties that experts overlook. Someone who already knows how an object fits together may mentally supply a missing step. A novice cannot necessarily make the same inference. Asking users to explain what they intend to do before they act can expose a misunderstanding without waiting for the object to be assembled incorrectly.\nEffective instructions therefore use representations strategically. Words may be better for stating a condition or warning, while diagrams clarify spatial relationships. The goal is not to minimize the number of words at any cost. It is to coordinate the available forms of information so that a reader can carry out the required action accurately and safely.",
+          "stimulusId": "f6-r1-a2",
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a2-2",
+          "type": "choice",
+          "prompt": "What potential problem does the curved-arrow example illustrate?",
+          "options": [
+            "Readers cannot recognize arrows in any context",
+            "A symbol may not clearly identify which part should move",
+            "Diagrams cannot show intermediate states",
+            "Every part of an assembly must rotate together"
+          ],
+          "answer": 1,
+          "explanation": "The arrow’s referent may be unclear.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "Why Some Instructions Use Pictures",
+          "passage": "Instructions for assembling an object often combine words with diagrams. A diagram can show the relative positions of parts more directly than a long verbal description. This does not mean that pictures are universally easier to understand. Their usefulness depends on what information the task requires and what the reader can interpret.\nAn unfamiliar symbol can create uncertainty. A curved arrow might mean that a component should rotate, but a reader may not know whether the rotation applies to the whole assembly or one small part. Designers can reduce ambiguity by showing an intermediate state or labeling the relevant component.\nTesting instructions with users frequently reveals difficulties that experts overlook. Someone who already knows how an object fits together may mentally supply a missing step. A novice cannot necessarily make the same inference. Asking users to explain what they intend to do before they act can expose a misunderstanding without waiting for the object to be assembled incorrectly.\nEffective instructions therefore use representations strategically. Words may be better for stating a condition or warning, while diagrams clarify spatial relationships. The goal is not to minimize the number of words at any cost. It is to coordinate the available forms of information so that a reader can carry out the required action accurately and safely.",
+          "stimulusId": "f6-r1-a2",
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a2-3",
+          "type": "choice",
+          "prompt": "Why may experts overlook a missing step?",
+          "options": [
+            "They cannot read instructions intended for novices",
+            "They always prefer words to pictures",
+            "They lack familiarity with the completed object",
+            "Their prior knowledge allows them to fill the gap mentally"
+          ],
+          "answer": 3,
+          "explanation": "Expert knowledge can conceal an omission.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Why Some Instructions Use Pictures",
+          "passage": "Instructions for assembling an object often combine words with diagrams. A diagram can show the relative positions of parts more directly than a long verbal description. This does not mean that pictures are universally easier to understand. Their usefulness depends on what information the task requires and what the reader can interpret.\nAn unfamiliar symbol can create uncertainty. A curved arrow might mean that a component should rotate, but a reader may not know whether the rotation applies to the whole assembly or one small part. Designers can reduce ambiguity by showing an intermediate state or labeling the relevant component.\nTesting instructions with users frequently reveals difficulties that experts overlook. Someone who already knows how an object fits together may mentally supply a missing step. A novice cannot necessarily make the same inference. Asking users to explain what they intend to do before they act can expose a misunderstanding without waiting for the object to be assembled incorrectly.\nEffective instructions therefore use representations strategically. Words may be better for stating a condition or warning, while diagrams clarify spatial relationships. The goal is not to minimize the number of words at any cost. It is to coordinate the available forms of information so that a reader can carry out the required action accurately and safely.",
+          "stimulusId": "f6-r1-a2",
+          "number": 33,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a2-4",
+          "type": "choice",
+          "prompt": "What is one benefit of asking users to describe their intended action?",
+          "options": [
+            "The object no longer needs to be assembled",
+            "Every diagram can then be removed",
+            "The designer can eliminate all user testing",
+            "A misunderstanding can be identified before an incorrect action"
+          ],
+          "answer": 3,
+          "explanation": "The third paragraph states this preventive role.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Why Some Instructions Use Pictures",
+          "passage": "Instructions for assembling an object often combine words with diagrams. A diagram can show the relative positions of parts more directly than a long verbal description. This does not mean that pictures are universally easier to understand. Their usefulness depends on what information the task requires and what the reader can interpret.\nAn unfamiliar symbol can create uncertainty. A curved arrow might mean that a component should rotate, but a reader may not know whether the rotation applies to the whole assembly or one small part. Designers can reduce ambiguity by showing an intermediate state or labeling the relevant component.\nTesting instructions with users frequently reveals difficulties that experts overlook. Someone who already knows how an object fits together may mentally supply a missing step. A novice cannot necessarily make the same inference. Asking users to explain what they intend to do before they act can expose a misunderstanding without waiting for the object to be assembled incorrectly.\nEffective instructions therefore use representations strategically. Words may be better for stating a condition or warning, while diagrams clarify spatial relationships. The goal is not to minimize the number of words at any cost. It is to coordinate the available forms of information so that a reader can carry out the required action accurately and safely.",
+          "stimulusId": "f6-r1-a2",
+          "number": 34,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-r1-a2-5",
+          "type": "choice",
+          "prompt": "“Coordinate” most nearly means",
+          "options": [
+            "assign a number to each component",
+            "repeat the same message without changes",
+            "make different elements work together",
+            "replace a complex element with a simpler one"
+          ],
+          "answer": 2,
+          "explanation": "The conclusion concerns combining verbal and visual information.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Why Some Instructions Use Pictures",
+          "passage": "Instructions for assembling an object often combine words with diagrams. A diagram can show the relative positions of parts more directly than a long verbal description. This does not mean that pictures are universally easier to understand. Their usefulness depends on what information the task requires and what the reader can interpret.\nAn unfamiliar symbol can create uncertainty. A curved arrow might mean that a component should rotate, but a reader may not know whether the rotation applies to the whole assembly or one small part. Designers can reduce ambiguity by showing an intermediate state or labeling the relevant component.\nTesting instructions with users frequently reveals difficulties that experts overlook. Someone who already knows how an object fits together may mentally supply a missing step. A novice cannot necessarily make the same inference. Asking users to explain what they intend to do before they act can expose a misunderstanding without waiting for the object to be assembled incorrectly.\nEffective instructions therefore use representations strategically. Words may be better for stating a condition or warning, while diagrams clarify spatial relationships. The goal is not to minimize the number of words at any cost. It is to coordinate the available forms of information so that a reader can carry out the required action accurately and safely.",
+          "stimulusId": "f6-r1-a2",
+          "number": 35,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "branches": {
+        "lower": [
+          {
+            "id": "f6-r2-lower-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Underwater sound travels differently from sound in air. Changes in temperature and pressure can ",
+              {
+                "pre": "al",
+                "answer": "ter"
+              },
+              " the path followed by a sound wave. Marine animals may use sound to find food, avoid danger or ",
+              {
+                "pre": "communi",
+                "answer": "cate"
+              },
+              " across long distances. Human activities add sounds to this ",
+              {
+                "pre": "envi",
+                "answer": "ronment"
+              },
+              ". Their effects depend on intensity, duration and the ",
+              {
+                "pre": "fre",
+                "answer": "quencies"
+              },
+              " involved. Researchers do not assume that every audible sound causes the ",
+              {
+                "pre": "pro",
+                "answer": "blem"
+              },
+              ". They measure animal behavior and conditions to ",
+              {
+                "pre": "ass",
+                "answer": "ess"
+              },
+              " situations. This approach helps distinguish a ",
+              {
+                "pre": "res",
+                "answer": "ponse"
+              },
+              " from a disturbance and supports ",
+              {
+                "pre": "eff",
+                "answer": "ective"
+              },
+              " decisions about how and where noisy activities should be ",
+              {
+                "pre": "man",
+                "answer": "aged"
+              },
+              " to reduce their ",
+              {
+                "pre": "im",
+                "answer": "pact"
+              },
+              "."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-lower-a-1",
+            "type": "choice",
+            "prompt": "Why might opening at a characteristic time benefit a flowering plant?",
+            "options": [
+              "It ensures that every visiting animal pollinates it",
+              "It can coincide with the activity of pollinators",
+              "It prevents the flower from ever closing",
+              "It eliminates all effects of temperature"
+            ],
+            "answer": 1,
+            "explanation": "The first paragraph identifies contact with active pollinators.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "A Clock in a Flower",
+            "passage": "Many flowering plants open their flowers at characteristic times of day. This pattern may bring flowers into contact with pollinators when those animals are most active. It can also help protect delicate structures during less favorable conditions. The visible opening is the result of interacting biological and environmental processes.\nSome plants respond directly to changes in light or temperature. Others also show an internal daily rhythm. Researchers can distinguish these influences by keeping plants under controlled conditions. If a pattern continues for a time without the usual daily changes in light, an internal timing mechanism is likely to contribute.\nAn internal rhythm is not entirely independent of the environment. Natural light cycles can synchronize it with local conditions. A plant moved into a different schedule may gradually shift its activity rather than changing instantly. The time required for adjustment gives researchers information about how environmental cues and internal processes interact.\nThese observations caution against interpreting a flower’s schedule as a simple reaction to the current weather. A flower opening on a cloudy morning may still reflect a rhythm established by earlier cycles. At the same time, internal timing does not make immediate conditions irrelevant. Both inherited timing systems and present conditions can influence when a flower is available to a visiting pollinator.",
+            "stimulusId": "f6-r2-lower-a",
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-lower-a-2",
+            "type": "choice",
+            "prompt": "What observation supports the existence of an internal rhythm?",
+            "options": [
+              "The flowers open at a completely random time",
+              "The plant immediately loses all patterns in controlled conditions",
+              "The pattern persists temporarily without normal daily light changes",
+              "The plant responds only when the room becomes warmer"
+            ],
+            "answer": 2,
+            "explanation": "Persistence under constant conditions suggests an internal component.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "A Clock in a Flower",
+            "passage": "Many flowering plants open their flowers at characteristic times of day. This pattern may bring flowers into contact with pollinators when those animals are most active. It can also help protect delicate structures during less favorable conditions. The visible opening is the result of interacting biological and environmental processes.\nSome plants respond directly to changes in light or temperature. Others also show an internal daily rhythm. Researchers can distinguish these influences by keeping plants under controlled conditions. If a pattern continues for a time without the usual daily changes in light, an internal timing mechanism is likely to contribute.\nAn internal rhythm is not entirely independent of the environment. Natural light cycles can synchronize it with local conditions. A plant moved into a different schedule may gradually shift its activity rather than changing instantly. The time required for adjustment gives researchers information about how environmental cues and internal processes interact.\nThese observations caution against interpreting a flower’s schedule as a simple reaction to the current weather. A flower opening on a cloudy morning may still reflect a rhythm established by earlier cycles. At the same time, internal timing does not make immediate conditions irrelevant. Both inherited timing systems and present conditions can influence when a flower is available to a visiting pollinator.",
+            "stimulusId": "f6-r2-lower-a",
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-lower-a-3",
+            "type": "choice",
+            "prompt": "What role can natural light cycles play?",
+            "options": [
+              "They establish identical opening times for all species",
+              "They prevent any gradual adjustment",
+              "They make biological timing mechanisms unnecessary",
+              "They can synchronize an internal rhythm with the environment"
+            ],
+            "answer": 3,
+            "explanation": "The third paragraph describes environmental synchronization.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "A Clock in a Flower",
+            "passage": "Many flowering plants open their flowers at characteristic times of day. This pattern may bring flowers into contact with pollinators when those animals are most active. It can also help protect delicate structures during less favorable conditions. The visible opening is the result of interacting biological and environmental processes.\nSome plants respond directly to changes in light or temperature. Others also show an internal daily rhythm. Researchers can distinguish these influences by keeping plants under controlled conditions. If a pattern continues for a time without the usual daily changes in light, an internal timing mechanism is likely to contribute.\nAn internal rhythm is not entirely independent of the environment. Natural light cycles can synchronize it with local conditions. A plant moved into a different schedule may gradually shift its activity rather than changing instantly. The time required for adjustment gives researchers information about how environmental cues and internal processes interact.\nThese observations caution against interpreting a flower’s schedule as a simple reaction to the current weather. A flower opening on a cloudy morning may still reflect a rhythm established by earlier cycles. At the same time, internal timing does not make immediate conditions irrelevant. Both inherited timing systems and present conditions can influence when a flower is available to a visiting pollinator.",
+            "stimulusId": "f6-r2-lower-a",
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-lower-a-4",
+            "type": "choice",
+            "prompt": "Why mention a cloudy morning?",
+            "options": [
+              "To show why the current conditions alone may not explain opening",
+              "To establish that flowers open only under clouds",
+              "To show that earlier light cycles have no effect",
+              "To identify the main cause of pollinator decline"
+            ],
+            "answer": 0,
+            "explanation": "The example illustrates a rhythm influenced by prior cycles.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "A Clock in a Flower",
+            "passage": "Many flowering plants open their flowers at characteristic times of day. This pattern may bring flowers into contact with pollinators when those animals are most active. It can also help protect delicate structures during less favorable conditions. The visible opening is the result of interacting biological and environmental processes.\nSome plants respond directly to changes in light or temperature. Others also show an internal daily rhythm. Researchers can distinguish these influences by keeping plants under controlled conditions. If a pattern continues for a time without the usual daily changes in light, an internal timing mechanism is likely to contribute.\nAn internal rhythm is not entirely independent of the environment. Natural light cycles can synchronize it with local conditions. A plant moved into a different schedule may gradually shift its activity rather than changing instantly. The time required for adjustment gives researchers information about how environmental cues and internal processes interact.\nThese observations caution against interpreting a flower’s schedule as a simple reaction to the current weather. A flower opening on a cloudy morning may still reflect a rhythm established by earlier cycles. At the same time, internal timing does not make immediate conditions irrelevant. Both inherited timing systems and present conditions can influence when a flower is available to a visiting pollinator.",
+            "stimulusId": "f6-r2-lower-a",
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-lower-a-5",
+            "type": "choice",
+            "prompt": "Which statement best summarizes the passage?",
+            "options": [
+              "Flower opening is determined entirely by the temperature at that moment",
+              "Flower-opening schedules can reflect both internal rhythms and environmental cues",
+              "Controlled experiments cannot separate biological and environmental influences",
+              "All plants use identical timing systems"
+            ],
+            "answer": 1,
+            "explanation": "The text repeatedly develops the interaction of both factors.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "A Clock in a Flower",
+            "passage": "Many flowering plants open their flowers at characteristic times of day. This pattern may bring flowers into contact with pollinators when those animals are most active. It can also help protect delicate structures during less favorable conditions. The visible opening is the result of interacting biological and environmental processes.\nSome plants respond directly to changes in light or temperature. Others also show an internal daily rhythm. Researchers can distinguish these influences by keeping plants under controlled conditions. If a pattern continues for a time without the usual daily changes in light, an internal timing mechanism is likely to contribute.\nAn internal rhythm is not entirely independent of the environment. Natural light cycles can synchronize it with local conditions. A plant moved into a different schedule may gradually shift its activity rather than changing instantly. The time required for adjustment gives researchers information about how environmental cues and internal processes interact.\nThese observations caution against interpreting a flower’s schedule as a simple reaction to the current weather. A flower opening on a cloudy morning may still reflect a rhythm established by earlier cycles. At the same time, internal timing does not make immediate conditions irrelevant. Both inherited timing systems and present conditions can influence when a flower is available to a visiting pollinator.",
+            "stimulusId": "f6-r2-lower-a",
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f6-r2-higher-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Before electric refrigeration, people used methods to keep food from spoiling. Drying removed moisture needed by many ",
+              {
+                "pre": "micro",
+                "answer": "organisms"
+              },
+              ". Salt could create conditions in which they struggled to ",
+              {
+                "pre": "gro",
+                "answer": "w"
+              },
+              ". Some foods were stored in cool underground rooms, where temperatures changed more ",
+              {
+                "pre": "sl",
+                "answer": "owly"
+              },
+              ". These methods required knowledge of local ",
+              {
+                "pre": "cond",
+                "answer": "itions"
+              },
+              " and the properties of foods. They were not ",
+              {
+                "pre": "inter",
+                "answer": "changeable"
+              },
+              ": a technique suitable for one product might damage ",
+              {
+                "pre": "an",
+                "answer": "other"
+              },
+              ". Historical studies examine recipes, tools and storage buildings to ",
+              {
+                "pre": "under",
+                "answer": "stand"
+              },
+              " these practices. Such evidence shows how skills developed through observation and experience long before the chemical ",
+              {
+                "pre": "pro",
+                "answer": "cesses"
+              },
+              " involved could be ",
+              {
+                "pre": "exp",
+                "answer": "lained"
+              },
+              " in scientific ",
+              {
+                "pre": "te",
+                "answer": "rms"
+              },
+              "."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-higher-a-1",
+            "type": "choice",
+            "prompt": "What is the main argument?",
+            "options": [
+              "A map is useful only if every distance is represented precisely",
+              "A map’s simplifications should be understood in relation to its purpose",
+              "Every distortion indicates careless mapmaking",
+              "Digital maps eliminate decisions about selection"
+            ],
+            "answer": 1,
+            "explanation": "Purpose explains selection and the limits of inference.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "Choosing What a Map Leaves Out",
+            "passage": "A map is useful partly because it leaves information out. A drawing that attempted to include every feature at its original size would be as difficult to navigate as the landscape itself. Mapmakers choose which relationships to emphasize according to the task the map is meant to support.\nA transit diagram offers a familiar example. It may show stations at roughly equal intervals even when the actual distances between them differ greatly. The diagram helps passengers identify connections and the order of stops, but it may be unsuitable for estimating how far they must walk above ground. The distortion is purposeful rather than necessarily a mistake.\nThe same principle applies to thematic maps, which emphasize a particular kind of information. A map of rainfall can group measurements into shaded categories. The boundaries between categories simplify a continuous pattern, and the selected ranges influence how large differences appear. A reader should therefore examine the legend instead of treating every change in shading as an equally large change in the underlying measurements.\nDigital maps can reveal additional layers on demand, yet they still involve selection. Screen size, scale and visual priority affect what is readily visible. Good map reading involves asking both what a map shows clearly and what its design makes difficult to infer.",
+            "stimulusId": "f6-r2-higher-a",
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-higher-a-2",
+            "type": "choice",
+            "prompt": "What does a transit diagram typically emphasize?",
+            "options": [
+              "The elevation of every street",
+              "Rainfall differences among neighborhoods",
+              "Connections and the sequence of stations",
+              "Precise walking distances above ground"
+            ],
+            "answer": 2,
+            "explanation": "The second paragraph identifies the diagram’s main function.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Choosing What a Map Leaves Out",
+            "passage": "A map is useful partly because it leaves information out. A drawing that attempted to include every feature at its original size would be as difficult to navigate as the landscape itself. Mapmakers choose which relationships to emphasize according to the task the map is meant to support.\nA transit diagram offers a familiar example. It may show stations at roughly equal intervals even when the actual distances between them differ greatly. The diagram helps passengers identify connections and the order of stops, but it may be unsuitable for estimating how far they must walk above ground. The distortion is purposeful rather than necessarily a mistake.\nThe same principle applies to thematic maps, which emphasize a particular kind of information. A map of rainfall can group measurements into shaded categories. The boundaries between categories simplify a continuous pattern, and the selected ranges influence how large differences appear. A reader should therefore examine the legend instead of treating every change in shading as an equally large change in the underlying measurements.\nDigital maps can reveal additional layers on demand, yet they still involve selection. Screen size, scale and visual priority affect what is readily visible. Good map reading involves asking both what a map shows clearly and what its design makes difficult to infer.",
+            "stimulusId": "f6-r2-higher-a",
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-higher-a-3",
+            "type": "choice",
+            "prompt": "Why does the author describe the distortion as purposeful?",
+            "options": [
+              "It removes all differences between stations",
+              "It makes all measurements more accurate",
+              "It allows readers to ignore the intended use",
+              "It can improve the information needed for a particular task"
+            ],
+            "answer": 3,
+            "explanation": "A geographically distorted diagram may still serve passengers well.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "Choosing What a Map Leaves Out",
+            "passage": "A map is useful partly because it leaves information out. A drawing that attempted to include every feature at its original size would be as difficult to navigate as the landscape itself. Mapmakers choose which relationships to emphasize according to the task the map is meant to support.\nA transit diagram offers a familiar example. It may show stations at roughly equal intervals even when the actual distances between them differ greatly. The diagram helps passengers identify connections and the order of stops, but it may be unsuitable for estimating how far they must walk above ground. The distortion is purposeful rather than necessarily a mistake.\nThe same principle applies to thematic maps, which emphasize a particular kind of information. A map of rainfall can group measurements into shaded categories. The boundaries between categories simplify a continuous pattern, and the selected ranges influence how large differences appear. A reader should therefore examine the legend instead of treating every change in shading as an equally large change in the underlying measurements.\nDigital maps can reveal additional layers on demand, yet they still involve selection. Screen size, scale and visual priority affect what is readily visible. Good map reading involves asking both what a map shows clearly and what its design makes difficult to infer.",
+            "stimulusId": "f6-r2-higher-a",
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-higher-a-4",
+            "type": "choice",
+            "prompt": "Why should a reader examine the legend on a rainfall map?",
+            "options": [
+              "Different shading categories may represent unequal numerical ranges",
+              "The legend always supplies unshown street names",
+              "Every shaded boundary is a physical barrier",
+              "Rainfall is measured only at category boundaries"
+            ],
+            "answer": 0,
+            "explanation": "The category ranges affect the apparent differences.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "Choosing What a Map Leaves Out",
+            "passage": "A map is useful partly because it leaves information out. A drawing that attempted to include every feature at its original size would be as difficult to navigate as the landscape itself. Mapmakers choose which relationships to emphasize according to the task the map is meant to support.\nA transit diagram offers a familiar example. It may show stations at roughly equal intervals even when the actual distances between them differ greatly. The diagram helps passengers identify connections and the order of stops, but it may be unsuitable for estimating how far they must walk above ground. The distortion is purposeful rather than necessarily a mistake.\nThe same principle applies to thematic maps, which emphasize a particular kind of information. A map of rainfall can group measurements into shaded categories. The boundaries between categories simplify a continuous pattern, and the selected ranges influence how large differences appear. A reader should therefore examine the legend instead of treating every change in shading as an equally large change in the underlying measurements.\nDigital maps can reveal additional layers on demand, yet they still involve selection. Screen size, scale and visual priority affect what is readily visible. Good map reading involves asking both what a map shows clearly and what its design makes difficult to infer.",
+            "stimulusId": "f6-r2-higher-a",
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-r2-higher-a-5",
+            "type": "choice",
+            "prompt": "“Thematic” describes a map that",
+            "options": [
+              "has no selected scale",
+              "focuses on a particular subject or type of information",
+              "shows every available feature equally",
+              "is drawn only on paper"
+            ],
+            "answer": 1,
+            "explanation": "The passage defines thematic maps through their emphasis.",
+            "skill": "vocabulary",
+            "task": "academic-passage",
+            "title": "Choosing What a Map Leaves Out",
+            "passage": "A map is useful partly because it leaves information out. A drawing that attempted to include every feature at its original size would be as difficult to navigate as the landscape itself. Mapmakers choose which relationships to emphasize according to the task the map is meant to support.\nA transit diagram offers a familiar example. It may show stations at roughly equal intervals even when the actual distances between them differ greatly. The diagram helps passengers identify connections and the order of stops, but it may be unsuitable for estimating how far they must walk above ground. The distortion is purposeful rather than necessarily a mistake.\nThe same principle applies to thematic maps, which emphasize a particular kind of information. A map of rainfall can group measurements into shaded categories. The boundaries between categories simplify a continuous pattern, and the selected ranges influence how large differences appear. A reader should therefore examine the legend instead of treating every change in shading as an equally large change in the underlying measurements.\nDigital maps can reveal additional layers on demand, yet they still involve selection. Screen size, scale and visual priority affect what is readily visible. Good map reading involves asking both what a map shows clearly and what its design makes difficult to infer.",
+            "stimulusId": "f6-r2-higher-a",
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          }
+        ]
+      }
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "f6-l-router-response-0-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Please use the lockers instead.",
+            "The visit was very interesting.",
+            "I left home at eight.",
+            "The bag belongs to my friend."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-0",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Can I leave my bag here during the visit?"
+          },
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-1-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The survey covers three topics.",
+            "Try the updated link in today’s email.",
+            "The email was quite brief.",
+            "I opened the room this morning."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-1",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I’m having trouble opening the survey form."
+          },
+          "number": 2,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-2-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I advised him to arrive early.",
+            "The booking page has a calendar.",
+            "Yes, she can sponsor the room booking.",
+            "The room has a management office."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-2",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Did you manage to speak to the adviser?"
+          },
+          "number": 3,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-3-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The format of the event has changed.",
+            "I edited the audio yesterday.",
+            "The caption is below the image.",
+            "Certainly, I’ll attach the text file."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-3",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Could you send the caption in an editable format?"
+          },
+          "number": 4,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-4-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, it’s tomorrow afternoon.",
+            "The department has moved buildings.",
+            "I corrected the spelling earlier.",
+            "The afternoon talk was cancelled."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-4",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Is there a deadline for correcting affiliations?"
+          },
+          "number": 5,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-5-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The claim was submitted online.",
+            "Then let’s use the stronger example.",
+            "The other figure is printed in blue.",
+            "I support the volunteering project."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-5",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I don’t think this figure supports our claim as clearly as the other one."
+          },
+          "number": 6,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-6-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I kept my ticket after the trip.",
+            "Old buildings can be interesting.",
+            "So later readers can trace the change.",
+            "The label is inside the box."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-6",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Why are we keeping a copy of the old label?"
+          },
+          "number": 7,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-7-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The method uses two instruments.",
+            "I went through the entrance on the right.",
+            "The results were uploaded yesterday.",
+            "Yes, the audience needs that context."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-7",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Would you prefer to go through the methods before the results?"
+          },
+          "number": 8,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-8-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "You could let the group leader know now.",
+            "The bus route passes the library.",
+            "I arrived early yesterday.",
+            "The group has a new leader."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-8",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I’ll be late unless the next bus arrives soon."
+          },
+          "number": 9,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-9-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The entrance is made of glass.",
+            "We should point out the change at reception.",
+            "The guide spoke very clearly.",
+            "I printed my boarding pass."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-9",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "The printed guide still shows the old entrance."
+          },
+          "number": 10,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-10-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The recording equipment is black.",
+            "Yes, it will be posted in the portal.",
+            "The portal has a new design.",
+            "I arrived later than usual."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-10",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Can the later arrivals watch a recording?"
+          },
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-response-11-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The committee reviews it next week.",
+            "The proposal has four sections.",
+            "I happened to see the chairperson.",
+            "The submission button is green."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f6-l-router-response-11",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "What happens after we submit the proposal?"
+          },
+          "number": 12,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-conversation-0-1",
+          "type": "choice",
+          "prompt": "Why do the speakers need another source of ice?",
+          "options": [
+            "The department no longer permits ice",
+            "The laboratory container has been lost",
+            "The usual freezer is temporarily unavailable",
+            "The demonstration has moved to the café"
+          ],
+          "answer": 2,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f6-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The lab demonstration needs ice, but the department freezer is being defrosted.\nMan: The café can supply some in the morning, provided we collect it before they open.\nWoman: I have an early lecture. Could you pick it up?\nMan: Yes, if you leave the insulated container at reception tonight.\nWoman: I’ll label it with the lab number and leave it there before six.\nMan: Then I’ll bring the ice straight to the demonstration room."
+          },
+          "number": 13,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-conversation-0-2",
+          "type": "choice",
+          "prompt": "What must the woman do?",
+          "options": [
+            "Collect ice after the café opens",
+            "Leave the insulated container at reception",
+            "Bring the department freezer to the café",
+            "Cancel her early lecture"
+          ],
+          "answer": 1,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f6-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The lab demonstration needs ice, but the department freezer is being defrosted.\nMan: The café can supply some in the morning, provided we collect it before they open.\nWoman: I have an early lecture. Could you pick it up?\nMan: Yes, if you leave the insulated container at reception tonight.\nWoman: I’ll label it with the lab number and leave it there before six.\nMan: Then I’ll bring the ice straight to the demonstration room."
+          },
+          "number": 14,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-conversation-1-1",
+          "type": "choice",
+          "prompt": "What requirement is the man trying to meet?",
+          "options": [
+            "Publishing the original feedback without editing",
+            "Changing negative comments into positive ones",
+            "Including every participant’s name in a report",
+            "Protecting the identities of people mentioned in feedback"
+          ],
+          "answer": 3,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f6-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: The professor asked for an anonymous summary of the workshop feedback, but some comments mention students by name.\nWoman: Remove identifying details before you share it. Keep the points about the workshop itself.\nMan: What if removing a name makes a sentence hard to follow?\nWoman: Paraphrase that part without changing its meaning, and note that the comments were anonymized.\nMan: I’ll do that before sending the summary to the class."
+          },
+          "number": 15,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-conversation-1-2",
+          "type": "choice",
+          "prompt": "How will he handle unclear comments?",
+          "options": [
+            "Paraphrase identifying parts while preserving their meaning",
+            "Invent details to complete them",
+            "Delete every critical comment",
+            "Ask the class to identify each writer"
+          ],
+          "answer": 0,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f6-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: The professor asked for an anonymous summary of the workshop feedback, but some comments mention students by name.\nWoman: Remove identifying details before you share it. Keep the points about the workshop itself.\nMan: What if removing a name makes a sentence hard to follow?\nWoman: Paraphrase that part without changing its meaning, and note that the comments were anonymized.\nMan: I’ll do that before sending the summary to the class."
+          },
+          "number": 16,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-conversation-2-1",
+          "type": "choice",
+          "prompt": "Why is the inexpensive room unsuitable?",
+          "options": [
+            "It is not accessible to every group member",
+            "It lacks enough discussion topics",
+            "It is already sponsored by a department",
+            "It is outside the university"
+          ],
+          "answer": 0,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f6-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I found an inexpensive room for our discussion group, but it’s upstairs and there’s no lift.\nMan: One member uses a wheelchair, so that won’t work.\nWoman: The accessible room costs more unless a department sponsors the booking.\nMan: Our adviser said she could support student-led events. Let’s ask her about sponsorship before choosing another building.\nWoman: I’ll send her the details and explain the access issue."
+          },
+          "number": 17,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-conversation-2-2",
+          "type": "choice",
+          "prompt": "What will the woman request?",
+          "options": [
+            "Installation of a lift before the meeting",
+            "Cancellation of all group discussions",
+            "Permission to exclude a member",
+            "Help obtaining the accessible room"
+          ],
+          "answer": 3,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f6-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I found an inexpensive room for our discussion group, but it’s upstairs and there’s no lift.\nMan: One member uses a wheelchair, so that won’t work.\nWoman: The accessible room costs more unless a department sponsors the booking.\nMan: Our adviser said she could support student-led events. Let’s ask her about sponsorship before choosing another building.\nWoman: I’ll send her the details and explain the access issue."
+          },
+          "number": 18,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-announcement-0-1",
+          "type": "choice",
+          "prompt": "How will expansion joints be demonstrated?",
+          "options": [
+            "By removing a joint from the actual structure",
+            "With a written quiz only",
+            "With a small model in the visitor area",
+            "By allowing students onto the closed bridge"
+          ],
+          "answer": 2,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f6-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The bridge inspection talk will include a short outdoor demonstration. We will not cross the closed bridge. The engineer will use a small model in the visitor area to show how expansion joints work. Bring a jacket, since that part takes place outside. The following discussion will be indoors, where photographs of the actual inspection will be shown."
+          },
+          "number": 19,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-announcement-0-2",
+          "type": "choice",
+          "prompt": "What is implied about the inspection photographs?",
+          "options": [
+            "They will replace the outdoor model demonstration entirely",
+            "Students can see them during the indoor discussion",
+            "They are unavailable because the bridge is closed",
+            "Students must take them while crossing the bridge"
+          ],
+          "answer": 1,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f6-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The bridge inspection talk will include a short outdoor demonstration. We will not cross the closed bridge. The engineer will use a small model in the visitor area to show how expansion joints work. Bring a jacket, since that part takes place outside. The following discussion will be indoors, where photographs of the actual inspection will be shown."
+          },
+          "number": 20,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-announcement-1-1",
+          "type": "choice",
+          "prompt": "Why must participants attend twice?",
+          "options": [
+            "Participants must bring a different friend each time",
+            "The same lecture is repeated for convenience",
+            "The first meeting is only a payment appointment",
+            "The research requires a comparison across the two sessions"
+          ],
+          "answer": 3,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f6-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The memory study needs participants for two brief sessions one week apart. You must be available for both; attending the first alone will not provide the comparison we need. No special preparation is required. Please do not practice the word list between sessions unless the researcher explicitly asks you to do so. Sign up through the psychology department’s participant portal."
+          },
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-announcement-1-2",
+          "type": "choice",
+          "prompt": "What are participants asked not to do independently?",
+          "options": [
+            "Practice the study’s word list between sessions",
+            "Use the registration portal",
+            "Attend the second session",
+            "Ask about the study instructions"
+          ],
+          "answer": 0,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f6-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The memory study needs participants for two brief sessions one week apart. You must be available for both; attending the first alone will not provide the comparison we need. No special preparation is required. Please do not practice the word list between sessions unless the researcher explicitly asks you to do so. Sign up through the psychology department’s participant portal."
+          },
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-announcement-2-1",
+          "type": "choice",
+          "prompt": "Why should students not taste the samples?",
+          "options": [
+            "They are intended only for demonstration",
+            "They have been reserved for the course office",
+            "The seminar is about photography instead",
+            "Every student must prepare a personal recipe"
+          ],
+          "answer": 0,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f6-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The food-history seminar will meet in the teaching kitchen this week. We will examine preservation methods but will not taste the historical samples, which are for demonstration only. Bring the reading notes from last week. Students with access requirements should contact the course office; the side entrance provides a step-free route, but staff need advance notice to unlock it."
+          },
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-announcement-2-2",
+          "type": "choice",
+          "prompt": "Why is advance contact requested for step-free access?",
+          "options": [
+            "The main reading notes must be replaced",
+            "Students must attend a different course",
+            "The kitchen has no accessible entrance",
+            "Staff must unlock the appropriate entrance"
+          ],
+          "answer": 3,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f6-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The food-history seminar will meet in the teaching kitchen this week. We will examine preservation methods but will not taste the historical samples, which are for demonstration only. Bring the reading notes from last week. Students with access requirements should contact the course office; the side entrance provides a step-free route, but staff need advance notice to unlock it."
+          },
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-0-1",
+          "type": "choice",
+          "prompt": "What is the speaker’s main point?",
+          "options": [
+            "An unknown maker makes all evidence useless",
+            "An object can support investigation even when some of its history is unknown",
+            "Wear marks always identify one exact activity",
+            "Museum records are necessarily accurate"
+          ],
+          "answer": 1,
+          "explanation": "The talk values evidence with explicit uncertainty.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "A Museum Object without a Name",
+          "stimulus": {
+            "id": "f6-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "A Museum Object without a Name",
+            "script": "Sometimes a museum holds an object whose maker or original owner is unknown. That does not mean the object has nothing to tell us. Its material, wear and relationship to other objects can support questions about use and production, even when a personal name cannot be recovered.\nWear marks offer one kind of clue. Repeated contact can polish an edge or leave scratches in a particular direction. Researchers compare these marks with examples produced experimentally or with objects of known use. A resemblance can support an interpretation, but several different activities may leave similar traces. Conclusions should reflect that uncertainty.\nCollection history is another source. A note written when an object entered a museum might identify where it was found. Yet older records can be incomplete or shaped by assumptions that later research questions. The record itself must be evaluated rather than treated as automatically correct.\nMuseums can communicate these distinctions to visitors. A label may explain what is known, what is inferred and what remains unknown. This can be more educational than presenting an uncertain story with unjustified confidence. An incomplete history is not a reason to stop investigating; it is a reason to make the basis and limits of an interpretation visible."
+          },
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-0-2",
+          "type": "choice",
+          "prompt": "How can researchers investigate wear marks?",
+          "options": [
+            "Assume that any scratch proves the same function",
+            "Ignore the object’s material",
+            "Compare them with marks from known or experimental uses",
+            "Remove all surface traces before study"
+          ],
+          "answer": 2,
+          "explanation": "Comparative evidence supports cautious interpretation.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "A Museum Object without a Name",
+          "stimulus": {
+            "id": "f6-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "A Museum Object without a Name",
+            "script": "Sometimes a museum holds an object whose maker or original owner is unknown. That does not mean the object has nothing to tell us. Its material, wear and relationship to other objects can support questions about use and production, even when a personal name cannot be recovered.\nWear marks offer one kind of clue. Repeated contact can polish an edge or leave scratches in a particular direction. Researchers compare these marks with examples produced experimentally or with objects of known use. A resemblance can support an interpretation, but several different activities may leave similar traces. Conclusions should reflect that uncertainty.\nCollection history is another source. A note written when an object entered a museum might identify where it was found. Yet older records can be incomplete or shaped by assumptions that later research questions. The record itself must be evaluated rather than treated as automatically correct.\nMuseums can communicate these distinctions to visitors. A label may explain what is known, what is inferred and what remains unknown. This can be more educational than presenting an uncertain story with unjustified confidence. An incomplete history is not a reason to stop investigating; it is a reason to make the basis and limits of an interpretation visible."
+          },
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-0-3",
+          "type": "choice",
+          "prompt": "Why must older collection notes be evaluated?",
+          "options": [
+            "They replace every other kind of evidence",
+            "They contain no information about locations",
+            "They always identify every previous owner",
+            "They may be incomplete or based on questionable assumptions"
+          ],
+          "answer": 3,
+          "explanation": "The collection record can itself have limitations.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "A Museum Object without a Name",
+          "stimulus": {
+            "id": "f6-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "A Museum Object without a Name",
+            "script": "Sometimes a museum holds an object whose maker or original owner is unknown. That does not mean the object has nothing to tell us. Its material, wear and relationship to other objects can support questions about use and production, even when a personal name cannot be recovered.\nWear marks offer one kind of clue. Repeated contact can polish an edge or leave scratches in a particular direction. Researchers compare these marks with examples produced experimentally or with objects of known use. A resemblance can support an interpretation, but several different activities may leave similar traces. Conclusions should reflect that uncertainty.\nCollection history is another source. A note written when an object entered a museum might identify where it was found. Yet older records can be incomplete or shaped by assumptions that later research questions. The record itself must be evaluated rather than treated as automatically correct.\nMuseums can communicate these distinctions to visitors. A label may explain what is known, what is inferred and what remains unknown. This can be more educational than presenting an uncertain story with unjustified confidence. An incomplete history is not a reason to stop investigating; it is a reason to make the basis and limits of an interpretation visible."
+          },
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-0-4",
+          "type": "choice",
+          "prompt": "What kind of label does the speaker favor?",
+          "options": [
+            "One distinguishing knowledge, inference and uncertainty",
+            "One concealing every unanswered question",
+            "One inventing a complete personal story",
+            "One refusing to mention any evidence"
+          ],
+          "answer": 0,
+          "explanation": "The final paragraph recommends transparent distinctions.",
+          "skill": "attitude",
+          "task": "academic-talk",
+          "title": "A Museum Object without a Name",
+          "stimulus": {
+            "id": "f6-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "A Museum Object without a Name",
+            "script": "Sometimes a museum holds an object whose maker or original owner is unknown. That does not mean the object has nothing to tell us. Its material, wear and relationship to other objects can support questions about use and production, even when a personal name cannot be recovered.\nWear marks offer one kind of clue. Repeated contact can polish an edge or leave scratches in a particular direction. Researchers compare these marks with examples produced experimentally or with objects of known use. A resemblance can support an interpretation, but several different activities may leave similar traces. Conclusions should reflect that uncertainty.\nCollection history is another source. A note written when an object entered a museum might identify where it was found. Yet older records can be incomplete or shaped by assumptions that later research questions. The record itself must be evaluated rather than treated as automatically correct.\nMuseums can communicate these distinctions to visitors. A label may explain what is known, what is inferred and what remains unknown. This can be more educational than presenting an uncertain story with unjustified confidence. An incomplete history is not a reason to stop investigating; it is a reason to make the basis and limits of an interpretation visible."
+          },
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-1-1",
+          "type": "choice",
+          "prompt": "What distinction is central to the talk?",
+          "options": [
+            "Perceptual sensitivity and the strategy used to decide",
+            "Hearing and the ability to read musical notation",
+            "Two tones and two unrelated instruments",
+            "Practice and the physical repair of headphones"
+          ],
+          "answer": 0,
+          "explanation": "The talk separates sensing differences from deciding how to report them.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "An Experiment in Listening",
+          "stimulus": {
+            "id": "f6-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "An Experiment in Listening",
+            "script": "A researcher plays two tones and asks listeners whether they are different. The task seems simple, but the instruction can influence how people respond. Some listeners may report a difference whenever they are slightly uncertain, while others may answer differently unless they are very sure.\nThis means that a response can reflect both sensitivity to the sounds and a decision strategy. Researchers often include trials in which the tones are identical. If someone frequently reports differences on those trials, the pattern helps interpret their answers on genuinely different pairs. Counting correct answers alone may miss this distinction.\nPractice and feedback can change the strategy as well as the ability being measured. A participant who believes that differences are extremely rare may become reluctant to report one. Experimenters therefore describe the procedure consistently and examine several kinds of response, rather than relying on one total.\nThe same general issue appears in other detection tasks, such as noticing a visual signal or identifying a faint event in a recording. A useful experiment asks not only whether a person responded correctly but how the conditions encouraged them to make a decision. That distinction helps avoid attributing every change in performance to a change in perception itself."
+          },
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-1-2",
+          "type": "choice",
+          "prompt": "Why include identical-tone trials?",
+          "options": [
+            "They prevent participants from hearing either tone",
+            "They replace all genuinely different pairs",
+            "They guarantee that every listener will answer correctly",
+            "Responses on them help identify a tendency to report differences"
+          ],
+          "answer": 3,
+          "explanation": "Such trials reveal false reports of differences.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "An Experiment in Listening",
+          "stimulus": {
+            "id": "f6-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "An Experiment in Listening",
+            "script": "A researcher plays two tones and asks listeners whether they are different. The task seems simple, but the instruction can influence how people respond. Some listeners may report a difference whenever they are slightly uncertain, while others may answer differently unless they are very sure.\nThis means that a response can reflect both sensitivity to the sounds and a decision strategy. Researchers often include trials in which the tones are identical. If someone frequently reports differences on those trials, the pattern helps interpret their answers on genuinely different pairs. Counting correct answers alone may miss this distinction.\nPractice and feedback can change the strategy as well as the ability being measured. A participant who believes that differences are extremely rare may become reluctant to report one. Experimenters therefore describe the procedure consistently and examine several kinds of response, rather than relying on one total.\nThe same general issue appears in other detection tasks, such as noticing a visual signal or identifying a faint event in a recording. A useful experiment asks not only whether a person responded correctly but how the conditions encouraged them to make a decision. That distinction helps avoid attributing every change in performance to a change in perception itself."
+          },
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-1-3",
+          "type": "choice",
+          "prompt": "What might happen if a participant expects differences to be rare?",
+          "options": [
+            "The participant’s hearing must improve immediately",
+            "Every response becomes random",
+            "The participant may become reluctant to report one",
+            "The tones necessarily become physically identical"
+          ],
+          "answer": 2,
+          "explanation": "Expectations can affect the decision strategy.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "An Experiment in Listening",
+          "stimulus": {
+            "id": "f6-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "An Experiment in Listening",
+            "script": "A researcher plays two tones and asks listeners whether they are different. The task seems simple, but the instruction can influence how people respond. Some listeners may report a difference whenever they are slightly uncertain, while others may answer differently unless they are very sure.\nThis means that a response can reflect both sensitivity to the sounds and a decision strategy. Researchers often include trials in which the tones are identical. If someone frequently reports differences on those trials, the pattern helps interpret their answers on genuinely different pairs. Counting correct answers alone may miss this distinction.\nPractice and feedback can change the strategy as well as the ability being measured. A participant who believes that differences are extremely rare may become reluctant to report one. Experimenters therefore describe the procedure consistently and examine several kinds of response, rather than relying on one total.\nThe same general issue appears in other detection tasks, such as noticing a visual signal or identifying a faint event in a recording. A useful experiment asks not only whether a person responded correctly but how the conditions encouraged them to make a decision. That distinction helps avoid attributing every change in performance to a change in perception itself."
+          },
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "f6-l-router-talk-1-4",
+          "type": "choice",
+          "prompt": "What interpretation should researchers avoid?",
+          "options": [
+            "Considering instructions when evaluating results",
+            "Attributing every performance change to perception alone",
+            "Checking the consistency of procedures",
+            "Using several response categories"
+          ],
+          "answer": 1,
+          "explanation": "Decision conditions may also explain changes.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "An Experiment in Listening",
+          "stimulus": {
+            "id": "f6-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "An Experiment in Listening",
+            "script": "A researcher plays two tones and asks listeners whether they are different. The task seems simple, but the instruction can influence how people respond. Some listeners may report a difference whenever they are slightly uncertain, while others may answer differently unless they are very sure.\nThis means that a response can reflect both sensitivity to the sounds and a decision strategy. Researchers often include trials in which the tones are identical. If someone frequently reports differences on those trials, the pattern helps interpret their answers on genuinely different pairs. Counting correct answers alone may miss this distinction.\nPractice and feedback can change the strategy as well as the ability being measured. A participant who believes that differences are extremely rare may become reluctant to report one. Experimenters therefore describe the procedure consistently and examine several kinds of response, rather than relying on one total.\nThe same general issue appears in other detection tasks, such as noticing a visual signal or identifying a faint event in a recording. A useful experiment asks not only whether a person responded correctly but how the conditions encouraged them to make a decision. That distinction helps avoid attributing every change in performance to a change in perception itself."
+          },
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-06"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "branches": {
+        "lower": [
+          {
+            "id": "f6-l-lower-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I borrowed a novel last week.",
+              "The procedure was written in April.",
+              "The staff can explain the procedure.",
+              "The library has several tools."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-lower-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I’ve never borrowed anything from the tool library."
+            },
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The first document is a letter.",
+              "I photographed the garden yesterday.",
+              "The pages are numbered carefully.",
+              "Yes, ask the archivist first."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-lower-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Do we need permission to photograph these pages?"
+            },
+            "number": 2,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Of course; tell me when you’re ready.",
+              "I waited for the bus yesterday.",
+              "The file contains several charts.",
+              "The copy is in the blue folder."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-lower-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Could you wait until I’ve copied the file?"
+            },
+            "number": 3,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The room is on the ground floor.",
+              "As soon as the inspection finishes.",
+              "The inspection report has ten pages.",
+              "I became interested last term."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-lower-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "When will the room become available?"
+            },
+            "number": 4,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I run most mornings.",
+              "The event attracted many visitors.",
+              "One of the event hosts will do it.",
+              "The order was placed last week."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-lower-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Who’s going to announce the revised running order?"
+            },
+            "number": 5,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-conversation-0-1",
+            "type": "choice",
+            "prompt": "Why does the woman question the initial interpretation?",
+            "options": [
+              "Differences in camera operation may affect the counts",
+              "The animals cannot be photographed in winter",
+              "Every camera recorded continuously",
+              "The survey was designed to count plants"
+            ],
+            "answer": 0,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: Our camera count shows fewer animals this week. Should we report a population decline?\nWoman: First check whether every camera was operating. One battery failed during the cold nights.\nMan: I hadn’t compared the operating hours.\nWoman: A shorter recording period could explain some of the difference. We should describe that limitation before interpreting the totals.\nMan: I’ll calculate the active hours for each camera and revise the comparison."
+            },
+            "number": 6,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the man calculate?",
+            "options": [
+              "The age of every animal photographed",
+              "The number of future field trips",
+              "The price of a new survey vehicle",
+              "The actual operating time of the cameras"
+            ],
+            "answer": 3,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: Our camera count shows fewer animals this week. Should we report a population decline?\nWoman: First check whether every camera was operating. One battery failed during the cold nights.\nMan: I hadn’t compared the operating hours.\nWoman: A shorter recording period could explain some of the difference. We should describe that limitation before interpreting the totals.\nMan: I’ll calculate the active hours for each camera and revise the comparison."
+            },
+            "number": 7,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-conversation-1-1",
+            "type": "choice",
+            "prompt": "What needs correcting?",
+            "options": [
+              "The poster’s research results",
+              "The woman’s departmental affiliation",
+              "The names of all contributors",
+              "The submission deadline"
+            ],
+            "answer": 1,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: I was going to submit our joint poster tonight, but the contributor list still has my old department.\nMan: The submission form lets us update affiliations until tomorrow, even after uploading.\nWoman: Then we don’t need to hold back the whole poster?\nMan: No. Upload the current file, but fix the affiliation in the form and send me a screenshot to check.\nWoman: I’ll make that correction before confirming the submission."
+            },
+            "number": 8,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-conversation-1-2",
+            "type": "choice",
+            "prompt": "What will she do before confirming?",
+            "options": [
+              "Wait until after the correction deadline",
+              "Remove her name from the project",
+              "Update the form and obtain a check of the correction",
+              "Withdraw the poster permanently"
+            ],
+            "answer": 2,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: I was going to submit our joint poster tonight, but the contributor list still has my old department.\nMan: The submission form lets us update affiliations until tomorrow, even after uploading.\nWoman: Then we don’t need to hold back the whole poster?\nMan: No. Upload the current file, but fix the affiliation in the form and send me a screenshot to check.\nWoman: I’ll make that correction before confirming the submission."
+            },
+            "number": 9,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-announcement-0-1",
+            "type": "choice",
+            "prompt": "What should observers do about a missed day?",
+            "options": [
+              "Leave a clearly missing entry",
+              "Estimate the date without labeling it",
+              "Copy another plant’s observation",
+              "Enter the next day’s value twice"
+            ],
+            "answer": 0,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f6-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "For the flower-timing project, observations should be entered on the day they are made. If you miss a day, leave that entry blank rather than estimating from memory. We can work with missing observations when they are clearly marked. An invented date, however, could look like genuine evidence and distort our interpretation. Include the plant’s identification number with every entry."
+            },
+            "number": 10,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-announcement-0-2",
+            "type": "choice",
+            "prompt": "Why is estimating from memory discouraged?",
+            "options": [
+              "The identification numbers would become unnecessary",
+              "The project records only weather conditions",
+              "Memory entries are always more detailed",
+              "It could be mistaken for an actual observation"
+            ],
+            "answer": 3,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f6-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "For the flower-timing project, observations should be entered on the day they are made. If you miss a day, leave that entry blank rather than estimating from memory. We can work with missing observations when they are clearly marked. An invented date, however, could look like genuine evidence and distort our interpretation. Include the plant’s identification number with every entry."
+            },
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the talk mainly explaining?",
+            "options": [
+              "Why condition checks are unnecessary for borrowed objects",
+              "How to choose a single wall color",
+              "Why every exhibition should become permanent",
+              "The connected work before and after an exhibition opens"
+            ],
+            "answer": 3,
+            "explanation": "The lifecycle and dependencies are the central topic.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "The Life of a Temporary Exhibition",
+            "stimulus": {
+              "id": "f6-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "The Life of a Temporary Exhibition",
+              "script": "Temporary exhibitions are often planned around a public opening date. Behind that date is a sequence of interdependent tasks: borrowing objects, checking their condition, designing cases and preparing interpretation. A delay in one part can affect several others, even when it seems minor on its own.\nFor example, a display designer needs reliable dimensions before constructing a support. If an object arrives later than expected, measurements supplied in advance become especially important. Yet a measurement alone may not reveal a fragile surface that requires a different support. Communication between lenders, conservators and designers helps resolve such issues.\nText preparation has a similar dependency. A label cannot simply be written at the last moment if it needs editing, translation or accessibility review. Scheduling these steps early can reduce rushed decisions near installation. The goal is not to prevent every revision but to make necessary revisions possible without sacrificing essential checks.\nAfter the exhibition closes, the work continues. Borrowed objects need condition checks and safe return arrangements, while evaluation can inform future projects. Thinking of an exhibition as a process rather than only a finished room makes this less visible work easier to understand. The opening is a significant milestone, but it is neither the beginning nor the end of the whole undertaking."
+            },
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-talk-0-2",
+            "type": "choice",
+            "prompt": "Why might dimensions be insufficient for designing a support?",
+            "options": [
+              "They may not reveal a fragile surface",
+              "They always indicate the object’s complete history",
+              "They cannot be communicated before delivery",
+              "They make communication with a lender unnecessary"
+            ],
+            "answer": 0,
+            "explanation": "Condition as well as size affects support design.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "The Life of a Temporary Exhibition",
+            "stimulus": {
+              "id": "f6-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "The Life of a Temporary Exhibition",
+              "script": "Temporary exhibitions are often planned around a public opening date. Behind that date is a sequence of interdependent tasks: borrowing objects, checking their condition, designing cases and preparing interpretation. A delay in one part can affect several others, even when it seems minor on its own.\nFor example, a display designer needs reliable dimensions before constructing a support. If an object arrives later than expected, measurements supplied in advance become especially important. Yet a measurement alone may not reveal a fragile surface that requires a different support. Communication between lenders, conservators and designers helps resolve such issues.\nText preparation has a similar dependency. A label cannot simply be written at the last moment if it needs editing, translation or accessibility review. Scheduling these steps early can reduce rushed decisions near installation. The goal is not to prevent every revision but to make necessary revisions possible without sacrificing essential checks.\nAfter the exhibition closes, the work continues. Borrowed objects need condition checks and safe return arrangements, while evaluation can inform future projects. Thinking of an exhibition as a process rather than only a finished room makes this less visible work easier to understand. The opening is a significant milestone, but it is neither the beginning nor the end of the whole undertaking."
+            },
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-talk-0-3",
+            "type": "choice",
+            "prompt": "Why prepare labels early?",
+            "options": [
+              "Labels must never be revised",
+              "Editing and accessibility checks require time",
+              "Every object must have a translated title only",
+              "Early writing removes the need for research"
+            ],
+            "answer": 1,
+            "explanation": "Several review steps depend on receiving text in time.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "The Life of a Temporary Exhibition",
+            "stimulus": {
+              "id": "f6-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "The Life of a Temporary Exhibition",
+              "script": "Temporary exhibitions are often planned around a public opening date. Behind that date is a sequence of interdependent tasks: borrowing objects, checking their condition, designing cases and preparing interpretation. A delay in one part can affect several others, even when it seems minor on its own.\nFor example, a display designer needs reliable dimensions before constructing a support. If an object arrives later than expected, measurements supplied in advance become especially important. Yet a measurement alone may not reveal a fragile surface that requires a different support. Communication between lenders, conservators and designers helps resolve such issues.\nText preparation has a similar dependency. A label cannot simply be written at the last moment if it needs editing, translation or accessibility review. Scheduling these steps early can reduce rushed decisions near installation. The goal is not to prevent every revision but to make necessary revisions possible without sacrificing essential checks.\nAfter the exhibition closes, the work continues. Borrowed objects need condition checks and safe return arrangements, while evaluation can inform future projects. Thinking of an exhibition as a process rather than only a finished room makes this less visible work easier to understand. The opening is a significant milestone, but it is neither the beginning nor the end of the whole undertaking."
+            },
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-lower-talk-0-4",
+            "type": "choice",
+            "prompt": "What happens after closure according to the talk?",
+            "options": [
+              "Every borrowed object becomes museum property",
+              "The original support measurements must be destroyed",
+              "Objects need checking and return, and evaluation can guide later work",
+              "All project responsibilities end immediately"
+            ],
+            "answer": 2,
+            "explanation": "Closure is not the end of the work.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "The Life of a Temporary Exhibition",
+            "stimulus": {
+              "id": "f6-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "The Life of a Temporary Exhibition",
+              "script": "Temporary exhibitions are often planned around a public opening date. Behind that date is a sequence of interdependent tasks: borrowing objects, checking their condition, designing cases and preparing interpretation. A delay in one part can affect several others, even when it seems minor on its own.\nFor example, a display designer needs reliable dimensions before constructing a support. If an object arrives later than expected, measurements supplied in advance become especially important. Yet a measurement alone may not reveal a fragile surface that requires a different support. Communication between lenders, conservators and designers helps resolve such issues.\nText preparation has a similar dependency. A label cannot simply be written at the last moment if it needs editing, translation or accessibility review. Scheduling these steps early can reduce rushed decisions near installation. The goal is not to prevent every revision but to make necessary revisions possible without sacrificing essential checks.\nAfter the exhibition closes, the work continues. Borrowed objects need condition checks and safe return arrangements, while evaluation can inform future projects. Thinking of an exhibition as a process rather than only a finished room makes this less visible work easier to understand. The opening is a significant milestone, but it is neither the beginning nor the end of the whole undertaking."
+            },
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-06"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f6-l-higher-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I knew several people on the trip.",
+              "The gate closes at sunset.",
+              "We can ask the guide about an alternative now.",
+              "The route was drawn on the map."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-higher-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I’d have checked the route myself if I’d known it was closed."
+            },
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The examples are numbered in the handout.",
+              "I worried about the weather yesterday.",
+              "The talk is about ten minutes long.",
+              "Then we should add a concrete illustration."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-higher-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "It’s not so much the length as the lack of examples that worries me."
+            },
+            "number": 2,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Yes, another class has agreed to take part.",
+              "The group sits closer to the screen.",
+              "I found the article on the website.",
+              "The comparison chart uses two colors."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-higher-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Are we any closer to finding a suitable comparison group?"
+            },
+            "number": 3,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The change was made yesterday.",
+              "Let’s keep the original wording until we check.",
+              "The meaning is discussed in the lecture.",
+              "The second room is smaller."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-higher-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "On second thought, that change might make the meaning less precise."
+            },
+            "number": 4,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I agree that the room is quiet.",
+              "The confirmation page has a reference number.",
+              "No, we should ask for explicit confirmation.",
+              "The response was emailed on Friday."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f6-l-higher-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "We can’t take the absence of a response as agreement, can we?"
+            },
+            "number": 5,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-conversation-0-1",
+            "type": "choice",
+            "prompt": "What has caused the need for a change?",
+            "options": [
+              "The guest speaker will arrive later than expected",
+              "The audience has asked to cancel questions",
+              "The student presenters have not prepared",
+              "The event venue has closed"
+            ],
+            "answer": 0,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: The guest speaker’s train arrives later than planned. She’ll miss the first part of the event.\nWoman: Could we start with the student demonstrations instead of her talk?\nMan: Those presenters are ready, and the audience can still ask her questions afterward.\nWoman: Then we should change the running order rather than shorten everything. I’ll tell the hosts and put an update by the entrance.\nMan: I’ll confirm the new talk time with her."
+            },
+            "number": 6,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-conversation-0-2",
+            "type": "choice",
+            "prompt": "What solution do the speakers choose?",
+            "options": [
+              "Remove every question period",
+              "Begin the talk without the speaker",
+              "Cancel the student demonstrations",
+              "Reorder the activities"
+            ],
+            "answer": 3,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: The guest speaker’s train arrives later than planned. She’ll miss the first part of the event.\nWoman: Could we start with the student demonstrations instead of her talk?\nMan: Those presenters are ready, and the audience can still ask her questions afterward.\nWoman: Then we should change the running order rather than shorten everything. I’ll tell the hosts and put an update by the entrance.\nMan: I’ll confirm the new talk time with her."
+            },
+            "number": 7,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-conversation-1-1",
+            "type": "choice",
+            "prompt": "What does the man suggest about the number of results?",
+            "options": [
+              "A search with many results should never be changed",
+              "A large total does not ensure that the search finds the most relevant work",
+              "Only one discipline should be consulted",
+              "Alternative terms always produce identical papers"
+            ],
+            "answer": 1,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The library guide recommends using several search terms, but my first search already gives hundreds of results.\nMan: More results don’t necessarily mean better coverage. Have you checked whether the main terms in your topic are used differently across fields?\nWoman: Not yet.\nMan: Try a few alternative terms, then compare which useful papers each search finds.\nWoman: I’ll keep a search log so I can explain the choices in my methods section."
+            },
+            "number": 8,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-conversation-1-2",
+            "type": "choice",
+            "prompt": "What will the woman record?",
+            "options": [
+              "The library’s opening hours",
+              "A list of papers she has not located",
+              "The searches she tries and the reasons for her choices",
+              "Only the number of pages in each paper"
+            ],
+            "answer": 2,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f6-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The library guide recommends using several search terms, but my first search already gives hundreds of results.\nMan: More results don’t necessarily mean better coverage. Have you checked whether the main terms in your topic are used differently across fields?\nWoman: Not yet.\nMan: Try a few alternative terms, then compare which useful papers each search finds.\nWoman: I’ll keep a search log so I can explain the choices in my methods section."
+            },
+            "number": 9,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-announcement-0-1",
+            "type": "choice",
+            "prompt": "What should students check before submission?",
+            "options": [
+              "Whether labels remain readable at a smaller display size",
+              "Whether the legend can be removed completely",
+              "Whether every map uses identical colors",
+              "Whether the original file has been deleted"
+            ],
+            "answer": 0,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f6-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The map-design review is now online rather than in the studio. Upload your map and its legend by Thursday evening. We will view all submissions on the same screen size during the session, so check that important labels remain readable when the map is reduced. Keep the original editable file as well; you may need to revise the display after receiving feedback."
+            },
+            "number": 10,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-announcement-0-2",
+            "type": "choice",
+            "prompt": "Why should they retain an editable file?",
+            "options": [
+              "To prevent anyone from giving feedback",
+              "To replace the need for a legend",
+              "To avoid submitting any map this week",
+              "To make revisions after the review"
+            ],
+            "answer": 3,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f6-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The map-design review is now online rather than in the studio. Upload your map and its legend by Thursday evening. We will view all submissions on the same screen size during the session, so check that important labels remain readable when the map is reduced. Keep the original editable file as well; you may need to revise the display after receiving feedback."
+            },
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the main lesson?",
+            "options": [
+              "Uncertainty makes all urban research pointless",
+              "Neighborhoods can be controlled exactly like laboratory chambers",
+              "Two photographs establish a causal effect conclusively",
+              "A comparison must consider other explanations for an observed difference"
+            ],
+            "answer": 3,
+            "explanation": "The speaker emphasizes confounding and complementary evidence.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "When a Useful Comparison Fails",
+            "stimulus": {
+              "id": "f6-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "When a Useful Comparison Fails",
+              "script": "Comparing two places can help explain a pattern, but a comparison is only as useful as the reasoning behind it. Suppose one neighborhood has more street trees and lower summer temperatures than another. The difference is consistent with a cooling effect, but it does not isolate that effect automatically.\nThe neighborhoods may also differ in building height, distance from water or the amount of paved ground. Those features could influence temperature too. Researchers try to measure relevant differences and, where possible, compare locations that are similar in other respects. They may also follow the same locations over time as conditions change.\nNo approach removes every uncertainty. A neighborhood is not a laboratory chamber where each factor can be adjusted independently. That limitation does not make investigation pointless. It means that evidence from several approaches can be more informative than a single striking contrast.\nThe important habit is to ask what else could produce the observed difference and what evidence would help separate the explanations. A photograph of a cool, leafy street beside a hot, bare one can communicate a plausible idea, but a persuasive explanation requires more than choosing two examples that fit it."
+            },
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-talk-0-2",
+            "type": "choice",
+            "prompt": "Which possible influence besides trees is mentioned?",
+            "options": [
+              "Building height",
+              "The age of the survey notebook",
+              "The number of street names",
+              "The wording of a planting certificate"
+            ],
+            "answer": 0,
+            "explanation": "Building height is explicitly listed.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "When a Useful Comparison Fails",
+            "stimulus": {
+              "id": "f6-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "When a Useful Comparison Fails",
+              "script": "Comparing two places can help explain a pattern, but a comparison is only as useful as the reasoning behind it. Suppose one neighborhood has more street trees and lower summer temperatures than another. The difference is consistent with a cooling effect, but it does not isolate that effect automatically.\nThe neighborhoods may also differ in building height, distance from water or the amount of paved ground. Those features could influence temperature too. Researchers try to measure relevant differences and, where possible, compare locations that are similar in other respects. They may also follow the same locations over time as conditions change.\nNo approach removes every uncertainty. A neighborhood is not a laboratory chamber where each factor can be adjusted independently. That limitation does not make investigation pointless. It means that evidence from several approaches can be more informative than a single striking contrast.\nThe important habit is to ask what else could produce the observed difference and what evidence would help separate the explanations. A photograph of a cool, leafy street beside a hot, bare one can communicate a plausible idea, but a persuasive explanation requires more than choosing two examples that fit it."
+            },
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-talk-0-3",
+            "type": "choice",
+            "prompt": "Why follow the same locations over time?",
+            "options": [
+              "It makes measuring temperature unnecessary",
+              "It guarantees that every other factor is fixed",
+              "It provides another way to investigate changing conditions",
+              "It proves that photographs are always unreliable"
+            ],
+            "answer": 2,
+            "explanation": "Repeated observation complements cross-location comparisons.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "When a Useful Comparison Fails",
+            "stimulus": {
+              "id": "f6-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "When a Useful Comparison Fails",
+              "script": "Comparing two places can help explain a pattern, but a comparison is only as useful as the reasoning behind it. Suppose one neighborhood has more street trees and lower summer temperatures than another. The difference is consistent with a cooling effect, but it does not isolate that effect automatically.\nThe neighborhoods may also differ in building height, distance from water or the amount of paved ground. Those features could influence temperature too. Researchers try to measure relevant differences and, where possible, compare locations that are similar in other respects. They may also follow the same locations over time as conditions change.\nNo approach removes every uncertainty. A neighborhood is not a laboratory chamber where each factor can be adjusted independently. That limitation does not make investigation pointless. It means that evidence from several approaches can be more informative than a single striking contrast.\nThe important habit is to ask what else could produce the observed difference and what evidence would help separate the explanations. A photograph of a cool, leafy street beside a hot, bare one can communicate a plausible idea, but a persuasive explanation requires more than choosing two examples that fit it."
+            },
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          },
+          {
+            "id": "f6-l-higher-talk-0-4",
+            "type": "choice",
+            "prompt": "What does the speaker imply about a striking pair of examples?",
+            "options": [
+              "It eliminates the need to consider alternatives",
+              "It must have been selected dishonestly",
+              "It may illustrate an idea without establishing its explanation",
+              "It necessarily represents every neighborhood"
+            ],
+            "answer": 2,
+            "explanation": "Illustration and persuasive evidence are distinguished.",
+            "skill": "inference",
+            "task": "academic-talk",
+            "title": "When a Useful Comparison Fails",
+            "stimulus": {
+              "id": "f6-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "When a Useful Comparison Fails",
+              "script": "Comparing two places can help explain a pattern, but a comparison is only as useful as the reasoning behind it. Suppose one neighborhood has more street trees and lower summer temperatures than another. The difference is consistent with a cooling effect, but it does not isolate that effect automatically.\nThe neighborhoods may also differ in building height, distance from water or the amount of paved ground. Those features could influence temperature too. Researchers try to measure relevant differences and, where possible, compare locations that are similar in other respects. They may also follow the same locations over time as conditions change.\nNo approach removes every uncertainty. A neighborhood is not a laboratory chamber where each factor can be adjusted independently. That limitation does not make investigation pointless. It means that evidence from several approaches can be more informative than a single striking contrast.\nThe important habit is to ask what else could produce the observed difference and what evidence would help separate the explanations. A photograph of a cool, leafy street beside a hot, bare one can communicate a plausible idea, but a persuasive explanation requires more than choosing two examples that fit it."
+            },
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-06"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "original-06-w1",
+          "number": 1,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The guest speaker’s train has been delayed.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "starting",
+            "instead of",
+            "the talk",
+            "start",
+            "with the demonstrations",
+            "we",
+            "could"
+          ],
+          "solution": [
+            "we",
+            "could",
+            "start",
+            "with the demonstrations",
+            "instead of",
+            "the talk"
+          ],
+          "correct": [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w2",
+          "number": 2,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I need to correct my department on the submission form.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "does",
+            "will remain editable",
+            "the form",
+            "how long",
+            "know",
+            "you",
+            "do"
+          ],
+          "solution": [
+            "do",
+            "you",
+            "know",
+            "how long",
+            "the form",
+            "will remain editable"
+          ],
+          "correct": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w3",
+          "number": 3,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The garden survey includes only weekend visitors.",
+          "frame": [
+            "We should ask",
+            "."
+          ],
+          "chunks": [
+            "whether",
+            "weekday users",
+            "might have",
+            "different",
+            "needs",
+            "and preferences",
+            "do"
+          ],
+          "solution": [
+            "whether",
+            "weekday users",
+            "might have",
+            "different",
+            "needs",
+            "and preferences"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w4",
+          "number": 4,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The sign points toward an entrance that is locked.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "could",
+            "that",
+            "why",
+            "explain",
+            "are getting confused",
+            "visitors",
+            "confusing"
+          ],
+          "solution": [
+            "that",
+            "could",
+            "explain",
+            "why",
+            "visitors",
+            "are getting confused"
+          ],
+          "correct": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w5",
+          "number": 5,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The camera recorded for fewer hours this week.",
+          "frame": [
+            "We cannot assume",
+            "."
+          ],
+          "chunks": [
+            "means",
+            "there are",
+            "that",
+            "the lower count",
+            "is",
+            "fewer",
+            "animals"
+          ],
+          "solution": [
+            "that",
+            "the lower count",
+            "means",
+            "there are",
+            "fewer",
+            "animals"
+          ],
+          "correct": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            6
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w6",
+          "number": 6,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I want to use the original wording in the quotation.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "it",
+            "checked",
+            "you",
+            "have",
+            "checking",
+            "the source",
+            "against"
+          ],
+          "solution": [
+            "have",
+            "you",
+            "checked",
+            "it",
+            "against",
+            "the source"
+          ],
+          "correct": [
+            3,
+            2,
+            1,
+            0,
+            6,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w7",
+          "number": 7,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The volunteers need to know where to meet.",
+          "frame": [
+            "Please send",
+            "."
+          ],
+          "chunks": [
+            "before",
+            "tomorrow",
+            "explaining",
+            "a message",
+            "that",
+            "explains",
+            "the change"
+          ],
+          "solution": [
+            "a message",
+            "that",
+            "explains",
+            "the change",
+            "before",
+            "tomorrow"
+          ],
+          "correct": [
+            3,
+            4,
+            5,
+            6,
+            0,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w8",
+          "number": 8,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The room has to be accessible to every member.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "we have checked",
+            "until",
+            "unless not",
+            "should not",
+            "we",
+            "the booking",
+            "confirm"
+          ],
+          "solution": [
+            "we",
+            "should not",
+            "confirm",
+            "the booking",
+            "until",
+            "we have checked"
+          ],
+          "correct": [
+            4,
+            3,
+            6,
+            5,
+            1,
+            0
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w9",
+          "number": 9,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The file contains information about the participants.",
+          "frame": [
+            "Make sure",
+            "."
+          ],
+          "chunks": [
+            "removing",
+            "before",
+            "publication",
+            "have been",
+            "removed",
+            "that",
+            "identifying details"
+          ],
+          "solution": [
+            "that",
+            "identifying details",
+            "have been",
+            "removed",
+            "before",
+            "publication"
+          ],
+          "correct": [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-w10",
+          "number": 10,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The first draft contains too many examples.",
+          "frame": [
+            "Which ones",
+            "?"
+          ],
+          "chunks": [
+            "is",
+            "want to make",
+            "you",
+            "the point",
+            "to",
+            "most relevant",
+            "are"
+          ],
+          "solution": [
+            "are",
+            "most relevant",
+            "to",
+            "the point",
+            "you",
+            "want to make"
+          ],
+          "correct": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-06"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "original-06-w11",
+          "number": 11,
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Professor Mensah",
+          "subject": "Community event running order",
+          "scenario": "You help organize a campus community event. The guest speaker’s transport has been delayed, but the students scheduled to give demonstrations are ready. Visitors have already received the original timetable.",
+          "points": [
+            "Explain the timing problem.",
+            "Propose a revised running order and give a reason for it.",
+            "Suggest how to communicate the change to visitors and the speaker."
+          ],
+          "difficulty": "mixed",
+          "testId": "original-06"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "original-06-w12",
+          "number": 12,
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Dr. Bello",
+          "question": "Should universities require students in every subject to take a course on evaluating evidence, or should that instruction remain within individual disciplines? Explain which approach you favor.",
+          "students": [
+            [
+              "Rina",
+              "A shared course could teach habits that matter everywhere, such as checking sources and considering alternative explanations. Students would also learn from examples outside their major."
+            ],
+            [
+              "Owen",
+              "Evidence differs by subject. Students will understand the methods better when they learn them alongside real questions in their own field rather than in a separate general course."
+            ]
+          ],
+          "difficulty": "mixed",
+          "testId": "original-06"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are being trained to welcome visitors to a campus community event.",
+      "items": [
+        {
+          "id": "original-06-s1",
+          "number": 1,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please collect your name badge at reception.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-06-repeat1",
+            "kind": "repeat",
+            "script": "Please collect your name badge at reception."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s2",
+          "number": 2,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The demonstrations begin in the room downstairs.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-06-repeat2",
+            "kind": "repeat",
+            "script": "The demonstrations begin in the room downstairs."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s3",
+          "number": 3,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Visitors may attend either discussion, but each workshop requires a separate ticket.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-06-repeat3",
+            "kind": "repeat",
+            "script": "Visitors may attend either discussion, but each workshop requires a separate ticket."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s4",
+          "number": 4,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Tell the host if someone needs assistance finding the step-free entrance.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-06-repeat4",
+            "kind": "repeat",
+            "script": "Tell the host if someone needs assistance finding the step-free entrance."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s5",
+          "number": 5,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The updated timetable should be displayed beside the registration desk before the first guests arrive.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-06-repeat5",
+            "kind": "repeat",
+            "script": "The updated timetable should be displayed beside the registration desk before the first guests arrive."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s6",
+          "number": 6,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If a speaker is delayed, check the revised running order with the coordinator instead of announcing a new time without confirmation.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-06-repeat6",
+            "kind": "repeat",
+            "script": "If a speaker is delayed, check the revised running order with the coordinator instead of announcing a new time without confirmation."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s7",
+          "number": 7,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "When the final session has finished, ask visitors to complete the feedback form and explain how their suggestions will help us plan future events.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-06-repeat7",
+            "kind": "repeat",
+            "script": "When the final session has finished, ask visitors to complete the feedback form and explain how their suggestions will help us plan future events."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "A researcher is exploring student participation in community activities.",
+      "items": [
+        {
+          "id": "original-06-s8",
+          "number": 8,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Tell me about a community or campus event you have attended. Why did you choose to go?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-06-interview1",
+            "kind": "interview",
+            "script": "Tell me about a community or campus event you have attended. Why did you choose to go?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s9",
+          "number": 9,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe a time when you helped organize something with other people. What was your role?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-06-interview2",
+            "kind": "interview",
+            "script": "Describe a time when you helped organize something with other people. What was your role?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s10",
+          "number": 10,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Do you prefer events with a fixed program or activities that visitors can choose freely? Explain your preference.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-06-interview3",
+            "kind": "interview",
+            "script": "Do you prefer events with a fixed program or activities that visitors can choose freely? Explain your preference."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        },
+        {
+          "id": "original-06-s11",
+          "number": 11,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Should universities encourage students to work with local community organizations even when the work is unrelated to their major? Explain your view in detail.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-06-interview4",
+            "kind": "interview",
+            "script": "Should universities encourage students to work with local community organizations even when the work is unrelated to their major? Explain your view in detail."
+          },
+          "difficulty": "mixed",
+          "testId": "original-06"
+        }
+      ]
+    }
+  ]
+}

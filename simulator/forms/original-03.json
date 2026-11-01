@@ -1,0 +1,3049 @@
+{
+  "id": "original-03",
+  "version": 1,
+  "title": "Full Test 03 · Shared Resources",
+  "description": "New original practice content with distinct adaptive routes and authored answer keys.",
+  "original": true,
+  "baseCount": 120,
+  "routing": {
+    "threshold": 0.7,
+    "notice": "A local 70% router heuristic, not the proprietary ETS adaptive algorithm."
+  },
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "f3-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A city’s water supply depends partly on what happens far beyond its boundaries. Rain falling on a wooded hillside may ",
+            {
+              "pre": "so",
+              "answer": "ak"
+            },
+            " into the ground before reaching a ",
+            {
+              "pre": "str",
+              "answer": "eam"
+            },
+            ". Roots and fallen leaves can ",
+            {
+              "pre": "re",
+              "answer": "duce"
+            },
+            " the speed of runoff. When land is covered with pavement, water often moves more ",
+            {
+              "pre": "qui",
+              "answer": "ckly"
+            },
+            " into drains. This ",
+            {
+              "pre": "dif",
+              "answer": "ference"
+            },
+            " affects both flooding and water ",
+            {
+              "pre": "qu",
+              "answer": "ality"
+            },
+            ". Planners examine entire drainage areas ",
+            {
+              "pre": "be",
+              "answer": "cause"
+            },
+            " changes upstream can influence communities ",
+            {
+              "pre": "be",
+              "answer": "low"
+            },
+            ". Understanding those connections helps them ",
+            {
+              "pre": "cho",
+              "answer": "ose"
+            },
+            " measures that address the ",
+            {
+              "pre": "sou",
+              "answer": "rce"
+            },
+            " of a problem rather than only its most visible consequences."
+          ],
+          "count": 10,
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "In a scientific experiment, a comparison group helps researchers interpret a result. If plants receiving a treatment grow ",
+            {
+              "pre": "ta",
+              "answer": "ller"
+            },
+            ", that observation alone does not ",
+            {
+              "pre": "pro",
+              "answer": "ve"
+            },
+            " the treatment caused the change. Other ",
+            {
+              "pre": "fac",
+              "answer": "tors"
+            },
+            ", such as light or soil, may have ",
+            {
+              "pre": "dif",
+              "answer": "fered"
+            },
+            ". Researchers try to keep those conditions ",
+            {
+              "pre": "sim",
+              "answer": "ilar"
+            },
+            " across groups. Random assignment can also ",
+            {
+              "pre": "re",
+              "answer": "duce"
+            },
+            " systematic differences at the start. The aim is to make the ",
+            {
+              "pre": "com",
+              "answer": "parison"
+            },
+            " informative, not to remove all natural ",
+            {
+              "pre": "var",
+              "answer": "iation"
+            },
+            ". Careful records allow other researchers to ",
+            {
+              "pre": "ass",
+              "answer": "ess"
+            },
+            " the procedure and decide how strongly the evidence supports the proposed ",
+            {
+              "pre": "expla",
+              "answer": "nation"
+            },
+            "."
+          ],
+          "count": 10,
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-d1-1",
+          "type": "choice",
+          "prompt": "What is the workshop’s primary purpose?",
+          "options": [
+            "To offer a repair service while owners attend class",
+            "To provide unattended bicycle storage",
+            "To sell fully repaired secondhand bicycles",
+            "To teach participants to perform basic repairs"
+          ],
+          "answer": 3,
+          "explanation": "The notice distinguishes teaching from drop-off service.",
+          "skill": "purpose",
+          "task": "daily-life",
+          "title": "Bike workshop registration",
+          "passage": "Campus Bike Workshop — Monday, 5–7 p.m.\nLearn basic brake adjustments and puncture repairs. This is a teaching workshop, not a drop-off repair service. Bring your bicycle and register by Friday. Tools are provided, but participants must purchase any replacement parts they use. Six places remain. Students without a bicycle may observe if space allows; observers do not need to register.",
+          "documentType": "notice",
+          "stimulusId": "f3-r1-d1",
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-d1-2",
+          "type": "choice",
+          "prompt": "Which expense might a registered participant need to pay?",
+          "options": [
+            "The cost of replacement parts",
+            "A fee to borrow workshop tools",
+            "A charge for observing without a bicycle",
+            "The cost of Friday registration"
+          ],
+          "answer": 0,
+          "explanation": "Parts are purchased by participants; tools are provided.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Bike workshop registration",
+          "passage": "Campus Bike Workshop — Monday, 5–7 p.m.\nLearn basic brake adjustments and puncture repairs. This is a teaching workshop, not a drop-off repair service. Bring your bicycle and register by Friday. Tools are provided, but participants must purchase any replacement parts they use. Six places remain. Students without a bicycle may observe if space allows; observers do not need to register.",
+          "documentType": "notice",
+          "stimulusId": "f3-r1-d1",
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-d2-1",
+          "type": "choice",
+          "prompt": "What will participants mainly do tomorrow?",
+          "options": [
+            "Plan where plants will go",
+            "Move seedlings onto the roof",
+            "Collect the roof measurements for the first time",
+            "Transport soil to the greenhouse"
+          ],
+          "answer": 0,
+          "explanation": "The indoor activity is planning the planting layout.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "The roof garden update",
+          "passage": "Mina Patel · Sustainability Club\nOur first roof-garden session is moving indoors tomorrow because of strong winds. We’ll meet in Green Hall 104 at the usual time and plan the planting layout using the measurements we took last week. Please bring those notes. The seedlings will stay in the greenhouse until conditions improve. If you signed up only to help carry soil, you can join the next outdoor session instead. We’ll post the date here.",
+          "documentType": "social",
+          "stimulusId": "f3-r1-d2",
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-d2-2",
+          "type": "choice",
+          "prompt": "What can be inferred about the measurements?",
+          "options": [
+            "They are unnecessary for the planned activity",
+            "They will be supplied by greenhouse staff",
+            "They were lost during strong winds",
+            "They have already been collected"
+          ],
+          "answer": 3,
+          "explanation": "Mina refers to measurements taken last week.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "The roof garden update",
+          "passage": "Mina Patel · Sustainability Club\nOur first roof-garden session is moving indoors tomorrow because of strong winds. We’ll meet in Green Hall 104 at the usual time and plan the planting layout using the measurements we took last week. Please bring those notes. The seedlings will stay in the greenhouse until conditions improve. If you signed up only to help carry soil, you can join the next outdoor session instead. We’ll post the date here.",
+          "documentType": "social",
+          "stimulusId": "f3-r1-d2",
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-d2-3",
+          "type": "choice",
+          "prompt": "Who is specifically permitted to wait for another session?",
+          "options": [
+            "Members who have not measured seedlings",
+            "Students who attended last week’s session",
+            "People who volunteered only to carry soil",
+            "Everyone who lacks greenhouse experience"
+          ],
+          "answer": 2,
+          "explanation": "The last part addresses soil-carrying volunteers.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "The roof garden update",
+          "passage": "Mina Patel · Sustainability Club\nOur first roof-garden session is moving indoors tomorrow because of strong winds. We’ll meet in Green Hall 104 at the usual time and plan the planting layout using the measurements we took last week. Please bring those notes. The seedlings will stay in the greenhouse until conditions improve. If you signed up only to help carry soil, you can join the next outdoor session instead. We’ll post the date here.",
+          "documentType": "social",
+          "stimulusId": "f3-r1-d2",
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a1-1",
+          "type": "choice",
+          "prompt": "Which statement best captures the passage’s argument?",
+          "options": [
+            "Cooling benefits depend on tree size, location and survival as well as quantity",
+            "All urban tree species provide identical cooling",
+            "Counting seedlings is the most complete measure of success",
+            "Trees cool streets only by preventing wind"
+          ],
+          "answer": 0,
+          "explanation": "The passage expands evaluation beyond simple counts.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Urban Trees and Unequal Cooling",
+          "passage": "Trees can make a city street more comfortable on a hot day. Their shade reduces the solar energy reaching pavement, while evaporation from leaves transfers some heat into water vapor. These mechanisms help explain why a tree-lined block may feel different from a nearby street with little vegetation.\nHowever, simply counting trees is an incomplete measure of the cooling people experience. A young tree with a narrow crown may offer little shade, whereas a mature tree can cover a large pedestrian area. Placement also matters. Trees in an inaccessible courtyard provide different benefits from those shading a busy bus stop. Measures of canopy cover and the location of shade therefore complement tree counts.\nMaintenance introduces another complication. Trees need suitable soil, water and protection from damage. Planting many seedlings without supporting their survival may produce impressive initial statistics but little lasting cooling. Some neighborhoods face greater barriers to maintenance, including limited space beneath sidewalks and fewer resources for watering.\nUrban planning consequently involves more than choosing a numerical planting target. Residents can identify routes and gathering places where shade is most needed, while arborists assess which species can survive local conditions. A program that considers survival, canopy growth and everyday access is more likely to distribute benefits fairly than one evaluated only by the number of planting events.",
+          "stimulusId": "f3-r1-a1",
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a1-2",
+          "type": "choice",
+          "prompt": "How do leaves help cool the surrounding environment?",
+          "options": [
+            "Through a process that makes nearby pavement absorb more sunlight",
+            "By preventing all water from entering the soil",
+            "By storing sunlight permanently inside their branches",
+            "Through evaporation that transfers heat into water vapor"
+          ],
+          "answer": 3,
+          "explanation": "Evaporation is the second cooling mechanism identified.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Urban Trees and Unequal Cooling",
+          "passage": "Trees can make a city street more comfortable on a hot day. Their shade reduces the solar energy reaching pavement, while evaporation from leaves transfers some heat into water vapor. These mechanisms help explain why a tree-lined block may feel different from a nearby street with little vegetation.\nHowever, simply counting trees is an incomplete measure of the cooling people experience. A young tree with a narrow crown may offer little shade, whereas a mature tree can cover a large pedestrian area. Placement also matters. Trees in an inaccessible courtyard provide different benefits from those shading a busy bus stop. Measures of canopy cover and the location of shade therefore complement tree counts.\nMaintenance introduces another complication. Trees need suitable soil, water and protection from damage. Planting many seedlings without supporting their survival may produce impressive initial statistics but little lasting cooling. Some neighborhoods face greater barriers to maintenance, including limited space beneath sidewalks and fewer resources for watering.\nUrban planning consequently involves more than choosing a numerical planting target. Residents can identify routes and gathering places where shade is most needed, while arborists assess which species can survive local conditions. A program that considers survival, canopy growth and everyday access is more likely to distribute benefits fairly than one evaluated only by the number of planting events.",
+          "stimulusId": "f3-r1-a1",
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a1-3",
+          "type": "choice",
+          "prompt": "Why does the author contrast a courtyard with a bus stop?",
+          "options": [
+            "To compare the costs of two transportation systems",
+            "To establish that trees grow faster beside roads",
+            "To show that the usefulness of shade depends on where it is accessible",
+            "To suggest that courtyards should never contain trees"
+          ],
+          "answer": 2,
+          "explanation": "The contrast concerns everyday access to shade.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "Urban Trees and Unequal Cooling",
+          "passage": "Trees can make a city street more comfortable on a hot day. Their shade reduces the solar energy reaching pavement, while evaporation from leaves transfers some heat into water vapor. These mechanisms help explain why a tree-lined block may feel different from a nearby street with little vegetation.\nHowever, simply counting trees is an incomplete measure of the cooling people experience. A young tree with a narrow crown may offer little shade, whereas a mature tree can cover a large pedestrian area. Placement also matters. Trees in an inaccessible courtyard provide different benefits from those shading a busy bus stop. Measures of canopy cover and the location of shade therefore complement tree counts.\nMaintenance introduces another complication. Trees need suitable soil, water and protection from damage. Planting many seedlings without supporting their survival may produce impressive initial statistics but little lasting cooling. Some neighborhoods face greater barriers to maintenance, including limited space beneath sidewalks and fewer resources for watering.\nUrban planning consequently involves more than choosing a numerical planting target. Residents can identify routes and gathering places where shade is most needed, while arborists assess which species can survive local conditions. A program that considers survival, canopy growth and everyday access is more likely to distribute benefits fairly than one evaluated only by the number of planting events.",
+          "stimulusId": "f3-r1-a1",
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a1-4",
+          "type": "choice",
+          "prompt": "What can be inferred about a program that reports only initial planting numbers?",
+          "options": [
+            "It must have selected the most suitable species",
+            "It may overstate the lasting benefits of its work",
+            "It has already measured mature canopy cover",
+            "It has necessarily distributed cooling fairly"
+          ],
+          "answer": 1,
+          "explanation": "Seedlings that do not survive contribute little lasting cooling.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Urban Trees and Unequal Cooling",
+          "passage": "Trees can make a city street more comfortable on a hot day. Their shade reduces the solar energy reaching pavement, while evaporation from leaves transfers some heat into water vapor. These mechanisms help explain why a tree-lined block may feel different from a nearby street with little vegetation.\nHowever, simply counting trees is an incomplete measure of the cooling people experience. A young tree with a narrow crown may offer little shade, whereas a mature tree can cover a large pedestrian area. Placement also matters. Trees in an inaccessible courtyard provide different benefits from those shading a busy bus stop. Measures of canopy cover and the location of shade therefore complement tree counts.\nMaintenance introduces another complication. Trees need suitable soil, water and protection from damage. Planting many seedlings without supporting their survival may produce impressive initial statistics but little lasting cooling. Some neighborhoods face greater barriers to maintenance, including limited space beneath sidewalks and fewer resources for watering.\nUrban planning consequently involves more than choosing a numerical planting target. Residents can identify routes and gathering places where shade is most needed, while arborists assess which species can survive local conditions. A program that considers survival, canopy growth and everyday access is more likely to distribute benefits fairly than one evaluated only by the number of planting events.",
+          "stimulusId": "f3-r1-a1",
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a1-5",
+          "type": "choice",
+          "prompt": "“Complement” in paragraph 2 is closest in meaning to",
+          "options": [
+            "add useful information to",
+            "completely replace",
+            "make less reliable",
+            "prevent the collection of"
+          ],
+          "answer": 0,
+          "explanation": "Canopy measurements add to, rather than eliminate, counts.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Urban Trees and Unequal Cooling",
+          "passage": "Trees can make a city street more comfortable on a hot day. Their shade reduces the solar energy reaching pavement, while evaporation from leaves transfers some heat into water vapor. These mechanisms help explain why a tree-lined block may feel different from a nearby street with little vegetation.\nHowever, simply counting trees is an incomplete measure of the cooling people experience. A young tree with a narrow crown may offer little shade, whereas a mature tree can cover a large pedestrian area. Placement also matters. Trees in an inaccessible courtyard provide different benefits from those shading a busy bus stop. Measures of canopy cover and the location of shade therefore complement tree counts.\nMaintenance introduces another complication. Trees need suitable soil, water and protection from damage. Planting many seedlings without supporting their survival may produce impressive initial statistics but little lasting cooling. Some neighborhoods face greater barriers to maintenance, including limited space beneath sidewalks and fewer resources for watering.\nUrban planning consequently involves more than choosing a numerical planting target. Residents can identify routes and gathering places where shade is most needed, while arborists assess which species can survive local conditions. A program that considers survival, canopy growth and everyday access is more likely to distribute benefits fairly than one evaluated only by the number of planting events.",
+          "stimulusId": "f3-r1-a1",
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a2-1",
+          "type": "choice",
+          "prompt": "What is the passage mainly concerned with?",
+          "options": [
+            "The historical origin of community volunteer organizations",
+            "Instructions for opening a particular appliance safely",
+            "A claim that all old appliances should be replaced immediately",
+            "The interacting factors that affect whether repair is worthwhile"
+          ],
+          "answer": 3,
+          "explanation": "The passage considers price, design, knowledge and environmental trade-offs.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The Economics of Repair",
+          "passage": "When a household appliance stops working, replacing it may appear simpler than repairing it. Yet the decision depends on more than the price of a replacement. Repair involves diagnosis, skilled labor and access to compatible parts. If one of these is difficult to obtain, even a minor fault can make an otherwise serviceable product expensive to fix.\nDesign influences this calculation. A casing held together with accessible screws can be opened without destroying it. A sealed assembly may require replacing several working components along with the failed one. Manufacturers also influence repair through the availability of manuals and spare parts. The same technical failure can therefore have different economic consequences in differently designed products.\nCommunity repair events address some of these barriers. Volunteers may help diagnose faults or demonstrate a simple procedure. Such events can reduce uncertainty and increase practical knowledge, but they cannot guarantee that every item is safe or economical to repair. Electrical hazards and unavailable components still impose limits.\nThe wider significance of repair includes the materials and energy used to manufacture replacements. Keeping an appliance in use can postpone those demands. Nevertheless, an unusually inefficient old appliance may create a different trade-off. Evaluating repair requires attention to the particular product and its continued operation, rather than assuming that either repair or replacement is always the better choice.",
+          "stimulusId": "f3-r1-a2",
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a2-2",
+          "type": "choice",
+          "prompt": "Why can a small fault make an appliance costly to fix?",
+          "options": [
+            "Diagnosis or compatible parts may be difficult to obtain",
+            "Every small fault consumes more electricity",
+            "Repair events always charge high admission fees",
+            "New products cannot contain replaceable parts"
+          ],
+          "answer": 0,
+          "explanation": "Access to diagnosis, labor and parts determines repair cost.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The Economics of Repair",
+          "passage": "When a household appliance stops working, replacing it may appear simpler than repairing it. Yet the decision depends on more than the price of a replacement. Repair involves diagnosis, skilled labor and access to compatible parts. If one of these is difficult to obtain, even a minor fault can make an otherwise serviceable product expensive to fix.\nDesign influences this calculation. A casing held together with accessible screws can be opened without destroying it. A sealed assembly may require replacing several working components along with the failed one. Manufacturers also influence repair through the availability of manuals and spare parts. The same technical failure can therefore have different economic consequences in differently designed products.\nCommunity repair events address some of these barriers. Volunteers may help diagnose faults or demonstrate a simple procedure. Such events can reduce uncertainty and increase practical knowledge, but they cannot guarantee that every item is safe or economical to repair. Electrical hazards and unavailable components still impose limits.\nThe wider significance of repair includes the materials and energy used to manufacture replacements. Keeping an appliance in use can postpone those demands. Nevertheless, an unusually inefficient old appliance may create a different trade-off. Evaluating repair requires attention to the particular product and its continued operation, rather than assuming that either repair or replacement is always the better choice.",
+          "stimulusId": "f3-r1-a2",
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a2-3",
+          "type": "choice",
+          "prompt": "What does the comparison of screws and sealed assemblies illustrate?",
+          "options": [
+            "Screws make all appliances unsafe to use",
+            "Product design can affect the cost and feasibility of repair",
+            "Repair skills are unnecessary when manuals exist",
+            "Sealed products always use less manufacturing energy"
+          ],
+          "answer": 1,
+          "explanation": "The comparison links design to economic consequences.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "The Economics of Repair",
+          "passage": "When a household appliance stops working, replacing it may appear simpler than repairing it. Yet the decision depends on more than the price of a replacement. Repair involves diagnosis, skilled labor and access to compatible parts. If one of these is difficult to obtain, even a minor fault can make an otherwise serviceable product expensive to fix.\nDesign influences this calculation. A casing held together with accessible screws can be opened without destroying it. A sealed assembly may require replacing several working components along with the failed one. Manufacturers also influence repair through the availability of manuals and spare parts. The same technical failure can therefore have different economic consequences in differently designed products.\nCommunity repair events address some of these barriers. Volunteers may help diagnose faults or demonstrate a simple procedure. Such events can reduce uncertainty and increase practical knowledge, but they cannot guarantee that every item is safe or economical to repair. Electrical hazards and unavailable components still impose limits.\nThe wider significance of repair includes the materials and energy used to manufacture replacements. Keeping an appliance in use can postpone those demands. Nevertheless, an unusually inefficient old appliance may create a different trade-off. Evaluating repair requires attention to the particular product and its continued operation, rather than assuming that either repair or replacement is always the better choice.",
+          "stimulusId": "f3-r1-a2",
+          "number": 33,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a2-4",
+          "type": "choice",
+          "prompt": "What limitation of community repair events is mentioned?",
+          "options": [
+            "They necessarily increase uncertainty about faults",
+            "They prevent participants from acquiring skills",
+            "They cannot overcome every safety or parts problem",
+            "They accept only newly manufactured appliances"
+          ],
+          "answer": 2,
+          "explanation": "The third paragraph explicitly retains hazards and parts limitations.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The Economics of Repair",
+          "passage": "When a household appliance stops working, replacing it may appear simpler than repairing it. Yet the decision depends on more than the price of a replacement. Repair involves diagnosis, skilled labor and access to compatible parts. If one of these is difficult to obtain, even a minor fault can make an otherwise serviceable product expensive to fix.\nDesign influences this calculation. A casing held together with accessible screws can be opened without destroying it. A sealed assembly may require replacing several working components along with the failed one. Manufacturers also influence repair through the availability of manuals and spare parts. The same technical failure can therefore have different economic consequences in differently designed products.\nCommunity repair events address some of these barriers. Volunteers may help diagnose faults or demonstrate a simple procedure. Such events can reduce uncertainty and increase practical knowledge, but they cannot guarantee that every item is safe or economical to repair. Electrical hazards and unavailable components still impose limits.\nThe wider significance of repair includes the materials and energy used to manufacture replacements. Keeping an appliance in use can postpone those demands. Nevertheless, an unusually inefficient old appliance may create a different trade-off. Evaluating repair requires attention to the particular product and its continued operation, rather than assuming that either repair or replacement is always the better choice.",
+          "stimulusId": "f3-r1-a2",
+          "number": 34,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-r1-a2-5",
+          "type": "choice",
+          "prompt": "What can be inferred from the example of an inefficient old appliance?",
+          "options": [
+            "Energy efficiency has no relation to repair decisions",
+            "Replacement is environmentally superior in every situation",
+            "Manufacturing materials should never enter the calculation",
+            "Continued operation can complicate the environmental case for repair"
+          ],
+          "answer": 3,
+          "explanation": "Operating impacts can offset some benefits of avoiding replacement.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "The Economics of Repair",
+          "passage": "When a household appliance stops working, replacing it may appear simpler than repairing it. Yet the decision depends on more than the price of a replacement. Repair involves diagnosis, skilled labor and access to compatible parts. If one of these is difficult to obtain, even a minor fault can make an otherwise serviceable product expensive to fix.\nDesign influences this calculation. A casing held together with accessible screws can be opened without destroying it. A sealed assembly may require replacing several working components along with the failed one. Manufacturers also influence repair through the availability of manuals and spare parts. The same technical failure can therefore have different economic consequences in differently designed products.\nCommunity repair events address some of these barriers. Volunteers may help diagnose faults or demonstrate a simple procedure. Such events can reduce uncertainty and increase practical knowledge, but they cannot guarantee that every item is safe or economical to repair. Electrical hazards and unavailable components still impose limits.\nThe wider significance of repair includes the materials and energy used to manufacture replacements. Keeping an appliance in use can postpone those demands. Nevertheless, an unusually inefficient old appliance may create a different trade-off. Evaluating repair requires attention to the particular product and its continued operation, rather than assuming that either repair or replacement is always the better choice.",
+          "stimulusId": "f3-r1-a2",
+          "number": 35,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "branches": {
+        "lower": [
+          {
+            "id": "f3-r2-lower-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Languages change as people use them in new situations. A familiar word may gain an additional ",
+              {
+                "pre": "mean",
+                "answer": "ing"
+              },
+              ", while a borrowed word can be ",
+              {
+                "pre": "ada",
+                "answer": "pted"
+              },
+              " to local pronunciation. Such changes do not ",
+              {
+                "pre": "usu",
+                "answer": "ally"
+              },
+              " happen through one person’s decision. They ",
+              {
+                "pre": "spr",
+                "answer": "ead"
+              },
+              " through repeated interactions among speakers. Researchers study recordings and written ",
+              {
+                "pre": "sou",
+                "answer": "rces"
+              },
+              " to trace these patterns. Comparing evidence from different ",
+              {
+                "pre": "per",
+                "answer": "iods"
+              },
+              " helps distinguish a recent innovation from an older ",
+              {
+                "pre": "fe",
+                "answer": "ature"
+              },
+              ". No record captures every way people ",
+              {
+                "pre": "sp",
+                "answer": "oke"
+              },
+              ", so scholars must consider whose language was ",
+              {
+                "pre": "pres",
+                "answer": "erved"
+              },
+              " and which social groups may be ",
+              {
+                "pre": "mis",
+                "answer": "sing"
+              },
+              " from the surviving material."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-lower-a-1",
+            "type": "choice",
+            "prompt": "What is the passage’s central claim?",
+            "options": [
+              "All commercial transactions create lasting friendships",
+              "The most crowded market is necessarily the most inclusive",
+              "A market’s social value depends on how people participate and how access is organized",
+              "Attendance totals alone reveal a market’s social success"
+            ],
+            "answer": 2,
+            "explanation": "The argument combines repeated interaction, design and barriers.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "How a Market Becomes a Meeting Place",
+            "passage": "A weekly market is a place to exchange goods, but its social role may extend beyond transactions. People who arrive at similar times repeatedly encounter the same sellers and customers. Brief conversations about products can develop into recognition and, eventually, relationships that persist outside the market itself.\nThe physical arrangement of the space influences these encounters. Benches near food stalls allow visitors to remain after shopping. Narrow passages may increase contact, but overcrowding can discourage people who find the space uncomfortable. A successful social space does not simply force the greatest number of people into the smallest area.\nResearchers studying markets therefore observe how people use them rather than relying only on attendance totals. A large crowd might consist mainly of customers who leave quickly. A smaller market could support longer visits and more repeated interactions. Interviews can reveal whether participants feel welcome, while observation can show which groups actually use particular areas.\nMarkets are not automatically inclusive. High prices, limited opening hours or inaccessible entrances may exclude some residents. Organizers who want a market to function as a neighborhood meeting place must consider these barriers alongside commercial success. The market’s social contribution emerges from patterns of participation, and those patterns depend partly on deliberate decisions about space, access and scheduling.",
+            "stimulusId": "f3-r2-lower-a",
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-lower-a-2",
+            "type": "choice",
+            "prompt": "How might benches contribute to social interaction?",
+            "options": [
+              "They remove the need for accessible entrances",
+              "They encourage visitors to stay after making purchases",
+              "They prevent visitors from talking to sellers",
+              "They ensure that product prices become lower"
+            ],
+            "answer": 1,
+            "explanation": "Remaining in the space creates further opportunities for encounters.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "How a Market Becomes a Meeting Place",
+            "passage": "A weekly market is a place to exchange goods, but its social role may extend beyond transactions. People who arrive at similar times repeatedly encounter the same sellers and customers. Brief conversations about products can develop into recognition and, eventually, relationships that persist outside the market itself.\nThe physical arrangement of the space influences these encounters. Benches near food stalls allow visitors to remain after shopping. Narrow passages may increase contact, but overcrowding can discourage people who find the space uncomfortable. A successful social space does not simply force the greatest number of people into the smallest area.\nResearchers studying markets therefore observe how people use them rather than relying only on attendance totals. A large crowd might consist mainly of customers who leave quickly. A smaller market could support longer visits and more repeated interactions. Interviews can reveal whether participants feel welcome, while observation can show which groups actually use particular areas.\nMarkets are not automatically inclusive. High prices, limited opening hours or inaccessible entrances may exclude some residents. Organizers who want a market to function as a neighborhood meeting place must consider these barriers alongside commercial success. The market’s social contribution emerges from patterns of participation, and those patterns depend partly on deliberate decisions about space, access and scheduling.",
+            "stimulusId": "f3-r2-lower-a",
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-lower-a-3",
+            "type": "choice",
+            "prompt": "Why are large and small markets compared?",
+            "options": [
+              "To show why crowd size alone is an inadequate measure",
+              "To establish that small markets always sell better products",
+              "To explain why interviews should replace observation",
+              "To show that all visitors prefer narrow passages"
+            ],
+            "answer": 0,
+            "explanation": "Duration and recurrence of participation matter in addition to numbers.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "How a Market Becomes a Meeting Place",
+            "passage": "A weekly market is a place to exchange goods, but its social role may extend beyond transactions. People who arrive at similar times repeatedly encounter the same sellers and customers. Brief conversations about products can develop into recognition and, eventually, relationships that persist outside the market itself.\nThe physical arrangement of the space influences these encounters. Benches near food stalls allow visitors to remain after shopping. Narrow passages may increase contact, but overcrowding can discourage people who find the space uncomfortable. A successful social space does not simply force the greatest number of people into the smallest area.\nResearchers studying markets therefore observe how people use them rather than relying only on attendance totals. A large crowd might consist mainly of customers who leave quickly. A smaller market could support longer visits and more repeated interactions. Interviews can reveal whether participants feel welcome, while observation can show which groups actually use particular areas.\nMarkets are not automatically inclusive. High prices, limited opening hours or inaccessible entrances may exclude some residents. Organizers who want a market to function as a neighborhood meeting place must consider these barriers alongside commercial success. The market’s social contribution emerges from patterns of participation, and those patterns depend partly on deliberate decisions about space, access and scheduling.",
+            "stimulusId": "f3-r2-lower-a",
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-lower-a-4",
+            "type": "choice",
+            "prompt": "Which condition could restrict participation?",
+            "options": [
+              "Observation of how visitors use the space",
+              "Repeated contact with familiar sellers",
+              "The availability of places to sit",
+              "Opening hours that some residents cannot use"
+            ],
+            "answer": 3,
+            "explanation": "Limited hours are explicitly named as a barrier.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "How a Market Becomes a Meeting Place",
+            "passage": "A weekly market is a place to exchange goods, but its social role may extend beyond transactions. People who arrive at similar times repeatedly encounter the same sellers and customers. Brief conversations about products can develop into recognition and, eventually, relationships that persist outside the market itself.\nThe physical arrangement of the space influences these encounters. Benches near food stalls allow visitors to remain after shopping. Narrow passages may increase contact, but overcrowding can discourage people who find the space uncomfortable. A successful social space does not simply force the greatest number of people into the smallest area.\nResearchers studying markets therefore observe how people use them rather than relying only on attendance totals. A large crowd might consist mainly of customers who leave quickly. A smaller market could support longer visits and more repeated interactions. Interviews can reveal whether participants feel welcome, while observation can show which groups actually use particular areas.\nMarkets are not automatically inclusive. High prices, limited opening hours or inaccessible entrances may exclude some residents. Organizers who want a market to function as a neighborhood meeting place must consider these barriers alongside commercial success. The market’s social contribution emerges from patterns of participation, and those patterns depend partly on deliberate decisions about space, access and scheduling.",
+            "stimulusId": "f3-r2-lower-a",
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-lower-a-5",
+            "type": "choice",
+            "prompt": "The word “deliberate” is closest in meaning to",
+            "options": [
+              "expensive and unnecessary",
+              "slow and uncertain",
+              "planned and intentional",
+              "temporary and accidental"
+            ],
+            "answer": 2,
+            "explanation": "The decisions are actively made by organizers.",
+            "skill": "vocabulary",
+            "task": "academic-passage",
+            "title": "How a Market Becomes a Meeting Place",
+            "passage": "A weekly market is a place to exchange goods, but its social role may extend beyond transactions. People who arrive at similar times repeatedly encounter the same sellers and customers. Brief conversations about products can develop into recognition and, eventually, relationships that persist outside the market itself.\nThe physical arrangement of the space influences these encounters. Benches near food stalls allow visitors to remain after shopping. Narrow passages may increase contact, but overcrowding can discourage people who find the space uncomfortable. A successful social space does not simply force the greatest number of people into the smallest area.\nResearchers studying markets therefore observe how people use them rather than relying only on attendance totals. A large crowd might consist mainly of customers who leave quickly. A smaller market could support longer visits and more repeated interactions. Interviews can reveal whether participants feel welcome, while observation can show which groups actually use particular areas.\nMarkets are not automatically inclusive. High prices, limited opening hours or inaccessible entrances may exclude some residents. Organizers who want a market to function as a neighborhood meeting place must consider these barriers alongside commercial success. The market’s social contribution emerges from patterns of participation, and those patterns depend partly on deliberate decisions about space, access and scheduling.",
+            "stimulusId": "f3-r2-lower-a",
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f3-r2-higher-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Water stored in soil is not equally available to every plant. Some roots reach deeper layers, while others ",
+              {
+                "pre": "spr",
+                "answer": "ead"
+              },
+              " near the surface. The spaces between soil particles also ",
+              {
+                "pre": "af",
+                "answer": "fect"
+              },
+              " how water is held. Large spaces may drain ",
+              {
+                "pre": "qui",
+                "answer": "ckly"
+              },
+              "; smaller ones can retain moisture more ",
+              {
+                "pre": "str",
+                "answer": "ongly"
+              },
+              ". A soil that looks wet may still make water difficult to ",
+              {
+                "pre": "abs",
+                "answer": "orb"
+              },
+              ". Researchers therefore examine the ",
+              {
+                "pre": "rel",
+                "answer": "ationship"
+              },
+              " between soil structure and root ",
+              {
+                "pre": "gro",
+                "answer": "wth"
+              },
+              ". This knowledge is ",
+              {
+                "pre": "use",
+                "answer": "ful"
+              },
+              " when choosing crops or restoring damaged land. It also explains why simply adding the same ",
+              {
+                "pre": "amo",
+                "answer": "unt"
+              },
+              " of water does not produce the same ",
+              {
+                "pre": "res",
+                "answer": "ult"
+              },
+              " everywhere."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-higher-a-1",
+            "type": "choice",
+            "prompt": "What is the main purpose of the passage?",
+            "options": [
+              "To explain both the value and interpretive challenges of ice-core evidence",
+              "To argue that ice contains no useful atmospheric information",
+              "To describe a method for making artificial ice",
+              "To establish that all ice layers accumulate at an identical rate"
+            ],
+            "answer": 0,
+            "explanation": "The passage explains signals and the limits of their chronology.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "Signals in an Ice Core",
+            "passage": "Ice accumulating in a cold region can preserve evidence of past environments. Snow becomes compressed beneath later snowfall, and small bubbles of air may eventually be trapped within the ice. A core drilled through the accumulated layers offers a sequence of samples rather than a single snapshot of the past.\nDifferent features answer different questions. Air bubbles can preserve samples of an earlier atmosphere. Particles such as dust may reflect changes in winds or exposed land surfaces. Certain chemical properties of the ice provide clues about the conditions under which the original snow formed. Interpreting these clues requires understanding how each signal entered the ice.\nThe depth of a sample is related to its age, but the relationship is not necessarily uniform. Layers become compressed, snowfall rates change and flowing ice can deform older material. Researchers combine layer counting, known events and physical models to build an age estimate. They also report uncertainty rather than assigning every depth a perfectly precise date.\nA further distinction concerns the age of the trapped air. Air can continue moving through porous snow before the surrounding material becomes sealed ice. Consequently, the air in a bubble may be younger than the ice enclosing it. Careful interpretation therefore involves comparing several records and their dating assumptions, not treating every signal at the same depth as exactly simultaneous.",
+            "stimulusId": "f3-r2-higher-a",
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-higher-a-2",
+            "type": "choice",
+            "prompt": "What can trapped air bubbles provide?",
+            "options": [
+              "Direct measurements of future snowfall",
+              "A record unaffected by the formation of ice",
+              "The exact age of every dust particle",
+              "Samples of an earlier atmosphere"
+            ],
+            "answer": 3,
+            "explanation": "The second paragraph identifies preserved atmospheric samples.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Signals in an Ice Core",
+            "passage": "Ice accumulating in a cold region can preserve evidence of past environments. Snow becomes compressed beneath later snowfall, and small bubbles of air may eventually be trapped within the ice. A core drilled through the accumulated layers offers a sequence of samples rather than a single snapshot of the past.\nDifferent features answer different questions. Air bubbles can preserve samples of an earlier atmosphere. Particles such as dust may reflect changes in winds or exposed land surfaces. Certain chemical properties of the ice provide clues about the conditions under which the original snow formed. Interpreting these clues requires understanding how each signal entered the ice.\nThe depth of a sample is related to its age, but the relationship is not necessarily uniform. Layers become compressed, snowfall rates change and flowing ice can deform older material. Researchers combine layer counting, known events and physical models to build an age estimate. They also report uncertainty rather than assigning every depth a perfectly precise date.\nA further distinction concerns the age of the trapped air. Air can continue moving through porous snow before the surrounding material becomes sealed ice. Consequently, the air in a bubble may be younger than the ice enclosing it. Careful interpretation therefore involves comparing several records and their dating assumptions, not treating every signal at the same depth as exactly simultaneous.",
+            "stimulusId": "f3-r2-higher-a",
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-higher-a-3",
+            "type": "choice",
+            "prompt": "Why is the depth–age relationship not always uniform?",
+            "options": [
+              "Researchers always drill only shallow cores",
+              "Air bubbles prevent snow from accumulating",
+              "Accumulation, compression and deformation can vary",
+              "Every annual layer has the same thickness"
+            ],
+            "answer": 2,
+            "explanation": "The third paragraph lists varying physical processes.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Signals in an Ice Core",
+            "passage": "Ice accumulating in a cold region can preserve evidence of past environments. Snow becomes compressed beneath later snowfall, and small bubbles of air may eventually be trapped within the ice. A core drilled through the accumulated layers offers a sequence of samples rather than a single snapshot of the past.\nDifferent features answer different questions. Air bubbles can preserve samples of an earlier atmosphere. Particles such as dust may reflect changes in winds or exposed land surfaces. Certain chemical properties of the ice provide clues about the conditions under which the original snow formed. Interpreting these clues requires understanding how each signal entered the ice.\nThe depth of a sample is related to its age, but the relationship is not necessarily uniform. Layers become compressed, snowfall rates change and flowing ice can deform older material. Researchers combine layer counting, known events and physical models to build an age estimate. They also report uncertainty rather than assigning every depth a perfectly precise date.\nA further distinction concerns the age of the trapped air. Air can continue moving through porous snow before the surrounding material becomes sealed ice. Consequently, the air in a bubble may be younger than the ice enclosing it. Careful interpretation therefore involves comparing several records and their dating assumptions, not treating every signal at the same depth as exactly simultaneous.",
+            "stimulusId": "f3-r2-higher-a",
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-higher-a-4",
+            "type": "choice",
+            "prompt": "What can be inferred about two signals at the same depth?",
+            "options": [
+              "They necessarily record the same event",
+              "They may represent different times",
+              "They cannot be compared with any other record",
+              "They must have entered the ice through identical processes"
+            ],
+            "answer": 1,
+            "explanation": "Air can remain mobile until after the enclosing snow was deposited.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "Signals in an Ice Core",
+            "passage": "Ice accumulating in a cold region can preserve evidence of past environments. Snow becomes compressed beneath later snowfall, and small bubbles of air may eventually be trapped within the ice. A core drilled through the accumulated layers offers a sequence of samples rather than a single snapshot of the past.\nDifferent features answer different questions. Air bubbles can preserve samples of an earlier atmosphere. Particles such as dust may reflect changes in winds or exposed land surfaces. Certain chemical properties of the ice provide clues about the conditions under which the original snow formed. Interpreting these clues requires understanding how each signal entered the ice.\nThe depth of a sample is related to its age, but the relationship is not necessarily uniform. Layers become compressed, snowfall rates change and flowing ice can deform older material. Researchers combine layer counting, known events and physical models to build an age estimate. They also report uncertainty rather than assigning every depth a perfectly precise date.\nA further distinction concerns the age of the trapped air. Air can continue moving through porous snow before the surrounding material becomes sealed ice. Consequently, the air in a bubble may be younger than the ice enclosing it. Careful interpretation therefore involves comparing several records and their dating assumptions, not treating every signal at the same depth as exactly simultaneous.",
+            "stimulusId": "f3-r2-higher-a",
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-r2-higher-a-5",
+            "type": "choice",
+            "prompt": "“Porous” most nearly describes material that",
+            "options": [
+              "contains spaces through which air can move",
+              "has no relationship to snowfall",
+              "is completely sealed against gases",
+              "is always warmer than liquid water"
+            ],
+            "answer": 0,
+            "explanation": "Continued air movement through snow explains the contextual meaning.",
+            "skill": "vocabulary",
+            "task": "academic-passage",
+            "title": "Signals in an Ice Core",
+            "passage": "Ice accumulating in a cold region can preserve evidence of past environments. Snow becomes compressed beneath later snowfall, and small bubbles of air may eventually be trapped within the ice. A core drilled through the accumulated layers offers a sequence of samples rather than a single snapshot of the past.\nDifferent features answer different questions. Air bubbles can preserve samples of an earlier atmosphere. Particles such as dust may reflect changes in winds or exposed land surfaces. Certain chemical properties of the ice provide clues about the conditions under which the original snow formed. Interpreting these clues requires understanding how each signal entered the ice.\nThe depth of a sample is related to its age, but the relationship is not necessarily uniform. Layers become compressed, snowfall rates change and flowing ice can deform older material. Researchers combine layer counting, known events and physical models to build an age estimate. They also report uncertainty rather than assigning every depth a perfectly precise date.\nA further distinction concerns the age of the trapped air. Air can continue moving through porous snow before the surrounding material becomes sealed ice. Consequently, the air in a bubble may be younger than the ice enclosing it. Careful interpretation therefore involves comparing several records and their dating assumptions, not treating every signal at the same depth as exactly simultaneous.",
+            "stimulusId": "f3-r2-higher-a",
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          }
+        ]
+      }
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "f3-l-router-response-0-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I held a workshop last term.",
+            "Sure, pass me the right tool.",
+            "The bolt was delivered yesterday.",
+            "The shelf displays old photographs."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-0",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Could you tighten this bolt while I hold the shelf?"
+          },
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-1-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "There may still be an afternoon place.",
+            "The repair worked very well.",
+            "I make most of my own meals.",
+            "Morning light comes through that window."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-1",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I can’t make the morning repair session."
+          },
+          "number": 2,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-2-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The group has twelve members.",
+            "I returned to campus by train.",
+            "The equipment was easy to borrow.",
+            "Our group leader is arranging that."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-2",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Who’s responsible for returning the borrowed equipment?"
+          },
+          "number": 3,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-3-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The item belongs to my roommate.",
+            "It was right beside the door.",
+            "Yes, observers are welcome.",
+            "I observed several birds yesterday."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-3",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Would it be all right if I observed instead of bringing an item?"
+          },
+          "number": 4,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-4-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The workshop itself was very informative.",
+            "Then I’ll ask about the cost first.",
+            "The old part is on the table.",
+            "I changed my appointment to Tuesday."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-4",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "There’s a charge for replacement parts, apparently."
+          },
+          "number": 5,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-5-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, I helped with the spring survey.",
+            "The garden gate is usually open.",
+            "I haven’t finished the report yet.",
+            "The briefing lasted twenty minutes."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-5",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Haven’t we met at the garden briefing before?"
+          },
+          "number": 6,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-6-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I inspected the long cable first.",
+            "The equipment is in good condition.",
+            "It took place in the workshop.",
+            "About half an hour, I think."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-6",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "How long will the equipment inspection take?"
+          },
+          "number": 7,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-7-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I remembered every line in the play.",
+            "The group met indoors last time.",
+            "Of course; I’ll message the group.",
+            "My shoes are fairly new."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-7",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Could you remind everyone to bring their indoor shoes?"
+          },
+          "number": 8,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-8-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The poster was printed in color.",
+            "Let’s rewrite that sentence.",
+            "The spare parts arrived on Monday.",
+            "I’m sure the room is downstairs."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-8",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I’m not sure the poster explains the parts policy clearly."
+          },
+          "number": 9,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-9-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "That would save me a difficult bus trip.",
+            "I collected the survey responses yesterday.",
+            "The van is painted white.",
+            "I could make a new machine label."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-9",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "We could collect your machine in the van."
+          },
+          "number": 10,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-10-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I revised for the examination last night.",
+            "The instructor has taught here for years.",
+            "Not yet; we’re waiting for a reply.",
+            "The seats were quite comfortable."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-10",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Has the instructor approved the revised seating plan?"
+          },
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-response-11-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The classroom has large windows.",
+            "I chose three examples for the poster.",
+            "The earlier email was very short.",
+            "It fits around my afternoon class."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f3-l-router-response-11",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "What made you choose the earlier session?"
+          },
+          "number": 12,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-conversation-0-1",
+          "type": "choice",
+          "prompt": "What reassurance does the woman offer?",
+          "options": [
+            "Every tree has already been labeled",
+            "The survey does not involve identifying trees",
+            "Only experts are permitted to collect data",
+            "New volunteers receive guidance and can ask for help"
+          ],
+          "answer": 3,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f3-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: I signed up for the tree survey, but I’ve never identified a tree from its bark.\nWoman: Neither had I last year. We work in pairs, and the coordinator gives us a short guide.\nMan: So I won’t be expected to name everything immediately?\nWoman: No. Record the features you see, then check uncertain examples with an experienced volunteer.\nMan: That sounds manageable. I’ll bring my notebook and join the training at nine."
+          },
+          "number": 13,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-conversation-0-2",
+          "type": "choice",
+          "prompt": "What does the man decide?",
+          "options": [
+            "Attend the introductory training",
+            "Withdraw from the survey",
+            "Memorize every species before arriving",
+            "Work alone instead of in a pair"
+          ],
+          "answer": 0,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f3-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: I signed up for the tree survey, but I’ve never identified a tree from its bark.\nWoman: Neither had I last year. We work in pairs, and the coordinator gives us a short guide.\nMan: So I won’t be expected to name everything immediately?\nWoman: No. Record the features you see, then check uncertain examples with an experienced volunteer.\nMan: That sounds manageable. I’ll bring my notebook and join the training at nine."
+          },
+          "number": 14,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-conversation-1-1",
+          "type": "choice",
+          "prompt": "What problem is the woman trying to solve?",
+          "options": [
+            "Learning how to repair a bus",
+            "Replacing a machine that has been donated",
+            "Getting borrowed equipment to an event",
+            "Finding a buyer for a sewing machine"
+          ],
+          "answer": 2,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f3-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The repair café can use my sewing machine, but transporting it on the bus will be awkward.\nMan: We’re collecting donated equipment in the university van Friday afternoon.\nWoman: Would my machine count? I’m lending it rather than donating it.\nMan: That’s fine. We can collect loans too, provided you label the case and arrange a return time.\nWoman: I’ll add my contact details and book collection for Friday.\nMan: Put its instructions inside the case as well."
+          },
+          "number": 15,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-conversation-1-2",
+          "type": "choice",
+          "prompt": "What will she do?",
+          "options": [
+            "Give the machine away permanently",
+            "Arrange collection and identify the machine as a loan",
+            "Cancel the repair event",
+            "Carry the machine on the bus anyway"
+          ],
+          "answer": 1,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f3-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The repair café can use my sewing machine, but transporting it on the bus will be awkward.\nMan: We’re collecting donated equipment in the university van Friday afternoon.\nWoman: Would my machine count? I’m lending it rather than donating it.\nMan: That’s fine. We can collect loans too, provided you label the case and arrange a return time.\nWoman: I’ll add my contact details and book collection for Friday.\nMan: Put its instructions inside the case as well."
+          },
+          "number": 16,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-conversation-2-1",
+          "type": "choice",
+          "prompt": "What probably caused the change in sound?",
+          "options": [
+            "The speaker changed the interview topic",
+            "Part of the recording was made in a different room",
+            "The seminar was recorded over the interview",
+            "The microphone was replaced by software"
+          ],
+          "answer": 1,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f3-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: The sound level in our recording changes halfway through. Can the software fix it?\nWoman: It can adjust volume, but it can’t remove all the echo. Did you change rooms?\nMan: Yes, the first room was booked for a seminar.\nWoman: The empty room probably caused the echo. Could the speaker record that short section again in the original space?\nMan: She’s available tomorrow. I’ll ask before trying to repair the whole file digitally."
+          },
+          "number": 17,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-conversation-2-2",
+          "type": "choice",
+          "prompt": "What will the man try first?",
+          "options": [
+            "Increase the volume of the entire file",
+            "Book an even larger empty room",
+            "Arrange a new recording of the affected section",
+            "Delete the first half of the interview"
+          ],
+          "answer": 2,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f3-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: The sound level in our recording changes halfway through. Can the software fix it?\nWoman: It can adjust volume, but it can’t remove all the echo. Did you change rooms?\nMan: Yes, the first room was booked for a seminar.\nWoman: The empty room probably caused the echo. Could the speaker record that short section again in the original space?\nMan: She’s available tomorrow. I’ll ask before trying to repair the whole file digitally."
+          },
+          "number": 18,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-announcement-0-1",
+          "type": "choice",
+          "prompt": "How will a major weather-related change be announced?",
+          "options": [
+            "Through the identification guide",
+            "Only at the courtyard after nine",
+            "Through a printed letter delivered tomorrow",
+            "By university email"
+          ],
+          "answer": 3,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f3-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The tree-survey briefing will start at nine tomorrow in the courtyard. If rain is heavy, check your university email before leaving home; we’ll announce any indoor replacement there by eight. Please don’t assume that light rain means cancellation. Waterproof notebooks are available, but bring a pencil. Your group leader will distribute the identification guides at the briefing."
+          },
+          "number": 19,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-announcement-0-2",
+          "type": "choice",
+          "prompt": "What should volunteers bring themselves?",
+          "options": [
+            "A pencil",
+            "A waterproof notebook",
+            "A tree-identification guide",
+            "A printed cancellation notice"
+          ],
+          "answer": 0,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f3-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The tree-survey briefing will start at nine tomorrow in the courtyard. If rain is heavy, check your university email before leaving home; we’ll announce any indoor replacement there by eight. Please don’t assume that light rain means cancellation. Waterproof notebooks are available, but bring a pencil. Your group leader will distribute the identification guides at the briefing."
+          },
+          "number": 20,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-announcement-1-1",
+          "type": "choice",
+          "prompt": "What is true of available appointments?",
+          "options": [
+            "Only afternoon places remain",
+            "No booking is needed",
+            "Some morning places remain",
+            "Every session is full"
+          ],
+          "answer": 2,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f3-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The repair café’s afternoon places are full, but there are still morning appointments. Please describe your item when booking. We can help diagnose small household products, but we cannot accept damaged batteries. Instruction is free; parts, when available, are charged at cost. Booking an appointment does not guarantee that an item can be repaired, so don’t buy replacement parts in advance."
+          },
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-announcement-1-2",
+          "type": "choice",
+          "prompt": "What should participants avoid doing?",
+          "options": [
+            "Describing the item when booking",
+            "Purchasing parts before the item is assessed",
+            "Asking for a diagnosis",
+            "Choosing a morning appointment"
+          ],
+          "answer": 1,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f3-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The repair café’s afternoon places are full, but there are still morning appointments. Please describe your item when booking. We can help diagnose small household products, but we cannot accept damaged batteries. Instruction is free; parts, when available, are charged at cost. Booking an appointment does not guarantee that an item can be repaired, so don’t buy replacement parts in advance."
+          },
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-announcement-2-1",
+          "type": "choice",
+          "prompt": "What kind of information is the project collecting?",
+          "options": [
+            "The names of individual shoppers",
+            "Patterns of movement through the market",
+            "Close-up portraits of every visitor",
+            "The private earnings of stallholders"
+          ],
+          "answer": 1,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f3-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Our market observation project begins Saturday. Please observe from the public seating area and avoid blocking stalls. We’re recording patterns of movement, not identifying individual shoppers, so don’t take close-up photographs of people. After thirty minutes, move to your second assigned position. Comparing the same interval at two locations will help us distinguish location effects from changes over the morning."
+          },
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-announcement-2-2",
+          "type": "choice",
+          "prompt": "Why will observers move to a second location?",
+          "options": [
+            "To help vendors move their stalls",
+            "To extend every observation indefinitely",
+            "To make a comparison across positions",
+            "To follow particular shoppers home"
+          ],
+          "answer": 2,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f3-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Our market observation project begins Saturday. Please observe from the public seating area and avoid blocking stalls. We’re recording patterns of movement, not identifying individual shoppers, so don’t take close-up photographs of people. After thirty minutes, move to your second assigned position. Comparing the same interval at two locations will help us distinguish location effects from changes over the morning."
+          },
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-0-1",
+          "type": "choice",
+          "prompt": "What is the speaker’s main point?",
+          "options": [
+            "Queue experience depends on information and fairness as well as actual waiting time",
+            "Queue length is the only useful measure of service quality",
+            "Clear signs can replace an adequate number of staff",
+            "People always prefer separate lines for every request"
+          ],
+          "answer": 0,
+          "explanation": "The talk integrates process and user experience.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "The Cost of Waiting in a Queue",
+          "stimulus": {
+            "id": "f3-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Cost of Waiting in a Queue",
+            "script": "Queues are often described simply by their length, but two queues containing the same number of people can feel very different. One may move steadily, while the other gives little indication of progress. Information about the process influences how people experience the wait.\nSuppose a student needs advice at a busy service desk. If the student knows roughly when their turn will come, they may be able to read or complete another task. Without that information, they might feel obliged to watch the desk continuously. The number of minutes can be identical, yet the uncertainty and the opportunity cost differ.\nResearchers must also consider fairness. A system that speeds up the average wait may still be unpopular if people cannot understand why later arrivals are being served first. Sometimes different kinds of requests genuinely require separate staff. Explaining that arrangement can prevent a reasonable process from appearing arbitrary.\nThis does not mean that communication can solve every problem. If too few staff are available, a clear sign will not create the missing capacity. Improvements may require both operational changes and better information. Studying a queue therefore involves its actual movement, the decisions behind it and the experience of the people who are waiting."
+          },
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-0-2",
+          "type": "choice",
+          "prompt": "What advantage does an estimated service time offer?",
+          "options": [
+            "It makes every type of request identical",
+            "It reduces the number of required staff to zero",
+            "It guarantees that everyone will be served immediately",
+            "People may use the waiting period for another activity"
+          ],
+          "answer": 3,
+          "explanation": "The student example concerns being able to plan other activity.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "The Cost of Waiting in a Queue",
+          "stimulus": {
+            "id": "f3-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Cost of Waiting in a Queue",
+            "script": "Queues are often described simply by their length, but two queues containing the same number of people can feel very different. One may move steadily, while the other gives little indication of progress. Information about the process influences how people experience the wait.\nSuppose a student needs advice at a busy service desk. If the student knows roughly when their turn will come, they may be able to read or complete another task. Without that information, they might feel obliged to watch the desk continuously. The number of minutes can be identical, yet the uncertainty and the opportunity cost differ.\nResearchers must also consider fairness. A system that speeds up the average wait may still be unpopular if people cannot understand why later arrivals are being served first. Sometimes different kinds of requests genuinely require separate staff. Explaining that arrangement can prevent a reasonable process from appearing arbitrary.\nThis does not mean that communication can solve every problem. If too few staff are available, a clear sign will not create the missing capacity. Improvements may require both operational changes and better information. Studying a queue therefore involves its actual movement, the decisions behind it and the experience of the people who are waiting."
+          },
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-0-3",
+          "type": "choice",
+          "prompt": "Why explain separate service arrangements?",
+          "options": [
+            "To show that fairness is irrelevant",
+            "To hide the reasons for serving later arrivals",
+            "To help people understand why service order may differ",
+            "To prevent anyone from asking complex questions"
+          ],
+          "answer": 2,
+          "explanation": "Transparency can prevent an appropriate system from seeming arbitrary.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "The Cost of Waiting in a Queue",
+          "stimulus": {
+            "id": "f3-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Cost of Waiting in a Queue",
+            "script": "Queues are often described simply by their length, but two queues containing the same number of people can feel very different. One may move steadily, while the other gives little indication of progress. Information about the process influences how people experience the wait.\nSuppose a student needs advice at a busy service desk. If the student knows roughly when their turn will come, they may be able to read or complete another task. Without that information, they might feel obliged to watch the desk continuously. The number of minutes can be identical, yet the uncertainty and the opportunity cost differ.\nResearchers must also consider fairness. A system that speeds up the average wait may still be unpopular if people cannot understand why later arrivals are being served first. Sometimes different kinds of requests genuinely require separate staff. Explaining that arrangement can prevent a reasonable process from appearing arbitrary.\nThis does not mean that communication can solve every problem. If too few staff are available, a clear sign will not create the missing capacity. Improvements may require both operational changes and better information. Studying a queue therefore involves its actual movement, the decisions behind it and the experience of the people who are waiting."
+          },
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-0-4",
+          "type": "choice",
+          "prompt": "What limitation does the final paragraph emphasize?",
+          "options": [
+            "Operational changes always make communication unnecessary",
+            "Better communication cannot by itself supply missing capacity",
+            "Every delay comes from a poorly written sign",
+            "Staffing has no influence on a queue"
+          ],
+          "answer": 1,
+          "explanation": "A sign cannot replace absent staff.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "The Cost of Waiting in a Queue",
+          "stimulus": {
+            "id": "f3-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Cost of Waiting in a Queue",
+            "script": "Queues are often described simply by their length, but two queues containing the same number of people can feel very different. One may move steadily, while the other gives little indication of progress. Information about the process influences how people experience the wait.\nSuppose a student needs advice at a busy service desk. If the student knows roughly when their turn will come, they may be able to read or complete another task. Without that information, they might feel obliged to watch the desk continuously. The number of minutes can be identical, yet the uncertainty and the opportunity cost differ.\nResearchers must also consider fairness. A system that speeds up the average wait may still be unpopular if people cannot understand why later arrivals are being served first. Sometimes different kinds of requests genuinely require separate staff. Explaining that arrangement can prevent a reasonable process from appearing arbitrary.\nThis does not mean that communication can solve every problem. If too few staff are available, a clear sign will not create the missing capacity. Improvements may require both operational changes and better information. Studying a queue therefore involves its actual movement, the decisions behind it and the experience of the people who are waiting."
+          },
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-1-1",
+          "type": "choice",
+          "prompt": "What does the speaker mainly explain?",
+          "options": [
+            "Clothing changes its chemical composition whenever it leaves a shop",
+            "Color appearance depends on illumination, surfaces and perception",
+            "Remembered colors are always more accurate than side-by-side comparisons",
+            "All white-looking lamps emit identical wavelengths"
+          ],
+          "answer": 1,
+          "explanation": "The three-way relationship organizes the talk.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Seeing Colors in Different Light",
+          "stimulus": {
+            "id": "f3-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Seeing Colors in Different Light",
+            "script": "You may have chosen clothing in a shop and found that its color looked different outdoors. The material did not necessarily change during the walk home. What changed was the light reaching it and, therefore, the light it reflected toward your eyes.\nWhite-looking light can contain different mixtures of wavelengths. A surface reflects some of those wavelengths more strongly than others. Two fabrics can look similar under one lamp but different under another if their reflectance patterns differ. This is one reason museums and manufacturers pay attention to lighting when comparing colors.\nOur visual system adds another layer. It adjusts partly to the surrounding illumination, allowing a sheet of paper to look approximately white in several environments. That adjustment is useful, but it does not make all lighting differences disappear. Background colors and nearby objects can also affect the comparison we make.\nWhen an accurate comparison matters, observers use controlled conditions rather than relying on a remembered color from another room. They may place samples side by side under specified illumination. The general lesson is that color appearance emerges from a relationship among the light, the surface and the observer. Describing the surface alone leaves part of the explanation out."
+          },
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-1-2",
+          "type": "choice",
+          "prompt": "Why can two fabrics match under one lamp but not another?",
+          "options": [
+            "Outdoor air immediately changes all fabric dyes",
+            "The observer’s eyes stop adjusting outdoors",
+            "They may reflect different mixtures of wavelengths",
+            "They always have identical reflectance patterns"
+          ],
+          "answer": 2,
+          "explanation": "Different reflectance patterns interact with different illumination.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Seeing Colors in Different Light",
+          "stimulus": {
+            "id": "f3-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Seeing Colors in Different Light",
+            "script": "You may have chosen clothing in a shop and found that its color looked different outdoors. The material did not necessarily change during the walk home. What changed was the light reaching it and, therefore, the light it reflected toward your eyes.\nWhite-looking light can contain different mixtures of wavelengths. A surface reflects some of those wavelengths more strongly than others. Two fabrics can look similar under one lamp but different under another if their reflectance patterns differ. This is one reason museums and manufacturers pay attention to lighting when comparing colors.\nOur visual system adds another layer. It adjusts partly to the surrounding illumination, allowing a sheet of paper to look approximately white in several environments. That adjustment is useful, but it does not make all lighting differences disappear. Background colors and nearby objects can also affect the comparison we make.\nWhen an accurate comparison matters, observers use controlled conditions rather than relying on a remembered color from another room. They may place samples side by side under specified illumination. The general lesson is that color appearance emerges from a relationship among the light, the surface and the observer. Describing the surface alone leaves part of the explanation out."
+          },
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-1-3",
+          "type": "choice",
+          "prompt": "Why is the sheet of paper mentioned?",
+          "options": [
+            "To explain why controlled comparisons are unnecessary",
+            "To argue that background colors never matter",
+            "To show that paper emits its own white light",
+            "To illustrate partial visual adjustment to illumination"
+          ],
+          "answer": 3,
+          "explanation": "Paper illustrates useful but incomplete perceptual adjustment.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Seeing Colors in Different Light",
+          "stimulus": {
+            "id": "f3-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Seeing Colors in Different Light",
+            "script": "You may have chosen clothing in a shop and found that its color looked different outdoors. The material did not necessarily change during the walk home. What changed was the light reaching it and, therefore, the light it reflected toward your eyes.\nWhite-looking light can contain different mixtures of wavelengths. A surface reflects some of those wavelengths more strongly than others. Two fabrics can look similar under one lamp but different under another if their reflectance patterns differ. This is one reason museums and manufacturers pay attention to lighting when comparing colors.\nOur visual system adds another layer. It adjusts partly to the surrounding illumination, allowing a sheet of paper to look approximately white in several environments. That adjustment is useful, but it does not make all lighting differences disappear. Background colors and nearby objects can also affect the comparison we make.\nWhen an accurate comparison matters, observers use controlled conditions rather than relying on a remembered color from another room. They may place samples side by side under specified illumination. The general lesson is that color appearance emerges from a relationship among the light, the surface and the observer. Describing the surface alone leaves part of the explanation out."
+          },
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "f3-l-router-talk-1-4",
+          "type": "choice",
+          "prompt": "What practice supports an accurate comparison?",
+          "options": [
+            "Viewing samples together under specified lighting",
+            "Remembering a sample seen weeks earlier",
+            "Using a different lamp for each sample",
+            "Describing only the name of each fabric"
+          ],
+          "answer": 0,
+          "explanation": "Controlled side-by-side comparison reduces uncontrolled differences.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Seeing Colors in Different Light",
+          "stimulus": {
+            "id": "f3-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Seeing Colors in Different Light",
+            "script": "You may have chosen clothing in a shop and found that its color looked different outdoors. The material did not necessarily change during the walk home. What changed was the light reaching it and, therefore, the light it reflected toward your eyes.\nWhite-looking light can contain different mixtures of wavelengths. A surface reflects some of those wavelengths more strongly than others. Two fabrics can look similar under one lamp but different under another if their reflectance patterns differ. This is one reason museums and manufacturers pay attention to lighting when comparing colors.\nOur visual system adds another layer. It adjusts partly to the surrounding illumination, allowing a sheet of paper to look approximately white in several environments. That adjustment is useful, but it does not make all lighting differences disappear. Background colors and nearby objects can also affect the comparison we make.\nWhen an accurate comparison matters, observers use controlled conditions rather than relying on a remembered color from another room. They may place samples side by side under specified illumination. The general lesson is that color appearance emerges from a relationship among the light, the surface and the observer. Describing the surface alone leaves part of the explanation out."
+          },
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-03"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "branches": {
+        "lower": [
+          {
+            "id": "f3-l-lower-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The sign is on the wall outside.",
+              "Yes, please write your name here.",
+              "Workshops can be useful.",
+              "I signed the letter last week."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-lower-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Is this where we sign in for the workshop?"
+            },
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The instructor can show you the basics.",
+              "I used the library yesterday.",
+              "The machine has been cleaned.",
+              "Before lunch is usually quieter."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-lower-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I’ve never used a sewing machine before."
+            },
+            "number": 2,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "There are four tools on the shelf.",
+              "The drill makes a loud noise.",
+              "I brought it in a strong bag.",
+              "Before the desk closes at four."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-lower-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "When should I bring back the borrowed drill?"
+            },
+            "number": 3,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Safety is discussed in the guide.",
+              "The shop closes early on Sundays.",
+              "No, the workshop provides them.",
+              "I bought a pair of reading glasses."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-lower-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Do I need to buy my own safety glasses?"
+            },
+            "number": 4,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The new unit arrived this morning.",
+              "That sounds like a sensible first step.",
+              "The cable is longer than the old one.",
+              "I replaced the label last night."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-lower-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Let’s check the cable before replacing the whole unit."
+            },
+            "number": 5,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-conversation-0-1",
+            "type": "choice",
+            "prompt": "Why must the planting plan be checked?",
+            "options": [
+              "All trees have already been planted",
+              "The bus stop is no longer in use",
+              "Volunteers have refused to follow the map",
+              "Underground infrastructure may interfere with a proposed location"
+            ],
+            "answer": 3,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The bus-stop tree locations look good on the map, but there’s a water pipe beneath one of them.\nMan: Then we can’t just send the planting list to the volunteers.\nWoman: Right. The grounds team needs to approve the final positions.\nMan: Could we shift that tree a little toward the bench?\nWoman: Possibly, but the wheelchair route must stay clear. I’ll ask the team to mark a safe spot on site."
+            },
+            "number": 6,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the woman request?",
+            "options": [
+              "A site check to identify an appropriate planting position",
+              "Permission to block the wheelchair route",
+              "Removal of the bench immediately",
+              "A larger volunteer group before any review"
+            ],
+            "answer": 0,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The bus-stop tree locations look good on the map, but there’s a water pipe beneath one of them.\nMan: Then we can’t just send the planting list to the volunteers.\nWoman: Right. The grounds team needs to approve the final positions.\nMan: Could we shift that tree a little toward the bench?\nWoman: Possibly, but the wheelchair route must stay clear. I’ll ask the team to mark a safe spot on site."
+            },
+            "number": 7,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-conversation-1-1",
+            "type": "choice",
+            "prompt": "What does the woman warn against?",
+            "options": [
+              "Contacting the media desk",
+              "Using a recorder for interviews",
+              "Deleting recordings that may belong to another borrower",
+              "Testing a blank memory card"
+            ],
+            "answer": 2,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I borrowed the portable recorder, but its memory is almost full.\nWoman: Don’t erase the existing files. Another student may not have copied them yet.\nMan: I need it for an interview this afternoon.\nWoman: Bring it to the media desk. They can lend you a blank card and contact the previous borrower.\nMan: Good. I’ll do that now instead of trying to decide which files matter.\nWoman: Remember to test the replacement card before leaving."
+            },
+            "number": 8,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-conversation-1-2",
+            "type": "choice",
+            "prompt": "What will the man do next?",
+            "options": [
+              "Cancel the interview without checking",
+              "Ask the media desk for a replacement memory card",
+              "Return the recorder after the interview only",
+              "Erase the oldest files himself"
+            ],
+            "answer": 1,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I borrowed the portable recorder, but its memory is almost full.\nWoman: Don’t erase the existing files. Another student may not have copied them yet.\nMan: I need it for an interview this afternoon.\nWoman: Bring it to the media desk. They can lend you a blank card and contact the previous borrower.\nMan: Good. I’ll do that now instead of trying to decide which files matter.\nWoman: Remember to test the replacement card before leaving."
+            },
+            "number": 9,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-announcement-0-1",
+            "type": "choice",
+            "prompt": "What should borrowers check before returning a recorder?",
+            "options": [
+              "That the recording card is permanently removed",
+              "That every earlier file has been erased by them",
+              "That the next borrower has booked an interview",
+              "That their files were copied successfully"
+            ],
+            "answer": 3,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f3-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The equipment desk is introducing a new return procedure for audio recorders. Before handing one back, copy your own files and confirm that the transfer worked. Staff will then clear the card before the next loan. Do not delete files that belong to someone else. If you find any, tell the desk assistant so the previous borrower can be contacted."
+            },
+            "number": 10,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-announcement-0-2",
+            "type": "choice",
+            "prompt": "What should they do about another person’s files?",
+            "options": [
+              "Notify a staff member",
+              "Upload them to the class website",
+              "Delete them without asking",
+              "Keep the recorder until the owner appears"
+            ],
+            "answer": 0,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f3-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The equipment desk is introducing a new return procedure for audio recorders. Before handing one back, copy your own files and confirm that the transfer worked. Staff will then clear the card before the next loan. Do not delete files that belong to someone else. If you find any, tell the desk assistant so the previous borrower can be contacted."
+            },
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the talk chiefly about?",
+            "options": [
+              "Why biological names can change and how communication is maintained",
+              "Why visible features are never useful in classification",
+              "How to stop all revisions to species lists",
+              "Why common names are identical everywhere"
+            ],
+            "answer": 0,
+            "explanation": "The talk considers evidence-based revision and record connections.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "Why a Species Has Several Names",
+            "stimulus": {
+              "id": "f3-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Why a Species Has Several Names",
+              "script": "When scientists discuss an organism, the name they use is meant to make communication precise. Yet names can change. A species may be moved into a different group when new evidence reveals relationships that were not understood before. The change is not necessarily a sign that the earlier observers were careless.\nEarly classifications often relied heavily on visible similarities. Those similarities remain useful, but they can sometimes arise in unrelated organisms facing similar conditions. Genetic evidence may reveal that two organisms that look alike are less closely related than expected. Conversely, organisms that look different may share a more recent ancestor.\nChanging a scientific name creates practical work. Museum collections, field guides and research databases may contain the older term. Linking the old and new names helps readers locate previous observations instead of assuming that a renamed organism has no earlier history. Common names present another difficulty because the same everyday name can refer to different species in different places.\nThe goal of classification is not simply to produce a permanently fixed list. It is to represent relationships in a way that can be revised when evidence improves. Stable communication matters, but so does the ability to correct the account of how organisms are connected."
+            },
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-talk-0-2",
+            "type": "choice",
+            "prompt": "Why can visible similarity be misleading?",
+            "options": [
+              "Appearance always proves a recent shared ancestor",
+              "Genetic evidence concerns only common names",
+              "All organisms inherit identical genes",
+              "Unrelated organisms can develop similar features under similar conditions"
+            ],
+            "answer": 3,
+            "explanation": "Similar adaptations do not necessarily show close ancestry.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "Why a Species Has Several Names",
+            "stimulus": {
+              "id": "f3-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Why a Species Has Several Names",
+              "script": "When scientists discuss an organism, the name they use is meant to make communication precise. Yet names can change. A species may be moved into a different group when new evidence reveals relationships that were not understood before. The change is not necessarily a sign that the earlier observers were careless.\nEarly classifications often relied heavily on visible similarities. Those similarities remain useful, but they can sometimes arise in unrelated organisms facing similar conditions. Genetic evidence may reveal that two organisms that look alike are less closely related than expected. Conversely, organisms that look different may share a more recent ancestor.\nChanging a scientific name creates practical work. Museum collections, field guides and research databases may contain the older term. Linking the old and new names helps readers locate previous observations instead of assuming that a renamed organism has no earlier history. Common names present another difficulty because the same everyday name can refer to different species in different places.\nThe goal of classification is not simply to produce a permanently fixed list. It is to represent relationships in a way that can be revised when evidence improves. Stable communication matters, but so does the ability to correct the account of how organisms are connected."
+            },
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-talk-0-3",
+            "type": "choice",
+            "prompt": "Why link older and newer scientific names?",
+            "options": [
+              "To prevent museums from updating records",
+              "To show that renamed species have only recently appeared",
+              "To keep earlier records discoverable",
+              "To erase all observations made under older names"
+            ],
+            "answer": 2,
+            "explanation": "Links preserve access to historical records.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "Why a Species Has Several Names",
+            "stimulus": {
+              "id": "f3-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Why a Species Has Several Names",
+              "script": "When scientists discuss an organism, the name they use is meant to make communication precise. Yet names can change. A species may be moved into a different group when new evidence reveals relationships that were not understood before. The change is not necessarily a sign that the earlier observers were careless.\nEarly classifications often relied heavily on visible similarities. Those similarities remain useful, but they can sometimes arise in unrelated organisms facing similar conditions. Genetic evidence may reveal that two organisms that look alike are less closely related than expected. Conversely, organisms that look different may share a more recent ancestor.\nChanging a scientific name creates practical work. Museum collections, field guides and research databases may contain the older term. Linking the old and new names helps readers locate previous observations instead of assuming that a renamed organism has no earlier history. Common names present another difficulty because the same everyday name can refer to different species in different places.\nThe goal of classification is not simply to produce a permanently fixed list. It is to represent relationships in a way that can be revised when evidence improves. Stable communication matters, but so does the ability to correct the account of how organisms are connected."
+            },
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-lower-talk-0-4",
+            "type": "choice",
+            "prompt": "What attitude does the speaker express toward revision?",
+            "options": [
+              "It should be avoided even when evidence improves",
+              "It is compatible with the scientific purpose of classification",
+              "It matters less than making every common name identical",
+              "It proves that all earlier descriptions were dishonest"
+            ],
+            "answer": 1,
+            "explanation": "Classification is presented as evidence-responsive.",
+            "skill": "attitude",
+            "task": "academic-talk",
+            "title": "Why a Species Has Several Names",
+            "stimulus": {
+              "id": "f3-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Why a Species Has Several Names",
+              "script": "When scientists discuss an organism, the name they use is meant to make communication precise. Yet names can change. A species may be moved into a different group when new evidence reveals relationships that were not understood before. The change is not necessarily a sign that the earlier observers were careless.\nEarly classifications often relied heavily on visible similarities. Those similarities remain useful, but they can sometimes arise in unrelated organisms facing similar conditions. Genetic evidence may reveal that two organisms that look alike are less closely related than expected. Conversely, organisms that look different may share a more recent ancestor.\nChanging a scientific name creates practical work. Museum collections, field guides and research databases may contain the older term. Linking the old and new names helps readers locate previous observations instead of assuming that a renamed organism has no earlier history. Common names present another difficulty because the same everyday name can refer to different species in different places.\nThe goal of classification is not simply to produce a permanently fixed list. It is to represent relationships in a way that can be revised when evidence improves. Stable communication matters, but so does the ability to correct the account of how organisms are connected."
+            },
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-03"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f3-l-higher-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The first appointment was at ten.",
+              "I repaired my bicycle last month.",
+              "A promise is important to keep.",
+              "I understand; please assess it first."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-higher-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "We might be able to repair it, but I can’t promise."
+            },
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The member joined last year.",
+              "We changed the presentation title.",
+              "I agree; access should come first.",
+              "The room is being cleaned soon."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-higher-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I’d sooner change the room than exclude a member."
+            },
+            "number": 2,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I left home before breakfast.",
+              "All right. When do you expect it?",
+              "The arrival hall is on the ground floor.",
+              "The machine was easy to use."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-higher-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "You’ll have to leave the machine with us until the part arrives."
+            },
+            "number": 3,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Yes, it may help us identify the correct replacement.",
+              "The component is beside the diagram.",
+              "I kept all my appointment emails.",
+              "There is a meeting point outside."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-higher-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Is there any point in keeping the damaged component?"
+            },
+            "number": 4,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The new building opened last year.",
+              "Several volunteers told interesting stories.",
+              "The location is close to campus.",
+              "You’re right; I’ll send an update now."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f3-l-higher-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Shouldn’t the volunteers have been told about the new location?"
+            },
+            "number": 5,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-conversation-0-1",
+            "type": "choice",
+            "prompt": "What difficulty are the speakers addressing?",
+            "options": [
+              "The exhibition has received no visitors",
+              "More people registered than the guide can lead at once",
+              "Both activities must happen in a single room",
+              "The guide is unavailable all afternoon"
+            ],
+            "answer": 1,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: Our neighborhood walk has forty registrations, but the guide can take only twenty people at a time.\nMan: Could we repeat the walk later the same day?\nWoman: She’s free after three. The exhibition closes at four, though.\nMan: Let the later group see the exhibition first, then take the walk.\nWoman: That solves both problems. I’ll offer two departure times and explain the different order.\nMan: Ask people to confirm their choice rather than assuming an even split."
+            },
+            "number": 6,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the woman offer?",
+            "options": [
+              "A walk after the exhibition has closed for everyone",
+              "Only a refund for every registrant",
+              "Two walking groups with different activity sequences",
+              "A single larger group without a guide"
+            ],
+            "answer": 2,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: Our neighborhood walk has forty registrations, but the guide can take only twenty people at a time.\nMan: Could we repeat the walk later the same day?\nWoman: She’s free after three. The exhibition closes at four, though.\nMan: Let the later group see the exhibition first, then take the walk.\nWoman: That solves both problems. I’ll offer two departure times and explain the different order.\nMan: Ask people to confirm their choice rather than assuming an even split."
+            },
+            "number": 7,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-conversation-1-1",
+            "type": "choice",
+            "prompt": "What information needs to be clearer?",
+            "options": [
+              "Free participation does not include replacement parts",
+              "The workshop charges for borrowing every tool",
+              "Only paid members may register",
+              "All cables are supplied at no cost"
+            ],
+            "answer": 0,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: The posters say the repair workshop is free, but someone was asked to pay for a new cable.\nWoman: Instruction and tool use are free. Replacement parts aren’t included.\nMan: The poster doesn’t make that distinction very obvious.\nWoman: You’re right. We should put the parts policy beside the registration link.\nMan: I’ll revise the digital version today. Can you explain it at the desk until the printed copies are replaced?\nWoman: Certainly."
+            },
+            "number": 8,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-conversation-1-2",
+            "type": "choice",
+            "prompt": "What will the man change?",
+            "options": [
+              "The rule allowing students to use tools",
+              "The location of the workshop",
+              "The amount charged for instruction",
+              "The online poster’s explanation of costs"
+            ],
+            "answer": 3,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f3-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: The posters say the repair workshop is free, but someone was asked to pay for a new cable.\nWoman: Instruction and tool use are free. Replacement parts aren’t included.\nMan: The poster doesn’t make that distinction very obvious.\nWoman: You’re right. We should put the parts policy beside the registration link.\nMan: I’ll revise the digital version today. Can you explain it at the desk until the printed copies are replaced?\nWoman: Certainly."
+            },
+            "number": 9,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-announcement-0-1",
+            "type": "choice",
+            "prompt": "Why is the opening delayed?",
+            "options": [
+              "The evening speaker has cancelled",
+              "Installation was affected by a late delivery",
+              "The exhibition has moved to another city",
+              "All tickets have been refunded"
+            ],
+            "answer": 1,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f3-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The neighborhood exhibition will open at two rather than noon on Friday. Installation is taking longer because the borrowed display cases arrived late. Ticket holders for the earlier slot can enter at any time after two or request a refund. The evening discussion will still begin at six. Please use the updated entry time when inviting guests; the older posters have not all been replaced yet."
+            },
+            "number": 10,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-announcement-0-2",
+            "type": "choice",
+            "prompt": "Which event keeps its original time?",
+            "options": [
+              "The first installation session",
+              "The arrival of the display cases",
+              "The evening discussion",
+              "The noon admission slot"
+            ],
+            "answer": 2,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f3-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The neighborhood exhibition will open at two rather than noon on Friday. Installation is taking longer because the borrowed display cases arrived late. Ticket holders for the earlier slot can enter at any time after two or request a refund. The evening discussion will still begin at six. Please use the updated entry time when inviting guests; the older posters have not all been replaced yet."
+            },
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the main message?",
+            "options": [
+              "Paved routes always match users’ needs",
+              "Only the shortest route can be accessible",
+              "Informal paths provide evidence that needs interpretation before redesign",
+              "Every worn track should immediately become a paved path"
+            ],
+            "answer": 2,
+            "explanation": "The speaker treats tracks as evidence rather than commands.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "How a Footpath Develops",
+            "stimulus": {
+              "id": "f3-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "How a Footpath Develops",
+              "script": "On some campuses, a narrow track appears across a lawn even though a paved path runs nearby. The track records repeated choices by people taking a different route. Designers sometimes call such tracks desire paths because they reveal a route people find useful, but the interpretation requires care.\nA shortcut may connect two destinations more directly than the planned route. Alternatively, people may avoid the official path because it floods or has poor lighting. Observing the track alone does not tell us which explanation is correct. Interviews and observations at different times can help identify what users are responding to.\nThere are also users whose needs a track does not represent. A muddy route may be convenient for someone walking quickly but unusable for a wheelchair user. Simply paving every informal path could overlook drainage, safety or accessibility. The decision should consider both the behavior visible on the ground and the people who cannot use that route at all.\nSo a desire path is evidence, not an automatic instruction. It can reveal a mismatch between a plan and actual use. The useful design response is to investigate the mismatch, understand the constraints and then decide whether to alter the route, improve the original path or provide another solution."
+            },
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-talk-0-2",
+            "type": "choice",
+            "prompt": "Which reason for avoiding an official path is mentioned?",
+            "options": [
+              "It always requires an entry fee",
+              "It may flood",
+              "It is necessarily longer than every alternative",
+              "It contains too many signs naming destinations"
+            ],
+            "answer": 1,
+            "explanation": "Flooding and poor lighting are examples.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "How a Footpath Develops",
+            "stimulus": {
+              "id": "f3-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "How a Footpath Develops",
+              "script": "On some campuses, a narrow track appears across a lawn even though a paved path runs nearby. The track records repeated choices by people taking a different route. Designers sometimes call such tracks desire paths because they reveal a route people find useful, but the interpretation requires care.\nA shortcut may connect two destinations more directly than the planned route. Alternatively, people may avoid the official path because it floods or has poor lighting. Observing the track alone does not tell us which explanation is correct. Interviews and observations at different times can help identify what users are responding to.\nThere are also users whose needs a track does not represent. A muddy route may be convenient for someone walking quickly but unusable for a wheelchair user. Simply paving every informal path could overlook drainage, safety or accessibility. The decision should consider both the behavior visible on the ground and the people who cannot use that route at all.\nSo a desire path is evidence, not an automatic instruction. It can reveal a mismatch between a plan and actual use. The useful design response is to investigate the mismatch, understand the constraints and then decide whether to alter the route, improve the original path or provide another solution."
+            },
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-talk-0-3",
+            "type": "choice",
+            "prompt": "Why discuss wheelchair users?",
+            "options": [
+              "A visible track may not represent the needs of people unable to use it",
+              "They necessarily prefer muddy routes",
+              "They create every informal campus path",
+              "Their needs can be determined without consultation"
+            ],
+            "answer": 0,
+            "explanation": "The example highlights an absent group.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "How a Footpath Develops",
+            "stimulus": {
+              "id": "f3-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "How a Footpath Develops",
+              "script": "On some campuses, a narrow track appears across a lawn even though a paved path runs nearby. The track records repeated choices by people taking a different route. Designers sometimes call such tracks desire paths because they reveal a route people find useful, but the interpretation requires care.\nA shortcut may connect two destinations more directly than the planned route. Alternatively, people may avoid the official path because it floods or has poor lighting. Observing the track alone does not tell us which explanation is correct. Interviews and observations at different times can help identify what users are responding to.\nThere are also users whose needs a track does not represent. A muddy route may be convenient for someone walking quickly but unusable for a wheelchair user. Simply paving every informal path could overlook drainage, safety or accessibility. The decision should consider both the behavior visible on the ground and the people who cannot use that route at all.\nSo a desire path is evidence, not an automatic instruction. It can reveal a mismatch between a plan and actual use. The useful design response is to investigate the mismatch, understand the constraints and then decide whether to alter the route, improve the original path or provide another solution."
+            },
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          },
+          {
+            "id": "f3-l-higher-talk-0-4",
+            "type": "choice",
+            "prompt": "What should designers do first when evaluating a track?",
+            "options": [
+              "Ignore observations made at different times",
+              "Close all nearby destinations",
+              "Assume the original plan must be correct",
+              "Investigate why it is used and what constraints apply"
+            ],
+            "answer": 3,
+            "explanation": "Investigation precedes selecting an intervention.",
+            "skill": "inference",
+            "task": "academic-talk",
+            "title": "How a Footpath Develops",
+            "stimulus": {
+              "id": "f3-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "How a Footpath Develops",
+              "script": "On some campuses, a narrow track appears across a lawn even though a paved path runs nearby. The track records repeated choices by people taking a different route. Designers sometimes call such tracks desire paths because they reveal a route people find useful, but the interpretation requires care.\nA shortcut may connect two destinations more directly than the planned route. Alternatively, people may avoid the official path because it floods or has poor lighting. Observing the track alone does not tell us which explanation is correct. Interviews and observations at different times can help identify what users are responding to.\nThere are also users whose needs a track does not represent. A muddy route may be convenient for someone walking quickly but unusable for a wheelchair user. Simply paving every informal path could overlook drainage, safety or accessibility. The decision should consider both the behavior visible on the ground and the people who cannot use that route at all.\nSo a desire path is evidence, not an automatic instruction. It can reveal a mismatch between a plan and actual use. The useful design response is to investigate the mismatch, understand the constraints and then decide whether to alter the route, improve the original path or provide another solution."
+            },
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-03"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "original-03-w1",
+          "number": 1,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "My bicycle needs a minor adjustment.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "you",
+            "have",
+            "taking it",
+            "considered",
+            "the workshop",
+            "to",
+            "take"
+          ],
+          "solution": [
+            "have",
+            "you",
+            "considered",
+            "taking it",
+            "to",
+            "the workshop"
+          ],
+          "correct": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w2",
+          "number": 2,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The roof garden will be closed in strong winds.",
+          "frame": [
+            "I wonder",
+            "."
+          ],
+          "chunks": [
+            "whether",
+            "tomorrow’s session",
+            "will",
+            "be moved",
+            "indoors",
+            "does"
+          ],
+          "solution": [
+            "whether",
+            "tomorrow’s session",
+            "will",
+            "be moved",
+            "indoors"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w3",
+          "number": 3,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We should compare both possible planting sites.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "whom",
+            "people need",
+            "that",
+            "the shade",
+            "provide",
+            "may not",
+            "the cheaper option"
+          ],
+          "solution": [
+            "the cheaper option",
+            "may not",
+            "provide",
+            "the shade",
+            "that",
+            "people need"
+          ],
+          "correct": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w4",
+          "number": 4,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I cannot collect the sewing machine this afternoon.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "picking",
+            "to pick",
+            "it up",
+            "arrange",
+            "for someone else",
+            "I",
+            "can"
+          ],
+          "solution": [
+            "I",
+            "can",
+            "arrange",
+            "for someone else",
+            "to pick",
+            "it up"
+          ],
+          "correct": [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w5",
+          "number": 5,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Some participants thought all parts were free.",
+          "frame": [
+            "The poster should",
+            "."
+          ],
+          "chunks": [
+            "register",
+            "people",
+            "clearly",
+            "the costs",
+            "make",
+            "before",
+            "clear"
+          ],
+          "solution": [
+            "make",
+            "the costs",
+            "clear",
+            "before",
+            "people",
+            "register"
+          ],
+          "correct": [
+            4,
+            3,
+            6,
+            5,
+            1,
+            0
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w6",
+          "number": 6,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We need to return these tools before four.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "the work",
+            "will take",
+            "does",
+            "how long",
+            "do",
+            "you",
+            "think"
+          ],
+          "solution": [
+            "how long",
+            "do",
+            "you",
+            "think",
+            "the work",
+            "will take"
+          ],
+          "correct": [
+            3,
+            4,
+            5,
+            6,
+            0,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w7",
+          "number": 7,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The replacement room has no tables.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "difficult",
+            "make it",
+            "would",
+            "that",
+            "difficulty",
+            "the practical session",
+            "to run"
+          ],
+          "solution": [
+            "that",
+            "would",
+            "make it",
+            "difficult",
+            "to run",
+            "the practical session"
+          ],
+          "correct": [
+            3,
+            2,
+            1,
+            0,
+            6,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w8",
+          "number": 8,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The young trees will need watering during the holidays.",
+          "frame": [
+            "We must find",
+            "."
+          ],
+          "chunks": [
+            "is willing",
+            "to check",
+            "a volunteer",
+            "who",
+            "whom",
+            "them",
+            "regularly"
+          ],
+          "solution": [
+            "a volunteer",
+            "who",
+            "is willing",
+            "to check",
+            "them",
+            "regularly"
+          ],
+          "correct": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            6
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w9",
+          "number": 9,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The instructions for this machine are missing.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "the supplier",
+            "could",
+            "a copy",
+            "send us",
+            "Friday",
+            "before",
+            "sending"
+          ],
+          "solution": [
+            "could",
+            "the supplier",
+            "send us",
+            "a copy",
+            "before",
+            "Friday"
+          ],
+          "correct": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-w10",
+          "number": 10,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I would rather repair the item than replace it.",
+          "frame": [
+            "That depends on",
+            "."
+          ],
+          "chunks": [
+            "whether",
+            "the damaged part",
+            "can",
+            "be obtained",
+            "at",
+            "a reasonable cost",
+            "if it can"
+          ],
+          "solution": [
+            "whether",
+            "the damaged part",
+            "can",
+            "be obtained",
+            "at",
+            "a reasonable cost"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-03"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "original-03-w11",
+          "number": 11,
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Mr. Chen",
+          "subject": "Repair workshop information",
+          "scenario": "You attended a campus repair workshop. The instruction was useful, but several participants had not understood that replacement parts cost extra. You want the organizer to improve the information for the next workshop.",
+          "points": [
+            "Thank the organizer and describe something valuable you learned.",
+            "Explain the confusion about replacement-part costs.",
+            "Recommend a specific change to the registration information."
+          ],
+          "difficulty": "mixed",
+          "testId": "original-03"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "original-03-w12",
+          "number": 12,
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Dr. Okafor",
+          "question": "Universities are trying to reduce waste. Would lending more shared equipment or teaching repair skills be the more effective priority? Choose a position and support it with reasons.",
+          "students": [
+            [
+              "Nadia",
+              "Shared equipment prevents unnecessary purchases. Students who need a tool once should not have to own one, so a lending service could reduce waste immediately."
+            ],
+            [
+              "Ben",
+              "Repair skills have benefits beyond campus. A student who learns to fix ordinary products can keep using those skills after graduation and help other people too."
+            ]
+          ],
+          "difficulty": "mixed",
+          "testId": "original-03"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are helping prepare a campus repair workshop.",
+      "items": [
+        {
+          "id": "original-03-s1",
+          "number": 1,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Put the borrowed tools on this table.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-03-repeat1",
+            "kind": "repeat",
+            "script": "Put the borrowed tools on this table."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s2",
+          "number": 2,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Safety glasses are available beside the door.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-03-repeat2",
+            "kind": "repeat",
+            "script": "Safety glasses are available beside the door."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s3",
+          "number": 3,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Check that the power is disconnected before opening the outer case.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-03-repeat3",
+            "kind": "repeat",
+            "script": "Check that the power is disconnected before opening the outer case."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s4",
+          "number": 4,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Participants should ask the instructor whenever they are uncertain about a procedure.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-03-repeat4",
+            "kind": "repeat",
+            "script": "Participants should ask the instructor whenever they are uncertain about a procedure."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s5",
+          "number": 5,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Replacement parts are not included in the free workshop, so explain the cost before proceeding.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-03-repeat5",
+            "kind": "repeat",
+            "script": "Replacement parts are not included in the free workshop, so explain the cost before proceeding."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s6",
+          "number": 6,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If an item cannot be repaired safely today, describe the problem clearly and suggest where the owner can seek specialist advice.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-03-repeat6",
+            "kind": "repeat",
+            "script": "If an item cannot be repaired safely today, describe the problem clearly and suggest where the owner can seek specialist advice."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s7",
+          "number": 7,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Before the last group leaves, make sure that every borrowed tool has been checked, cleaned and returned to the correct storage tray.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-03-repeat7",
+            "kind": "repeat",
+            "script": "Before the last group leaves, make sure that every borrowed tool has been checked, cleaned and returned to the correct storage tray."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "A researcher is studying sharing and practical skills among students.",
+      "items": [
+        {
+          "id": "original-03-s8",
+          "number": 8,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "What is an item that you have borrowed from another person? Explain why you needed it.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-03-interview1",
+            "kind": "interview",
+            "script": "What is an item that you have borrowed from another person? Explain why you needed it."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s9",
+          "number": 9,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe a practical skill that someone taught you. How did you learn to use it confidently?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-03-interview2",
+            "kind": "interview",
+            "script": "Describe a practical skill that someone taught you. How did you learn to use it confidently?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s10",
+          "number": 10,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Would you rather borrow equipment when needed or own it yourself? Explain what affects your choice.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-03-interview3",
+            "kind": "interview",
+            "script": "Would you rather borrow equipment when needed or own it yourself? Explain what affects your choice."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        },
+        {
+          "id": "original-03-s11",
+          "number": 11,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Some people believe universities should teach more everyday practical skills. Do you agree? Give reasons and examples to support your opinion.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-03-interview4",
+            "kind": "interview",
+            "script": "Some people believe universities should teach more everyday practical skills. Do you agree? Give reasons and examples to support your opinion."
+          },
+          "difficulty": "mixed",
+          "testId": "original-03"
+        }
+      ]
+    }
+  ]
+}

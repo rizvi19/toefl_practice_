@@ -71,7 +71,9 @@
             },
             " attacks the skin of amphibians. Conservationists study the golden toad’s demise to understand how climate factors affect amphibian populations. This case underscores the importance of preserving sensitive habitats and addressing global environmental challenges to protect biodiversity."
           ],
-          "sourceNote": "Blank boundaries reconstructed from the pasted text."
+          "sourceNote": "Word completions verified against the supplied PDF answer key (pp.292–293, 296–297, 302).",
+          "keyVerified": true,
+          "scored": true
         },
         {
           "id": "r1-11",
@@ -82,8 +84,8 @@
           "pieces": [
             "The study of animal behavior, specifically that of insects, provides insight into the complex interactions within ecosystems. Insects ",
             {
-              "pre": "exhi",
-              "answer": "bit"
+              "pre": "exh",
+              "answer": "ibit"
             },
             " a ",
             {
@@ -132,7 +134,9 @@
             },
             " dances to communicate the location of food sources. Ants communicate using chemical signals called pheromones, which help coordinate complex tasks like defending the colony and locating resources. This cooperative behavior ensures the survival and efficiency of their communities."
           ],
-          "sourceNote": "The pasted “exhl” was reconstructed as “exhi”; blank boundaries are reconstructed."
+          "sourceNote": "Word completions verified against the supplied PDF answer key (pp.292–293, 296–297, 302).",
+          "keyVerified": true,
+          "scored": false
         },
         {
           "number": 21,
@@ -146,7 +150,10 @@
           ],
           "title": "Cooking class",
           "passage": "Subject: Cooking class\n\nMaria Lopez,\n\nThank you for your interest in the Foster Dining Hall cooking class.\n\nThere is currently a waiting list for this popular event. To secure your spot, respond to this email to confirm your registration. There is a $10 fee for the use of equipment and ingredients, payable when you arrive.\n\nHair nets will be provided and must be worn at all times in the dining hall kitchen. We have aprons for you to borrow, or you can bring your own.\n\nBest regards,\n\nMichael Brown",
-          "id": "r1-21"
+          "id": "r1-21",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true
         },
         {
           "number": 22,
@@ -160,7 +167,10 @@
           ],
           "title": "Cooking class",
           "passage": "Subject: Cooking class\n\nMaria Lopez,\n\nThank you for your interest in the Foster Dining Hall cooking class.\n\nThere is currently a waiting list for this popular event. To secure your spot, respond to this email to confirm your registration. There is a $10 fee for the use of equipment and ingredients, payable when you arrive.\n\nHair nets will be provided and must be worn at all times in the dining hall kitchen. We have aprons for you to borrow, or you can bring your own.\n\nBest regards,\n\nMichael Brown",
-          "id": "r1-22"
+          "id": "r1-22",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": true
         },
         {
           "number": 23,
@@ -174,7 +184,10 @@
           ],
           "title": "A semester in Japan",
           "passage": "Emma Lee\n\nI can’t believe I’m already halfway through my exchange semester in Japan. Time really flies when you have a busy class schedule! Last weekend, after wrapping up midterms, I finally headed out of Osaka. My destination? Kyoto.\n\nDay 1: Temples and Shrines: I started my day at the Fushimi Inari Shrine, famous for its thousands of torii gates. It was a steep climb, but the view was absolutely worth it. Later, I visited the Kinkaku-ji, the Golden Pavilion, which was stunning, with its gold-leaf-covered exterior reflecting on the tranquil pond.\n\nDay 2: Exploring Gion Kobu, one of Kyoto's historic districts, was fascinating. I walked through the narrow streets lined with traditional wooden teahouses. The atmosphere was magical, and it seemed as if I was stepping back in time.\n\nI'll share more about Kyoto. Stay tuned for updates! #Travel #Kyoto #Japan #Adventure",
-          "id": "r1-23"
+          "id": "r1-23",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true
         },
         {
           "number": 24,
@@ -188,7 +201,10 @@
           ],
           "title": "A semester in Japan",
           "passage": "Emma Lee\n\nI can’t believe I’m already halfway through my exchange semester in Japan. Time really flies when you have a busy class schedule! Last weekend, after wrapping up midterms, I finally headed out of Osaka. My destination? Kyoto.\n\nDay 1: Temples and Shrines: I started my day at the Fushimi Inari Shrine, famous for its thousands of torii gates. It was a steep climb, but the view was absolutely worth it. Later, I visited the Kinkaku-ji, the Golden Pavilion, which was stunning, with its gold-leaf-covered exterior reflecting on the tranquil pond.\n\nDay 2: Exploring Gion Kobu, one of Kyoto's historic districts, was fascinating. I walked through the narrow streets lined with traditional wooden teahouses. The atmosphere was magical, and it seemed as if I was stepping back in time.\n\nI'll share more about Kyoto. Stay tuned for updates! #Travel #Kyoto #Japan #Adventure",
-          "id": "r1-24"
+          "id": "r1-24",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true
         },
         {
           "number": 25,
@@ -202,7 +218,10 @@
           ],
           "title": "A semester in Japan",
           "passage": "Emma Lee\n\nI can’t believe I’m already halfway through my exchange semester in Japan. Time really flies when you have a busy class schedule! Last weekend, after wrapping up midterms, I finally headed out of Osaka. My destination? Kyoto.\n\nDay 1: Temples and Shrines: I started my day at the Fushimi Inari Shrine, famous for its thousands of torii gates. It was a steep climb, but the view was absolutely worth it. Later, I visited the Kinkaku-ji, the Golden Pavilion, which was stunning, with its gold-leaf-covered exterior reflecting on the tranquil pond.\n\nDay 2: Exploring Gion Kobu, one of Kyoto's historic districts, was fascinating. I walked through the narrow streets lined with traditional wooden teahouses. The atmosphere was magical, and it seemed as if I was stepping back in time.\n\nI'll share more about Kyoto. Stay tuned for updates! #Travel #Kyoto #Japan #Adventure",
-          "id": "r1-25"
+          "id": "r1-25",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true
         },
         {
           "number": 26,
@@ -216,7 +235,10 @@
           ],
           "title": "Ancient Aqueducts",
           "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
-          "id": "r1-26"
+          "id": "r1-26",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": false
         },
         {
           "number": 27,
@@ -230,7 +252,10 @@
           ],
           "title": "Ancient Aqueducts",
           "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
-          "id": "r1-27"
+          "id": "r1-27",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": false
         },
         {
           "number": 28,
@@ -244,7 +269,10 @@
           ],
           "title": "Ancient Aqueducts",
           "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
-          "id": "r1-28"
+          "id": "r1-28",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": false
         },
         {
           "number": 29,
@@ -258,7 +286,10 @@
           ],
           "title": "Ancient Aqueducts",
           "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
-          "id": "r1-29"
+          "id": "r1-29",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": false
         },
         {
           "number": 30,
@@ -272,7 +303,10 @@
           ],
           "title": "Ancient Aqueducts",
           "passage": "Aqueducts are among the most impressive engineering feats of ancient civilizations. [A] Aqueducts are structures built to transport water from a distant source to cities and towns. [B] The Romans, in particular, perfected the construction of aqueducts, using gravity to carry water over long distances. [C] Roman aqueducts were made of stone, brick, and concrete and included tunnels, bridges, and pipes. [D] The aqueducts were essential to the growth and sustainability of Roman cities. They supplied water for public baths, fountains, households, and agriculture. One famous example is the Pont du Gard in France. Built in the first century A.D., it spans 50 kilometers and features a three-tiered bridge that remains standing today.\n\nAqueducts were not unique to the Roman Empire. Ancient Greece, Persia, and India also developed systems for water transport. Persian aqueducts, known as qanats, were underground channels tapping groundwater sources. These systems were exceptionally durable and could last for centuries. However, constructing and maintaining aqueducts required significant resources and labor. Despite these challenges, aqueducts were essential investments in ancient infrastructure and played a crucial role in development.",
-          "id": "r1-30"
+          "id": "r1-30",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": false
         },
         {
           "number": 31,
@@ -286,7 +320,10 @@
           ],
           "title": "Advancements in Renewable Energy Engineering",
           "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
-          "id": "r1-31"
+          "id": "r1-31",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": true
         },
         {
           "number": 32,
@@ -300,7 +337,10 @@
           ],
           "title": "Advancements in Renewable Energy Engineering",
           "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
-          "id": "r1-32"
+          "id": "r1-32",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true
         },
         {
           "number": 33,
@@ -314,7 +354,10 @@
           ],
           "title": "Advancements in Renewable Energy Engineering",
           "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
-          "id": "r1-33"
+          "id": "r1-33",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": true
         },
         {
           "number": 34,
@@ -328,7 +371,10 @@
           ],
           "title": "Advancements in Renewable Energy Engineering",
           "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
-          "id": "r1-34"
+          "id": "r1-34",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": true
         },
         {
           "number": 35,
@@ -342,7 +388,10 @@
           ],
           "title": "Advancements in Renewable Energy Engineering",
           "passage": "[A] Photovoltaic (PV) cells that convert sunlight into electricity are one innovative solution to harness renewable energy. [B] When sunlight hits the PV cell, it is absorbed by a semiconductor material, usually silicon. The energy from the light knocks electrons loose from atoms, creating a flow of electric current. This current is then captured and can be used to power electrical devices. A common misconception is that, at night, PV cells store energy like a battery. [C] In fact, they convert sunlight into electricity in real time; to store energy, a separate energy storage system, like a battery, is required. [D] Researchers are also developing what are called moonlight solar panels, which can generate electricity at night, during rain, and under overcast skies. They make renewable energy a more viable option in diverse environments.\n\nFloating wind farms are another interesting innovation. Mounted on buoyant platforms tethered to the ocean floor, they can be deployed far from land, where wind speeds are often stronger and more consistent than those on land. Underwater cables transmit electricity they generate back to shore. While challenges such as maintenance and initial costs persist, the long-term benefits are substantial.",
-          "id": "r1-35"
+          "id": "r1-35",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true
         }
       ]
     },
@@ -412,7 +461,8 @@
             },
             " plain weave, twill, and satin weave produce different textures and patterns. Textile weaving has been practiced by cultures worldwide, each developing unique styles. Ikat weaving from Indonesia, for example, uses a resist-dye method to create vibrant colors and symbolic motifs that reflect cultural identity and regional traditions."
           ],
-          "sourceNote": "The middle sentence and blank order were reconstructed because the pasted PDF text is out of order. Check against the book before treating this as an exact reproduction."
+          "sourceNote": "Word completions verified against the supplied PDF answer key (pp.292–293, 296–297, 302).",
+          "keyVerified": true
         },
         {
           "number": 11,
@@ -426,7 +476,9 @@
           ],
           "title": "Urbanization and Social Geography",
           "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
-          "id": "r2-11"
+          "id": "r2-11",
+          "keyVerified": true,
+          "answer": 0
         },
         {
           "number": 12,
@@ -440,7 +492,9 @@
           ],
           "title": "Urbanization and Social Geography",
           "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
-          "id": "r2-12"
+          "id": "r2-12",
+          "keyVerified": true,
+          "answer": 2
         },
         {
           "number": 13,
@@ -454,7 +508,9 @@
           ],
           "title": "Urbanization and Social Geography",
           "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
-          "id": "r2-13"
+          "id": "r2-13",
+          "keyVerified": true,
+          "answer": 0
         },
         {
           "number": 14,
@@ -468,7 +524,9 @@
           ],
           "title": "Urbanization and Social Geography",
           "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
-          "id": "r2-14"
+          "id": "r2-14",
+          "keyVerified": true,
+          "answer": 1
         },
         {
           "number": 15,
@@ -482,7 +540,9 @@
           ],
           "title": "Urbanization and Social Geography",
           "passage": "Urbanization is the transformation of rural areas into urban ones. [A] Social geography studies these changes and helps us understand urbanization’s implications on human societies. Unlike geography, which examines landscapes, climates, and natural hazards, social geography focuses on the interaction between society and landscapes. The term “social geography” was first used by French geographer Élisée Reclus and by followers of the French sociologist Frédéric Le Play, possibly independently of each other, at the end of the nineteenth century. [B]\n\nAs cities grow, they attract people from rural areas seeking employment and better living conditions. This migration leads to higher population densities, affecting social relationships and community structures. Dense populations can foster anonymity, as the sheer number of people in urban environments often reduces the likelihood of repeated interactions with the same individuals. [C]\n\nCities offer better access to healthcare, education, and public services than rural areas. [D] However, this concentration can lead to disparities, with some urban residents benefiting more than others. Social geography seeks solutions to ensure equitable resource distribution.\n\nCities are melting pots, bringing together people from various backgrounds. This diversity can enrich urban life but also presents challenges in integration and social cohesion. Social geographers analyze cultural dynamics and propose measures to enhance inclusivity.",
-          "id": "r2-15"
+          "id": "r2-15",
+          "keyVerified": true,
+          "answer": 0
         }
       ]
     },
@@ -505,7 +565,11 @@
           ],
           "id": "l1-1",
           "media": "track-53.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true,
+          "script": "I’m not free this evening."
         },
         {
           "number": 2,
@@ -519,7 +583,11 @@
           ],
           "id": "l1-2",
           "media": "track-54.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": false,
+          "script": "Who will be our next club president?"
         },
         {
           "number": 3,
@@ -533,7 +601,11 @@
           ],
           "id": "l1-3",
           "media": "track-55.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true,
+          "script": "Where is the university bookstore?"
         },
         {
           "number": 4,
@@ -547,7 +619,11 @@
           ],
           "id": "l1-4",
           "media": "track-56.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true,
+          "script": "The seminar starts at ten a.m."
         },
         {
           "number": 5,
@@ -561,7 +637,11 @@
           ],
           "id": "l1-5",
           "media": "track-57.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": false,
+          "script": "Do you enjoy cooking?"
         },
         {
           "number": 6,
@@ -575,7 +655,11 @@
           ],
           "id": "l1-6",
           "media": "track-58.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": true,
+          "script": "Do you like the new layout of the library?"
         },
         {
           "number": 7,
@@ -589,7 +673,11 @@
           ],
           "id": "l1-7",
           "media": "track-59.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": false,
+          "script": "Which floor is the admissions office on?"
         },
         {
           "number": 8,
@@ -603,7 +691,11 @@
           ],
           "id": "l1-8",
           "media": "track-60.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": true,
+          "script": "That was an inspiring opening ceremony at the art museum."
         },
         {
           "number": 9,
@@ -617,7 +709,11 @@
           ],
           "id": "l1-9",
           "media": "track-61.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": true,
+          "script": "Where is your favorite place to relax?"
         },
         {
           "number": 10,
@@ -631,7 +727,11 @@
           ],
           "id": "l1-10",
           "media": "track-62.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": true,
+          "script": "Why did you cancel your appointment at the student health center today?"
         },
         {
           "number": 11,
@@ -645,7 +745,11 @@
           ],
           "id": "l1-11",
           "media": "track-63.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true,
+          "script": "That was a wonderful performance."
         },
         {
           "number": 12,
@@ -659,7 +763,11 @@
           ],
           "id": "l1-12",
           "media": "track-64.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": false,
+          "script": "Who borrowed my physics book?"
         },
         {
           "number": 13,
@@ -673,7 +781,11 @@
           ],
           "id": "l1-13",
           "media": "track-65.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": false,
+          "script": "Woman: Hey, James. Have you been to the new café in the student center? I haven’t been there yet. \nMan: Yeah, I went there yesterday after class. They have a great selection of drinks and snacks. \nWoman: That’s good to know. Are the prices reasonable? \nMan: Surprisingly, yes. It’s actually cheaper than the other places around campus. \nWoman: Nice! I’ve been looking for a new spot to study. I’ll check it out this weekend. \nMan: I think you’ll like it. It’s quiet, and they have plenty of seating."
         },
         {
           "number": 14,
@@ -687,7 +799,11 @@
           ],
           "id": "l1-14",
           "media": "track-65.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": false,
+          "script": "Woman: Hey, James. Have you been to the new café in the student center? I haven’t been there yet. \nMan: Yeah, I went there yesterday after class. They have a great selection of drinks and snacks. \nWoman: That’s good to know. Are the prices reasonable? \nMan: Surprisingly, yes. It’s actually cheaper than the other places around campus. \nWoman: Nice! I’ve been looking for a new spot to study. I’ll check it out this weekend. \nMan: I think you’ll like it. It’s quiet, and they have plenty of seating."
         },
         {
           "number": 15,
@@ -701,7 +817,11 @@
           ],
           "id": "l1-15",
           "media": "track-66.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true,
+          "script": "Woman: Hey, have you finished your part of the group project for our marketing class? It’s due tomorrow afternoon. \nMan: I’m almost finished with the competitor analysis for the smartphone market. There are so many competitors, so I decided to focus on the four most prominent ones. \nWoman: Oh, that makes sense. I just finished formatting the slides we’re going to use for the presentation. I think you’ll like the borders and color scheme. Do you want me to send you the file we’re using? \nMan: Yes, please! That would save me a lot of time. I’ll drop my section in once I’m done. \nWoman: No problem. I’ll email it to you now."
         },
         {
           "number": 16,
@@ -715,7 +835,11 @@
           ],
           "id": "l1-16",
           "media": "track-66.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": true,
+          "script": "Woman: Hey, have you finished your part of the group project for our marketing class? It’s due tomorrow afternoon. \nMan: I’m almost finished with the competitor analysis for the smartphone market. There are so many competitors, so I decided to focus on the four most prominent ones. \nWoman: Oh, that makes sense. I just finished formatting the slides we’re going to use for the presentation. I think you’ll like the borders and color scheme. Do you want me to send you the file we’re using? \nMan: Yes, please! That would save me a lot of time. I’ll drop my section in once I’m done. \nWoman: No problem. I’ll email it to you now."
         },
         {
           "number": 17,
@@ -729,7 +853,11 @@
           ],
           "id": "l1-17",
           "media": "track-67.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true,
+          "script": "Woman: Did you book your flight to the conference at Northbridge University? \nMan: Just last night. I’m flying out Saturday morning. \nWoman: I haven’t booked yet. I’m thinking about the train for this trip—it stops close to the campus. \nMan: True, but the plane’s faster, and there’s a shuttle from the airport every hour. \nWoman: Good to know. Where’s the check-in area? \nMan: At the student center, across from the library. I downloaded the campus map. \nWoman: I should do that too. I’ve heard the campus is pretty spread out. That’ll help. \nMan: Definitely. \nWoman: I’ll try to book a flight tonight. Thanks for the tips!"
         },
         {
           "number": 18,
@@ -743,7 +871,11 @@
           ],
           "id": "l1-18",
           "media": "track-67.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true,
+          "script": "Woman: Did you book your flight to the conference at Northbridge University? \nMan: Just last night. I’m flying out Saturday morning. \nWoman: I haven’t booked yet. I’m thinking about the train for this trip—it stops close to the campus. \nMan: True, but the plane’s faster, and there’s a shuttle from the airport every hour. \nWoman: Good to know. Where’s the check-in area? \nMan: At the student center, across from the library. I downloaded the campus map. \nWoman: I should do that too. I’ve heard the campus is pretty spread out. That’ll help. \nMan: Definitely. \nWoman: I’ll try to book a flight tonight. Thanks for the tips!"
         },
         {
           "number": 19,
@@ -757,7 +889,11 @@
           ],
           "id": "l1-19",
           "media": "track-68.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": false,
+          "script": "Man: Attention, everyone. Starting next week, our Art and Design class will be moving to a new and improved space! We’ll now be meeting in room 304, instead of the library annex downstairs, which we’ve been using temporarily. Thank you all for your patience while the new audiovisual equipment was being installed—the upgraded room is ready, and we’re excited for you to experience it! Please make a note of the room change and continue to arrive on time."
         },
         {
           "number": 20,
@@ -771,7 +907,11 @@
           ],
           "id": "l1-20",
           "media": "track-68.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": false,
+          "script": "Man: Attention, everyone. Starting next week, our Art and Design class will be moving to a new and improved space! We’ll now be meeting in room 304, instead of the library annex downstairs, which we’ve been using temporarily. Thank you all for your patience while the new audiovisual equipment was being installed—the upgraded room is ready, and we’re excited for you to experience it! Please make a note of the room change and continue to arrive on time."
         },
         {
           "number": 21,
@@ -785,7 +925,11 @@
           ],
           "id": "l1-21",
           "media": "track-69.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true,
+          "script": "Woman: Before we get started today, I just wanted to let you all know that I’m making an adjustment to our class schedule. Because so many of you have a class in the Williams Building just before this class, from now on we’ll be starting class ten minutes later. That should give you plenty of time to get over here without having to rush. Keep in mind that now you won’t have any excuse if you can’t make it to class on time."
         },
         {
           "number": 22,
@@ -799,7 +943,11 @@
           ],
           "id": "l1-22",
           "media": "track-69.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": true,
+          "script": "Woman: Before we get started today, I just wanted to let you all know that I’m making an adjustment to our class schedule. Because so many of you have a class in the Williams Building just before this class, from now on we’ll be starting class ten minutes later. That should give you plenty of time to get over here without having to rush. Keep in mind that now you won’t have any excuse if you can’t make it to class on time."
         },
         {
           "number": 23,
@@ -813,7 +961,11 @@
           ],
           "id": "l1-23",
           "media": "track-70.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true,
+          "script": "Man: Good morning, students. This is a reminder to submit your course evaluation forms for Economics 201 to the university administrator no later than Thursday. Final grades will be announced on Friday, after which course evaluations will no longer be accepted. Please take a few minutes to fill out the form honestly and thoughtfully. You can submit it online through the university portal. To access the evaluation form through the portal, please use the password sent to you from an automated email."
         },
         {
           "number": 24,
@@ -827,7 +979,11 @@
           ],
           "id": "l1-24",
           "media": "track-70.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true,
+          "script": "Man: Good morning, students. This is a reminder to submit your course evaluation forms for Economics 201 to the university administrator no later than Thursday. Final grades will be announced on Friday, after which course evaluations will no longer be accepted. Please take a few minutes to fill out the form honestly and thoughtfully. You can submit it online through the university portal. To access the evaluation form through the portal, please use the password sent to you from an automated email."
         },
         {
           "number": 25,
@@ -841,7 +997,11 @@
           ],
           "id": "l1-25",
           "media": "track-71.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": false,
+          "script": "Man: Renewable energy comes from natural processes that are replenished constantly, such as sunlight, wind, and water. They’re an alternative to fossil fuels, which contribute to greenhouse gases and global warming. One of the most widely used forms of renewable energy is solar power. You might have seen solar panels on rooftops of private homes or small buildings that convert sunlight into electricity. These panels can last for decades. Obviously, they wouldn’t work in places that are cloudy or rainy most of the year. Even in places with plenty of sunlight, no energy is produced at night. This means that you’ll need to store energy for later use, but this requires batteries to be connected to solar panels, and these batteries can be expensive. Wind is another common renewable energy source. Wind turbines are large structures with blades that spin when the wind blows. They’re typically installed in open areas like farmland and coastal regions. Why are they rare in residential areas? Well, when the blades of wind turbines slice through the air, they produce a swishing or whooshing sound. The faster the blades, the louder it gets. Imagine living near a wind turbine! Unlike solar panels, wind turbines require lots of maintenance. Oil changes, blade inspections, mechanical repairs… a lot needs to be done on a regular basis. Don’t forget that some wind farms are located offshore, in the open sea. Think about the extra expenses needed to reach these farms and the harsh conditions that need to be overcome."
         },
         {
           "number": 26,
@@ -855,7 +1015,11 @@
           ],
           "id": "l1-26",
           "media": "track-71.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": false,
+          "script": "Man: Renewable energy comes from natural processes that are replenished constantly, such as sunlight, wind, and water. They’re an alternative to fossil fuels, which contribute to greenhouse gases and global warming. One of the most widely used forms of renewable energy is solar power. You might have seen solar panels on rooftops of private homes or small buildings that convert sunlight into electricity. These panels can last for decades. Obviously, they wouldn’t work in places that are cloudy or rainy most of the year. Even in places with plenty of sunlight, no energy is produced at night. This means that you’ll need to store energy for later use, but this requires batteries to be connected to solar panels, and these batteries can be expensive. Wind is another common renewable energy source. Wind turbines are large structures with blades that spin when the wind blows. They’re typically installed in open areas like farmland and coastal regions. Why are they rare in residential areas? Well, when the blades of wind turbines slice through the air, they produce a swishing or whooshing sound. The faster the blades, the louder it gets. Imagine living near a wind turbine! Unlike solar panels, wind turbines require lots of maintenance. Oil changes, blade inspections, mechanical repairs… a lot needs to be done on a regular basis. Don’t forget that some wind farms are located offshore, in the open sea. Think about the extra expenses needed to reach these farms and the harsh conditions that need to be overcome."
         },
         {
           "number": 27,
@@ -869,7 +1033,11 @@
           ],
           "id": "l1-27",
           "media": "track-71.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 0,
+          "scored": false,
+          "script": "Man: Renewable energy comes from natural processes that are replenished constantly, such as sunlight, wind, and water. They’re an alternative to fossil fuels, which contribute to greenhouse gases and global warming. One of the most widely used forms of renewable energy is solar power. You might have seen solar panels on rooftops of private homes or small buildings that convert sunlight into electricity. These panels can last for decades. Obviously, they wouldn’t work in places that are cloudy or rainy most of the year. Even in places with plenty of sunlight, no energy is produced at night. This means that you’ll need to store energy for later use, but this requires batteries to be connected to solar panels, and these batteries can be expensive. Wind is another common renewable energy source. Wind turbines are large structures with blades that spin when the wind blows. They’re typically installed in open areas like farmland and coastal regions. Why are they rare in residential areas? Well, when the blades of wind turbines slice through the air, they produce a swishing or whooshing sound. The faster the blades, the louder it gets. Imagine living near a wind turbine! Unlike solar panels, wind turbines require lots of maintenance. Oil changes, blade inspections, mechanical repairs… a lot needs to be done on a regular basis. Don’t forget that some wind farms are located offshore, in the open sea. Think about the extra expenses needed to reach these farms and the harsh conditions that need to be overcome."
         },
         {
           "number": 28,
@@ -883,7 +1051,11 @@
           ],
           "id": "l1-28",
           "media": "track-71.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": false,
+          "script": "Man: Renewable energy comes from natural processes that are replenished constantly, such as sunlight, wind, and water. They’re an alternative to fossil fuels, which contribute to greenhouse gases and global warming. One of the most widely used forms of renewable energy is solar power. You might have seen solar panels on rooftops of private homes or small buildings that convert sunlight into electricity. These panels can last for decades. Obviously, they wouldn’t work in places that are cloudy or rainy most of the year. Even in places with plenty of sunlight, no energy is produced at night. This means that you’ll need to store energy for later use, but this requires batteries to be connected to solar panels, and these batteries can be expensive. Wind is another common renewable energy source. Wind turbines are large structures with blades that spin when the wind blows. They’re typically installed in open areas like farmland and coastal regions. Why are they rare in residential areas? Well, when the blades of wind turbines slice through the air, they produce a swishing or whooshing sound. The faster the blades, the louder it gets. Imagine living near a wind turbine! Unlike solar panels, wind turbines require lots of maintenance. Oil changes, blade inspections, mechanical repairs… a lot needs to be done on a regular basis. Don’t forget that some wind farms are located offshore, in the open sea. Think about the extra expenses needed to reach these farms and the harsh conditions that need to be overcome."
         },
         {
           "number": 29,
@@ -897,7 +1069,11 @@
           ],
           "id": "l1-29",
           "media": "track-72.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true,
+          "script": "Woman: Today, we’re going to explore the fascinating world of street art and its impact on urban environments. Street art, which includes graffiti and mural painting, has evolved from being seen as mere vandalism to being recognized as a legitimate form of artistic expression. Artists use public spaces to showcase their work, often reflecting social and political themes. One of the key benefits of street art is its ability to transform drab and neglected areas into vibrant and visually stimulating environments. Murals can brighten up a dull wall, adding color and life to a community. This transformation can foster a sense of pride among residents, encouraging them to take ownership of their surroundings. Street art can also serve as a powerful tool for social change. It provides artists with a platform to address important issues such as inequality, environmental concerns, and cultural identity. For example, artists may create pieces that highlight the struggles of marginalized communities. However, street art is not without its challenges. The legality of street art is often debated, as many artists work without official permission. This can lead to conflicts with property owners and law enforcement. Additionally, the transient nature of street art means that it can be painted over or removed at any time, making it a potentially impermanent form of expression. Despite these challenges, street art remains an influential aspect of contemporary urban culture. It allows artists to reach a wider audience and engage with the public in meaningful ways while transforming urban spaces."
         },
         {
           "number": 30,
@@ -911,7 +1087,11 @@
           ],
           "id": "l1-30",
           "media": "track-72.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "scored": true,
+          "script": "Woman: Today, we’re going to explore the fascinating world of street art and its impact on urban environments. Street art, which includes graffiti and mural painting, has evolved from being seen as mere vandalism to being recognized as a legitimate form of artistic expression. Artists use public spaces to showcase their work, often reflecting social and political themes. One of the key benefits of street art is its ability to transform drab and neglected areas into vibrant and visually stimulating environments. Murals can brighten up a dull wall, adding color and life to a community. This transformation can foster a sense of pride among residents, encouraging them to take ownership of their surroundings. Street art can also serve as a powerful tool for social change. It provides artists with a platform to address important issues such as inequality, environmental concerns, and cultural identity. For example, artists may create pieces that highlight the struggles of marginalized communities. However, street art is not without its challenges. The legality of street art is often debated, as many artists work without official permission. This can lead to conflicts with property owners and law enforcement. Additionally, the transient nature of street art means that it can be painted over or removed at any time, making it a potentially impermanent form of expression. Despite these challenges, street art remains an influential aspect of contemporary urban culture. It allows artists to reach a wider audience and engage with the public in meaningful ways while transforming urban spaces."
         },
         {
           "number": 31,
@@ -925,7 +1105,11 @@
           ],
           "id": "l1-31",
           "media": "track-72.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "scored": true,
+          "script": "Woman: Today, we’re going to explore the fascinating world of street art and its impact on urban environments. Street art, which includes graffiti and mural painting, has evolved from being seen as mere vandalism to being recognized as a legitimate form of artistic expression. Artists use public spaces to showcase their work, often reflecting social and political themes. One of the key benefits of street art is its ability to transform drab and neglected areas into vibrant and visually stimulating environments. Murals can brighten up a dull wall, adding color and life to a community. This transformation can foster a sense of pride among residents, encouraging them to take ownership of their surroundings. Street art can also serve as a powerful tool for social change. It provides artists with a platform to address important issues such as inequality, environmental concerns, and cultural identity. For example, artists may create pieces that highlight the struggles of marginalized communities. However, street art is not without its challenges. The legality of street art is often debated, as many artists work without official permission. This can lead to conflicts with property owners and law enforcement. Additionally, the transient nature of street art means that it can be painted over or removed at any time, making it a potentially impermanent form of expression. Despite these challenges, street art remains an influential aspect of contemporary urban culture. It allows artists to reach a wider audience and engage with the public in meaningful ways while transforming urban spaces."
         },
         {
           "number": 32,
@@ -939,7 +1123,11 @@
           ],
           "id": "l1-32",
           "media": "track-72.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 3,
+          "scored": true,
+          "script": "Woman: Today, we’re going to explore the fascinating world of street art and its impact on urban environments. Street art, which includes graffiti and mural painting, has evolved from being seen as mere vandalism to being recognized as a legitimate form of artistic expression. Artists use public spaces to showcase their work, often reflecting social and political themes. One of the key benefits of street art is its ability to transform drab and neglected areas into vibrant and visually stimulating environments. Murals can brighten up a dull wall, adding color and life to a community. This transformation can foster a sense of pride among residents, encouraging them to take ownership of their surroundings. Street art can also serve as a powerful tool for social change. It provides artists with a platform to address important issues such as inequality, environmental concerns, and cultural identity. For example, artists may create pieces that highlight the struggles of marginalized communities. However, street art is not without its challenges. The legality of street art is often debated, as many artists work without official permission. This can lead to conflicts with property owners and law enforcement. Additionally, the transient nature of street art means that it can be painted over or removed at any time, making it a potentially impermanent form of expression. Despite these challenges, street art remains an influential aspect of contemporary urban culture. It allows artists to reach a wider audience and engage with the public in meaningful ways while transforming urban spaces."
         }
       ]
     },
@@ -962,7 +1150,10 @@
           ],
           "id": "l2-1",
           "media": "track-73.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 1,
+          "script": "When does the college bookstore open?"
         },
         {
           "number": 2,
@@ -976,7 +1167,10 @@
           ],
           "id": "l2-2",
           "media": "track-74.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 0,
+          "script": "Could you help me set up this printer?"
         },
         {
           "number": 3,
@@ -990,7 +1184,10 @@
           ],
           "id": "l2-3",
           "media": "track-75.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 3,
+          "script": "I heard you went to the bioscience conference."
         },
         {
           "number": 4,
@@ -1004,7 +1201,10 @@
           ],
           "id": "l2-4",
           "media": "track-76.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 0,
+          "script": "Why is the athletic center closed?"
         },
         {
           "number": 5,
@@ -1018,7 +1218,10 @@
           ],
           "id": "l2-5",
           "media": "track-77.mp3",
-          "title": "Listen and Choose a Response"
+          "title": "Listen and Choose a Response",
+          "keyVerified": true,
+          "answer": 0,
+          "script": "Did you manage to get any guidance on your paper from the writing center?"
         },
         {
           "number": 6,
@@ -1032,7 +1235,10 @@
           ],
           "id": "l2-6",
           "media": "track-78.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "script": "Man: Hi, I saw you sent me a message earlier. I haven’t had a chance to read it yet—what’s happening? \nWoman: I wanted to let you know I had to move our study-group session. The library room we booked isn’t available anymore. \nMan: Oh no. Did you find another place? \nWoman: Yes, I reserved room 204 in the student center. It’s a bit farther, but it has a whiteboard and enough space. \nMan: Got it. I’ll post the update in our group chat. \nWoman: Thanks! That’ll help avoid any confusion."
         },
         {
           "number": 7,
@@ -1046,7 +1252,10 @@
           ],
           "id": "l2-7",
           "media": "track-78.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "script": "Man: Hi, I saw you sent me a message earlier. I haven’t had a chance to read it yet—what’s happening? \nWoman: I wanted to let you know I had to move our study-group session. The library room we booked isn’t available anymore. \nMan: Oh no. Did you find another place? \nWoman: Yes, I reserved room 204 in the student center. It’s a bit farther, but it has a whiteboard and enough space. \nMan: Got it. I’ll post the update in our group chat. \nWoman: Thanks! That’ll help avoid any confusion."
         },
         {
           "number": 8,
@@ -1060,7 +1269,10 @@
           ],
           "id": "l2-8",
           "media": "track-79.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "script": "Woman: Did you go to the jazz concert last night in the concert hall? \nMan: Yes. The quartet was incredible—especially the saxophonist. His solo near the end was really moving. \nWoman: I thought so too. I’m surprised more people didn’t show up. \nMan: Same here. I expected the hall to be packed, but it was barely half full. \nWoman: It’s too bad. They played beautifully. On top of that, the ticket prices were so reasonable. \nMan: Definitely. \nWoman: I’m going to write a short review for the school website—maybe it’ll get more people to come next time. \nMan: Great idea."
         },
         {
           "number": 9,
@@ -1074,7 +1286,10 @@
           ],
           "id": "l2-9",
           "media": "track-79.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "script": "Woman: Did you go to the jazz concert last night in the concert hall? \nMan: Yes. The quartet was incredible—especially the saxophonist. His solo near the end was really moving. \nWoman: I thought so too. I’m surprised more people didn’t show up. \nMan: Same here. I expected the hall to be packed, but it was barely half full. \nWoman: It’s too bad. They played beautifully. On top of that, the ticket prices were so reasonable. \nMan: Definitely. \nWoman: I’m going to write a short review for the school website—maybe it’ll get more people to come next time. \nMan: Great idea."
         },
         {
           "number": 10,
@@ -1088,7 +1303,10 @@
           ],
           "id": "l2-10",
           "media": "track-80.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 3,
+          "script": "Man: Good afternoon, students! The student activities office is seeking volunteers for the upcoming student organizations fair. This event is a great opportunity to find out about different student clubs on campus. We need volunteers to help set up booths, manage registration, and assist with various activities throughout the day. If you are interested, please sign up in person at the student activities office. The office is open from eight a.m. to five p.m."
         },
         {
           "number": 11,
@@ -1102,7 +1320,10 @@
           ],
           "id": "l2-11",
           "media": "track-80.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 0,
+          "script": "Man: Good afternoon, students! The student activities office is seeking volunteers for the upcoming student organizations fair. This event is a great opportunity to find out about different student clubs on campus. We need volunteers to help set up booths, manage registration, and assist with various activities throughout the day. If you are interested, please sign up in person at the student activities office. The office is open from eight a.m. to five p.m."
         },
         {
           "number": 12,
@@ -1116,7 +1337,10 @@
           ],
           "id": "l2-12",
           "media": "track-81.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 0,
+          "script": "Woman: Cultural diffusion is the transmission of cultural beliefs, practices, and social norms from one group to another. Historically, this phenomenon has unfolded through different channels, such as commercial exchange, migratory movements, and, more recently, digital communication. A notable example is the spread of agricultural techniques. Innovations such as irrigation systems from ancient Persia or terrace farming from the Andes gradually spread to neighboring regions. This influenced food production and land use across continents. Similarly, linguistic diffusion has left indelible marks on global communication. The spread of Latin during the Roman Empire laid the foundation for Romance languages. Arabic was carried by traveling traders and scholars to enrich scientific and philosophical vocabularies from Spain to Southeast Asia. Another dimension of cultural diffusion is technological exchange. For example, the wheel was first developed in Mesopotamia, but it revolutionized transportation as it spread across Eurasia. And papermaking, which originated in China, transformed literacy and recordkeeping after reaching the Islamic world and later Europe. Religious diffusion has also shaped civilizations. Christianity, Islam, and Buddhism have all expanded far beyond their birthplaces through missionary work and trade networks like the Silk Road, though in many cases, religious traditions changed and grew to incorporate local customs. However, cultural diffusion is not always harmonious. The introduction of foreign customs can lead to resistance, especially if it’s perceived as a threat to identity or tradition. But despite these kinds of frictions, cultural diffusion is a driving force behind the richness and complexity of human societies."
         },
         {
           "number": 13,
@@ -1130,7 +1354,10 @@
           ],
           "id": "l2-13",
           "media": "track-81.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 1,
+          "script": "Woman: Cultural diffusion is the transmission of cultural beliefs, practices, and social norms from one group to another. Historically, this phenomenon has unfolded through different channels, such as commercial exchange, migratory movements, and, more recently, digital communication. A notable example is the spread of agricultural techniques. Innovations such as irrigation systems from ancient Persia or terrace farming from the Andes gradually spread to neighboring regions. This influenced food production and land use across continents. Similarly, linguistic diffusion has left indelible marks on global communication. The spread of Latin during the Roman Empire laid the foundation for Romance languages. Arabic was carried by traveling traders and scholars to enrich scientific and philosophical vocabularies from Spain to Southeast Asia. Another dimension of cultural diffusion is technological exchange. For example, the wheel was first developed in Mesopotamia, but it revolutionized transportation as it spread across Eurasia. And papermaking, which originated in China, transformed literacy and recordkeeping after reaching the Islamic world and later Europe. Religious diffusion has also shaped civilizations. Christianity, Islam, and Buddhism have all expanded far beyond their birthplaces through missionary work and trade networks like the Silk Road, though in many cases, religious traditions changed and grew to incorporate local customs. However, cultural diffusion is not always harmonious. The introduction of foreign customs can lead to resistance, especially if it’s perceived as a threat to identity or tradition. But despite these kinds of frictions, cultural diffusion is a driving force behind the richness and complexity of human societies."
         },
         {
           "number": 14,
@@ -1144,7 +1371,10 @@
           ],
           "id": "l2-14",
           "media": "track-81.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 0,
+          "script": "Woman: Cultural diffusion is the transmission of cultural beliefs, practices, and social norms from one group to another. Historically, this phenomenon has unfolded through different channels, such as commercial exchange, migratory movements, and, more recently, digital communication. A notable example is the spread of agricultural techniques. Innovations such as irrigation systems from ancient Persia or terrace farming from the Andes gradually spread to neighboring regions. This influenced food production and land use across continents. Similarly, linguistic diffusion has left indelible marks on global communication. The spread of Latin during the Roman Empire laid the foundation for Romance languages. Arabic was carried by traveling traders and scholars to enrich scientific and philosophical vocabularies from Spain to Southeast Asia. Another dimension of cultural diffusion is technological exchange. For example, the wheel was first developed in Mesopotamia, but it revolutionized transportation as it spread across Eurasia. And papermaking, which originated in China, transformed literacy and recordkeeping after reaching the Islamic world and later Europe. Religious diffusion has also shaped civilizations. Christianity, Islam, and Buddhism have all expanded far beyond their birthplaces through missionary work and trade networks like the Silk Road, though in many cases, religious traditions changed and grew to incorporate local customs. However, cultural diffusion is not always harmonious. The introduction of foreign customs can lead to resistance, especially if it’s perceived as a threat to identity or tradition. But despite these kinds of frictions, cultural diffusion is a driving force behind the richness and complexity of human societies."
         },
         {
           "number": 15,
@@ -1158,7 +1388,10 @@
           ],
           "id": "l2-15",
           "media": "track-81.mp3",
-          "title": "Listening"
+          "title": "Listening",
+          "keyVerified": true,
+          "answer": 2,
+          "script": "Woman: Cultural diffusion is the transmission of cultural beliefs, practices, and social norms from one group to another. Historically, this phenomenon has unfolded through different channels, such as commercial exchange, migratory movements, and, more recently, digital communication. A notable example is the spread of agricultural techniques. Innovations such as irrigation systems from ancient Persia or terrace farming from the Andes gradually spread to neighboring regions. This influenced food production and land use across continents. Similarly, linguistic diffusion has left indelible marks on global communication. The spread of Latin during the Roman Empire laid the foundation for Romance languages. Arabic was carried by traveling traders and scholars to enrich scientific and philosophical vocabularies from Spain to Southeast Asia. Another dimension of cultural diffusion is technological exchange. For example, the wheel was first developed in Mesopotamia, but it revolutionized transportation as it spread across Eurasia. And papermaking, which originated in China, transformed literacy and recordkeeping after reaching the Islamic world and later Europe. Religious diffusion has also shaped civilizations. Christianity, Islam, and Buddhism have all expanded far beyond their birthplaces through missionary work and trade networks like the Silk Road, though in many cases, religious traditions changed and grew to incorporate local customs. However, cultural diffusion is not always harmonious. The introduction of foreign customs can lead to resistance, especially if it’s perceived as a threat to identity or tradition. But despite these kinds of frictions, cultural diffusion is a driving force behind the richness and complexity of human societies."
         }
       ]
     },
@@ -1193,7 +1426,8 @@
             "the",
             "same",
             "for"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-2",
@@ -1219,7 +1453,8 @@
             "uses AI",
             "to",
             "simulate"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-3",
@@ -1248,7 +1483,8 @@
             "my friends",
             "from",
             "the hiking club"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-4",
@@ -1275,7 +1511,8 @@
             "you",
             "have",
             "assignments in"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-5",
@@ -1300,7 +1537,8 @@
             "are",
             "you",
             "going to"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-6",
@@ -1327,7 +1565,8 @@
             "support",
             "the children’s",
             "hospital"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-7",
@@ -1352,7 +1591,8 @@
             "are",
             "you",
             "considering"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-8",
@@ -1379,7 +1619,8 @@
             "the",
             "notes",
             "from"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-9",
@@ -1408,7 +1649,8 @@
             "skills",
             "you’re",
             "hoping to"
-          ]
+          ],
+          "keyVerified": true
         },
         {
           "id": "w-10",
@@ -1435,7 +1677,8 @@
             "creating",
             "your",
             "slides"
-          ]
+          ],
+          "keyVerified": true
         }
       ]
     },
@@ -1450,7 +1693,8 @@
           "number": 11,
           "type": "essay",
           "title": "Write an Email",
-          "prompt": "You major in marketing. You recently attended a workshop on digital marketing that was recommended by your professor. You found the workshop extremely informative and believe it greatly benefits your studies. You want to thank the organizer, Ms. Clark, and suggest that similar workshops be held more frequently.\n\nWrite an email to Ms. Clark. In your email, do the following:\n• Thank her for organizing the workshop and mention what you found most valuable about it.\n• Explain how the workshop benefits your studies.\n• Suggest that similar workshops be organized more frequently.\n\nWrite as much as you can and in complete sentences.\n\nYour Response:\n\nTo: Ms. Clark\n\nSubject: Appreciation for digital marketing workshop"
+          "prompt": "You major in marketing. You recently attended a workshop on digital marketing that was recommended by your professor. You found the workshop extremely informative and believe it greatly benefits your studies. You want to thank the organizer, Ms. Clark, and suggest that similar workshops be held more frequently.\n\nWrite an email to Ms. Clark. In your email, do the following:\n• Thank her for organizing the workshop and mention what you found most valuable about it.\n• Explain how the workshop benefits your studies.\n• Suggest that similar workshops be organized more frequently.\n\nWrite as much as you can and in complete sentences.\n\nYour Response:\n\nTo: Ms. Clark\n\nSubject: Appreciation for digital marketing workshop",
+          "keyVerified": true
         }
       ]
     },
@@ -1465,7 +1709,8 @@
           "number": 12,
           "type": "essay",
           "title": "Write for an Academic Discussion",
-          "prompt": "Your professor is teaching a class on history. Write a post responding to the professor’s question.\n\nIn your response, you should do the following.\n• Express and support your opinion.\n• Make a contribution to the discussion in your own words.\n\nAn effective response will contain at least 100 words.\n\nDr. Gupta Lately, we have been exploring the value of studying history and its relevance to modern life. Some historians argue that understanding historical events—such as revolutions, social movements, and political conflicts—helps us make sense of current issues like inequality, climate policy, and international relations. Others, however, believe that focusing too much on the past can distract us from solving urgent problems in the present, such as technological changes or public health crises. Which view do you agree with? Why?\n\nAndrew I agree that studying history is essential to understanding current issues. It reveals patterns in human behavior and thus can help us avoid repeating mistakes. This context is crucial for making informed, thoughtful choices in politics, society, and even personal life.\n\nClaire I believe that focusing on the present is more important. It is true that studying history can help build critical-thinking skills, but addressing today’s unique challenges requires immediate action and innovative thinking tailored to current circumstances rather than past lessons."
+          "prompt": "Your professor is teaching a class on history. Write a post responding to the professor’s question.\n\nIn your response, you should do the following.\n• Express and support your opinion.\n• Make a contribution to the discussion in your own words.\n\nAn effective response will contain at least 100 words.\n\nDr. Gupta Lately, we have been exploring the value of studying history and its relevance to modern life. Some historians argue that understanding historical events—such as revolutions, social movements, and political conflicts—helps us make sense of current issues like inequality, climate policy, and international relations. Others, however, believe that focusing too much on the past can distract us from solving urgent problems in the present, such as technological changes or public health crises. Which view do you agree with? Why?\n\nAndrew I agree that studying history is essential to understanding current issues. It reveals patterns in human behavior and thus can help us avoid repeating mistakes. This context is crucial for making informed, thoughtful choices in politics, society, and even personal life.\n\nClaire I believe that focusing on the present is more important. It is true that studying history can help build critical-thinking skills, but addressing today’s unique challenges requires immediate action and innovative thinking tailored to current circumstances rather than past lessons.",
+          "keyVerified": true
         }
       ]
     },
@@ -1483,7 +1728,10 @@
           "title": "Listen and Repeat",
           "prompt": "Listen and repeat only once.",
           "media": "track-83.mp3",
-          "responseSeconds": 8
+          "responseSeconds": 8,
+          "keyVerified": true,
+          "script": "Print with various paper sizes.",
+          "target": "Print with various paper sizes."
         },
         {
           "id": "s-2",
@@ -1492,7 +1740,10 @@
           "title": "Listen and Repeat",
           "prompt": "Listen and repeat only once.",
           "media": "track-84.mp3",
-          "responseSeconds": 8
+          "responseSeconds": 8,
+          "keyVerified": true,
+          "script": "You can make numerous copies quickly.",
+          "target": "You can make numerous copies quickly."
         },
         {
           "id": "s-3",
@@ -1501,7 +1752,10 @@
           "title": "Listen and Repeat",
           "prompt": "Listen and repeat only once.",
           "media": "track-85.mp3",
-          "responseSeconds": 10
+          "responseSeconds": 10,
+          "keyVerified": true,
+          "script": "The scanner converts documents into digital files.",
+          "target": "The scanner converts documents into digital files."
         },
         {
           "id": "s-4",
@@ -1510,7 +1764,10 @@
           "title": "Listen and Repeat",
           "prompt": "Listen and repeat only once.",
           "media": "track-86.mp3",
-          "responseSeconds": 10
+          "responseSeconds": 10,
+          "keyVerified": true,
+          "script": "The fax machine can send pages quickly over phone lines.",
+          "target": "The fax machine can send pages quickly over phone lines."
         },
         {
           "id": "s-5",
@@ -1519,7 +1776,10 @@
           "title": "Listen and Repeat",
           "prompt": "Listen and repeat only once.",
           "media": "track-87.mp3",
-          "responseSeconds": 10
+          "responseSeconds": 10,
+          "keyVerified": true,
+          "script": "The shredder securely destroys sensitive information.",
+          "target": "The shredder securely destroys sensitive information."
         },
         {
           "id": "s-6",
@@ -1528,7 +1788,10 @@
           "title": "Listen and Repeat",
           "prompt": "Listen and repeat only once.",
           "media": "track-88.mp3",
-          "responseSeconds": 12
+          "responseSeconds": 12,
+          "keyVerified": true,
+          "script": "All devices are located in the office for easy use by those who need them.",
+          "target": "All devices are located in the office for easy use by those who need them."
         },
         {
           "id": "s-7",
@@ -1537,7 +1800,10 @@
           "title": "Listen and Repeat",
           "prompt": "Listen and repeat only once.",
           "media": "track-89.mp3",
-          "responseSeconds": 12
+          "responseSeconds": 12,
+          "keyVerified": true,
+          "script": "When in doubt, read the maintenance instructions that are available for all equipment.",
+          "target": "When in doubt, read the maintenance instructions that are available for all equipment."
         }
       ]
     },
@@ -1555,7 +1821,10 @@
           "title": "Take an Interview",
           "prompt": "Please answer the interviewer’s question.",
           "media": "video-1.mp4",
-          "responseSeconds": 45
+          "responseSeconds": 45,
+          "keyVerified": true,
+          "script": "Thank you for your participation. I’d like to learn about your experiences with art and creativity. Do you consider yourself to be a creative person? Why or why not?",
+          "question": "Thank you for your participation. I’d like to learn about your experiences with art and creativity. Do you consider yourself to be a creative person? Why or why not?"
         },
         {
           "id": "s-9",
@@ -1564,7 +1833,10 @@
           "title": "Take an Interview",
           "prompt": "Please answer the interviewer’s question.",
           "media": "video-2.mp4",
-          "responseSeconds": 45
+          "responseSeconds": 45,
+          "keyVerified": true,
+          "script": "Great. Some people think that learning about art is just as important as learning science or math. Do you agree or disagree? Why?",
+          "question": "Great. Some people think that learning about art is just as important as learning science or math. Do you agree or disagree? Why?"
         },
         {
           "id": "s-10",
@@ -1573,7 +1845,10 @@
           "title": "Take an Interview",
           "prompt": "Please answer the interviewer’s question.",
           "media": "video-3.mp4",
-          "responseSeconds": 45
+          "responseSeconds": 45,
+          "keyVerified": true,
+          "script": "Interesting. Some people believe that engaging in creative activities can improve mental well-being. Do you agree or disagree? Why?",
+          "question": "Interesting. Some people believe that engaging in creative activities can improve mental well-being. Do you agree or disagree? Why?"
         },
         {
           "id": "s-11",
@@ -1582,16 +1857,97 @@
           "title": "Take an Interview",
           "prompt": "Please answer the interviewer’s question.",
           "media": "video-4.mp4",
-          "responseSeconds": 45
+          "responseSeconds": 45,
+          "keyVerified": true,
+          "script": "Good points. One final question. Do you think future schools will teach more art or less? What factors might influence this?",
+          "question": "Good points. One final question. Do you think future schools will teach more art or less? What factors might influence this?"
         }
       ]
     }
   ],
   "sourceNotes": [
-    "All prompts and options are from the supplied paste; page headers, personal watermarks and extraction artifacts were removed.",
-    "The Complete the Words text contains reconstructed blank boundaries; the textile-weaving sentence has damaged source order.",
-    "The supplied paste does not contain the answer key. No official score or multiple-choice answer key is invented. Sentence suggestions and completed cloze words are reconstructed study aids.",
-    "The practice form is linear, as stated in the supplied chapter. It does not reproduce adaptive ETS scoring."
+    "Question wording originates in the supplied chapter. Answer keys are now verified against the supplied PDF.",
+    "One OCR-damaged fixed fragment was corrected from exhi to exh; saved partial answers are migrated to preserve the completed word.",
+    "The original practice form is linear. Its unscored items are identified in the evaluation export."
   ],
-  "timingSource": "https://www.ets.org/toefl/test-takers/ibt/about/content.html?version=after-jan-2026"
+  "timingSource": "https://www.ets.org/toefl/test-takers/ibt/about/content.html?version=after-jan-2026",
+  "keySource": "Supplied Official Guide, Chapter 6: Reading pp.292–293; Listening pp.304–306; sentence building p.327; speaking scripts pp.335–337.",
+  "bookScales": {
+    "Reading": {
+      "35": 6.0,
+      "34": 6.0,
+      "33": 5.5,
+      "32": 5.5,
+      "31": 5.0,
+      "30": 5.0,
+      "29": 5.0,
+      "28": 5.0,
+      "27": 4.5,
+      "26": 4.5,
+      "25": 4.5,
+      "24": 4.0,
+      "23": 4.0,
+      "22": 4.0,
+      "21": 4.0,
+      "20": 4.0,
+      "19": 4.0,
+      "18": 4.0,
+      "17": 3.5,
+      "16": 3.5,
+      "15": 3.5,
+      "14": 3.5,
+      "13": 3.5,
+      "12": 3.5,
+      "11": 3.0,
+      "10": 3.0,
+      "9": 3.0,
+      "8": 3.0,
+      "7": 2.5,
+      "6": 2.0,
+      "5": 1.0,
+      "4": 1.0,
+      "3": 1.0,
+      "2": 1.0,
+      "1": 1.0,
+      "0": 1.0
+    },
+    "Listening": {
+      "35": 6.0,
+      "34": 6.0,
+      "33": 5.5,
+      "32": 5.5,
+      "31": 5.0,
+      "30": 5.0,
+      "29": 5.0,
+      "28": 4.5,
+      "27": 4.5,
+      "26": 4.5,
+      "25": 4.5,
+      "24": 4.0,
+      "23": 4.0,
+      "22": 3.5,
+      "21": 3.5,
+      "20": 3.5,
+      "19": 3.5,
+      "18": 3.5,
+      "17": 3.0,
+      "16": 3.0,
+      "15": 3.0,
+      "14": 3.0,
+      "13": 3.0,
+      "12": 2.5,
+      "11": 2.5,
+      "10": 2.0,
+      "9": 2.0,
+      "8": 2.0,
+      "7": 1.5,
+      "6": 1.5,
+      "5": 1.0,
+      "4": 1.0,
+      "3": 1.0,
+      "2": 1.0,
+      "1": 1.0,
+      "0": 1.0
+    }
+  }
 }

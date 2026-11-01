@@ -1,0 +1,39 @@
+[
+  {
+    "id": "original-02",
+    "title": "Full Test 02 · Evidence and Discovery",
+    "path": "./forms/original-02.json",
+    "version": 1
+  },
+  {
+    "id": "original-03",
+    "title": "Full Test 03 · Shared Resources",
+    "path": "./forms/original-03.json",
+    "version": 1
+  },
+  {
+    "id": "original-04",
+    "title": "Full Test 04 · Communicating Ideas",
+    "path": "./forms/original-04.json",
+    "version": 1
+  },
+  {
+    "id": "original-05",
+    "title": "Full Test 05 · Fieldwork and Communities",
+    "path": "./forms/original-05.json",
+    "version": 1
+  },
+  {
+    "id": "original-06",
+    "title": "Full Test 06 · Designing Better Decisions",
+    "path": "./forms/original-06.json",
+    "version": 1
+  },
+  {
+    "id": "book-01",
+    "title": "Book Test 01 · Provided Chapter 6",
+    "path": "./forms/book-01.json",
+    "version": 1,
+    "original": false
+  }
+]

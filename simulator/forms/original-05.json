@@ -1,0 +1,3052 @@
+{
+  "id": "original-05",
+  "version": 1,
+  "title": "Full Test 05 · Fieldwork and Communities",
+  "description": "New original practice content with distinct adaptive routes and authored answer keys.",
+  "original": true,
+  "baseCount": 120,
+  "routing": {
+    "threshold": 0.7,
+    "notice": "A local 70% router heuristic, not the proprietary ETS adaptive algorithm."
+  },
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "f5-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A town’s historical records often survive in several different places. Official papers may be kept in an ",
+            {
+              "pre": "ar",
+              "answer": "chive"
+            },
+            ", while families preserve letters and ",
+            {
+              "pre": "photo",
+              "answer": "graphs"
+            },
+            ". Each collection provides a different ",
+            {
+              "pre": "per",
+              "answer": "spective"
+            },
+            ". A formal report may describe a decision but say little about how residents ",
+            {
+              "pre": "fe",
+              "answer": "lt"
+            },
+            ". Personal accounts can add detail, though memory and individual interests affect what people ",
+            {
+              "pre": "re",
+              "answer": "cord"
+            },
+            ". Historians compare such sources instead of treating one as ",
+            {
+              "pre": "com",
+              "answer": "plete"
+            },
+            ". They also ask why some material was ",
+            {
+              "pre": "sa",
+              "answer": "ved"
+            },
+            " and other material disappeared. The surviving evidence reflects both past events and later ",
+            {
+              "pre": "cho",
+              "answer": "ices"
+            },
+            " about what was worth ",
+            {
+              "pre": "kee",
+              "answer": "ping"
+            },
+            " for future ",
+            {
+              "pre": "rea",
+              "answer": "ders"
+            },
+            "."
+          ],
+          "count": 10,
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "In a forest, fallen wood continues to play a role. Insects and fungi gradually ",
+            {
+              "pre": "bre",
+              "answer": "ak"
+            },
+            " it into smaller materials, releasing nutrients that other organisms can ",
+            {
+              "pre": "u",
+              "answer": "se"
+            },
+            ". A fallen trunk may hold ",
+            {
+              "pre": "mois",
+              "answer": "ture"
+            },
+            " and provide shelter for small ",
+            {
+              "pre": "ani",
+              "answer": "mals"
+            },
+            ". Its surface can become a place where young plants ",
+            {
+              "pre": "gro",
+              "answer": "w"
+            },
+            ". Removing every dead tree therefore ",
+            {
+              "pre": "cha",
+              "answer": "nges"
+            },
+            " more than the appearance of a woodland. Managers must ",
+            {
+              "pre": "bal",
+              "answer": "ance"
+            },
+            " safety near paths with the benefits of leaving wood in less heavily used ",
+            {
+              "pre": "ar",
+              "answer": "eas"
+            },
+            ". The appropriate decision depends on the location, the condition of the tree and the ",
+            {
+              "pre": "nee",
+              "answer": "ds"
+            },
+            " of the organisms that ",
+            {
+              "pre": "de",
+              "answer": "pend"
+            },
+            " on it."
+          ],
+          "count": 10,
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-d1-1",
+          "type": "choice",
+          "prompt": "What restriction applies to the stands?",
+          "options": [
+            "They may be reserved online a week ahead",
+            "They must be returned by the desk’s closing time",
+            "They must remain at the ground-floor desk",
+            "They can be kept for three weeks by each borrower"
+          ],
+          "answer": 1,
+          "explanation": "The trial lasts three weeks, but each loan ends by desk closure.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Library trial service",
+          "passage": "From 4 November, the library will lend portable laptop stands for a three-week trial. Stands are available at the ground-floor desk for use anywhere inside the building. They must be returned before the desk closes, even on days when the study rooms remain open later. No advance booking is available. Feedback cards are beside the returns box and will help determine whether the service continues.",
+          "documentType": "notice",
+          "stimulusId": "f5-r1-d1",
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-d1-2",
+          "type": "choice",
+          "prompt": "Why is the library collecting feedback?",
+          "options": [
+            "To choose the opening hours of all study rooms",
+            "To replace the no-booking rule immediately",
+            "To help decide whether to keep offering the service",
+            "To assign permanent stands to particular students"
+          ],
+          "answer": 2,
+          "explanation": "Continuation of the service depends partly on feedback.",
+          "skill": "purpose",
+          "task": "daily-life",
+          "title": "Library trial service",
+          "passage": "From 4 November, the library will lend portable laptop stands for a three-week trial. Stands are available at the ground-floor desk for use anywhere inside the building. They must be returned before the desk closes, even on days when the study rooms remain open later. No advance booking is available. Feedback cards are beside the returns box and will help determine whether the service continues.",
+          "documentType": "notice",
+          "stimulusId": "f5-r1-d1",
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-d2-1",
+          "type": "choice",
+          "prompt": "Which activity requires a separate ticket?",
+          "options": [
+            "The oral-history demonstration",
+            "All indoor events",
+            "The neighborhood walk",
+            "The map-reading workshop"
+          ],
+          "answer": 2,
+          "explanation": "Only the walk has restricted numbers and a separate ticket.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Community history day",
+          "passage": "Community History Day · Saturday\n10:00–11:00: Map-reading workshop, Room A\n11:15–12:00: Oral-history demonstration, Room B\n12:00–1:00: Lunch break\n1:00–2:30: Neighborhood walk, meet in the courtyard\nThe walk requires a separate free ticket because numbers are limited. Indoor events do not. If rain is heavy, the walk will become a photograph session in Room A at the same time. Ticket holders will receive an email by 9 a.m. Saturday if this change is made.",
+          "documentType": "schedule",
+          "stimulusId": "f5-r1-d2",
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-d2-2",
+          "type": "choice",
+          "prompt": "If heavy rain changes the plan, when will the replacement activity begin?",
+          "options": [
+            "At 9:00 a.m.",
+            "At 1:00 p.m.",
+            "At 11:15 a.m.",
+            "At 10:00 a.m."
+          ],
+          "answer": 1,
+          "explanation": "The photograph session takes the walk’s original time.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Community history day",
+          "passage": "Community History Day · Saturday\n10:00–11:00: Map-reading workshop, Room A\n11:15–12:00: Oral-history demonstration, Room B\n12:00–1:00: Lunch break\n1:00–2:30: Neighborhood walk, meet in the courtyard\nThe walk requires a separate free ticket because numbers are limited. Indoor events do not. If rain is heavy, the walk will become a photograph session in Room A at the same time. Ticket holders will receive an email by 9 a.m. Saturday if this change is made.",
+          "documentType": "schedule",
+          "stimulusId": "f5-r1-d2",
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-d2-3",
+          "type": "choice",
+          "prompt": "What is the purpose of the 9 a.m. email?",
+          "options": [
+            "To notify ticket holders of a weather-related change",
+            "To distribute paid lunch vouchers",
+            "To announce the end of ticket sales",
+            "To remind every indoor visitor to reserve a place"
+          ],
+          "answer": 0,
+          "explanation": "The email is conditional on changing the outdoor activity.",
+          "skill": "purpose",
+          "task": "daily-life",
+          "title": "Community history day",
+          "passage": "Community History Day · Saturday\n10:00–11:00: Map-reading workshop, Room A\n11:15–12:00: Oral-history demonstration, Room B\n12:00–1:00: Lunch break\n1:00–2:30: Neighborhood walk, meet in the courtyard\nThe walk requires a separate free ticket because numbers are limited. Indoor events do not. If rain is heavy, the walk will become a photograph session in Room A at the same time. Ticket holders will receive an email by 9 a.m. Saturday if this change is made.",
+          "documentType": "schedule",
+          "stimulusId": "f5-r1-d2",
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a1-1",
+          "type": "choice",
+          "prompt": "What is the author’s principal point?",
+          "options": [
+            "The median always provides all necessary information",
+            "Household water use cannot be measured accurately",
+            "A statistical summary should be chosen for the question being asked",
+            "Averages should never be used in public planning"
+          ],
+          "answer": 2,
+          "explanation": "The final paragraph explicitly ties usefulness to the decision.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The Problem with an Average",
+          "passage": "An average can summarize a large collection of measurements in a convenient number. If a town reports its average household water use, residents can compare their own use with a general pattern. Yet the summary does not reveal how much households differ from one another.\nConsider two streets with the same average consumption. On one street, nearly every household uses a similar amount. On the other, several households use very little while a few use extremely large amounts. A campaign based on the average alone might treat both streets alike even though the opportunities for reducing consumption differ.\nResearchers therefore examine the distribution of measurements as well as a central value. They may report the median, the value in the middle of an ordered list, or describe how widely observations are spread. These measures answer different questions. The median is less influenced by a small number of extreme observations, but it does not make the extremes irrelevant to planning.\nThe most useful summary depends on the decision being made. A water supplier estimating total demand may need information that differs from what a household needs when comparing itself with similar neighbors. Averages are not inherently misleading; problems arise when a convenient summary is asked to answer a question it was not designed to address.",
+          "stimulusId": "f5-r1-a1",
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a1-2",
+          "type": "choice",
+          "prompt": "What do the two streets demonstrate?",
+          "options": [
+            "Every household uses the average amount",
+            "Identical averages can conceal different patterns of use",
+            "Water-saving opportunities depend only on street length",
+            "Extreme observations always cancel each other"
+          ],
+          "answer": 1,
+          "explanation": "The distributions differ even though the averages agree.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "The Problem with an Average",
+          "passage": "An average can summarize a large collection of measurements in a convenient number. If a town reports its average household water use, residents can compare their own use with a general pattern. Yet the summary does not reveal how much households differ from one another.\nConsider two streets with the same average consumption. On one street, nearly every household uses a similar amount. On the other, several households use very little while a few use extremely large amounts. A campaign based on the average alone might treat both streets alike even though the opportunities for reducing consumption differ.\nResearchers therefore examine the distribution of measurements as well as a central value. They may report the median, the value in the middle of an ordered list, or describe how widely observations are spread. These measures answer different questions. The median is less influenced by a small number of extreme observations, but it does not make the extremes irrelevant to planning.\nThe most useful summary depends on the decision being made. A water supplier estimating total demand may need information that differs from what a household needs when comparing itself with similar neighbors. Averages are not inherently misleading; problems arise when a convenient summary is asked to answer a question it was not designed to address.",
+          "stimulusId": "f5-r1-a1",
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a1-3",
+          "type": "choice",
+          "prompt": "How is the median defined?",
+          "options": [
+            "The middle value in an ordered set",
+            "The sum of all measurements",
+            "The largest observed measurement",
+            "The difference between the two largest values"
+          ],
+          "answer": 0,
+          "explanation": "The third paragraph supplies this definition.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The Problem with an Average",
+          "passage": "An average can summarize a large collection of measurements in a convenient number. If a town reports its average household water use, residents can compare their own use with a general pattern. Yet the summary does not reveal how much households differ from one another.\nConsider two streets with the same average consumption. On one street, nearly every household uses a similar amount. On the other, several households use very little while a few use extremely large amounts. A campaign based on the average alone might treat both streets alike even though the opportunities for reducing consumption differ.\nResearchers therefore examine the distribution of measurements as well as a central value. They may report the median, the value in the middle of an ordered list, or describe how widely observations are spread. These measures answer different questions. The median is less influenced by a small number of extreme observations, but it does not make the extremes irrelevant to planning.\nThe most useful summary depends on the decision being made. A water supplier estimating total demand may need information that differs from what a household needs when comparing itself with similar neighbors. Averages are not inherently misleading; problems arise when a convenient summary is asked to answer a question it was not designed to address.",
+          "stimulusId": "f5-r1-a1",
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a1-4",
+          "type": "choice",
+          "prompt": "What does the passage imply about unusually large users?",
+          "options": [
+            "They must occur on every street",
+            "They necessarily represent measurement errors",
+            "They become irrelevant once identified",
+            "They may still matter even if the median is used"
+          ],
+          "answer": 3,
+          "explanation": "Resistance of the median to extremes does not eliminate their planning relevance.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "The Problem with an Average",
+          "passage": "An average can summarize a large collection of measurements in a convenient number. If a town reports its average household water use, residents can compare their own use with a general pattern. Yet the summary does not reveal how much households differ from one another.\nConsider two streets with the same average consumption. On one street, nearly every household uses a similar amount. On the other, several households use very little while a few use extremely large amounts. A campaign based on the average alone might treat both streets alike even though the opportunities for reducing consumption differ.\nResearchers therefore examine the distribution of measurements as well as a central value. They may report the median, the value in the middle of an ordered list, or describe how widely observations are spread. These measures answer different questions. The median is less influenced by a small number of extreme observations, but it does not make the extremes irrelevant to planning.\nThe most useful summary depends on the decision being made. A water supplier estimating total demand may need information that differs from what a household needs when comparing itself with similar neighbors. Averages are not inherently misleading; problems arise when a convenient summary is asked to answer a question it was not designed to address.",
+          "stimulusId": "f5-r1-a1",
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a1-5",
+          "type": "choice",
+          "prompt": "“Distribution” refers here to",
+          "options": [
+            "the publication of a town’s annual report",
+            "the replacement of faulty measuring equipment",
+            "the pattern of values across the measurements",
+            "the delivery of water to individual buildings"
+          ],
+          "answer": 2,
+          "explanation": "The context concerns variability and the spread of observations.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "The Problem with an Average",
+          "passage": "An average can summarize a large collection of measurements in a convenient number. If a town reports its average household water use, residents can compare their own use with a general pattern. Yet the summary does not reveal how much households differ from one another.\nConsider two streets with the same average consumption. On one street, nearly every household uses a similar amount. On the other, several households use very little while a few use extremely large amounts. A campaign based on the average alone might treat both streets alike even though the opportunities for reducing consumption differ.\nResearchers therefore examine the distribution of measurements as well as a central value. They may report the median, the value in the middle of an ordered list, or describe how widely observations are spread. These measures answer different questions. The median is less influenced by a small number of extreme observations, but it does not make the extremes irrelevant to planning.\nThe most useful summary depends on the decision being made. A water supplier estimating total demand may need information that differs from what a household needs when comparing itself with similar neighbors. Averages are not inherently misleading; problems arise when a convenient summary is asked to answer a question it was not designed to address.",
+          "stimulusId": "f5-r1-a1",
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a2-1",
+          "type": "choice",
+          "prompt": "Why might adding flower seeds fail in a nutrient-rich meadow?",
+          "options": [
+            "All flowering plants need permanently shaded conditions",
+            "Fast-growing grasses can deprive seedlings of light",
+            "The seeds necessarily come from nearby populations",
+            "Nutrients prevent every plant from producing seeds"
+          ],
+          "answer": 1,
+          "explanation": "Grasses benefit from nutrients and shade out smaller plants.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Restoring a Meadow",
+          "passage": "Restoring a damaged meadow involves more than scattering seeds. Plants interact with the soil, available light and neighboring species, so the same seed mixture may succeed at one location and fail at another. Restoration teams begin by investigating why the original plant community declined.\nIn some meadows, nutrients added during earlier agricultural use favor rapidly growing grasses. Those grasses can shade out smaller flowering plants. Adding more flower seeds does little if the seedlings cannot obtain enough light. Managers may remove cut vegetation after mowing so that nutrients are gradually carried away rather than returned to the soil as the material decomposes.\nTiming is also important. Cutting a meadow too early can prevent desirable plants from producing seeds. Cutting too late may allow aggressive species to dominate. A schedule must reflect local conditions and the life cycles of the plants that managers hope to encourage.\nProgress is usually uneven. Some species establish quickly, while others arrive slowly from nearby populations or require conditions that take years to develop. Monitoring helps managers distinguish a temporary delay from a persistent obstacle. Restoration is therefore an ongoing process of observing and adjusting, not a single intervention with an immediately visible final result. A visually green field may still be far from the diverse meadow that a project intends to recover.",
+          "stimulusId": "f5-r1-a2",
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a2-2",
+          "type": "choice",
+          "prompt": "Why remove vegetation after mowing?",
+          "options": [
+            "To stop all natural seed dispersal",
+            "To make every species establish at the same rate",
+            "To carry nutrients out of the meadow",
+            "To return more nutrients through decomposition"
+          ],
+          "answer": 2,
+          "explanation": "Removing the cut material reduces nutrient return.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "Restoring a Meadow",
+          "passage": "Restoring a damaged meadow involves more than scattering seeds. Plants interact with the soil, available light and neighboring species, so the same seed mixture may succeed at one location and fail at another. Restoration teams begin by investigating why the original plant community declined.\nIn some meadows, nutrients added during earlier agricultural use favor rapidly growing grasses. Those grasses can shade out smaller flowering plants. Adding more flower seeds does little if the seedlings cannot obtain enough light. Managers may remove cut vegetation after mowing so that nutrients are gradually carried away rather than returned to the soil as the material decomposes.\nTiming is also important. Cutting a meadow too early can prevent desirable plants from producing seeds. Cutting too late may allow aggressive species to dominate. A schedule must reflect local conditions and the life cycles of the plants that managers hope to encourage.\nProgress is usually uneven. Some species establish quickly, while others arrive slowly from nearby populations or require conditions that take years to develop. Monitoring helps managers distinguish a temporary delay from a persistent obstacle. Restoration is therefore an ongoing process of observing and adjusting, not a single intervention with an immediately visible final result. A visually green field may still be far from the diverse meadow that a project intends to recover.",
+          "stimulusId": "f5-r1-a2",
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a2-3",
+          "type": "choice",
+          "prompt": "What determines an appropriate mowing schedule?",
+          "options": [
+            "The appearance of green vegetation regardless of species",
+            "A single date suitable for every meadow",
+            "The number of visitors to the meadow alone",
+            "Local conditions and the life cycles of desirable plants"
+          ],
+          "answer": 3,
+          "explanation": "Timing must accommodate establishment, reproduction and competition.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Restoring a Meadow",
+          "passage": "Restoring a damaged meadow involves more than scattering seeds. Plants interact with the soil, available light and neighboring species, so the same seed mixture may succeed at one location and fail at another. Restoration teams begin by investigating why the original plant community declined.\nIn some meadows, nutrients added during earlier agricultural use favor rapidly growing grasses. Those grasses can shade out smaller flowering plants. Adding more flower seeds does little if the seedlings cannot obtain enough light. Managers may remove cut vegetation after mowing so that nutrients are gradually carried away rather than returned to the soil as the material decomposes.\nTiming is also important. Cutting a meadow too early can prevent desirable plants from producing seeds. Cutting too late may allow aggressive species to dominate. A schedule must reflect local conditions and the life cycles of the plants that managers hope to encourage.\nProgress is usually uneven. Some species establish quickly, while others arrive slowly from nearby populations or require conditions that take years to develop. Monitoring helps managers distinguish a temporary delay from a persistent obstacle. Restoration is therefore an ongoing process of observing and adjusting, not a single intervention with an immediately visible final result. A visually green field may still be far from the diverse meadow that a project intends to recover.",
+          "stimulusId": "f5-r1-a2",
+          "number": 33,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a2-4",
+          "type": "choice",
+          "prompt": "What can be inferred about a green field?",
+          "options": [
+            "Its appearance alone does not establish restoration success",
+            "It necessarily contains the intended diversity",
+            "It no longer requires monitoring",
+            "It has recovered all the original species"
+          ],
+          "answer": 0,
+          "explanation": "Green cover can conceal an undesirable species composition.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Restoring a Meadow",
+          "passage": "Restoring a damaged meadow involves more than scattering seeds. Plants interact with the soil, available light and neighboring species, so the same seed mixture may succeed at one location and fail at another. Restoration teams begin by investigating why the original plant community declined.\nIn some meadows, nutrients added during earlier agricultural use favor rapidly growing grasses. Those grasses can shade out smaller flowering plants. Adding more flower seeds does little if the seedlings cannot obtain enough light. Managers may remove cut vegetation after mowing so that nutrients are gradually carried away rather than returned to the soil as the material decomposes.\nTiming is also important. Cutting a meadow too early can prevent desirable plants from producing seeds. Cutting too late may allow aggressive species to dominate. A schedule must reflect local conditions and the life cycles of the plants that managers hope to encourage.\nProgress is usually uneven. Some species establish quickly, while others arrive slowly from nearby populations or require conditions that take years to develop. Monitoring helps managers distinguish a temporary delay from a persistent obstacle. Restoration is therefore an ongoing process of observing and adjusting, not a single intervention with an immediately visible final result. A visually green field may still be far from the diverse meadow that a project intends to recover.",
+          "stimulusId": "f5-r1-a2",
+          "number": 34,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-r1-a2-5",
+          "type": "choice",
+          "prompt": "What is the passage mainly explaining?",
+          "options": [
+            "Why seed mixtures should never be used",
+            "Why meadow restoration requires diagnosis and continuing adjustment",
+            "How to replace all meadow plants in a single season",
+            "Why nutrient addition always improves biodiversity"
+          ],
+          "answer": 1,
+          "explanation": "The entire text develops an adaptive management process.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Restoring a Meadow",
+          "passage": "Restoring a damaged meadow involves more than scattering seeds. Plants interact with the soil, available light and neighboring species, so the same seed mixture may succeed at one location and fail at another. Restoration teams begin by investigating why the original plant community declined.\nIn some meadows, nutrients added during earlier agricultural use favor rapidly growing grasses. Those grasses can shade out smaller flowering plants. Adding more flower seeds does little if the seedlings cannot obtain enough light. Managers may remove cut vegetation after mowing so that nutrients are gradually carried away rather than returned to the soil as the material decomposes.\nTiming is also important. Cutting a meadow too early can prevent desirable plants from producing seeds. Cutting too late may allow aggressive species to dominate. A schedule must reflect local conditions and the life cycles of the plants that managers hope to encourage.\nProgress is usually uneven. Some species establish quickly, while others arrive slowly from nearby populations or require conditions that take years to develop. Monitoring helps managers distinguish a temporary delay from a persistent obstacle. Restoration is therefore an ongoing process of observing and adjusting, not a single intervention with an immediately visible final result. A visually green field may still be far from the diverse meadow that a project intends to recover.",
+          "stimulusId": "f5-r1-a2",
+          "number": 35,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "branches": {
+        "lower": [
+          {
+            "id": "f5-r2-lower-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Photography transformed the way researchers could document movement. A sequence of images made it possible to ",
+              {
+                "pre": "com",
+                "answer": "pare"
+              },
+              " positions that changed too ",
+              {
+                "pre": "qui",
+                "answer": "ckly"
+              },
+              " for careful observation. Investigators could examine a ",
+              {
+                "pre": "sin",
+                "answer": "gle"
+              },
+              " moment repeatedly or study how one stage led to the ",
+              {
+                "pre": "ne",
+                "answer": "xt"
+              },
+              ". Yet a photograph was not a perfectly ",
+              {
+                "pre": "ne",
+                "answer": "utral"
+              },
+              " record. Lighting, camera position and the interval between exposures influenced what became ",
+              {
+                "pre": "vis",
+                "answer": "ible"
+              },
+              ". Researchers had to ",
+              {
+                "pre": "cho",
+                "answer": "ose"
+              },
+              " a method suited to their question. The resulting images could ",
+              {
+                "pre": "sup",
+                "answer": "port"
+              },
+              " an explanation, but they still required ",
+              {
+                "pre": "inter",
+                "answer": "pretation"
+              },
+              ". New technology expanded observation without eliminating the need for careful scientific ",
+              {
+                "pre": "judg",
+                "answer": "ment"
+              },
+              "."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-lower-a-1",
+            "type": "choice",
+            "prompt": "What is the passage’s main claim?",
+            "options": [
+              "Successful tool lending requires organization and care as well as equipment",
+              "A large collection automatically meets every community need",
+              "Members should buy every item they borrow",
+              "Tool libraries have no function beyond storing objects"
+            ],
+            "answer": 0,
+            "explanation": "Demand, trust, maintenance and knowledge support shared access.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "Borrowing as a Social Arrangement",
+            "passage": "A tool library lends equipment that people may need only occasionally. Instead of buying a drill for a single project, a member can borrow one and return it for someone else to use. This arrangement can reduce the number of products that must be owned individually, but its success depends on more than having shelves full of tools.\nDemand is uneven. Many members may want gardening equipment on the same weekend, while another item remains unused for months. Keeping records of loans helps organizers decide which tools to buy in greater numbers and which purchases would add little value. A rarely borrowed tool is not necessarily useless, however; it may meet an unusual need that would otherwise be costly to satisfy.\nTrust and responsibility matter as well. Members need clear instructions about safe use, cleaning and reporting faults. If damaged tools return to the shelf without inspection, the next borrower may face inconvenience or danger. Maintenance work is therefore part of the lending service rather than an optional extra.\nTool libraries also provide opportunities for people to exchange practical knowledge. A demonstration can help a borrower use unfamiliar equipment confidently. The library is consequently both a collection of objects and a system of relationships, information and ongoing care that makes shared access possible.",
+            "stimulusId": "f5-r2-lower-a",
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-lower-a-2",
+            "type": "choice",
+            "prompt": "How can loan records help organizers?",
+            "options": [
+              "They eliminate the need for safety instructions",
+              "They guarantee that every tool will be used equally",
+              "They show patterns useful for purchasing decisions",
+              "They prove that rarely borrowed tools have no value"
+            ],
+            "answer": 2,
+            "explanation": "Usage records inform what to duplicate or add.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Borrowing as a Social Arrangement",
+            "passage": "A tool library lends equipment that people may need only occasionally. Instead of buying a drill for a single project, a member can borrow one and return it for someone else to use. This arrangement can reduce the number of products that must be owned individually, but its success depends on more than having shelves full of tools.\nDemand is uneven. Many members may want gardening equipment on the same weekend, while another item remains unused for months. Keeping records of loans helps organizers decide which tools to buy in greater numbers and which purchases would add little value. A rarely borrowed tool is not necessarily useless, however; it may meet an unusual need that would otherwise be costly to satisfy.\nTrust and responsibility matter as well. Members need clear instructions about safe use, cleaning and reporting faults. If damaged tools return to the shelf without inspection, the next borrower may face inconvenience or danger. Maintenance work is therefore part of the lending service rather than an optional extra.\nTool libraries also provide opportunities for people to exchange practical knowledge. A demonstration can help a borrower use unfamiliar equipment confidently. The library is consequently both a collection of objects and a system of relationships, information and ongoing care that makes shared access possible.",
+            "stimulusId": "f5-r2-lower-a",
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-lower-a-3",
+            "type": "choice",
+            "prompt": "Why does the author caution against dismissing a rarely borrowed tool?",
+            "options": [
+              "It is necessarily the newest tool in the collection",
+              "It can replace every commonly used item",
+              "It might serve an uncommon but important need",
+              "It always costs less to maintain than popular tools"
+            ],
+            "answer": 2,
+            "explanation": "Rare use does not necessarily imply low value.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "Borrowing as a Social Arrangement",
+            "passage": "A tool library lends equipment that people may need only occasionally. Instead of buying a drill for a single project, a member can borrow one and return it for someone else to use. This arrangement can reduce the number of products that must be owned individually, but its success depends on more than having shelves full of tools.\nDemand is uneven. Many members may want gardening equipment on the same weekend, while another item remains unused for months. Keeping records of loans helps organizers decide which tools to buy in greater numbers and which purchases would add little value. A rarely borrowed tool is not necessarily useless, however; it may meet an unusual need that would otherwise be costly to satisfy.\nTrust and responsibility matter as well. Members need clear instructions about safe use, cleaning and reporting faults. If damaged tools return to the shelf without inspection, the next borrower may face inconvenience or danger. Maintenance work is therefore part of the lending service rather than an optional extra.\nTool libraries also provide opportunities for people to exchange practical knowledge. A demonstration can help a borrower use unfamiliar equipment confidently. The library is consequently both a collection of objects and a system of relationships, information and ongoing care that makes shared access possible.",
+            "stimulusId": "f5-r2-lower-a",
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-lower-a-4",
+            "type": "choice",
+            "prompt": "What problem can result from failing to inspect returned equipment?",
+            "options": [
+              "Demand will become evenly distributed",
+              "A later borrower may receive an unsafe tool",
+              "All loan records will become inaccurate",
+              "Borrowers will no longer need demonstrations"
+            ],
+            "answer": 1,
+            "explanation": "Fault reporting and inspection protect later users.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Borrowing as a Social Arrangement",
+            "passage": "A tool library lends equipment that people may need only occasionally. Instead of buying a drill for a single project, a member can borrow one and return it for someone else to use. This arrangement can reduce the number of products that must be owned individually, but its success depends on more than having shelves full of tools.\nDemand is uneven. Many members may want gardening equipment on the same weekend, while another item remains unused for months. Keeping records of loans helps organizers decide which tools to buy in greater numbers and which purchases would add little value. A rarely borrowed tool is not necessarily useless, however; it may meet an unusual need that would otherwise be costly to satisfy.\nTrust and responsibility matter as well. Members need clear instructions about safe use, cleaning and reporting faults. If damaged tools return to the shelf without inspection, the next borrower may face inconvenience or danger. Maintenance work is therefore part of the lending service rather than an optional extra.\nTool libraries also provide opportunities for people to exchange practical knowledge. A demonstration can help a borrower use unfamiliar equipment confidently. The library is consequently both a collection of objects and a system of relationships, information and ongoing care that makes shared access possible.",
+            "stimulusId": "f5-r2-lower-a",
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-lower-a-5",
+            "type": "choice",
+            "prompt": "The final paragraph broadens the discussion by considering",
+            "options": [
+              "the exchange of knowledge alongside the lending of objects",
+              "a reason to end all equipment lending",
+              "the history of manufacturing garden tools",
+              "the replacement of membership with retail sales"
+            ],
+            "answer": 0,
+            "explanation": "The service includes relationships and information.",
+            "skill": "organization",
+            "task": "academic-passage",
+            "title": "Borrowing as a Social Arrangement",
+            "passage": "A tool library lends equipment that people may need only occasionally. Instead of buying a drill for a single project, a member can borrow one and return it for someone else to use. This arrangement can reduce the number of products that must be owned individually, but its success depends on more than having shelves full of tools.\nDemand is uneven. Many members may want gardening equipment on the same weekend, while another item remains unused for months. Keeping records of loans helps organizers decide which tools to buy in greater numbers and which purchases would add little value. A rarely borrowed tool is not necessarily useless, however; it may meet an unusual need that would otherwise be costly to satisfy.\nTrust and responsibility matter as well. Members need clear instructions about safe use, cleaning and reporting faults. If damaged tools return to the shelf without inspection, the next borrower may face inconvenience or danger. Maintenance work is therefore part of the lending service rather than an optional extra.\nTool libraries also provide opportunities for people to exchange practical knowledge. A demonstration can help a borrower use unfamiliar equipment confidently. The library is consequently both a collection of objects and a system of relationships, information and ongoing care that makes shared access possible.",
+            "stimulusId": "f5-r2-lower-a",
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f5-r2-higher-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Communities near a volcano need information about changing conditions, but predicting an eruption is difficult. Scientists ",
+              {
+                "pre": "mon",
+                "answer": "itor"
+              },
+              " small earthquakes, ground movement and gases released from the ",
+              {
+                "pre": "sur",
+                "answer": "face"
+              },
+              ". A change in one measurement may have several possible ",
+              {
+                "pre": "ca",
+                "answer": "uses"
+              },
+              ". They therefore look for patterns across different ",
+              {
+                "pre": "ty",
+                "answer": "pes"
+              },
+              " of evidence. Even a strong pattern does not always establish exactly ",
+              {
+                "pre": "wh",
+                "answer": "en"
+              },
+              " an eruption will occur. Communicating uncertainty is an essential ",
+              {
+                "pre": "pa",
+                "answer": "rt"
+              },
+              " of their work. Warnings must be clear enough to guide ",
+              {
+                "pre": "ac",
+                "answer": "tion"
+              },
+              " while explaining what is known and what remains ",
+              {
+                "pre": "unk",
+                "answer": "nown"
+              },
+              ". Good preparation combines scientific observation with ",
+              {
+                "pre": "prac",
+                "answer": "tical"
+              },
+              " planning and regular ",
+              {
+                "pre": "communi",
+                "answer": "cation"
+              },
+              "."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-higher-a-1",
+            "type": "choice",
+            "prompt": "What primarily shapes the formation of dunes?",
+            "options": [
+              "The growth of roots without any transported material",
+              "A single event that fixes the landscape permanently",
+              "The movement and deposition of sand by wind",
+              "The complete absence of moving air"
+            ],
+            "answer": 2,
+            "explanation": "Transport and deposition are the central processes.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "A Landscape Shaped by Wind",
+            "passage": "Sand dunes can appear permanent when viewed during a brief visit, yet they are continually shaped by movement. Wind lifts or pushes grains along the surface, and grains may accumulate where the moving air loses energy. A dune’s form reflects both this transport and the obstacles the wind encounters.\nVegetation can alter the process. Stems and leaves slow air near the ground, encouraging sand to settle. Roots help hold the accumulated material in place. The resulting pattern is not simply a case of plants stopping all movement. Some dune plants can grow upward as sand gathers around them, gradually influencing the shape of the dune.\nHuman activity can interrupt these interactions. Repeated footsteps may damage plants and create a bare path through which sand moves more readily. A small gap can widen as wind carries additional material through it. Boardwalks are sometimes installed to concentrate visitors on a durable route while reducing damage to neighboring vegetation.\nManagement must still account for the ecological role of movement. Completely stabilizing every dune would not necessarily protect all the organisms that depend on these environments. Some species need open, shifting sand. Understanding dunes therefore requires attention to both persistence and change, and conservation decisions must consider which processes support the particular habitat being managed.",
+            "stimulusId": "f5-r2-higher-a",
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-higher-a-2",
+            "type": "choice",
+            "prompt": "How do plants encourage sand to accumulate?",
+            "options": [
+              "They make all nearby wind stronger",
+              "They slow near-ground air so that grains settle",
+              "They prevent every grain from moving anywhere",
+              "They convert roots directly into sand"
+            ],
+            "answer": 1,
+            "explanation": "The second paragraph links reduced air speed with settling.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "A Landscape Shaped by Wind",
+            "passage": "Sand dunes can appear permanent when viewed during a brief visit, yet they are continually shaped by movement. Wind lifts or pushes grains along the surface, and grains may accumulate where the moving air loses energy. A dune’s form reflects both this transport and the obstacles the wind encounters.\nVegetation can alter the process. Stems and leaves slow air near the ground, encouraging sand to settle. Roots help hold the accumulated material in place. The resulting pattern is not simply a case of plants stopping all movement. Some dune plants can grow upward as sand gathers around them, gradually influencing the shape of the dune.\nHuman activity can interrupt these interactions. Repeated footsteps may damage plants and create a bare path through which sand moves more readily. A small gap can widen as wind carries additional material through it. Boardwalks are sometimes installed to concentrate visitors on a durable route while reducing damage to neighboring vegetation.\nManagement must still account for the ecological role of movement. Completely stabilizing every dune would not necessarily protect all the organisms that depend on these environments. Some species need open, shifting sand. Understanding dunes therefore requires attention to both persistence and change, and conservation decisions must consider which processes support the particular habitat being managed.",
+            "stimulusId": "f5-r2-higher-a",
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-higher-a-3",
+            "type": "choice",
+            "prompt": "Why are boardwalks mentioned?",
+            "options": [
+              "As a way to limit vegetation damage caused by visitors",
+              "As proof that dunes need no visitor management",
+              "As structures that eliminate all sand movement",
+              "As a method for replacing native vegetation"
+            ],
+            "answer": 0,
+            "explanation": "Boardwalks concentrate foot traffic and protect adjacent plants.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "A Landscape Shaped by Wind",
+            "passage": "Sand dunes can appear permanent when viewed during a brief visit, yet they are continually shaped by movement. Wind lifts or pushes grains along the surface, and grains may accumulate where the moving air loses energy. A dune’s form reflects both this transport and the obstacles the wind encounters.\nVegetation can alter the process. Stems and leaves slow air near the ground, encouraging sand to settle. Roots help hold the accumulated material in place. The resulting pattern is not simply a case of plants stopping all movement. Some dune plants can grow upward as sand gathers around them, gradually influencing the shape of the dune.\nHuman activity can interrupt these interactions. Repeated footsteps may damage plants and create a bare path through which sand moves more readily. A small gap can widen as wind carries additional material through it. Boardwalks are sometimes installed to concentrate visitors on a durable route while reducing damage to neighboring vegetation.\nManagement must still account for the ecological role of movement. Completely stabilizing every dune would not necessarily protect all the organisms that depend on these environments. Some species need open, shifting sand. Understanding dunes therefore requires attention to both persistence and change, and conservation decisions must consider which processes support the particular habitat being managed.",
+            "stimulusId": "f5-r2-higher-a",
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-higher-a-4",
+            "type": "choice",
+            "prompt": "Why might total dune stabilization be undesirable?",
+            "options": [
+              "Conservation depends only on the number of visitors",
+              "Stable dunes can never support any wildlife",
+              "Every plant dies on stable surfaces",
+              "Some organisms require open and moving sand"
+            ],
+            "answer": 3,
+            "explanation": "The final paragraph identifies species dependent on shifting habitat.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "A Landscape Shaped by Wind",
+            "passage": "Sand dunes can appear permanent when viewed during a brief visit, yet they are continually shaped by movement. Wind lifts or pushes grains along the surface, and grains may accumulate where the moving air loses energy. A dune’s form reflects both this transport and the obstacles the wind encounters.\nVegetation can alter the process. Stems and leaves slow air near the ground, encouraging sand to settle. Roots help hold the accumulated material in place. The resulting pattern is not simply a case of plants stopping all movement. Some dune plants can grow upward as sand gathers around them, gradually influencing the shape of the dune.\nHuman activity can interrupt these interactions. Repeated footsteps may damage plants and create a bare path through which sand moves more readily. A small gap can widen as wind carries additional material through it. Boardwalks are sometimes installed to concentrate visitors on a durable route while reducing damage to neighboring vegetation.\nManagement must still account for the ecological role of movement. Completely stabilizing every dune would not necessarily protect all the organisms that depend on these environments. Some species need open, shifting sand. Understanding dunes therefore requires attention to both persistence and change, and conservation decisions must consider which processes support the particular habitat being managed.",
+            "stimulusId": "f5-r2-higher-a",
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-r2-higher-a-5",
+            "type": "choice",
+            "prompt": "The passage emphasizes that dune conservation should consider",
+            "options": [
+              "the elimination of all natural disturbance",
+              "identical management for every dune system",
+              "the processes maintaining a particular habitat",
+              "only whether the landscape looks unchanged"
+            ],
+            "answer": 2,
+            "explanation": "The conclusion rejects a one-size-fits-all preference for stability.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "A Landscape Shaped by Wind",
+            "passage": "Sand dunes can appear permanent when viewed during a brief visit, yet they are continually shaped by movement. Wind lifts or pushes grains along the surface, and grains may accumulate where the moving air loses energy. A dune’s form reflects both this transport and the obstacles the wind encounters.\nVegetation can alter the process. Stems and leaves slow air near the ground, encouraging sand to settle. Roots help hold the accumulated material in place. The resulting pattern is not simply a case of plants stopping all movement. Some dune plants can grow upward as sand gathers around them, gradually influencing the shape of the dune.\nHuman activity can interrupt these interactions. Repeated footsteps may damage plants and create a bare path through which sand moves more readily. A small gap can widen as wind carries additional material through it. Boardwalks are sometimes installed to concentrate visitors on a durable route while reducing damage to neighboring vegetation.\nManagement must still account for the ecological role of movement. Completely stabilizing every dune would not necessarily protect all the organisms that depend on these environments. Some species need open, shifting sand. Understanding dunes therefore requires attention to both persistence and change, and conservation decisions must consider which processes support the particular habitat being managed.",
+            "stimulusId": "f5-r2-higher-a",
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          }
+        ]
+      }
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "f5-l-router-response-0-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The first page has a photograph.",
+            "I reserved a seat on the bus.",
+            "The toolkit is quite heavy.",
+            "Sure, open the booking page first."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-0",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Could you show me how to reserve a toolkit?"
+          },
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-1-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I assigned names to the files.",
+            "Afternoon sunlight can be strong.",
+            "So have I; we can go together.",
+            "The group met yesterday morning."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-1",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I’ve been assigned to the afternoon group."
+          },
+          "number": 2,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-2-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The feedback was encouraging.",
+            "At two on Thursday.",
+            "Thursday is usually busy here.",
+            "The session has been recorded."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-2",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "When is the feedback session?"
+          },
+          "number": 3,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-3-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, I left them after the seminar.",
+            "The notes are very detailed.",
+            "You belong to the project group.",
+            "I noted the date in my diary."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-3",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Do these notes belong to you?"
+          },
+          "number": 4,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-4-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Legends can be interesting stories.",
+            "I found the lecture useful.",
+            "The map shows the local paths.",
+            "It’s on a separate page; I’ll add it here."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-4",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I can’t find the legend on your map."
+          },
+          "number": 5,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-5-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I submitted the form yesterday.",
+            "Our equipment is in the cupboard.",
+            "Yes, that could reveal any errors.",
+            "The measurement took five minutes."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-5",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Shall we compare our measurements before submitting?"
+          },
+          "number": 6,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-6-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I’m not frightened of speaking.",
+            "Is there another session I could join?",
+            "The session was very practical.",
+            "The room has a large screen."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-6",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "The room is at capacity, I’m afraid."
+          },
+          "number": 7,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-7-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Possibly. Let’s notify the instructor first.",
+            "The exchange rate changed yesterday.",
+            "My session lasted an hour.",
+            "The instructor has a new office."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-7",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Could I exchange my session with yours?"
+          },
+          "number": 8,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-8-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The blank forms are blue.",
+            "I observed the flowers in May.",
+            "The day was warmer than expected.",
+            "Leave the entry blank rather than guessing."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-8",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "What should we do if we miss an observation day?"
+          },
+          "number": 9,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-9-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The assistant borrowed my pen.",
+            "The files contain several interviews.",
+            "No, I told the desk assistant about them.",
+            "Yes, the borrower was very helpful."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-9",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "You didn’t erase the previous borrower’s files, did you?"
+          },
+          "number": 10,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-10-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "At the visitor centre entrance.",
+            "The guide knows the area well.",
+            "I walked along the beach yesterday.",
+            "The dunes are beyond the town."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-10",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Where do we meet the guide for the dune walk?"
+          },
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-response-11-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The route takes about an hour.",
+            "The vegetation is being restored.",
+            "The part number is on the label.",
+            "I closed the gate behind me."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f5-l-router-response-11",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Why is this part of the route closed?"
+          },
+          "number": 12,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-conversation-0-1",
+          "type": "choice",
+          "prompt": "What limitation does the woman identify?",
+          "options": [
+            "The questions ask about too many library services",
+            "The survey may exclude people unable to use the current hours",
+            "The results show that nobody likes the hours",
+            "The survey includes only library staff"
+          ],
+          "answer": 1,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f5-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: Our survey says that eighty percent of respondents like the new library hours. That sounds convincing.\nWoman: How did you reach them?\nMan: We asked people leaving the library just before closing.\nWoman: That may miss students who can’t use the current hours at all.\nMan: Good point. We should send the survey to a wider student list before presenting it as everyone’s opinion.\nWoman: And explain how the first responses were collected."
+          },
+          "number": 13,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-conversation-0-2",
+          "type": "choice",
+          "prompt": "What will the man do?",
+          "options": [
+            "Report the result as a complete census",
+            "Shorten the opening hours himself",
+            "Seek responses from a broader group",
+            "Delete the original responses without explanation"
+          ],
+          "answer": 2,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f5-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: Our survey says that eighty percent of respondents like the new library hours. That sounds convincing.\nWoman: How did you reach them?\nMan: We asked people leaving the library just before closing.\nWoman: That may miss students who can’t use the current hours at all.\nMan: Good point. We should send the survey to a wider student list before presenting it as everyone’s opinion.\nWoman: And explain how the first responses were collected."
+          },
+          "number": 14,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-conversation-1-1",
+          "type": "choice",
+          "prompt": "Why can’t the new boxes solve the whole storage problem?",
+          "options": [
+            "Some documents are too large for them",
+            "The letters have already been discarded",
+            "The boxes cannot be opened",
+            "The maps must be rolled before storage"
+          ],
+          "answer": 0,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f5-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The archive boxes arrived, but the supplier sent the smaller size.\nMan: Can we use them for the letters and keep the large maps somewhere else temporarily?\nWoman: The letters fit, but I don’t want to leave the maps unprotected.\nMan: We have flat storage folders in the conservation room. I’ll check whether some are available while you contact the supplier.\nWoman: Thanks. Then we can protect everything without folding the maps."
+          },
+          "number": 15,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-conversation-1-2",
+          "type": "choice",
+          "prompt": "What will the man check?",
+          "options": [
+            "Whether the maps can be folded safely",
+            "Whether letters can be cut to size",
+            "Whether the supplier has received payment",
+            "Whether suitable flat folders are available"
+          ],
+          "answer": 3,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f5-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The archive boxes arrived, but the supplier sent the smaller size.\nMan: Can we use them for the letters and keep the large maps somewhere else temporarily?\nWoman: The letters fit, but I don’t want to leave the maps unprotected.\nMan: We have flat storage folders in the conservation room. I’ll check whether some are available while you contact the supplier.\nWoman: Thanks. Then we can protect everything without folding the maps."
+          },
+          "number": 16,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-conversation-2-1",
+          "type": "choice",
+          "prompt": "What does the woman suggest is missing?",
+          "options": [
+            "A faster delivery of the conclusion",
+            "A longer statement of the time limit",
+            "More examples of exactly the same point",
+            "Pauses that make the structure easier to follow"
+          ],
+          "answer": 3,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f5-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: My rehearsal recording sounds rushed, even though I spoke within the time limit.\nWoman: You move straight from one example to the next. A brief pause could help listeners follow the structure.\nMan: Wouldn’t that make the talk too long?\nWoman: Not if you remove the repeated explanation at the end. You can use the saved time for clearer transitions.\nMan: I’ll try that and record another rehearsal rather than simply speaking faster."
+          },
+          "number": 17,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-conversation-2-2",
+          "type": "choice",
+          "prompt": "What will the man change?",
+          "options": [
+            "Remove repetition and use clearer transitions",
+            "Increase his speaking speed throughout",
+            "Abandon rehearsal recordings",
+            "Add several new examples without cutting anything"
+          ],
+          "answer": 0,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f5-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: My rehearsal recording sounds rushed, even though I spoke within the time limit.\nWoman: You move straight from one example to the next. A brief pause could help listeners follow the structure.\nMan: Wouldn’t that make the talk too long?\nWoman: Not if you remove the repeated explanation at the end. You can use the saved time for clearer transitions.\nMan: I’ll try that and record another rehearsal rather than simply speaking faster."
+          },
+          "number": 18,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-announcement-0-1",
+          "type": "choice",
+          "prompt": "Why are there two groups?",
+          "options": [
+            "The two groups are studying different subjects",
+            "Available working space limits each session’s size",
+            "One instructor refuses to teach in the morning",
+            "Half the materials have been lost"
+          ],
+          "answer": 1,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f5-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The model-building session has been divided into two groups because each participant needs table space. Check the portal for your assigned time. You may exchange sessions with another student if you notify the instructor first. Please don’t simply attend the other session, since both are already at capacity. All materials will be provided at the start of your own group’s session."
+          },
+          "number": 19,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-announcement-0-2",
+          "type": "choice",
+          "prompt": "What is required to change sessions?",
+          "options": [
+            "Buy a second set of materials",
+            "Wait until both sessions have finished",
+            "Arrange an exchange and notify the instructor",
+            "Attend whichever session is more convenient"
+          ],
+          "answer": 2,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f5-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The model-building session has been divided into two groups because each participant needs table space. Check the portal for your assigned time. You may exchange sessions with another student if you notify the instructor first. Please don’t simply attend the other session, since both are already at capacity. All materials will be provided at the start of your own group’s session."
+          },
+          "number": 20,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-announcement-1-1",
+          "type": "choice",
+          "prompt": "Why will the desk close early?",
+          "options": [
+            "A safety inspection is scheduled",
+            "Every borrowed tool has been returned",
+            "The building is being sold",
+            "The library has stopped lending permanently"
+          ],
+          "answer": 0,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f5-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The tool library will close its returns desk at four on Friday for a safety inspection. Please return borrowed equipment by then or use the staffed desk Saturday morning. Do not leave tools outside the locked door. We cannot accept them through the book-return slot, even if they fit. Loan penalties will be suspended overnight because of the early closure."
+          },
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-announcement-1-2",
+          "type": "choice",
+          "prompt": "What may a borrower do without an overnight penalty?",
+          "options": [
+            "Keep equipment until the following month",
+            "Push tools through the book-return slot",
+            "Leave tools outside the locked door",
+            "Return equipment at the staffed desk Saturday morning"
+          ],
+          "answer": 3,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f5-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The tool library will close its returns desk at four on Friday for a safety inspection. Please return borrowed equipment by then or use the staffed desk Saturday morning. Do not leave tools outside the locked door. We cannot accept them through the book-return slot, even if they fit. Loan penalties will be suspended overnight because of the early closure."
+          },
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-announcement-2-1",
+          "type": "choice",
+          "prompt": "Why are weekday sessions being added?",
+          "options": [
+            "To test a completely different set of questions",
+            "To replace the garden’s weekday opening hours",
+            "To avoid interviewing anyone on weekends",
+            "To include visitors absent from a Saturday-only survey"
+          ],
+          "answer": 3,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f5-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Our visitor survey will include both weekday and weekend sessions. Earlier plans covered only Saturday, which might have missed people who use the garden differently during the week. Please sign up for one shift of each type if possible. We will use the same questions in both sessions so that responses can be compared without changes in wording affecting the results."
+          },
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-announcement-2-2",
+          "type": "choice",
+          "prompt": "Why will question wording remain the same?",
+          "options": [
+            "To make comparisons less affected by wording changes",
+            "To prevent respondents from expressing opinions",
+            "To shorten every visit to the garden",
+            "To ensure that the same people attend twice"
+          ],
+          "answer": 0,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f5-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Our visitor survey will include both weekday and weekend sessions. Earlier plans covered only Saturday, which might have missed people who use the garden differently during the week. Please sign up for one shift of each type if possible. We will use the same questions in both sessions so that responses can be compared without changes in wording affecting the results."
+          },
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-0-1",
+          "type": "choice",
+          "prompt": "What position does the speaker take?",
+          "options": [
+            "Fragile originals should always be handled by visitors",
+            "Replicas have no educational use",
+            "Replicas can be valuable when their purpose and limits are clear",
+            "Every replica is an exact equivalent of an original"
+          ],
+          "answer": 2,
+          "explanation": "The talk takes a conditional rather than absolute position.",
+          "skill": "attitude",
+          "task": "academic-talk",
+          "title": "What a Replica Can Teach",
+          "stimulus": {
+            "id": "f5-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "What a Replica Can Teach",
+            "script": "A replica in a museum is sometimes treated as a poor substitute for a real object. But a carefully made replica can support learning that would be impossible with a fragile original. Visitors may handle it, inspect details closely or test how a tool would have been held.\nThe value depends partly on the purpose of the replica. A copy made to show color may use a different material from the original. That could be appropriate for visual teaching but misleading in a demonstration about weight. Museums need to explain which properties the replica reproduces and which it does not.\nMaking a replica can also become a form of investigation. A craftsperson trying to reproduce a historical technique may discover difficulties not apparent in a finished object. However, successfully making one possible version does not prove that people in the past used exactly that procedure. Other methods may have produced a similar result.\nSo replicas are neither automatically worthless nor automatically equivalent to originals. They are tools whose usefulness depends on transparent choices. Clear labels, explicit purposes and attention to limitations allow them to expand access while preserving the distinction between a surviving historical object and a modern interpretation of it."
+          },
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-0-2",
+          "type": "choice",
+          "prompt": "Why might a replica be unsuitable for demonstrating weight?",
+          "options": [
+            "Visitors cannot observe its color",
+            "It may reproduce appearance using a different material",
+            "All modern materials are heavier than historical ones",
+            "Historical tools never had measurable weight"
+          ],
+          "answer": 1,
+          "explanation": "The selected material may not reproduce the relevant property.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "What a Replica Can Teach",
+          "stimulus": {
+            "id": "f5-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "What a Replica Can Teach",
+            "script": "A replica in a museum is sometimes treated as a poor substitute for a real object. But a carefully made replica can support learning that would be impossible with a fragile original. Visitors may handle it, inspect details closely or test how a tool would have been held.\nThe value depends partly on the purpose of the replica. A copy made to show color may use a different material from the original. That could be appropriate for visual teaching but misleading in a demonstration about weight. Museums need to explain which properties the replica reproduces and which it does not.\nMaking a replica can also become a form of investigation. A craftsperson trying to reproduce a historical technique may discover difficulties not apparent in a finished object. However, successfully making one possible version does not prove that people in the past used exactly that procedure. Other methods may have produced a similar result.\nSo replicas are neither automatically worthless nor automatically equivalent to originals. They are tools whose usefulness depends on transparent choices. Clear labels, explicit purposes and attention to limitations allow them to expand access while preserving the distinction between a surviving historical object and a modern interpretation of it."
+          },
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-0-3",
+          "type": "choice",
+          "prompt": "Why describe a craftsperson reproducing a technique?",
+          "options": [
+            "Making a copy can reveal practical questions about production",
+            "One successful copy proves the original method beyond doubt",
+            "Museum labels can then be removed",
+            "Only craftspeople can recognize historical objects"
+          ],
+          "answer": 0,
+          "explanation": "Reconstruction can generate insight but not certainty.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "What a Replica Can Teach",
+          "stimulus": {
+            "id": "f5-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "What a Replica Can Teach",
+            "script": "A replica in a museum is sometimes treated as a poor substitute for a real object. But a carefully made replica can support learning that would be impossible with a fragile original. Visitors may handle it, inspect details closely or test how a tool would have been held.\nThe value depends partly on the purpose of the replica. A copy made to show color may use a different material from the original. That could be appropriate for visual teaching but misleading in a demonstration about weight. Museums need to explain which properties the replica reproduces and which it does not.\nMaking a replica can also become a form of investigation. A craftsperson trying to reproduce a historical technique may discover difficulties not apparent in a finished object. However, successfully making one possible version does not prove that people in the past used exactly that procedure. Other methods may have produced a similar result.\nSo replicas are neither automatically worthless nor automatically equivalent to originals. They are tools whose usefulness depends on transparent choices. Clear labels, explicit purposes and attention to limitations allow them to expand access while preserving the distinction between a surviving historical object and a modern interpretation of it."
+          },
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-0-4",
+          "type": "choice",
+          "prompt": "What should museums explain?",
+          "options": [
+            "That all copies have identical teaching purposes",
+            "That modern interpretation is unnecessary",
+            "That every detail is historically certain",
+            "Which characteristics of the original the replica represents"
+          ],
+          "answer": 3,
+          "explanation": "Explicit reproduced and unreproduced properties support appropriate use.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "What a Replica Can Teach",
+          "stimulus": {
+            "id": "f5-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "What a Replica Can Teach",
+            "script": "A replica in a museum is sometimes treated as a poor substitute for a real object. But a carefully made replica can support learning that would be impossible with a fragile original. Visitors may handle it, inspect details closely or test how a tool would have been held.\nThe value depends partly on the purpose of the replica. A copy made to show color may use a different material from the original. That could be appropriate for visual teaching but misleading in a demonstration about weight. Museums need to explain which properties the replica reproduces and which it does not.\nMaking a replica can also become a form of investigation. A craftsperson trying to reproduce a historical technique may discover difficulties not apparent in a finished object. However, successfully making one possible version does not prove that people in the past used exactly that procedure. Other methods may have produced a similar result.\nSo replicas are neither automatically worthless nor automatically equivalent to originals. They are tools whose usefulness depends on transparent choices. Clear labels, explicit purposes and attention to limitations allow them to expand access while preserving the distinction between a surviving historical object and a modern interpretation of it."
+          },
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-1-1",
+          "type": "choice",
+          "prompt": "What is the talk mainly about?",
+          "options": [
+            "Why watering should always be increased",
+            "How to maximize photographs at a planting ceremony",
+            "Why mature trees need no suitable soil",
+            "Why tree planting must be evaluated beyond the planting event"
+          ],
+          "answer": 3,
+          "explanation": "The argument concerns continuing care and long-term outcomes.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Why Young Trees Need Follow-up",
+          "stimulus": {
+            "id": "f5-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Why Young Trees Need Follow-up",
+            "script": "Planting a young tree is a visible event, easy to photograph and count. Whether it develops into a mature tree depends on what happens afterward. Water, soil conditions and damage during its first years can influence whether the initial investment produces a lasting result.\nOne challenge is that the roots may occupy a much smaller area than the future crown suggests. During dry weather, a young tree may not yet reach enough moisture. A planting program needs a realistic watering plan rather than assuming that rainfall will always supply what is needed. Local soil and drainage also matter; more water is not the right answer in every situation.\nMonitoring helps identify problems before they become irreversible. A support tie that was helpful at planting can become restrictive as the trunk grows. Inspecting it later is part of care, not evidence that the planting was a mistake. Similarly, replacing a failed tree without examining the cause may simply repeat the failure.\nThis is why evaluating a planting program only by its first-day totals can be misleading. Survival and growth provide information about its longer-term success. A smaller number of well-supported trees may eventually supply more useful canopy than a much larger number that receives no continuing care."
+          },
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-1-2",
+          "type": "choice",
+          "prompt": "Why may young trees be vulnerable during dry periods?",
+          "options": [
+            "Their roots may not yet reach sufficient moisture",
+            "Their crowns permanently prevent rainfall",
+            "Their trunks cannot grow until every support tie is removed",
+            "They need the same watering regardless of drainage"
+          ],
+          "answer": 0,
+          "explanation": "Limited root reach is the stated mechanism.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Why Young Trees Need Follow-up",
+          "stimulus": {
+            "id": "f5-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Why Young Trees Need Follow-up",
+            "script": "Planting a young tree is a visible event, easy to photograph and count. Whether it develops into a mature tree depends on what happens afterward. Water, soil conditions and damage during its first years can influence whether the initial investment produces a lasting result.\nOne challenge is that the roots may occupy a much smaller area than the future crown suggests. During dry weather, a young tree may not yet reach enough moisture. A planting program needs a realistic watering plan rather than assuming that rainfall will always supply what is needed. Local soil and drainage also matter; more water is not the right answer in every situation.\nMonitoring helps identify problems before they become irreversible. A support tie that was helpful at planting can become restrictive as the trunk grows. Inspecting it later is part of care, not evidence that the planting was a mistake. Similarly, replacing a failed tree without examining the cause may simply repeat the failure.\nThis is why evaluating a planting program only by its first-day totals can be misleading. Survival and growth provide information about its longer-term success. A smaller number of well-supported trees may eventually supply more useful canopy than a much larger number that receives no continuing care."
+          },
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-1-3",
+          "type": "choice",
+          "prompt": "What does the support-tie example illustrate?",
+          "options": [
+            "Support ties should never be used under any conditions",
+            "An initially useful measure may need later adjustment",
+            "Every tree needs a permanently tighter tie",
+            "Monitoring proves a project was badly designed"
+          ],
+          "answer": 1,
+          "explanation": "Growth changes what care is appropriate.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Why Young Trees Need Follow-up",
+          "stimulus": {
+            "id": "f5-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Why Young Trees Need Follow-up",
+            "script": "Planting a young tree is a visible event, easy to photograph and count. Whether it develops into a mature tree depends on what happens afterward. Water, soil conditions and damage during its first years can influence whether the initial investment produces a lasting result.\nOne challenge is that the roots may occupy a much smaller area than the future crown suggests. During dry weather, a young tree may not yet reach enough moisture. A planting program needs a realistic watering plan rather than assuming that rainfall will always supply what is needed. Local soil and drainage also matter; more water is not the right answer in every situation.\nMonitoring helps identify problems before they become irreversible. A support tie that was helpful at planting can become restrictive as the trunk grows. Inspecting it later is part of care, not evidence that the planting was a mistake. Similarly, replacing a failed tree without examining the cause may simply repeat the failure.\nThis is why evaluating a planting program only by its first-day totals can be misleading. Survival and growth provide information about its longer-term success. A smaller number of well-supported trees may eventually supply more useful canopy than a much larger number that receives no continuing care."
+          },
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "f5-l-router-talk-1-4",
+          "type": "choice",
+          "prompt": "Which measure better reflects lasting success than initial totals alone?",
+          "options": [
+            "The cost of the first-day photographs",
+            "The number of unused support ties",
+            "Survival and growth over time",
+            "The number of attendees at the launch"
+          ],
+          "answer": 2,
+          "explanation": "The conclusion recommends long-term outcomes.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Why Young Trees Need Follow-up",
+          "stimulus": {
+            "id": "f5-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Why Young Trees Need Follow-up",
+            "script": "Planting a young tree is a visible event, easy to photograph and count. Whether it develops into a mature tree depends on what happens afterward. Water, soil conditions and damage during its first years can influence whether the initial investment produces a lasting result.\nOne challenge is that the roots may occupy a much smaller area than the future crown suggests. During dry weather, a young tree may not yet reach enough moisture. A planting program needs a realistic watering plan rather than assuming that rainfall will always supply what is needed. Local soil and drainage also matter; more water is not the right answer in every situation.\nMonitoring helps identify problems before they become irreversible. A support tie that was helpful at planting can become restrictive as the trunk grows. Inspecting it later is part of care, not evidence that the planting was a mistake. Similarly, replacing a failed tree without examining the cause may simply repeat the failure.\nThis is why evaluating a planting program only by its first-day totals can be misleading. Survival and growth provide information about its longer-term success. A smaller number of well-supported trees may eventually supply more useful canopy than a much larger number that receives no continuing care."
+          },
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-05"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "branches": {
+        "lower": [
+          {
+            "id": "f5-l-lower-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The slides use a plain background.",
+              "I projected the costs for next year.",
+              "The connection is an interesting idea.",
+              "Yes, you can test your slides now."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-lower-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Is the projector already connected?"
+            },
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I used the same room before.",
+              "The notes have a red cover.",
+              "Of course; here they are.",
+              "The date was announced last week."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-lower-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Could I use your notes to check the date?"
+            },
+            "number": 2,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The entrance is clearly marked.",
+              "The course office can arrange it.",
+              "The course includes several visits.",
+              "I contacted a friend yesterday."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-lower-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Who should I contact about an accessible entrance?"
+            },
+            "number": 3,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I’ll check whether the office has sent it.",
+              "The final talk was excellent.",
+              "I received a book as a gift.",
+              "Timetables are useful for planning."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-lower-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "We haven’t received the final timetable yet."
+            },
+            "number": 4,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "People usually arrive early.",
+              "I worked on the report yesterday.",
+              "The table was built last summer.",
+              "Six comfortably, I’d say."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-lower-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "How many people can work at this table?"
+            },
+            "number": 5,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-conversation-0-1",
+            "type": "choice",
+            "prompt": "What problem does the woman identify?",
+            "options": [
+              "Nobody has volunteered for the garden",
+              "There is no direct way to notify volunteers of a cancellation",
+              "The garden does not open on Saturdays",
+              "The sheet contains too much personal information"
+            ],
+            "answer": 1,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The community garden sign-up sheet has names but no contact details.\nMan: We avoided collecting more information than we needed.\nWoman: That makes sense, but how will we tell people if Saturday’s session is cancelled?\nMan: We could ask them to join an optional announcement list. The gardening sheet itself wouldn’t need email addresses.\nWoman: Good. I’ll add that invitation and explain it’s only for schedule updates."
+            },
+            "number": 6,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-conversation-0-2",
+            "type": "choice",
+            "prompt": "What solution do they choose?",
+            "options": [
+              "Require a postal address for every session",
+              "Stop announcing schedule changes",
+              "Offer a separate optional announcement list",
+              "Publish all volunteers’ contact details"
+            ],
+            "answer": 2,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The community garden sign-up sheet has names but no contact details.\nMan: We avoided collecting more information than we needed.\nWoman: That makes sense, but how will we tell people if Saturday’s session is cancelled?\nMan: We could ask them to join an optional announcement list. The gardening sheet itself wouldn’t need email addresses.\nWoman: Good. I’ll add that invitation and explain it’s only for schedule updates."
+            },
+            "number": 7,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-conversation-1-1",
+            "type": "choice",
+            "prompt": "Why is the booth unavailable to the man now?",
+            "options": [
+              "His reservation begins later than he thought",
+              "His reservation was permanently cancelled",
+              "The booth has no microphone",
+              "The other student ignored the timetable"
+            ],
+            "answer": 0,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I reserved the quiet booth to practice my presentation, but someone is using it for an online exam.\nWoman: Check whether your booking starts now. There was a change to the timetable this morning.\nMan: You’re right; my confirmation says three, not two.\nWoman: The seminar room is empty until then, though it isn’t soundproof.\nMan: I’ll rehearse my slides there first and move to the booth for the recording at three."
+            },
+            "number": 8,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-conversation-1-2",
+            "type": "choice",
+            "prompt": "How will he use the waiting time?",
+            "options": [
+              "Record a loud rehearsal beside the booth",
+              "Cancel his presentation",
+              "Interrupt the online exam",
+              "Practice the slides in another room"
+            ],
+            "answer": 3,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I reserved the quiet booth to practice my presentation, but someone is using it for an online exam.\nWoman: Check whether your booking starts now. There was a change to the timetable this morning.\nMan: You’re right; my confirmation says three, not two.\nWoman: The seminar room is empty until then, though it isn’t soundproof.\nMan: I’ll rehearse my slides there first and move to the booth for the recording at three."
+            },
+            "number": 9,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-announcement-0-1",
+            "type": "choice",
+            "prompt": "Why must the group initially stay on the boardwalk?",
+            "options": [
+              "To ensure everyone collects the same sand sample",
+              "To avoid damaging vulnerable vegetation",
+              "Because the guide is unavailable until noon",
+              "Because moving dunes contain no organisms"
+            ],
+            "answer": 1,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f5-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The dune field trip starts from the coastal visitor centre at ten. Stay on the marked boardwalk until the guide identifies an area where observation is permitted. Some plants are easily damaged even when the sand around them looks bare. We will discuss both stable and moving dunes; the purpose is to understand the habitat, not to collect sand or vegetation."
+            },
+            "number": 10,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-announcement-0-2",
+            "type": "choice",
+            "prompt": "What is the trip’s purpose?",
+            "options": [
+              "To remove plants from observation areas",
+              "To build a new coastal road",
+              "To study how the dune habitat works",
+              "To stabilize every moving dune"
+            ],
+            "answer": 2,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f5-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The dune field trip starts from the coastal visitor centre at ten. Stay on the marked boardwalk until the guide identifies an area where observation is permitted. Some plants are easily damaged even when the sand around them looks bare. We will discuss both stable and moving dunes; the purpose is to understand the habitat, not to collect sand or vegetation."
+            },
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-talk-0-1",
+            "type": "choice",
+            "prompt": "What does the speaker mainly argue?",
+            "options": [
+              "Usage records are never helpful",
+              "Nonusers necessarily lack interest in a service",
+              "Opening hours must be considered alongside potential users’ circumstances",
+              "Later closing always benefits every student equally"
+            ],
+            "answer": 2,
+            "explanation": "The key idea is practical rather than nominal access.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "A Schedule That Does Not Fit Everyone",
+            "stimulus": {
+              "id": "f5-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Schedule That Does Not Fit Everyone",
+              "script": "When a university extends a service’s opening hours, it may assume that access has improved equally for everyone. That assumption deserves testing. A later closing time can help one student while doing little for another whose last bus leaves earlier.\nResearchers studying access consider the interaction between a schedule and people’s other obligations. Paid work, caregiving and transport can all restrict when someone is available. A service that is technically open may still be practically inaccessible to a particular group. Asking only current users about the hours risks overlooking those who cannot attend at all.\nOne approach combines usage records with outreach to nonusers. Records reveal busy periods, while interviews or surveys can identify barriers that leave no trace at the desk. The two sources do not compete; they answer different parts of the question. Care is needed to avoid assuming that everyone who is absent simply lacks interest.\nOf course, resources limit how long a service can operate. The purpose of the research is not to promise unlimited hours. It is to help decision-makers compare alternatives, such as an earlier session on one day or an online option for a particular task. Access is a relationship between an available service and the circumstances of the people who might use it."
+            },
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-talk-0-2",
+            "type": "choice",
+            "prompt": "Why might a later closing time fail to help a student?",
+            "options": [
+              "The service necessarily becomes less popular",
+              "Transport may stop before the extended hours end",
+              "Usage records prohibit late visits",
+              "All students prefer early mornings"
+            ],
+            "answer": 1,
+            "explanation": "The last-bus example supplies this reason.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "A Schedule That Does Not Fit Everyone",
+            "stimulus": {
+              "id": "f5-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Schedule That Does Not Fit Everyone",
+              "script": "When a university extends a service’s opening hours, it may assume that access has improved equally for everyone. That assumption deserves testing. A later closing time can help one student while doing little for another whose last bus leaves earlier.\nResearchers studying access consider the interaction between a schedule and people’s other obligations. Paid work, caregiving and transport can all restrict when someone is available. A service that is technically open may still be practically inaccessible to a particular group. Asking only current users about the hours risks overlooking those who cannot attend at all.\nOne approach combines usage records with outreach to nonusers. Records reveal busy periods, while interviews or surveys can identify barriers that leave no trace at the desk. The two sources do not compete; they answer different parts of the question. Care is needed to avoid assuming that everyone who is absent simply lacks interest.\nOf course, resources limit how long a service can operate. The purpose of the research is not to promise unlimited hours. It is to help decision-makers compare alternatives, such as an earlier session on one day or an online option for a particular task. Access is a relationship between an available service and the circumstances of the people who might use it."
+            },
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-talk-0-3",
+            "type": "choice",
+            "prompt": "Why contact people who do not use the service?",
+            "options": [
+              "Their barriers may not appear in usage records",
+              "They can supply every missing desk transaction",
+              "Their opinions automatically outweigh users’ opinions",
+              "They are the only group with timetable obligations"
+            ],
+            "answer": 0,
+            "explanation": "Their absence leaves no direct service-use record.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "A Schedule That Does Not Fit Everyone",
+            "stimulus": {
+              "id": "f5-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Schedule That Does Not Fit Everyone",
+              "script": "When a university extends a service’s opening hours, it may assume that access has improved equally for everyone. That assumption deserves testing. A later closing time can help one student while doing little for another whose last bus leaves earlier.\nResearchers studying access consider the interaction between a schedule and people’s other obligations. Paid work, caregiving and transport can all restrict when someone is available. A service that is technically open may still be practically inaccessible to a particular group. Asking only current users about the hours risks overlooking those who cannot attend at all.\nOne approach combines usage records with outreach to nonusers. Records reveal busy periods, while interviews or surveys can identify barriers that leave no trace at the desk. The two sources do not compete; they answer different parts of the question. Care is needed to avoid assuming that everyone who is absent simply lacks interest.\nOf course, resources limit how long a service can operate. The purpose of the research is not to promise unlimited hours. It is to help decision-makers compare alternatives, such as an earlier session on one day or an online option for a particular task. Access is a relationship between an available service and the circumstances of the people who might use it."
+            },
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-lower-talk-0-4",
+            "type": "choice",
+            "prompt": "What does the speaker acknowledge near the end?",
+            "options": [
+              "Online options are irrelevant to access",
+              "Only one schedule can ever be considered",
+              "Research can guarantee unlimited staffing",
+              "Available resources constrain possible hours"
+            ],
+            "answer": 3,
+            "explanation": "The conclusion recognizes practical constraints.",
+            "skill": "attitude",
+            "task": "academic-talk",
+            "title": "A Schedule That Does Not Fit Everyone",
+            "stimulus": {
+              "id": "f5-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "A Schedule That Does Not Fit Everyone",
+              "script": "When a university extends a service’s opening hours, it may assume that access has improved equally for everyone. That assumption deserves testing. A later closing time can help one student while doing little for another whose last bus leaves earlier.\nResearchers studying access consider the interaction between a schedule and people’s other obligations. Paid work, caregiving and transport can all restrict when someone is available. A service that is technically open may still be practically inaccessible to a particular group. Asking only current users about the hours risks overlooking those who cannot attend at all.\nOne approach combines usage records with outreach to nonusers. Records reveal busy periods, while interviews or surveys can identify barriers that leave no trace at the desk. The two sources do not compete; they answer different parts of the question. Care is needed to avoid assuming that everyone who is absent simply lacks interest.\nOf course, resources limit how long a service can operate. The purpose of the research is not to promise unlimited hours. It is to help decision-makers compare alternatives, such as an earlier session on one day or an online option for a particular task. Access is a relationship between an available service and the circumstances of the people who might use it."
+            },
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-05"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f5-l-higher-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I took the bus to campus.",
+              "That’s right; this is an observation visit.",
+              "The collection belongs to the museum.",
+              "The plants were identified in class."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-higher-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I take it we’re not meant to collect any plants."
+            },
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "It might. We should explain the limitation.",
+              "The conclusion appears at the end.",
+              "I changed the file name already.",
+              "The data were collected outdoors."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-higher-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Couldn’t the missing data change our conclusion?"
+            },
+            "number": 2,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I checked out a library book.",
+              "Memory was the subject of the talk.",
+              "The source is a printed article.",
+              "Agreed; the original log should settle it."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-higher-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I’d rather we checked the source than relied on memory."
+            },
+            "number": 3,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I labeled the boxes before lunch.",
+              "The small room is free today.",
+              "Let’s check whether they’re still readable.",
+              "The layout was revised yesterday."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-higher-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "The new layout looks clearer, though the labels are smaller."
+            },
+            "number": 4,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The account was opened last month.",
+              "Yes, equal totals may hide different recording periods.",
+              "The hours are printed on the door.",
+              "I worked in the laboratory yesterday."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f5-l-higher-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Should the working hours be taken into account?"
+            },
+            "number": 5,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-conversation-0-1",
+            "type": "choice",
+            "prompt": "What concern changes the seating discussion?",
+            "options": [
+              "The club has sold no tickets",
+              "The hall has no screen at all",
+              "The projector is too expensive to borrow",
+              "The planned arrangement could obstruct an exit route"
+            ],
+            "answer": 3,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: I can lend the club my projector, but the hall’s screen is on the side wall.\nMan: Then the seats should face that way.\nWoman: We’d have to keep the exit route clear, and the current plan puts a row right across it.\nMan: Let’s ask the hall manager to approve a revised seating plan before we move anything.\nWoman: Agreed. Better to solve the layout now than when people are arriving."
+            },
+            "number": 6,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the speakers do first?",
+            "options": [
+              "Get approval for a revised arrangement",
+              "Move chairs across the exit",
+              "Cancel the hall reservation immediately",
+              "Ask visitors to stand throughout the event"
+            ],
+            "answer": 0,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: I can lend the club my projector, but the hall’s screen is on the side wall.\nMan: Then the seats should face that way.\nWoman: We’d have to keep the exit route clear, and the current plan puts a row right across it.\nMan: Let’s ask the hall manager to approve a revised seating plan before we move anything.\nWoman: Agreed. Better to solve the layout now than when people are arriving."
+            },
+            "number": 7,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-conversation-1-1",
+            "type": "choice",
+            "prompt": "What explains the inconsistent dates?",
+            "options": [
+              "The appointment email was sent late",
+              "The interviewee changed the topic",
+              "The recorder’s date setting was incorrect",
+              "Two separate interviews took place"
+            ],
+            "answer": 2,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: My notes say the interview was on the twelfth, but the audio filename says the thirteenth.\nWoman: The recorder’s date was wrong that week. Do you have the appointment email?\nMan: Yes, it confirms the twelfth.\nWoman: Use that as the date and add a note explaining the filename discrepancy. Don’t rename the original without a record.\nMan: I’ll document the correction in the project log."
+            },
+            "number": 8,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-conversation-1-2",
+            "type": "choice",
+            "prompt": "What will the man do?",
+            "options": [
+              "Change the appointment email",
+              "Record the correction and its supporting evidence",
+              "Use the filename without further explanation",
+              "Delete the original recording"
+            ],
+            "answer": 1,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f5-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: My notes say the interview was on the twelfth, but the audio filename says the thirteenth.\nWoman: The recorder’s date was wrong that week. Do you have the appointment email?\nMan: Yes, it confirms the twelfth.\nWoman: Use that as the date and add a note explaining the filename discrepancy. Don’t rename the original without a record.\nMan: I’ll document the correction in the project log."
+            },
+            "number": 9,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-announcement-0-1",
+            "type": "choice",
+            "prompt": "Why is late entry restricted?",
+            "options": [
+              "The question period begins before the experiment",
+              "The studio cannot contain any observers",
+              "Late students must buy a recording ticket",
+              "Opening the door would disturb the controlled lighting"
+            ],
+            "answer": 3,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f5-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The photography demonstration has been moved to the engineering studio, where we can control the lighting. Please arrive before the door sign changes to Recording. Once the sequence begins, opening the door would alter the light and interrupt the experiment. Anyone arriving late can watch the recorded demonstration afterward in the course portal. There will be a separate question period at the end."
+            },
+            "number": 10,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-announcement-0-2",
+            "type": "choice",
+            "prompt": "How can a late arrival catch up?",
+            "options": [
+              "View the recording in the course portal",
+              "Repeat the experiment alone in the studio",
+              "Ask the class to restart immediately",
+              "Enter whenever the sign says Recording"
+            ],
+            "answer": 0,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f5-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The photography demonstration has been moved to the engineering studio, where we can control the lighting. Please arrive before the door sign changes to Recording. Once the sequence begins, opening the door would alter the light and interrupt the experiment. Anyone arriving late can watch the recorded demonstration afterward in the course portal. There will be a separate question period at the end."
+            },
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the main point?",
+            "options": [
+              "Survey timing can influence apparent differences between sites",
+              "Midsummer surveys always reveal every species",
+              "Calendar dates guarantee equivalent conditions",
+              "Plant diversity cannot be compared"
+            ],
+            "answer": 0,
+            "explanation": "The talk examines a timing-related interpretation problem.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "The Timing of a Biological Survey",
+            "stimulus": {
+              "id": "f5-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "The Timing of a Biological Survey",
+              "script": "Imagine comparing two meadows by visiting the first in early spring and the second in midsummer. You find more flowering species at the second site. Does that show it has greater plant diversity? Not necessarily. The timing of the visits may explain part of the difference.\nDifferent species become visible or identifiable at different stages of the year. A plant present underground may not yet have leaves or flowers that make it easy to record. Researchers therefore plan survey dates around the organisms they want to study. Repeated visits can reduce the risk that one brief period is treated as a complete picture.\nWeather adds variation within the same calendar dates. A warm season may bring flowering forward, while a cooler season delays it. Simply returning on exactly the same date each year does not guarantee identical biological conditions. Notes about recent weather and growth stages can help interpret comparisons.\nThe practical lesson is that absence from a survey list is not always evidence of absence from the site. Good survey design links the method and timing to the question. Researchers can still make useful comparisons, but they must identify which differences might reflect the observation process rather than the communities being compared."
+            },
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-talk-0-2",
+            "type": "choice",
+            "prompt": "Why might a present plant be missed?",
+            "options": [
+              "Its name must have changed",
+              "Surveyors cannot record flowering plants",
+              "All plants disappear in spring",
+              "It may lack visible identifying features at the survey time"
+            ],
+            "answer": 3,
+            "explanation": "Detectability varies with growth stage.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "The Timing of a Biological Survey",
+            "stimulus": {
+              "id": "f5-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "The Timing of a Biological Survey",
+              "script": "Imagine comparing two meadows by visiting the first in early spring and the second in midsummer. You find more flowering species at the second site. Does that show it has greater plant diversity? Not necessarily. The timing of the visits may explain part of the difference.\nDifferent species become visible or identifiable at different stages of the year. A plant present underground may not yet have leaves or flowers that make it easy to record. Researchers therefore plan survey dates around the organisms they want to study. Repeated visits can reduce the risk that one brief period is treated as a complete picture.\nWeather adds variation within the same calendar dates. A warm season may bring flowering forward, while a cooler season delays it. Simply returning on exactly the same date each year does not guarantee identical biological conditions. Notes about recent weather and growth stages can help interpret comparisons.\nThe practical lesson is that absence from a survey list is not always evidence of absence from the site. Good survey design links the method and timing to the question. Researchers can still make useful comparisons, but they must identify which differences might reflect the observation process rather than the communities being compared."
+            },
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-talk-0-3",
+            "type": "choice",
+            "prompt": "Why mention a warm season?",
+            "options": [
+              "It proves that repeated visits have no value",
+              "It guarantees the same flowering date everywhere",
+              "Biological events may shift relative to calendar dates",
+              "Warm weather makes records unnecessary"
+            ],
+            "answer": 2,
+            "explanation": "Weather can alter the stage reached by a given date.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "The Timing of a Biological Survey",
+            "stimulus": {
+              "id": "f5-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "The Timing of a Biological Survey",
+              "script": "Imagine comparing two meadows by visiting the first in early spring and the second in midsummer. You find more flowering species at the second site. Does that show it has greater plant diversity? Not necessarily. The timing of the visits may explain part of the difference.\nDifferent species become visible or identifiable at different stages of the year. A plant present underground may not yet have leaves or flowers that make it easy to record. Researchers therefore plan survey dates around the organisms they want to study. Repeated visits can reduce the risk that one brief period is treated as a complete picture.\nWeather adds variation within the same calendar dates. A warm season may bring flowering forward, while a cooler season delays it. Simply returning on exactly the same date each year does not guarantee identical biological conditions. Notes about recent weather and growth stages can help interpret comparisons.\nThe practical lesson is that absence from a survey list is not always evidence of absence from the site. Good survey design links the method and timing to the question. Researchers can still make useful comparisons, but they must identify which differences might reflect the observation process rather than the communities being compared."
+            },
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          },
+          {
+            "id": "f5-l-higher-talk-0-4",
+            "type": "choice",
+            "prompt": "What should researchers avoid assuming?",
+            "options": [
+              "That observations can ever be useful",
+              "That an unrecorded species is definitely absent from the site",
+              "That methods should match research questions",
+              "That weather can affect plant development"
+            ],
+            "answer": 1,
+            "explanation": "The final paragraph directly states this caution.",
+            "skill": "inference",
+            "task": "academic-talk",
+            "title": "The Timing of a Biological Survey",
+            "stimulus": {
+              "id": "f5-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "The Timing of a Biological Survey",
+              "script": "Imagine comparing two meadows by visiting the first in early spring and the second in midsummer. You find more flowering species at the second site. Does that show it has greater plant diversity? Not necessarily. The timing of the visits may explain part of the difference.\nDifferent species become visible or identifiable at different stages of the year. A plant present underground may not yet have leaves or flowers that make it easy to record. Researchers therefore plan survey dates around the organisms they want to study. Repeated visits can reduce the risk that one brief period is treated as a complete picture.\nWeather adds variation within the same calendar dates. A warm season may bring flowering forward, while a cooler season delays it. Simply returning on exactly the same date each year does not guarantee identical biological conditions. Notes about recent weather and growth stages can help interpret comparisons.\nThe practical lesson is that absence from a survey list is not always evidence of absence from the site. Good survey design links the method and timing to the question. Researchers can still make useful comparisons, but they must identify which differences might reflect the observation process rather than the communities being compared."
+            },
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-05"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "original-05-w1",
+          "number": 1,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The library closes its equipment desk earlier on Friday.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "the recorder",
+            "to return",
+            "need",
+            "we",
+            "returning",
+            "four",
+            "before"
+          ],
+          "solution": [
+            "we",
+            "need",
+            "to return",
+            "the recorder",
+            "before",
+            "four"
+          ],
+          "correct": [
+            3,
+            2,
+            1,
+            0,
+            6,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w2",
+          "number": 2,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "My survey group was assigned the wettest route.",
+          "frame": [
+            "Could you ask",
+            "?"
+          ],
+          "chunks": [
+            "is",
+            "available",
+            "whether",
+            "an alternative",
+            "does",
+            "for",
+            "the afternoon"
+          ],
+          "solution": [
+            "whether",
+            "an alternative",
+            "is",
+            "available",
+            "for",
+            "the afternoon"
+          ],
+          "correct": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            6
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w3",
+          "number": 3,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The tool we need has already been borrowed.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "it back",
+            "to bring",
+            "bringing",
+            "is",
+            "when",
+            "expected",
+            "the current borrower"
+          ],
+          "solution": [
+            "when",
+            "is",
+            "the current borrower",
+            "expected",
+            "to bring",
+            "it back"
+          ],
+          "correct": [
+            4,
+            3,
+            6,
+            5,
+            1,
+            0
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w4",
+          "number": 4,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The photograph might help us identify the building.",
+          "frame": [
+            "We should find out",
+            "."
+          ],
+          "chunks": [
+            "who",
+            "made it",
+            "did",
+            "when",
+            "it",
+            "was taken",
+            "and"
+          ],
+          "solution": [
+            "when",
+            "it",
+            "was taken",
+            "and",
+            "who",
+            "made it"
+          ],
+          "correct": [
+            3,
+            4,
+            5,
+            6,
+            0,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w5",
+          "number": 5,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The new entrance is not shown on the printed map.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "finding",
+            "the way",
+            "to find",
+            "a clearer sign",
+            "need",
+            "may",
+            "visitors"
+          ],
+          "solution": [
+            "visitors",
+            "may",
+            "need",
+            "a clearer sign",
+            "to find",
+            "the way"
+          ],
+          "correct": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w6",
+          "number": 6,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The meadow looks green but has few flowers.",
+          "frame": [
+            "That does not mean",
+            "."
+          ],
+          "chunks": [
+            "achieving",
+            "of its",
+            "goals",
+            "achieved",
+            "all",
+            "the restoration",
+            "has"
+          ],
+          "solution": [
+            "the restoration",
+            "has",
+            "achieved",
+            "all",
+            "of its",
+            "goals"
+          ],
+          "correct": [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w7",
+          "number": 7,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We missed an observation day during the storm.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "the entry",
+            "leave",
+            "rather than",
+            "blank",
+            "a value",
+            "inventing",
+            "invent"
+          ],
+          "solution": [
+            "leave",
+            "the entry",
+            "blank",
+            "rather than",
+            "inventing",
+            "a value"
+          ],
+          "correct": [
+            1,
+            0,
+            3,
+            2,
+            5,
+            4
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w8",
+          "number": 8,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The model demonstration will be outdoors.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "should",
+            "we",
+            "remind",
+            "everyone",
+            "to bring",
+            "a jacket",
+            "bringing"
+          ],
+          "solution": [
+            "should",
+            "we",
+            "remind",
+            "everyone",
+            "to bring",
+            "a jacket"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w9",
+          "number": 9,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I cannot attend the morning rehearsal.",
+          "frame": [
+            "The instructor said",
+            "."
+          ],
+          "chunks": [
+            "sessions",
+            "could exchange",
+            "we",
+            "that",
+            "can to",
+            "another student",
+            "with"
+          ],
+          "solution": [
+            "that",
+            "we",
+            "could exchange",
+            "sessions",
+            "with",
+            "another student"
+          ],
+          "correct": [
+            3,
+            2,
+            1,
+            0,
+            6,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-w10",
+          "number": 10,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "There are several ways to interpret that result.",
+          "frame": [
+            "We must consider",
+            "."
+          ],
+          "chunks": [
+            "best supported",
+            "by",
+            "which explanation",
+            "is",
+            "does",
+            "the available",
+            "evidence"
+          ],
+          "solution": [
+            "which explanation",
+            "is",
+            "best supported",
+            "by",
+            "the available",
+            "evidence"
+          ],
+          "correct": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            6
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-05"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "original-05-w11",
+          "number": 11,
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Ms. Alvarez",
+          "subject": "Changes to the field visit",
+          "scenario": "You are helping organize a class visit to a restoration meadow. The planned footbridge is closed, and a classmate has asked for an accessible route. The course office needs a clear update before sending final instructions.",
+          "points": [
+            "Explain the problem with the planned route.",
+            "Ask about an accessible alternative and how long it would take.",
+            "Suggest how students should receive the final arrangements."
+          ],
+          "difficulty": "mixed",
+          "testId": "original-05"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "original-05-w12",
+          "number": 12,
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Dr. Park",
+          "question": "A city wants to improve its public spaces. Should it spend its limited budget on one major central park or on smaller spaces distributed across neighborhoods? Explain your position.",
+          "students": [
+            [
+              "Maya",
+              "A major park can support facilities that small spaces cannot, such as large sports areas and cultural events. It could serve as a shared destination for the whole city."
+            ],
+            [
+              "Jonas",
+              "Small neighborhood spaces are easier to use regularly. People with limited travel time would benefit from places they can reach close to home."
+            ]
+          ],
+          "difficulty": "mixed",
+          "testId": "original-05"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are assisting with a university field-study visit.",
+      "items": [
+        {
+          "id": "original-05-s1",
+          "number": 1,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Meet the group beside the visitor centre.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-05-repeat1",
+            "kind": "repeat",
+            "script": "Meet the group beside the visitor centre."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s2",
+          "number": 2,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Bring a notebook and a waterproof jacket.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-05-repeat2",
+            "kind": "repeat",
+            "script": "Bring a notebook and a waterproof jacket."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s3",
+          "number": 3,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Stay on the marked path until the guide says you may leave it.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-05-repeat3",
+            "kind": "repeat",
+            "script": "Stay on the marked path until the guide says you may leave it."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s4",
+          "number": 4,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Record the observation time before moving to the next sampling location.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-05-repeat4",
+            "kind": "repeat",
+            "script": "Record the observation time before moving to the next sampling location."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s5",
+          "number": 5,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If a measurement seems unusual, check the equipment and note the conditions rather than changing the number.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-05-repeat5",
+            "kind": "repeat",
+            "script": "If a measurement seems unusual, check the equipment and note the conditions rather than changing the number."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s6",
+          "number": 6,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Students who need an alternative route should contact the course office before the visit so that suitable access can be arranged.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-05-repeat6",
+            "kind": "repeat",
+            "script": "Students who need an alternative route should contact the course office before the visit so that suitable access can be arranged."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s7",
+          "number": 7,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "At the end of the survey, compare your records with your partner’s notes and explain any differences before submitting the group’s final data sheet.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-05-repeat7",
+            "kind": "repeat",
+            "script": "At the end of the survey, compare your records with your partner’s notes and explain any differences before submitting the group’s final data sheet."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "A researcher is studying students’ experiences of local environments.",
+      "items": [
+        {
+          "id": "original-05-s8",
+          "number": 8,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe an outdoor place that you visit regularly. What do you usually do there?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-05-interview1",
+            "kind": "interview",
+            "script": "Describe an outdoor place that you visit regularly. What do you usually do there?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s9",
+          "number": 9,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Tell me about a time when weather changed your plans. How did you respond?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-05-interview2",
+            "kind": "interview",
+            "script": "Tell me about a time when weather changed your plans. How did you respond?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s10",
+          "number": 10,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Would you prefer a university field trip or a classroom demonstration when learning about the environment? Explain why.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-05-interview3",
+            "kind": "interview",
+            "script": "Would you prefer a university field trip or a classroom demonstration when learning about the environment? Explain why."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        },
+        {
+          "id": "original-05-s11",
+          "number": 11,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "How important is it for universities to involve students in local environmental projects? Support your answer with reasons and examples.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-05-interview4",
+            "kind": "interview",
+            "script": "How important is it for universities to involve students in local environmental projects? Support your answer with reasons and examples."
+          },
+          "difficulty": "mixed",
+          "testId": "original-05"
+        }
+      ]
+    }
+  ]
+}

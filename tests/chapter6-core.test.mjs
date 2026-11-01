@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {budget,itemCount,answered,createSession,startStage,remaining,advanceStage,canMove,validateSession,scoreSummary} from '../chapter6/core.js';
+import {budget,itemCount,answered,createSession,startStage,remaining,advanceStage,canMove,validateSession,scoreSummary,migrateWordFragments} from '../chapter6/core.js';
 const bank=JSON.parse(fs.readFileSync(new URL('../chapter6/bank.json',import.meta.url)));
 test('complete fixed form has 120 items and the source media mapping',()=>{
  assert.deepEqual(bank.stages.map(s=>itemCount(s.items)),[35,15,32,15,10,1,1,7,4]);
@@ -32,3 +32,5 @@ test('manual section bands calculate an overall result only after all four asses
  assert.equal(scoreSummary({Reading:5,Listening:5,Writing:5,Speaking:30}),null);
  assert.equal(scoreSummary({Reading:5,Listening:5,Writing:5,Speaking:4.2}),null);
 });
+
+test('old word-fragment answers migrate once without losing the completed word',()=>{const s={answers:{'r1-11':{0:'bit'}}};migrateWordFragments(s);assert.equal(s.answers['r1-11'][0],'ibit');migrateWordFragments(s);assert.equal(s.answers['r1-11'][0],'ibit');});

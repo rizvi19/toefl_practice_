@@ -1,0 +1,3049 @@
+{
+  "id": "original-04",
+  "version": 1,
+  "title": "Full Test 04 · Communicating Ideas",
+  "description": "New original practice content with distinct adaptive routes and authored answer keys.",
+  "original": true,
+  "baseCount": 120,
+  "routing": {
+    "threshold": 0.7,
+    "notice": "A local 70% router heuristic, not the proprietary ETS adaptive algorithm."
+  },
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "f4-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A fossil becomes evidence only when its context is understood. Scientists record the rock layer in which a specimen was ",
+            {
+              "pre": "fo",
+              "answer": "und"
+            },
+            " and examine nearby ",
+            {
+              "pre": "mat",
+              "answer": "erial"
+            },
+            ". The shape of a bone may ",
+            {
+              "pre": "sug",
+              "answer": "gest"
+            },
+            " how an animal moved, but missing parts can make the conclusion ",
+            {
+              "pre": "uncer",
+              "answer": "tain"
+            },
+            ". Comparisons with other specimens ",
+            {
+              "pre": "he",
+              "answer": "lp"
+            },
+            " test an interpretation. Researchers also ask whether the object has been ",
+            {
+              "pre": "alt",
+              "answer": "ered"
+            },
+            " since burial. Pressure, heat and chemical ",
+            {
+              "pre": "cha",
+              "answer": "nges"
+            },
+            " can affect its appearance. By combining several ",
+            {
+              "pre": "so",
+              "answer": "urces"
+            },
+            " of information, they construct a more ",
+            {
+              "pre": "reli",
+              "answer": "able"
+            },
+            " account of the organism and the environment in which it once ",
+            {
+              "pre": "li",
+              "answer": "ved"
+            },
+            "."
+          ],
+          "count": 10,
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Public gardens sometimes keep records of when plants first flower each year. Over many seasons, these observations create a ",
+            {
+              "pre": "va",
+              "answer": "luable"
+            },
+            " record of biological ",
+            {
+              "pre": "ti",
+              "answer": "ming"
+            },
+            ". A warm spring may bring flowers ",
+            {
+              "pre": "ear",
+              "answer": "lier"
+            },
+            ", though different species do not always respond in the same ",
+            {
+              "pre": "w",
+              "answer": "ay"
+            },
+            ". Changes in rainfall and local growing conditions can also ",
+            {
+              "pre": "influ",
+              "answer": "ence"
+            },
+            " the dates. Researchers compare long records with weather ",
+            {
+              "pre": "da",
+              "answer": "ta"
+            },
+            " to investigate broader patterns. They must check whether observers used ",
+            {
+              "pre": "consi",
+              "answer": "stent"
+            },
+            " methods and whether the same plants remained in the same ",
+            {
+              "pre": "loc",
+              "answer": "ation"
+            },
+            ". A notebook designed for everyday gardening can thus become an ",
+            {
+              "pre": "impor",
+              "answer": "tant"
+            },
+            " scientific ",
+            {
+              "pre": "res",
+              "answer": "ource"
+            },
+            "."
+          ],
+          "count": 10,
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-d1-1",
+          "type": "choice",
+          "prompt": "Why is a reply requested?",
+          "options": [
+            "The available booth may not meet Owen’s requirements",
+            "The microphone needs to be repaired",
+            "Owen has already missed his booking",
+            "Wednesday bookings require a payment"
+          ],
+          "answer": 0,
+          "explanation": "The request was for filming, while Booth 2 lacks a camera.",
+          "skill": "purpose",
+          "task": "daily-life",
+          "title": "Recording booth booking",
+          "passage": "To: Owen Bell\nSubject: Media booth request\nWe can offer Booth 2 from 3 to 4 on Tuesday. It has a microphone but no camera. Because your request mentioned a filmed interview, please confirm whether audio alone meets your needs. The camera-equipped booth is unavailable Tuesday but can be booked Wednesday morning. Your Tuesday reservation will remain provisional until you reply.",
+          "documentType": "email",
+          "stimulusId": "f4-r1-d1",
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-d1-2",
+          "type": "choice",
+          "prompt": "What is true of the Tuesday reservation?",
+          "options": [
+            "It automatically extends to Wednesday",
+            "It is for the camera-equipped booth",
+            "It includes use of a portable camera",
+            "It has not yet been fully confirmed"
+          ],
+          "answer": 3,
+          "explanation": "The email calls the reservation provisional until a reply.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Recording booth booking",
+          "passage": "To: Owen Bell\nSubject: Media booth request\nWe can offer Booth 2 from 3 to 4 on Tuesday. It has a microphone but no camera. Because your request mentioned a filmed interview, please confirm whether audio alone meets your needs. The camera-equipped booth is unavailable Tuesday but can be booked Wednesday morning. Your Tuesday reservation will remain provisional until you reply.",
+          "documentType": "email",
+          "stimulusId": "f4-r1-d1",
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-d2-1",
+          "type": "choice",
+          "prompt": "Why will rehearsal focus on dialogue?",
+          "options": [
+            "The lighting technician has changed the script",
+            "The electrical inspection will take place in the studio",
+            "The actors have already mastered all their lines",
+            "The replacement room lacks lighting equipment"
+          ],
+          "answer": 3,
+          "explanation": "The temporary room cannot support work on lighting cues.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "A changed rehearsal",
+          "passage": "Jo: The small theatre is closed for an electrical inspection tonight.\nSam: Shall we cancel rehearsal?\nJo: We can use the dance studio instead, but outdoor shoes aren’t allowed.\nSam: I’ve got indoor shoes. Will the lighting technician come?\nJo: No, there’s no lighting equipment in that room. We’ll work on dialogue rather than technical cues. Please bring a printed script; the studio has no projector.\nSam: I’ll message the cast about the room and what to bring.",
+          "documentType": "messages",
+          "stimulusId": "f4-r1-d2",
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-d2-2",
+          "type": "choice",
+          "prompt": "What must cast members bring?",
+          "options": [
+            "A printed script",
+            "Their own projector",
+            "Outdoor shoes",
+            "Electrical inspection forms"
+          ],
+          "answer": 0,
+          "explanation": "Jo explicitly requests printed scripts.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "A changed rehearsal",
+          "passage": "Jo: The small theatre is closed for an electrical inspection tonight.\nSam: Shall we cancel rehearsal?\nJo: We can use the dance studio instead, but outdoor shoes aren’t allowed.\nSam: I’ve got indoor shoes. Will the lighting technician come?\nJo: No, there’s no lighting equipment in that room. We’ll work on dialogue rather than technical cues. Please bring a printed script; the studio has no projector.\nSam: I’ll message the cast about the room and what to bring.",
+          "documentType": "messages",
+          "stimulusId": "f4-r1-d2",
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-d2-3",
+          "type": "choice",
+          "prompt": "What does Sam agree to do?",
+          "options": [
+            "Cancel the theatre inspection",
+            "Inform the other performers about the arrangements",
+            "Print a new version of the script for everyone",
+            "Borrow lighting equipment from another group"
+          ],
+          "answer": 1,
+          "explanation": "Sam will message the cast about the room and items to bring.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "A changed rehearsal",
+          "passage": "Jo: The small theatre is closed for an electrical inspection tonight.\nSam: Shall we cancel rehearsal?\nJo: We can use the dance studio instead, but outdoor shoes aren’t allowed.\nSam: I’ve got indoor shoes. Will the lighting technician come?\nJo: No, there’s no lighting equipment in that room. We’ll work on dialogue rather than technical cues. Please bring a printed script; the studio has no projector.\nSam: I’ll message the cast about the room and what to bring.",
+          "documentType": "messages",
+          "stimulusId": "f4-r1-d2",
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a1-1",
+          "type": "choice",
+          "prompt": "Why might a bird avoid the shortest route?",
+          "options": [
+            "Geographic distance has no energetic cost",
+            "Longer routes always contain fewer predators",
+            "Birds are unable to detect weather changes",
+            "It may offer few opportunities to rest and feed"
+          ],
+          "answer": 3,
+          "explanation": "The passage distinguishes distance from the conditions encountered.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "When Birds Change Their Routes",
+          "passage": "Migrating birds do not always use exactly the same route each year. Weather, food availability and the condition of stopping places can alter the costs of a journey. A route that is geographically shorter may require crossing a region where a bird cannot easily rest or feed.\nStopover sites therefore form an important part of migration. At these locations, birds replenish energy before continuing. Researchers can investigate their importance by tracking individuals and measuring how long they remain. A long stay, however, has more than one possible interpretation. It might indicate abundant food and a useful resting place, or poor conditions that prevent an exhausted bird from leaving.\nCombining movement records with observations of feeding and local weather helps distinguish these explanations. Researchers also compare several individuals rather than assuming that one bird represents an entire population. Age and previous experience may affect the decisions an individual makes.\nThese findings have consequences for conservation. Protecting breeding and wintering areas may be insufficient if birds lose essential places between them. A network of usable sites can provide alternatives when conditions change. This does not mean that every route variation is harmless. Instead, it suggests that conservation should consider the flexibility birds need throughout a journey, as well as the endpoints usually drawn on a migration map.",
+          "stimulusId": "f4-r1-a1",
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a1-2",
+          "type": "choice",
+          "prompt": "What makes the length of a stopover difficult to interpret by itself?",
+          "options": [
+            "Both favorable and unfavorable conditions can produce a long stay",
+            "Tracking devices cannot record time",
+            "Every bird stays for the same number of days",
+            "Food availability is unrelated to departure"
+          ],
+          "answer": 0,
+          "explanation": "The second paragraph offers two opposing explanations.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "When Birds Change Their Routes",
+          "passage": "Migrating birds do not always use exactly the same route each year. Weather, food availability and the condition of stopping places can alter the costs of a journey. A route that is geographically shorter may require crossing a region where a bird cannot easily rest or feed.\nStopover sites therefore form an important part of migration. At these locations, birds replenish energy before continuing. Researchers can investigate their importance by tracking individuals and measuring how long they remain. A long stay, however, has more than one possible interpretation. It might indicate abundant food and a useful resting place, or poor conditions that prevent an exhausted bird from leaving.\nCombining movement records with observations of feeding and local weather helps distinguish these explanations. Researchers also compare several individuals rather than assuming that one bird represents an entire population. Age and previous experience may affect the decisions an individual makes.\nThese findings have consequences for conservation. Protecting breeding and wintering areas may be insufficient if birds lose essential places between them. A network of usable sites can provide alternatives when conditions change. This does not mean that every route variation is harmless. Instead, it suggests that conservation should consider the flexibility birds need throughout a journey, as well as the endpoints usually drawn on a migration map.",
+          "stimulusId": "f4-r1-a1",
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a1-3",
+          "type": "choice",
+          "prompt": "Why do researchers compare several birds?",
+          "options": [
+            "One bird always takes every possible route",
+            "Individual experience and age may influence decisions",
+            "Local weather can be measured only by several devices",
+            "All birds share identical levels of experience"
+          ],
+          "answer": 1,
+          "explanation": "The passage cautions against treating one individual as a population.",
+          "skill": "purpose",
+          "task": "academic-passage",
+          "title": "When Birds Change Their Routes",
+          "passage": "Migrating birds do not always use exactly the same route each year. Weather, food availability and the condition of stopping places can alter the costs of a journey. A route that is geographically shorter may require crossing a region where a bird cannot easily rest or feed.\nStopover sites therefore form an important part of migration. At these locations, birds replenish energy before continuing. Researchers can investigate their importance by tracking individuals and measuring how long they remain. A long stay, however, has more than one possible interpretation. It might indicate abundant food and a useful resting place, or poor conditions that prevent an exhausted bird from leaving.\nCombining movement records with observations of feeding and local weather helps distinguish these explanations. Researchers also compare several individuals rather than assuming that one bird represents an entire population. Age and previous experience may affect the decisions an individual makes.\nThese findings have consequences for conservation. Protecting breeding and wintering areas may be insufficient if birds lose essential places between them. A network of usable sites can provide alternatives when conditions change. This does not mean that every route variation is harmless. Instead, it suggests that conservation should consider the flexibility birds need throughout a journey, as well as the endpoints usually drawn on a migration map.",
+          "stimulusId": "f4-r1-a1",
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a1-4",
+          "type": "choice",
+          "prompt": "What conservation approach does the passage support?",
+          "options": [
+            "Keeping every bird on one compulsory route",
+            "Ignoring changes in routes when populations decline",
+            "Protecting usable stopping places as well as journey endpoints",
+            "Protecting wintering areas while removing stopover sites"
+          ],
+          "answer": 2,
+          "explanation": "The final paragraph recommends a network along the journey.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "When Birds Change Their Routes",
+          "passage": "Migrating birds do not always use exactly the same route each year. Weather, food availability and the condition of stopping places can alter the costs of a journey. A route that is geographically shorter may require crossing a region where a bird cannot easily rest or feed.\nStopover sites therefore form an important part of migration. At these locations, birds replenish energy before continuing. Researchers can investigate their importance by tracking individuals and measuring how long they remain. A long stay, however, has more than one possible interpretation. It might indicate abundant food and a useful resting place, or poor conditions that prevent an exhausted bird from leaving.\nCombining movement records with observations of feeding and local weather helps distinguish these explanations. Researchers also compare several individuals rather than assuming that one bird represents an entire population. Age and previous experience may affect the decisions an individual makes.\nThese findings have consequences for conservation. Protecting breeding and wintering areas may be insufficient if birds lose essential places between them. A network of usable sites can provide alternatives when conditions change. This does not mean that every route variation is harmless. Instead, it suggests that conservation should consider the flexibility birds need throughout a journey, as well as the endpoints usually drawn on a migration map.",
+          "stimulusId": "f4-r1-a1",
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a1-5",
+          "type": "choice",
+          "prompt": "“Replenish” is closest in meaning to",
+          "options": [
+            "transfer to another bird",
+            "use up completely",
+            "measure a fixed amount",
+            "restore a used supply"
+          ],
+          "answer": 3,
+          "explanation": "Birds restore energy through feeding at stopovers.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "When Birds Change Their Routes",
+          "passage": "Migrating birds do not always use exactly the same route each year. Weather, food availability and the condition of stopping places can alter the costs of a journey. A route that is geographically shorter may require crossing a region where a bird cannot easily rest or feed.\nStopover sites therefore form an important part of migration. At these locations, birds replenish energy before continuing. Researchers can investigate their importance by tracking individuals and measuring how long they remain. A long stay, however, has more than one possible interpretation. It might indicate abundant food and a useful resting place, or poor conditions that prevent an exhausted bird from leaving.\nCombining movement records with observations of feeding and local weather helps distinguish these explanations. Researchers also compare several individuals rather than assuming that one bird represents an entire population. Age and previous experience may affect the decisions an individual makes.\nThese findings have consequences for conservation. Protecting breeding and wintering areas may be insufficient if birds lose essential places between them. A network of usable sites can provide alternatives when conditions change. This does not mean that every route variation is harmless. Instead, it suggests that conservation should consider the flexibility birds need throughout a journey, as well as the endpoints usually drawn on a migration map.",
+          "stimulusId": "f4-r1-a1",
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a2-1",
+          "type": "choice",
+          "prompt": "What does the passage primarily explain?",
+          "options": [
+            "Why simple catalogue searches depend on continuing descriptive work",
+            "Why libraries should organize books only by title",
+            "How digital searching has removed the need for standards",
+            "Why all historical catalogue terms should remain unchanged"
+          ],
+          "answer": 0,
+          "explanation": "The passage follows the decisions underlying the search interface.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The Hidden Labor of a Catalogue",
+          "passage": "A library catalogue can make finding a book seem almost effortless. Behind a short search result, however, lies a set of decisions about how the item should be described. A title alone is often insufficient: different books can share a title, and the same work can appear in several editions or languages.\nCataloguers identify authors, dates and relationships among versions. They also assign subject terms so that a reader need not already know the exact title. Consistency matters. If related books are described using unrelated terms, a single search may fail to retrieve them together. Shared standards allow records created by different institutions to be exchanged.\nStandardization is useful but not neutral in all its effects. A historical subject label may no longer match the terms used by the people being described. Changing it can improve access and respect, but the change must be handled carefully so that older records remain discoverable. Some catalogues link alternative terms rather than simply erasing earlier descriptions.\nDigital searching has not eliminated these issues. An automated search can rapidly process a large collection, but the results still depend on the information attached to each item. The apparent simplicity of a search interface consequently rests on continuing human work: identifying distinctions, maintaining connections and revising descriptions as collections and users change.",
+          "stimulusId": "f4-r1-a2",
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a2-2",
+          "type": "choice",
+          "prompt": "Why is a title not always sufficient to identify an item?",
+          "options": [
+            "A title necessarily identifies the author’s language",
+            "All books in one library have different subjects",
+            "Titles cannot be entered into digital catalogues",
+            "Different books and versions can have the same title"
+          ],
+          "answer": 3,
+          "explanation": "The first paragraph explains ambiguity among works and versions.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The Hidden Labor of a Catalogue",
+          "passage": "A library catalogue can make finding a book seem almost effortless. Behind a short search result, however, lies a set of decisions about how the item should be described. A title alone is often insufficient: different books can share a title, and the same work can appear in several editions or languages.\nCataloguers identify authors, dates and relationships among versions. They also assign subject terms so that a reader need not already know the exact title. Consistency matters. If related books are described using unrelated terms, a single search may fail to retrieve them together. Shared standards allow records created by different institutions to be exchanged.\nStandardization is useful but not neutral in all its effects. A historical subject label may no longer match the terms used by the people being described. Changing it can improve access and respect, but the change must be handled carefully so that older records remain discoverable. Some catalogues link alternative terms rather than simply erasing earlier descriptions.\nDigital searching has not eliminated these issues. An automated search can rapidly process a large collection, but the results still depend on the information attached to each item. The apparent simplicity of a search interface consequently rests on continuing human work: identifying distinctions, maintaining connections and revising descriptions as collections and users change.",
+          "stimulusId": "f4-r1-a2",
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a2-3",
+          "type": "choice",
+          "prompt": "What is one purpose of shared cataloguing standards?",
+          "options": [
+            "Making every collection contain identical editions",
+            "Eliminating the need for subject information",
+            "Allowing institutions to exchange usable records",
+            "Preventing libraries from adding new books"
+          ],
+          "answer": 2,
+          "explanation": "The second paragraph explicitly connects standards with exchange.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The Hidden Labor of a Catalogue",
+          "passage": "A library catalogue can make finding a book seem almost effortless. Behind a short search result, however, lies a set of decisions about how the item should be described. A title alone is often insufficient: different books can share a title, and the same work can appear in several editions or languages.\nCataloguers identify authors, dates and relationships among versions. They also assign subject terms so that a reader need not already know the exact title. Consistency matters. If related books are described using unrelated terms, a single search may fail to retrieve them together. Shared standards allow records created by different institutions to be exchanged.\nStandardization is useful but not neutral in all its effects. A historical subject label may no longer match the terms used by the people being described. Changing it can improve access and respect, but the change must be handled carefully so that older records remain discoverable. Some catalogues link alternative terms rather than simply erasing earlier descriptions.\nDigital searching has not eliminated these issues. An automated search can rapidly process a large collection, but the results still depend on the information attached to each item. The apparent simplicity of a search interface consequently rests on continuing human work: identifying distinctions, maintaining connections and revising descriptions as collections and users change.",
+          "stimulusId": "f4-r1-a2",
+          "number": 33,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a2-4",
+          "type": "choice",
+          "prompt": "Why might a catalogue link alternative subject terms?",
+          "options": [
+            "To make searches return fewer related materials",
+            "To improve current access while keeping older records discoverable",
+            "To hide the subjects of historical books",
+            "To ensure that labels never change in meaning"
+          ],
+          "answer": 1,
+          "explanation": "Linking terms balances revision with continuity.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "The Hidden Labor of a Catalogue",
+          "passage": "A library catalogue can make finding a book seem almost effortless. Behind a short search result, however, lies a set of decisions about how the item should be described. A title alone is often insufficient: different books can share a title, and the same work can appear in several editions or languages.\nCataloguers identify authors, dates and relationships among versions. They also assign subject terms so that a reader need not already know the exact title. Consistency matters. If related books are described using unrelated terms, a single search may fail to retrieve them together. Shared standards allow records created by different institutions to be exchanged.\nStandardization is useful but not neutral in all its effects. A historical subject label may no longer match the terms used by the people being described. Changing it can improve access and respect, but the change must be handled carefully so that older records remain discoverable. Some catalogues link alternative terms rather than simply erasing earlier descriptions.\nDigital searching has not eliminated these issues. An automated search can rapidly process a large collection, but the results still depend on the information attached to each item. The apparent simplicity of a search interface consequently rests on continuing human work: identifying distinctions, maintaining connections and revising descriptions as collections and users change.",
+          "stimulusId": "f4-r1-a2",
+          "number": 34,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-r1-a2-5",
+          "type": "choice",
+          "prompt": "The word “neutral” is closest in meaning to",
+          "options": [
+            "free from effects favoring particular perspectives",
+            "difficult for computers to store",
+            "unrelated to any historical period",
+            "identical across all languages"
+          ],
+          "answer": 0,
+          "explanation": "The discussion concerns the effects of descriptive terminology.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "The Hidden Labor of a Catalogue",
+          "passage": "A library catalogue can make finding a book seem almost effortless. Behind a short search result, however, lies a set of decisions about how the item should be described. A title alone is often insufficient: different books can share a title, and the same work can appear in several editions or languages.\nCataloguers identify authors, dates and relationships among versions. They also assign subject terms so that a reader need not already know the exact title. Consistency matters. If related books are described using unrelated terms, a single search may fail to retrieve them together. Shared standards allow records created by different institutions to be exchanged.\nStandardization is useful but not neutral in all its effects. A historical subject label may no longer match the terms used by the people being described. Changing it can improve access and respect, but the change must be handled carefully so that older records remain discoverable. Some catalogues link alternative terms rather than simply erasing earlier descriptions.\nDigital searching has not eliminated these issues. An automated search can rapidly process a large collection, but the results still depend on the information attached to each item. The apparent simplicity of a search interface consequently rests on continuing human work: identifying distinctions, maintaining connections and revising descriptions as collections and users change.",
+          "stimulusId": "f4-r1-a2",
+          "number": 35,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "branches": {
+        "lower": [
+          {
+            "id": "f4-r2-lower-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "When people learn a practical skill, watching a demonstration is often only the beginning. They must ",
+              {
+                "pre": "pract",
+                "answer": "ice"
+              },
+              " the actions themselves and notice what ",
+              {
+                "pre": "hap",
+                "answer": "pens"
+              },
+              ". Feedback helps them ",
+              {
+                "pre": "iden",
+                "answer": "tify"
+              },
+              " differences between an intended movement and its actual ",
+              {
+                "pre": "res",
+                "answer": "ult"
+              },
+              ". Repeating a task without attention may simply ",
+              {
+                "pre": "rein",
+                "answer": "force"
+              },
+              " a mistake. Teachers therefore ",
+              {
+                "pre": "com",
+                "answer": "bine"
+              },
+              " examples with opportunities for guided ",
+              {
+                "pre": "wor",
+                "answer": "k"
+              },
+              ". As learners become more confident, support can be ",
+              {
+                "pre": "re",
+                "answer": "duced"
+              },
+              ". The goal is not merely to copy one performance but to use the skill under ",
+              {
+                "pre": "dif",
+                "answer": "ferent"
+              },
+              " conditions. This requires understanding which parts of the method are essential and which can be ",
+              {
+                "pre": "ada",
+                "answer": "pted"
+              },
+              "."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-lower-a-1",
+            "type": "choice",
+            "prompt": "What distinguishes designing for disassembly?",
+            "options": [
+              "Treating demolition as the only possible final stage",
+              "Using only materials that require no connections",
+              "Reducing safety standards when a building is old",
+              "Planning from the outset for components to be recovered"
+            ],
+            "answer": 3,
+            "explanation": "The initial design anticipates later separation and reuse.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "A Building That Can Be Taken Apart",
+            "passage": "Most discussions of sustainable buildings focus on their operation: heating, cooling and lighting. Another approach asks what will happen when a building is no longer needed. Designing for disassembly means planning how components can eventually be separated and used again, rather than treating demolition as an unavoidable final stage.\nConnections are central to this approach. Beams joined with removable bolts are easier to separate than elements permanently bonded together. Materials also need to be identifiable. A component whose composition and loading history are documented is easier to evaluate for reuse than an apparently similar object of uncertain origin.\nThere are limits to the strategy. Removable connections must still meet safety requirements during decades of use. Designers cannot assume that future builders will want exactly the same dimensions or materials. Storage, transport and testing may also make reuse costly. A theoretical possibility of recovery is not the same as an established market for recovered parts.\nNevertheless, planning for a later transition can change decisions made at the beginning. Designers may choose adaptable spaces that remain useful as needs change, delaying disassembly altogether. The broader aim is to preserve the value of materials and structures for as long as practical. Recovering an individual beam is one route toward that aim, but extending the useful life of an entire building can be another.",
+            "stimulusId": "f4-r2-lower-a",
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-lower-a-2",
+            "type": "choice",
+            "prompt": "Why are removable bolts mentioned?",
+            "options": [
+              "They illustrate a connection that facilitates later separation",
+              "They are the only legally permitted connection",
+              "They make loading-history records unnecessary",
+              "They guarantee a buyer for every recovered beam"
+            ],
+            "answer": 0,
+            "explanation": "Bolts provide a concrete example of disassembly-friendly design.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "A Building That Can Be Taken Apart",
+            "passage": "Most discussions of sustainable buildings focus on their operation: heating, cooling and lighting. Another approach asks what will happen when a building is no longer needed. Designing for disassembly means planning how components can eventually be separated and used again, rather than treating demolition as an unavoidable final stage.\nConnections are central to this approach. Beams joined with removable bolts are easier to separate than elements permanently bonded together. Materials also need to be identifiable. A component whose composition and loading history are documented is easier to evaluate for reuse than an apparently similar object of uncertain origin.\nThere are limits to the strategy. Removable connections must still meet safety requirements during decades of use. Designers cannot assume that future builders will want exactly the same dimensions or materials. Storage, transport and testing may also make reuse costly. A theoretical possibility of recovery is not the same as an established market for recovered parts.\nNevertheless, planning for a later transition can change decisions made at the beginning. Designers may choose adaptable spaces that remain useful as needs change, delaying disassembly altogether. The broader aim is to preserve the value of materials and structures for as long as practical. Recovering an individual beam is one route toward that aim, but extending the useful life of an entire building can be another.",
+            "stimulusId": "f4-r2-lower-a",
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-lower-a-3",
+            "type": "choice",
+            "prompt": "What makes a documented component easier to reuse?",
+            "options": [
+              "It never needs safety testing",
+              "Its material and previous use can be evaluated",
+              "It can always be transported without cost",
+              "It can fit every future building design"
+            ],
+            "answer": 1,
+            "explanation": "Documentation reduces uncertainty about composition and history.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "A Building That Can Be Taken Apart",
+            "passage": "Most discussions of sustainable buildings focus on their operation: heating, cooling and lighting. Another approach asks what will happen when a building is no longer needed. Designing for disassembly means planning how components can eventually be separated and used again, rather than treating demolition as an unavoidable final stage.\nConnections are central to this approach. Beams joined with removable bolts are easier to separate than elements permanently bonded together. Materials also need to be identifiable. A component whose composition and loading history are documented is easier to evaluate for reuse than an apparently similar object of uncertain origin.\nThere are limits to the strategy. Removable connections must still meet safety requirements during decades of use. Designers cannot assume that future builders will want exactly the same dimensions or materials. Storage, transport and testing may also make reuse costly. A theoretical possibility of recovery is not the same as an established market for recovered parts.\nNevertheless, planning for a later transition can change decisions made at the beginning. Designers may choose adaptable spaces that remain useful as needs change, delaying disassembly altogether. The broader aim is to preserve the value of materials and structures for as long as practical. Recovering an individual beam is one route toward that aim, but extending the useful life of an entire building can be another.",
+            "stimulusId": "f4-r2-lower-a",
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-lower-a-4",
+            "type": "choice",
+            "prompt": "What does the author imply about the market for recovered parts?",
+            "options": [
+              "It is unaffected by testing and storage costs",
+              "It prevents buildings from being adapted",
+              "It cannot be assumed merely because parts can be separated",
+              "It already accepts all recovered materials at a fixed price"
+            ],
+            "answer": 2,
+            "explanation": "Recoverability and an actual market are distinguished.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "A Building That Can Be Taken Apart",
+            "passage": "Most discussions of sustainable buildings focus on their operation: heating, cooling and lighting. Another approach asks what will happen when a building is no longer needed. Designing for disassembly means planning how components can eventually be separated and used again, rather than treating demolition as an unavoidable final stage.\nConnections are central to this approach. Beams joined with removable bolts are easier to separate than elements permanently bonded together. Materials also need to be identifiable. A component whose composition and loading history are documented is easier to evaluate for reuse than an apparently similar object of uncertain origin.\nThere are limits to the strategy. Removable connections must still meet safety requirements during decades of use. Designers cannot assume that future builders will want exactly the same dimensions or materials. Storage, transport and testing may also make reuse costly. A theoretical possibility of recovery is not the same as an established market for recovered parts.\nNevertheless, planning for a later transition can change decisions made at the beginning. Designers may choose adaptable spaces that remain useful as needs change, delaying disassembly altogether. The broader aim is to preserve the value of materials and structures for as long as practical. Recovering an individual beam is one route toward that aim, but extending the useful life of an entire building can be another.",
+            "stimulusId": "f4-r2-lower-a",
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-lower-a-5",
+            "type": "choice",
+            "prompt": "What relationship does the final paragraph establish?",
+            "options": [
+              "A building’s useful life has no connection to sustainability",
+              "Recovering a beam is always better than retaining a building",
+              "Adaptation necessarily makes reuse impossible",
+              "Adaptation and disassembly can serve the same wider objective"
+            ],
+            "answer": 3,
+            "explanation": "Both approaches can preserve material value.",
+            "skill": "organization",
+            "task": "academic-passage",
+            "title": "A Building That Can Be Taken Apart",
+            "passage": "Most discussions of sustainable buildings focus on their operation: heating, cooling and lighting. Another approach asks what will happen when a building is no longer needed. Designing for disassembly means planning how components can eventually be separated and used again, rather than treating demolition as an unavoidable final stage.\nConnections are central to this approach. Beams joined with removable bolts are easier to separate than elements permanently bonded together. Materials also need to be identifiable. A component whose composition and loading history are documented is easier to evaluate for reuse than an apparently similar object of uncertain origin.\nThere are limits to the strategy. Removable connections must still meet safety requirements during decades of use. Designers cannot assume that future builders will want exactly the same dimensions or materials. Storage, transport and testing may also make reuse costly. A theoretical possibility of recovery is not the same as an established market for recovered parts.\nNevertheless, planning for a later transition can change decisions made at the beginning. Designers may choose adaptable spaces that remain useful as needs change, delaying disassembly altogether. The broader aim is to preserve the value of materials and structures for as long as practical. Recovering an individual beam is one route toward that aim, but extending the useful life of an entire building can be another.",
+            "stimulusId": "f4-r2-lower-a",
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f4-r2-higher-c",
+            "type": "cloze",
+            "task": "complete-words",
+            "title": "Complete the Words",
+            "pieces": [
+              "Some ocean animals produce light through chemical reactions inside their bodies. This ability, called bioluminescence, serves several ",
+              {
+                "pre": "fun",
+                "answer": "ctions"
+              },
+              ". A flash may ",
+              {
+                "pre": "at",
+                "answer": "tract"
+              },
+              " prey or confuse a ",
+              {
+                "pre": "pred",
+                "answer": "ator"
+              },
+              ". In deep water, where sunlight is ",
+              {
+                "pre": "lim",
+                "answer": "ited"
+              },
+              ", light can also help individuals find others of their own ",
+              {
+                "pre": "spe",
+                "answer": "cies"
+              },
+              ". The pattern matters as much as the ",
+              {
+                "pre": "bright",
+                "answer": "ness"
+              },
+              ". Researchers use sensitive cameras to ",
+              {
+                "pre": "obs",
+                "answer": "erve"
+              },
+              " these signals without introducing too much artificial ",
+              {
+                "pre": "li",
+                "answer": "ght"
+              },
+              ". Their work shows that a dark environment is not necessarily one without visual ",
+              {
+                "pre": "communi",
+                "answer": "cation"
+              },
+              ". It may instead contain signals that human eyes are poorly ",
+              {
+                "pre": "equi",
+                "answer": "pped"
+              },
+              " to detect."
+            ],
+            "count": 10,
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-higher-a-1",
+            "type": "choice",
+            "prompt": "What is the main subject?",
+            "options": [
+              "Why repeated exposure prevents musical learning",
+              "How to compose a melody without rhythm",
+              "Why formal training guarantees enjoyment of every melody",
+              "How familiarity and training influence musical recognition"
+            ],
+            "answer": 3,
+            "explanation": "Recognition is examined through exposure, expertise and experimental design.",
+            "skill": "main idea",
+            "task": "academic-passage",
+            "title": "Why a Familiar Tune Seems Easier",
+            "passage": "A melody heard repeatedly can become easier to recognize even when listeners are not deliberately trying to learn it. Repeated exposure allows them to form expectations about which sounds will come next. Recognition then involves more than recalling isolated notes: listeners anticipate patterns across time.\nResearchers distinguish familiarity from musical expertise. A person with little formal training may recognize a song heard often, while a trained musician may struggle with an unfamiliar musical tradition. Training can provide strategies for analyzing rhythm or harmony, but familiarity supplies knowledge of particular patterns and conventions.\nExperiments must account for this distinction. If one group performs better on a listening task, the difference may reflect previous exposure rather than a general advantage in perception. Researchers can ask participants about their listening habits or use newly composed melodies that neither group has heard. Neither solution is perfect. Self-reports can be incomplete, and a new melody can still resemble a familiar style.\nThe distinction also helps explain why unfamiliar music can become more accessible over time. Listeners gradually learn which events are expected and which are surprising. This does not mean that repeated listening guarantees enjoyment. Recognition, prediction and preference are related processes, but a melody can be entirely familiar without becoming a favorite.",
+            "stimulusId": "f4-r2-higher-a",
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-higher-a-2",
+            "type": "choice",
+            "prompt": "Repeated exposure helps listeners primarily by allowing them to",
+            "options": [
+              "develop expectations about upcoming sounds",
+              "remember only the first isolated note",
+              "ignore all differences in musical style",
+              "replace hearing with visual information"
+            ],
+            "answer": 0,
+            "explanation": "The first paragraph connects exposure with predictive patterns.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Why a Familiar Tune Seems Easier",
+            "passage": "A melody heard repeatedly can become easier to recognize even when listeners are not deliberately trying to learn it. Repeated exposure allows them to form expectations about which sounds will come next. Recognition then involves more than recalling isolated notes: listeners anticipate patterns across time.\nResearchers distinguish familiarity from musical expertise. A person with little formal training may recognize a song heard often, while a trained musician may struggle with an unfamiliar musical tradition. Training can provide strategies for analyzing rhythm or harmony, but familiarity supplies knowledge of particular patterns and conventions.\nExperiments must account for this distinction. If one group performs better on a listening task, the difference may reflect previous exposure rather than a general advantage in perception. Researchers can ask participants about their listening habits or use newly composed melodies that neither group has heard. Neither solution is perfect. Self-reports can be incomplete, and a new melody can still resemble a familiar style.\nThe distinction also helps explain why unfamiliar music can become more accessible over time. Listeners gradually learn which events are expected and which are surprising. This does not mean that repeated listening guarantees enjoyment. Recognition, prediction and preference are related processes, but a melody can be entirely familiar without becoming a favorite.",
+            "stimulusId": "f4-r2-higher-a",
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-higher-a-3",
+            "type": "choice",
+            "prompt": "Why might a trained musician struggle with an unfamiliar tradition?",
+            "options": [
+              "Musical training eliminates sensitivity to rhythm",
+              "Training does not provide familiarity with every set of conventions",
+              "Recognition requires an identical instrument in every performance",
+              "Expert musicians never listen outside their training"
+            ],
+            "answer": 1,
+            "explanation": "Training and culture-specific familiarity are distinguished.",
+            "skill": "inference",
+            "task": "academic-passage",
+            "title": "Why a Familiar Tune Seems Easier",
+            "passage": "A melody heard repeatedly can become easier to recognize even when listeners are not deliberately trying to learn it. Repeated exposure allows them to form expectations about which sounds will come next. Recognition then involves more than recalling isolated notes: listeners anticipate patterns across time.\nResearchers distinguish familiarity from musical expertise. A person with little formal training may recognize a song heard often, while a trained musician may struggle with an unfamiliar musical tradition. Training can provide strategies for analyzing rhythm or harmony, but familiarity supplies knowledge of particular patterns and conventions.\nExperiments must account for this distinction. If one group performs better on a listening task, the difference may reflect previous exposure rather than a general advantage in perception. Researchers can ask participants about their listening habits or use newly composed melodies that neither group has heard. Neither solution is perfect. Self-reports can be incomplete, and a new melody can still resemble a familiar style.\nThe distinction also helps explain why unfamiliar music can become more accessible over time. Listeners gradually learn which events are expected and which are surprising. This does not mean that repeated listening guarantees enjoyment. Recognition, prediction and preference are related processes, but a melody can be entirely familiar without becoming a favorite.",
+            "stimulusId": "f4-r2-higher-a",
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-higher-a-4",
+            "type": "choice",
+            "prompt": "Why are newly composed melodies useful in experiments?",
+            "options": [
+              "They remove the need to compare participants",
+              "They measure preference without involving recognition",
+              "They reduce differences caused by hearing the exact melody before",
+              "They guarantee that no familiar stylistic patterns appear"
+            ],
+            "answer": 2,
+            "explanation": "Novel melodies address prior exposure, though not perfectly.",
+            "skill": "purpose",
+            "task": "academic-passage",
+            "title": "Why a Familiar Tune Seems Easier",
+            "passage": "A melody heard repeatedly can become easier to recognize even when listeners are not deliberately trying to learn it. Repeated exposure allows them to form expectations about which sounds will come next. Recognition then involves more than recalling isolated notes: listeners anticipate patterns across time.\nResearchers distinguish familiarity from musical expertise. A person with little formal training may recognize a song heard often, while a trained musician may struggle with an unfamiliar musical tradition. Training can provide strategies for analyzing rhythm or harmony, but familiarity supplies knowledge of particular patterns and conventions.\nExperiments must account for this distinction. If one group performs better on a listening task, the difference may reflect previous exposure rather than a general advantage in perception. Researchers can ask participants about their listening habits or use newly composed melodies that neither group has heard. Neither solution is perfect. Self-reports can be incomplete, and a new melody can still resemble a familiar style.\nThe distinction also helps explain why unfamiliar music can become more accessible over time. Listeners gradually learn which events are expected and which are surprising. This does not mean that repeated listening guarantees enjoyment. Recognition, prediction and preference are related processes, but a melody can be entirely familiar without becoming a favorite.",
+            "stimulusId": "f4-r2-higher-a",
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-r2-higher-a-5",
+            "type": "choice",
+            "prompt": "Which distinction is made in the final paragraph?",
+            "options": [
+              "Musical preference is identical for all trained listeners",
+              "Unfamiliar music can never become accessible",
+              "Prediction requires no learning",
+              "Recognizing a melody does not necessarily mean liking it"
+            ],
+            "answer": 3,
+            "explanation": "The paragraph separates familiarity from enjoyment.",
+            "skill": "detail",
+            "task": "academic-passage",
+            "title": "Why a Familiar Tune Seems Easier",
+            "passage": "A melody heard repeatedly can become easier to recognize even when listeners are not deliberately trying to learn it. Repeated exposure allows them to form expectations about which sounds will come next. Recognition then involves more than recalling isolated notes: listeners anticipate patterns across time.\nResearchers distinguish familiarity from musical expertise. A person with little formal training may recognize a song heard often, while a trained musician may struggle with an unfamiliar musical tradition. Training can provide strategies for analyzing rhythm or harmony, but familiarity supplies knowledge of particular patterns and conventions.\nExperiments must account for this distinction. If one group performs better on a listening task, the difference may reflect previous exposure rather than a general advantage in perception. Researchers can ask participants about their listening habits or use newly composed melodies that neither group has heard. Neither solution is perfect. Self-reports can be incomplete, and a new melody can still resemble a familiar style.\nThe distinction also helps explain why unfamiliar music can become more accessible over time. Listeners gradually learn which events are expected and which are surprising. This does not mean that repeated listening guarantees enjoyment. Recognition, prediction and preference are related processes, but a melody can be entirely familiar without becoming a favorite.",
+            "stimulusId": "f4-r2-higher-a",
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          }
+        ]
+      }
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "f4-l-router-response-0-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I was a little late yesterday.",
+            "The lower floor has a café.",
+            "Certainly. Is this height better?",
+            "The microphone records clearly."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-0",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Would you lower the microphone a little?"
+          },
+          "number": 1,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-1-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Echoes are discussed in the lecture.",
+            "The room was booked last week.",
+            "I heard about the project online.",
+            "We could try the smaller booth."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-1",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I can hear an echo in this room."
+          },
+          "number": 2,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-2-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The participant signed the release.",
+            "The interview lasts twelve minutes.",
+            "I published an article last year.",
+            "The permission form has two pages."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-2",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Who gave permission to publish the interview?"
+          },
+          "number": 3,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-3-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I usually run before breakfast.",
+            "Yes, the timer is moving.",
+            "I checked the train timetable.",
+            "The recorder has a black case."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-3",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Could you check that the recorder is actually running?"
+          },
+          "number": 4,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-4-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Practice is on Thursday afternoon.",
+            "The presentation room is upstairs.",
+            "Better once I slowed down.",
+            "It goes in the shared folder."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-4",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "How did your practice presentation go?"
+          },
+          "number": 5,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-5-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I happened to meet the professor.",
+            "The card has a picture on it.",
+            "I remember the seminar well.",
+            "There’s one in my camera bag."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-5",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Do you happen to have a spare memory card?"
+          },
+          "number": 6,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-6-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I’ll replace them with participant codes.",
+            "The files were shared yesterday.",
+            "I suppose the folder is quite large.",
+            "The participant arrived on time."
+          ],
+          "answer": 0,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-6",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "We’re not supposed to put names in the shared filenames."
+          },
+          "number": 7,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-7-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The introduction was the first section.",
+            "Thanks. I’ll wait before assembling the final version.",
+            "The version number is on the cover.",
+            "I’m ready to leave the building."
+          ],
+          "answer": 1,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-7",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I’ll send you the revised introduction as soon as it’s ready."
+          },
+          "number": 8,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-8-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The slides are in landscape format.",
+            "The clock was repaired yesterday.",
+            "Good idea; I need to check the timing.",
+            "I rehearsed the same play before."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-8",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Why don’t you rehearse with the slides once?"
+          },
+          "number": 9,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-9-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I allowed extra travel time.",
+            "The editor works in the next room.",
+            "The story was very personal.",
+            "Yes, if they’ve asked us to remove it."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-9",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Are we allowed to edit a participant’s personal story out?"
+          },
+          "number": 10,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-10-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The booking email arrived yesterday.",
+            "I included a photograph in the report.",
+            "The camera recorded a clear picture.",
+            "This one is audio-only, unfortunately."
+          ],
+          "answer": 3,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-10",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "I thought the booth booking included a camera."
+          },
+          "number": 11,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-response-11-q",
+          "type": "choice",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The recording was made on Monday.",
+            "The original room was rather noisy.",
+            "In the project’s restricted folder.",
+            "I found the talk interesting."
+          ],
+          "answer": 2,
+          "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+          "skill": "pragmatic response",
+          "stimulus": {
+            "id": "f4-l-router-response-11",
+            "kind": "response",
+            "title": "Choose a response",
+            "script": "Where can I find the original recording?"
+          },
+          "number": 12,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-conversation-0-1",
+          "type": "choice",
+          "prompt": "What concern does the man raise?",
+          "options": [
+            "The image may not be authorized for republication",
+            "The article has too many numerical results",
+            "The photographer has already edited the draft",
+            "Downloaded images cannot be viewed in documents"
+          ],
+          "answer": 0,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f4-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I can’t find the image I used in my draft article. The filename is just a string of numbers.\nMan: Did you record the source when you downloaded it?\nWoman: Only the website address, not the photographer’s name or license.\nMan: Check the image page before submitting. Being able to download a picture doesn’t mean we can republish it.\nWoman: I’ll trace the source and use a different image if permission isn’t clear."
+          },
+          "number": 13,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-conversation-0-2",
+          "type": "choice",
+          "prompt": "What does the woman plan to do?",
+          "options": [
+            "Rename the file and assume that solves the problem",
+            "Remove every illustration from the journal",
+            "Publish the image without a credit",
+            "Verify permission before deciding whether to use the image"
+          ],
+          "answer": 3,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f4-l-router-conversation-0",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: I can’t find the image I used in my draft article. The filename is just a string of numbers.\nMan: Did you record the source when you downloaded it?\nWoman: Only the website address, not the photographer’s name or license.\nMan: Check the image page before submitting. Being able to download a picture doesn’t mean we can republish it.\nWoman: I’ll trace the source and use a different image if permission isn’t clear."
+          },
+          "number": 14,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-conversation-1-1",
+          "type": "choice",
+          "prompt": "What problem has arisen?",
+          "options": [
+            "All sample labels have fallen off",
+            "The sample groups are not clearly distinguished on their boxes",
+            "The collection times were never recorded",
+            "The experiment has no comparison group"
+          ],
+          "answer": 1,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f4-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: My lab partner put both sets of samples in identical boxes. Now I’m not sure which is the control group.\nWoman: Are the individual labels still attached?\nMan: Yes, they have the collection times.\nWoman: The shared log should connect those times with the groups. Check that before moving anything.\nMan: If the log confirms it, I’ll label the boxes clearly and ask my partner to verify the change.\nWoman: Good. Don’t rely on memory alone."
+          },
+          "number": 15,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-conversation-1-2",
+          "type": "choice",
+          "prompt": "What will the man consult?",
+          "options": [
+            "The labels on unrelated equipment",
+            "His memory as the only source",
+            "The shared collection log",
+            "A list of future laboratory bookings"
+          ],
+          "answer": 2,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f4-l-router-conversation-1",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Man: My lab partner put both sets of samples in identical boxes. Now I’m not sure which is the control group.\nWoman: Are the individual labels still attached?\nMan: Yes, they have the collection times.\nWoman: The shared log should connect those times with the groups. Check that before moving anything.\nMan: If the log confirms it, I’ll label the boxes clearly and ask my partner to verify the change.\nWoman: Good. Don’t rely on memory alone."
+          },
+          "number": 16,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-conversation-2-1",
+          "type": "choice",
+          "prompt": "Why is an extension difficult?",
+          "options": [
+            "The camera has stopped taking photographs",
+            "The survey bus will not return that day",
+            "Another borrower needs the camera later that day",
+            "The desk closes for the entire afternoon"
+          ],
+          "answer": 2,
+          "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f4-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The loan desk says the field camera is due back at noon, but our bus returns at one.\nMan: Did you ask about extending the loan?\nWoman: Someone else has reserved it for the afternoon.\nMan: I’m cycling back before lunch. If you finish the photographs early, I could return it for you.\nWoman: That would help. I’ll complete that part of the survey first and meet you by the gate at eleven."
+          },
+          "number": 17,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-conversation-2-2",
+          "type": "choice",
+          "prompt": "How will the speakers solve the problem?",
+          "options": [
+            "They will ignore the return deadline",
+            "The man will take the camera back before the group returns",
+            "They will lend the camera directly to the next borrower",
+            "The woman will cancel all survey photographs"
+          ],
+          "answer": 1,
+          "explanation": "The speakers’ final plan supports this choice.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Campus conversation",
+          "stimulus": {
+            "id": "f4-l-router-conversation-2",
+            "kind": "conversation",
+            "title": "Campus conversation",
+            "script": "Woman: The loan desk says the field camera is due back at noon, but our bus returns at one.\nMan: Did you ask about extending the loan?\nWoman: Someone else has reserved it for the afternoon.\nMan: I’m cycling back before lunch. If you finish the photographs early, I could return it for you.\nWoman: That would help. I’ll complete that part of the survey first and meet you by the gate at eleven."
+          },
+          "number": 18,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-announcement-0-1",
+          "type": "choice",
+          "prompt": "What material should participants bring?",
+          "options": [
+            "A short audio recording",
+            "Only a printed script",
+            "Their own desktop computer",
+            "A list of software prices"
+          ],
+          "answer": 0,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f4-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Tomorrow’s podcast workshop will focus on editing, so bring a short recording rather than a written script alone. A two-minute conversation is sufficient. Obtain the speaker’s permission before recording and avoid including private information. If you cannot make a recording, download the practice file linked in the course portal. The workshop computers already have the editing software installed."
+          },
+          "number": 19,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-announcement-0-2",
+          "type": "choice",
+          "prompt": "What is offered to someone without a recording?",
+          "options": [
+            "A private-information collection form",
+            "Permission to record strangers without asking",
+            "An exemption from every workshop activity",
+            "A downloadable practice file"
+          ],
+          "answer": 3,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f4-l-router-announcement-0",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "Tomorrow’s podcast workshop will focus on editing, so bring a short recording rather than a written script alone. A two-minute conversation is sufficient. Obtain the speaker’s permission before recording and avoid including private information. If you cannot make a recording, download the practice file linked in the course portal. The workshop computers already have the editing software installed."
+          },
+          "number": 20,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-announcement-1-1",
+          "type": "choice",
+          "prompt": "What should students bring?",
+          "options": [
+            "A completed application for a paid appointment",
+            "Their instructions and attempted work",
+            "Another student’s finished answers",
+            "Only the tutor’s email address"
+          ],
+          "answer": 1,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f4-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The statistics help desk will operate in the library foyer during assessment week. You do not need an appointment, but bring your assignment instructions and the work you have attempted. Tutors can explain methods and help you interpret feedback. They will not complete assessed answers for you. At busy times, sessions will be limited to fifteen minutes so that more students can receive help."
+          },
+          "number": 21,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-announcement-1-2",
+          "type": "choice",
+          "prompt": "Why might sessions be shortened?",
+          "options": [
+            "To prevent students from asking about methods",
+            "To make room for an unrelated exhibition",
+            "To allow more students to receive support",
+            "To replace all scheduled statistics classes"
+          ],
+          "answer": 2,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f4-l-router-announcement-1",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The statistics help desk will operate in the library foyer during assessment week. You do not need an appointment, but bring your assignment instructions and the work you have attempted. Tutors can explain methods and help you interpret feedback. They will not complete assessed answers for you. At busy times, sessions will be limited to fifteen minutes so that more students can receive help."
+          },
+          "number": 22,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-announcement-2-1",
+          "type": "choice",
+          "prompt": "What is the reason for the new procedure?",
+          "options": [
+            "To let everyone view the restricted code list",
+            "To replace audio files with written names",
+            "To organize files while protecting participant identities",
+            "To remove the need for interview dates"
+          ],
+          "answer": 2,
+          "explanation": "The announcement states the relevant condition or reason.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f4-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The community interview project is changing its file-naming procedure. Use the participant code and interview date, not the person’s name. Keep the code list in the restricted folder. This will make recordings easier to organize without exposing identities in shared filenames. Existing files should be renamed only after you have recorded the change in the project log."
+          },
+          "number": 23,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-announcement-2-2",
+          "type": "choice",
+          "prompt": "What must happen before existing files are renamed?",
+          "options": [
+            "The original recording must be deleted",
+            "The change must be recorded in the log",
+            "The shared folder must be made public",
+            "The participant’s name must be published"
+          ],
+          "answer": 1,
+          "explanation": "The instruction or implication follows from the stated arrangement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Campus announcement",
+          "stimulus": {
+            "id": "f4-l-router-announcement-2",
+            "kind": "announcement",
+            "title": "Campus announcement",
+            "script": "The community interview project is changing its file-naming procedure. Use the participant code and interview date, not the person’s name. Keep the code list in the restricted folder. This will make recordings easier to organize without exposing identities in shared filenames. Existing files should be renamed only after you have recorded the change in the project log."
+          },
+          "number": 24,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-0-1",
+          "type": "choice",
+          "prompt": "What distinction is central to the talk?",
+          "options": [
+            "Cold episodes never have serious effects",
+            "Climate means identical conditions every day",
+            "Weather measurements cannot be recorded",
+            "Short-term conditions and long-term patterns require different interpretations"
+          ],
+          "answer": 3,
+          "explanation": "The talk separates scales of evidence.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "The Difference between Weather and Climate Evidence",
+          "stimulus": {
+            "id": "f4-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Difference between Weather and Climate Evidence",
+            "script": "A very cold week can dominate people’s attention, while a gradual change over several decades is harder to notice. This difference helps explain why individual weather events are sometimes used to make claims about climate. But a short event and a long-term pattern answer different questions.\nWeather describes conditions at a particular time and place. Climate concerns distributions and patterns over longer periods. A changing climate does not mean that every day moves in the same direction. A region can experience a cold episode within a period whose average conditions have become warmer. Variation remains part of the system.\nResearchers therefore compare long records, account for changes in measurement practices and examine more than a single location. Moving a thermometer from a grassy field to a paved courtyard could change its readings even if the broader regional pattern stayed the same. Documentation of such changes helps scientists interpret the record responsibly.\nNone of this makes a dramatic week unimportant to people living through it. Its immediate effects can be severe. The distinction is about the conclusion drawn from it. To understand a long-term pattern, we need evidence suited to that timescale rather than assuming that the most memorable recent experience represents the whole record."
+          },
+          "number": 25,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-0-2",
+          "type": "choice",
+          "prompt": "What does the speaker say about a cold episode in a warming period?",
+          "options": [
+            "It can occur because variation remains",
+            "It automatically disproves the longer pattern",
+            "It cannot be measured with a thermometer",
+            "It must affect every location equally"
+          ],
+          "answer": 0,
+          "explanation": "Long-term change does not eliminate short-term variability.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "The Difference between Weather and Climate Evidence",
+          "stimulus": {
+            "id": "f4-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Difference between Weather and Climate Evidence",
+            "script": "A very cold week can dominate people’s attention, while a gradual change over several decades is harder to notice. This difference helps explain why individual weather events are sometimes used to make claims about climate. But a short event and a long-term pattern answer different questions.\nWeather describes conditions at a particular time and place. Climate concerns distributions and patterns over longer periods. A changing climate does not mean that every day moves in the same direction. A region can experience a cold episode within a period whose average conditions have become warmer. Variation remains part of the system.\nResearchers therefore compare long records, account for changes in measurement practices and examine more than a single location. Moving a thermometer from a grassy field to a paved courtyard could change its readings even if the broader regional pattern stayed the same. Documentation of such changes helps scientists interpret the record responsibly.\nNone of this makes a dramatic week unimportant to people living through it. Its immediate effects can be severe. The distinction is about the conclusion drawn from it. To understand a long-term pattern, we need evidence suited to that timescale rather than assuming that the most memorable recent experience represents the whole record."
+          },
+          "number": 26,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-0-3",
+          "type": "choice",
+          "prompt": "Why mention moving a thermometer?",
+          "options": [
+            "Paved courtyards always have the same temperature as fields",
+            "Measurement circumstances can affect the apparent record",
+            "Instrument location is irrelevant to interpretation",
+            "All older records must be discarded"
+          ],
+          "answer": 1,
+          "explanation": "The example illustrates a non-climatic influence on readings.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "The Difference between Weather and Climate Evidence",
+          "stimulus": {
+            "id": "f4-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Difference between Weather and Climate Evidence",
+            "script": "A very cold week can dominate people’s attention, while a gradual change over several decades is harder to notice. This difference helps explain why individual weather events are sometimes used to make claims about climate. But a short event and a long-term pattern answer different questions.\nWeather describes conditions at a particular time and place. Climate concerns distributions and patterns over longer periods. A changing climate does not mean that every day moves in the same direction. A region can experience a cold episode within a period whose average conditions have become warmer. Variation remains part of the system.\nResearchers therefore compare long records, account for changes in measurement practices and examine more than a single location. Moving a thermometer from a grassy field to a paved courtyard could change its readings even if the broader regional pattern stayed the same. Documentation of such changes helps scientists interpret the record responsibly.\nNone of this makes a dramatic week unimportant to people living through it. Its immediate effects can be severe. The distinction is about the conclusion drawn from it. To understand a long-term pattern, we need evidence suited to that timescale rather than assuming that the most memorable recent experience represents the whole record."
+          },
+          "number": 27,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-0-4",
+          "type": "choice",
+          "prompt": "What does the speaker recommend for understanding a long-term trend?",
+          "options": [
+            "Ignore documentation of instrument changes",
+            "Compare only observations from one afternoon",
+            "Use evidence appropriate to its timescale",
+            "Rely on the most memorable week alone"
+          ],
+          "answer": 2,
+          "explanation": "The final paragraph returns to timescale-appropriate evidence.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "The Difference between Weather and Climate Evidence",
+          "stimulus": {
+            "id": "f4-l-router-talk-0",
+            "kind": "academic-talk",
+            "title": "The Difference between Weather and Climate Evidence",
+            "script": "A very cold week can dominate people’s attention, while a gradual change over several decades is harder to notice. This difference helps explain why individual weather events are sometimes used to make claims about climate. But a short event and a long-term pattern answer different questions.\nWeather describes conditions at a particular time and place. Climate concerns distributions and patterns over longer periods. A changing climate does not mean that every day moves in the same direction. A region can experience a cold episode within a period whose average conditions have become warmer. Variation remains part of the system.\nResearchers therefore compare long records, account for changes in measurement practices and examine more than a single location. Moving a thermometer from a grassy field to a paved courtyard could change its readings even if the broader regional pattern stayed the same. Documentation of such changes helps scientists interpret the record responsibly.\nNone of this makes a dramatic week unimportant to people living through it. Its immediate effects can be severe. The distinction is about the conclusion drawn from it. To understand a long-term pattern, we need evidence suited to that timescale rather than assuming that the most memorable recent experience represents the whole record."
+          },
+          "number": 28,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-1-1",
+          "type": "choice",
+          "prompt": "What is the speaker’s main point?",
+          "options": [
+            "Every corridor needs as many signs as possible",
+            "Experienced users are the only useful design testers",
+            "Access also depends on being able to find and understand a route",
+            "A step-free doorway guarantees effortless navigation"
+          ],
+          "answer": 2,
+          "explanation": "The talk combines physical access with usable information.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Finding the Main Entrance",
+          "stimulus": {
+            "id": "f4-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Finding the Main Entrance",
+            "script": "A building can be physically accessible yet difficult to navigate. Imagine an entrance without steps, but with a small sign that visitors notice only after passing it. Providing the doorway is important, but people must also be able to find and interpret the route to it.\nWayfinding research examines how signs, sight lines and expectations guide movement. People often look for information at decision points, such as an intersection between corridors. A sign placed far beyond that point may be accurate but arrive too late to help. Designers therefore test routes with people who have not already learned the building.\nConsistency also matters. If a room is called the Learning Studio on an invitation and Room B on every sign, visitors must infer that the two labels refer to the same place. Linking the names can remove an unnecessary obstacle. More signs are not always better; too much competing information can make the important instruction harder to notice.\nThese principles apply beyond buildings, including websites and transport systems. Good navigation reduces the amount of interpretation required at crucial moments. It does not assume that a newcomer shares the knowledge of someone who designed the system or has used it for years."
+          },
+          "number": 29,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-1-2",
+          "type": "choice",
+          "prompt": "Where is a sign especially useful?",
+          "options": [
+            "Only after the visitor has passed the destination",
+            "At a point where someone must choose a direction",
+            "Where no decision about movement is needed",
+            "In a place visible only to staff"
+          ],
+          "answer": 1,
+          "explanation": "Information should be available at decision points.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Finding the Main Entrance",
+          "stimulus": {
+            "id": "f4-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Finding the Main Entrance",
+            "script": "A building can be physically accessible yet difficult to navigate. Imagine an entrance without steps, but with a small sign that visitors notice only after passing it. Providing the doorway is important, but people must also be able to find and interpret the route to it.\nWayfinding research examines how signs, sight lines and expectations guide movement. People often look for information at decision points, such as an intersection between corridors. A sign placed far beyond that point may be accurate but arrive too late to help. Designers therefore test routes with people who have not already learned the building.\nConsistency also matters. If a room is called the Learning Studio on an invitation and Room B on every sign, visitors must infer that the two labels refer to the same place. Linking the names can remove an unnecessary obstacle. More signs are not always better; too much competing information can make the important instruction harder to notice.\nThese principles apply beyond buildings, including websites and transport systems. Good navigation reduces the amount of interpretation required at crucial moments. It does not assume that a newcomer shares the knowledge of someone who designed the system or has used it for years."
+          },
+          "number": 30,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-1-3",
+          "type": "choice",
+          "prompt": "Why compare Learning Studio with Room B?",
+          "options": [
+            "Inconsistent names can force visitors to make an unnecessary inference",
+            "The two rooms necessarily require different entrances",
+            "Room names should never be used on invitations",
+            "Visitors always prefer letters to descriptive names"
+          ],
+          "answer": 0,
+          "explanation": "The example illustrates inconsistent terminology.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Finding the Main Entrance",
+          "stimulus": {
+            "id": "f4-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Finding the Main Entrance",
+            "script": "A building can be physically accessible yet difficult to navigate. Imagine an entrance without steps, but with a small sign that visitors notice only after passing it. Providing the doorway is important, but people must also be able to find and interpret the route to it.\nWayfinding research examines how signs, sight lines and expectations guide movement. People often look for information at decision points, such as an intersection between corridors. A sign placed far beyond that point may be accurate but arrive too late to help. Designers therefore test routes with people who have not already learned the building.\nConsistency also matters. If a room is called the Learning Studio on an invitation and Room B on every sign, visitors must infer that the two labels refer to the same place. Linking the names can remove an unnecessary obstacle. More signs are not always better; too much competing information can make the important instruction harder to notice.\nThese principles apply beyond buildings, including websites and transport systems. Good navigation reduces the amount of interpretation required at crucial moments. It does not assume that a newcomer shares the knowledge of someone who designed the system or has used it for years."
+          },
+          "number": 31,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "f4-l-router-talk-1-4",
+          "type": "choice",
+          "prompt": "Why might adding more signs fail to help?",
+          "options": [
+            "Signs have no effect on movement",
+            "Accurate signs always need to be removed",
+            "Visitors cannot read any sign inside a building",
+            "Competing information can hide the important instruction"
+          ],
+          "answer": 3,
+          "explanation": "Information overload can reduce noticeability.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "Finding the Main Entrance",
+          "stimulus": {
+            "id": "f4-l-router-talk-1",
+            "kind": "academic-talk",
+            "title": "Finding the Main Entrance",
+            "script": "A building can be physically accessible yet difficult to navigate. Imagine an entrance without steps, but with a small sign that visitors notice only after passing it. Providing the doorway is important, but people must also be able to find and interpret the route to it.\nWayfinding research examines how signs, sight lines and expectations guide movement. People often look for information at decision points, such as an intersection between corridors. A sign placed far beyond that point may be accurate but arrive too late to help. Designers therefore test routes with people who have not already learned the building.\nConsistency also matters. If a room is called the Learning Studio on an invitation and Room B on every sign, visitors must infer that the two labels refer to the same place. Linking the names can remove an unnecessary obstacle. More signs are not always better; too much competing information can make the important instruction harder to notice.\nThese principles apply beyond buildings, including websites and transport systems. Good navigation reduces the amount of interpretation required at crucial moments. It does not assume that a newcomer shares the knowledge of someone who designed the system or has used it for years."
+          },
+          "number": 32,
+          "difficulty": "mixed",
+          "testId": "original-04"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "branches": {
+        "lower": [
+          {
+            "id": "f4-l-lower-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Yes, I’ll play it now.",
+              "I recorded my answer already.",
+              "The sample contains two speakers.",
+              "Our room is at the end of the corridor."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-lower-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Can we hear the sample before recording our own?"
+            },
+            "number": 1,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The interview was about student life.",
+              "Yes, I’m free until eleven.",
+              "I arrived early this morning.",
+              "My suit is at home."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-lower-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Would tomorrow morning suit you for the interview?"
+            },
+            "number": 2,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I wrote the script last night.",
+              "Paper can be recycled here.",
+              "Only if you prefer working on paper.",
+              "The printer is beside the desk."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-lower-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Do I need to print the script?"
+            },
+            "number": 3,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The interview has a clear beginning.",
+              "The large room is available.",
+              "I sent the email yesterday.",
+              "Try the university’s file-sharing service."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-lower-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "The audio file is too large to email."
+            },
+            "number": 4,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "It shows that recording is in progress.",
+              "The explanation was very helpful.",
+              "The light outside is quite bright.",
+              "I read the instructions earlier."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-lower-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Can someone explain what the red light means?"
+            },
+            "number": 5,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-conversation-0-1",
+            "type": "choice",
+            "prompt": "Why does the woman want a removed section restored?",
+            "options": [
+              "It makes the introduction more entertaining",
+              "It explains how to download the podcast",
+              "It supplies evidence needed to understand the conclusion",
+              "It includes the names of all the guests"
+            ],
+            "answer": 2,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I’ve cut the podcast down to ten minutes, but the explanation of the experiment no longer makes sense.\nWoman: Which part did you remove?\nMan: The comparison between the two groups. It sounded repetitive.\nWoman: Listeners need that comparison to understand the conclusion. Could you shorten the introduction instead?\nMan: Yes, the welcome section is longer than necessary. I’ll restore the comparison and trim that opening."
+            },
+            "number": 6,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the man shorten instead?",
+            "options": [
+              "The comparison between groups",
+              "The introductory welcome",
+              "Every explanation of the research method",
+              "The experiment’s central conclusion"
+            ],
+            "answer": 1,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-lower-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I’ve cut the podcast down to ten minutes, but the explanation of the experiment no longer makes sense.\nWoman: Which part did you remove?\nMan: The comparison between the two groups. It sounded repetitive.\nWoman: Listeners need that comparison to understand the conclusion. Could you shorten the introduction instead?\nMan: Yes, the welcome section is longer than necessary. I’ll restore the comparison and trim that opening."
+            },
+            "number": 7,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-conversation-1-1",
+            "type": "choice",
+            "prompt": "What concerns the woman about moving the interviews?",
+            "options": [
+              "Every resident has already declined",
+              "The market will permanently close",
+              "The hall has no recording equipment",
+              "The change may affect which residents take part"
+            ],
+            "answer": 3,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: We planned to interview residents outside the market, but the forecast says heavy rain.\nMan: The community hall is available, although people won’t pass it naturally on their way home.\nWoman: Then moving there could change who participates.\nMan: True. We could keep the same invitations and offer another outdoor date as well.\nWoman: Let’s explain both options to the coordinator before changing the plan. I don’t want our sample to become less representative without us noticing."
+            },
+            "number": 8,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-conversation-1-2",
+            "type": "choice",
+            "prompt": "What will they do before changing arrangements?",
+            "options": [
+              "Discuss the possible effects with the coordinator",
+              "Select only residents who live beside the hall",
+              "Assume the venue makes no difference",
+              "Publish the incomplete results immediately"
+            ],
+            "answer": 0,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-lower-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: We planned to interview residents outside the market, but the forecast says heavy rain.\nMan: The community hall is available, although people won’t pass it naturally on their way home.\nWoman: Then moving there could change who participates.\nMan: True. We could keep the same invitations and offer another outdoor date as well.\nWoman: Let’s explain both options to the coordinator before changing the plan. I don’t want our sample to become less representative without us noticing."
+            },
+            "number": 9,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-announcement-0-1",
+            "type": "choice",
+            "prompt": "What will students do at the plots?",
+            "options": [
+              "Collect samples for private gardens",
+              "Observe without collecting plants",
+              "Remove all flowering species",
+              "Plant trees along the service path"
+            ],
+            "answer": 1,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f4-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The meadow visit on Wednesday includes uneven ground and a short walk through wet grass. Wear sturdy shoes. We will observe the restoration plots without collecting plants. Anyone needing an alternative route should contact me today; the grounds team can arrange access from the service path. The lecture afterward is in our usual room, and attendance there does not require joining the field walk."
+            },
+            "number": 10,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-announcement-0-2",
+            "type": "choice",
+            "prompt": "Who should contact the speaker today?",
+            "options": [
+              "Everyone planning to attend the later lecture",
+              "Students who need an alternative access route",
+              "Students who want the usual classroom changed",
+              "Only students who own wet-weather equipment"
+            ],
+            "answer": 1,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f4-l-lower-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "The meadow visit on Wednesday includes uneven ground and a short walk through wet grass. Wear sturdy shoes. We will observe the restoration plots without collecting plants. Anyone needing an alternative route should contact me today; the grounds team can arrange access from the service path. The lecture afterward is in our usual room, and attendance there does not require joining the field walk."
+            },
+            "number": 11,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the main focus?",
+            "options": [
+              "Why volunteers always achieve lower marks",
+              "How to interpret evidence about a teaching method",
+              "Why random assignment replaces documentation",
+              "How to guarantee identical classrooms"
+            ],
+            "answer": 1,
+            "explanation": "The talk concerns evaluating causal claims and generalization.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "Testing a New Classroom Method",
+            "stimulus": {
+              "id": "f4-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Testing a New Classroom Method",
+              "script": "Suppose students using a new classroom method achieve higher marks than students using an older one. It is tempting to credit the method immediately. Before doing so, researchers need to consider how the two groups were formed and whether anything else differed between them.\nPerhaps the new method was offered only to volunteers. Those volunteers might have been especially motivated before the teaching began. Or perhaps one group received more individual attention from the teacher. Either difference could influence the outcome independently of the method itself. The comparison must address plausible alternative explanations.\nRandom assignment can help distribute pre-existing differences across groups, but it does not make every practical issue disappear. Some participants may leave the study, and teachers may apply the same method differently. Researchers need to document what actually happened rather than reporting only what was planned.\nFinally, a method that works in one classroom may not work identically elsewhere. Differences in resources or students’ prior knowledge can affect its use. A strong evaluation therefore combines a careful initial comparison with later tests in other settings. The aim is not to dismiss promising results, but to learn what the evidence supports and where its limits are."
+            },
+            "number": 12,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-talk-0-2",
+            "type": "choice",
+            "prompt": "Why might volunteering affect the comparison?",
+            "options": [
+              "Volunteering automatically changes the course content",
+              "Only volunteers can be randomly assigned",
+              "Volunteers may already be more motivated",
+              "Volunteers cannot receive teacher attention"
+            ],
+            "answer": 2,
+            "explanation": "Motivation may predate the intervention.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "Testing a New Classroom Method",
+            "stimulus": {
+              "id": "f4-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Testing a New Classroom Method",
+              "script": "Suppose students using a new classroom method achieve higher marks than students using an older one. It is tempting to credit the method immediately. Before doing so, researchers need to consider how the two groups were formed and whether anything else differed between them.\nPerhaps the new method was offered only to volunteers. Those volunteers might have been especially motivated before the teaching began. Or perhaps one group received more individual attention from the teacher. Either difference could influence the outcome independently of the method itself. The comparison must address plausible alternative explanations.\nRandom assignment can help distribute pre-existing differences across groups, but it does not make every practical issue disappear. Some participants may leave the study, and teachers may apply the same method differently. Researchers need to document what actually happened rather than reporting only what was planned.\nFinally, a method that works in one classroom may not work identically elsewhere. Differences in resources or students’ prior knowledge can affect its use. A strong evaluation therefore combines a careful initial comparison with later tests in other settings. The aim is not to dismiss promising results, but to learn what the evidence supports and where its limits are."
+            },
+            "number": 13,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-talk-0-3",
+            "type": "choice",
+            "prompt": "Why document what happened during the study?",
+            "options": [
+              "Teachers must never adapt instruction",
+              "Documentation eliminates all variation",
+              "Plans always describe participants’ later results exactly",
+              "Actual implementation can differ from the plan"
+            ],
+            "answer": 3,
+            "explanation": "Attrition and implementation can change the comparison.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "Testing a New Classroom Method",
+            "stimulus": {
+              "id": "f4-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Testing a New Classroom Method",
+              "script": "Suppose students using a new classroom method achieve higher marks than students using an older one. It is tempting to credit the method immediately. Before doing so, researchers need to consider how the two groups were formed and whether anything else differed between them.\nPerhaps the new method was offered only to volunteers. Those volunteers might have been especially motivated before the teaching began. Or perhaps one group received more individual attention from the teacher. Either difference could influence the outcome independently of the method itself. The comparison must address plausible alternative explanations.\nRandom assignment can help distribute pre-existing differences across groups, but it does not make every practical issue disappear. Some participants may leave the study, and teachers may apply the same method differently. Researchers need to document what actually happened rather than reporting only what was planned.\nFinally, a method that works in one classroom may not work identically elsewhere. Differences in resources or students’ prior knowledge can affect its use. A strong evaluation therefore combines a careful initial comparison with later tests in other settings. The aim is not to dismiss promising results, but to learn what the evidence supports and where its limits are."
+            },
+            "number": 14,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-lower-talk-0-4",
+            "type": "choice",
+            "prompt": "What does a successful result in one setting justify?",
+            "options": [
+              "Further testing of where and how the method works",
+              "A guarantee of identical effects everywhere",
+              "The immediate removal of every older method",
+              "Ignoring differences in students’ knowledge"
+            ],
+            "answer": 0,
+            "explanation": "The final paragraph supports continued evaluation.",
+            "skill": "inference",
+            "task": "academic-talk",
+            "title": "Testing a New Classroom Method",
+            "stimulus": {
+              "id": "f4-l-lower-talk-0",
+              "kind": "academic-talk",
+              "title": "Testing a New Classroom Method",
+              "script": "Suppose students using a new classroom method achieve higher marks than students using an older one. It is tempting to credit the method immediately. Before doing so, researchers need to consider how the two groups were formed and whether anything else differed between them.\nPerhaps the new method was offered only to volunteers. Those volunteers might have been especially motivated before the teaching began. Or perhaps one group received more individual attention from the teacher. Either difference could influence the outcome independently of the method itself. The comparison must address plausible alternative explanations.\nRandom assignment can help distribute pre-existing differences across groups, but it does not make every practical issue disappear. Some participants may leave the study, and teachers may apply the same method differently. Researchers need to document what actually happened rather than reporting only what was planned.\nFinally, a method that works in one classroom may not work identically elsewhere. Differences in resources or students’ prior knowledge can affect its use. A strong evaluation therefore combines a careful initial comparison with later tests in other settings. The aim is not to dismiss promising results, but to learn what the evidence supports and where its limits are."
+            },
+            "number": 15,
+            "difficulty": "intermediate",
+            "testId": "original-04"
+          }
+        ],
+        "higher": [
+          {
+            "id": "f4-l-higher-response-0-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Then let’s shorten a less essential section.",
+              "The example was given in class.",
+              "I cut the paper into strips.",
+              "The main entrance is on the left."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-higher-response-0",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "I’m reluctant to cut that example; it supports the main point."
+            },
+            "number": 1,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-response-1-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "The room was cleaned this morning.",
+              "We can still move before the interview starts.",
+              "Noise is measured in the science course.",
+              "I know the booking assistant."
+            ],
+            "answer": 1,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-higher-response-1",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Had I known the room was so noisy, I’d have booked elsewhere."
+            },
+            "number": 2,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-response-2-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I interviewed the new assistant.",
+              "The recording is in the folder.",
+              "No, just the section with the faulty sound.",
+              "The whole class attended the talk."
+            ],
+            "answer": 2,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-higher-response-2",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "There’s no need to redo the whole interview, is there?"
+            },
+            "number": 3,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-response-3-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "I said hello when I arrived.",
+              "The transcript has numbered pages.",
+              "Fifty people attended the lecture.",
+              "Let’s check that part of the recording."
+            ],
+            "answer": 3,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-higher-response-3",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "The transcript says “fifteen,” but I’m certain I said “fifty.”"
+            },
+            "number": 4,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-response-4-q",
+            "type": "choice",
+            "task": "response",
+            "title": "Listen and Choose a Response",
+            "prompt": "Choose the best response.",
+            "options": [
+              "Yes, I tend to rush between examples.",
+              "The transition was on the last slide.",
+              "I paused the video at noon.",
+              "The examples came from a textbook."
+            ],
+            "answer": 0,
+            "explanation": "The best reply fulfills the speaker’s request, question or implied intention in this exchange.",
+            "skill": "pragmatic response",
+            "stimulus": {
+              "id": "f4-l-higher-response-4",
+              "kind": "response",
+              "title": "Choose a response",
+              "script": "Wouldn’t a brief pause make that transition clearer?"
+            },
+            "number": 5,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-conversation-0-1",
+            "type": "choice",
+            "prompt": "What does the woman emphasize?",
+            "options": [
+              "No practice is offered before interviews",
+              "Interviewers should avoid listening to their recordings",
+              "Effective interviewing depends on communication rather than a particular accent",
+              "Every interviewer must sound exactly like the coordinator"
+            ],
+            "answer": 2,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I want to join the oral-history project, but my accent might be a problem when interviewing people.\nWoman: The coordinator isn’t looking for one particular accent. Clear questions and careful listening matter more.\nMan: I can practice those. Is there training?\nWoman: Yes. We work in pairs and review a short practice recording together.\nMan: Then I’ll sign up for the training rather than deciding in advance that I can’t do it."
+            },
+            "number": 6,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-conversation-0-2",
+            "type": "choice",
+            "prompt": "What will the man do?",
+            "options": [
+              "Withdraw because of his accent",
+              "Attend the project training",
+              "Ask someone else to answer all questions for him",
+              "Interview residents without preparing"
+            ],
+            "answer": 1,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-higher-conversation-0",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Man: I want to join the oral-history project, but my accent might be a problem when interviewing people.\nWoman: The coordinator isn’t looking for one particular accent. Clear questions and careful listening matter more.\nMan: I can practice those. Is there training?\nWoman: Yes. We work in pairs and review a short practice recording together.\nMan: Then I’ll sign up for the training rather than deciding in advance that I can’t do it."
+            },
+            "number": 7,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-conversation-1-1",
+            "type": "choice",
+            "prompt": "Why is the chair count misleading?",
+            "options": [
+              "The instructor will not attend",
+              "The workshop has become a lecture",
+              "Some chairs belong to another building",
+              "Participants also need working space at tables"
+            ],
+            "answer": 3,
+            "explanation": "The conversation directly supports this answer; the other choices change the reason or circumstance.",
+            "skill": "detail",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The workshop room has twenty chairs, but only twelve places at tables.\nMan: For a lecture, that would be fine. People will actually be assembling models, though.\nWoman: So twenty registrations would be too many.\nMan: Unless we run two sessions. The instructor is available in the morning and afternoon.\nWoman: I’ll set up two smaller groups. We should tell people which session they’re assigned to before they arrive."
+            },
+            "number": 8,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-conversation-1-2",
+            "type": "choice",
+            "prompt": "What arrangement will the woman make?",
+            "options": [
+              "Two sessions with smaller groups",
+              "One session with extra standing places",
+              "A lecture without model assembly",
+              "Cancellation of the afternoon availability"
+            ],
+            "answer": 0,
+            "explanation": "The speakers’ final plan supports this choice.",
+            "skill": "inference",
+            "task": "conversation",
+            "title": "Campus conversation",
+            "stimulus": {
+              "id": "f4-l-higher-conversation-1",
+              "kind": "conversation",
+              "title": "Campus conversation",
+              "script": "Woman: The workshop room has twenty chairs, but only twelve places at tables.\nMan: For a lecture, that would be fine. People will actually be assembling models, though.\nWoman: So twenty registrations would be too many.\nMan: Unless we run two sessions. The instructor is available in the morning and afternoon.\nWoman: I’ll set up two smaller groups. We should tell people which session they’re assigned to before they arrive."
+            },
+            "number": 9,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-announcement-0-1",
+            "type": "choice",
+            "prompt": "Why should both labels be retained in the worksheet?",
+            "options": [
+              "Their relationship must be reviewed before a change",
+              "The public catalogue cannot display any subject labels",
+              "Students are being asked to translate every title",
+              "The original records have already been removed"
+            ],
+            "answer": 0,
+            "explanation": "The announcement states the relevant condition or reason.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f4-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "For the catalogue project, please keep both the original subject label and your proposed alternative in the worksheet. We need to understand the relationship between them before changing the public record. Add a brief reason for each proposal. Do not overwrite the shared catalogue directly. The librarian will review the complete list with us at next week’s session."
+            },
+            "number": 10,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-announcement-0-2",
+            "type": "choice",
+            "prompt": "What should students avoid?",
+            "options": [
+              "Explaining their proposed alternatives",
+              "Changing the shared catalogue directly",
+              "Keeping the original terminology in the worksheet",
+              "Discussing labels with the librarian"
+            ],
+            "answer": 1,
+            "explanation": "The instruction or implication follows from the stated arrangement.",
+            "skill": "detail",
+            "task": "announcement",
+            "title": "Campus announcement",
+            "stimulus": {
+              "id": "f4-l-higher-announcement-0",
+              "kind": "announcement",
+              "title": "Campus announcement",
+              "script": "For the catalogue project, please keep both the original subject label and your proposed alternative in the worksheet. We need to understand the relationship between them before changing the public record. Add a brief reason for each proposal. Do not overwrite the shared catalogue directly. The librarian will review the complete list with us at next week’s session."
+            },
+            "number": 11,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-talk-0-1",
+            "type": "choice",
+            "prompt": "What is the main subject?",
+            "options": [
+              "Why cameras work better at every ocean depth",
+              "The value and interpretive limits of underwater sound recordings",
+              "Why ocean monitoring requires a person underwater at all times",
+              "How all marine calls can be identified instantly"
+            ],
+            "answer": 1,
+            "explanation": "The talk develops benefits and cautions of acoustic evidence.",
+            "skill": "main idea",
+            "task": "academic-talk",
+            "title": "Sound as a Tool for Studying the Ocean",
+            "stimulus": {
+              "id": "f4-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "Sound as a Tool for Studying the Ocean",
+              "script": "Light becomes limited in deep water, but sound can travel considerable distances. This makes sound useful both to marine animals and to researchers studying their environment. A recording can reveal activity that a camera would not easily capture, although interpreting it is not always straightforward.\nFirst, a sound must be identified. Different animals may produce signals with overlapping features, and machinery can add patterns of its own. Researchers compare recordings with known examples and consider the context. A possible call detected once is weaker evidence than a consistent pattern supported by other observations.\nDistance introduces another complication. Temperature and pressure influence how sound travels, so a louder recording does not necessarily mean that an animal is closer. Researchers may use several microphones at known positions to compare the arrival of a signal. Such arrangements can help locate a source more reliably than one microphone alone.\nSound records can also support long-term monitoring without requiring an observer to remain underwater. Yet changes in equipment or background noise must be tracked. Otherwise, an apparent change in animal activity might partly reflect a change in what the recording system can detect. The method is powerful because of the information it adds, not because it removes the need for careful interpretation."
+            },
+            "number": 12,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-talk-0-2",
+            "type": "choice",
+            "prompt": "Why compare a possible call with known recordings?",
+            "options": [
+              "Machinery is silent underwater",
+              "A single detection always identifies a species",
+              "Different sources can have overlapping sound features",
+              "Every animal makes the same sound"
+            ],
+            "answer": 2,
+            "explanation": "Comparison helps identify the source.",
+            "skill": "detail",
+            "task": "academic-talk",
+            "title": "Sound as a Tool for Studying the Ocean",
+            "stimulus": {
+              "id": "f4-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "Sound as a Tool for Studying the Ocean",
+              "script": "Light becomes limited in deep water, but sound can travel considerable distances. This makes sound useful both to marine animals and to researchers studying their environment. A recording can reveal activity that a camera would not easily capture, although interpreting it is not always straightforward.\nFirst, a sound must be identified. Different animals may produce signals with overlapping features, and machinery can add patterns of its own. Researchers compare recordings with known examples and consider the context. A possible call detected once is weaker evidence than a consistent pattern supported by other observations.\nDistance introduces another complication. Temperature and pressure influence how sound travels, so a louder recording does not necessarily mean that an animal is closer. Researchers may use several microphones at known positions to compare the arrival of a signal. Such arrangements can help locate a source more reliably than one microphone alone.\nSound records can also support long-term monitoring without requiring an observer to remain underwater. Yet changes in equipment or background noise must be tracked. Otherwise, an apparent change in animal activity might partly reflect a change in what the recording system can detect. The method is powerful because of the information it adds, not because it removes the need for careful interpretation."
+            },
+            "number": 13,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-talk-0-3",
+            "type": "choice",
+            "prompt": "Why use microphones at several known locations?",
+            "options": [
+              "They make signal identification unnecessary",
+              "They prevent all background noise",
+              "They guarantee that water temperature remains constant",
+              "Arrival-time comparisons can improve source location"
+            ],
+            "answer": 3,
+            "explanation": "Multiple receivers provide spatial information.",
+            "skill": "purpose",
+            "task": "academic-talk",
+            "title": "Sound as a Tool for Studying the Ocean",
+            "stimulus": {
+              "id": "f4-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "Sound as a Tool for Studying the Ocean",
+              "script": "Light becomes limited in deep water, but sound can travel considerable distances. This makes sound useful both to marine animals and to researchers studying their environment. A recording can reveal activity that a camera would not easily capture, although interpreting it is not always straightforward.\nFirst, a sound must be identified. Different animals may produce signals with overlapping features, and machinery can add patterns of its own. Researchers compare recordings with known examples and consider the context. A possible call detected once is weaker evidence than a consistent pattern supported by other observations.\nDistance introduces another complication. Temperature and pressure influence how sound travels, so a louder recording does not necessarily mean that an animal is closer. Researchers may use several microphones at known positions to compare the arrival of a signal. Such arrangements can help locate a source more reliably than one microphone alone.\nSound records can also support long-term monitoring without requiring an observer to remain underwater. Yet changes in equipment or background noise must be tracked. Otherwise, an apparent change in animal activity might partly reflect a change in what the recording system can detect. The method is powerful because of the information it adds, not because it removes the need for careful interpretation."
+            },
+            "number": 14,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          },
+          {
+            "id": "f4-l-higher-talk-0-4",
+            "type": "choice",
+            "prompt": "What can an equipment change affect?",
+            "options": [
+              "How much activity the system detects",
+              "The existence of every animal in the area",
+              "The depth of the entire ocean",
+              "The permission required to observe animals"
+            ],
+            "answer": 0,
+            "explanation": "Detection changes may resemble biological changes.",
+            "skill": "inference",
+            "task": "academic-talk",
+            "title": "Sound as a Tool for Studying the Ocean",
+            "stimulus": {
+              "id": "f4-l-higher-talk-0",
+              "kind": "academic-talk",
+              "title": "Sound as a Tool for Studying the Ocean",
+              "script": "Light becomes limited in deep water, but sound can travel considerable distances. This makes sound useful both to marine animals and to researchers studying their environment. A recording can reveal activity that a camera would not easily capture, although interpreting it is not always straightforward.\nFirst, a sound must be identified. Different animals may produce signals with overlapping features, and machinery can add patterns of its own. Researchers compare recordings with known examples and consider the context. A possible call detected once is weaker evidence than a consistent pattern supported by other observations.\nDistance introduces another complication. Temperature and pressure influence how sound travels, so a louder recording does not necessarily mean that an animal is closer. Researchers may use several microphones at known positions to compare the arrival of a signal. Such arrangements can help locate a source more reliably than one microphone alone.\nSound records can also support long-term monitoring without requiring an observer to remain underwater. Yet changes in equipment or background noise must be tracked. Otherwise, an apparent change in animal activity might partly reflect a change in what the recording system can detect. The method is powerful because of the information it adds, not because it removes the need for careful interpretation."
+            },
+            "number": 15,
+            "difficulty": "advanced",
+            "testId": "original-04"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "original-04-w1",
+          "number": 1,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The booth has a microphone but no camera.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "if",
+            "we want video",
+            "unless",
+            "we",
+            "will have to",
+            "book",
+            "another room"
+          ],
+          "solution": [
+            "we",
+            "will have to",
+            "book",
+            "another room",
+            "if",
+            "we want video"
+          ],
+          "correct": [
+            3,
+            4,
+            5,
+            6,
+            0,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w2",
+          "number": 2,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The interviewee asked us to remove a personal story.",
+          "frame": [
+            "We should",
+            "."
+          ],
+          "chunks": [
+            "editing",
+            "what does",
+            "which section",
+            "confirm",
+            "before",
+            "she means",
+            "the recording"
+          ],
+          "solution": [
+            "confirm",
+            "which section",
+            "she means",
+            "before",
+            "editing",
+            "the recording"
+          ],
+          "correct": [
+            3,
+            2,
+            5,
+            4,
+            0,
+            6
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w3",
+          "number": 3,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "My rehearsal sounds too fast.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "help",
+            "the audience",
+            "would",
+            "a short pause",
+            "following",
+            "follow",
+            "your argument"
+          ],
+          "solution": [
+            "would",
+            "a short pause",
+            "help",
+            "the audience",
+            "follow",
+            "your argument"
+          ],
+          "correct": [
+            2,
+            3,
+            0,
+            1,
+            5,
+            6
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w4",
+          "number": 4,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The report compares two neighborhoods.",
+          "frame": [
+            "It is important",
+            "."
+          ],
+          "chunks": [
+            "were chosen",
+            "the locations",
+            "how",
+            "to explain",
+            "did",
+            "the study",
+            "for"
+          ],
+          "solution": [
+            "to explain",
+            "how",
+            "the locations",
+            "were chosen",
+            "for",
+            "the study"
+          ],
+          "correct": [
+            3,
+            2,
+            1,
+            0,
+            6,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w5",
+          "number": 5,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The sample is smaller than we planned.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "we",
+            "should",
+            "acknowledge",
+            "this limitation",
+            "when",
+            "discussing the results",
+            "discuss"
+          ],
+          "solution": [
+            "we",
+            "should",
+            "acknowledge",
+            "this limitation",
+            "when",
+            "discussing the results"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w6",
+          "number": 6,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I am not sure why the second recording has an echo.",
+          "frame": [
+            "Do you remember",
+            "?"
+          ],
+          "chunks": [
+            "that part",
+            "where",
+            "was",
+            "of the interview",
+            "did",
+            "recorded"
+          ],
+          "solution": [
+            "where",
+            "that part",
+            "of the interview",
+            "was",
+            "recorded"
+          ],
+          "correct": [
+            1,
+            0,
+            3,
+            2,
+            5
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w7",
+          "number": 7,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I want the audience to understand the method first.",
+          "frame": [
+            "",
+            "."
+          ],
+          "chunks": [
+            "placing",
+            "the results",
+            "section",
+            "the methods slide",
+            "before",
+            "then",
+            "place"
+          ],
+          "solution": [
+            "then",
+            "place",
+            "the methods slide",
+            "before",
+            "the results",
+            "section"
+          ],
+          "correct": [
+            5,
+            6,
+            3,
+            4,
+            1,
+            2
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w8",
+          "number": 8,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We have not checked the participant codes yet.",
+          "frame": [
+            "That is something",
+            "."
+          ],
+          "chunks": [
+            "the files",
+            "sharing",
+            "before",
+            "to do",
+            "ought",
+            "we",
+            "shared"
+          ],
+          "solution": [
+            "we",
+            "ought",
+            "to do",
+            "before",
+            "sharing",
+            "the files"
+          ],
+          "correct": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w9",
+          "number": 9,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The old filename contains an incorrect date.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "in",
+            "the project log",
+            "recorded",
+            "can",
+            "you",
+            "record",
+            "the correction"
+          ],
+          "solution": [
+            "can",
+            "you",
+            "record",
+            "the correction",
+            "in",
+            "the project log"
+          ],
+          "correct": [
+            3,
+            4,
+            5,
+            6,
+            0,
+            1
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-w10",
+          "number": 10,
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The projector might not show small text clearly.",
+          "frame": [
+            "Let’s test",
+            "."
+          ],
+          "chunks": [
+            "the back row",
+            "from",
+            "do",
+            "the labels",
+            "whether",
+            "readable",
+            "remain"
+          ],
+          "solution": [
+            "whether",
+            "the labels",
+            "remain",
+            "readable",
+            "from",
+            "the back row"
+          ],
+          "correct": [
+            4,
+            3,
+            6,
+            5,
+            1,
+            0
+          ],
+          "explanation": "The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.",
+          "difficulty": "mixed",
+          "testId": "original-04"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "original-04-w11",
+          "number": 11,
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Dr. Ellis",
+          "subject": "Recording-booth request",
+          "scenario": "Your course project requires a recorded interview. The booth assigned to you has no camera, although you requested video equipment. Your interviewee can attend only Tuesday afternoon or Wednesday morning.",
+          "points": [
+            "Explain why the assigned booth does not meet your project’s needs.",
+            "Describe the interviewee’s available times.",
+            "Request a suitable alternative and explain how you can be flexible."
+          ],
+          "difficulty": "mixed",
+          "testId": "original-04"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "original-04-w12",
+          "number": 12,
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Dr. Salazar",
+          "question": "When students complete a group research project, should instructors give the greatest weight to the final product or to evidence of the research process? Explain your view.",
+          "students": [
+            [
+              "Imani",
+              "A strong final product shows whether the group can communicate a useful answer. In professional settings, people are usually judged on what they deliver."
+            ],
+            [
+              "Theo",
+              "The process reveals careful decisions and responsible handling of setbacks. A group can learn a great deal even when its first hypothesis is not supported."
+            ]
+          ],
+          "difficulty": "mixed",
+          "testId": "original-04"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are learning to help students use a campus recording studio.",
+      "items": [
+        {
+          "id": "original-04-s1",
+          "number": 1,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please close the door before recording.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-04-repeat1",
+            "kind": "repeat",
+            "script": "Please close the door before recording."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s2",
+          "number": 2,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The microphone can be adjusted to your height.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "original-04-repeat2",
+            "kind": "repeat",
+            "script": "The microphone can be adjusted to your height."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s3",
+          "number": 3,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Speak naturally and leave a short pause between the practice sentences.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-04-repeat3",
+            "kind": "repeat",
+            "script": "Speak naturally and leave a short pause between the practice sentences."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s4",
+          "number": 4,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Check the saved file before disconnecting the recorder from the computer.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-04-repeat4",
+            "kind": "repeat",
+            "script": "Check the saved file before disconnecting the recorder from the computer."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s5",
+          "number": 5,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "You must obtain the speaker’s permission before sharing an interview outside your project group.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "original-04-repeat5",
+            "kind": "repeat",
+            "script": "You must obtain the speaker’s permission before sharing an interview outside your project group."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s6",
+          "number": 6,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If the recording contains personal information, ask the supervisor how to store it securely instead of uploading it to a public folder.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-04-repeat6",
+            "kind": "repeat",
+            "script": "If the recording contains personal information, ask the supervisor how to store it securely instead of uploading it to a public folder."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s7",
+          "number": 7,
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Students whose projects require a video interview should confirm that a camera is available when they reserve the studio, not after the booking begins.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "original-04-repeat7",
+            "kind": "repeat",
+            "script": "Students whose projects require a video interview should confirm that a camera is available when they reserve the studio, not after the booking begins."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "A researcher is investigating how students communicate complex ideas.",
+      "items": [
+        {
+          "id": "original-04-s8",
+          "number": 8,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Tell me about a presentation you have given or watched recently. What was its topic?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-04-interview1",
+            "kind": "interview",
+            "script": "Tell me about a presentation you have given or watched recently. What was its topic?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s9",
+          "number": 9,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe a time when an example helped you understand something difficult. What made it effective?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-04-interview2",
+            "kind": "interview",
+            "script": "Describe a time when an example helped you understand something difficult. What made it effective?"
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s10",
+          "number": 10,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "When explaining a complicated idea, is it better to use pictures or spoken explanations? Explain your preference.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-04-interview3",
+            "kind": "interview",
+            "script": "When explaining a complicated idea, is it better to use pictures or spoken explanations? Explain your preference."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        },
+        {
+          "id": "original-04-s11",
+          "number": 11,
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Should university courses include more opportunities for students to speak to audiences outside their own subject? Explain your opinion with supporting details.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "original-04-interview4",
+            "kind": "interview",
+            "script": "Should university courses include more opportunities for students to speak to audiences outside their own subject? Explain your opinion with supporting details."
+          },
+          "difficulty": "mixed",
+          "testId": "original-04"
+        }
+      ]
+    }
+  ]
+}

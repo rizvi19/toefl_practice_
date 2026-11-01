@@ -1,0 +1,5 @@
+const NAME='toefl-full-simulator-v1';let opening;
+export function openDB(){return opening??=new Promise((resolve,reject)=>{const r=indexedDB.open(NAME,1);r.onupgradeneeded=()=>{for(const n of ['attempts','audio','recordings','transcripts'])r.result.createObjectStore(n);};r.onsuccess=()=>resolve(r.result);r.onerror=()=>{opening=null;reject(r.error);};});}
+export async function dbAction(store,mode,key,value){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction(store,mode==='get'||mode==='all'?'readonly':'readwrite'),s=tx.objectStore(store);const r=mode==='get'?s.get(key):mode==='all'?s.getAll():mode==='delete'?s.delete(key):s.put(value,key);let result;r.onsuccess=()=>result=r.result;tx.oncomplete=()=>resolve(result);tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);});}
+export const put=(store,key,value)=>dbAction(store,'put',key,value),get=(store,key)=>dbAction(store,'get',key),all=store=>dbAction(store,'all');
+export async function digest(text){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text))),n=>n.toString(16).padStart(2,'0')).join('');}

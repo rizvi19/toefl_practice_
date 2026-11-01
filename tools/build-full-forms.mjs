@@ -1,0 +1,37 @@
+import fs from 'node:fs';
+import {academics} from '../simulator/content/reading.mjs';
+import {clozes,daily} from '../simulator/content/everyday.mjs';
+import {conversations,announcements} from '../simulator/content/listening.mjs';
+import {talks} from '../simulator/content/talks.mjs';
+import {responses} from '../simulator/content/responses.mjs';
+import {writing,emails,discussions,speaking} from '../simulator/content/productive.mjs';
+import {timing,routing} from '../simulator/config.js';
+fs.mkdirSync('simulator/forms',{recursive:true});
+let serial=0;
+function hash(text){let n=2166136261;for(const c of text)n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
+function shuffled(values,id){return values.map((value,i)=>({value,key:hash(id+'/'+i)})).sort((a,b)=>a.key-b.key).map(x=>x.value);}
+function questions(activity,prefix,properties={}){return activity.qs.map((q,i)=>{const id=prefix+'-'+(i+1),order=shuffled([0,1,2,3],id);return {id,type:'choice',prompt:q.stem,options:order.map(j=>q.options[j]),answer:order.indexOf(q.answer),explanation:q.explanation,skill:q.skill,...properties};});}
+function cw(text,id){const split=text.split(/\{([^|{}]+)\|([^{}]+)\}/);const pieces=[];for(let i=0;i<split.length;i+=3){pieces.push(split[i]);if(i+1<split.length)pieces.push({pre:split[i+1],answer:split[i+2]});}return {id,type:'cloze',task:'complete-words',title:'Complete the Words',pieces,count:10};}
+function readingStage(i,route){const offset=i*4;if(route==='router'){return [cw(clozes[offset],`f${i+2}-r1-c1`),cw(clozes[offset+1],`f${i+2}-r1-c2`),...daily.slice(i*2,i*2+2).flatMap((a,j)=>questions(a,`f${i+2}-r1-d${j+1}`,{task:'daily-life',title:a.title,passage:a.text,documentType:a.type,stimulusId:`f${i+2}-r1-d${j+1}`})),...academics.slice(offset,offset+2).flatMap((a,j)=>questions(a,`f${i+2}-r1-a${j+1}`,{task:'academic-passage',title:a.title,passage:a.text,stimulusId:`f${i+2}-r1-a${j+1}`}))];}const n=route==='lower'?2:3,a=academics[offset+n];return [cw(clozes[offset+n],`f${i+2}-r2-${route}-c`),...questions(a,`f${i+2}-r2-${route}-a`,{task:'academic-passage',title:a.title,passage:a.text,stimulusId:`f${i+2}-r2-${route}-a`})];}
+function stimulus(a,id,kind){return {id,kind,title:a.title||({conversation:'Campus conversation',announcement:'Campus announcement',response:'Choose a response','academic-talk':'Academic talk'}[kind]),script:a.script};}
+function listeningStage(i,route){const router=route==='router',lower=route==='lower',base=`f${i+2}-l-${route}`,items=[];const row=responses[i];for(const [j,a] of row.slice(router?0:lower?12:17,router?12:lower?17:22).entries()){const stim=stimulus({script:a[0]},base+'-response-'+j,'response');const answerOrder=shuffled([0,1,2,3],stim.id);items.push({id:stim.id+'-q',type:'choice',task:'response',title:'Listen and Choose a Response',prompt:'Choose the best response.',options:answerOrder.map(k=>a[k+1]),answer:answerOrder.indexOf(0),explanation:'The best reply fulfills the speaker’s request, question or implied intention in this exchange.',skill:'pragmatic response',stimulus:stim});}
+for(const [j,a] of conversations.slice(i*7+(router?0:lower?3:5),i*7+(router?3:lower?5:7)).entries()){const stim=stimulus(a,base+'-conversation-'+j,'conversation');items.push(...questions(a,stim.id,{task:'conversation',title:'Campus conversation',stimulus:stim}));}
+for(const [j,a] of announcements.slice(i*5+(router?0:lower?3:4),i*5+(router?3:lower?4:5)).entries()){const stim=stimulus(a,base+'-announcement-'+j,'announcement');items.push(...questions(a,stim.id,{task:'announcement',title:'Campus announcement',stimulus:stim}));}
+for(const [j,a] of talks.slice(i*4+(router?0:lower?2:3),i*4+(router?2:lower?3:4)).entries()){const stim=stimulus(a,base+'-talk-'+j,'academic-talk');items.push(...questions(a,stim.id,{task:'academic-talk',title:a.title,stimulus:stim}));}return items;}
+function number(items){let n=1;for(const q of items){q.number=n;n+=q.count||1;}return items;}
+const titles=['Evidence and Discovery','Shared Resources','Communicating Ideas','Fieldwork and Communities','Designing Better Decisions'];
+const index=[];
+for(let i=0;i<5;i++){serial=0;const id='original-'+String(i+2).padStart(2,'0'),stages=[
+{id:'reading-1',section:'Reading',label:'Module 1',seconds:timing.reading[0],review:true,items:number(readingStage(i,'router'))},
+{id:'reading-2',section:'Reading',label:'Module 2',seconds:timing.reading[1],review:true,branches:{lower:number(readingStage(i,'lower')),higher:number(readingStage(i,'higher'))}},
+{id:'listening-1',section:'Listening',label:'Module 1',items:number(listeningStage(i,'router'))},
+{id:'listening-2',section:'Listening',label:'Module 2',branches:{lower:number(listeningStage(i,'lower')),higher:number(listeningStage(i,'higher'))}},
+{id:'sentences',section:'Writing',label:'Build a Sentence',seconds:360,review:true,items:writing[i].map((q,j)=>{const chunks=shuffled([...q.solution,...q.extra?[q.extra]:[]],id+'-w'+j);return {id:id+'-w'+(j+1),number:j+1,type:'sentence',task:'build-sentence',title:'Build a Sentence',prompt:q.prompt,frame:[q.frame[0],q.frame[1]||'.'],chunks,solution:q.solution,correct:q.solution.map(c=>chunks.indexOf(c)),explanation:'The arrangement completes a grammatical response in this conversational context. Extra tiles, if present, are not needed.'};})},
+{id:'email',section:'Writing',label:'Write an Email',seconds:420,items:[{id:id+'-w11',number:11,type:'essay',task:'email',title:'Write an Email',...emails[i]}]},
+{id:'discussion',section:'Writing',label:'Academic Discussion',seconds:600,items:[{id:id+'-w12',number:12,type:'essay',task:'discussion',title:'Write for an Academic Discussion',...discussions[i]}]},
+{id:'repeat',section:'Speaking',label:'Listen and Repeat',context:speaking[i].context,items:speaking[i].repeat.map((script,j)=>({id:id+'-s'+(j+1),number:j+1,type:'speaking',task:'repeat',title:'Listen and Repeat',prompt:'Listen and repeat once.',target:script,responseSeconds:timing.repeat[j],stimulus:stimulus({script},id+'-repeat'+(j+1),'repeat')}))},
+{id:'interview',section:'Speaking',label:'Take an Interview',context:speaking[i].interviewContext,items:speaking[i].interview.map((script,j)=>({id:id+'-s'+(j+8),number:j+8,type:'speaking',task:'interview',title:'Take an Interview',prompt:'Answer the interviewer’s question.',question:script,responseSeconds:45,stimulus:stimulus({script},id+'-interview'+(j+1),'interview')}))}
+];for(const st of stages)for(const [branch,items] of st.branches?Object.entries(st.branches):[['router',st.items]])for(const q of items){q.difficulty=branch==='higher'?'advanced':branch==='lower'?'intermediate':'mixed';q.testId=id;}
+const form={id,version:1,title:`Full Test ${String(i+2).padStart(2,'0')} · ${titles[i]}`,description:'New original practice content with distinct adaptive routes and authored answer keys.',original:true,baseCount:120,routing,stages};fs.writeFileSync(`simulator/forms/${id}.json`,JSON.stringify(form,null,2)+'\n');index.push({id,title:form.title,path:`./forms/${id}.json`,version:1});}
+if(fs.existsSync('simulator/forms/book-01.json'))index.push({id:'book-01',title:'Book Test 01 · Provided Chapter 6',path:'./forms/book-01.json',version:1,original:false});
+fs.writeFileSync('simulator/forms/index.json',JSON.stringify(index,null,2)+'\n');console.log('Built five original full forms; source activities:',{academics:academics.length,clozes:clozes.length,conversations:conversations.length,announcements:announcements.length,talks:talks.length,responses:responses.flat().length});
