@@ -9,3 +9,5 @@ Independent practice, not an ETS simulator. Local score estimates and editorial 
 The 19 October Writing expansion includes 500 new questions across 50 grammar families, focused practice with shared no-repeat history, lowercase tiles and 24 prompts each for Email/Discussion. Include the entire writing/ directory. See docs/WRITING_ADVANCED_2026.md.
 
 The full simulator also requires full-tests.html, full-test-help.html and the complete simulator/ directory. Five new original forms and Book Test 01 use pre-generated browser Kokoro prompts; browser Whisper transcribes saved Speaking clips after submission. See docs/FULL_SIMULATOR.md.
+
+Include the complete recall/ directory for Vocabulary Mountain, weighted flashcards, the merged bank and interactive stories. See docs/RECALL_LAB.md.

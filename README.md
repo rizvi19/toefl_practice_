@@ -1,5 +1,7 @@
 # TOEFL Practice Studio â€” Reading, Listening and Writing (2026)
 
+**Recall Lab - Vocabulary Mountain:** [Open the mountain](https://rizvi19.github.io/toefl_practice_/recall/index.html) - 714 items (380 words and 334 expressions), all original 33, all 220 masterbook expressions and 228 vocabulary records before merging, plus 119 original additions. Cumulative Group 1, then 1-2, then 1-3; unread/error weights; six recall directions; 120 original interactive stories with complete coverage. No day cycle or separate test modes inside Recall Lab. [Setup and verification](docs/RECALL_LAB.md).
+
 Live: https://rizvi19.github.io/toefl_practice_/
 
 **Full-test simulator:** [Open Full Tests](https://rizvi19.github.io/toefl_practice_/full-tests.html) — five new original 2026 forms (02–06), alongside verified Book Test 01. Kokoro generates and caches every possible prompt before testing; browser Whisper transcribes saved Speaking recordings after submission. Full/practice modes, adaptive routes, strict task clocks, answer review, recording backups, and a complete copy-for-ChatGPT rubric packet. [Setup for both devices, timing and scoring limits](docs/FULL_SIMULATOR.md). Run `npm run build:full`, `npm run audit:full`, `npm run test:full` and `npm run test:full:browser`.

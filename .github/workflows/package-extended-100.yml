@@ -2,9 +2,9 @@ name: Validate and package section tests
 on:
   push:
     branches: [main]
-    paths: ['full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['recall/**', 'eslint.recall.config.js', 'full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   pull_request:
-    paths: ['full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['recall/**', 'eslint.recall.config.js', 'full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   workflow_dispatch:
 concurrency:
   group: practice-quality-${{ github.ref }}
@@ -40,6 +40,11 @@ jobs:
           npm run audit:full
           git diff --exit-code -- simulator/forms docs/FULL_FORMS_AUDIT.json
           npm run test:full
+          npm run build:recall
+          git diff --exit-code -- recall/data
+          npm run typecheck:recall
+          npm run lint:recall
+          npm run test:recall
           npm run audit:writing
           git diff --exit-code -- docs/WRITING_ADVANCED_AUDIT.json
           npm run test:writing
@@ -55,6 +60,7 @@ jobs:
           npm run test:browser
           npm run test:chapter6:browser
           npm run test:full:browser
+          npm run test:recall:browser
           npm run test:writing:browser
           npm run smoke
           node tools/smoke-listening-playwright.mjs
@@ -72,6 +78,7 @@ jobs:
           npm run test:browser
           npm run test:chapter6:browser
           npm run test:full:browser
+          npm run test:recall:browser
           npm run test:writing:browser
           npm run smoke
           node tools/smoke-listening-playwright.mjs

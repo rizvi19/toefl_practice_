@@ -1,0 +1,2628 @@
+{
+  "version": 2,
+  "stories": [
+    {
+      "id": "question",
+      "title": "01 · Question",
+      "subtitle": "A surprising discovery",
+      "text": "At the local museum, Nila stopped beside an old hand-drawn map. The tiny symbols {C14|sparked her curiosity} about the people who had made it. “{C01|Off the top of my head}, I think it shows a river crossing,” she said. Then she noticed a date. “{C02|Come to think of it}, my grandfather described a bridge here.” She asked the guide how to learn more instead of pretending she already knew.",
+      "targets": [
+        "C14",
+        "C01",
+        "C02"
+      ],
+      "questions": [
+        [
+          "Why does Nila say “come to think of it”?",
+          [
+            "She suddenly recalls something relevant.",
+            "She is presenting a prepared speech.",
+            "She is certain the map is correct."
+          ],
+          0
+        ],
+        [
+          "Which opening signals an immediate, unchecked thought?",
+          [
+            "Nevertheless",
+            "Off the top of my head",
+            "As a result"
+          ],
+          1
+        ]
+      ],
+      "retell": "Retell what Nila noticed, remembered and asked. Change the details rather than repeating the paragraph.",
+      "transfer": "You discover an unfamiliar instrument at a concert. Describe your curiosity and a related memory.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 0
+    },
+    {
+      "id": "decision",
+      "title": "02 · Decision",
+      "subtitle": "Two invitations, one afternoon",
+      "text": "Nila received two invitations: a paid shift and a free local-history workshop. She decided to {C03|weigh the pros and cons}. The shift would cover her travel costs, but the workshop could help her {C13|pursue her interests}. She would {B01|take the cost into account} rather than ignore it. After calling the organizer, she could {B02|make an informed decision}: she chose a shorter shift and attended the afternoon session.",
+      "targets": [
+        "C03",
+        "C13",
+        "B01",
+        "B02"
+      ],
+      "questions": [
+        [
+          "What makes the decision informed?",
+          [
+            "She copies a friend’s choice.",
+            "She checks relevant information before deciding.",
+            "She chooses the most expensive option."
+          ],
+          1
+        ],
+        [
+          "Complete the pattern: take the cost ___ account.",
+          [
+            "of",
+            "on",
+            "into"
+          ],
+          2
+        ]
+      ],
+      "retell": "Retell the competing needs and the information that helped Nila decide.",
+      "transfer": "Choose between a sports club and an evening language class. Consider two real constraints.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 1
+    },
+    {
+      "id": "challenge",
+      "title": "03 · Challenge",
+      "subtitle": "When the plan changes",
+      "text": "Heavy rain closed the workshop’s original venue. The organizer felt the pressure was {V11|overwhelming}, but Nila stayed {V06|resilient}. She was {V07|proactive} about checking a nearby community room before anyone asked her to. The room was small. {C06|Nevertheless}, it had a safe entrance and enough chairs. By sharing materials, the group could {C16|overcome obstacles} without giving up the activity.",
+      "targets": [
+        "V11",
+        "V06",
+        "V07",
+        "C06",
+        "C16"
+      ],
+      "questions": [
+        [
+          "Why is Nila proactive?",
+          [
+            "She acts early to prevent a problem.",
+            "She waits for someone else to arrange a room.",
+            "She ignores the rain."
+          ],
+          0
+        ],
+        [
+          "Which statement uses the adjective correctly?",
+          [
+            "Nila felt overwhelming.",
+            "The pressure was overwhelming.",
+            "The pressure was overwhelmed."
+          ],
+          1
+        ]
+      ],
+      "retell": "Describe the setback, the early action and the result in your own words.",
+      "transfer": "A teammate becomes unavailable just before a presentation. Explain how you would respond.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 2
+    },
+    {
+      "id": "team",
+      "title": "04 · Team",
+      "subtitle": "A question everyone can discuss",
+      "text": "In the new room, a guide gave pairs different photographs to compare. The activity could {C04|foster critical thinking} because people had to explain their interpretations. Clear questions {C11|played a crucial role} in keeping the discussion focused. A quieter member offered an {V05|insightful} observation about the riverbank. Nila tried to {C15|keep an open mind}, even when that observation challenged her first interpretation.",
+      "targets": [
+        "C04",
+        "C11",
+        "V05",
+        "C15"
+      ],
+      "questions": [
+        [
+          "What makes the observation insightful?",
+          [
+            "It reveals a useful detail others missed.",
+            "It repeats the title.",
+            "It is the longest comment."
+          ],
+          0
+        ],
+        [
+          "The guide played a crucial role ___ the discussion.",
+          [
+            "on",
+            "in",
+            "at"
+          ],
+          1
+        ]
+      ],
+      "retell": "Explain how the activity and the group’s attitude improved the discussion.",
+      "transfer": "A team is comparing solutions to food waste. Explain how to invite and consider an unexpected suggestion.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 3
+    },
+    {
+      "id": "feedback",
+      "title": "05 · Feedback",
+      "subtitle": "Useful comments, clearer explanations",
+      "text": "After the workshop, Nila prepared a short display for her college. Her friend offered {B03|constructive feedback} on the draft: the labels needed dates and simpler directions. That advice was {V12|invaluable}. Revising the display helped Nila {C09|develop a deeper understanding} of the material. The comments also {B04|shed light on} which parts a visitor might misunderstand.",
+      "targets": [
+        "B03",
+        "V12",
+        "C09",
+        "B04"
+      ],
+      "questions": [
+        [
+          "What makes the feedback constructive?",
+          [
+            "It identifies specific changes that can help.",
+            "It praises everything without explanation.",
+            "It criticizes Nila’s personality."
+          ],
+          0
+        ],
+        [
+          "Invaluable means:",
+          [
+            "Extremely valuable",
+            "Without any value",
+            "Available for sale"
+          ],
+          0
+        ]
+      ],
+      "retell": "Retell the suggestion and explain how revision changed Nila’s understanding.",
+      "transfer": "Give useful feedback on a friend’s explanation of a public transport problem.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 4
+    },
+    {
+      "id": "routine",
+      "title": "06 · Routine",
+      "subtitle": "A plan she can keep",
+      "text": "Preparing the display alongside classes was {V03|demanding}. Nila decided to {V15|prioritize} tasks with fixed deadlines and {C10|strike a balance} between college work and rest. A quiet corner was {V10|conducive} to concentration. Twenty minutes of steady work each evening felt {V09|sustainable}. She wanted a routine she could continue, not an impressive plan that lasted only one night.",
+      "targets": [
+        "V03",
+        "V15",
+        "C10",
+        "V10",
+        "V09"
+      ],
+      "questions": [
+        [
+          "Why is the routine sustainable?",
+          [
+            "She can continue it without exhausting herself.",
+            "It uses every available hour.",
+            "It requires no planning."
+          ],
+          0
+        ],
+        [
+          "Choose the correct pattern.",
+          [
+            "conducive for concentrating",
+            "conducive to concentrating",
+            "conducive at concentrating"
+          ],
+          1
+        ]
+      ],
+      "retell": "Explain Nila’s competing needs, priorities and study conditions.",
+      "transfer": "Plan a week containing work, exercise and family time. Explain one realistic compromise.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 5
+    },
+    {
+      "id": "result",
+      "title": "07 · Result",
+      "subtitle": "Learning travels beyond the room",
+      "text": "Visitors used the finished display to discuss the old crossing with their families. It helped {C05|bridge the gap} between a museum collection and everyday experience. Nila found the work {V02|rewarding} and {V04|worthwhile}. It gave her a sense of {V14|fulfilment}. Meeting people with different memories had {C07|broadened her horizons}. She realized that she could use the same careful questioning in a completely different project.",
+      "targets": [
+        "C05",
+        "V02",
+        "V04",
+        "V14",
+        "C07"
+      ],
+      "questions": [
+        [
+          "Why does the display bridge a gap?",
+          [
+            "It connects two previously separated things.",
+            "It proves all visitors have identical memories.",
+            "It removes the need to ask questions."
+          ],
+          0
+        ],
+        [
+          "Which word names deep personal satisfaction?",
+          [
+            "Fulfilment",
+            "Demanding",
+            "Overwhelming"
+          ],
+          0
+        ]
+      ],
+      "retell": "Describe the result and the skill Nila can transfer. Avoid copying the wording.",
+      "transfer": "Describe a community activity that could connect two different groups and explain why it would matter.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 6
+    },
+    {
+      "id": "garden",
+      "title": "Extra · The shared garden",
+      "subtitle": "Community and environment",
+      "text": "A neighborhood had one unused patch of land. The volunteers tried to {C10|strike a balance} between a quiet garden and a place for children to play. Residents could {C15|keep an open mind} about a shared design. One parent suggested movable planters, a {V13|versatile} solution that left space for games. The group agreed to test the arrangement before making it permanent.",
+      "targets": [
+        "C10",
+        "C15",
+        "V13"
+      ],
+      "questions": [
+        [
+          "Why are movable planters versatile?",
+          [
+            "They serve several layouts and uses.",
+            "They can never be moved.",
+            "They only suit one exact design."
+          ],
+          0
+        ],
+        [
+          "Which response shows an open mind?",
+          [
+            "Let us test the suggestion before rejecting it.",
+            "We must use only my first idea.",
+            "New ideas are always correct."
+          ],
+          0
+        ]
+      ],
+      "retell": "Retell the needs and the proposed compromise.",
+      "transfer": "Apply the same compromise to a shared room in a student residence.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 7
+    },
+    {
+      "id": "travel",
+      "title": "Extra · A changed journey",
+      "subtitle": "Travel and decisions",
+      "text": "When a train was cancelled, Omar had to {C03|weigh the pros and cons} of waiting or taking a slower bus. Station staff gave him {V12|invaluable} advice about a connecting route. He remained {V06|resilient} and used the unexpected wait to call his host. The delay was inconvenient, but it did not ruin the whole visit.",
+      "targets": [
+        "C03",
+        "V12",
+        "V06"
+      ],
+      "questions": [
+        [
+          "What does Omar compare?",
+          [
+            "The advantages and disadvantages of two options.",
+            "Only the color of the vehicles.",
+            "Two unrelated holidays."
+          ],
+          0
+        ],
+        [
+          "Does resilient mean never facing a setback?",
+          [
+            "Yes",
+            "No; it means recovering or persisting.",
+            "Only when travelling."
+          ],
+          1
+        ]
+      ],
+      "retell": "Describe the disruption, advice and response.",
+      "transfer": "Explain how you would respond to a cancelled university event.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 8
+    },
+    {
+      "id": "volunteer",
+      "title": "Extra · The first tutoring session",
+      "subtitle": "Volunteering and growth",
+      "text": "Maya was nervous before tutoring a younger student. Planning two simple activities helped her feel {V07|proactive}. The student’s questions helped Maya {C09|develop a deeper understanding} of the topic herself. The session was {V02|rewarding}, but she knew the next one would still need preparation. Satisfaction did not mean that every task had become easy.",
+      "targets": [
+        "V07",
+        "C09",
+        "V02"
+      ],
+      "questions": [
+        [
+          "Why did Maya also learn?",
+          [
+            "Explaining the topic exposed details she needed to understand.",
+            "She avoided all the student’s questions.",
+            "Teaching removes the need to study."
+          ],
+          0
+        ],
+        [
+          "Rewarding describes something that:",
+          [
+            "Provides personal satisfaction",
+            "Always pays money",
+            "Requires no effort"
+          ],
+          0
+        ]
+      ],
+      "retell": "Retell the preparation and the unexpected learning.",
+      "transfer": "Describe a benefit you might gain from helping a new colleague.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 9
+    },
+    {
+      "id": "technology",
+      "title": "Extra · Choosing a useful tool",
+      "subtitle": "Technology and judgment",
+      "text": "The student group compared two survey tools. A free tool was {V13|versatile}, but it lacked an accessible keyboard option. Accessibility was a {V08|compelling} reason to try another service. The group wanted to {B02|make an informed decision}, so two members tested it with actual users. Their choice depended on needs, not just on the longest feature list.",
+      "targets": [
+        "V13",
+        "V08",
+        "B02"
+      ],
+      "questions": [
+        [
+          "Why test with users?",
+          [
+            "To gather relevant information for the choice.",
+            "To guarantee that one tool is perfect forever.",
+            "To avoid considering accessibility."
+          ],
+          0
+        ],
+        [
+          "A compelling reason is:",
+          [
+            "A strongly convincing reason",
+            "An unrelated reason",
+            "A reason with many technical words"
+          ],
+          0
+        ]
+      ],
+      "retell": "Explain which evidence changed the group’s decision.",
+      "transfer": "Use the same decision process when choosing a place to hold a public meeting.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 10
+    },
+    {
+      "id": "culture",
+      "title": "Extra · A different kind of concert",
+      "subtitle": "Culture and curiosity",
+      "text": "A friend invited Arif to a concert using unfamiliar instruments. He tried to {C15|keep an open mind}. A short demonstration {C14|sparked his curiosity}, and he asked how the musicians learned together. Listening to their answers {C07|broadened his horizons}. He did not need to love every piece to learn something useful from the evening.",
+      "targets": [
+        "C15",
+        "C14",
+        "C07"
+      ],
+      "questions": [
+        [
+          "Does keeping an open mind require liking everything?",
+          [
+            "Yes",
+            "No; it means considering before judging.",
+            "Only at concerts."
+          ],
+          1
+        ],
+        [
+          "Which pattern fits?",
+          [
+            "curiosity about a tradition",
+            "curiosity to a tradition",
+            "curiosity of to a tradition"
+          ],
+          0
+        ]
+      ],
+      "retell": "Retell the first reaction and what changed.",
+      "transfer": "Describe trying an unfamiliar sport or food with a similar attitude.",
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately.",
+      "order": 11
+    },
+    {
+      "id": "market-decision",
+      "title": "A Saturday market",
+      "subtitle": "Choices and viewpoints",
+      "theme": "Choices and viewpoints",
+      "text": "The council proposed a Saturday market beside the library. “{E002|From my perspective}, it would bring people together,” said Leena. “{E001|I tend to believe that} small local events are worth trying.” Sami was less certain. “{E007|I partially agree with} that idea, but the buses already stop here. {B06|One potential drawback} is the extra traffic.” Leena suggested {E006|a reasonable alternative}: a smaller market in the courtyard. Both agreed that {E011|a balanced approach} should consider residents as well as traders.",
+      "targets": [
+        "E002",
+        "E001",
+        "E007",
+        "B06",
+        "E006",
+        "E011"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 12,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "quiet-route",
+      "title": "The quieter route",
+      "subtitle": "Reasons and respectful disagreement",
+      "theme": "Reasons and respectful disagreement",
+      "text": "“{E004|A compelling argument for} the new cycle path is the safer school journey,” said Amir. “{E009|The main reason is that} children would no longer share the narrow road with delivery vans.” Tara answered, “{E008|I respectfully disagree with} closing the road all day. Shops still need deliveries.” The planner asked everyone to {E012|be open to feedback}. {E003|To some extent}, both concerns could be addressed by restricting deliveries only during school hours. The final arrangement, Tara admitted, {E010|largely depends on} how clearly the times are explained.",
+      "targets": [
+        "E004",
+        "E009",
+        "E008",
+        "E012",
+        "E003",
+        "E010"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 13,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "late-club",
+      "title": "The club that stayed open",
+      "subtitle": "Contrast without contradiction",
+      "theme": "Contrast without contradiction",
+      "text": "The club room was small. {E013|On the other hand}, it was free and close to the bus stop. {E014|At the same time}, several members needed a quieter space. {E015|Even though} the room was convenient, the group looked at another option. {E016|Despite} the higher rent, a shared room nearby seemed possible. The old room suited informal chats, {E017|whereas} the new one suited focused work. {E018|Rather than} choose immediately, the members tested both for a week.",
+      "targets": [
+        "E013",
+        "E014",
+        "E015",
+        "E016",
+        "E017",
+        "E018"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 14,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "two-walks",
+      "title": "Two walks through one neighborhood",
+      "subtitle": "Comparison and clarification",
+      "theme": "Comparison and clarification",
+      "text": "{E019|In contrast to} the busy main road, the path beside the river felt calm. The walking group still had to consider safety after dark. “{E020|Taking everything into account}, we should use the river path in daylight,” said the guide. “{E021|In other words}, the route can change with the conditions.” A broken lamp was not proof that the entire path was unsafe, but {E023|this suggests that} maintenance needed attention. “{E022|Put simply}, we need a route people can use confidently,” she added.",
+      "targets": [
+        "E019",
+        "E020",
+        "E021",
+        "E023",
+        "E022"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 15,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "repair-cafe",
+      "title": "A repair café begins",
+      "subtitle": "Practical solutions",
+      "theme": "Practical solutions",
+      "text": "The neighborhood wanted to {E024|make a meaningful contribution} to reducing waste. Instead of telling people to buy less, volunteers tried to {E025|address the root cause} of discarded appliances: many owners could not find affordable repairs. They hoped to {E026|come up with a practical solution}. A monthly repair café could {E027|reduce the risk of} usable items being thrown away. Safety checks would also {E028|minimize the negative consequences} of an inexperienced person attempting a dangerous repair.",
+      "targets": [
+        "E024",
+        "E025",
+        "E026",
+        "E027",
+        "E028"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 16,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "rain-plan",
+      "title": "The event after the rain",
+      "subtitle": "Cause, action and progress",
+      "theme": "Cause, action and progress",
+      "text": "A wet forecast could {E033|pose a serious challenge} for the outdoor fair. The organizers decided to {E034|adopt a flexible approach} and prepare an indoor layout as well. Careful preparation can {E029|lead to} a calmer event, while confusion may {E030|result in} wasted work. Everyone could {E031|contribute to} the backup plan by checking one practical detail. Even small actions could {E032|make a significant difference}. With regular checks, the team began to {E035|make steady progress} instead of repeatedly starting again.",
+      "targets": [
+        "E033",
+        "E034",
+        "E029",
+        "E030",
+        "E031",
+        "E032",
+        "E035"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 17,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "first-placement",
+      "title": "The first placement",
+      "subtitle": "Learning by doing",
+      "theme": "Learning by doing",
+      "text": "The college arranged a short placement so students could {E036|acquire practical experience}. They would {E041|apply theoretical knowledge} to real requests from visitors. A supervisor designed questions to {E037|cultivate intellectual curiosity}, rather than simply supply answers. Pair work would {E038|encourage active participation}, and unfamiliar problems could {E040|strengthen problem-solving skills}. The students hoped to {E039|develop transferable skills} that would remain useful beyond this particular workplace.",
+      "targets": [
+        "E036",
+        "E041",
+        "E037",
+        "E038",
+        "E040",
+        "E039"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 18,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "open-workshop",
+      "title": "An open workshop",
+      "subtitle": "Opportunities and independence",
+      "theme": "Opportunities and independence",
+      "text": "The community center wanted to {E042|provide equal opportunities} for residents with different schedules. Evening sessions would {E043|support independent learning} with equipment people could borrow. The aim was to {E044|encourage lifelong learning}, not require a formal qualification. Leena hoped to {E045|gain hands-on experience} repairing furniture. “I want to {E046|make the most of} these sessions,” she said, “and {C17|take full advantage of} the advice available.” Meeting people from other trades could also {E047|expand my perspective} on what useful skills look like.",
+      "targets": [
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "C17",
+        "E047"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 19,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "shared-display",
+      "title": "A display made together",
+      "subtitle": "Shared work and responsibility",
+      "theme": "Shared work and responsibility",
+      "text": "For the local-history display, the students had to {E048|work collaboratively}, not just place separate pages beside each other. They agreed to {E049|share responsibilities} and {E050|resolve conflicts constructively}. Keeping promises would help them {E051|build mutual trust}. Each person would {E053|be accountable for} checking the dates on one section. When the printer failed, the team had to {E054|rise to the challenge} and find another way to finish the display without blaming the newest member.",
+      "targets": [
+        "E048",
+        "E049",
+        "E050",
+        "E051",
+        "E053",
+        "E054"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 20,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "pottery-room",
+      "title": "The uneven bowl",
+      "subtitle": "Experience and persistence",
+      "theme": "Experience and persistence",
+      "text": "At the pottery workshop, Mira had to {E058|step outside her comfort zone}. Her first bowl collapsed, so she began to {E055|learn through trial and error}. A different clay required her to {E056|adapt to changing circumstances} rather than repeat the same movements. She would {E059|take responsibility for} cleaning the shared table, even after a frustrating lesson. Finishing a small, uneven bowl helped her {E057|achieve a sense of accomplishment}. Progress did not have to look impressive to be real.",
+      "targets": [
+        "E058",
+        "E055",
+        "E056",
+        "E059",
+        "E057"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 21,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "water-notebook",
+      "title": "The water-testing notebook",
+      "subtitle": "Evidence and cautious conclusions",
+      "theme": "Evidence and cautious conclusions",
+      "text": "Before discussing the stream, the students needed to {E060|conduct thorough research} and {E061|gather reliable evidence}. They agreed to {E062|evaluate the evidence} before choosing an explanation. A blocked drain was {E064|a plausible explanation}, but blaming it immediately would rest on {E065|an underlying assumption} that every unusual result came from that source. Their report should {E067|identify key limitations} and {E068|interpret findings cautiously}, so readers could see what the samples did and did not show.",
+      "targets": [
+        "E060",
+        "E061",
+        "E062",
+        "E064",
+        "E065",
+        "E067",
+        "E068"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 22,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "survey-caution",
+      "title": "What the survey cannot prove",
+      "subtitle": "Connections and evidence",
+      "theme": "Connections and evidence",
+      "text": "A survey found that frequent library visitors also reported enjoying reading. That pattern could {E070|correlate with} access to quiet study space, but it did not {E069|establish a causal relationship}. The team could not honestly {E066|present compelling evidence} that visiting the library caused every improvement. {E074|On the basis of} the available responses, they described the connection carefully. {E075|In light of} the missing information, {E071|a noteworthy finding} remained a starting point, not a final explanation. They needed {E076|a robust methodology} and more {E077|empirical support} before they could {E063|draw a well-supported conclusion}.",
+      "targets": [
+        "E070",
+        "E069",
+        "E066",
+        "E074",
+        "E075",
+        "E071",
+        "E076",
+        "E077",
+        "E063"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 23,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "request-room",
+      "title": "A room for a small group",
+      "subtitle": "A polite, purposeful request",
+      "theme": "A polite, purposeful request",
+      "text": "Leena drafted a message to the center: “{B11|I am writing to inquire about} a room for a small reading group. {B09|Would it be possible to} meet there on Thursday evenings? {B10|I would appreciate it if} you could confirm the capacity. {E081|Could you please clarify} whether the room has step-free access? {E082|I would be grateful if} you could suggest another room if it is unavailable.” Each question served a specific need rather than making the message merely longer.",
+      "targets": [
+        "B11",
+        "B09",
+        "B10",
+        "E081",
+        "E082"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 24,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "changed-booking",
+      "title": "A changed booking",
+      "subtitle": "Following up without pressure",
+      "theme": "Following up without pressure",
+      "text": "“{E084|I am following up on} our room booking,” wrote Omar. “{E086|Due to unforeseen circumstances}, we need a smaller space. {E083|I would like to request} a change if one is available. {E085|Please find attached} our revised plan. You can review it {E087|at your convenience}; the event is still three weeks away. {E088|I apologize for any inconvenience} caused by the change.” Omar checked that the attachment was actually included before sending the message.",
+      "targets": [
+        "E084",
+        "E086",
+        "E083",
+        "E085",
+        "E087",
+        "E088"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 25,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "helpful-reply",
+      "title": "A reply worth sending",
+      "subtitle": "Closing a message naturally",
+      "theme": "Closing a message naturally",
+      "text": "The coordinator offered a short visit to inspect the room. Omar replied, “{E091|I would welcome the opportunity to} see the space before confirming. {E092|I am available to} visit on Tuesday afternoon. {E089|I look forward to hearing from you} about a suitable time. {E090|Thank you for your consideration}.” He did not add every polite phrase he knew. The purpose was to make the next step clear, not to display a list of expressions.",
+      "targets": [
+        "E091",
+        "E092",
+        "E089",
+        "E090"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 26,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "old-radio",
+      "title": "An old radio, a new interest",
+      "subtitle": "Reflecting on experience",
+      "theme": "Reflecting on experience",
+      "text": "“{E095|Looking back}, {E100|I was initially hesitant} to join the repair group,” Mira said. “{E098|What stood out to me was} how patiently everyone explained things. {E099|One thing I appreciate is} that a beginner can ask simple questions. {E101|I eventually realized that} being useful did not mean knowing everything. {E103|It made me realize that} I could contribute while still learning.” Her example was specific: she had cleaned and labeled the parts of a donated radio.",
+      "targets": [
+        "E095",
+        "E100",
+        "E098",
+        "E099",
+        "E101",
+        "E103"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 27,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "library-thoughts",
+      "title": "A conversation on the way home",
+      "subtitle": "Natural personal opinions",
+      "theme": "Natural personal opinions",
+      "text": "“{E093|For the most part}, I prefer learning with someone else,” said Mira. “{E094|A good example would be} the day we repaired the radio.” Omar preferred quieter work, and she answered, “{E097|I can see why} that suits you. {E096|That said}, explaining an idea aloud helps me notice gaps.” When he asked about future plans, she paused: “{E104|One thing that comes to mind} is a regular repair club. {E102|If I had the opportunity}, I would help organize one.”",
+      "targets": [
+        "E093",
+        "E094",
+        "E097",
+        "E096",
+        "E104",
+        "E102"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 28,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "busy-calendar",
+      "title": "The calendar with empty spaces",
+      "subtitle": "Habits that can continue",
+      "theme": "Habits that can continue",
+      "text": "To {E106|manage my time effectively}, I first needed to {E105|set realistic goals}. I could not fill every evening with extra work. I chose to {E107|maintain a consistent routine} and {E108|keep track of deadlines} on a small calendar. This helped me {E109|stay on top of} important commitments. I would {E110|allocate sufficient time} for travel and {E111|prioritize urgent tasks}, while leaving room for unexpected changes.",
+      "targets": [
+        "E106",
+        "E105",
+        "E107",
+        "E108",
+        "E109",
+        "E110",
+        "E111"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 29,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "rest-is-part",
+      "title": "The evening left free",
+      "subtitle": "Longer-term learning",
+      "theme": "Longer-term learning",
+      "text": "Mira wanted to {E112|maintain a healthy balance} between useful activity and rest. {E113|Over the long term}, a routine had to fit her actual life. She could {E114|put in consistent effort} without doing the same amount every evening. Rest was {V01|beneficial} for her concentration. {B08|In the long run}, she hoped to {C08|gain valuable insights} from many small experiences. The new routine could {C12|have a positive impact on} her work without taking over every other part of her day.",
+      "targets": [
+        "E112",
+        "E113",
+        "E114",
+        "V01",
+        "B08",
+        "C08",
+        "C12"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 30,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "funding-conversation",
+      "title": "A modest proposal",
+      "subtitle": "Reasoning without invented certainty",
+      "theme": "Reasoning without invented certainty",
+      "text": "The group wanted to {B05|address an issue} with the old equipment, but a replacement had to be {A01|feasible}. Their proposal needed a {A02|coherent} explanation, a {A06|reliable} estimate and a {A09|relevant} example. A {A03|substantial} increase in capacity was attractive, but there was a {A10|trade-off} between cost and convenience. “{C18|I would argue that} easier access matters more than extra features,” said Mira. They would make the room {A07|accessible} before buying a larger screen.",
+      "targets": [
+        "B05",
+        "A01",
+        "A02",
+        "A06",
+        "A09",
+        "A03",
+        "A10",
+        "C18",
+        "A07"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 31,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "reading-a-study",
+      "title": "Before quoting a study",
+      "subtitle": "Evidence and implications",
+      "theme": "Evidence and implications",
+      "text": "An article gave the group {A04|empirical} information about similar public spaces. Leena checked for {A08|bias} and asked what one practical {A05|implication} might be. She could write “{B12|Research suggests that}” only if she had actually read and understood the source. A confident introduction would not turn a weak result into strong evidence. She decided to describe the study’s limits as well as its useful observations. {B07|As a result}, the proposal became more careful and easier to question.",
+      "targets": [
+        "A04",
+        "A08",
+        "A05",
+        "B12",
+        "B07"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 32,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "careful-report",
+      "title": "A careful report",
+      "subtitle": "Evidence and word choice",
+      "theme": "Evidence and word choice",
+      "text": "The first report gave a {W001|nuanced} account of the problem rather than blaming one person. A {W002|rigorous} check made its evidence more {W003|credible}. Some answers were {W004|ambiguous}, so the team did not pretend there was only one {W005|plausible} explanation. They needed a {W006|robust} method and more {W007|precise} questions. A useful report could admit uncertainty without becoming vague.",
+      "targets": [
+        "W001",
+        "W002",
+        "W003",
+        "W004",
+        "W005",
+        "W006",
+        "W007"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 33,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "two-accounts",
+      "title": "Two accounts of the same visit",
+      "subtitle": "Separating observation and judgment",
+      "theme": "Separating observation and judgment",
+      "text": "An {W008|impartial} reviewer compared the two accounts. They contained {W009|contradictory} details, and the early figures were only {W010|preliminary}. The reviewer looked for an {W011|underlying} difference in how the visits were recorded. A change could be {W012|significant} without being {W013|indicative} of a lasting trend. She separated an {W014|objective} record of arrival times from a {W015|subjective} judgment that the visit felt rushed.",
+      "targets": [
+        "W008",
+        "W009",
+        "W010",
+        "W011",
+        "W012",
+        "W013",
+        "W014",
+        "W015"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 34,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "notice-board",
+      "title": "The notice-board investigation",
+      "subtitle": "Thinking clearly",
+      "theme": "Thinking clearly",
+      "text": "A {W016|methodical} review began with the messages residents had actually received. A {W017|comprehensive} account included both the paper notice and the online update. It was {W018|logical} to compare the two before proposing a fix. The team would {W065|infer} a possible misunderstanding from the replies, but would not {W073|assume} that everyone had read the same notice. A confident statement needed evidence to {W074|substantiate} it.",
+      "targets": [
+        "W016",
+        "W017",
+        "W018",
+        "W065",
+        "W073",
+        "W074"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 35,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "learning-circle",
+      "title": "The learning circle",
+      "subtitle": "Ways to learn together",
+      "theme": "Ways to learn together",
+      "text": "The new group was {W020|collaborative}, but it also supported {W019|autonomous} work between meetings. An {W021|engaging} demonstration led into an {W022|interactive} activity. Each member offered one {W023|constructive} comment on a draft. The tutor wanted {W024|contextual} understanding: learners should know when a phrase fits, not just its definition. The workshop’s {W025|experiential} approach gave them something concrete to discuss afterward.",
+      "targets": [
+        "W020",
+        "W019",
+        "W021",
+        "W022",
+        "W023",
+        "W024",
+        "W025"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 36,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "different-minds",
+      "title": "Different minds at the table",
+      "subtitle": "Participation and perspective",
+      "theme": "Participation and perspective",
+      "text": "The design meeting was {W027|inclusive}: diagrams, spoken explanations and written notes were all welcome. The {W028|interdisciplinary} team combined practical, artistic and {W026|analytical} skills. An {W030|attentive} listener noticed a concern the others had missed. A short {W029|reflective} pause gave everyone time to reconsider the plan. Being {W031|motivated} did not mean speaking constantly; sometimes the most useful contribution was a careful question.",
+      "targets": [
+        "W027",
+        "W028",
+        "W026",
+        "W030",
+        "W029",
+        "W031"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 37,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "unusual-library",
+      "title": "An unusual library idea",
+      "subtitle": "Persistence and practical innovation",
+      "theme": "Persistence and practical innovation",
+      "text": "A {W032|persistent} volunteer kept looking for a place to store the shared tools. Her {W033|innovative} idea was a small borrowing cabinet inside an existing shop. The plan had to remain {W034|adaptable} as demand changed. It needed an {W035|efficient} booking process, but a {W036|productive} conversation with the shopkeeper mattered first. A {W037|systematic} list of safety checks helped the group decide which tools could be borrowed.",
+      "targets": [
+        "W032",
+        "W033",
+        "W034",
+        "W035",
+        "W036",
+        "W037"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 38,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "small-goals",
+      "title": "A plan small enough to finish",
+      "subtitle": "Work and decisions",
+      "theme": "Work and decisions",
+      "text": "A {W038|consistent} routine made the project feel {W041|manageable}. The team chose an {W039|attainable} first goal rather than an impressive promise. A {W040|strategic} decision was to borrow equipment before buying it. When the deadline changed, the organizer took {W042|decisive} action, while a {W043|resourceful} colleague found another printer. Careful preparation had made quick action possible.",
+      "targets": [
+        "W038",
+        "W041",
+        "W039",
+        "W040",
+        "W042",
+        "W043"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 39,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "detailed-plan",
+      "title": "The detailed plan that could change",
+      "subtitle": "Planning without rigidity",
+      "theme": "Planning without rigidity",
+      "text": "The organizer was {W044|meticulous} about dates and safety checks. A {W045|dependable} colleague confirmed the deliveries. Their plan was also {W046|pragmatic}: if a cheaper arrangement worked, they would use it. A {W047|flexible} timetable allowed for late arrivals. The organizer’s {W048|decisiveness} was useful only because she listened to the new information before choosing.",
+      "targets": [
+        "W044",
+        "W045",
+        "W046",
+        "W047",
+        "W048"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 40,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "shared-heating",
+      "title": "A warmer community room",
+      "subtitle": "Resources and fairness",
+      "theme": "Resources and fairness",
+      "text": "The group wanted an {W049|equitable} arrangement for using the heated room. It had to remain {W050|affordable} when funds were {W052|scarce}. A {W051|renewable} energy option was attractive, but it was not yet practical for this building. There was {W053|widespread} support for fixing the insulation first. Leaving the room closed all winter would have a {W054|detrimental} effect on the groups that met there.",
+      "targets": [
+        "W049",
+        "W050",
+        "W052",
+        "W051",
+        "W053",
+        "W054"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 41,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "new-tools",
+      "title": "A new tool, carefully introduced",
+      "subtitle": "Change and unintended effects",
+      "theme": "Change and unintended effects",
+      "text": "An {W055|emerging} booking technology looked promising, but the volunteers checked for {W056|adverse} effects on people without smartphones. The {W057|pervasive} assumption that everyone was online needed questioning. A {W058|gradual} change would let people learn the system. An {W059|unprecedented} number of requests could still create problems. Clear alternatives could {W060|mitigate} confusion rather than {W061|exacerbate} an existing gap.",
+      "targets": [
+        "W055",
+        "W056",
+        "W057",
+        "W058",
+        "W059",
+        "W060",
+        "W061"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 42,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "clearer-meeting",
+      "title": "A clearer meeting",
+      "subtitle": "Useful thinking verbs",
+      "theme": "Useful thinking verbs",
+      "text": "A small diagram could {W062|enhance} the explanation and {W063|facilitate} discussion. The chair would {W064|allocate} time to each question. She asked people to {W071|clarify} what they meant, {W069|illustrate} it with an example and {W070|distinguish} a fact from an interpretation. A quiet reply might {W066|imply} uncertainty, but she would ask rather than guess.",
+      "targets": [
+        "W062",
+        "W063",
+        "W064",
+        "W071",
+        "W069",
+        "W070",
+        "W066"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 43,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "last-page",
+      "title": "Before the final page",
+      "subtitle": "Understanding and checking",
+      "theme": "Understanding and checking",
+      "text": "The notes seemed to {W067|indicate} a change in preferences, but one interview appeared to {W068|contradict} that pattern. The team needed to {W075|interpret} both accounts fairly. They would {W077|analyze} the replies, {W076|assess} the limits and {W078|synthesize} the main ideas. Finally, someone would {W079|summarize} the findings and {W080|verify} the dates. The report would {W072|emphasize} what they had learned without hiding what remained unclear.",
+      "targets": [
+        "W067",
+        "W068",
+        "W075",
+        "W077",
+        "W076",
+        "W078",
+        "W079",
+        "W080",
+        "W072"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 44,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "opinions-at-lunch",
+      "title": "Opinions at the lunch table",
+      "subtitle": "Different strengths of opinion",
+      "theme": "Different strengths of opinion",
+      "text": "“{P004|As far as I’m concerned}, a useful café needs room for conversation,” said Nila. “{P182|The way I see it}, the music is too loud.” Omar replied, “{P183|I’d say that} the owner wants a lively atmosphere. {P006|It seems to me that} a quiet hour could suit both groups.” Nila did not need to sound certain about the owner’s intention. Her own preference was clear; the explanation for his choice was only an impression.",
+      "targets": [
+        "P004",
+        "P182",
+        "P183",
+        "P006"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 45,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "strong-and-tentative",
+      "title": "A claim worth qualifying",
+      "subtitle": "Confidence and support",
+      "theme": "Confidence and support",
+      "text": "“{P002|I firmly believe that} everyone should be able to enter the building safely,” said the volunteer. “{P016|I am convinced that} the broken handrail needs attention.” On the larger funding question, she was more tentative: “{P007|I am inclined to think that} repairing the existing entrance is better than adding a separate one.” Her confidence changed with the kind of evidence she had, not with the length of the phrase.",
+      "targets": [
+        "P002",
+        "P016",
+        "P007"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 46,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "fair-disagreement",
+      "title": "A fair disagreement",
+      "subtitle": "Concession and limits",
+      "theme": "Concession and limits",
+      "text": "“{P010|I completely agree with} making the workshop affordable,” said the manager. “{P037|While it is true that} free places would help some residents, we still have material costs.” A volunteer answered, “{P013|To a certain extent}, donations could cover them. {P038|Having said that}, we cannot depend on donations alone.” “{P187|To be fair}, neither proposal solves everything,” said Nila. They returned to the costs instead of treating disagreement as a personal insult.",
+      "targets": [
+        "P010",
+        "P037",
+        "P013",
+        "P038",
+        "P187"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 47,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "uncertain-opening",
+      "title": "Is the center open?",
+      "subtitle": "Honest uncertainty",
+      "theme": "Honest uncertainty",
+      "text": "“{P185|As far as I know}, the center opens at nine,” said Omar. “{P188|If I remember correctly}, the notice mentions a later start this Saturday.” Nila checked her phone. “{P184|I’m not entirely sure} the online listing has been updated.” “{P186|To be honest}, I would rather call than make the whole group wait outside,” she added. Whether they could begin on time, Omar agreed, {P191|depends on} getting a clear answer.",
+      "targets": [
+        "P185",
+        "P188",
+        "P184",
+        "P186",
+        "P191"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 48,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "important-not-loud",
+      "title": "An important point, calmly made",
+      "subtitle": "Emphasis without exaggeration",
+      "theme": "Emphasis without exaggeration",
+      "text": "“{P020|The key point is that} people need a safe route home,” said the organizer. “{P018|My primary concern is} the late bus connection.” She wanted to {P112|draw attention to} a practical problem, not make the speech dramatic. Transport became a {P131|high priority}, and the final departure time was a {P139|key factor} in the plan. “{P015|It is worth considering} an earlier finish,” a colleague suggested.",
+      "targets": [
+        "P020",
+        "P018",
+        "P112",
+        "P131",
+        "P139",
+        "P015"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 49,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "claims-not-certainty",
+      "title": "When emphasis goes too far",
+      "subtitle": "Belief, fact and careful wording",
+      "theme": "Belief, fact and careful wording",
+      "text": "“{P008|There is no denying that} the entrance is narrow,” said the guide, pointing at the doorway. The next statement was less certain: “{P009|It is widely believed that} the building once had another entrance.” She explained that local belief was not proof of the building’s history. “{P202|What I want to emphasize is} the difference between what we can observe and what we still need to check.” Visitors could question the story without disputing the visible doorway.",
+      "targets": [
+        "P008",
+        "P009",
+        "P202"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 50,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "two-good-reasons",
+      "title": "Two reasons, not ten connectors",
+      "subtitle": "Adding support",
+      "theme": "Adding support",
+      "text": "The library proposal offered more than extra shelves. {P021|In addition to} lending tools, it could host short demonstrations. “The room is accessible. {P022|Furthermore}, it is beside the main bus stop,” the coordinator wrote in a formal proposal. Another member added, “The existing staff can manage the small pilot. {P023|Moreover}, we already have secure storage.” In the spoken meeting, they used simpler wording: the project could provide {P036|not only equipment but also advice}. Each addition supplied a new reason.",
+      "targets": [
+        "P021",
+        "P022",
+        "P023",
+        "P036"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 51,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "comparing-schedules",
+      "title": "Two timetables side by side",
+      "subtitle": "Making a fair comparison",
+      "theme": "Making a fair comparison",
+      "text": "The morning group needed quiet work; the evening group needed quick access after work. {P033|Similarly}, both needed a room they could reach without stairs. {P034|Unlike} the old timetable, the revised one left space between bookings. {P039|In comparison with} the first plan, it was less crowded. {P026|By comparison}, the weekend arrangement was almost unchanged. The team compared the same features each time, {P212|as opposed to} choosing whichever detail made one plan look best.",
+      "targets": [
+        "P033",
+        "P034",
+        "P039",
+        "P026",
+        "P212"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 52,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "two-small-projects",
+      "title": "What can travel between projects?",
+      "subtitle": "Comparing a process",
+      "theme": "Comparing a process",
+      "text": "The garden team tested one small area before changing the whole space. {P032|In the same way}, the library could test a short borrowing period before expanding it. The projects were different, but the process was comparable. {P029|Despite the fact that} the library had more visitors, it could still begin with a limited trial. The rules would apply {P040|regardless of} who borrowed the tools. Fairness meant explaining the same conditions to everyone.",
+      "targets": [
+        "P032",
+        "P029",
+        "P040"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 53,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "correcting-a-claim",
+      "title": "Correcting the wrong impression",
+      "subtitle": "Contrast and direct correction",
+      "theme": "Contrast and direct correction",
+      "text": "“A trial means the group has no confidence in the idea,” said a visitor. “{P219|On the contrary}, it shows that we are willing to check whether it works,” replied the coordinator. She was correcting a claim, not merely introducing another topic. {P205|In this context}, a trial was a way to learn. {P060|More specifically}, the team wanted to understand waiting times, {P053|in particular} on busy evenings. Capacity mattered {P055|especially when} several people requested the same tool. {P211|In terms of} safety, the rules would be the same from the start.",
+      "targets": [
+        "P219",
+        "P205",
+        "P060",
+        "P053",
+        "P055",
+        "P211"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 54,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "examples-that-help",
+      "title": "An example that actually explains",
+      "subtitle": "Illustration and precision",
+      "theme": "Illustration and precision",
+      "text": "“Some tools are difficult for beginners,” said the trainer. “{P041|For example}, this heavy drill requires more control.” She chose another object: “{P042|For instance}, a small hand tool is easier to demonstrate.” {P043|To illustrate} the difference, she let visitors compare the handles. She began with simple tools {P054|such as} pliers and screwdrivers. The visitors needed to see the distinction, not hear several introductory phrases in one sentence.",
+      "targets": [
+        "P041",
+        "P042",
+        "P043",
+        "P054"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 55,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-clear-case",
+      "title": "A clear case from the garden",
+      "subtitle": "Choosing and explaining an example",
+      "theme": "Choosing and explaining an example",
+      "text": "The raised planter was {P044|a case in point}: a small change had made the garden easier to use. “{P056|One notable example is} the lower section for seated gardeners,” said the guide. {P045|As an illustration}, she described a visitor who could now reach the herbs. The path was shared, {P058|that is to say}, nobody needed a separate entrance. “{P059|To put it simply}, the design lets more people take part.”",
+      "targets": [
+        "P044",
+        "P056",
+        "P045",
+        "P058",
+        "P059"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 56,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "source-on-the-table",
+      "title": "Put the source on the table",
+      "subtitle": "Attributing evidence honestly",
+      "theme": "Attributing evidence honestly",
+      "text": "“{P047|According to} the maintenance log, the lamp failed last month,” said Nila. “{P051|Based on} those dates, we should ask whether the reports reached the repair team.” The log could {P105|support a claim} about a delay, but they still needed to {P106|evaluate evidence} from other records. A neat chart was not automatically {P122|compelling evidence}. Someone had to check how the information was collected.",
+      "targets": [
+        "P047",
+        "P051",
+        "P105",
+        "P106",
+        "P122"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 57,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "what-research-means",
+      "title": "What does the evidence allow?",
+      "subtitle": "Language for actual evidence",
+      "theme": "Language for actual evidence",
+      "text": "The tutor wrote three possible openings on the board: “{P049|Evidence indicates that},” “{P050|Studies have shown that},” and “I think.” The first two required actual evidence; the last clearly marked a personal position. {P052|In practice}, writers sometimes confused those roles. “{P046|This is evident in} a draft that mentions research but names no finding,” she explained. The class practiced distinguishing a sourced claim from an observation instead of inventing a result to sound authoritative.",
+      "targets": [
+        "P049",
+        "P050",
+        "P052",
+        "P046"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 58,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "garden-labels",
+      "title": "Labels beside the pond",
+      "subtitle": "Defining and describing",
+      "theme": "Defining and describing",
+      "text": "The guide explained that “habitat” {P206|refers to} an organism’s natural home. A wetland {P207|is defined as} land with water conditions that shape its living community. The small display {P208|consists of} a map, a photograph and a model. Its frame {P209|is composed of} reused wood. The garden {P210|is characterized by} several shallow pools. Definitions explained what something meant; descriptions showed what this particular place was like.",
+      "targets": [
+        "P206",
+        "P207",
+        "P208",
+        "P209",
+        "P210"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 59,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "missed-connection",
+      "title": "Why the connection was missed",
+      "subtitle": "Naming a cause",
+      "theme": "Naming a cause",
+      "text": "The group missed the bus {P063|because of} a changed meeting point. {P061|Due to} the old notice, two members waited at the wrong entrance. {P062|Owing to} road works, the bus could not stop near them. The confusion seemed to {P069|stem from} two announcements that had not been updated together. Part of the delay could {P070|be attributed to} the road works, but the group still needed to correct its own instructions.",
+      "targets": [
+        "P063",
+        "P061",
+        "P062",
+        "P069",
+        "P070"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 60,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "one-change-many-effects",
+      "title": "One small change, several effects",
+      "subtitle": "Outcomes and consequences",
+      "theme": "Outcomes and consequences",
+      "text": "A clearer entrance sign could {P075|bring about} a useful change in how visitors moved through the building. An unclear sign might instead {P076|give rise to} new confusion. {P065|Consequently}, the team tested the wording with actual visitors. They wanted to understand whether a small decision could {P080|have far-reaching consequences} for access. The trial revealed a problem; {P066|therefore}, the final sign was moved. “{P200|That’s why I think} a short trial was worth the effort,” said Nila.",
+      "targets": [
+        "P075",
+        "P076",
+        "P065",
+        "P080",
+        "P066",
+        "P200"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 61,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "linked-not-caused",
+      "title": "A link is not automatically a cause",
+      "subtitle": "Influence and relationships",
+      "theme": "Influence and relationships",
+      "text": "Opening later could {P073|have a significant impact on} evening attendance. Yet a {P121|significant impact} had to be demonstrated, not assumed. Weather might also {P074|have an effect on} visits. Longer opening hours could {P077|be associated with} higher attendance without being its only cause. Demand {P213|is closely related to} the needs of local users. The team would need to {P115|establish a connection} carefully before explaining the result.",
+      "targets": [
+        "P073",
+        "P121",
+        "P074",
+        "P077",
+        "P213",
+        "P115"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 62,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "before-after-finally",
+      "title": "Before, afterward, eventually",
+      "subtitle": "Putting events in order",
+      "theme": "Putting events in order",
+      "text": "{P215|Prior to} the first workshop, the volunteers checked the room. {P217|Initially}, they planned to use long tables. {P216|Subsequently}, they moved to smaller circles after noticing that people could not hear each other. {P218|Ultimately}, they chose the layout that helped everyone participate. The change had possible {P129|long-term benefits}, but they would still review it {P192|from time to time}. A useful arrangement should not become untouchable simply because it worked once.",
+      "targets": [
+        "P215",
+        "P217",
+        "P216",
+        "P218",
+        "P129",
+        "P192"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 63,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "unexpected-room",
+      "title": "The room that was unavailable",
+      "subtitle": "Facing a problem without panic",
+      "theme": "Facing a problem without panic",
+      "text": "A lost booking could {P081|pose a challenge} for the reading group. The members would {P084|face difficulties}, but they could still {P085|deal with} one issue at a time. They had {P196|run into a problem} before and found another room. The lack of step-free space continued to {P100|remain a major concern}. It was a {P138|growing concern} across several groups, especially when {P137|limited resources} made permanent changes slow.",
+      "targets": [
+        "P081",
+        "P084",
+        "P085",
+        "P196",
+        "P100",
+        "P138",
+        "P137"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 64,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "fixing-the-system",
+      "title": "Fix the process, not just today",
+      "subtitle": "Solutions at different depths",
+      "theme": "Solutions at different depths",
+      "text": "The center needed to {P082|address a problem} with repeated double bookings. Staff decided to {P086|tackle an issue} that everyone had noticed but nobody owned. A shared calendar might {P099|offer a practical solution}. To {P087|come up with a solution}, they compared actual mistakes. An {P126|effective solution} would not merely move one meeting. It would {P097|solve the underlying problem}: two staff members confirming the same room separately.",
+      "targets": [
+        "P082",
+        "P086",
+        "P099",
+        "P087",
+        "P126",
+        "P097"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 65,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "safer-route",
+      "title": "A route people can follow",
+      "subtitle": "Planning and prevention",
+      "theme": "Planning and prevention",
+      "text": "The coordinator asked the team to {P119|develop a strategy} for busy evenings. They would {P088|implement measures} such as clear arrows and a checked closing routine. They also needed to {P089|take steps to} keep the ramp clear. A wrongly placed table could {P094|prevent someone from} entering independently. The aim was to make access reliable, not require every visitor to ask for help.",
+      "targets": [
+        "P119",
+        "P088",
+        "P089",
+        "P094"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 66,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-shared-decision",
+      "title": "The decision everyone can explain",
+      "subtitle": "Agreement and evaluation",
+      "theme": "Agreement and evaluation",
+      "text": "A larger room would {P098|require careful consideration}. Before they could {P120|reach a decision}, the members had to {P114|explore possibilities}. They would not {P110|reach a consensus} simply by avoiding disagreement. A {P134|reasonable assumption} was that evening users needed a late bus, but this could {P107|raise a question} about the last departure. The final plan should {P096|meet the needs of} those users rather than merely look convenient on paper.",
+      "targets": [
+        "P098",
+        "P120",
+        "P114",
+        "P110",
+        "P134",
+        "P107",
+        "P096"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 67,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-small-investigation",
+      "title": "A question small enough to investigate",
+      "subtitle": "Research as a process",
+      "theme": "Research as a process",
+      "text": "The class would {P101|conduct research} on how visitors found the right entrance. The {P153|research project} began with one question, not a preferred answer. Students would {P102|collect data} and {P148|conduct an experiment} comparing two sign layouts. They could {P108|propose a hypothesis} about clearer arrows, then {P109|test a theory} using observations. They would {P103|analyze findings} before they could {P104|draw a conclusion} or {P111|gain insight into} the visitors’ choices.",
+      "targets": [
+        "P101",
+        "P153",
+        "P102",
+        "P148",
+        "P108",
+        "P109",
+        "P103",
+        "P104",
+        "P111"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 68,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-first-achievement",
+      "title": "Progress before perfection",
+      "subtitle": "Achievement through practice",
+      "theme": "Achievement through practice",
+      "text": "Mira wanted to {P117|pursue a goal} she could explain: completing a useful repair independently. Her {P124|practical experience} grew slowly, but she could {P116|make progress} each week. A clear explanation let her {P118|demonstrate an understanding of} the safety steps. {P123|Critical thinking} mattered when an instruction did not fit the situation. The improvement might not change her {P125|academic performance} directly, but it was still a {P140|positive outcome}. Small changes could eventually become a {P135|substantial improvement} and {P197|make a big difference} to her confidence.",
+      "targets": [
+        "P117",
+        "P124",
+        "P116",
+        "P118",
+        "P123",
+        "P125",
+        "P140",
+        "P135",
+        "P197"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 69,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "more-than-a-qualification",
+      "title": "More than a qualification",
+      "subtitle": "Education and opportunity",
+      "theme": "Education and opportunity",
+      "text": "A community program hoped to {P091|improve access to} practical learning. Residents would have {P130|immediate access} to advice during the weekly drop-in. Some hoped to {P150|apply for a scholarship}, {P151|earn a degree} or {P152|pursue higher education}. Others simply wanted {P132|meaningful interaction} and useful skills. Their {P133|diverse perspectives} challenged a {P136|common misconception}: learning matters only when it leads to a formal qualification. The repair project also connected those skills with {P127|sustainable development}.",
+      "targets": [
+        "P091",
+        "P130",
+        "P150",
+        "P151",
+        "P152",
+        "P132",
+        "P133",
+        "P136",
+        "P127"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 70,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-new-semester",
+      "title": "The first week of a course",
+      "subtitle": "Campus routines as everyday situations",
+      "theme": "Campus routines as everyday situations",
+      "text": "Before the term began, Omar had to {P160|register for classes} and check the {P156|course requirements}. He planned to {P143|attend a lecture}, {P144|take notes} and ask questions during {P155|office hours}. To {P141|meet a deadline}, he needed to {P142|submit an assignment} before leaving for a family visit. His goal was to {P149|complete a course} without pretending that he could do all the work in one night.",
+      "targets": [
+        "P160",
+        "P156",
+        "P143",
+        "P144",
+        "P155",
+        "P141",
+        "P142",
+        "P149"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 71,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "catching-up",
+      "title": "Catching up without giving up",
+      "subtitle": "Managing missed work",
+      "theme": "Managing missed work",
+      "text": "A short illness caused Omar to {P157|fall behind}. He needed to {P158|catch up on} missed reading and {P159|keep track of} revised dates. His tutor asked him to {P147|seek clarification} whenever an instruction was unclear. During the next class he could {P145|participate in a discussion} rather than wait until he knew everything. His teammates would {P146|provide feedback} as they began to {P154|work on a group project}.",
+      "targets": [
+        "P157",
+        "P158",
+        "P159",
+        "P147",
+        "P145",
+        "P146",
+        "P154"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 72,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "one-polite-question",
+      "title": "A question with a purpose",
+      "subtitle": "Requesting and responding",
+      "theme": "Requesting and responding",
+      "text": "“{P162|With regard to} the room booking, {P164|I was wondering whether} the entrance will be open before nine,” wrote Nila. The coordinator answered, “{P169|Thank you for bringing this to my attention}. I will check with the caretaker.” Nila could {P177|follow up on} the request if no answer arrived, but she would first allow a reasonable amount of time. Politeness did not require hiding the practical question.",
+      "targets": [
+        "P162",
+        "P164",
+        "P169",
+        "P177"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 73,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "the-attachment",
+      "title": "Before pressing Send",
+      "subtitle": "Helpful closing language",
+      "theme": "Helpful closing language",
+      "text": "Nila checked the message one last time. “{P174|I have attached} the list of equipment we need. {P173|Please let me know if} anything is missing. A reply {P172|at your earliest convenience} would help us arrange the collection. {P175|Thank you for taking the time to} review the plan.” She used the request only because the timing genuinely mattered. A closing phrase should support the message rather than create unnecessary pressure.",
+      "targets": [
+        "P174",
+        "P173",
+        "P172",
+        "P175"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 74,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "learning-a-place",
+      "title": "Learning a place, not a script",
+      "subtitle": "Sharing personal experience",
+      "theme": "Sharing personal experience",
+      "text": "“{P181|In my experience}, a regular small activity makes it easier to meet people,” Mira said. “{P198|One thing I appreciate about} this group is that beginners can contribute.” It took time to {P194|get used to} unfamiliar tools and to {P195|figure out} which questions to ask. She could explain one concrete experience without turning it into a universal rule about everyone.",
+      "targets": [
+        "P181",
+        "P198",
+        "P194",
+        "P195"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 75,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-walk-through-the-plan",
+      "title": "A plan explained aloud",
+      "subtitle": "Guiding a listener",
+      "theme": "Guiding a listener",
+      "text": "“{P204|Let’s look at} the entrance first,” said the guide. “{P203|Moving on to} the main room, notice the clear space beside the door.” She paused so visitors could see the arrangement. “{P201|The main takeaway is} that everyone should be able to reach a seat without asking other people to move.” At the end she added, “{P220|To sum up}, the plan works only if we keep those routes clear.” The signposts helped listeners follow the explanation.",
+      "targets": [
+        "P204",
+        "P203",
+        "P201",
+        "P220"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 76,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "room-capacity",
+      "title": "Can the room hold everyone?",
+      "subtitle": "Resources and changing conditions",
+      "theme": "Resources and changing conditions",
+      "text": "The team had to {PV001|adapt} when the hall was unavailable. The smaller room had {PV002|adequate} seating, but its {PV007|capacity} was limited. The problem became {PV005|apparent} when the final bookings arrived. Their plan would {PV009|consist} of two short sessions rather than one crowded meeting. Volunteers would {PV011|distribute} the materials between the sessions. A {PV015|subsequent} check would show whether they could {PV014|maintain} a comfortable working {PV013|environment} for both groups. One possible {PV008|consequence} was a longer afternoon for the organizers.",
+      "targets": [
+        "PV001",
+        "PV002",
+        "PV007",
+        "PV005",
+        "PV009",
+        "PV011",
+        "PV015",
+        "PV014",
+        "PV013",
+        "PV008"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 77,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "where-energy-comes-from",
+      "title": "Where the garden’s energy comes from",
+      "subtitle": "Observation in a living space",
+      "theme": "Observation in a living space",
+      "text": "The guide asked visitors where the young plants {PV010|derive} their energy from. A child pointed toward the sunlight. The group waited for a clearer pattern to {PV012|emerge}: plants in the shaded corner were growing differently. One person began to {PV033|attribute} the difference to water alone. The guide suggested another {PV032|approach}: compare the light and water separately. Growth could {PV039|fluctuate}, so a single measurement was not a strong basis for a conclusion. They needed a {PV045|valid} comparison and a clear {PV036|criterion} for judging the result.",
+      "targets": [
+        "PV010",
+        "PV012",
+        "PV033",
+        "PV032",
+        "PV039",
+        "PV045",
+        "PV036"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 78,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "booking-details",
+      "title": "The booking details",
+      "subtitle": "Practical arrangements",
+      "theme": "Practical arrangements",
+      "text": "Nila made an {PV016|appointment} to inspect the room and checked its {PV017|availability}. A written {PV018|confirmation} would help prevent another lost {PV027|reservation}. The room was part of a public {PV021|facility}, but not every group was {PV020|eligible} for a reduced rate. The coordinator explained one important {PV022|guideline}: exits must stay clear. Attendance at a safety briefing was {PV023|mandatory} for the lead organizer. Nila could now explain the conditions to the rest of the group.",
+      "targets": [
+        "PV016",
+        "PV017",
+        "PV018",
+        "PV027",
+        "PV021",
+        "PV020",
+        "PV022",
+        "PV023"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 79,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "cancellation-notice",
+      "title": "A notice nobody should miss",
+      "subtitle": "Changes and required action",
+      "theme": "Changes and required action",
+      "text": "A sudden {PV019|cancellation} forced the team to {PV025|postpone} the workshop. The coordinator would {PV024|notify} everyone and explain the {PV026|refund} arrangement. The {PV029|revised} date also required a different {PV030|venue}. One parking {PV028|restriction} remained in place near the new entrance. {P078|In response to} several questions, she added a map. Clear information about what changed was more useful than a long explanation of how disappointing the change had been.",
+      "targets": [
+        "PV019",
+        "PV025",
+        "PV024",
+        "PV026",
+        "PV029",
+        "PV030",
+        "PV028",
+        "P078"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 80,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-phone-call",
+      "title": "A phone call that saves a journey",
+      "subtitle": "Natural conversational words",
+      "theme": "Natural conversational words",
+      "text": "“Is the room {PV048|available} on Friday?” Nila asked. “{PV046|Actually}, Thursday is easier,” the caretaker replied. “{PV047|Apparently}, a delivery is expected on Friday, but I need to {PV049|confirm} the time.” “Would Thursday afternoon be {PV050|convenient}?” she asked. “{PV051|Definitely}. Come at two.” “Two {PV052|exactly}?” “Yes. I can show you the room then, {PV053|instead} of making you wait outside.” The brief exchange settled a practical detail without sounding formal or rehearsed.",
+      "targets": [
+        "PV048",
+        "PV046",
+        "PV047",
+        "PV049",
+        "PV050",
+        "PV051",
+        "PV052",
+        "PV053"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 81,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "another-small-change",
+      "title": "One more small change",
+      "subtitle": "Polite conversation",
+      "theme": "Polite conversation",
+      "text": "“I will {PV054|probably} arrive a little early,” said Omar. “Could you {PV055|remind} me which entrance to use?” Nila checked the message. “We need to {PV056|reschedule} the visit. I am {PV057|sorry}; the caretaker has another appointment.” “Are you {PV058|sure}?” he asked. “Yes. {PV059|Unfortunately}, nobody else can open the room.” She added, “{PV060|Would you mind} meeting on Monday instead?” The request allowed Omar to say whether the change worked for him.",
+      "targets": [
+        "PV054",
+        "PV055",
+        "PV056",
+        "PV057",
+        "PV058",
+        "PV059",
+        "PV060"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 82,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "advising-meeting",
+      "title": "A useful advising meeting",
+      "subtitle": "Managing a course",
+      "theme": "Managing a course",
+      "text": "Omar asked his {PV061|advisor} about a timetable {PV064|conflict}. His {PV063|assignment} was due just before a family visit, so he wanted a realistic {PV062|arrangement}. An {PV067|extension} might help, but he needed {PV069|permission}, not an assumption. The tutor explained the final {PV066|deadline}, the course {PV065|credit} and a {PV070|prerequisite} for the next class. A clear answer was more useful than promising to finish everything immediately.",
+      "targets": [
+        "PV061",
+        "PV064",
+        "PV063",
+        "PV062",
+        "PV067",
+        "PV069",
+        "PV066",
+        "PV065",
+        "PV070"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 83,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "course-change",
+      "title": "Changing one course",
+      "subtitle": "Workload and practical choices",
+      "theme": "Workload and practical choices",
+      "text": "A different class required a small {PV068|fee}, and Omar needed a suitable {PV071|replacement} for the time slot he would miss. The office hoped to {PV072|resolve} the issue before the new {PV073|semester}. A course {PV074|transfer} was possible if he completed the paperwork. The decision also depended on his {PV075|workload}. Changing one class would not help if the new timetable created even more pressure elsewhere.",
+      "targets": [
+        "PV068",
+        "PV071",
+        "PV072",
+        "PV073",
+        "PV074",
+        "PV075"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 84,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "hall-entrance",
+      "title": "At the hall entrance",
+      "subtitle": "Notices and shared spaces",
+      "theme": "Notices and shared spaces",
+      "text": "The notice announced a {PV089|temporary} {PV079|closure} of the main {PV077|auditorium}. Visitors should use the {PV081|designated} entrance at the rear. A new {PV085|location} was listed for the opening talk, which would {PV080|commence} at ten. {PV076|Attendance} at that talk was optional, but a safety session was a {PV087|requirement} for people operating equipment. One clear {PV090|update} could prevent several different misunderstandings.",
+      "targets": [
+        "PV089",
+        "PV079",
+        "PV077",
+        "PV081",
+        "PV085",
+        "PV080",
+        "PV076",
+        "PV087",
+        "PV090"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 85,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "joining-the-session",
+      "title": "Joining a session",
+      "subtitle": "Conditions and exceptions",
+      "theme": "Conditions and exceptions",
+      "text": "Workshop {PV083|enrollment} would remain open until Friday. The final form was {PV082|due} at noon. {PV086|Participation} did not require previous experience, but everyone had to follow the safety instructions. The coordinator could {PV088|suspend} an activity if those instructions were ignored. An {PV084|exception} to the equipment rule required a separate review; being an experienced visitor did not automatically remove the condition.",
+      "targets": [
+        "PV083",
+        "PV082",
+        "PV086",
+        "PV088",
+        "PV084"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 86,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-process-explained",
+      "title": "A process, explained step by step",
+      "subtitle": "Understanding an explanation",
+      "theme": "Understanding an explanation",
+      "text": "The guide used a small model to {PV095|demonstrate} the filtration {PV102|process}. A diagram showed the {PV104|sequence} of steps. It helped visitors understand a difficult {PV092|concept} without knowing technical terms first. Her {PV097|emphasis} was on what each stage did. A {PV093|conventional} model had one {PV100|limitation}: it could not show every feature of the real stream. The guide made that clear rather than let the model create a misleading {PV091|assumption}.",
+      "targets": [
+        "PV095",
+        "PV102",
+        "PV104",
+        "PV092",
+        "PV097",
+        "PV093",
+        "PV100",
+        "PV091"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 87,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "one-pattern-two-explanations",
+      "title": "One pattern, two explanations",
+      "subtitle": "Thinking about relationships",
+      "theme": "Thinking about relationships",
+      "text": "The class noticed a {PV094|correlation} between sunlight and plant growth, but that pattern did not explain the whole {PV101|phenomenon}. They needed to {PV096|differentiate} two {PV037|distinct} possibilities: more light might help directly, or the sunnier corner might also be warmer. A possible {PV042|mechanism} had to explain how the change happened. Naming a relationship was not the same as showing its cause.",
+      "targets": [
+        "PV094",
+        "PV101",
+        "PV096",
+        "PV037",
+        "PV042"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 88,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "permission-with-conditions",
+      "title": "Permission with conditions",
+      "subtitle": "Joining ideas precisely",
+      "theme": "Joining ideas precisely",
+      "text": "The team could use the courtyard {PV112|provided that} they kept the path clear. They could not begin {PV111|unless} the caretaker confirmed access. {PV106|Although} the weather looked good, they kept an indoor option. They did not know {PV114|whether} every visitor could use the garden entrance. {PV110|However}, the side door offered another route. They checked the map {PV116|in order to} avoid sending people to the wrong place, {PV107|because} an unclear direction could delay the whole group.",
+      "targets": [
+        "PV112",
+        "PV111",
+        "PV106",
+        "PV114",
+        "PV110",
+        "PV116",
+        "PV107"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 89,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-beginner-can-help",
+      "title": "A beginner can still help",
+      "subtitle": "Ability, interest and responsibility",
+      "theme": "Ability, interest and responsibility",
+      "text": "Mira was {PV118|interested in} repairing radios, but she did not claim to know every part. She was {PV117|responsible for} labeling the pieces she removed. The tutor asked whether she was {PV119|capable of} explaining the safety check in her own words. Doing that mattered more than repeating a phrase she did not understand. With help, she could describe each step clearly and notice where she needed another explanation.",
+      "targets": [
+        "PV118",
+        "PV117",
+        "PV119"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 90,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-considerate-request",
+      "title": "A considerate request",
+      "subtitle": "Asking without hiding the purpose",
+      "theme": "Asking without hiding the purpose",
+      "text": "Nila wanted to {PV125|inquire} about the booking and {PV132|request} a short visit. She needed {PV122|clarification} about the entrance, not a favor nobody could identify. “I would {PV121|appreciate} your advice,” she wrote. “Thank you for your {PV123|consideration}.” The coordinator replied that a visit could be arranged at her {PV124|convenience}. A polite message still needed enough detail for someone to answer it.",
+      "targets": [
+        "PV125",
+        "PV132",
+        "PV122",
+        "PV121",
+        "PV123",
+        "PV124"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 91,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "the-follow-up",
+      "title": "A useful follow-up",
+      "subtitle": "Respectful contact",
+      "theme": "Respectful contact",
+      "text": "Omar sent a short {PV128|follow-up} after receiving no reply. He did not assume the silence was intentional. He explained the possible {PV129|inconvenience} and offered to {PV131|propose} a different date. The message included the original question, so the coordinator would not have to search for it. When she replied, he confirmed the arrangement and stopped sending reminders. Good follow-up helps complete a task rather than create pressure for its own sake.",
+      "targets": [
+        "PV128",
+        "PV129",
+        "PV131"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 92,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "choosing-what-matters",
+      "title": "Choosing what matters",
+      "subtitle": "Reasons rather than impressive wording",
+      "theme": "Reasons rather than impressive wording",
+      "text": "The cheaper room had one clear {PV136|advantage}: the group could afford to meet regularly. A possible {PV137|alternative} was sharing a larger room with another club. The {PV142|drawback} was reduced control over the schedule. Nila asked everyone to {PV141|consider} the practical {PV139|benefit} of each option. A strong personal {PV147|perspective} was welcome, but a person should not {PV138|assert} a claim without explaining it. Their main {PV140|concern} was access, and that became the first {PV148|priority}. They needed {PV144|evidence} to {PV146|justify} the extra cost.",
+      "targets": [
+        "PV136",
+        "PV137",
+        "PV142",
+        "PV141",
+        "PV139",
+        "PV147",
+        "PV138",
+        "PV140",
+        "PV148",
+        "PV144",
+        "PV146"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 93,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "ready-for-visitors",
+      "title": "Ready for visitors",
+      "subtitle": "Useful everyday vocabulary",
+      "theme": "Useful everyday vocabulary",
+      "text": "The {PV156|department} confirmed the room, and the volunteers checked the {PV157|equipment}. They wanted visitors to feel {PV154|comfortable} asking questions. Clear {PV159|information} about {PV161|registration}, the {PV163|schedule} and {PV164|transportation} was placed on one page. A volunteer could {PV160|recommend} a suitable session without making everyone read the whole program. The {PV165|workshop} felt simpler because the practical details were easier to find.",
+      "targets": [
+        "PV156",
+        "PV157",
+        "PV154",
+        "PV159",
+        "PV161",
+        "PV163",
+        "PV164",
+        "PV160",
+        "PV165"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 94,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "the-first-independent-repair",
+      "title": "The first independent repair",
+      "subtitle": "Personal growth without exaggeration",
+      "theme": "Personal growth without exaggeration",
+      "text": "The repair was a useful {PV168|challenge}. Mira wanted to {PV166|accomplish} one task safely, not prove that she knew everything. She could {PV169|collaborate} with a tutor at first and then work {PV174|independently}. Finishing made her more {PV171|confident}. The day was {PV172|enjoyable} and {PV175|memorable}, but its value was also {PV178|practical}. She began to {PV177|prefer} careful explanations to fast demonstrations. Knowing when to ask a question became a {PV180|strength}.",
+      "targets": [
+        "PV168",
+        "PV166",
+        "PV169",
+        "PV174",
+        "PV171",
+        "PV172",
+        "PV175",
+        "PV178",
+        "PV177",
+        "PV180"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 95,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "the-stream-beside-the-garden",
+      "title": "The stream beside the garden",
+      "subtitle": "Nature and protection",
+      "theme": "Nature and protection",
+      "text": "The stream supported local {PV181|biodiversity}. Its {PV187|ecosystem} included insects, plants and the surrounding soil. The group learned that {PV182|conservation} involved protecting the whole {PV188|habitat}, not just one attractive species. Signs of {PV183|contamination} near a drain needed attention. Farther away, {PV184|deforestation} could worsen soil loss, while heavy rain increased {PV186|erosion}. The volunteers discussed these connections without claiming that one afternoon’s visit had answered every question.",
+      "targets": [
+        "PV181",
+        "PV187",
+        "PV182",
+        "PV188",
+        "PV183",
+        "PV184",
+        "PV186"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 96,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-resilient-garden",
+      "title": "A garden that can recover",
+      "subtitle": "Systems and change",
+      "theme": "Systems and change",
+      "text": "A varied planting plan could improve the garden’s {PV190|resilience} after dry weather. The team watched one {PV192|variable} at a time rather than change every condition together. Their deliveries also produced {PV185|emissions}, so combining several small journeys was worth considering. The point was to make a useful improvement they could maintain, not pretend that the project had no environmental cost.",
+      "targets": [
+        "PV190",
+        "PV192",
+        "PV185"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 97,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-booking-tool",
+      "title": "A booking tool people can use",
+      "subtitle": "Technology and its limits",
+      "theme": "Technology and its limits",
+      "text": "The proposed {PV193|algorithm} sorted requests by the time they arrived. Some {PV194|automation} could improve {PV198|efficiency}, but only if the {PV197|dataset} was accurate. The team checked the {PV195|accuracy} of several entries before trusting the output. A simple {PV199|interface} mattered to the users. Protecting {PV200|privacy} mattered too. A {PV202|scalable} system was useful only if it continued to work as requests increased. Careful {PV203|validation} helped reveal mistakes and communicate {PV204|uncertainty}.",
+      "targets": [
+        "PV193",
+        "PV194",
+        "PV198",
+        "PV197",
+        "PV195",
+        "PV199",
+        "PV200",
+        "PV202",
+        "PV203",
+        "PV204"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 98,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-neighborhood-budget",
+      "title": "A neighborhood budget",
+      "subtitle": "Public choices and fairness",
+      "theme": "Public choices and fairness",
+      "text": "The council discussed {PV206|affordability} before deciding on a new service. The {PV207|allocation} of funds should consider local needs, not just the loudest request. A {PV208|demographic} change meant more older residents needed reliable routes. Poor {PV210|infrastructure} could increase {PV209|inequality} in access to work and services. A small {PV215|subsidy} was one option, while a better timetable might improve {PV213|productivity} by reducing wasted travel time.",
+      "targets": [
+        "PV206",
+        "PV207",
+        "PV208",
+        "PV210",
+        "PV209",
+        "PV215",
+        "PV213"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 99,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-policy-that-can-be-explained",
+      "title": "A policy people can understand",
+      "subtitle": "Incentives and change",
+      "theme": "Incentives and change",
+      "text": "The new {PV212|policy} offered an {PV211|incentive} for repairing equipment instead of replacing it. A safety {PV214|regulation} still applied to every repair. Fast {PV216|urbanization} had made shared spaces more valuable, and the council wanted a practical response. Explaining the purpose of a rule could help people follow it, but the rule also needed to be workable in everyday conditions.",
+      "targets": [
+        "PV212",
+        "PV211",
+        "PV214",
+        "PV216"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 100,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "recognize-recall-use",
+      "title": "From a familiar word to a useful word",
+      "subtitle": "Learning and memory",
+      "theme": "Learning and memory",
+      "text": "A striking picture drew Mira’s {PV217|attention}, but attention alone did not establish {PV219|comprehension}. She needed to explain the meaning. A new {PV227|stimulus}, such as a different situation, could prompt another attempt at recall. The tutor used {PV221|feedback} and later {PV226|reinforcement} without claiming that repetition guaranteed {PV222|fluency}. Useful {PV220|engagement} involved choices and explanations, not only clicks. {PV223|Memorization} could support learning, while practice in varied situations offered evidence about {PV225|retention}. Their {PV224|perception} of progress had to match what they could actually do. {PV218|Cognition} covered more than recognizing an answer on a page.",
+      "targets": [
+        "PV217",
+        "PV219",
+        "PV227",
+        "PV221",
+        "PV226",
+        "PV222",
+        "PV220",
+        "PV223",
+        "PV225",
+        "PV224",
+        "PV218"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 101,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "the-short-explanation",
+      "title": "The short explanation that worked",
+      "subtitle": "Precise descriptions",
+      "theme": "Precise descriptions",
+      "text": "Nila wanted an {N001|accurate} description, not a dramatic one. A {N004|concise} note would be {N002|appropriate} for the entrance notice. The group was {N003|aware} that visitors would read it quickly. A {N005|convincing} explanation mattered, but so did an {N008|effective} arrangement behind the words. Clear directions were {N006|crucial} when a visitor was already late. The test group’s {N007|diverse} experiences helped reveal problems that one writer had missed.",
+      "targets": [
+        "N001",
+        "N004",
+        "N002",
+        "N003",
+        "N005",
+        "N008",
+        "N006",
+        "N007"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 102,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "what-the-visitor-needs",
+      "title": "What the visitor actually needs",
+      "subtitle": "Useful rather than ornamental language",
+      "theme": "Useful rather than ornamental language",
+      "text": "A readable map was {N009|essential} for people using the side entrance. The need became {N010|evident} when several visitors asked the same question. {N011|Frequent} changes made the notice confusing, and another revision was {N012|likely} unless the team checked the whole process. It was {N013|necessary} to agree on one route. A {N017|specific} example helped explain the problem, and the next version produced a {N014|noticeable} improvement in how easily people found the room.",
+      "targets": [
+        "N009",
+        "N010",
+        "N011",
+        "N012",
+        "N013",
+        "N017",
+        "N014"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 103,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-sensible-first-goal",
+      "title": "A first goal people can reach",
+      "subtitle": "Practical judgments",
+      "theme": "Practical judgments",
+      "text": "The organizer suggested a {N016|realistic} first goal: one reliable session each month. It was a {N015|reasonable} request for a small group. A {N018|suitable} room was more important than an impressive one. Feedback from users was {N019|useful}, and their time was {N020|valuable}. The borrowing system also needed to be {N021|compatible} with the way the center already worked. A {N022|balanced} decision considered those needs together.",
+      "targets": [
+        "N016",
+        "N015",
+        "N018",
+        "N019",
+        "N020",
+        "N021",
+        "N022"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 104,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "who-checks-the-checklist",
+      "title": "Who checks the checklist?",
+      "subtitle": "Responsibility and care",
+      "theme": "Responsibility and care",
+      "text": "Each volunteer was {N023|accountable} for a short list of tasks. They were {N024|cautious} about promising more than they could deliver. Choosing {N026|durable} labels was a {N025|deliberate} decision because the equipment would be handled often. {N028|Explicit} instructions reduced uncertainty. The coordinator avoided putting {N027|excessive} pressure on the newest member. A {N029|fair} arrangement gave people a real chance to understand what they had agreed to do.",
+      "targets": [
+        "N023",
+        "N024",
+        "N026",
+        "N025",
+        "N028",
+        "N027",
+        "N029"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 105,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "asking-without-pretending",
+      "title": "Asking without pretending",
+      "subtitle": "Honest attitudes",
+      "theme": "Honest attitudes",
+      "text": "Mira had a {N030|genuine} interest in the work, but she was still {N031|hesitant} to ask a basic question. Some mistakes were {N032|inevitable} while she learned, the tutor explained. Their {N033|initial} plan included time for practice. An {N034|integrated} approach connected explanation, action and feedback. {N035|Mutual} respect made it easier to admit uncertainty. An {N036|occasional} correction did not mean that the whole effort had failed.",
+      "targets": [
+        "N030",
+        "N031",
+        "N032",
+        "N033",
+        "N034",
+        "N035",
+        "N036"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 106,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-pilot-before-a-promise",
+      "title": "A pilot before a permanent promise",
+      "subtitle": "Possibility and proportion",
+      "theme": "Possibility and proportion",
+      "text": "The room change was a trial, not yet a {N037|permanent} decision. Its {N038|potential} benefits were clear, but actual use still needed checking. Effort should be {N039|proportional} to the problem being solved. A {N040|sensible} review would compare the same conditions. The process should be {N041|transparent}, especially if an {N042|urgent} repair affected several groups. A {N043|viable} option had to work for the people using the space, not merely fit a diagram.",
+      "targets": [
+        "N037",
+        "N038",
+        "N039",
+        "N040",
+        "N041",
+        "N042",
+        "N043"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 107,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-choice-to-help",
+      "title": "A choice to help",
+      "subtitle": "Care, choice and preparation",
+      "theme": "Care, choice and preparation",
+      "text": "The project relied on {N044|voluntary} help. New members should not feel forced to accept every task. Some visitors were more {N045|vulnerable} to a sudden change in access, so the team would {N049|anticipate} their questions. The organizer needed to {N046|acknowledge} concerns and {N047|accommodate} different needs. Members could {N048|advocate} an improvement without speaking on behalf of everyone. A useful {N050|compromise} would leave each side able to explain what it gained and what it adjusted.",
+      "targets": [
+        "N044",
+        "N045",
+        "N049",
+        "N046",
+        "N047",
+        "N048",
+        "N050"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 108,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "another-way-to-help",
+      "title": "Another way to help",
+      "subtitle": "Organizing action",
+      "theme": "Organizing action",
+      "text": "Sharing equipment could {N051|conserve} resources, but someone needed to {N052|coordinate} the collections. Nila could {N053|cope} with one responsibility well; she would {N054|decline} a second one if she had no time. A short briefing would {N055|enable} new volunteers to work safely and {N056|encourage} them to ask questions. Before confirming the plan, she would {N057|ensure} that someone could open the store. A clear agreement would {N058|establish} who did what.",
+      "targets": [
+        "N051",
+        "N052",
+        "N053",
+        "N054",
+        "N055",
+        "N056",
+        "N057",
+        "N058"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 109,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "test-a-small-change",
+      "title": "Test a small change first",
+      "subtitle": "Action and evaluation",
+      "theme": "Action and evaluation",
+      "text": "The group would {N059|evaluate} the small trial before trying to {N060|expand} it. A demonstration could {N061|expose} visitors to a useful skill, but it should not rush them. Staff would {N062|implement} one change, then check whether it could {N063|improve} access. The review would {N064|involve} actual users. If people still missed the entrance, the group would {N065|investigate} why. A new sign was a proposed solution, not proof that the problem had disappeared.",
+      "targets": [
+        "N059",
+        "N060",
+        "N061",
+        "N062",
+        "N063",
+        "N064",
+        "N065"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 110,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "keeping-a-local-story",
+      "title": "Keeping a local story alive",
+      "subtitle": "Participating and preserving",
+      "theme": "Participating and preserving",
+      "text": "The team wanted to {N066|overcome} a language barrier without changing the residents’ accounts. People could {N067|participate} through a short conversation, a written note or a photograph. A clear purpose helped {N068|persuade} some residents to join. The display aimed to {N069|preserve} useful memories. After each interview, the students would {N070|reflect} on what needed checking. A later visit could {N071|reinforce} their understanding. They could not {N072|rely} on memory alone when someone supplied a date or name.",
+      "targets": [
+        "N066",
+        "N067",
+        "N068",
+        "N069",
+        "N070",
+        "N071",
+        "N072"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 111,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "the-plan-after-feedback",
+      "title": "The plan after feedback",
+      "subtitle": "Improvement as a process",
+      "theme": "Improvement as a process",
+      "text": "The revised event would {N073|require} less equipment. The coordinator could {N074|respond} to the concerns without abandoning the useful parts. The team would {N075|retain} the clear instructions, {N076|revise} the timetable and {N077|seek} advice about the entrance. That change marked a {N078|shift} in attention from adding features to removing barriers. It could {N079|strengthen} the relationship with local groups and {N080|support} their work over time. They needed an arrangement they could {N081|sustain}.",
+      "targets": [
+        "N073",
+        "N074",
+        "N075",
+        "N076",
+        "N077",
+        "N078",
+        "N079",
+        "N080",
+        "N081"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 112,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-result-worth-noticing",
+      "title": "A result worth noticing",
+      "subtitle": "Needs and achievement",
+      "theme": "Needs and achievement",
+      "text": "Better {N082|access} to the room was an {N083|achievement}, but cost remained one important {N084|aspect} of the decision. The old entrance had been a {N085|barrier} for some visitors. The group’s {N086|commitment} continued after the opening event. Limited money was still a {N087|constraint}, so every {N088|contribution} had to be considered carefully. Growing {N089|demand} for sessions would bring another set of choices.",
+      "targets": [
+        "N082",
+        "N083",
+        "N084",
+        "N085",
+        "N086",
+        "N087",
+        "N088",
+        "N089"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 113,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "what-changed-and-why",
+      "title": "What changed, and why?",
+      "subtitle": "Results, understanding and interaction",
+      "theme": "Results, understanding and interaction",
+      "text": "There was a {N090|distinction} between opening a new room and making it useful. The real {N091|impact} depended on what people could do there. A local {N092|initiative} had provided the chance, while conversations gave {N093|insight} into what residents needed. Regular {N094|interaction} made the arrangement easier to improve. One positive {N095|outcome} was a group that kept meeting without a coordinator doing everything. The space had become an {N096|opportunity} for people to contribute.",
+      "targets": [
+        "N090",
+        "N091",
+        "N092",
+        "N093",
+        "N094",
+        "N095",
+        "N096"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 114,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "after-a-setback",
+      "title": "After a setback",
+      "subtitle": "Responsibility without self-blame",
+      "theme": "Responsibility without self-blame",
+      "text": "Mira accepted {N097|responsibility} for forgetting to check the booking. It was a {N098|setback}, not the end of the group. Her next {N099|strategy} was to confirm the room before sending invitations. She noticed a {N100|tendency} to rush when she felt under pressure. A manageable routine could protect her {N101|well-being} as well as the project. She could {N106|learn from a setback} without treating one mistake as a complete description of her ability.",
+      "targets": [
+        "N097",
+        "N098",
+        "N099",
+        "N100",
+        "N101",
+        "N106"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 115,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "a-conscious-change",
+      "title": "A conscious change in habit",
+      "subtitle": "From advice to action",
+      "theme": "From advice to action",
+      "text": "Mira wanted to {N102|make a conscious effort} to listen before proposing a fix. At the next meeting, she could {N103|put that advice into practice}. She would {N104|take the initiative} when a useful task needed an owner, but not take over everyone’s work. A {N105|sense of belonging} grew when people could contribute in different ways. To {N107|meet expectations}, they first needed to know what the expectations were.",
+      "targets": [
+        "N102",
+        "N103",
+        "N104",
+        "N105",
+        "N107"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 116,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "experience-with-boundaries",
+      "title": "Experience with boundaries",
+      "subtitle": "Using a skill without overcommitting",
+      "theme": "Using a skill without overcommitting",
+      "text": "Nila could {N108|draw on experience} from earlier projects without assuming every new group was the same. A friend helped her {N109|keep things in perspective} when a session went badly. One kind response could {N110|make a lasting impression}, but she did not need to solve every problem herself. She would {N111|set clear boundaries} around her available time. Being helpful should not mean making promises she could not keep.",
+      "targets": [
+        "N108",
+        "N109",
+        "N110",
+        "N111"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 117,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "conditions-for-a-good-choice",
+      "title": "Conditions for a good choice",
+      "subtitle": "Willingness, caution and consistency",
+      "theme": "Willingness, caution and consistency",
+      "text": "The team should {N112|be willing to} reconsider a decision when the conditions changed. Nila would {N113|be reluctant to} promise a date before checking the room. Under pressure, anyone could {N114|be prone to} overlooking a detail. The final arrangement should {N115|be consistent with} the rules already explained to members. Visitors needed to {N116|be aware of} changes early enough to make their own plans.",
+      "targets": [
+        "N112",
+        "N113",
+        "N114",
+        "N115",
+        "N116"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 118,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    },
+    {
+      "id": "the-choice-has-consequences",
+      "title": "The choice has consequences",
+      "subtitle": "Thinking beyond the first benefit",
+      "theme": "Thinking beyond the first benefit",
+      "text": "The group considered {N117|a practical implication} of closing earlier: some working members would miss most of the session. A rotating timetable might be {N118|a reasonable compromise}. They also looked for {N119|an unintended consequence} of moving online. A person without a reliable connection might lose access entirely. A decision could be well intended and still need revision. The group’s job was to notice what actually happened and respond to it.",
+      "targets": [
+        "N117",
+        "N118",
+        "N119"
+      ],
+      "questions": [],
+      "retell": "Retell the situation in your own words. Explain the choice, the reason and what changed. Avoid copying the scene.",
+      "transfer": "Move the situation somewhere else in your life. Use one expression for a specific new idea.",
+      "order": 119,
+      "origin": "Original Recall Lab story; source vocabulary acknowledged separately."
+    }
+  ]
+}

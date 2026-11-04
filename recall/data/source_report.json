@@ -1,0 +1,1376 @@
+{
+  "version": 2,
+  "seed": {
+    "file": "seed_bank.csv",
+    "sha256": "88d9149cabce59f130af3778ce47d952733a6b8eed7845c6498fb57f7ccd5a0a",
+    "hashFormat": "UTF-8 text with LF newlines",
+    "parsed": 249,
+    "unique": 242,
+    "consolidated": 7,
+    "sourceCounts": {
+      "user_core_via_workbook": 33,
+      "workbook_bonus": 22,
+      "curated_extension": 114,
+      "curated_vocabulary_extension": 80
+    }
+  },
+  "totals": {
+    "sourceRecords": 816,
+    "unique": 714,
+    "consolidated": 102,
+    "words": 380,
+    "expressions": 334
+  },
+  "originalCoverage": {
+    "expected": 33,
+    "present": 33,
+    "ids": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V09",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14",
+      "V15"
+    ],
+    "checklist": [
+      {
+        "id": "C01",
+        "requested": "Off the top of my head",
+        "canonical": "Off the top of my head",
+        "matched": true
+      },
+      {
+        "id": "C02",
+        "requested": "Come to think of it",
+        "canonical": "Come to think of it",
+        "matched": true
+      },
+      {
+        "id": "C03",
+        "requested": "Weigh the pros and cons",
+        "canonical": "Weigh the pros and cons",
+        "matched": true
+      },
+      {
+        "id": "C04",
+        "requested": "Foster critical thinking / creativity",
+        "canonical": "Foster critical thinking / creativity",
+        "matched": true
+      },
+      {
+        "id": "C05",
+        "requested": "Bridge the gap between ... and ...",
+        "canonical": "Bridge the gap between X and Y",
+        "matched": true
+      },
+      {
+        "id": "C06",
+        "requested": "Nevertheless",
+        "canonical": "Nevertheless",
+        "matched": true
+      },
+      {
+        "id": "C07",
+        "requested": "Broaden my horizons",
+        "canonical": "Broaden my horizons",
+        "matched": true
+      },
+      {
+        "id": "C08",
+        "requested": "Gain valuable insights",
+        "canonical": "Gain valuable insights",
+        "matched": true
+      },
+      {
+        "id": "C09",
+        "requested": "Develop a deeper understanding",
+        "canonical": "Develop a deeper understanding",
+        "matched": true
+      },
+      {
+        "id": "C10",
+        "requested": "Strike a balance",
+        "canonical": "Strike a balance",
+        "matched": true
+      },
+      {
+        "id": "C11",
+        "requested": "Play a crucial role",
+        "canonical": "Play a crucial role",
+        "matched": true
+      },
+      {
+        "id": "C12",
+        "requested": "Have a positive / negative impact on",
+        "canonical": "Have a positive / negative impact on",
+        "matched": true
+      },
+      {
+        "id": "C13",
+        "requested": "Pursue my interests",
+        "canonical": "Pursue my interests",
+        "matched": true
+      },
+      {
+        "id": "C14",
+        "requested": "Spark my curiosity",
+        "canonical": "Spark my curiosity",
+        "matched": true
+      },
+      {
+        "id": "C15",
+        "requested": "Keep an open mind",
+        "canonical": "Keep an open mind",
+        "matched": true
+      },
+      {
+        "id": "C16",
+        "requested": "Overcome obstacles",
+        "canonical": "Overcome obstacles",
+        "matched": true
+      },
+      {
+        "id": "C17",
+        "requested": "Take full advantage of",
+        "canonical": "Take full advantage of",
+        "matched": true
+      },
+      {
+        "id": "C18",
+        "requested": "I would argue that",
+        "canonical": "I would argue that",
+        "matched": true
+      },
+      {
+        "id": "V01",
+        "requested": "beneficial",
+        "canonical": "beneficial",
+        "matched": true
+      },
+      {
+        "id": "V02",
+        "requested": "rewarding",
+        "canonical": "rewarding",
+        "matched": true
+      },
+      {
+        "id": "V03",
+        "requested": "demanding",
+        "canonical": "demanding",
+        "matched": true
+      },
+      {
+        "id": "V04",
+        "requested": "worthwhile",
+        "canonical": "worthwhile",
+        "matched": true
+      },
+      {
+        "id": "V05",
+        "requested": "insightful",
+        "canonical": "insightful",
+        "matched": true
+      },
+      {
+        "id": "V06",
+        "requested": "resilient",
+        "canonical": "resilient",
+        "matched": true
+      },
+      {
+        "id": "V07",
+        "requested": "proactive",
+        "canonical": "proactive",
+        "matched": true
+      },
+      {
+        "id": "V08",
+        "requested": "compelling",
+        "canonical": "compelling",
+        "matched": true
+      },
+      {
+        "id": "V09",
+        "requested": "sustainable",
+        "canonical": "sustainable",
+        "matched": true
+      },
+      {
+        "id": "V10",
+        "requested": "conducive",
+        "canonical": "conducive",
+        "matched": true
+      },
+      {
+        "id": "V11",
+        "requested": "overwhelming",
+        "canonical": "overwhelming",
+        "matched": true
+      },
+      {
+        "id": "V12",
+        "requested": "invaluable",
+        "canonical": "invaluable",
+        "matched": true
+      },
+      {
+        "id": "V13",
+        "requested": "versatile",
+        "canonical": "versatile",
+        "matched": true
+      },
+      {
+        "id": "V14",
+        "requested": "fulfilment / fulfillment",
+        "canonical": "fulfilment / fulfillment",
+        "matched": true
+      },
+      {
+        "id": "V15",
+        "requested": "prioritize",
+        "canonical": "prioritize",
+        "matched": true
+      }
+    ]
+  },
+  "tiers": {
+    "A": 45,
+    "B": 669
+  },
+  "deduplications": [
+    {
+      "from": "E005",
+      "to": "B06",
+      "reason": "Same expression or explicit equivalent; original source forms and examples retained."
+    },
+    {
+      "from": "E052",
+      "to": "B03",
+      "reason": "Same expression or explicit equivalent; original source forms and examples retained."
+    },
+    {
+      "from": "E072",
+      "to": "B04",
+      "reason": "Same expression or explicit equivalent; original source forms and examples retained."
+    },
+    {
+      "from": "E073",
+      "to": "B01",
+      "reason": "Same expression or explicit equivalent; original source forms and examples retained."
+    },
+    {
+      "from": "E078",
+      "to": "B11",
+      "reason": "Same expression or explicit equivalent; original source forms and examples retained."
+    },
+    {
+      "from": "E079",
+      "to": "B10",
+      "reason": "Same expression or explicit equivalent; original source forms and examples retained."
+    },
+    {
+      "from": "E080",
+      "to": "B09",
+      "reason": "Same expression or explicit equivalent; original source forms and examples retained."
+    },
+    {
+      "from": "P001",
+      "to": "E002",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P005",
+      "to": "E001",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P003",
+      "to": "C18",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P011",
+      "to": "E007",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P012",
+      "to": "E008",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P189",
+      "to": "C01",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P190",
+      "to": "C02",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P193",
+      "to": "E093",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P017",
+      "to": "E009",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P019",
+      "to": "E004",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P025",
+      "to": "E019",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P027",
+      "to": "E017",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P024",
+      "to": "E013",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P028",
+      "to": "C06",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P030",
+      "to": "E015",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P031",
+      "to": "E014",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P035",
+      "to": "E018",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P199",
+      "to": "E094",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P057",
+      "to": "E021",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P048",
+      "to": "B12",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P064",
+      "to": "B07",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P067",
+      "to": "E029",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P068",
+      "to": "E030",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P071",
+      "to": "C11",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P072",
+      "to": "E031",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P079",
+      "to": "B08",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P128",
+      "to": "B06",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P083",
+      "to": "C16",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P090",
+      "to": "E027",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P093",
+      "to": "E028",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P014",
+      "to": "B01",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P095",
+      "to": "B02",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P092",
+      "to": "C10",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P113",
+      "to": "B04",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P161",
+      "to": "B11",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P163",
+      "to": "E083",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P165",
+      "to": "B09",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P166",
+      "to": "E081",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P167",
+      "to": "B10",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P168",
+      "to": "E082",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P171",
+      "to": "E086",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P170",
+      "to": "E088",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P176",
+      "to": "P078",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P178",
+      "to": "E092",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P179",
+      "to": "E089",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P180",
+      "to": "E090",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "P214",
+      "to": "E075",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV003",
+      "to": "W064",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV004",
+      "to": "W077",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV006",
+      "to": "W076",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV031",
+      "to": "W004",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV034",
+      "to": "A02",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV035",
+      "to": "W068",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV038",
+      "to": "A04",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV040",
+      "to": "A05",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV041",
+      "to": "W065",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV043",
+      "to": "W010",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV044",
+      "to": "A03",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV078",
+      "to": "PV007",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV098",
+      "to": "W069",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV099",
+      "to": "W075",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV103",
+      "to": "A09",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV105",
+      "to": "W011",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV108",
+      "to": "P063",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV109",
+      "to": "E016",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV113",
+      "to": "P066",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV115",
+      "to": "E017",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV120",
+      "to": "E031",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV126",
+      "to": "PV067",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV127",
+      "to": "W047",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV130",
+      "to": "PV025",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV133",
+      "to": "PV056",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV134",
+      "to": "PV090",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV135",
+      "to": "W080",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV143",
+      "to": "W072",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV145",
+      "to": "A01",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV149",
+      "to": "A09",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV150",
+      "to": "A10",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV151",
+      "to": "PV016",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV152",
+      "to": "PV062",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV153",
+      "to": "PV048",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV155",
+      "to": "PV050",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV158",
+      "to": "PV021",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV162",
+      "to": "PV087",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV167",
+      "to": "PV001",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV170",
+      "to": "PV154",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV173",
+      "to": "W047",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV176",
+      "to": "W031",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV179",
+      "to": "V02",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV189",
+      "to": "W051",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV191",
+      "to": "V09",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV196",
+      "to": "A08",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV201",
+      "to": "A06",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV205",
+      "to": "A07",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    },
+    {
+      "from": "PV228",
+      "to": "PV074",
+      "reason": "Same form or an explicit equivalent; source meaning, example and page preserved."
+    }
+  ],
+  "documents": [
+    {
+      "file": "TOEFL_2026_220_Phrases_and_Vocabulary_Masterbook.pdf",
+      "status": "imported",
+      "sha256": "8e6bdbb1ce78b7bf027590e754c65a7425c93c811d85eb0e142edb6d7e2242e3",
+      "pages": 52,
+      "expectedExpressions": 220,
+      "parsedExpressions": 220,
+      "expectedFamilies": 30,
+      "parsedFamilies": 30,
+      "expectedVocabularyRecords": 228,
+      "parsedVocabularyRecords": 228,
+      "uniqueVocabularyForms": 212,
+      "method": "Poppler layout + word bounding boxes, with pypdf ruled-table row boundaries. Physical and printed pages retained."
+    },
+    {
+      "file": "TOEFL_7_Day_Vocabulary_and_Collocations_Memory_Workbook.docx",
+      "status": "not supplied",
+      "parsedScenes": 0
+    }
+  ],
+  "originalAdditions": {
+    "records": 119,
+    "newCanonicalItems": 119
+  },
+  "usageNotes": 58,
+  "stories": {
+    "original": 120,
+    "importedWorkbookScenes": 0
+  },
+  "coverage": {
+    "bankItems": 714,
+    "flashcardItems": 714,
+    "storyItems": 714,
+    "uncovered": []
+  },
+  "warnings": [],
+  "families": [
+    {
+      "id": "family-1",
+      "name": "Original core expressions"
+    },
+    {
+      "id": "family-2",
+      "name": "Sound measured"
+    },
+    {
+      "id": "family-3",
+      "name": "Contrast or concede"
+    },
+    {
+      "id": "family-4",
+      "name": "Evaluate and decide"
+    },
+    {
+      "id": "family-5",
+      "name": "Describe influence"
+    },
+    {
+      "id": "family-6",
+      "name": "Propose a solution"
+    },
+    {
+      "id": "family-7",
+      "name": "Give an opinion"
+    },
+    {
+      "id": "family-8",
+      "name": "Original core vocabulary"
+    },
+    {
+      "id": "family-9",
+      "name": "Personal experience and growth"
+    },
+    {
+      "id": "family-10",
+      "name": "Nature and environment"
+    },
+    {
+      "id": "family-11",
+      "name": "Workbook bonus expressions"
+    },
+    {
+      "id": "family-12",
+      "name": "Describe research"
+    },
+    {
+      "id": "family-13",
+      "name": "Describe a challenge"
+    },
+    {
+      "id": "family-14",
+      "name": "State an outcome"
+    },
+    {
+      "id": "family-15",
+      "name": "Put events in time"
+    },
+    {
+      "id": "family-16",
+      "name": "Make a polite request"
+    },
+    {
+      "id": "family-17",
+      "name": "Support with evidence"
+    },
+    {
+      "id": "family-18",
+      "name": "Workbook bonus vocabulary"
+    },
+    {
+      "id": "family-19",
+      "name": "Reasons and decisions"
+    },
+    {
+      "id": "family-20",
+      "name": "Thinking about evidence"
+    },
+    {
+      "id": "family-21",
+      "name": "Technology and research"
+    },
+    {
+      "id": "family-22",
+      "name": "Society and public choices"
+    },
+    {
+      "id": "family-23",
+      "name": "Understanding explanations"
+    },
+    {
+      "id": "family-24",
+      "name": "Opinion and discussion"
+    },
+    {
+      "id": "family-25",
+      "name": "Emphasize importance"
+    },
+    {
+      "id": "family-26",
+      "name": "Agree or disagree"
+    },
+    {
+      "id": "family-27",
+      "name": "Contrast and reasoning"
+    },
+    {
+      "id": "family-28",
+      "name": "Connecting ideas precisely"
+    },
+    {
+      "id": "family-29",
+      "name": "Compare alternatives"
+    },
+    {
+      "id": "family-30",
+      "name": "Clarify your meaning"
+    },
+    {
+      "id": "family-31",
+      "name": "Impact and problem solving"
+    },
+    {
+      "id": "family-32",
+      "name": "Prevent harm"
+    },
+    {
+      "id": "family-33",
+      "name": "Education and growth"
+    },
+    {
+      "id": "family-34",
+      "name": "Experience and teamwork"
+    },
+    {
+      "id": "family-35",
+      "name": "Academic evidence"
+    },
+    {
+      "id": "family-36",
+      "name": "Follow a lecture"
+    },
+    {
+      "id": "family-37",
+      "name": "Email and requests"
+    },
+    {
+      "id": "family-38",
+      "name": "Handle a follow‐up"
+    },
+    {
+      "id": "family-39",
+      "name": "Close an email"
+    },
+    {
+      "id": "family-40",
+      "name": "Natural speaking"
+    },
+    {
+      "id": "family-41",
+      "name": "Give an example"
+    },
+    {
+      "id": "family-42",
+      "name": "Time and habits"
+    },
+    {
+      "id": "family-43",
+      "name": "Academic reasoning"
+    },
+    {
+      "id": "family-44",
+      "name": "Learning and education"
+    },
+    {
+      "id": "family-45",
+      "name": "Work and decision making"
+    },
+    {
+      "id": "family-46",
+      "name": "Polite requests and arrangements"
+    },
+    {
+      "id": "family-47",
+      "name": "Society and environment"
+    },
+    {
+      "id": "family-48",
+      "name": "Learning, change and resources"
+    },
+    {
+      "id": "family-49",
+      "name": "Reading and listening"
+    },
+    {
+      "id": "family-50",
+      "name": "Add a point"
+    },
+    {
+      "id": "family-51",
+      "name": "Make a point precise"
+    },
+    {
+      "id": "family-52",
+      "name": "Define or describe"
+    },
+    {
+      "id": "family-53",
+      "name": "Identify a cause"
+    },
+    {
+      "id": "family-54",
+      "name": "Describe achievement"
+    },
+    {
+      "id": "family-55",
+      "name": "Discuss education"
+    },
+    {
+      "id": "family-56",
+      "name": "Manage campus routines"
+    },
+    {
+      "id": "family-57",
+      "name": "Collaborate and clarify"
+    },
+    {
+      "id": "family-58",
+      "name": "Share your experience"
+    },
+    {
+      "id": "family-59",
+      "name": "Notices and shared spaces"
+    },
+    {
+      "id": "family-60",
+      "name": "Plans and arrangements"
+    },
+    {
+      "id": "family-61",
+      "name": "Clear everyday speech"
+    },
+    {
+      "id": "family-62",
+      "name": "Natural conversation"
+    },
+    {
+      "id": "family-63",
+      "name": "Study and work routines"
+    },
+    {
+      "id": "family-64",
+      "name": "Learning and memory"
+    },
+    {
+      "id": "family-65",
+      "name": "Precise everyday descriptions"
+    },
+    {
+      "id": "family-66",
+      "name": "Actions that explain your thinking"
+    },
+    {
+      "id": "family-67",
+      "name": "Needs, choices and personal growth"
+    },
+    {
+      "id": "family-68",
+      "name": "Useful patterns for real situations"
+    }
+  ],
+  "pdfFamilies": [
+    {
+      "number": 1,
+      "name": "Give an opinion",
+      "physicalPage": 21,
+      "printedPage": 18
+    },
+    {
+      "number": 2,
+      "name": "Agree or disagree",
+      "physicalPage": 22,
+      "printedPage": 19
+    },
+    {
+      "number": 3,
+      "name": "Sound measured",
+      "physicalPage": 22,
+      "printedPage": 19
+    },
+    {
+      "number": 4,
+      "name": "Emphasize importance",
+      "physicalPage": 23,
+      "printedPage": 20
+    },
+    {
+      "number": 5,
+      "name": "Add a point",
+      "physicalPage": 24,
+      "printedPage": 21
+    },
+    {
+      "number": 6,
+      "name": "Compare alternatives",
+      "physicalPage": 24,
+      "printedPage": 21
+    },
+    {
+      "number": 7,
+      "name": "Contrast or concede",
+      "physicalPage": 25,
+      "printedPage": 22
+    },
+    {
+      "number": 8,
+      "name": "Make a point precise",
+      "physicalPage": 26,
+      "printedPage": 23
+    },
+    {
+      "number": 9,
+      "name": "Give an example",
+      "physicalPage": 26,
+      "printedPage": 23
+    },
+    {
+      "number": 10,
+      "name": "Clarify your meaning",
+      "physicalPage": 27,
+      "printedPage": 24
+    },
+    {
+      "number": 11,
+      "name": "Support with evidence",
+      "physicalPage": 28,
+      "printedPage": 25
+    },
+    {
+      "number": 12,
+      "name": "Define or describe",
+      "physicalPage": 28,
+      "printedPage": 25
+    },
+    {
+      "number": 13,
+      "name": "Identify a cause",
+      "physicalPage": 29,
+      "printedPage": 26
+    },
+    {
+      "number": 14,
+      "name": "State an outcome",
+      "physicalPage": 29,
+      "printedPage": 26
+    },
+    {
+      "number": 15,
+      "name": "Describe influence",
+      "physicalPage": 30,
+      "printedPage": 27
+    },
+    {
+      "number": 16,
+      "name": "Put events in time",
+      "physicalPage": 31,
+      "printedPage": 28
+    },
+    {
+      "number": 17,
+      "name": "Describe a challenge",
+      "physicalPage": 32,
+      "printedPage": 29
+    },
+    {
+      "number": 18,
+      "name": "Propose a solution",
+      "physicalPage": 33,
+      "printedPage": 30
+    },
+    {
+      "number": 19,
+      "name": "Prevent harm",
+      "physicalPage": 33,
+      "printedPage": 30
+    },
+    {
+      "number": 20,
+      "name": "Evaluate and decide",
+      "physicalPage": 34,
+      "printedPage": 31
+    },
+    {
+      "number": 21,
+      "name": "Describe research",
+      "physicalPage": 35,
+      "printedPage": 32
+    },
+    {
+      "number": 22,
+      "name": "Describe achievement",
+      "physicalPage": 36,
+      "printedPage": 33
+    },
+    {
+      "number": 23,
+      "name": "Discuss education",
+      "physicalPage": 36,
+      "printedPage": 33
+    },
+    {
+      "number": 24,
+      "name": "Manage campus routines",
+      "physicalPage": 37,
+      "printedPage": 34
+    },
+    {
+      "number": 25,
+      "name": "Collaborate and clarify",
+      "physicalPage": 38,
+      "printedPage": 35
+    },
+    {
+      "number": 26,
+      "name": "Make a polite request",
+      "physicalPage": 39,
+      "printedPage": 36
+    },
+    {
+      "number": 27,
+      "name": "Handle a follow‐up",
+      "physicalPage": 39,
+      "printedPage": 36
+    },
+    {
+      "number": 28,
+      "name": "Close an email",
+      "physicalPage": 40,
+      "printedPage": 37
+    },
+    {
+      "number": 29,
+      "name": "Share your experience",
+      "physicalPage": 41,
+      "printedPage": 38
+    },
+    {
+      "number": 30,
+      "name": "Follow a lecture",
+      "physicalPage": 41,
+      "printedPage": 38
+    }
+  ],
+  "sourceMap": {
+    "E005": "B06",
+    "E052": "B03",
+    "E072": "B04",
+    "E073": "B01",
+    "E078": "B11",
+    "E079": "B10",
+    "E080": "B09",
+    "P001": "E002",
+    "P005": "E001",
+    "P003": "C18",
+    "P011": "E007",
+    "P012": "E008",
+    "P189": "C01",
+    "P190": "C02",
+    "P193": "E093",
+    "P017": "E009",
+    "P019": "E004",
+    "P025": "E019",
+    "P027": "E017",
+    "P024": "E013",
+    "P028": "C06",
+    "P030": "E015",
+    "P031": "E014",
+    "P035": "E018",
+    "P199": "E094",
+    "P057": "E021",
+    "P048": "B12",
+    "P064": "B07",
+    "P067": "E029",
+    "P068": "E030",
+    "P071": "C11",
+    "P072": "E031",
+    "P079": "B08",
+    "P128": "B06",
+    "P083": "C16",
+    "P090": "E027",
+    "P093": "E028",
+    "P014": "B01",
+    "P095": "B02",
+    "P092": "C10",
+    "P113": "B04",
+    "P161": "B11",
+    "P163": "E083",
+    "P165": "B09",
+    "P166": "E081",
+    "P167": "B10",
+    "P168": "E082",
+    "P171": "E086",
+    "P170": "E088",
+    "P176": "P078",
+    "P178": "E092",
+    "P179": "E089",
+    "P180": "E090",
+    "P214": "E075",
+    "PV003": "W064",
+    "PV004": "W077",
+    "PV006": "W076",
+    "PV031": "W004",
+    "PV034": "A02",
+    "PV035": "W068",
+    "PV038": "A04",
+    "PV040": "A05",
+    "PV041": "W065",
+    "PV043": "W010",
+    "PV044": "A03",
+    "PV078": "PV007",
+    "PV098": "W069",
+    "PV099": "W075",
+    "PV103": "A09",
+    "PV105": "W011",
+    "PV108": "P063",
+    "PV109": "E016",
+    "PV113": "P066",
+    "PV115": "E017",
+    "PV120": "E031",
+    "PV126": "PV067",
+    "PV127": "W047",
+    "PV130": "PV025",
+    "PV133": "PV056",
+    "PV134": "PV090",
+    "PV135": "W080",
+    "PV143": "W072",
+    "PV145": "A01",
+    "PV149": "A09",
+    "PV150": "A10",
+    "PV151": "PV016",
+    "PV152": "PV062",
+    "PV153": "PV048",
+    "PV155": "PV050",
+    "PV158": "PV021",
+    "PV162": "PV087",
+    "PV167": "PV001",
+    "PV170": "PV154",
+    "PV173": "W047",
+    "PV176": "W031",
+    "PV179": "V02",
+    "PV189": "W051",
+    "PV191": "V09",
+    "PV196": "A08",
+    "PV201": "A06",
+    "PV205": "A07",
+    "PV228": "PV074"
+  }
+}

@@ -23,9 +23,17 @@
     "build:full": "node tools/build-full-forms.mjs",
     "audit:full": "node tools/audit-full-forms.mjs",
     "test:full": "node --test tests/full-simulator-core.test.mjs",
-    "test:full:browser": "node tests/full-simulator-browser.mjs"
+    "test:full:browser": "node tests/full-simulator-browser.mjs",
+    "dev": "node tools/serve-subpath.mjs",
+    "build:recall": "node tools/import-recall.mjs && node tools/extend-recall.mjs --strict",
+    "typecheck:recall": "tsc -p recall/tsconfig.json",
+    "lint:recall": "eslint --config eslint.recall.config.js recall tools/import-recall.mjs tools/extend-recall.mjs tools/recall-csv.mjs tests/recall*.mjs",
+    "test:recall": "node --test tests/recall-core.test.mjs",
+    "test:recall:browser": "node tests/recall-browser.mjs"
   },
   "devDependencies": {
-    "playwright": "1.56.1"
+    "eslint": "9.39.1",
+    "playwright": "1.56.1",
+    "typescript": "7.0.2"
   }
 }
