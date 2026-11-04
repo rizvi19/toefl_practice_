@@ -23,7 +23,7 @@ export function advanceStudy(s,grade,now=Date.now()){
  s.index++;
  const eligible=s.pending.findIndex(p=>(p.afterIds?.length||0)>=(p.wait||3));
  if(eligible>=0){const [repair]=s.pending.splice(eligible,1);s.queue.splice(s.index,0,repair);}
- s.finished=s.index>=s.queue.length;delete s.answerLatency;delete s.promptedRetry;s.revealed=false;s.typed='';s.feedback=null;s.cardStarted=now;
+ s.finished=s.index>=s.queue.length;delete s.answerLatency;delete s.promptedRetry;delete s.transferContext;s.revealed=false;s.typed='';s.feedback=null;s.cardStarted=now;
 }
 /** @param {string} a @param {string} b */
 export function distance(a,b){const row=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){let previous=row[0];row[0]=i;for(let j=1;j<=b.length;j++){const old=row[j];row[j]=Math.min(row[j]+1,row[j-1]+1,previous+(a[i-1]===b[j-1]?0:1));previous=old;}}return row[b.length];}
@@ -49,7 +49,8 @@ export function checkSentence(item,text,context){
  if(['C05','C10'].includes(item.id)&&(phrasePresent||inserted)&&!/\bbetween\b.+\band\b/i.test(text))issues.push('For this pattern practice, name both sides: between A and B.');
  if(words.length<7)issues.push('Add a complete idea with a specific detail, rather than only a word group.');
  if([item.goodExample,...item.sourceRefs.map(r=>r.example)].some(ex=>normalize(ex)===n))issues.push('This repeats the supplied example. Create a new situation to show transfer.');
- if((['C01','C02'].includes(item.id)&&context!=='interview')||(item.register==='email'&&context!=='email'))issues.push('Check register: this expression is primarily '+(item.register==='spoken'?'conversational. Use a less casual alternative here.':'an email/request phrase. Choose an appropriate communicative situation.'));
+ if(['C01','C02'].includes(item.id)&&context!=='interview')issues.push('Check register: this expression is primarily '+(item.register==='spoken'?'conversational. Use a less casual alternative here.':'an email/request phrase. Choose an appropriate communicative situation.'));
+ if(item.register==='email'&&context!=='email')notes.push('This phrase is common in polite requests. It can fit a spoken request too; check that the purpose and tone suit your situation.');
  if(context==='interview'&&['C06','C18','B12'].includes(item.id))notes.push('This wording is formal. In a short personal answer, consider a simpler alternative if it sounds forced.');
  if(/\bresearch (?:shows|proves|suggests)|\bstudies (?:show|prove|suggest)|\d+%/i.test(text))notes.push('Identify a real source for a research/statistical claim, or frame it as your own observation.');
  return {passed:issues.length===0,issues,notes,disclaimer:'Limited form and register checks only. They cannot fully judge grammar, meaning or naturalness. Confirm those yourself or request feedback.'};
