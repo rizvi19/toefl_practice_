@@ -1,7 +1,7 @@
 export const KEY='toefl-writing-2026-v1';
 export const TASKS=['sentence','email','academic'];
 export const NAMES={sentence:'Build a Sentence',email:'Write an Email',academic:'Write for an Academic Discussion'};
-export const DEFAULTS={sentence:300,email:420,academic:600};
+export const DEFAULTS={sentence:360,email:420,academic:600};
 export const wordCount=text=>(String(text).match(/[\p{L}\p{N}]+(?:['’\-][\p{L}\p{N}]+)*/gu)||[]).length;
 export const clock=seconds=>`${Math.floor(Math.max(0,seconds)/60)}:${String(Math.max(0,seconds)%60).padStart(2,'0')}`;
 export const remaining=(s,now=Date.now())=>s.status==='active'?Math.max(0,Math.ceil((s.deadline-now)/1000)):0;
@@ -40,7 +40,7 @@ export function placeToken(s,question,token,now=Date.now()){
   if(a.includes(token))return false;
   const slot=a.indexOf(null);if(slot<0)return false;a[slot]=token;s.responses.sentence[q.id]=a;return true;
 }
-export function gradeSentence(q,response=[]){return [q.chunks.map((_,i)=>i),...(q.alternatives||[])].some(key=>response.length===key.length&&response.every((token,i)=>token===key[i]))?1:0;}
+export function gradeSentence(q,response=[]){const pool=[...q.chunks,...q.extra],norm=s=>String(s).toLowerCase().replace(/[’‘]/g,"'");if(response.length!==q.chunks.length||new Set(response).size!==response.length||response.some(i=>!Number.isInteger(i)||i<0||i>=pool.length))return 0;return [q.chunks.map((_,i)=>i),...(q.alternatives||[])].some(key=>response.every((token,i)=>norm(pool[token])===norm(pool[key[i]])))?1:0;}
 export function tileLabel(q,token,slot=null){
   let text=[...q.chunks,...q.extra][token]?.toLowerCase()||'';
   if(slot===null)return text;
@@ -48,7 +48,7 @@ export function tileLabel(q,token,slot=null){
   if(slot===0&&!q.prefix.trim())text=text.replace(/^\p{L}/u,c=>c.toUpperCase());
   return text;
 }
-export function sentenceText(q,response){return [q.prefix,(response||[]).map((i,slot)=>Number.isInteger(i)?tileLabel(q,i,slot):'___').join(' ')].filter(Boolean).join(' ')+q.suffix;}
+export function sentenceText(q,response){return [q.prefix,(response||[]).map((i,slot)=>(q.fixedInsertions||[]).filter(f=>f.after===slot).map(f=>f.text+' ').join('')+(Number.isInteger(i)?tileLabel(q,i,slot):'___')).join(' ')].filter(Boolean).join(' ')+q.suffix;}
 export function sentenceScore(s){return s.form.sentences.reduce((n,q)=>n+gradeSentence(q,s.responses.sentence[q.id]),0);}
 export function questionText(task,prompt){
   if(task==='email')return `WRITE AN EMAIL\n${prompt.scenario}\n\nWrite an email to ${prompt.to}. In your email:\n${prompt.bullets.map(x=>'- '+x).join('\n')}\nWrite in complete sentences and develop your points.\nTo: ${prompt.to}\nSubject: ${prompt.subject}`;

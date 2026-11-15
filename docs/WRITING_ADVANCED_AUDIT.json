@@ -1,6 +1,27 @@
 {
-  "version": "writing-distractors-v3",
-  "date": "2026-10-21",
+  "version": "sentence-standard-v1",
+  "date": "2026-11-15",
+  "referenceQuestions": 30,
+  "totalIncludingReference": 650,
+  "referenceCorrections": [
+    {
+      "question": 5,
+      "notes": [
+        "Source correction: one missing blank was added after the fixed word delayed; the printed answer key needs seven supplied chunks."
+      ]
+    },
+    {
+      "question": 10,
+      "notes": [
+        "Source correction: a second she tile and one blank were added. Both subjects are needed for the sentence in the printed key."
+      ]
+    }
+  ],
+  "referenceSlotRange": [
+    6,
+    8
+  ],
+  "internalFixedWordItems": 36,
   "newQuestions": 500,
   "retainedOriginalQuestions": 120,
   "totalQuestions": 620,
@@ -9,8 +30,8 @@
   "emailPrompts": 24,
   "academicDiscussionPrompts": 24,
   "slotRange": [
-    3,
-    7
+    5,
+    9
   ],
   "withUnusedTile": 123,
   "withoutUnusedTile": 377,

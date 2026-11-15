@@ -1,3 +1,4 @@
+import {standardTiles} from './sentence-standard.js';
 // Original practice material. Each line is context | fixed opening | ordered chunks | ending | extra | explanation.
 // Chunks, rather than capitalization or punctuation, determine the exact one-point key.
 const sentenceSets = [
@@ -126,5 +127,5 @@ How did you finish the report so quickly?|My partner helped |me / organize / the
 import {applyDistractor} from './distractors.js?v=writing4';
 export const sentences = sentenceSets.map((set, form) => set.trim().split('\n').map((line, i) => {
   const [context, prefix, chunks, suffix, extra, explanation] = line.split('|');
-  return applyDistractor({id:`w${String(form+1).padStart(2,'0')}-s${i+1}`,context,prefix:prefix.trim(),chunks:chunks.split(' / '),suffix,extra:extra?[extra]:[],explanation});
+  return standardTiles(applyDistractor({id:`w${String(form+1).padStart(2,'0')}-s${i+1}`,context,prefix:prefix.trim(),chunks:chunks.split(' / '),suffix,extra:extra?[extra]:[],explanation}));
 }));

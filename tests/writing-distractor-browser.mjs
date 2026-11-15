@@ -24,9 +24,9 @@ try{
  assert.equal(await page.locator('.sentence-slot').count(),5);assert.deepEqual((await state()).current,current);
  for(let i=1;i<old.chunks.length;i++)await token(i).click();await button('Check sentence').click();assert((await state()).current.correct);
  // Deliberate retry uses the revised seven-slot item, preserving the old result and seen history.
- await button('Try this sentence again').click();assert.equal(await page.locator('.sentence-slot').count(),7);assert.equal(await page.locator('.tile-bank button').count(),8);
+ await button('Try this sentence again').click();assert.equal(await page.locator('.sentence-slot').count(),q.chunks.length);assert.equal(await page.locator('.tile-bank button').count(),q.chunks.length+q.extra.length);
  for(const text of await page.locator('.tile-bank button').allTextContents())assert.equal(text,text.toLowerCase());
- assert.equal(await page.locator('.explanation').count(),0);assert((await page.locator('.sentence-task .helper').innerText()).includes('may be unused'));
+ assert.equal(await page.locator('.explanation').count(),0);assert((await page.locator('.sentence-task').innerText()).includes('may be unused'));
  assert(!(await page.locator('body').innerText()).includes(q.extraExplanation));
  // Choose have instead of has, reload mid-answer, then receive zero with a targeted explanation.
  const wrong=q.chunks.map((_,i)=>i===3?q.chunks.length:i);
@@ -44,9 +44,9 @@ try{
  const session=createSession(form,'sentence');
  await page.evaluate(({key,session})=>localStorage.setItem(key,JSON.stringify({version:1,session,history:[],exposure:{}})),{key:WRITING,session});
  await page.goto(new URL('writing.html',base).href);await button('Resume Writing test').click();
- assert((await page.locator('.sentence-task .helper').first().innerText()).includes('may be unused'));
+ assert((await page.locator('.sentence-task').innerText()).includes('may be unused'));
  for(const i of wrong)await token(i).click();await button('End test').click();await page.getByRole('dialog').getByRole('button',{name:'End attempt',exact:true}).click();
  const report=page.locator('.review-task').first();await report.locator('summary').click();assert((await report.innerText()).includes('0/1'));assert((await report.innerText()).includes(q.extraExplanation));
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
- console.log('PASS distractors: lowercase 7-slot/8-tile item; wrong extra survives reload and earns zero; correct retry earns one; specific rationale in focused and timed feedback; old frozen question/result and encounter ledger preserved; mobile no overflow.');
+ console.log('PASS distractors: lowercase reference-style tile layout; wrong extra survives reload and earns zero; correct retry earns one; specific rationale in focused and timed feedback; old frozen question/result and encounter ledger preserved; mobile no overflow.');
 }finally{await browser.close();}

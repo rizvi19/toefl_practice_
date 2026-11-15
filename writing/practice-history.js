@@ -1,4 +1,4 @@
-import {gradeSentence} from './core.js?v=writing2';
+import {gradeSentence} from './core.js?v=sentence-standard1';
 
 // The encounter ledger outlives the recent timed-test reports. Keep every seen
 // question visible even when its older score is no longer in those reports.

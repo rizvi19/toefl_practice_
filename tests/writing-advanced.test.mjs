@@ -23,15 +23,15 @@ test('selective item-specific distractors preserve keys and reject wrong substit
   for(let slot=0;slot<key.length;slot++){const wrong=[...key];wrong[slot]=q.chunks.length;assert.equal(gradeSentence(q,wrong),0,q.id);}
  }
  for(const g of groups)for(const [i,row] of g.rows.entries()){
-  const original=row.split('|')[2].split(' / ').join(' ').toLowerCase();
+  const [context,prefix,tiles,suffix]=row.split('|');const original=(prefix.trim()+' '+tiles.split(' / ').join(' ')+suffix).trim().toLowerCase();
   const revised=advanced.find(q=>q.id===`wa-${g.id}-${String(i+1).padStart(2,'0')}`);
-  assert.equal(revised.chunks.join(' ').toLowerCase(),original,revised.id);
+  assert.equal(sentenceText(revised,revised.chunks.map((_,i)=>i)).toLowerCase(),original,revised.id);
  }
 });
 test('500 unique original questions across 50 complete grammar families, 200 medium and 300 hard',()=>{
  assert.equal(advanced.length,500);assert.equal(topics.length,50);assert.equal(advanced.filter(q=>q.level==='medium').length,200);assert.equal(advanced.filter(q=>q.level==='hard').length,300);
  const ids=new Set(),answers=new Set(),contexts=new Set();
- for(const q of advanced){assert(!ids.has(q.id));ids.add(q.id);assert(!contexts.has(q.context),q.context);contexts.add(q.context);assert(q.chunks.length>=3&&q.chunks.length<=7,q.id);assert.equal(new Set([...q.chunks,...q.extra]).size,q.chunks.length+q.extra.length,q.id);assert(q.suffix.match(/[.?]$/),q.id);assert(q.analysis.length>35,q.id);assert(q.rule.length>90,q.id);assert(q.trap.length>45,q.id);assert(q.explanation.includes(q.analysis));
+ for(const q of advanced){assert(!ids.has(q.id));ids.add(q.id);assert(!contexts.has(q.context),q.context);contexts.add(q.context);assert(q.chunks.length>=5&&q.chunks.length<=9,q.id);assert.equal(new Set([...q.chunks,...q.extra]).size,q.chunks.length+q.extra.length,q.id);assert(q.suffix.match(/[.?]$/),q.id);assert(q.analysis.length>35,q.id);assert(q.rule.length>90,q.id);assert(q.trap.length>45,q.id);assert(q.explanation.includes(q.analysis));
   const key=q.chunks.map((_,i)=>i),text=sentenceText(q,key).toLowerCase();assert(!answers.has(text),q.id);answers.add(text);assert.equal(gradeSentence(q,key),1);assert.equal(gradeSentence(q,[...key].reverse()),0);assert.equal(gradeSentence(q,Array(key.length).fill(null)),0);if(q.extra.length)assert.equal(gradeSentence(q,[q.chunks.length,...key.slice(1)]),0);
  }
  for(const t of topics)assert.equal(advanced.filter(q=>q.topic===t.id).length,10);

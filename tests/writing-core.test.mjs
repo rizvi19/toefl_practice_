@@ -23,8 +23,8 @@ test('placement prevents duplication, overflow, invalid tokens and changes at ex
  for(let i=1;i<q.chunks.length;i++)assert(placeToken(s,q.id,i,1003));assert.equal(gradeSentence(q,s.responses.sentence[q.id]),1);assert(!placeToken(s,q.id,q.chunks.length,1004));assert(!placeToken(s,s.form.sentences[1].id,0,s.deadline));
 });
 test('independent task clocks, refresh persistence, locking, timeout and untimed transitions',()=>{
- let s=createSession(form(0),'full',DEFAULTS,1000);assert.equal(remaining(s,1000),300);assert.equal(remaining(s,s.deadline),0);s=JSON.parse(JSON.stringify(s));assert.equal(s.deadline,301000);
- closeTask(s,'submitted',s.deadline+9999);assert.equal(s.timing.sentence.reason,'timeout');assert.equal(s.timing.sentence.usedSeconds,300);assert.equal(s.status,'ready');assert.equal(s.deadline,null);assert(!placeToken(s,s.form.sentences[0].id,0,999999));
+ let s=createSession(form(0),'full',DEFAULTS,1000);assert.equal(remaining(s,1000),360);assert.equal(remaining(s,s.deadline),0);s=JSON.parse(JSON.stringify(s));assert.equal(s.deadline,361000);
+ closeTask(s,'submitted',s.deadline+9999);assert.equal(s.timing.sentence.reason,'timeout');assert.equal(s.timing.sentence.usedSeconds,360);assert.equal(s.status,'ready');assert.equal(s.deadline,null);assert(!placeToken(s,s.form.sentences[0].id,0,999999));
  startTask(s,999999);assert.equal(remaining(s,999999),420);s.responses.email='A saved email.';closeTask(s,'submitted',1009999);assert.equal(s.timing.email.usedSeconds,10);assert.equal(s.status,'ready');assert.equal(s.responses.email,'A saved email.');
  startTask(s,2000000);assert.equal(remaining(s,2000000),600);closeTask(s,'submitted',2005000);assert.equal(s.status,'complete');assert.equal(s.reason,'timeout');assert.equal(s.timing.academic.usedSeconds,5);
 });

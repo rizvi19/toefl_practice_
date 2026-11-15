@@ -1,0 +1,14 @@
+[data-sentence-token]:not(:disabled){touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+[data-sentence-slot]{scroll-margin:100px;max-width:100%;overflow-wrap:anywhere;transition:background-color .12s,outline-color .12s;touch-action:manipulation}
+[data-sentence-bank]{min-height:80px;border:2px solid transparent;border-radius:8px}
+[data-sentence-bank] button{max-width:100%;overflow-wrap:anywhere}
+[data-sentence-slot].sentence-drop-target,[data-sentence-slot].sentence-picked-slot{outline:3px solid #518244;outline-offset:3px;background:#e2f0d3!important}
+[data-sentence-bank].sentence-drop-target{border-color:#518244;background:#e2f0d3}
+.sentence-drag-source{opacity:.25!important}
+.sentence-dragging,.sentence-dragging *{cursor:grabbing!important;user-select:none!important}
+.sentence-drag-ghost{position:fixed;left:0;top:0;z-index:10000;pointer-events:none;display:flex;align-items:center;justify-content:center;padding:6px 10px;box-sizing:border-box;background:#163e3c;color:white;border:1px solid #a5c589;border-radius:7px;box-shadow:0 8px 24px #163e3c44;font:600 16px/1.3 DM,Arial,sans-serif;transform-origin:top left;will-change:transform;overflow-wrap:anywhere;text-align:center}
+.sentence-drag-live{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+[data-sentence-slot]:focus-visible,[data-sentence-token]:focus-visible{outline:3px solid #518244;outline-offset:3px}
+/* Wrapped blanks must stay within narrow screens, even for long phrases. */
+.sentence-slots{max-width:100%;box-sizing:border-box}
+@media(prefers-reduced-motion:reduce){[data-sentence-slot]{transition:none}}
