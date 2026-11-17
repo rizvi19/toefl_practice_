@@ -1,5 +1,5 @@
-const CACHE='toefl-recall-shell-v2';
-const FILES=['./index.html','./style.css?v=2','./lab.js?v=2','./views.js','./mountain-views.js','./mountain-engine.js','./engine.js','./storage.js','./schema.js','./audio.js','./icon.svg','./manifest.webmanifest','./data/master_bank.json','./data/activities.json','./data/source_report.json','../simulator/speech.js','../simulator/storage.js','../assets/browser-kokoro.js'];
+const CACHE='toefl-recall-shell-v3';
+const FILES=['./index.html','./style.css?v=2','./lab.js?v=2','./views.js','./mountain-views.js','./mountain-engine.js','./engine.js','./storage.js','./schema.js','./audio.js','./icon.svg','./manifest.webmanifest','./data/master_bank.json','./data/activities.json','./data/source_report.json','../simulator/speech.js','../simulator/storage.js','../assets/browser-kokoro.js','../assets/browser-kokoro.js?v=lastday2'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('toefl-recall-shell-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
