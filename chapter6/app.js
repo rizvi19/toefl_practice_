@@ -1,5 +1,5 @@
 import {installSentenceDrag,sentenceSlots,sentencePool,instructions as tileInstructions} from '../assets/sentence-drag.js?v=dragonly2';
-import {enhanceLegacyReview} from '../simulator/legacy-review.js?v=sentence-drag1';
+import {enhanceLegacyReview} from '../simulator/legacy-review.js?v=scoreguide1';
 import {KEY,clock,budget,itemCount,answered,SECTIONS,scoreSummary,migrateWordFragments,createSession,startStage,remaining,advanceStage,canMove,validateSession} from './core.js?v=sentence-drag1';
 const main=document.querySelector('#main'),modal=document.querySelector('#modal');
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

@@ -33,3 +33,7 @@ test('all 200 released clips match their final script and file hash',()=>{
 test('subsection directions preserve exact Reading budget, including navigation and reload',()=>{
  const f=forms[0],s=core.createAttempt(f,{mode:'practice',scope:'Reading'});s.audioReady={};s.status='directions';core.beginStage(f,s,1000);assert.equal(s.phase,'task-directions');assert.equal(s.deadline,null);assert.equal(s.pausedTaskMilliseconds,1140000);core.recover(f,s,90000);core.startIntroducedTask(s,100000);assert.equal(s.deadline,1240000);s.index=1;core.next(f,s,'next',110000);assert.equal(s.phase,'task-directions');assert.equal(s.pausedTaskMilliseconds,1130000);core.startIntroducedTask(s,200000);assert.equal(s.deadline,1330000);core.go(f,s,3,210000);assert.equal(s.phase,'question');core.go(f,s,4,220000);assert.equal(s.phase,'task-directions');assert.equal(s.pausedTaskMilliseconds,1110000);
 });
+
+test('the complete scoring packet contains every question, all four guide rubrics and the 1–6 method',()=>{
+ const f=forms[0],s=core.createAttempt(f),packet=evaluationText(f,s);for(const q of core.selectedQuestions(f,s))assert(packet.includes(q.id),q.id);for(const text of ['p. 208','p. 217','p. 232','p. 240','HOLISTIC TASK RUBRIC, 0–5','EACH RESPONSE 0–5','5.25','5.125','0.5','NOT ASSESSABLE','REQUIRED FEEDBACK FORMAT','PRACTICE ESTIMATE','speaking-rubrics.pdf','writing-rubrics.pdf'])assert(packet.includes(text),text);assert(packet.includes('Do NOT multiply a task score by 1.2'));assert(packet.includes('confidence'));
+});
