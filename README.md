@@ -1,6 +1,8 @@
 # TOEFL Practice Studio — Reading, Listening and Writing (2026)
 
-**Sentence update (15 November 2026):** Drag words into exact blanks on desktop or touchscreens; swap words, return tiles to the bank, or use tap/keyboard controls. Focused practice includes 500 original exercises with finer reference-style tiles and 30 sourced TST Prep PDF exercises; the retained Writing bank has 120 more. The default sentence timer is six minutes. [Reference review and source corrections](docs/SENTENCE_BUILDER_2026.md).
+**Last Day Prep (17 November 2026):** [Five new full mocks](https://rizvi19.github.io/toefl_practice_/last-day.html), prepared Kokoro audio, untimed subsection directions, three-second Listening/Repeat pauses, sliding-only sentence tiles, local Speaking transcription and complete scoring exports. [Setup and content notes](docs/LAST_DAY_PREP.md).
+
+**Sentence update (15 November 2026):** Drag words into exact blanks on desktop or touchscreens; swap words, return tiles to the bank, or use keyboard drag controls. Focused practice includes 500 original exercises with finer reference-style tiles and 30 sourced TST Prep PDF exercises; the retained Writing bank has 120 more. The default sentence timer is six minutes. [Reference review and source corrections](docs/SENTENCE_BUILDER_2026.md).
 
 **Recall Lab - Vocabulary Mountain:** [Open the mountain](https://rizvi19.github.io/toefl_practice_/recall/index.html) - 714 items (380 words and 334 expressions), all original 33, all 220 masterbook expressions and 228 vocabulary records before merging, plus 119 original additions. Cumulative Group 1, then 1-2, then 1-3; unread/error weights; six recall directions; 120 original interactive stories with complete coverage. No day cycle or separate test modes inside Recall Lab. [Setup and verification](docs/RECALL_LAB.md).
 

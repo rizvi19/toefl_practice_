@@ -2,9 +2,9 @@ name: Validate and package section tests
 on:
   push:
     branches: [main]
-    paths: ['recall/**', 'eslint.recall.config.js', 'full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['last-day.html', 'recall/**', 'eslint.recall.config.js', 'full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   pull_request:
-    paths: ['recall/**', 'eslint.recall.config.js', 'full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
+    paths: ['last-day.html', 'recall/**', 'eslint.recall.config.js', 'full-test-help.html', 'full-tests.html', 'simulator/**', 'chapter6.html', 'chapter6/**', 'index.html', 'library.html', 'exam/**', 'reading/**', 'listening/**', 'writing.html', 'sentence-practice.html', 'writing/**', 'tests/**', 'assets/**', 'audio/**', 'docs/**', 'collections/**', 'tools/**', 'package*.json', '.github/workflows/**']
   workflow_dispatch:
 concurrency:
   group: practice-quality-${{ github.ref }}
@@ -41,6 +41,10 @@ jobs:
           npm run audit:full
           git diff --exit-code -- simulator/forms docs/FULL_FORMS_AUDIT.json
           npm run test:full
+          npm run build:last-day
+          npm run audit:last-day
+          git diff --exit-code -- simulator/last-day/forms simulator/last-day/index.json docs/LAST_DAY_AUDIT.json
+          npm run test:last-day
           npm run build:recall
           git diff --exit-code -- recall/data
           npm run typecheck:recall
@@ -61,6 +65,7 @@ jobs:
           npm run test:browser
           npm run test:chapter6:browser
           npm run test:full:browser
+          npm run test:last-day:browser
           npm run test:recall:browser
           npm run test:writing:browser
           npm run smoke
@@ -79,6 +84,7 @@ jobs:
           npm run test:browser
           npm run test:chapter6:browser
           npm run test:full:browser
+          npm run test:last-day:browser
           npm run test:recall:browser
           npm run test:writing:browser
           npm run smoke

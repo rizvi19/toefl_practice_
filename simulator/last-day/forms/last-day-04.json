@@ -1,0 +1,2649 @@
+{
+  "id": "last-day-04",
+  "version": 1,
+  "title": "Last Day Mock 04 · Working Together",
+  "description": "Original fixed mixed-difficulty practice modeled on the guide’s task types and content ranges.",
+  "original": true,
+  "adaptive": false,
+  "collection": "last-day",
+  "taskIntroductions": true,
+  "baseCount": 120,
+  "audioLeadInSeconds": 3,
+  "repeatLeadInSeconds": 3,
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-04-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Birds do not always build a new nest for each breeding season. Some species ",
+            {
+              "pre": "ret",
+              "answer": "urn"
+            },
+            " to an old nest and ",
+            {
+              "pre": "rep",
+              "answer": "air"
+            },
+            " the damaged parts. Reusing a nest can save ",
+            {
+              "pre": "ener",
+              "answer": "gy"
+            },
+            ", but old material may also ",
+            {
+              "pre": "cont",
+              "answer": "ain"
+            },
+            " parasites. The advantages therefore ",
+            {
+              "pre": "de",
+              "answer": "pend"
+            },
+            " on local conditions and on how the nest was ",
+            {
+              "pre": "maint",
+              "answer": "ained"
+            },
+            ". Researchers studying this behavior ",
+            {
+              "pre": "meas",
+              "answer": "ure"
+            },
+            " ",
+            {
+              "pre": "bo",
+              "answer": "th"
+            },
+            " the time birds spend building and their later ",
+            {
+              "pre": "succ",
+              "answer": "ess"
+            },
+            ". A habit ",
+            {
+              "pre": "th",
+              "answer": "at"
+            },
+            " appears simple may involve a balance between several competing pressures in the environment."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A spoken story can change as it passes from one person to another. Listeners often ",
+            {
+              "pre": "rem",
+              "answer": "ember"
+            },
+            " the main events but ",
+            {
+              "pre": "repl",
+              "answer": "ace"
+            },
+            " unfamiliar details with more ",
+            {
+              "pre": "comm",
+              "answer": "on"
+            },
+            " ones. A difficult name may be ",
+            {
+              "pre": "simpli",
+              "answer": "fied"
+            },
+            ", or two events may be combined into a single incident. These changes do not always ",
+            {
+              "pre": "res",
+              "answer": "ult"
+            },
+            " ",
+            {
+              "pre": "fr",
+              "answer": "om"
+            },
+            " a deliberate attempt to mislead. They can arise from the way people ",
+            {
+              "pre": "org",
+              "answer": "anize"
+            },
+            " information in memory. Comparing several ",
+            {
+              "pre": "ver",
+              "answer": "sions"
+            },
+            " of a story can therefore reveal ",
+            {
+              "pre": "bo",
+              "answer": "th"
+            },
+            " shared elements and the influence of each ",
+            {
+              "pre": "tell",
+              "answer": "er"
+            },
+            "'s experience."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 11,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-d0-q1",
+          "type": "choice",
+          "prompt": "What will the group mainly practise this evening?",
+          "options": [
+            "The final performance with the full set",
+            "Moving the scenery into a new room",
+            "Spoken parts without the large scenery",
+            "Collecting costumes during the rehearsal"
+          ],
+          "answer": 2,
+          "explanation": "The smaller studio permits dialogue practice but not the large panels.",
+          "skill": "main idea",
+          "task": "daily-life",
+          "title": "Message: rehearsal arrangement",
+          "passage": "The hall is unavailable for our rehearsal this evening, so we will meet in the music building’s smaller studio. We can practise dialogue there, but please do not bring the large scenery panels; they will not fit through its doors. Tomorrow we will return to the hall for a rehearsal with the full set. Tonight’s start remains 6:15. If you are collecting a borrowed costume, come fifteen minutes early, as the storage assistant must leave before the rehearsal starts.",
+          "documentType": "notice",
+          "stimulusId": "last-day-04-r1-d0",
+          "number": 21,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-d0-q2",
+          "type": "choice",
+          "prompt": "When should someone collecting a costume arrive?",
+          "options": [
+            "Tomorrow before the full-set rehearsal",
+            "At 6:30 p.m.",
+            "At 6:15 p.m.",
+            "At 6 p.m."
+          ],
+          "answer": 3,
+          "explanation": "Fifteen minutes before 6:15 is six o’clock.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Message: rehearsal arrangement",
+          "passage": "The hall is unavailable for our rehearsal this evening, so we will meet in the music building’s smaller studio. We can practise dialogue there, but please do not bring the large scenery panels; they will not fit through its doors. Tomorrow we will return to the hall for a rehearsal with the full set. Tonight’s start remains 6:15. If you are collecting a borrowed costume, come fifteen minutes early, as the storage assistant must leave before the rehearsal starts.",
+          "documentType": "notice",
+          "stimulusId": "last-day-04-r1-d0",
+          "number": 22,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-d1-q1",
+          "type": "choice",
+          "prompt": "Why might a digital copy be hard to read?",
+          "options": [
+            "The library has not finished assigning dates",
+            "The catalogue omits all pages containing photographs",
+            "The original document was in poor condition",
+            "Access from home reduces the image resolution"
+          ],
+          "answer": 2,
+          "explanation": "Damaged originals caused uneven image quality.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Library webpage: borrowing local history files",
+          "passage": "LOCAL HISTORY FILES\nDigital copies of selected neighborhood newsletters are now available through the library catalogue. You can search them from home, but image quality varies because many originals were damaged. The printed files may still be consulted in the archive room by appointment. Please request specific years when booking; staff need time to retrieve the boxes. Photography is permitted for personal study if no flash is used. Documents containing personal contact details may be viewed, but those details must not be included in photographs.",
+          "documentType": "notice",
+          "stimulusId": "last-day-04-r1-d1",
+          "number": 23,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-d1-q2",
+          "type": "choice",
+          "prompt": "Why should visitors specify years when booking?",
+          "options": [
+            "To show that they have already searched online",
+            "To obtain permission to use a camera flash",
+            "To arrange removal of personal contact details",
+            "To give staff time to locate the requested material"
+          ],
+          "answer": 3,
+          "explanation": "Staff retrieve the relevant boxes before the appointment.",
+          "skill": "purpose",
+          "task": "daily-life",
+          "title": "Library webpage: borrowing local history files",
+          "passage": "LOCAL HISTORY FILES\nDigital copies of selected neighborhood newsletters are now available through the library catalogue. You can search them from home, but image quality varies because many originals were damaged. The printed files may still be consulted in the archive room by appointment. Please request specific years when booking; staff need time to retrieve the boxes. Photography is permitted for personal study if no flash is used. Documents containing personal contact details may be viewed, but those details must not be included in photographs.",
+          "documentType": "notice",
+          "stimulusId": "last-day-04-r1-d1",
+          "number": 24,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-d1-q3",
+          "type": "choice",
+          "prompt": "What restriction applies to photography?",
+          "options": [
+            "Images may be made only after the files close",
+            "Only undamaged newsletters may be photographed",
+            "All photographs must be taken by archive staff",
+            "Personal contact details must be excluded"
+          ],
+          "answer": 3,
+          "explanation": "The notice allows personal-study photographs except contact details.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Library webpage: borrowing local history files",
+          "passage": "LOCAL HISTORY FILES\nDigital copies of selected neighborhood newsletters are now available through the library catalogue. You can search them from home, but image quality varies because many originals were damaged. The printed files may still be consulted in the archive room by appointment. Please request specific years when booking; staff need time to retrieve the boxes. Photography is permitted for personal study if no flash is used. Documents containing personal contact details may be viewed, but those details must not be included in photographs.",
+          "documentType": "notice",
+          "stimulusId": "last-day-04-r1-d1",
+          "number": 25,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a0-q1",
+          "type": "choice",
+          "prompt": "What is the central idea?",
+          "options": [
+            "Changes in animal coloring gradually force the surrounding landscape to change",
+            "The advantage of a color depends on environmental conditions",
+            "Individual insects adjust their colors to make their offspring better hidden",
+            "Predators cause every member of a population to change color"
+          ],
+          "answer": 1,
+          "explanation": "The passage explains color advantage through background and selection.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "When a dark surface becomes an advantage",
+          "passage": "Whether an animal’s coloring provides camouflage depends on the background against which it is seen. A dark insect may be difficult to detect on dark bark but conspicuous on a pale surface. A change in the surrounding landscape can therefore change the value of a color without changing how the animal uses it.\nConsider a population in which some insects are lighter than others. If birds find insects by sight, the more visible individuals may be caught more often. When darker resting surfaces become common, dark individuals may survive and leave more offspring. Over generations, the proportion of dark insects can increase. This does not mean that individual insects deliberately darken because they need to hide. It means that existing differences affect survival and reproduction under changed conditions.\nThe relationship is not fixed forever. If the background becomes lighter again, a different color may gain an advantage. Other influences, such as the animals’ resting locations and the presence of predators, can also affect the outcome.\nCamouflage thus offers a useful example of selection as a relationship between organisms and their environment. To explain a change in a population, researchers need to examine not only the animals’ appearances, but also the conditions under which those appearances become more or less effective.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a0",
+          "number": 26,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a0-q2",
+          "type": "choice",
+          "prompt": "What causes dark insects to become more common in the example?",
+          "options": [
+            "Birds stop eating insects when dark bark becomes common",
+            "The number of possible resting locations increases",
+            "They survive and reproduce more successfully on darker backgrounds",
+            "Each light insect changes its color before reproducing"
+          ],
+          "answer": 2,
+          "explanation": "Differential survival and reproduction change population proportions.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "When a dark surface becomes an advantage",
+          "passage": "Whether an animal’s coloring provides camouflage depends on the background against which it is seen. A dark insect may be difficult to detect on dark bark but conspicuous on a pale surface. A change in the surrounding landscape can therefore change the value of a color without changing how the animal uses it.\nConsider a population in which some insects are lighter than others. If birds find insects by sight, the more visible individuals may be caught more often. When darker resting surfaces become common, dark individuals may survive and leave more offspring. Over generations, the proportion of dark insects can increase. This does not mean that individual insects deliberately darken because they need to hide. It means that existing differences affect survival and reproduction under changed conditions.\nThe relationship is not fixed forever. If the background becomes lighter again, a different color may gain an advantage. Other influences, such as the animals’ resting locations and the presence of predators, can also affect the outcome.\nCamouflage thus offers a useful example of selection as a relationship between organisms and their environment. To explain a change in a population, researchers need to examine not only the animals’ appearances, but also the conditions under which those appearances become more or less effective.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a0",
+          "number": 27,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a0-q3",
+          "type": "choice",
+          "prompt": "The word “conspicuous” is closest in meaning to",
+          "options": [
+            "slow to move",
+            "likely to reproduce",
+            "easy to notice",
+            "difficult to identify"
+          ],
+          "answer": 2,
+          "explanation": "A conspicuous insect stands out against its background.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "When a dark surface becomes an advantage",
+          "passage": "Whether an animal’s coloring provides camouflage depends on the background against which it is seen. A dark insect may be difficult to detect on dark bark but conspicuous on a pale surface. A change in the surrounding landscape can therefore change the value of a color without changing how the animal uses it.\nConsider a population in which some insects are lighter than others. If birds find insects by sight, the more visible individuals may be caught more often. When darker resting surfaces become common, dark individuals may survive and leave more offspring. Over generations, the proportion of dark insects can increase. This does not mean that individual insects deliberately darken because they need to hide. It means that existing differences affect survival and reproduction under changed conditions.\nThe relationship is not fixed forever. If the background becomes lighter again, a different color may gain an advantage. Other influences, such as the animals’ resting locations and the presence of predators, can also affect the outcome.\nCamouflage thus offers a useful example of selection as a relationship between organisms and their environment. To explain a change in a population, researchers need to examine not only the animals’ appearances, but also the conditions under which those appearances become more or less effective.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a0",
+          "number": 28,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a0-q4",
+          "type": "choice",
+          "prompt": "What might happen if resting surfaces become pale again?",
+          "options": [
+            "Lighter insects could regain an advantage",
+            "Every dark insect would immediately become pale",
+            "Birds would lose the ability to locate insects",
+            "Color differences would cease to exist in the population"
+          ],
+          "answer": 0,
+          "explanation": "A changed background can reverse which color is better concealed.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "When a dark surface becomes an advantage",
+          "passage": "Whether an animal’s coloring provides camouflage depends on the background against which it is seen. A dark insect may be difficult to detect on dark bark but conspicuous on a pale surface. A change in the surrounding landscape can therefore change the value of a color without changing how the animal uses it.\nConsider a population in which some insects are lighter than others. If birds find insects by sight, the more visible individuals may be caught more often. When darker resting surfaces become common, dark individuals may survive and leave more offspring. Over generations, the proportion of dark insects can increase. This does not mean that individual insects deliberately darken because they need to hide. It means that existing differences affect survival and reproduction under changed conditions.\nThe relationship is not fixed forever. If the background becomes lighter again, a different color may gain an advantage. Other influences, such as the animals’ resting locations and the presence of predators, can also affect the outcome.\nCamouflage thus offers a useful example of selection as a relationship between organisms and their environment. To explain a change in a population, researchers need to examine not only the animals’ appearances, but also the conditions under which those appearances become more or less effective.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a0",
+          "number": 29,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a0-q5",
+          "type": "choice",
+          "prompt": "Why does the author clarify that insects do not deliberately darken?",
+          "options": [
+            "To suggest that color has no relationship to survival",
+            "To introduce a method for measuring the color of bark",
+            "To explain why predators select the darkest resting places",
+            "To distinguish population change from purposeful individual change"
+          ],
+          "answer": 3,
+          "explanation": "The clarification prevents a misunderstanding of selection.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "When a dark surface becomes an advantage",
+          "passage": "Whether an animal’s coloring provides camouflage depends on the background against which it is seen. A dark insect may be difficult to detect on dark bark but conspicuous on a pale surface. A change in the surrounding landscape can therefore change the value of a color without changing how the animal uses it.\nConsider a population in which some insects are lighter than others. If birds find insects by sight, the more visible individuals may be caught more often. When darker resting surfaces become common, dark individuals may survive and leave more offspring. Over generations, the proportion of dark insects can increase. This does not mean that individual insects deliberately darken because they need to hide. It means that existing differences affect survival and reproduction under changed conditions.\nThe relationship is not fixed forever. If the background becomes lighter again, a different color may gain an advantage. Other influences, such as the animals’ resting locations and the presence of predators, can also affect the outcome.\nCamouflage thus offers a useful example of selection as a relationship between organisms and their environment. To explain a change in a population, researchers need to examine not only the animals’ appearances, but also the conditions under which those appearances become more or less effective.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a0",
+          "number": 30,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a1-q1",
+          "type": "choice",
+          "prompt": "Why might replacing old spellings be undesirable?",
+          "options": [
+            "It would make original documents impossible to preserve",
+            "It would require every collection to use printed catalogs",
+            "It could erase information about historical usage",
+            "It would prevent any modern searches from succeeding"
+          ],
+          "answer": 2,
+          "explanation": "The original forms can carry historical and community information.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Why a catalog preserves old spellings",
+          "passage": "A reader searching a historical collection may encounter several spellings for the same person or place. It can be tempting to replace every old form with a single modern spelling. Doing so would simplify some searches, but it could also remove information about how names were used in different periods or by different communities.\nCatalogers can address this problem by separating the transcription of an original description from the terms used to search it. The original wording remains visible, while an additional reference connects it to other forms of the name. A reader who searches for the modern form can then find older entries without assuming that their spelling has been silently changed.\nThis approach requires judgment. Similar-looking names may refer to different places, and a name may have changed for political or administrative reasons rather than through spelling variation alone. An automatic rule that merges every resemblance can create false connections. Notes explaining uncertain identifications are therefore valuable, even if they make the catalog appear less tidy.\nA useful catalog does more than produce a short list of results. It also helps readers understand how those results were connected. Preserving uncertainty and variation can make a collection more reliable, because the evidence behind a search result remains open to inspection.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a1",
+          "number": 31,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a1-q2",
+          "type": "choice",
+          "prompt": "How can a catalog support modern searches without altering original wording?",
+          "options": [
+            "By asking readers to search without any standardized terms",
+            "By adding references between different name forms",
+            "By placing every similar name in a single record",
+            "By removing entries that contain unfamiliar spellings"
+          ],
+          "answer": 1,
+          "explanation": "Search references can coexist with faithful transcription.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Why a catalog preserves old spellings",
+          "passage": "A reader searching a historical collection may encounter several spellings for the same person or place. It can be tempting to replace every old form with a single modern spelling. Doing so would simplify some searches, but it could also remove information about how names were used in different periods or by different communities.\nCatalogers can address this problem by separating the transcription of an original description from the terms used to search it. The original wording remains visible, while an additional reference connects it to other forms of the name. A reader who searches for the modern form can then find older entries without assuming that their spelling has been silently changed.\nThis approach requires judgment. Similar-looking names may refer to different places, and a name may have changed for political or administrative reasons rather than through spelling variation alone. An automatic rule that merges every resemblance can create false connections. Notes explaining uncertain identifications are therefore valuable, even if they make the catalog appear less tidy.\nA useful catalog does more than produce a short list of results. It also helps readers understand how those results were connected. Preserving uncertainty and variation can make a collection more reliable, because the evidence behind a search result remains open to inspection.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a1",
+          "number": 32,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a1-q3",
+          "type": "choice",
+          "prompt": "The word “merges” is closest in meaning to",
+          "options": [
+            "translates",
+            "combines",
+            "examines",
+            "corrects"
+          ],
+          "answer": 1,
+          "explanation": "Merging similar entries combines them into one connection or record.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Why a catalog preserves old spellings",
+          "passage": "A reader searching a historical collection may encounter several spellings for the same person or place. It can be tempting to replace every old form with a single modern spelling. Doing so would simplify some searches, but it could also remove information about how names were used in different periods or by different communities.\nCatalogers can address this problem by separating the transcription of an original description from the terms used to search it. The original wording remains visible, while an additional reference connects it to other forms of the name. A reader who searches for the modern form can then find older entries without assuming that their spelling has been silently changed.\nThis approach requires judgment. Similar-looking names may refer to different places, and a name may have changed for political or administrative reasons rather than through spelling variation alone. An automatic rule that merges every resemblance can create false connections. Notes explaining uncertain identifications are therefore valuable, even if they make the catalog appear less tidy.\nA useful catalog does more than produce a short list of results. It also helps readers understand how those results were connected. Preserving uncertainty and variation can make a collection more reliable, because the evidence behind a search result remains open to inspection.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a1",
+          "number": 33,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a1-q4",
+          "type": "choice",
+          "prompt": "What problem can an automatic resemblance rule cause?",
+          "options": [
+            "It may prevent catalogers from entering modern terms",
+            "It may require readers to inspect too many original documents",
+            "It may keep alternative spellings visible to readers",
+            "It may connect names that refer to different places"
+          ],
+          "answer": 3,
+          "explanation": "Resemblance alone does not establish identical reference.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Why a catalog preserves old spellings",
+          "passage": "A reader searching a historical collection may encounter several spellings for the same person or place. It can be tempting to replace every old form with a single modern spelling. Doing so would simplify some searches, but it could also remove information about how names were used in different periods or by different communities.\nCatalogers can address this problem by separating the transcription of an original description from the terms used to search it. The original wording remains visible, while an additional reference connects it to other forms of the name. A reader who searches for the modern form can then find older entries without assuming that their spelling has been silently changed.\nThis approach requires judgment. Similar-looking names may refer to different places, and a name may have changed for political or administrative reasons rather than through spelling variation alone. An automatic rule that merges every resemblance can create false connections. Notes explaining uncertain identifications are therefore valuable, even if they make the catalog appear less tidy.\nA useful catalog does more than produce a short list of results. It also helps readers understand how those results were connected. Preserving uncertainty and variation can make a collection more reliable, because the evidence behind a search result remains open to inspection.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a1",
+          "number": 34,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r1-a1-q5",
+          "type": "choice",
+          "prompt": "What is the author’s view of notes expressing uncertainty?",
+          "options": [
+            "They are useful only when no original wording survives",
+            "They can improve reliability despite adding complexity",
+            "They show that a catalog cannot support historical research",
+            "They should be removed once a search system is available"
+          ],
+          "answer": 1,
+          "explanation": "The passage values transparency over superficial neatness.",
+          "skill": "attitude",
+          "task": "academic-passage",
+          "title": "Why a catalog preserves old spellings",
+          "passage": "A reader searching a historical collection may encounter several spellings for the same person or place. It can be tempting to replace every old form with a single modern spelling. Doing so would simplify some searches, but it could also remove information about how names were used in different periods or by different communities.\nCatalogers can address this problem by separating the transcription of an original description from the terms used to search it. The original wording remains visible, while an additional reference connects it to other forms of the name. A reader who searches for the modern form can then find older entries without assuming that their spelling has been silently changed.\nThis approach requires judgment. Similar-looking names may refer to different places, and a name may have changed for political or administrative reasons rather than through spelling variation alone. An automatic rule that merges every resemblance can create false connections. Notes explaining uncertain identifications are therefore valuable, even if they make the catalog appear less tidy.\nA useful catalog does more than produce a short list of results. It also helps readers understand how those results were connected. Preserving uncertainty and variation can make a collection more reliable, because the evidence behind a search result remains open to inspection.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r1-a1",
+          "number": 35,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-04-r2-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "The shape of a musical instrument affects the sounds that it can produce. When a string ",
+            {
+              "pre": "vibr",
+              "answer": "ates"
+            },
+            ", the surrounding body of the instrument helps ",
+            {
+              "pre": "tran",
+              "answer": "smit"
+            },
+            " that movement to the air. A ",
+            {
+              "pre": "larg",
+              "answer": "er"
+            },
+            " body does not simply make every sound louder. Its dimensions favor some frequencies more ",
+            {
+              "pre": "th",
+              "answer": "an"
+            },
+            " others, changing the ",
+            {
+              "pre": "qual",
+              "answer": "ity"
+            },
+            " of the sound. Instrument makers learn about these effects through ",
+            {
+              "pre": "care",
+              "answer": "ful"
+            },
+            " adjustment and repeated ",
+            {
+              "pre": "list",
+              "answer": "ening"
+            },
+            ". Small changes in ",
+            {
+              "pre": "thick",
+              "answer": "ness"
+            },
+            " or shape can produce ",
+            {
+              "pre": "notice",
+              "answer": "able"
+            },
+            " differences, even ",
+            {
+              "pre": "wh",
+              "answer": "en"
+            },
+            " the instruments look almost identical."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r2-a1-q1",
+          "type": "choice",
+          "prompt": "What is the passage mainly about?",
+          "options": [
+            "Why mature forests no longer experience environmental change",
+            "The plants that arrive first permanently determine conditions in a forest gap",
+            "How changing conditions and prior history shape growth in forest gaps",
+            "Increased sunlight is sufficient to explain the order in which plants replace one another"
+          ],
+          "answer": 2,
+          "explanation": "The passage emphasizes a changing sequence and local history.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "How plants respond to a gap in the forest",
+          "passage": "When a tree falls in a forest, the opening allows more light to reach the ground. Plants that were previously shaded may grow faster, and seeds already present in the soil may begin to develop. Yet a gap is not simply a smaller area with more sunshine. It also changes temperature, moisture, and exposure to wind.\nThese changes favor different plants at different stages. A species that grows quickly in strong light may occupy open ground before a slower-growing neighbor. As leaves and stems fill the opening, however, conditions begin to change again. Plants able to tolerate shade may persist beneath the developing cover, while those needing intense light may decline.\nThe outcome depends partly on what was present before the tree fell. Existing seedlings can have an advantage over seeds that arrive later, and the location of nearby adult plants affects which seeds reach the gap. Chance and local history therefore matter alongside broad differences between species.\nForest renewal is best understood as a sequence of changing opportunities rather than a uniform process of replacement. Observing only a freshly opened gap or only a mature patch can miss the transitions that connect them. Following the same opening over time reveals how plants alter the very conditions to which they are responding.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r2-a1",
+          "number": 11,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r2-a1-q2",
+          "type": "choice",
+          "prompt": "Why might a fast-growing plant later decline?",
+          "options": [
+            "Its roots prevent all nearby seeds from arriving",
+            "Falling trees remove moisture from its leaves",
+            "The developing cover reduces the light it needs",
+            "Shade-tolerant plants require an entirely different soil"
+          ],
+          "answer": 2,
+          "explanation": "As the gap closes, strong-light species can lose their advantage.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "How plants respond to a gap in the forest",
+          "passage": "When a tree falls in a forest, the opening allows more light to reach the ground. Plants that were previously shaded may grow faster, and seeds already present in the soil may begin to develop. Yet a gap is not simply a smaller area with more sunshine. It also changes temperature, moisture, and exposure to wind.\nThese changes favor different plants at different stages. A species that grows quickly in strong light may occupy open ground before a slower-growing neighbor. As leaves and stems fill the opening, however, conditions begin to change again. Plants able to tolerate shade may persist beneath the developing cover, while those needing intense light may decline.\nThe outcome depends partly on what was present before the tree fell. Existing seedlings can have an advantage over seeds that arrive later, and the location of nearby adult plants affects which seeds reach the gap. Chance and local history therefore matter alongside broad differences between species.\nForest renewal is best understood as a sequence of changing opportunities rather than a uniform process of replacement. Observing only a freshly opened gap or only a mature patch can miss the transitions that connect them. Following the same opening over time reveals how plants alter the very conditions to which they are responding.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r2-a1",
+          "number": 12,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r2-a1-q3",
+          "type": "choice",
+          "prompt": "The word “persist” is closest in meaning to",
+          "options": [
+            "arrive unexpectedly",
+            "spread rapidly",
+            "continue to survive",
+            "produce flowers"
+          ],
+          "answer": 2,
+          "explanation": "Shade-tolerant plants persist by surviving under cover.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "How plants respond to a gap in the forest",
+          "passage": "When a tree falls in a forest, the opening allows more light to reach the ground. Plants that were previously shaded may grow faster, and seeds already present in the soil may begin to develop. Yet a gap is not simply a smaller area with more sunshine. It also changes temperature, moisture, and exposure to wind.\nThese changes favor different plants at different stages. A species that grows quickly in strong light may occupy open ground before a slower-growing neighbor. As leaves and stems fill the opening, however, conditions begin to change again. Plants able to tolerate shade may persist beneath the developing cover, while those needing intense light may decline.\nThe outcome depends partly on what was present before the tree fell. Existing seedlings can have an advantage over seeds that arrive later, and the location of nearby adult plants affects which seeds reach the gap. Chance and local history therefore matter alongside broad differences between species.\nForest renewal is best understood as a sequence of changing opportunities rather than a uniform process of replacement. Observing only a freshly opened gap or only a mature patch can miss the transitions that connect them. Following the same opening over time reveals how plants alter the very conditions to which they are responding.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r2-a1",
+          "number": 13,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r2-a1-q4",
+          "type": "choice",
+          "prompt": "What advantage can an existing seedling have?",
+          "options": [
+            "It can prevent temperature changes in the whole gap",
+            "It is already in place when growing conditions improve",
+            "It needs no light once an adult tree has fallen",
+            "It will always grow faster than every newly arrived seed"
+          ],
+          "answer": 1,
+          "explanation": "Being present before the opening can provide an early start.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "How plants respond to a gap in the forest",
+          "passage": "When a tree falls in a forest, the opening allows more light to reach the ground. Plants that were previously shaded may grow faster, and seeds already present in the soil may begin to develop. Yet a gap is not simply a smaller area with more sunshine. It also changes temperature, moisture, and exposure to wind.\nThese changes favor different plants at different stages. A species that grows quickly in strong light may occupy open ground before a slower-growing neighbor. As leaves and stems fill the opening, however, conditions begin to change again. Plants able to tolerate shade may persist beneath the developing cover, while those needing intense light may decline.\nThe outcome depends partly on what was present before the tree fell. Existing seedlings can have an advantage over seeds that arrive later, and the location of nearby adult plants affects which seeds reach the gap. Chance and local history therefore matter alongside broad differences between species.\nForest renewal is best understood as a sequence of changing opportunities rather than a uniform process of replacement. Observing only a freshly opened gap or only a mature patch can miss the transitions that connect them. Following the same opening over time reveals how plants alter the very conditions to which they are responding.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r2-a1",
+          "number": 14,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-r2-a1-q5",
+          "type": "choice",
+          "prompt": "Why does the author recommend following a gap over time?",
+          "options": [
+            "To prove that the first arriving species remains dominant",
+            "To avoid recording which plants were initially present",
+            "To measure only the conditions in the mature patch",
+            "To observe transitions that a single visit would miss"
+          ],
+          "answer": 3,
+          "explanation": "Repeated observation reveals the stages and feedbacks described.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "How plants respond to a gap in the forest",
+          "passage": "When a tree falls in a forest, the opening allows more light to reach the ground. Plants that were previously shaded may grow faster, and seeds already present in the soil may begin to develop. Yet a gap is not simply a smaller area with more sunshine. It also changes temperature, moisture, and exposure to wind.\nThese changes favor different plants at different stages. A species that grows quickly in strong light may occupy open ground before a slower-growing neighbor. As leaves and stems fill the opening, however, conditions begin to change again. Plants able to tolerate shade may persist beneath the developing cover, while those needing intense light may decline.\nThe outcome depends partly on what was present before the tree fell. Existing seedlings can have an advantage over seeds that arrive later, and the location of nearby adult plants affects which seeds reach the gap. Chance and local history therefore matter alongside broad differences between species.\nForest renewal is best understood as a sequence of changing opportunities rather than a uniform process of replacement. Observing only a freshly opened gap or only a mature patch can miss the transitions that connect them. Following the same opening over time reveals how plants alter the very conditions to which they are responding.",
+          "documentType": "academic",
+          "stimulusId": "last-day-04-r2-a1",
+          "number": 15,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "last-day-04-l1-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I registered for two classes last term.",
+            "The point of the exercise is to practise.",
+            "It’s just past the stairs on your right.",
+            "The desk has several drawers."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could you point me toward the registration desk?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Could you point me toward the registration desk?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I usually go ahead of the group.",
+            "Yes, but a different speaker will give it.",
+            "The lecture lasted about an hour.",
+            "There are more seats near the front."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Is the evening lecture still going ahead?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "Is the evening lecture still going ahead?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I can make another copy of the chart.",
+            "The plan was made several weeks ago.",
+            "Would you like me to send you the notes afterward?",
+            "The session was very well organized."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I can’t make it to the planning session.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "I can’t make it to the planning session.",
+            "preparedPath": "./last-day/media/last-day-04-l1-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The class is about conflict in history.",
+            "The timetable is displayed near the door.",
+            "The course administrator can help with that.",
+            "I contacted my partner after class."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Who should I contact about a timetable clash?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "Who should I contact about a timetable clash?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The first presentation was excellent.",
+            "I received a useful present yesterday.",
+            "I’d rather have the smaller room.",
+            "Second, if that’s all right with you."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Would you rather present first or second?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "Would you rather present first or second?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response6-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Thanks for telling me; I’ll get one from home.",
+            "We brought the equipment back on time.",
+            "The building contains several laboratories.",
+            "I suppose the class is almost finished."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: We’re supposed to bring our own containers.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response6",
+            "kind": "response",
+            "title": "response",
+            "script": "We’re supposed to bring our own containers.",
+            "preparedPath": "./last-day/media/last-day-04-l1-response6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response7-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "No, a scanned copy is fine.",
+            "The person beside me works in admissions.",
+            "I submitted mine before the deadline.",
+            "Several forms of transport are available."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Do these forms have to be submitted in person?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response7",
+            "kind": "response",
+            "title": "response",
+            "script": "Do these forms have to be submitted in person?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response8-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I thought the talk began at two.",
+            "Perhaps we should discuss the alternatives.",
+            "The second speaker addressed the same topic.",
+            "The discussion took place in the hallway."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’m having second thoughts about that topic.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response8",
+            "kind": "response",
+            "title": "response",
+            "script": "I’m having second thoughts about that topic.",
+            "preparedPath": "./last-day/media/last-day-04-l1-response8.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response9-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Every twenty minutes during term time.",
+            "Along the road beside the sports field.",
+            "The driver runs in the university team.",
+            "It was often crowded last winter."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: How often does the shuttle run?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response9",
+            "kind": "response",
+            "title": "response",
+            "script": "How often does the shuttle run?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response9.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response10-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Of course. What do you need?",
+            "The lecture was interrupted by a fire alarm.",
+            "I needed a moment to find my notes.",
+            "There are several moments in the film."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could I interrupt you for a moment?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response10",
+            "kind": "response",
+            "title": "response",
+            "script": "Could I interrupt you for a moment?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response10.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response11-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Let’s go into the lobby until they arrive.",
+            "It rained heavily last weekend.",
+            "I was waiting for the next chapter.",
+            "The main point appears on the final slide."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: There’s no point waiting outside in the rain.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response11",
+            "kind": "response",
+            "title": "response",
+            "script": "There’s no point waiting outside in the rain.",
+            "preparedPath": "./last-day/media/last-day-04-l1-response11.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-response12-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I sent my answer last month.",
+            "The form was difficult to fill in.",
+            "The one dated this month.",
+            "We use it to record attendance."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Which version of the form should we use?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l1-response12",
+            "kind": "response",
+            "title": "response",
+            "script": "Which version of the form should we use?",
+            "preparedPath": "./last-day/media/last-day-04-l1-response12.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-conversation1-q1",
+          "type": "choice",
+          "prompt": "What problem are the speakers solving?",
+          "options": [
+            "They have lost the data for their graphs",
+            "They need to postpone a group deadline",
+            "Their exam has been moved to another building",
+            "Their usual meeting space is unavailable"
+          ],
+          "answer": 3,
+          "explanation": "The usual room is assigned to an exam.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Moving a group meeting",
+          "stimulus": {
+            "id": "last-day-04-l1-conversation1",
+            "kind": "conversation",
+            "title": "Moving a group meeting",
+            "script": "Man: Our usual study room is being used for an exam tomorrow.\nWoman: There’s a free room in the science building, but it doesn’t have a screen.\nMan: We only need a screen to compare the graphs. Could we print those?\nWoman: We could, and discuss the written sections without one.\nMan: Then we don’t have to postpone the meeting.\nWoman: Right. I’ll book the room, and you can print two copies of each graph so people can share.",
+            "preparedPath": "./last-day/media/last-day-04-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-conversation1-q2",
+          "type": "choice",
+          "prompt": "How will they adapt to the replacement room?",
+          "options": [
+            "Use printed graphs instead of a screen",
+            "Discuss only the written sections and omit the graphs",
+            "Borrow a screen from the exam room",
+            "Ask the exam group to leave early"
+          ],
+          "answer": 0,
+          "explanation": "Printouts replace the display function.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Moving a group meeting",
+          "stimulus": {
+            "id": "last-day-04-l1-conversation1",
+            "kind": "conversation",
+            "title": "Moving a group meeting",
+            "script": "Man: Our usual study room is being used for an exam tomorrow.\nWoman: There’s a free room in the science building, but it doesn’t have a screen.\nMan: We only need a screen to compare the graphs. Could we print those?\nWoman: We could, and discuss the written sections without one.\nMan: Then we don’t have to postpone the meeting.\nWoman: Right. I’ll book the room, and you can print two copies of each graph so people can share.",
+            "preparedPath": "./last-day/media/last-day-04-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-conversation2-q1",
+          "type": "choice",
+          "prompt": "Why does the woman reject walking faster?",
+          "options": [
+            "It would remove the need to explain the town’s history",
+            "It might cause them to arrive at the railway station too early",
+            "It would require a new map for every visitor",
+            "It might make the tour less accessible to some visitors"
+          ],
+          "answer": 3,
+          "explanation": "She is concerned about visitors who would struggle with the pace.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Editing a walking tour",
+          "stimulus": {
+            "id": "last-day-04-l1-conversation2",
+            "kind": "conversation",
+            "title": "Editing a walking tour",
+            "script": "Woman: Our walking tour takes nearly an hour, but the event organizer asked for forty minutes.\nMan: Could we walk faster between stops?\nWoman: Some visitors may find that difficult. I’d rather cut one stop.\nMan: The old workshop overlaps with what we say at the railway station. We could leave that out.\nWoman: Yes, and keep the riverside stop because it explains how the town developed.\nMan: I’ll revise the map. We should try the shorter route once before the event.",
+            "preparedPath": "./last-day/media/last-day-04-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-conversation2-q2",
+          "type": "choice",
+          "prompt": "Why do they choose to remove the workshop stop?",
+          "options": [
+            "Its content repeats information given elsewhere",
+            "It is farther from the river than the other stops",
+            "The organizer has asked them to avoid old buildings",
+            "It has become unsafe for visitors to enter"
+          ],
+          "answer": 0,
+          "explanation": "The workshop overlaps with the station discussion.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Editing a walking tour",
+          "stimulus": {
+            "id": "last-day-04-l1-conversation2",
+            "kind": "conversation",
+            "title": "Editing a walking tour",
+            "script": "Woman: Our walking tour takes nearly an hour, but the event organizer asked for forty minutes.\nMan: Could we walk faster between stops?\nWoman: Some visitors may find that difficult. I’d rather cut one stop.\nMan: The old workshop overlaps with what we say at the railway station. We could leave that out.\nWoman: Yes, and keep the riverside stop because it explains how the town developed.\nMan: I’ll revise the map. We should try the shorter route once before the event.",
+            "preparedPath": "./last-day/media/last-day-04-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-conversation3-q1",
+          "type": "choice",
+          "prompt": "What kind of partner does the woman recommend?",
+          "options": [
+            "Someone with an identical weekly schedule and interests",
+            "Someone who prefers to conduct all the interviews",
+            "Someone whose strengths complement the man’s",
+            "Someone who has already completed the project alone"
+          ],
+          "answer": 2,
+          "explanation": "She suggests an analysis-focused partner to complement his interviewing.",
+          "skill": "main idea",
+          "task": "conversation",
+          "title": "Choosing a project partner",
+          "stimulus": {
+            "id": "last-day-04-l1-conversation3",
+            "kind": "conversation",
+            "title": "Choosing a project partner",
+            "script": "Man: My usual project partner is away this term. I’m not sure whom to work with.\nWoman: What skills does this project need?\nMan: Interviewing and making sense of the responses. I’m fairly comfortable with interviewing.\nWoman: Then look for someone who enjoys analyzing information, rather than someone whose strengths are exactly the same as yours.\nMan: That would balance the work better.\nWoman: And talk about schedules before you decide. Different skills won’t help much if you can never meet.",
+            "preparedPath": "./last-day/media/last-day-04-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-conversation3-q2",
+          "type": "choice",
+          "prompt": "Why does she mention schedules?",
+          "options": [
+            "Analysis must always be completed before interviews",
+            "The course requires a written timetable from each pair",
+            "Compatible availability is also necessary for collaboration",
+            "The project deadline has changed without notice"
+          ],
+          "answer": 2,
+          "explanation": "Complementary skills are not enough if they cannot meet.",
+          "skill": "purpose",
+          "task": "conversation",
+          "title": "Choosing a project partner",
+          "stimulus": {
+            "id": "last-day-04-l1-conversation3",
+            "kind": "conversation",
+            "title": "Choosing a project partner",
+            "script": "Man: My usual project partner is away this term. I’m not sure whom to work with.\nWoman: What skills does this project need?\nMan: Interviewing and making sense of the responses. I’m fairly comfortable with interviewing.\nWoman: Then look for someone who enjoys analyzing information, rather than someone whose strengths are exactly the same as yours.\nMan: That would balance the work better.\nWoman: And talk about schedules before you decide. Different skills won’t help much if you can never meet.",
+            "preparedPath": "./last-day/media/last-day-04-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 18,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-announcement1-q1",
+          "type": "choice",
+          "prompt": "What has changed for storage requests?",
+          "options": [
+            "The requirement to identify the borrower",
+            "The need to receive a confirmation email",
+            "The length of time books are held",
+            "The place where books are collected"
+          ],
+          "answer": 3,
+          "explanation": "The collection desk changes while other arrangements remain.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A library collection point",
+          "stimulus": {
+            "id": "last-day-04-l1-announcement1",
+            "kind": "announcement",
+            "title": "A library collection point",
+            "script": "Books requested from the storage collection will be available at the north service desk this week. The usual collection counter is being replaced. You will still receive an email when your books are ready, and the collection deadline in that email will not change. Please bring your student card. If you can’t collect a book yourself, a friend may do so with written authorization from you; a text message showing the request is sufficient.",
+            "preparedPath": "./last-day/media/last-day-04-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 19,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-announcement1-q2",
+          "type": "choice",
+          "prompt": "How can a friend collect a requested book?",
+          "options": [
+            "By waiting until the original deadline has passed",
+            "By submitting a separate storage request",
+            "By using the new desk without any documentation",
+            "By showing the borrower’s written authorization"
+          ],
+          "answer": 3,
+          "explanation": "The borrower can authorize collection in writing, including a text message.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A library collection point",
+          "stimulus": {
+            "id": "last-day-04-l1-announcement1",
+            "kind": "announcement",
+            "title": "A library collection point",
+            "script": "Books requested from the storage collection will be available at the north service desk this week. The usual collection counter is being replaced. You will still receive an email when your books are ready, and the collection deadline in that email will not change. Please bring your student card. If you can’t collect a book yourself, a friend may do so with written authorization from you; a text message showing the request is sufficient.",
+            "preparedPath": "./last-day/media/last-day-04-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 20,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-announcement2-q1",
+          "type": "choice",
+          "prompt": "Who can make a new booking now?",
+          "options": [
+            "Only members of the research team",
+            "Only students who already completed the survey",
+            "New first-year students without appointments",
+            "Students beyond their first year"
+          ],
+          "answer": 3,
+          "explanation": "New recruitment is limited to later-year students.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A survey recruitment update",
+          "stimulus": {
+            "id": "last-day-04-l1-announcement2",
+            "kind": "announcement",
+            "title": "A survey recruitment update",
+            "script": "Thank you to everyone who volunteered for the food-choice survey. We now have enough first-year participants, but we still need students in later years. If you have already booked a session, please keep it; we’re only changing who can make new bookings. The survey takes twenty minutes, and participation is voluntary. You may leave a question unanswered if you prefer. The results will be reported for groups, without identifying individual respondents.",
+            "preparedPath": "./last-day/media/last-day-04-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 21,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-announcement2-q2",
+          "type": "choice",
+          "prompt": "What should already booked first-year participants do?",
+          "options": [
+            "Submit their answers without attending",
+            "Ask a later-year student to replace them",
+            "Attend their scheduled sessions",
+            "Cancel and apply again next term"
+          ],
+          "answer": 2,
+          "explanation": "Existing appointments are explicitly retained.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A survey recruitment update",
+          "stimulus": {
+            "id": "last-day-04-l1-announcement2",
+            "kind": "announcement",
+            "title": "A survey recruitment update",
+            "script": "Thank you to everyone who volunteered for the food-choice survey. We now have enough first-year participants, but we still need students in later years. If you have already booked a session, please keep it; we’re only changing who can make new bookings. The survey takes twenty minutes, and participation is voluntary. You may leave a question unanswered if you prefer. The results will be reported for groups, without identifying individual respondents.",
+            "preparedPath": "./last-day/media/last-day-04-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 22,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What is the main topic?",
+          "options": [
+            "Why plans are more reliable than observations of a site",
+            "How traces in soil can support cautious reconstruction of vanished buildings",
+            "How archaeologists determine the exact age of every post",
+            "Why wooden buildings leave no evidence after they decay"
+          ],
+          "answer": 1,
+          "explanation": "The talk explains soil traces, patterns and interpretive caution.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Reading marks left by wooden posts",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Reading marks left by wooden posts",
+            "script": "A wooden building may disappear long before archaeologists investigate its site. Yet the ground can retain traces of where its supports stood. A hole dug for a post may have been filled with soil different from the surrounding material. After the wood decays, that contrast can remain visible when the surface is carefully exposed.\nIndividual marks are not always easy to interpret. A dark patch might have resulted from a post, a root, or a later disturbance. The arrangement of several marks can be more informative than one isolated patch. A repeated spacing or a possible line may suggest a structure, especially when it fits other evidence from the site.\nBut it’s important not to see a complete building too quickly. Once a possible pattern is proposed, there’s a temptation to interpret every nearby mark as part of it. Recording observations before drawing a final outline helps preserve the distinction between what was found and how it is being explained.\nArchaeological reconstruction is therefore an argument from several sources of evidence. A plan of a vanished building can be persuasive without being certain in every detail. Showing which parts are well supported and which are tentative makes the reconstruction more useful to later researchers, who may have new evidence or different questions.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 23,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "What can make a former post location visible?",
+          "options": [
+            "A layer of fresh wood covering the whole excavation",
+            "A contrast between its filling soil and the surrounding ground",
+            "A root that always grows in the same direction",
+            "A permanent label attached by the original builder"
+          ],
+          "answer": 1,
+          "explanation": "Different soil can remain after the wood is gone.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Reading marks left by wooden posts",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Reading marks left by wooden posts",
+            "script": "A wooden building may disappear long before archaeologists investigate its site. Yet the ground can retain traces of where its supports stood. A hole dug for a post may have been filled with soil different from the surrounding material. After the wood decays, that contrast can remain visible when the surface is carefully exposed.\nIndividual marks are not always easy to interpret. A dark patch might have resulted from a post, a root, or a later disturbance. The arrangement of several marks can be more informative than one isolated patch. A repeated spacing or a possible line may suggest a structure, especially when it fits other evidence from the site.\nBut it’s important not to see a complete building too quickly. Once a possible pattern is proposed, there’s a temptation to interpret every nearby mark as part of it. Recording observations before drawing a final outline helps preserve the distinction between what was found and how it is being explained.\nArchaeological reconstruction is therefore an argument from several sources of evidence. A plan of a vanished building can be persuasive without being certain in every detail. Showing which parts are well supported and which are tentative makes the reconstruction more useful to later researchers, who may have new evidence or different questions.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 24,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "Why record observations before finalizing an outline?",
+          "options": [
+            "To avoid considering other sources of information",
+            "To separate the evidence from a proposed interpretation",
+            "To ensure that no later researcher changes the drawing",
+            "To make every nearby mark fit the chosen pattern"
+          ],
+          "answer": 1,
+          "explanation": "Early recording reduces the risk of forcing evidence into a preferred pattern.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Reading marks left by wooden posts",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Reading marks left by wooden posts",
+            "script": "A wooden building may disappear long before archaeologists investigate its site. Yet the ground can retain traces of where its supports stood. A hole dug for a post may have been filled with soil different from the surrounding material. After the wood decays, that contrast can remain visible when the surface is carefully exposed.\nIndividual marks are not always easy to interpret. A dark patch might have resulted from a post, a root, or a later disturbance. The arrangement of several marks can be more informative than one isolated patch. A repeated spacing or a possible line may suggest a structure, especially when it fits other evidence from the site.\nBut it’s important not to see a complete building too quickly. Once a possible pattern is proposed, there’s a temptation to interpret every nearby mark as part of it. Recording observations before drawing a final outline helps preserve the distinction between what was found and how it is being explained.\nArchaeological reconstruction is therefore an argument from several sources of evidence. A plan of a vanished building can be persuasive without being certain in every detail. Showing which parts are well supported and which are tentative makes the reconstruction more useful to later researchers, who may have new evidence or different questions.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 25,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "How does the speaker view uncertainty in a reconstruction?",
+          "options": [
+            "It means the entire reconstruction has no value",
+            "It can be removed by drawing a more detailed plan",
+            "It should be identified rather than hidden",
+            "It should be left for visitors to discover themselves"
+          ],
+          "answer": 2,
+          "explanation": "Clear confidence distinctions help later researchers.",
+          "skill": "attitude",
+          "task": "academic-talk",
+          "title": "Reading marks left by wooden posts",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Reading marks left by wooden posts",
+            "script": "A wooden building may disappear long before archaeologists investigate its site. Yet the ground can retain traces of where its supports stood. A hole dug for a post may have been filled with soil different from the surrounding material. After the wood decays, that contrast can remain visible when the surface is carefully exposed.\nIndividual marks are not always easy to interpret. A dark patch might have resulted from a post, a root, or a later disturbance. The arrangement of several marks can be more informative than one isolated patch. A repeated spacing or a possible line may suggest a structure, especially when it fits other evidence from the site.\nBut it’s important not to see a complete building too quickly. Once a possible pattern is proposed, there’s a temptation to interpret every nearby mark as part of it. Recording observations before drawing a final outline helps preserve the distinction between what was found and how it is being explained.\nArchaeological reconstruction is therefore an argument from several sources of evidence. A plan of a vanished building can be persuasive without being certain in every detail. Showing which parts are well supported and which are tentative makes the reconstruction more useful to later researchers, who may have new evidence or different questions.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 26,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk2-q1",
+          "type": "choice",
+          "prompt": "What is the main idea?",
+          "options": [
+            "Borrowed words are adapted through use in a receiving language",
+            "The source language determines all future meanings of a word",
+            "Borrowed words retain every feature of their source language",
+            "Speakers borrow words only when their own language lacks nouns"
+          ],
+          "answer": 0,
+          "explanation": "The talk emphasizes adaptation after borrowing.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "What happens to a borrowed word",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "What happens to a borrowed word",
+            "script": "Languages regularly borrow words from one another. It might seem that borrowing simply transfers a sound and a meaning into a new setting. In practice, a word can change as speakers use it alongside the patterns already familiar in their own language.\nIts pronunciation may shift because some sounds are uncommon in the receiving language. Its grammar can change too. A borrowed noun may acquire a local plural ending, for example, even if its source language forms plurals differently. These changes allow speakers to use the word within ordinary sentences rather than treating it as a foreign object each time.\nMeaning can also narrow. A source word with several everyday uses may enter another language in connection with a particular food, activity, or object. Later speakers may know only that specialized use. This isn’t necessarily a misunderstanding; it reflects the circumstances in which the word became useful to them.\nSo a borrowed word is evidence of contact, but it also reveals adaptation. To understand it, we need to consider both where it came from and what speakers did with it afterward. Following only its origin can miss the continuing history of the word in the community that adopted it, including new meanings that develop long after the initial contact.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 27,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk2-q2",
+          "type": "choice",
+          "prompt": "Why might a borrowed noun receive a new plural ending?",
+          "options": [
+            "It is no longer allowed in ordinary sentences",
+            "Speakers fit it into familiar grammatical patterns",
+            "All languages use the same plural system",
+            "Its original meaning has been forgotten completely"
+          ],
+          "answer": 1,
+          "explanation": "A local ending integrates the word into the receiving grammar.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "What happens to a borrowed word",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "What happens to a borrowed word",
+            "script": "Languages regularly borrow words from one another. It might seem that borrowing simply transfers a sound and a meaning into a new setting. In practice, a word can change as speakers use it alongside the patterns already familiar in their own language.\nIts pronunciation may shift because some sounds are uncommon in the receiving language. Its grammar can change too. A borrowed noun may acquire a local plural ending, for example, even if its source language forms plurals differently. These changes allow speakers to use the word within ordinary sentences rather than treating it as a foreign object each time.\nMeaning can also narrow. A source word with several everyday uses may enter another language in connection with a particular food, activity, or object. Later speakers may know only that specialized use. This isn’t necessarily a misunderstanding; it reflects the circumstances in which the word became useful to them.\nSo a borrowed word is evidence of contact, but it also reveals adaptation. To understand it, we need to consider both where it came from and what speakers did with it afterward. Following only its origin can miss the continuing history of the word in the community that adopted it, including new meanings that develop long after the initial contact.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 28,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk2-q3",
+          "type": "choice",
+          "prompt": "What does a narrowed meaning involve?",
+          "options": [
+            "Pronouncing a word with fewer syllables in every sentence",
+            "Removing a word from all everyday conversation",
+            "Using a word for a more specialized purpose than in its source language",
+            "Giving a word more unrelated meanings than it had before"
+          ],
+          "answer": 2,
+          "explanation": "One context-specific use may be borrowed from a wider original range.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "What happens to a borrowed word",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "What happens to a borrowed word",
+            "script": "Languages regularly borrow words from one another. It might seem that borrowing simply transfers a sound and a meaning into a new setting. In practice, a word can change as speakers use it alongside the patterns already familiar in their own language.\nIts pronunciation may shift because some sounds are uncommon in the receiving language. Its grammar can change too. A borrowed noun may acquire a local plural ending, for example, even if its source language forms plurals differently. These changes allow speakers to use the word within ordinary sentences rather than treating it as a foreign object each time.\nMeaning can also narrow. A source word with several everyday uses may enter another language in connection with a particular food, activity, or object. Later speakers may know only that specialized use. This isn’t necessarily a misunderstanding; it reflects the circumstances in which the word became useful to them.\nSo a borrowed word is evidence of contact, but it also reveals adaptation. To understand it, we need to consider both where it came from and what speakers did with it afterward. Following only its origin can miss the continuing history of the word in the community that adopted it, including new meanings that develop long after the initial contact.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 29,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l1-academic-talk2-q4",
+          "type": "choice",
+          "prompt": "Why does the speaker caution against studying only origin?",
+          "options": [
+            "Community use has no relationship to a word’s meaning",
+            "Origins can never be identified through linguistic evidence",
+            "The original language ceases to exist after borrowing",
+            "Later use can add an important history of change"
+          ],
+          "answer": 3,
+          "explanation": "A word continues to develop after entering a new community.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "What happens to a borrowed word",
+          "stimulus": {
+            "id": "last-day-04-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "What happens to a borrowed word",
+            "script": "Languages regularly borrow words from one another. It might seem that borrowing simply transfers a sound and a meaning into a new setting. In practice, a word can change as speakers use it alongside the patterns already familiar in their own language.\nIts pronunciation may shift because some sounds are uncommon in the receiving language. Its grammar can change too. A borrowed noun may acquire a local plural ending, for example, even if its source language forms plurals differently. These changes allow speakers to use the word within ordinary sentences rather than treating it as a foreign object each time.\nMeaning can also narrow. A source word with several everyday uses may enter another language in connection with a particular food, activity, or object. Later speakers may know only that specialized use. This isn’t necessarily a misunderstanding; it reflects the circumstances in which the word became useful to them.\nSo a borrowed word is evidence of contact, but it also reveals adaptation. To understand it, we need to consider both where it came from and what speakers did with it afterward. Following only its origin can miss the continuing history of the word in the community that adopted it, including new meanings that develop long after the initial contact.",
+            "preparedPath": "./last-day/media/last-day-04-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 30,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "items": [
+        {
+          "id": "last-day-04-l2-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Let me see what coins I have.",
+            "I made five pages of notes.",
+            "You can change your course next week.",
+            "The notes have changed since last term."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Do you happen to have change for a five-pound note?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l2-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Do you happen to have change for a five-pound note?",
+            "preparedPath": "./last-day/media/last-day-04-l2-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Try the longer one in the drawer.",
+            "The cable arrived yesterday morning.",
+            "The drawer has been locked for repairs.",
+            "I reached the station just in time."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I don’t think this cable reaches the socket.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l2-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "I don’t think this cable reaches the socket.",
+            "preparedPath": "./last-day/media/last-day-04-l2-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "It was corrected with a green pen.",
+            "I’ll send it by the end of tomorrow.",
+            "The first draft was difficult to read.",
+            "I expected the lecture to be useful."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: When can I expect the corrected draft?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l2-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "When can I expect the corrected draft?",
+            "preparedPath": "./last-day/media/last-day-04-l2-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Can you put me on the waiting list?",
+            "I’m not afraid of speaking in public.",
+            "The full list is quite interesting.",
+            "I borrowed the book from the workshop."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: The workshop is fully booked, I’m afraid.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l2-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "The workshop is fully booked, I’m afraid.",
+            "preparedPath": "./last-day/media/last-day-04-l2-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The work looks different in this light.",
+            "You’re right. I’ve been working all afternoon.",
+            "I used the other room yesterday.",
+            "The broken chair is beside the wall."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: You look as though you could use a break.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-04-l2-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "You look as though you could use a break.",
+            "preparedPath": "./last-day/media/last-day-04-l2-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-conversation1-q1",
+          "type": "choice",
+          "prompt": "What concern does the man raise?",
+          "options": [
+            "The photograph was taken in a different building",
+            "The image may give an unhelpful impression of crowding",
+            "The event page cannot display group photographs",
+            "The room looks too empty to attract visitors"
+          ],
+          "answer": 1,
+          "explanation": "A full-room image could discourage people worried about space.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Checking a room photograph",
+          "stimulus": {
+            "id": "last-day-04-l2-conversation1",
+            "kind": "conversation",
+            "title": "Checking a room photograph",
+            "script": "Woman: I’ve found a photograph for our event page. It shows the room when it was completely full.\nMan: Is that a good idea? People might think there won’t be space.\nWoman: I wanted it to look lively.\nMan: Perhaps use a picture with people talking in smaller groups. That would show the atmosphere without making it seem crowded.\nWoman: I have one from the beginning of the event. I’ll check that everyone visible agreed to have their photo used.\nMan: Good. Then we can put it online.",
+            "preparedPath": "./last-day/media/last-day-04-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-conversation1-q2",
+          "type": "choice",
+          "prompt": "What will the woman check before using another photograph?",
+          "options": [
+            "Whether the room contains enough chairs",
+            "Whether the image was taken after everyone left",
+            "Whether the event has already sold all its tickets",
+            "Whether the people shown gave permission"
+          ],
+          "answer": 3,
+          "explanation": "She will verify consent from visible participants.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Checking a room photograph",
+          "stimulus": {
+            "id": "last-day-04-l2-conversation1",
+            "kind": "conversation",
+            "title": "Checking a room photograph",
+            "script": "Woman: I’ve found a photograph for our event page. It shows the room when it was completely full.\nMan: Is that a good idea? People might think there won’t be space.\nWoman: I wanted it to look lively.\nMan: Perhaps use a picture with people talking in smaller groups. That would show the atmosphere without making it seem crowded.\nWoman: I have one from the beginning of the event. I’ll check that everyone visible agreed to have their photo used.\nMan: Good. Then we can put it online.",
+            "preparedPath": "./last-day/media/last-day-04-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-conversation2-q1",
+          "type": "choice",
+          "prompt": "What prevents the students from finishing the usual process?",
+          "options": [
+            "Their tutor has rejected their chosen design",
+            "They cannot obtain photographs before the exhibition",
+            "They have not begun shaping their ceramic pieces",
+            "A piece of equipment is unavailable until after the deadline"
+          ],
+          "answer": 3,
+          "explanation": "The kiln repair extends beyond the deadline.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Working around a repair",
+          "stimulus": {
+            "id": "last-day-04-l2-conversation2",
+            "kind": "conversation",
+            "title": "Working around a repair",
+            "script": "Man: The technician says the kiln won’t be ready until next Thursday.\nWoman: That’s after our ceramics deadline. Should we ask for an extension?\nMan: We should tell the tutor what’s happened, but we can still finish shaping the pieces and photograph them.\nWoman: Then we’d have evidence of the work we completed on time.\nMan: Exactly. We can submit those photographs with an explanation and ask how she wants us to handle the firing stage.\nWoman: I’ll write to her this afternoon.",
+            "preparedPath": "./last-day/media/last-day-04-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-conversation2-q2",
+          "type": "choice",
+          "prompt": "What approach do they agree on?",
+          "options": [
+            "Document completed work and consult the tutor about the remaining stage",
+            "Assume the deadline no longer applies to their class",
+            "Wait until Thursday before informing anyone",
+            "Use photographs instead of making the ceramic pieces"
+          ],
+          "answer": 0,
+          "explanation": "They will show timely progress and seek instructions about firing.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Working around a repair",
+          "stimulus": {
+            "id": "last-day-04-l2-conversation2",
+            "kind": "conversation",
+            "title": "Working around a repair",
+            "script": "Man: The technician says the kiln won’t be ready until next Thursday.\nWoman: That’s after our ceramics deadline. Should we ask for an extension?\nMan: We should tell the tutor what’s happened, but we can still finish shaping the pieces and photograph them.\nWoman: Then we’d have evidence of the work we completed on time.\nMan: Exactly. We can submit those photographs with an explanation and ask how she wants us to handle the firing stage.\nWoman: I’ll write to her this afternoon.",
+            "preparedPath": "./last-day/media/last-day-04-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-announcement1-q1",
+          "type": "choice",
+          "prompt": "What is required for the first review?",
+          "options": [
+            "A complete list of materials without photographs",
+            "The finished model delivered to the office",
+            "A photograph and a short explanation",
+            "An exhibition-room reservation for every entry"
+          ],
+          "answer": 2,
+          "explanation": "The physical model is needed only for finalists.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "The format of a campus competition",
+          "stimulus": {
+            "id": "last-day-04-l2-announcement1",
+            "kind": "announcement",
+            "title": "The format of a campus competition",
+            "script": "For this year’s design competition, submit a photograph of your model and a short explanation by Friday. Please don’t bring the physical model to the office yet; we don’t have storage space for every entry. The first review will use the photographs. If your design is selected for the final round, we’ll ask you to bring the model to the exhibition room. The explanation should focus on the problem your design addresses, not on listing its materials.",
+            "preparedPath": "./last-day/media/last-day-04-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-announcement1-q2",
+          "type": "choice",
+          "prompt": "What should the written explanation emphasize?",
+          "options": [
+            "The purpose of the design",
+            "The number of people entering the competition",
+            "The amount of available office storage",
+            "The order in which materials were purchased"
+          ],
+          "answer": 0,
+          "explanation": "It should explain the problem addressed by the design.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "The format of a campus competition",
+          "stimulus": {
+            "id": "last-day-04-l2-announcement1",
+            "kind": "announcement",
+            "title": "The format of a campus competition",
+            "script": "For this year’s design competition, submit a photograph of your model and a short explanation by Friday. Please don’t bring the physical model to the office yet; we don’t have storage space for every entry. The first review will use the photographs. If your design is selected for the final round, we’ll ask you to bring the model to the exhibition room. The explanation should focus on the problem your design addresses, not on listing its materials.",
+            "preparedPath": "./last-day/media/last-day-04-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-announcement2-q1",
+          "type": "choice",
+          "prompt": "What is the volunteers’ main task?",
+          "options": [
+            "Lead the community walk on Friday",
+            "Identify obstacles that could affect the planned walk",
+            "Measure a new route from the beginning",
+            "Remove barriers at closed building sites"
+          ],
+          "answer": 1,
+          "explanation": "They are checking current access problems, not remeasuring distance.",
+          "skill": "main idea",
+          "task": "announcement",
+          "title": "A walking-route check",
+          "stimulus": {
+            "id": "last-day-04-l2-announcement2",
+            "kind": "announcement",
+            "title": "A walking-route check",
+            "script": "Before Saturday’s community walk, we need two volunteers to check the route on Friday afternoon. You’ll be looking for temporary obstacles, such as building work or closed gates, rather than measuring the total distance again. Take photographs of any problem and send them to the organizer by six. If a section is blocked, please don’t attempt to cross it. We can adjust the route once we know where the difficulty is.",
+            "preparedPath": "./last-day/media/last-day-04-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-announcement2-q2",
+          "type": "choice",
+          "prompt": "What should they do if a section is blocked?",
+          "options": [
+            "Wait until Saturday to report the location",
+            "Open the gate before taking a photograph",
+            "Document the problem and avoid crossing it",
+            "Cancel the whole walk without contacting the organizer"
+          ],
+          "answer": 2,
+          "explanation": "They should report with photographs and not try to cross.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A walking-route check",
+          "stimulus": {
+            "id": "last-day-04-l2-announcement2",
+            "kind": "announcement",
+            "title": "A walking-route check",
+            "script": "Before Saturday’s community walk, we need two volunteers to check the route on Friday afternoon. You’ll be looking for temporary obstacles, such as building work or closed gates, rather than measuring the total distance again. Take photographs of any problem and send them to the organizer by six. If a section is blocked, please don’t attempt to cross it. We can adjust the route once we know where the difficulty is.",
+            "preparedPath": "./last-day/media/last-day-04-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "Why can stars leave trails in a long exposure from a fixed camera?",
+          "options": [
+            "The camera makes the stars move more quickly",
+            "Earth’s rotation changes their apparent positions during the exposure",
+            "Each star repeatedly changes its physical size",
+            "The ground stops reflecting light into the camera"
+          ],
+          "answer": 1,
+          "explanation": "The fixed camera sees changing sky positions as Earth rotates.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Recording the night sky",
+          "stimulus": {
+            "id": "last-day-04-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Recording the night sky",
+            "script": "A camera aimed at the night sky can produce very different images depending on how long it gathers light. In a short exposure, a star may appear as a small point. During a longer exposure with the camera held still relative to the ground, stars can leave curved trails. The trails reflect the changing direction in which the camera sees them as Earth rotates.\nFor some purposes, those trails are exactly what the photographer wants. They make a gradual movement visible in a single image. For other purposes, such as examining a faint object in detail, the movement blurs information. Equipment that follows the apparent motion of the sky can help keep an object in the same part of the image while more light is collected.\nNeither image is simply more truthful than the other. Each combines a choice of method with a different question. A trail image highlights motion over time, while a tracked image can reveal details that would otherwise be faint or blurred.\nThis example reminds us that a photograph is not merely a transparent window onto a scene. Exposure time, camera movement, and other decisions shape which features become visible. Understanding those decisions helps us interpret both what an image shows and what it leaves difficult to see.",
+            "preparedPath": "./last-day/media/last-day-04-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "What is a purpose of tracking equipment?",
+          "options": [
+            "Reducing every exposure to the same short duration",
+            "Preventing the camera from receiving faint light",
+            "Keeping a sky object aligned while the camera gathers light",
+            "Making star trails curve in an artificial direction"
+          ],
+          "answer": 2,
+          "explanation": "Tracking counters apparent motion for detailed images.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Recording the night sky",
+          "stimulus": {
+            "id": "last-day-04-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Recording the night sky",
+            "script": "A camera aimed at the night sky can produce very different images depending on how long it gathers light. In a short exposure, a star may appear as a small point. During a longer exposure with the camera held still relative to the ground, stars can leave curved trails. The trails reflect the changing direction in which the camera sees them as Earth rotates.\nFor some purposes, those trails are exactly what the photographer wants. They make a gradual movement visible in a single image. For other purposes, such as examining a faint object in detail, the movement blurs information. Equipment that follows the apparent motion of the sky can help keep an object in the same part of the image while more light is collected.\nNeither image is simply more truthful than the other. Each combines a choice of method with a different question. A trail image highlights motion over time, while a tracked image can reveal details that would otherwise be faint or blurred.\nThis example reminds us that a photograph is not merely a transparent window onto a scene. Exposure time, camera movement, and other decisions shape which features become visible. Understanding those decisions helps us interpret both what an image shows and what it leaves difficult to see.",
+            "preparedPath": "./last-day/media/last-day-04-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "How does the speaker compare trail and tracked images?",
+          "options": [
+            "They reveal different aspects suited to different questions",
+            "Both methods must produce the same visible detail",
+            "Only the tracked image can represent a real observation",
+            "The trail image is useful only for testing faulty cameras"
+          ],
+          "answer": 0,
+          "explanation": "The methods emphasize different features rather than a simple true-false ranking.",
+          "skill": "attitude",
+          "task": "academic-talk",
+          "title": "Recording the night sky",
+          "stimulus": {
+            "id": "last-day-04-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Recording the night sky",
+            "script": "A camera aimed at the night sky can produce very different images depending on how long it gathers light. In a short exposure, a star may appear as a small point. During a longer exposure with the camera held still relative to the ground, stars can leave curved trails. The trails reflect the changing direction in which the camera sees them as Earth rotates.\nFor some purposes, those trails are exactly what the photographer wants. They make a gradual movement visible in a single image. For other purposes, such as examining a faint object in detail, the movement blurs information. Equipment that follows the apparent motion of the sky can help keep an object in the same part of the image while more light is collected.\nNeither image is simply more truthful than the other. Each combines a choice of method with a different question. A trail image highlights motion over time, while a tracked image can reveal details that would otherwise be faint or blurred.\nThis example reminds us that a photograph is not merely a transparent window onto a scene. Exposure time, camera movement, and other decisions shape which features become visible. Understanding those decisions helps us interpret both what an image shows and what it leaves difficult to see.",
+            "preparedPath": "./last-day/media/last-day-04-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-l2-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "What broader point does the speaker draw?",
+          "options": [
+            "Image-making choices influence the evidence a photograph provides",
+            "Photographs cannot contribute to scientific understanding",
+            "Camera movement is the only factor affecting an image",
+            "Long exposures should replace other forms of observation"
+          ],
+          "answer": 0,
+          "explanation": "The conclusion links method choices to interpretation.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Recording the night sky",
+          "stimulus": {
+            "id": "last-day-04-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Recording the night sky",
+            "script": "A camera aimed at the night sky can produce very different images depending on how long it gathers light. In a short exposure, a star may appear as a small point. During a longer exposure with the camera held still relative to the ground, stars can leave curved trails. The trails reflect the changing direction in which the camera sees them as Earth rotates.\nFor some purposes, those trails are exactly what the photographer wants. They make a gradual movement visible in a single image. For other purposes, such as examining a faint object in detail, the movement blurs information. Equipment that follows the apparent motion of the sky can help keep an object in the same part of the image while more light is collected.\nNeither image is simply more truthful than the other. Each combines a choice of method with a different question. A trail image highlights motion over time, while a tracked image can reveal details that would otherwise be faint or blurred.\nThis example reminds us that a photograph is not merely a transparent window onto a scene. Exposure time, camera movement, and other decisions shape which features become visible. Understanding those decisions helps us interpret both what an image shows and what it leaves difficult to see.",
+            "preparedPath": "./last-day/media/last-day-04-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-04-w1",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I need to contact the person organizing the visit.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "is",
+            "for",
+            "sending",
+            "the final schedule",
+            "Who",
+            "responsible"
+          ],
+          "solution": [
+            "Who",
+            "is",
+            "responsible",
+            "for",
+            "sending",
+            "the final schedule"
+          ],
+          "correct": [
+            4,
+            0,
+            5,
+            1,
+            2,
+            3
+          ],
+          "explanation": "Responsible takes for plus an -ing form; who is the subject.",
+          "number": 1,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w2",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The tour starts beside the old market.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "to arrive",
+            "before",
+            "half past ten",
+            "needed",
+            "Do",
+            "need",
+            "we"
+          ],
+          "solution": [
+            "Do",
+            "we",
+            "need",
+            "to arrive",
+            "before",
+            "half past ten"
+          ],
+          "correct": [
+            4,
+            6,
+            5,
+            0,
+            1,
+            2
+          ],
+          "explanation": "The direct question uses Do with base-form need and a following infinitive.",
+          "number": 2,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w3",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The lecturer mentioned a change to the reading list.",
+          "frame": [
+            "Did she say",
+            "?"
+          ],
+          "chunks": [
+            "chapter",
+            "the next class",
+            "should read",
+            "which",
+            "we",
+            "before"
+          ],
+          "solution": [
+            "which",
+            "chapter",
+            "we",
+            "should read",
+            "before",
+            "the next class"
+          ],
+          "correct": [
+            3,
+            0,
+            4,
+            2,
+            5,
+            1
+          ],
+          "explanation": "The embedded question places we before should read.",
+          "number": 3,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w4",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The afternoon workshop filled very quickly.",
+          "frame": [
+            "It was",
+            "."
+          ],
+          "chunks": [
+            "another session",
+            "that",
+            "popular",
+            "the organizers",
+            "offered",
+            "so"
+          ],
+          "solution": [
+            "so",
+            "popular",
+            "that",
+            "the organizers",
+            "offered",
+            "another session"
+          ],
+          "correct": [
+            5,
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "explanation": "So plus adjective and that-clause expresses a result.",
+          "number": 4,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w5",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I borrowed a bicycle from the university.",
+          "frame": [
+            "The bicycle",
+            "."
+          ],
+          "chunks": [
+            "was given",
+            "that",
+            "I",
+            "had",
+            "a basket",
+            "on the front"
+          ],
+          "solution": [
+            "that",
+            "I",
+            "was given",
+            "had",
+            "a basket",
+            "on the front"
+          ],
+          "correct": [
+            1,
+            2,
+            0,
+            3,
+            4,
+            5
+          ],
+          "explanation": "That introduces the object relative clause; had is the main verb.",
+          "number": 5,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w6",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Our group has several suggestions for the room.",
+          "frame": [
+            "We would like",
+            " after class."
+          ],
+          "chunks": [
+            "to work",
+            "together",
+            "space",
+            "students",
+            "more",
+            "for"
+          ],
+          "solution": [
+            "more",
+            "space",
+            "for",
+            "students",
+            "to work",
+            "together"
+          ],
+          "correct": [
+            4,
+            2,
+            5,
+            3,
+            0,
+            1
+          ],
+          "explanation": "The noun phrase more space is followed by a for-object infinitive.",
+          "number": 6,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w7",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The speaker’s train was delayed.",
+          "frame": [
+            "Although she",
+            "."
+          ],
+          "chunks": [
+            "online",
+            "come in person,",
+            "could not",
+            "joined",
+            "the discussion",
+            "she"
+          ],
+          "solution": [
+            "could not",
+            "come in person,",
+            "she",
+            "joined",
+            "the discussion",
+            "online"
+          ],
+          "correct": [
+            2,
+            1,
+            5,
+            3,
+            4,
+            0
+          ],
+          "explanation": "Although introduces the contrasting subordinate clause.",
+          "number": 7,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w8",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "You have already interviewed six people.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "How",
+            "more",
+            "do",
+            "many",
+            "you",
+            "plan to interview",
+            "does"
+          ],
+          "solution": [
+            "How",
+            "many",
+            "more",
+            "do",
+            "you",
+            "plan to interview"
+          ],
+          "correct": [
+            0,
+            3,
+            1,
+            2,
+            4,
+            5
+          ],
+          "explanation": "The direct question uses do with you; how many more is the object.",
+          "number": 8,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w9",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "This explanation is easier to follow.",
+          "frame": [
+            "It makes",
+            "."
+          ],
+          "chunks": [
+            "the two ideas",
+            "clearer",
+            "much",
+            "than before",
+            "the relationship",
+            "between"
+          ],
+          "solution": [
+            "the relationship",
+            "between",
+            "the two ideas",
+            "much",
+            "clearer",
+            "than before"
+          ],
+          "correct": [
+            4,
+            5,
+            0,
+            2,
+            1,
+            3
+          ],
+          "explanation": "Make takes an object and adjective complement; much modifies the comparative.",
+          "number": 9,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-w10",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The final design uses fewer parts.",
+          "frame": [
+            "It can",
+            "."
+          ],
+          "chunks": [
+            "each part",
+            "because",
+            "be repaired",
+            "is",
+            "more easily",
+            "accessible"
+          ],
+          "solution": [
+            "be repaired",
+            "more easily",
+            "because",
+            "each part",
+            "is",
+            "accessible"
+          ],
+          "correct": [
+            2,
+            4,
+            1,
+            0,
+            3,
+            5
+          ],
+          "explanation": "The passive modal phrase is followed by a because-clause explaining the advantage.",
+          "alternatives": [
+            [
+              4,
+              2,
+              1,
+              0,
+              3,
+              5
+            ]
+          ],
+          "number": 10,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "last-day-04-w11",
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Mr. Evans, archive librarian",
+          "subject": "Preparing for an archive appointment",
+          "scenario": "You have booked an archive appointment to research how your town’s public spaces have changed. Since making the booking, you have narrowed your topic to one neighborhood and a shorter period. You want the librarian’s advice so you can make good use of the appointment. Write to the librarian.",
+          "points": [
+            "Explain how your research focus has changed.",
+            "Identify the kinds of material you hope to consult.",
+            "Request advice about preparation and any changes needed to your appointment."
+          ],
+          "number": 11,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "last-day-04-w12",
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Professor Duarte",
+          "question": "When evaluating a group project, should a university place more emphasis on the final product or on evidence of the process used to create it? Explain your position and discuss why your preferred approach would lead to fairer or more useful evaluation.",
+          "students": [
+            [
+              "Nora",
+              "The final product should matter most. It shows whether the group achieved its goal, and evaluating the same outcome gives everyone a clear standard. A long record of effort should not outweigh a product that fails to work."
+            ],
+            [
+              "Idris",
+              "The process deserves more attention. A good result can partly come from luck or from one experienced member. Records of testing and revision reveal what students learned and how they responded when something did not work."
+            ]
+          ],
+          "number": 12,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are hearing instructions before a group project presentation. Repeat each instruction exactly once.",
+      "items": [
+        {
+          "id": "last-day-04-s1",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The presentation room is now open.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-04-repeat1",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "The presentation room is now open.",
+            "preparedPath": "./last-day/media/last-day-04-repeat1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s2",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please place your display beside the numbered sign.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-04-repeat2",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Please place your display beside the numbered sign.",
+            "preparedPath": "./last-day/media/last-day-04-repeat2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s3",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Each group will have a few minutes for questions.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-04-repeat3",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Each group will have a few minutes for questions.",
+            "preparedPath": "./last-day/media/last-day-04-repeat3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s4",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "You may use the table to demonstrate how your model works.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-04-repeat4",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "You may use the table to demonstrate how your model works.",
+            "preparedPath": "./last-day/media/last-day-04-repeat4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s5",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Keep the space in front of your display clear for other visitors.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-04-repeat5",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Keep the space in front of your display clear for other visitors.",
+            "preparedPath": "./last-day/media/last-day-04-repeat5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s6",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If your presentation includes a video, test the sound before the session begins.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-04-repeat6",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "If your presentation includes a video, test the sound before the session begins.",
+            "preparedPath": "./last-day/media/last-day-04-repeat6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s7",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "After the event, return borrowed equipment to the staff member beside the door.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-04-repeat7",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "After the event, return borrowed equipment to the staff member beside the door.",
+            "preparedPath": "./last-day/media/last-day-04-repeat7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "An interviewer is interested in students’ experiences of working with other people.",
+      "items": [
+        {
+          "id": "last-day-04-s8",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe a group activity or project you have taken part in. What was your role in the group?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-04-interview1",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Describe a group activity or project you have taken part in. What was your role in the group?",
+            "preparedPath": "./last-day/media/last-day-04-interview1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s9",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "What do you find most useful about working with someone whose strengths are different from yours? Give an example.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-04-interview2",
+            "kind": "interview",
+            "title": "interview",
+            "script": "What do you find most useful about working with someone whose strengths are different from yours? Give an example.",
+            "preparedPath": "./last-day/media/last-day-04-interview2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s10",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Some groups divide a task into separate parts, while others work through it together. What are the advantages of your preferred approach?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-04-interview3",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Some groups divide a task into separate parts, while others work through it together. What are the advantages of your preferred approach?",
+            "preparedPath": "./last-day/media/last-day-04-interview3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-04-s11",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Imagine two members of a group strongly disagree about the next step. What would you do to help the group move forward, and why?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-04-interview4",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Imagine two members of a group strongly disagree about the next step. What would you do to help the group move forward, and why?",
+            "preparedPath": "./last-day/media/last-day-04-interview4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-04",
+          "difficulty": "mixed practice"
+        }
+      ]
+    }
+  ]
+}

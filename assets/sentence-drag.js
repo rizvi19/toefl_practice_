@@ -1,5 +1,5 @@
 // Shared, pointer-based sentence tiles. Answers keep their exact slot positions.
-export const instructions = 'Drag a word into any blank. Drag between filled slots to swap, or back to the word bank to remove. You can also select a blank, then tap a word. Alt + Left/Right moves a focused tile; Escape cancels a drag.';
+export const instructions = 'Slide a tile into a blank. Slide between filled slots to swap, or back to the word bank to remove. Clicking or tapping does not move tiles. Keyboard: Space picks up, Left/Right chooses a slot, Enter drops, Backspace returns to the bank, Escape cancels.';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function moveSentenceTile(answer, size, tokenCount, token, destination) {
   const next = Array.from({length:size}, (_, i) => answer[i] ?? null);
@@ -18,7 +18,7 @@ export function moveSentenceTile(answer, size, tokenCount, token, destination) {
 export function sentenceSlots(answer, size, label, {locked=false, slotClass='sentence-slot', emptyClass='unfilled', fixed, action='remove', indexAttr='data-slot', numbered=true}={}) {
   return Array.from({length:size}, (_, i) => {
     const token = answer[i] ?? null, text = token === null ? '_____' : label(token, i);
-    return ((Array.isArray(fixed)?fixed:[fixed]).filter(f=>f?.after===i).map(f=>` <span>${esc(f.text)}</span> `).join('')) + `<button type="button" class="${slotClass} ${token === null ? emptyClass : ''}" data-sentence-slot="${i}" ${token === null ? '' : `data-sentence-token="${token}"`} data-action="${action}" ${indexAttr}="${i}" ${locked?'disabled':''} aria-label="Slot ${i+1}${token === null ? ', empty; select a word for this blank' : ': '+esc(text)+'; drag to move or select to return'}">${numbered?`<small>${i+1}</small>`:''}${esc(text)}</button>`;
+    return ((Array.isArray(fixed)?fixed:[fixed]).filter(f=>f?.after===i).map(f=>` <span>${esc(f.text)}</span> `).join('')) + `<button type="button" class="${slotClass} ${token === null ? emptyClass : ''}" data-sentence-slot="${i}" ${token === null ? '' : `data-sentence-token="${token}"`} data-action="${action}" ${indexAttr}="${i}" ${locked?'disabled':''} aria-label="Slot ${i+1}${token === null ? ', empty; drop a word here' : ': '+esc(text)+'; slide to move or return'}">${numbered?`<small>${i+1}</small>`:''}${esc(text)}</button>`;
   }).join('');
 }
 export function sentencePool(answer, order, label, {locked=false, action='place', indexAttr='data-token', tileClass=''}={}) {
@@ -26,7 +26,7 @@ export function sentencePool(answer, order, label, {locked=false, action='place'
 }
 
 export function installSentenceDrag(root, {getState, commit}) {
-  let pointer=null, selected=null, suppressUntil=0, committing=false, frame=0;
+  let pointer=null, keyboard=null, suppressUntil=0, committing=false, frame=0;
   const live=document.createElement('span');live.className='sentence-drag-live';live.setAttribute('role','status');live.setAttribute('aria-live','polite');document.body.append(live);
   const announce=text=>{live.textContent=text;};
   const state=()=>{const s=getState();return s&&!s.locked?s:null;};
@@ -47,7 +47,7 @@ export function installSentenceDrag(root, {getState, commit}) {
     const s=state();if(committing||!valid(s,id)){ghost?.remove();return;}
     const next=moveSentenceTile(s.answer,s.size,s.tokenCount,token,to);if(!next){ghost?.remove();return;}
     const positions=new Map([...board().querySelectorAll('[data-sentence-slot][data-sentence-token]')].map(el=>[el.dataset.sentenceToken,el.getBoundingClientRect()]));
-    committing=true;selected=null;
+    committing=true;keyboard=null;
     try{
       await commit(next,id);
       if(!valid(state(),id))return;
@@ -74,7 +74,7 @@ export function installSentenceDrag(root, {getState, commit}) {
     if(!pointer||e.pointerId!==pointer.pid)return;
     pointer.x=e.clientX;pointer.y=e.clientY;
     if(!pointer.dragging&&Math.hypot(pointer.x-pointer.startX,pointer.y-pointer.startY)>7){
-      pointer.dragging=true;selected=null;
+      pointer.dragging=true;keyboard=null;
       root.setPointerCapture(e.pointerId);
       const ghost=document.createElement('div');ghost.className='sentence-drag-ghost';ghost.setAttribute('aria-hidden','true');ghost.textContent=pointer.source.childNodes.length>1?pointer.source.lastChild.textContent:pointer.source.textContent;ghost.style.width=pointer.rect.width+'px';ghost.style.height=pointer.rect.height+'px';document.body.append(ghost);pointer.ghost=ghost;pointer.source.classList.add('sentence-drag-source');document.body.classList.add('sentence-dragging');track();
     }
@@ -97,24 +97,28 @@ export function installSentenceDrag(root, {getState, commit}) {
   root.addEventListener('click',e=>{
     const el=e.target.closest('[data-sentence-token],[data-sentence-slot]');if(!el||!board()?.contains(el))return;
     e.preventDefault();e.stopImmediatePropagation();
-    const s=state();if(Date.now()<suppressUntil||committing||el.disabled||!valid(s,s?.id))return;
-    if(el.dataset.sentenceToken!==undefined){
-      const token=Number(el.dataset.sentenceToken),placed=el.dataset.sentenceSlot!==undefined;
-      const to=placed?'bank':selected?.id===s.id?selected.slot:Array.from({length:s.size},(_,i)=>s.answer[i]??null).indexOf(null);
-      if(to===-1){announce('Select a filled slot to replace it, or drag this word onto a slot.');return;}
-      void apply(token,to,s.id);
-    }else{
-      clearTarget();selected={id:s.id,slot:Number(el.dataset.sentenceSlot)};el.classList.add('sentence-picked-slot');announce(`Slot ${selected.slot+1} selected. Choose a word from the bank.`);
-    }
+    if(Date.now()>=suppressUntil&&!el.disabled)announce('Slide the tile to move it. Keyboard users can press Space, choose a slot with the arrows, then press Enter.');
   },true);
   root.addEventListener('keydown',e=>{
-    if(e.key==='Escape'){if(pointer?.dragging)suppressUntil=Date.now()+400;finish();selected=null;announce('Move cancelled.');return;}
-    const el=e.target.closest('[data-sentence-slot][data-sentence-token]'),s=state();
-    if(el&&e.altKey&&['ArrowLeft','ArrowRight'].includes(e.key)&&valid(s,s?.id)){
+    const el=e.target.closest('[data-sentence-token]'),s=state();
+    if(e.key==='Escape'){if(pointer?.dragging)suppressUntil=Date.now()+400;finish();keyboard=null;announce('Move cancelled.');return;}
+    if(!valid(s,s?.id)||committing)return;
+    if(keyboard&&['ArrowLeft','ArrowRight','Enter','Backspace'].includes(e.key)){
+      e.preventDefault();e.stopImmediatePropagation();
+      if(e.key==='Enter'||e.key==='Backspace'){const picked=keyboard;keyboard=null;clearTarget();void apply(picked.token,e.key==='Backspace'?'bank':picked.to,picked.id);}
+      else{keyboard.to=Math.max(0,Math.min(s.size-1,keyboard.to+(e.key==='ArrowLeft'?-1:1)));clearTarget();board().querySelector(`[data-sentence-slot="${keyboard.to}"]`)?.classList.add('sentence-picked-slot');announce(`Slot ${keyboard.to+1}. Press Enter to drop.`);}
+      return;
+    }
+    if(el&&!el.disabled&&[' ','Enter'].includes(e.key)){
+      e.preventDefault();e.stopImmediatePropagation();const answer=Array.from({length:s.size},(_,i)=>s.answer[i]??null);
+      keyboard={id:s.id,token:Number(el.dataset.sentenceToken),to:el.dataset.sentenceSlot===undefined?Math.max(0,answer.indexOf(null)):Number(el.dataset.sentenceSlot)};
+      clearTarget();board().querySelector(`[data-sentence-slot="${keyboard.to}"]`)?.classList.add('sentence-picked-slot');announce(`Tile picked up. Slot ${keyboard.to+1}. Use Left or Right, then Enter to drop. Backspace returns it to the bank.`);return;
+    }
+    if(el?.dataset.sentenceSlot!==undefined&&e.altKey&&['ArrowLeft','ArrowRight'].includes(e.key)){
       e.preventDefault();e.stopImmediatePropagation();const to=Number(el.dataset.sentenceSlot)+(e.key==='ArrowLeft'?-1:1);if(to>=0&&to<s.size)void apply(Number(el.dataset.sentenceToken),to,s.id);
     }
   },true);
   // Navigation, task submission and expiry invalidate a gesture before it can save.
-  new MutationObserver(()=>{if(pointer&&!pointer.source.isConnected)finish();if(selected&&selected.id!==board()?.dataset.sentenceBoard)selected=null;}).observe(root,{childList:true,subtree:true});
+  new MutationObserver(()=>{if(pointer&&!pointer.source.isConnected)finish();if(keyboard&&keyboard.id!==board()?.dataset.sentenceBoard)keyboard=null;}).observe(root,{childList:true,subtree:true});
   window.addEventListener('blur',()=>finish());
 }

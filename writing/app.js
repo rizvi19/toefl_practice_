@@ -1,5 +1,5 @@
 import {referenceSentences} from './reference.js';
-import {installSentenceDrag,sentenceSlots,sentencePool,instructions as tileInstructions} from '../assets/sentence-drag.js?v=1';
+import {installSentenceDrag,sentenceSlots,sentencePool,instructions as tileInstructions} from '../assets/sentence-drag.js?v=dragonly2';
 import {readExposure,markExposure,selectQuestions} from './advanced.js?v=sentence-standard1';
 import {sentences} from './content.js?v=sentence-standard1';
 import {emails,discussions,formTitles} from './prompts.js?v=writing2';
@@ -59,7 +59,7 @@ main.addEventListener('click',async e=>{const b=e.target.closest('[data-action]'
  else if(action==='download')download({...report,feedback:Object.fromEntries(['email','academic'].filter(t=>report.tasks.includes(t)).map(t=>[t,feedbackPacket(report,t)]))},`TOEFL-Writing-${report.id}.json`);
  else if(action==='export-history')download(data.history,'TOEFL-Writing-history.json');
  else if(action==='end')showDialog('<h2 id="dialog-title">End this Writing attempt?</h2><p>Your work will be saved for review. Unattempted tasks will remain blank.</p><p class="helper">Any active task clock keeps running.</p>',[{id:'cancel',label:'Keep working'},{id:'end',label:'End attempt',primary:true}]);
- else if(action==='help')showDialog(`<h2 id="dialog-title">Writing directions</h2><p>${s.tasks[s.stage]==='sentence'?'Drag a tile into any blank, swap tiles, or drag a tile back to the word bank. Tap and keyboard controls also work. Use Back, Next, Mark and Review within the 10 sentence items. Some items have one unused tile.':'Read the full question, then type in the response box. Address the required email points or develop your own discussion contribution. Word count and separate copy-for-ChatGPT buttons are available.'}</p><p>The task clock continues while Help is open. Submitted tasks cannot be changed.</p>`,[{id:'close',label:'Return to test',primary:true}]);
+ else if(action==='help')showDialog(`<h2 id="dialog-title">Writing directions</h2><p>${s.tasks[s.stage]==='sentence'?'Drag a tile into any blank, swap tiles, or drag a tile back to the word bank. Clicking does not move tiles; keyboard drag controls are available. Use Back, Next, Mark and Review within the 10 sentence items. Some items have one unused tile.':'Read the full question, then type in the response box. Address the required email points or develop your own discussion contribution. Word count and separate copy-for-ChatGPT buttons are available.'}</p><p>The task clock continues while Help is open. Submitted tasks cannot be changed.</p>`,[{id:'close',label:'Return to test',primary:true}]);
  else if(action==='place'){const q=s.form.sentences[s.index];placeToken(s,q.id,Number(b.dataset.token));save();render();main.querySelector('[data-action="place"]:not(:disabled)')?.focus({preventScroll:true});}
  else if(action==='remove'){const q=s.form.sentences[s.index],a=s.responses.sentence[q.id];a[Number(b.dataset.slot)]=null;save();render();main.querySelector('[data-action="place"]:not(:disabled)')?.focus({preventScroll:true});}
  else if(action==='clear'){delete s.responses.sentence[s.form.sentences[s.index].id];save();render();}

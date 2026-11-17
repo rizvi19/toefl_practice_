@@ -12,7 +12,7 @@ Writing tests also offer the 30-question source bank in fresh ten-question block
 
 Drag any available tile into an exact blank. Dropping onto an occupied slot swaps two placed tiles, or replaces its tile with one from the bank. Drag back to the bank to remove. An invalid drop, Escape or a cancelled touch gesture leaves the answer unchanged. Empty slots stay in their exact positions after removal and reload. Tiles cannot be duplicated. A highlighted destination and floating tile show the move; reduced-motion settings disable the settling animation. Touch uses Pointer Events, including automatic page scrolling near the viewport edges.
 
-Tap a blank and then a bank tile to target a specific blank. Tap a placed tile to return it. Enter/Space activates focused buttons; Alt+Left/Right moves a placed tile, and a live region announces placement. Submitted/checked answers and expired tasks cannot be edited. Existing saved question snapshots retain their earlier segmentation and token indices; retrying uses the current layout.
+Clicking or tapping tiles and blanks does not place or remove words. For keyboard access, Space/Enter picks up a tile, Left/Right selects a destination, Enter drops, Backspace returns it to the bank and Escape cancels. Alt+Left/Right also moves a placed tile, and a live region announces placement. Submitted/checked answers and expired tasks cannot be edited. Existing saved question snapshots retain their earlier segmentation and token indices; retrying uses the current layout.
 
 ## Reference review and its limits
 

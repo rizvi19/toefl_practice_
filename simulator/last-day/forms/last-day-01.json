@@ -1,0 +1,2640 @@
+{
+  "id": "last-day-01",
+  "version": 1,
+  "title": "Last Day Mock 01 · Places and Evidence",
+  "description": "Original fixed mixed-difficulty practice modeled on the guide’s task types and content ranges.",
+  "original": true,
+  "adaptive": false,
+  "collection": "last-day",
+  "taskIntroductions": true,
+  "baseCount": 120,
+  "audioLeadInSeconds": 3,
+  "repeatLeadInSeconds": 3,
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-01-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A seed bank stores seeds so that plants can be grown again in the future. The storage rooms are ",
+            {
+              "pre": "usual",
+              "answer": "ly"
+            },
+            " kept cool and dry, ",
+            {
+              "pre": "bec",
+              "answer": "ause"
+            },
+            " ",
+            {
+              "pre": "mois",
+              "answer": "ture"
+            },
+            " can cause seeds to ",
+            {
+              "pre": "devel",
+              "answer": "op"
+            },
+            " too soon. Each sample is ",
+            {
+              "pre": "care",
+              "answer": "fully"
+            },
+            " labeled with information about its origin. Workers also ",
+            {
+              "pre": "exam",
+              "answer": "ine"
+            },
+            " a small number of seeds at regular ",
+            {
+              "pre": "inter",
+              "answer": "vals"
+            },
+            " to check ",
+            {
+              "pre": "whe",
+              "answer": "ther"
+            },
+            " they remain ",
+            {
+              "pre": "cap",
+              "answer": "able"
+            },
+            " of growing. This ",
+            {
+              "pre": "proc",
+              "answer": "ess"
+            },
+            " helps the collection stay useful instead of becoming merely a record of plants that once existed."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Stone buildings do not remain unchanged after they are constructed. Their outer surfaces slowly ",
+            {
+              "pre": "re",
+              "answer": "act"
+            },
+            " with water and air, ",
+            {
+              "pre": "a",
+              "answer": "nd"
+            },
+            " small ",
+            {
+              "pre": "cr",
+              "answer": "acks"
+            },
+            " may appear as ",
+            {
+              "pre": "temper",
+              "answer": "atures"
+            },
+            " rise and fall. The damage is often ",
+            {
+              "pre": "diffic",
+              "answer": "ult"
+            },
+            " to notice over a short period. However, ",
+            {
+              "pre": "photog",
+              "answer": "raphs"
+            },
+            " taken from the same ",
+            {
+              "pre": "posi",
+              "answer": "tion"
+            },
+            " over many years can ",
+            {
+              "pre": "rev",
+              "answer": "eal"
+            },
+            " a clear pattern. Such records help people decide which parts of a building need ",
+            {
+              "pre": "att",
+              "answer": "ention"
+            },
+            " ",
+            {
+              "pre": "bef",
+              "answer": "ore"
+            },
+            " larger pieces of stone become loose or fall away."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 11,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-d0-q1",
+          "type": "choice",
+          "prompt": "Why should students reply to the email?",
+          "options": [
+            "To arrange removal of photographs",
+            "To change the exhibition opening time",
+            "To request a position near an electrical outlet",
+            "To reserve the middle display board"
+          ],
+          "answer": 2,
+          "explanation": "Only displays needing electricity require a reply.",
+          "skill": "purpose",
+          "task": "daily-life",
+          "title": "Email: shared display space",
+          "passage": "To: Student exhibitors\nSubject: Display installation on Thursday\nThe lobby display boards will be available from 10 a.m. Thursday. Please leave the middle board empty until noon; the photography club needs that time to remove its exhibition. You may use either side board immediately. If your display needs electricity, reply by Wednesday afternoon so we can place it near an outlet. All displays must be ready by 4 p.m. The exhibition opens Friday morning, but staff will check the room Thursday evening.",
+          "documentType": "notice",
+          "stimulusId": "last-day-01-r1-d0",
+          "number": 21,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-d0-q2",
+          "type": "choice",
+          "prompt": "What can an exhibitor do at 10:30 a.m. Thursday?",
+          "options": [
+            "Begin installing a display on a side board",
+            "Ask visitors to view the completed exhibition",
+            "Move photographs onto the middle board",
+            "Use any of the three display boards"
+          ],
+          "answer": 0,
+          "explanation": "The side boards are free from ten; the middle board is reserved until noon.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Email: shared display space",
+          "passage": "To: Student exhibitors\nSubject: Display installation on Thursday\nThe lobby display boards will be available from 10 a.m. Thursday. Please leave the middle board empty until noon; the photography club needs that time to remove its exhibition. You may use either side board immediately. If your display needs electricity, reply by Wednesday afternoon so we can place it near an outlet. All displays must be ready by 4 p.m. The exhibition opens Friday morning, but staff will check the room Thursday evening.",
+          "documentType": "notice",
+          "stimulusId": "last-day-01-r1-d0",
+          "number": 22,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-d1-q1",
+          "type": "choice",
+          "prompt": "What is changing on Saturday?",
+          "options": [
+            "The times of existing appointments",
+            "The website used for borrowing books",
+            "The subjects that librarians will discuss",
+            "The location of scheduled consultations"
+          ],
+          "answer": 3,
+          "explanation": "Appointments move online while their times stay the same.",
+          "skill": "main idea",
+          "task": "daily-life",
+          "title": "Notice: research desk consultations",
+          "passage": "RESEARCH DESK: WEEKEND ARRANGEMENTS\nThis Saturday, consultations with a subject librarian will be held online because the reference room is being painted. Existing appointments keep their original times. Appointment holders will receive a meeting link on Friday. Students without an appointment may submit a question through the library website, but a same-day reply is not guaranteed. Books left on the reference-room tables must be collected before 5 p.m. Friday; after that, staff will move them to the service desk. Normal in-person consultations resume Monday.",
+          "documentType": "notice",
+          "stimulusId": "last-day-01-r1-d1",
+          "number": 23,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-d1-q2",
+          "type": "choice",
+          "prompt": "What is implied about submitting a website question?",
+          "options": [
+            "It is restricted to students with existing appointments",
+            "It allows a student to choose an appointment time",
+            "It automatically cancels an in-person consultation",
+            "It may take longer than an appointment to receive help"
+          ],
+          "answer": 3,
+          "explanation": "A same-day answer is not guaranteed, unlike a scheduled meeting.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "Notice: research desk consultations",
+          "passage": "RESEARCH DESK: WEEKEND ARRANGEMENTS\nThis Saturday, consultations with a subject librarian will be held online because the reference room is being painted. Existing appointments keep their original times. Appointment holders will receive a meeting link on Friday. Students without an appointment may submit a question through the library website, but a same-day reply is not guaranteed. Books left on the reference-room tables must be collected before 5 p.m. Friday; after that, staff will move them to the service desk. Normal in-person consultations resume Monday.",
+          "documentType": "notice",
+          "stimulusId": "last-day-01-r1-d1",
+          "number": 24,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-d1-q3",
+          "type": "choice",
+          "prompt": "Where can a student retrieve an uncollected book after Friday?",
+          "options": [
+            "In the room being painted",
+            "At the service desk",
+            "At the online consultation",
+            "On a reference-room table"
+          ],
+          "answer": 1,
+          "explanation": "Staff will relocate remaining books to the service desk.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Notice: research desk consultations",
+          "passage": "RESEARCH DESK: WEEKEND ARRANGEMENTS\nThis Saturday, consultations with a subject librarian will be held online because the reference room is being painted. Existing appointments keep their original times. Appointment holders will receive a meeting link on Friday. Students without an appointment may submit a question through the library website, but a same-day reply is not guaranteed. Books left on the reference-room tables must be collected before 5 p.m. Friday; after that, staff will move them to the service desk. Normal in-person consultations resume Monday.",
+          "documentType": "notice",
+          "stimulusId": "last-day-01-r1-d1",
+          "number": 25,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a0-q1",
+          "type": "choice",
+          "prompt": "What is the passage mainly about?",
+          "options": [
+            "Why seawater prevents grasses from growing",
+            "Why limiting visitors is the main requirement for conserving a salt marsh",
+            "How a growing sediment supply can preserve a marsh without changing its boundary",
+            "How marsh growth and surrounding conditions influence marsh survival"
+          ],
+          "answer": 3,
+          "explanation": "The passage connects marsh growth with conditions needed for its survival.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The slow work of a salt marsh",
+          "passage": "A salt marsh is a coastal area where grasses grow in ground that is regularly covered by seawater. Although a marsh may look like an unchanging field, its surface is being built and reshaped. As the tide moves through the grasses, the stems slow the water. Some of the fine material carried by that water settles instead of being swept away. Dead roots and leaves also add material to the soil.\nThese processes can gradually raise the marsh surface. This matters because marsh plants cannot survive indefinitely under deep water. When the land gains height at a rate close to the rise in local water level, the plants may remain within a suitable range of flooding. However, an increase in sediment is not automatically enough to protect every marsh. The supply of material, the health of the plants, and room for the marsh to spread inland all influence the outcome.\nFor coastal planners, protecting a marsh therefore involves more than preventing people from walking on its grasses. A wall or road behind the marsh may block its inland movement. Measures that protect a single present-day boundary can, in this way, limit the space that the living system will need later.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a0",
+          "number": 26,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a0-q2",
+          "type": "choice",
+          "prompt": "Why does fine material settle among marsh grasses?",
+          "options": [
+            "The roots absorb all the surrounding seawater",
+            "The stems reduce the speed of moving water",
+            "The grasses prevent the tide from reaching land",
+            "The soil becomes too deep for water to enter"
+          ],
+          "answer": 1,
+          "explanation": "Stems slow the water, allowing suspended material to settle.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The slow work of a salt marsh",
+          "passage": "A salt marsh is a coastal area where grasses grow in ground that is regularly covered by seawater. Although a marsh may look like an unchanging field, its surface is being built and reshaped. As the tide moves through the grasses, the stems slow the water. Some of the fine material carried by that water settles instead of being swept away. Dead roots and leaves also add material to the soil.\nThese processes can gradually raise the marsh surface. This matters because marsh plants cannot survive indefinitely under deep water. When the land gains height at a rate close to the rise in local water level, the plants may remain within a suitable range of flooding. However, an increase in sediment is not automatically enough to protect every marsh. The supply of material, the health of the plants, and room for the marsh to spread inland all influence the outcome.\nFor coastal planners, protecting a marsh therefore involves more than preventing people from walking on its grasses. A wall or road behind the marsh may block its inland movement. Measures that protect a single present-day boundary can, in this way, limit the space that the living system will need later.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a0",
+          "number": 27,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a0-q3",
+          "type": "choice",
+          "prompt": "The word “suitable” is closest in meaning to",
+          "options": [
+            "measurable",
+            "unexpected",
+            "temporary",
+            "appropriate"
+          ],
+          "answer": 3,
+          "explanation": "A suitable flooding range is one appropriate for the plants.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "The slow work of a salt marsh",
+          "passage": "A salt marsh is a coastal area where grasses grow in ground that is regularly covered by seawater. Although a marsh may look like an unchanging field, its surface is being built and reshaped. As the tide moves through the grasses, the stems slow the water. Some of the fine material carried by that water settles instead of being swept away. Dead roots and leaves also add material to the soil.\nThese processes can gradually raise the marsh surface. This matters because marsh plants cannot survive indefinitely under deep water. When the land gains height at a rate close to the rise in local water level, the plants may remain within a suitable range of flooding. However, an increase in sediment is not automatically enough to protect every marsh. The supply of material, the health of the plants, and room for the marsh to spread inland all influence the outcome.\nFor coastal planners, protecting a marsh therefore involves more than preventing people from walking on its grasses. A wall or road behind the marsh may block its inland movement. Measures that protect a single present-day boundary can, in this way, limit the space that the living system will need later.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a0",
+          "number": 28,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a0-q4",
+          "type": "choice",
+          "prompt": "What can be inferred about a healthy marsh with no room to move inland?",
+          "options": [
+            "It would gain height faster than neighboring marshes",
+            "Its soil would no longer contain dead plant material",
+            "Its grasses would stop capturing fine material",
+            "It could still be vulnerable as water levels rise"
+          ],
+          "answer": 3,
+          "explanation": "Plant health alone cannot overcome the loss of room for future movement.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "The slow work of a salt marsh",
+          "passage": "A salt marsh is a coastal area where grasses grow in ground that is regularly covered by seawater. Although a marsh may look like an unchanging field, its surface is being built and reshaped. As the tide moves through the grasses, the stems slow the water. Some of the fine material carried by that water settles instead of being swept away. Dead roots and leaves also add material to the soil.\nThese processes can gradually raise the marsh surface. This matters because marsh plants cannot survive indefinitely under deep water. When the land gains height at a rate close to the rise in local water level, the plants may remain within a suitable range of flooding. However, an increase in sediment is not automatically enough to protect every marsh. The supply of material, the health of the plants, and room for the marsh to spread inland all influence the outcome.\nFor coastal planners, protecting a marsh therefore involves more than preventing people from walking on its grasses. A wall or road behind the marsh may block its inland movement. Measures that protect a single present-day boundary can, in this way, limit the space that the living system will need later.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a0",
+          "number": 29,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a0-q5",
+          "type": "choice",
+          "prompt": "Why does the author mention a wall or road?",
+          "options": [
+            "To explain how people can walk on wet ground",
+            "To identify the main source of marsh sediment",
+            "To illustrate a constraint on future marsh movement",
+            "To compare two ways to restore marsh plants"
+          ],
+          "answer": 2,
+          "explanation": "A boundary structure illustrates why protecting today’s edge can restrict adaptation.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "The slow work of a salt marsh",
+          "passage": "A salt marsh is a coastal area where grasses grow in ground that is regularly covered by seawater. Although a marsh may look like an unchanging field, its surface is being built and reshaped. As the tide moves through the grasses, the stems slow the water. Some of the fine material carried by that water settles instead of being swept away. Dead roots and leaves also add material to the soil.\nThese processes can gradually raise the marsh surface. This matters because marsh plants cannot survive indefinitely under deep water. When the land gains height at a rate close to the rise in local water level, the plants may remain within a suitable range of flooding. However, an increase in sediment is not automatically enough to protect every marsh. The supply of material, the health of the plants, and room for the marsh to spread inland all influence the outcome.\nFor coastal planners, protecting a marsh therefore involves more than preventing people from walking on its grasses. A wall or road behind the marsh may block its inland movement. Measures that protect a single present-day boundary can, in this way, limit the space that the living system will need later.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a0",
+          "number": 30,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a1-q1",
+          "type": "choice",
+          "prompt": "Which statement best expresses the central idea?",
+          "options": [
+            "An address system can rely on shared records without changes to residents’ habits",
+            "Addresses work through shared systems as well as physical labels",
+            "Delivery organizations need separate address systems",
+            "Keeping older place names in use prevents a standardized address system from functioning"
+          ],
+          "answer": 1,
+          "explanation": "The passage stresses the coordinated system behind an address.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Addresses and delivery networks",
+          "passage": "An address seems to describe a location, but a working address also belongs to a communication system. A house can be familiar to its neighbors and still be difficult for an outside delivery service to find. Descriptions such as “behind the old mill” may work locally, yet become uncertain when a landmark disappears or several places share similar features.\nStandardized street names and building numbers reduce this dependence on local knowledge. Their usefulness increases when many organizations use the same system. A supplier, a postal worker, and an emergency service can then interpret the same destination without negotiating a new description. The address acts as a shared reference, even though each organization has a different purpose.\nIntroducing such a system is not simply a matter of putting numbers on doors. Records must be updated, residents must learn the new descriptions, and older names may continue to circulate. During the transition, keeping a link between old and new descriptions can prevent confusion. This is especially important where the older names carry social or historical significance.\nThe history of addressing thus illustrates a broader point about infrastructure. A physical sign is only one visible part of a network that depends on compatible records and shared habits of interpretation.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a1",
+          "number": 31,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a1-q2",
+          "type": "choice",
+          "prompt": "What is a limitation of a landmark-based description?",
+          "options": [
+            "It requires every house to have a numbered sign",
+            "It cannot be understood by people living nearby",
+            "A change to the landmark can make the description unclear",
+            "It prevents more than one organization making deliveries"
+          ],
+          "answer": 2,
+          "explanation": "The example notes that landmarks may disappear or resemble one another.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Addresses and delivery networks",
+          "passage": "An address seems to describe a location, but a working address also belongs to a communication system. A house can be familiar to its neighbors and still be difficult for an outside delivery service to find. Descriptions such as “behind the old mill” may work locally, yet become uncertain when a landmark disappears or several places share similar features.\nStandardized street names and building numbers reduce this dependence on local knowledge. Their usefulness increases when many organizations use the same system. A supplier, a postal worker, and an emergency service can then interpret the same destination without negotiating a new description. The address acts as a shared reference, even though each organization has a different purpose.\nIntroducing such a system is not simply a matter of putting numbers on doors. Records must be updated, residents must learn the new descriptions, and older names may continue to circulate. During the transition, keeping a link between old and new descriptions can prevent confusion. This is especially important where the older names carry social or historical significance.\nThe history of addressing thus illustrates a broader point about infrastructure. A physical sign is only one visible part of a network that depends on compatible records and shared habits of interpretation.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a1",
+          "number": 32,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a1-q3",
+          "type": "choice",
+          "prompt": "The word “compatible” is closest in meaning to",
+          "options": [
+            "recently collected",
+            "available to everyone",
+            "able to work together",
+            "easy to replace"
+          ],
+          "answer": 2,
+          "explanation": "Compatible records can be interpreted together within a shared system.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Addresses and delivery networks",
+          "passage": "An address seems to describe a location, but a working address also belongs to a communication system. A house can be familiar to its neighbors and still be difficult for an outside delivery service to find. Descriptions such as “behind the old mill” may work locally, yet become uncertain when a landmark disappears or several places share similar features.\nStandardized street names and building numbers reduce this dependence on local knowledge. Their usefulness increases when many organizations use the same system. A supplier, a postal worker, and an emergency service can then interpret the same destination without negotiating a new description. The address acts as a shared reference, even though each organization has a different purpose.\nIntroducing such a system is not simply a matter of putting numbers on doors. Records must be updated, residents must learn the new descriptions, and older names may continue to circulate. During the transition, keeping a link between old and new descriptions can prevent confusion. This is especially important where the older names carry social or historical significance.\nThe history of addressing thus illustrates a broader point about infrastructure. A physical sign is only one visible part of a network that depends on compatible records and shared habits of interpretation.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a1",
+          "number": 33,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a1-q4",
+          "type": "choice",
+          "prompt": "Why might an authority retain links to older place names?",
+          "options": [
+            "To help people use the new system during a transition",
+            "To stop residents from giving directions to visitors",
+            "To avoid recording where particular buildings stand",
+            "To let each delivery company choose different street numbers"
+          ],
+          "answer": 0,
+          "explanation": "Old-to-new links reduce confusion while old descriptions still circulate.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Addresses and delivery networks",
+          "passage": "An address seems to describe a location, but a working address also belongs to a communication system. A house can be familiar to its neighbors and still be difficult for an outside delivery service to find. Descriptions such as “behind the old mill” may work locally, yet become uncertain when a landmark disappears or several places share similar features.\nStandardized street names and building numbers reduce this dependence on local knowledge. Their usefulness increases when many organizations use the same system. A supplier, a postal worker, and an emergency service can then interpret the same destination without negotiating a new description. The address acts as a shared reference, even though each organization has a different purpose.\nIntroducing such a system is not simply a matter of putting numbers on doors. Records must be updated, residents must learn the new descriptions, and older names may continue to circulate. During the transition, keeping a link between old and new descriptions can prevent confusion. This is especially important where the older names carry social or historical significance.\nThe history of addressing thus illustrates a broader point about infrastructure. A physical sign is only one visible part of a network that depends on compatible records and shared habits of interpretation.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a1",
+          "number": 34,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r1-a1-q5",
+          "type": "choice",
+          "prompt": "What is the function of the final paragraph?",
+          "options": [
+            "It lists organizations excluded from delivery networks",
+            "It challenges the need for standardized street names",
+            "It draws a general lesson from the example of addressing",
+            "It describes an additional stage in numbering buildings"
+          ],
+          "answer": 2,
+          "explanation": "The conclusion generalizes from addresses to infrastructure.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "Addresses and delivery networks",
+          "passage": "An address seems to describe a location, but a working address also belongs to a communication system. A house can be familiar to its neighbors and still be difficult for an outside delivery service to find. Descriptions such as “behind the old mill” may work locally, yet become uncertain when a landmark disappears or several places share similar features.\nStandardized street names and building numbers reduce this dependence on local knowledge. Their usefulness increases when many organizations use the same system. A supplier, a postal worker, and an emergency service can then interpret the same destination without negotiating a new description. The address acts as a shared reference, even though each organization has a different purpose.\nIntroducing such a system is not simply a matter of putting numbers on doors. Records must be updated, residents must learn the new descriptions, and older names may continue to circulate. During the transition, keeping a link between old and new descriptions can prevent confusion. This is especially important where the older names carry social or historical significance.\nThe history of addressing thus illustrates a broader point about infrastructure. A physical sign is only one visible part of a network that depends on compatible records and shared habits of interpretation.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r1-a1",
+          "number": 35,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-01-r2-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "People often change the way they describe a place according to their audience. A visitor may need ",
+            {
+              "pre": "direc",
+              "answer": "tions"
+            },
+            " that include the names of ",
+            {
+              "pre": "str",
+              "answer": "eets"
+            },
+            ", ",
+            {
+              "pre": "wh",
+              "answer": "ile"
+            },
+            " a close friend can follow familiar landmarks. Neither description is ",
+            {
+              "pre": "necess",
+              "answer": "arily"
+            },
+            " more accurate than the other. Each ",
+            {
+              "pre": "prov",
+              "answer": "ides"
+            },
+            " information that is ",
+            {
+              "pre": "rele",
+              "answer": "vant"
+            },
+            " to a particular listener. This ",
+            {
+              "pre": "flex",
+              "answer": "ible"
+            },
+            " use of language shows that successful ",
+            {
+              "pre": "communic",
+              "answer": "ation"
+            },
+            " depends on more than remembering facts. Speakers must also consider the ",
+            {
+              "pre": "know",
+              "answer": "ledge"
+            },
+            " ",
+            {
+              "pre": "th",
+              "answer": "at"
+            },
+            " they and their listeners share."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r2-a1-q1",
+          "type": "choice",
+          "prompt": "Why are students asked to vote before discussion?",
+          "options": [
+            "To select which partner they will work with",
+            "To avoid answering any additional questions",
+            "To decide whether the class should use technology",
+            "To reveal their initial understanding"
+          ],
+          "answer": 3,
+          "explanation": "The first vote establishes a starting point.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Learning from an anonymous vote",
+          "passage": "In a large class, an instructor cannot easily tell whether silence means understanding or uncertainty. One way to gather more information is to ask students to answer a conceptual question anonymously before discussing it with a partner. The class then votes again. The first vote gives the instructor a starting point; the second shows whether explanations exchanged by students have changed their judgments.\nAn increase in correct answers may be encouraging, but it needs careful interpretation. Some students may simply adopt a confident partner’s choice without understanding the reasoning. To distinguish agreement from learning, an instructor can ask a related question that uses a different example. Success on this new question provides stronger evidence that students can apply an idea rather than repeat an answer.\nThe quality of the original question also matters. If it can be answered by recalling a word, there may be little to discuss. A useful question instead presents alternatives that reflect different ways of thinking about the same situation. Students then need to explain why one account works better than another.\nAnonymous voting is therefore not valuable merely because it introduces technology into a classroom. Its value depends on how the sequence of voting, explanation, and further questioning makes students’ reasoning visible.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r2-a1",
+          "number": 11,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r2-a1-q2",
+          "type": "choice",
+          "prompt": "What concern does the second paragraph raise?",
+          "options": [
+            "Confident students are less willing to change their votes",
+            "A related question may have no correct answer",
+            "Anonymous answers are harder to count accurately",
+            "Agreement with a partner may not show understanding"
+          ],
+          "answer": 3,
+          "explanation": "Students can copy a choice without grasping its reasoning.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Learning from an anonymous vote",
+          "passage": "In a large class, an instructor cannot easily tell whether silence means understanding or uncertainty. One way to gather more information is to ask students to answer a conceptual question anonymously before discussing it with a partner. The class then votes again. The first vote gives the instructor a starting point; the second shows whether explanations exchanged by students have changed their judgments.\nAn increase in correct answers may be encouraging, but it needs careful interpretation. Some students may simply adopt a confident partner’s choice without understanding the reasoning. To distinguish agreement from learning, an instructor can ask a related question that uses a different example. Success on this new question provides stronger evidence that students can apply an idea rather than repeat an answer.\nThe quality of the original question also matters. If it can be answered by recalling a word, there may be little to discuss. A useful question instead presents alternatives that reflect different ways of thinking about the same situation. Students then need to explain why one account works better than another.\nAnonymous voting is therefore not valuable merely because it introduces technology into a classroom. Its value depends on how the sequence of voting, explanation, and further questioning makes students’ reasoning visible.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r2-a1",
+          "number": 12,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r2-a1-q3",
+          "type": "choice",
+          "prompt": "The word “adopt” is closest in meaning to",
+          "options": [
+            "search for",
+            "write down",
+            "take up",
+            "argue against"
+          ],
+          "answer": 2,
+          "explanation": "To adopt a partner’s choice is to take it as one’s own answer.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Learning from an anonymous vote",
+          "passage": "In a large class, an instructor cannot easily tell whether silence means understanding or uncertainty. One way to gather more information is to ask students to answer a conceptual question anonymously before discussing it with a partner. The class then votes again. The first vote gives the instructor a starting point; the second shows whether explanations exchanged by students have changed their judgments.\nAn increase in correct answers may be encouraging, but it needs careful interpretation. Some students may simply adopt a confident partner’s choice without understanding the reasoning. To distinguish agreement from learning, an instructor can ask a related question that uses a different example. Success on this new question provides stronger evidence that students can apply an idea rather than repeat an answer.\nThe quality of the original question also matters. If it can be answered by recalling a word, there may be little to discuss. A useful question instead presents alternatives that reflect different ways of thinking about the same situation. Students then need to explain why one account works better than another.\nAnonymous voting is therefore not valuable merely because it introduces technology into a classroom. Its value depends on how the sequence of voting, explanation, and further questioning makes students’ reasoning visible.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r2-a1",
+          "number": 13,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r2-a1-q4",
+          "type": "choice",
+          "prompt": "Which question would best fit the approach described?",
+          "options": [
+            "One with several unrelated topics in its options",
+            "One requiring only the date of a familiar event",
+            "One whose alternatives represent different explanations",
+            "One that all students have already answered correctly"
+          ],
+          "answer": 2,
+          "explanation": "Competing explanations create a reason to discuss reasoning.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Learning from an anonymous vote",
+          "passage": "In a large class, an instructor cannot easily tell whether silence means understanding or uncertainty. One way to gather more information is to ask students to answer a conceptual question anonymously before discussing it with a partner. The class then votes again. The first vote gives the instructor a starting point; the second shows whether explanations exchanged by students have changed their judgments.\nAn increase in correct answers may be encouraging, but it needs careful interpretation. Some students may simply adopt a confident partner’s choice without understanding the reasoning. To distinguish agreement from learning, an instructor can ask a related question that uses a different example. Success on this new question provides stronger evidence that students can apply an idea rather than repeat an answer.\nThe quality of the original question also matters. If it can be answered by recalling a word, there may be little to discuss. A useful question instead presents alternatives that reflect different ways of thinking about the same situation. Students then need to explain why one account works better than another.\nAnonymous voting is therefore not valuable merely because it introduces technology into a classroom. Its value depends on how the sequence of voting, explanation, and further questioning makes students’ reasoning visible.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r2-a1",
+          "number": 14,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-r2-a1-q5",
+          "type": "choice",
+          "prompt": "Why does the author describe a related question with a different example?",
+          "options": [
+            "To suggest replacing the first vote with a written essay",
+            "To illustrate a problem with anonymous voting devices",
+            "To explain why discussion must always occur in pairs",
+            "To show how transfer of understanding can be checked"
+          ],
+          "answer": 3,
+          "explanation": "Applying the concept in a new example distinguishes learning from copied agreement.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "Learning from an anonymous vote",
+          "passage": "In a large class, an instructor cannot easily tell whether silence means understanding or uncertainty. One way to gather more information is to ask students to answer a conceptual question anonymously before discussing it with a partner. The class then votes again. The first vote gives the instructor a starting point; the second shows whether explanations exchanged by students have changed their judgments.\nAn increase in correct answers may be encouraging, but it needs careful interpretation. Some students may simply adopt a confident partner’s choice without understanding the reasoning. To distinguish agreement from learning, an instructor can ask a related question that uses a different example. Success on this new question provides stronger evidence that students can apply an idea rather than repeat an answer.\nThe quality of the original question also matters. If it can be answered by recalling a word, there may be little to discuss. A useful question instead presents alternatives that reflect different ways of thinking about the same situation. Students then need to explain why one account works better than another.\nAnonymous voting is therefore not valuable merely because it introduces technology into a classroom. Its value depends on how the sequence of voting, explanation, and further questioning makes students’ reasoning visible.",
+          "documentType": "academic",
+          "stimulusId": "last-day-01-r2-a1",
+          "number": 15,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "last-day-01-l1-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, the station has several entrances.",
+            "I packed it before breakfast.",
+            "Sure, I’ll stay here until you return.",
+            "The tickets were cheaper last month."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Would you mind keeping an eye on my suitcase while I get a ticket?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Would you mind keeping an eye on my suitcase while I get a ticket?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "There are three rooms in my apartment.",
+            "I thought your argument was convincing.",
+            "Yes, this discussion was very helpful.",
+            "They moved it to the room upstairs."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I thought the discussion was in this room.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "I thought the discussion was in this room.",
+            "preparedPath": "./last-day/media/last-day-01-l1-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "About three kilometers from here.",
+            "It’s the person sitting near the window.",
+            "Through the main entrance.",
+            "Better than I expected, actually."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: How did your interview go?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "How did your interview go?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I handed in the form yesterday.",
+            "They were quite comfortable.",
+            "My hands are cold too.",
+            "Of course. Where should we put them?"
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could you give me a hand with these chairs?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "Could you give me a hand with these chairs?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Friday’s lecture covered the next chapter.",
+            "I can, if you take my Sunday shift.",
+            "The clock is on the opposite wall.",
+            "There should be some shade by then."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Is there any chance you could cover my shift on Friday?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "Is there any chance you could cover my shift on Friday?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response6-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, the driver is standing to your left.",
+            "Yes, we’ll need to find another way home.",
+            "No, I haven’t left my umbrella anywhere.",
+            "I usually read on the bus."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: The last bus has already left, hasn’t it?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response6",
+            "kind": "response",
+            "title": "response",
+            "script": "The last bus has already left, hasn’t it?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response7-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The printer takes several kinds of paper.",
+            "There’s a collection box beside the office.",
+            "They were empty when I bought the desk.",
+            "I printed three copies of the document."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Where do I take these empty printer cartridges?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response7",
+            "kind": "response",
+            "title": "response",
+            "script": "Where do I take these empty printer cartridges?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response8-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I prefer to write with a blue pen.",
+            "You’re right; I should explain the connection.",
+            "The paragraph is on the second page.",
+            "The main entrance closes at six."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’m not sure this paragraph supports your main point.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response8",
+            "kind": "response",
+            "title": "response",
+            "script": "I’m not sure this paragraph supports your main point.",
+            "preparedPath": "./last-day/media/last-day-01-l1-response8.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response9-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "It was a useful part of the presentation.",
+            "Not yet. They’re waiting for a part.",
+            "The team finished the match early.",
+            "Yes, I lift weights twice a week."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Has the maintenance team fixed the lift yet?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response9",
+            "kind": "response",
+            "title": "response",
+            "script": "Has the maintenance team fixed the lift yet?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response9.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response10-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "There are two lectures on the list.",
+            "I read both articles last night.",
+            "You can post it before five.",
+            "The one with the larger lettering."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Which of these two posters is easier to read?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response10",
+            "kind": "response",
+            "title": "response",
+            "script": "Which of these two posters is easier to read?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response10.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response11-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, I know where you live.",
+            "My computer is lighter than yours.",
+            "It’s written on the board near the desk.",
+            "The board meets once a month."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: You don’t happen to know the Wi-Fi password, do you?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response11",
+            "kind": "response",
+            "title": "response",
+            "script": "You don’t happen to know the Wi-Fi password, do you?",
+            "preparedPath": "./last-day/media/last-day-01-l1-response11.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-response12-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The notebook has a green cover.",
+            "Certainly. I’ll send you a copy tonight.",
+            "I borrowed the book for a week.",
+            "Monday was unusually warm."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I was hoping to borrow your notes from Monday.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l1-response12",
+            "kind": "response",
+            "title": "response",
+            "script": "I was hoping to borrow your notes from Monday.",
+            "preparedPath": "./last-day/media/last-day-01-l1-response12.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-conversation1-q1",
+          "type": "choice",
+          "prompt": "What was the woman worried about?",
+          "options": [
+            "Having damaged the camera lens",
+            "Being charged for a missing accessory",
+            "Being unable to find her booking",
+            "Returning the equipment after closing"
+          ],
+          "answer": 1,
+          "explanation": "She feared paying for a missing pouch.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Returning a borrowed lens",
+          "stimulus": {
+            "id": "last-day-01-l1-conversation1",
+            "kind": "conversation",
+            "title": "Returning a borrowed lens",
+            "script": "Woman: I’m returning the lens, but I couldn’t find the little pouch it came in.\nMan: The pouch isn’t essential. Have you got both the lens caps?\nWoman: Yes, they’re here. I was worried I’d have to pay for another pouch.\nMan: No, you’re fine. Next time, keep the caps on whenever the lens isn’t attached to the camera.\nWoman: I will. Could I book it again for next weekend?\nMan: Put a request through the website. It’s still available at the moment.",
+            "preparedPath": "./last-day/media/last-day-01-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-conversation1-q2",
+          "type": "choice",
+          "prompt": "What will the woman probably do next?",
+          "options": [
+            "Look for a different camera model",
+            "Buy replacement lens caps",
+            "Pay at the equipment desk",
+            "Request another booking online"
+          ],
+          "answer": 3,
+          "explanation": "The man directs her to the website to reserve the available lens.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Returning a borrowed lens",
+          "stimulus": {
+            "id": "last-day-01-l1-conversation1",
+            "kind": "conversation",
+            "title": "Returning a borrowed lens",
+            "script": "Woman: I’m returning the lens, but I couldn’t find the little pouch it came in.\nMan: The pouch isn’t essential. Have you got both the lens caps?\nWoman: Yes, they’re here. I was worried I’d have to pay for another pouch.\nMan: No, you’re fine. Next time, keep the caps on whenever the lens isn’t attached to the camera.\nWoman: I will. Could I book it again for next weekend?\nMan: Put a request through the website. It’s still available at the moment.",
+            "preparedPath": "./last-day/media/last-day-01-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-conversation2-q1",
+          "type": "choice",
+          "prompt": "What problem does the woman identify?",
+          "options": [
+            "The survey asks about too many subjects",
+            "Students have already answered twice",
+            "The survey cannot be sent to the whole class",
+            "A question lacks a clear time period"
+          ],
+          "answer": 3,
+          "explanation": "Weekly versus monthly spending is ambiguous.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Preparing a student survey",
+          "stimulus": {
+            "id": "last-day-01-l1-conversation2",
+            "kind": "conversation",
+            "title": "Preparing a student survey",
+            "script": "Man: We’ve only had twelve responses to our survey. Should we ask the whole class again?\nWoman: Before we do, look at question three. Two people told me they weren’t sure whether it meant weekly or monthly spending.\nMan: Oh, that could change the answers quite a bit.\nWoman: Exactly. Let’s fix that first and ask those twelve people to check their responses.\nMan: Then we can send one clear version to everyone else.\nWoman: Yes. More answers won’t help much if people interpret the question differently.",
+            "preparedPath": "./last-day/media/last-day-01-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-conversation2-q2",
+          "type": "choice",
+          "prompt": "Why does she say more answers will not help much?",
+          "options": [
+            "They will require an additional survey fee",
+            "The class has already chosen a different topic",
+            "Twelve responses are sufficient for every purpose",
+            "They may be based on inconsistent interpretations"
+          ],
+          "answer": 3,
+          "explanation": "More responses do not correct an unclear question.",
+          "skill": "purpose",
+          "task": "conversation",
+          "title": "Preparing a student survey",
+          "stimulus": {
+            "id": "last-day-01-l1-conversation2",
+            "kind": "conversation",
+            "title": "Preparing a student survey",
+            "script": "Man: We’ve only had twelve responses to our survey. Should we ask the whole class again?\nWoman: Before we do, look at question three. Two people told me they weren’t sure whether it meant weekly or monthly spending.\nMan: Oh, that could change the answers quite a bit.\nWoman: Exactly. Let’s fix that first and ask those twelve people to check their responses.\nMan: Then we can send one clear version to everyone else.\nWoman: Yes. More answers won’t help much if people interpret the question differently.",
+            "preparedPath": "./last-day/media/last-day-01-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-conversation3-q1",
+          "type": "choice",
+          "prompt": "How will the speakers move the board?",
+          "options": [
+            "By carrying it around a different stairway",
+            "By removing the lift doors",
+            "By separating it into smaller panels",
+            "By using another exhibition room"
+          ],
+          "answer": 2,
+          "explanation": "The board can be taken apart.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "A change in exhibition plans",
+          "stimulus": {
+            "id": "last-day-01-l1-conversation3",
+            "kind": "conversation",
+            "title": "A change in exhibition plans",
+            "script": "Woman: The large display board won’t fit in the lift. I measured it this morning.\nMan: Could we carry it up the stairs?\nWoman: The stairway turns too sharply. But the board comes apart into two panels.\nMan: I didn’t realize that. Would separating them damage the display?\nWoman: Not if we remove the photographs first. We can put them back upstairs.\nMan: Then I’ll get a screwdriver, and you can start taking the photographs down.\nWoman: Good. It’s a bit more work, but we won’t have to change rooms.",
+            "preparedPath": "./last-day/media/last-day-01-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-conversation3-q2",
+          "type": "choice",
+          "prompt": "How does the woman view the solution?",
+          "options": [
+            "It depends on borrowing a larger board",
+            "It is too risky for the photographs",
+            "It will be quicker than their original plan",
+            "It requires effort but preserves their room arrangement"
+          ],
+          "answer": 3,
+          "explanation": "She accepts extra work to avoid changing rooms.",
+          "skill": "attitude",
+          "task": "conversation",
+          "title": "A change in exhibition plans",
+          "stimulus": {
+            "id": "last-day-01-l1-conversation3",
+            "kind": "conversation",
+            "title": "A change in exhibition plans",
+            "script": "Woman: The large display board won’t fit in the lift. I measured it this morning.\nMan: Could we carry it up the stairs?\nWoman: The stairway turns too sharply. But the board comes apart into two panels.\nMan: I didn’t realize that. Would separating them damage the display?\nWoman: Not if we remove the photographs first. We can put them back upstairs.\nMan: Then I’ll get a screwdriver, and you can start taking the photographs down.\nWoman: Good. It’s a bit more work, but we won’t have to change rooms.",
+            "preparedPath": "./last-day/media/last-day-01-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 18,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-announcement1-q1",
+          "type": "choice",
+          "prompt": "Why has the workshop location changed?",
+          "options": [
+            "More students registered than the lab can hold",
+            "Work on the computer lab’s network makes it unavailable",
+            "The workshop no longer involves computers",
+            "The geography studio has newer internet equipment"
+          ],
+          "answer": 1,
+          "explanation": "The lab’s network is being upgraded.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Workshop relocation",
+          "stimulus": {
+            "id": "last-day-01-l1-announcement1",
+            "kind": "announcement",
+            "title": "Workshop relocation",
+            "script": "A quick update for everyone attending tomorrow’s map-making workshop. We’ll meet in the geography studio rather than the computer lab because the lab’s network is being upgraded. The start time is still two o’clock. Bring a laptop if you have one, but don’t worry if you don’t; we have a few available to share. Please download the sample files from the course page before arriving, since we may not have internet access in the studio.",
+            "preparedPath": "./last-day/media/last-day-01-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 19,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-announcement1-q2",
+          "type": "choice",
+          "prompt": "What should participants do before the workshop?",
+          "options": [
+            "Save the sample files on their devices",
+            "Bring a laptop because sharing is not permitted",
+            "Collect sample files from the lab during the session",
+            "Meet in the studio before the usual two-o’clock start"
+          ],
+          "answer": 0,
+          "explanation": "Files must be downloaded in advance because internet access may be unavailable.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Workshop relocation",
+          "stimulus": {
+            "id": "last-day-01-l1-announcement1",
+            "kind": "announcement",
+            "title": "Workshop relocation",
+            "script": "A quick update for everyone attending tomorrow’s map-making workshop. We’ll meet in the geography studio rather than the computer lab because the lab’s network is being upgraded. The start time is still two o’clock. Bring a laptop if you have one, but don’t worry if you don’t; we have a few available to share. Please download the sample files from the course page before arriving, since we may not have internet access in the studio.",
+            "preparedPath": "./last-day/media/last-day-01-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 20,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-announcement2-q1",
+          "type": "choice",
+          "prompt": "What does the speaker ask students to check?",
+          "options": [
+            "Whether their partners have returned to the coach",
+            "Whether the driver has visited the facilities",
+            "Whether the museum shop is still open",
+            "Whether their gallery tickets are valid"
+          ],
+          "answer": 0,
+          "explanation": "Students are asked to check that their partners are aboard.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Field trip head count",
+          "stimulus": {
+            "id": "last-day-01-l1-announcement2",
+            "kind": "announcement",
+            "title": "Field trip head count",
+            "script": "Before we leave the museum, please check that your partner is back on the coach. We’ll depart in ten minutes, so there’s time to use the facilities, but please don’t go back into the galleries. If you bought a large item in the shop, put it in the luggage compartment rather than in the aisle. We’ll make one short stop on the journey home. The driver will tell us when it’s safe to get off.",
+            "preparedPath": "./last-day/media/last-day-01-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 21,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-announcement2-q2",
+          "type": "choice",
+          "prompt": "Why should large purchases go in the luggage compartment?",
+          "options": [
+            "To make them available at the short stop",
+            "To prevent them being included in the head count",
+            "To keep the aisle unobstructed",
+            "To allow the museum to check their receipts"
+          ],
+          "answer": 2,
+          "explanation": "Keeping bulky items out of the aisle preserves a clear passage.",
+          "skill": "inference",
+          "task": "announcement",
+          "title": "Field trip head count",
+          "stimulus": {
+            "id": "last-day-01-l1-announcement2",
+            "kind": "announcement",
+            "title": "Field trip head count",
+            "script": "Before we leave the museum, please check that your partner is back on the coach. We’ll depart in ten minutes, so there’s time to use the facilities, but please don’t go back into the galleries. If you bought a large item in the shop, put it in the luggage compartment rather than in the aisle. We’ll make one short stop on the journey home. The driver will tell us when it’s safe to get off.",
+            "preparedPath": "./last-day/media/last-day-01-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 22,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What is the talk mainly explaining?",
+          "options": [
+            "Why heating systems should run continuously",
+            "How feedback can help maintain a stable condition",
+            "How room size determines the cost of electricity",
+            "Why negative feedback damages household devices"
+          ],
+          "answer": 1,
+          "explanation": "The thermostat illustrates active correction toward a target.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Feedback and a room thermostat",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Feedback and a room thermostat",
+            "script": "Let’s use a familiar device to understand negative feedback: a room thermostat. You choose a temperature, and the thermostat compares that setting with the temperature it measures. If the room is too cold, it signals the heating system to run. As the room warms, the difference becomes smaller, and eventually the heating stops. The word negative doesn’t mean that the process is harmful. It means that the response works against the original difference.\nNow, there’s usually a delay between switching on the heater and warming the whole room. A sensor beside the heater may report warmth before someone at the far end of the room feels it. So the position of the sensor matters, as does the time the system takes to respond. A system that reacts too strongly to every small difference can keep overshooting its target, then correcting in the opposite direction.\nThis is why a useful control system doesn’t simply demand the fastest possible response. It needs an appropriate response to a reliable measurement. The thermostat example helps us see a general principle: maintaining a stable condition is often an active process. The system keeps making adjustments even when, from our point of view, very little seems to be changing.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 23,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "What does “negative” mean in this context?",
+          "options": [
+            "The measured temperature is below zero",
+            "The effect of the device is harmful",
+            "The response opposes a difference from the target",
+            "The heating system has failed to operate"
+          ],
+          "answer": 2,
+          "explanation": "The response counteracts the initial deviation.",
+          "skill": "vocabulary",
+          "task": "academic-talk",
+          "title": "Feedback and a room thermostat",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Feedback and a room thermostat",
+            "script": "Let’s use a familiar device to understand negative feedback: a room thermostat. You choose a temperature, and the thermostat compares that setting with the temperature it measures. If the room is too cold, it signals the heating system to run. As the room warms, the difference becomes smaller, and eventually the heating stops. The word negative doesn’t mean that the process is harmful. It means that the response works against the original difference.\nNow, there’s usually a delay between switching on the heater and warming the whole room. A sensor beside the heater may report warmth before someone at the far end of the room feels it. So the position of the sensor matters, as does the time the system takes to respond. A system that reacts too strongly to every small difference can keep overshooting its target, then correcting in the opposite direction.\nThis is why a useful control system doesn’t simply demand the fastest possible response. It needs an appropriate response to a reliable measurement. The thermostat example helps us see a general principle: maintaining a stable condition is often an active process. The system keeps making adjustments even when, from our point of view, very little seems to be changing.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 24,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "Why does the speaker mention a sensor near a heater?",
+          "options": [
+            "To illustrate how measurement location can affect control",
+            "To explain how heaters supply electrical power",
+            "To show that all parts of a room warm at once",
+            "To recommend that every sensor be placed there"
+          ],
+          "answer": 0,
+          "explanation": "The sensor can register local warmth before the whole room warms.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Feedback and a room thermostat",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Feedback and a room thermostat",
+            "script": "Let’s use a familiar device to understand negative feedback: a room thermostat. You choose a temperature, and the thermostat compares that setting with the temperature it measures. If the room is too cold, it signals the heating system to run. As the room warms, the difference becomes smaller, and eventually the heating stops. The word negative doesn’t mean that the process is harmful. It means that the response works against the original difference.\nNow, there’s usually a delay between switching on the heater and warming the whole room. A sensor beside the heater may report warmth before someone at the far end of the room feels it. So the position of the sensor matters, as does the time the system takes to respond. A system that reacts too strongly to every small difference can keep overshooting its target, then correcting in the opposite direction.\nThis is why a useful control system doesn’t simply demand the fastest possible response. It needs an appropriate response to a reliable measurement. The thermostat example helps us see a general principle: maintaining a stable condition is often an active process. The system keeps making adjustments even when, from our point of view, very little seems to be changing.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 25,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "What is suggested about a very strong response to small differences?",
+          "options": [
+            "It shortens the delay before heat reaches the whole room",
+            "It removes the need to compare temperatures again",
+            "It can make the system less stable",
+            "It compensates for a poorly positioned sensor"
+          ],
+          "answer": 2,
+          "explanation": "Excessive correction can produce repeated overshooting.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "Feedback and a room thermostat",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Feedback and a room thermostat",
+            "script": "Let’s use a familiar device to understand negative feedback: a room thermostat. You choose a temperature, and the thermostat compares that setting with the temperature it measures. If the room is too cold, it signals the heating system to run. As the room warms, the difference becomes smaller, and eventually the heating stops. The word negative doesn’t mean that the process is harmful. It means that the response works against the original difference.\nNow, there’s usually a delay between switching on the heater and warming the whole room. A sensor beside the heater may report warmth before someone at the far end of the room feels it. So the position of the sensor matters, as does the time the system takes to respond. A system that reacts too strongly to every small difference can keep overshooting its target, then correcting in the opposite direction.\nThis is why a useful control system doesn’t simply demand the fastest possible response. It needs an appropriate response to a reliable measurement. The thermostat example helps us see a general principle: maintaining a stable condition is often an active process. The system keeps making adjustments even when, from our point of view, very little seems to be changing.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 26,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk2-q1",
+          "type": "choice",
+          "prompt": "What is the speaker’s main point?",
+          "options": [
+            "Every replica should look identical to its original in all respects",
+            "A replica is useful only when the original has been lost",
+            "A replica’s educational value depends on its purpose and clear labeling",
+            "Visitors learn more from replicas than from original objects"
+          ],
+          "answer": 2,
+          "explanation": "The talk links selected reproduced properties with an educational goal.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Making a museum replica useful",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Making a museum replica useful",
+            "script": "When you see a replica in a museum, you might think it’s there because the original object was unavailable. Sometimes that’s true. But a replica can also allow an experience that the original cannot safely provide. Visitors might handle a copy of a carved tool, for example, and feel where its maker placed the grip. Repeated handling could damage the original, so the copy makes a particular kind of learning possible.\nThe challenge is deciding what the replica needs to reproduce. If the question concerns how a tool was held, its weight and surface may matter. If the purpose is to explain the order in which its parts were assembled, a transparent section might be more useful than a perfectly matched color. Accuracy is therefore related to the question the replica is being used to explore.\nThat doesn’t mean museums can ignore differences. A visitor needs to know that an object is a replica and which features have been changed. Otherwise, an educational modification may be mistaken for evidence about the original.\nSo a good replica is neither a failed original nor simply a convincing imitation. It’s a tool for directing attention. By making some properties available for examination, it can support understanding, provided that its limitations remain clear.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 27,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk2-q2",
+          "type": "choice",
+          "prompt": "Why might visitors be allowed to handle a replica?",
+          "options": [
+            "Handling the original could cause damage",
+            "The replica is always lighter than the original",
+            "The original tool was not designed to be held",
+            "Museum visitors prefer modern materials"
+          ],
+          "answer": 0,
+          "explanation": "A copy permits safe hands-on investigation.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Making a museum replica useful",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Making a museum replica useful",
+            "script": "When you see a replica in a museum, you might think it’s there because the original object was unavailable. Sometimes that’s true. But a replica can also allow an experience that the original cannot safely provide. Visitors might handle a copy of a carved tool, for example, and feel where its maker placed the grip. Repeated handling could damage the original, so the copy makes a particular kind of learning possible.\nThe challenge is deciding what the replica needs to reproduce. If the question concerns how a tool was held, its weight and surface may matter. If the purpose is to explain the order in which its parts were assembled, a transparent section might be more useful than a perfectly matched color. Accuracy is therefore related to the question the replica is being used to explore.\nThat doesn’t mean museums can ignore differences. A visitor needs to know that an object is a replica and which features have been changed. Otherwise, an educational modification may be mistaken for evidence about the original.\nSo a good replica is neither a failed original nor simply a convincing imitation. It’s a tool for directing attention. By making some properties available for examination, it can support understanding, provided that its limitations remain clear.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 28,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk2-q3",
+          "type": "choice",
+          "prompt": "What does the transparent section example illustrate?",
+          "options": [
+            "A deliberate change can make a feature easier to understand",
+            "Replicas should be made from transparent materials",
+            "Original assembly methods are impossible to reconstruct",
+            "Color is unimportant in every museum display"
+          ],
+          "answer": 0,
+          "explanation": "Transparency can reveal assembly better than matched appearance.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Making a museum replica useful",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Making a museum replica useful",
+            "script": "When you see a replica in a museum, you might think it’s there because the original object was unavailable. Sometimes that’s true. But a replica can also allow an experience that the original cannot safely provide. Visitors might handle a copy of a carved tool, for example, and feel where its maker placed the grip. Repeated handling could damage the original, so the copy makes a particular kind of learning possible.\nThe challenge is deciding what the replica needs to reproduce. If the question concerns how a tool was held, its weight and surface may matter. If the purpose is to explain the order in which its parts were assembled, a transparent section might be more useful than a perfectly matched color. Accuracy is therefore related to the question the replica is being used to explore.\nThat doesn’t mean museums can ignore differences. A visitor needs to know that an object is a replica and which features have been changed. Otherwise, an educational modification may be mistaken for evidence about the original.\nSo a good replica is neither a failed original nor simply a convincing imitation. It’s a tool for directing attention. By making some properties available for examination, it can support understanding, provided that its limitations remain clear.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 29,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l1-academic-talk2-q4",
+          "type": "choice",
+          "prompt": "What might happen if modifications are not explained?",
+          "options": [
+            "Visitors would refuse to examine the display",
+            "The original would have to be removed from storage",
+            "The replica would become too fragile to handle",
+            "Visitors could draw incorrect conclusions about the original"
+          ],
+          "answer": 3,
+          "explanation": "Educational alterations could be mistaken for historical properties.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "Making a museum replica useful",
+          "stimulus": {
+            "id": "last-day-01-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Making a museum replica useful",
+            "script": "When you see a replica in a museum, you might think it’s there because the original object was unavailable. Sometimes that’s true. But a replica can also allow an experience that the original cannot safely provide. Visitors might handle a copy of a carved tool, for example, and feel where its maker placed the grip. Repeated handling could damage the original, so the copy makes a particular kind of learning possible.\nThe challenge is deciding what the replica needs to reproduce. If the question concerns how a tool was held, its weight and surface may matter. If the purpose is to explain the order in which its parts were assembled, a transparent section might be more useful than a perfectly matched color. Accuracy is therefore related to the question the replica is being used to explore.\nThat doesn’t mean museums can ignore differences. A visitor needs to know that an object is a replica and which features have been changed. Otherwise, an educational modification may be mistaken for evidence about the original.\nSo a good replica is neither a failed original nor simply a convincing imitation. It’s a tool for directing attention. By making some properties available for examination, it can support understanding, provided that its limitations remain clear.",
+            "preparedPath": "./last-day/media/last-day-01-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 30,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "items": [
+        {
+          "id": "last-day-01-l2-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Because the receipt is already torn.",
+            "The taxi arrived ten minutes early.",
+            "Good idea. It would be affordable between us.",
+            "I paid the full price last time."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Why don’t we split the cost of a taxi?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l2-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Why don’t we split the cost of a taxi?",
+            "preparedPath": "./last-day/media/last-day-01-l2-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "No, I stopped studying an hour ago.",
+            "The university starts classes next week.",
+            "Yes, it’s the next stop after Riverside.",
+            "I prefer the window seat."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Does this train stop at the university?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l2-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "Does this train stop at the university?",
+            "preparedPath": "./last-day/media/last-day-01-l2-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The sign says the office is closed.",
+            "There are several forms of transport.",
+            "Can someone at home send you a photo of it?",
+            "I believe you signed up last term."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I can’t believe I left the signed form at home.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l2-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "I can’t believe I left the signed form at home.",
+            "preparedPath": "./last-day/media/last-day-01-l2-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "After four, when my class is over.",
+            "I called from the library lobby.",
+            "My phone is in the back pocket.",
+            "The call was about your application."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: When would be a good time to call you back?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l2-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "When would be a good time to call you back?",
+            "preparedPath": "./last-day/media/last-day-01-l2-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The earlier bus leaves at seven.",
+            "Thanks. Your comments helped me reorganize it.",
+            "I haven’t received the first draft yet.",
+            "It’s clear outside this morning."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: This draft is much clearer than the earlier one.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-01-l2-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "This draft is much clearer than the earlier one.",
+            "preparedPath": "./last-day/media/last-day-01-l2-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-conversation1-q1",
+          "type": "choice",
+          "prompt": "Why does the woman advise against buying eleven tickets?",
+          "options": [
+            "The museum does not admit groups larger than ten",
+            "Some people have not confirmed that they can attend",
+            "Their group has already paid for eight tickets",
+            "The student discount ends before Saturday"
+          ],
+          "answer": 1,
+          "explanation": "Unconfirmed people might leave paid places unused.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Planning a group visit",
+          "stimulus": {
+            "id": "last-day-01-l2-conversation1",
+            "kind": "conversation",
+            "title": "Planning a group visit",
+            "script": "Man: I’ve found a museum tour on Saturday, but the student discount only applies if ten people book together.\nWoman: We’ve got eight definite replies and three people who haven’t answered.\nMan: Should I just buy eleven tickets?\nWoman: I wouldn’t. We’d be paying for empty places if they couldn’t come.\nMan: Right. I’ll message them with a deadline for this evening.\nWoman: And if we’re still below ten, ask the museum whether we can join another student group.\nMan: That’s worth trying.",
+            "preparedPath": "./last-day/media/last-day-01-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-conversation1-q2",
+          "type": "choice",
+          "prompt": "What alternative does the woman suggest?",
+          "options": [
+            "Buying full-price tickets for the whole class",
+            "Combining with another group to meet the discount condition",
+            "Moving the visit to a weekday evening",
+            "Visiting a different museum without a tour"
+          ],
+          "answer": 1,
+          "explanation": "Joining another student group could bring the total to ten.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Planning a group visit",
+          "stimulus": {
+            "id": "last-day-01-l2-conversation1",
+            "kind": "conversation",
+            "title": "Planning a group visit",
+            "script": "Man: I’ve found a museum tour on Saturday, but the student discount only applies if ten people book together.\nWoman: We’ve got eight definite replies and three people who haven’t answered.\nMan: Should I just buy eleven tickets?\nWoman: I wouldn’t. We’d be paying for empty places if they couldn’t come.\nMan: Right. I’ll message them with a deadline for this evening.\nWoman: And if we’re still below ten, ask the museum whether we can join another student group.\nMan: That’s worth trying.",
+            "preparedPath": "./last-day/media/last-day-01-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-conversation2-q1",
+          "type": "choice",
+          "prompt": "What change has the man made?",
+          "options": [
+            "Removed the explanation of his research method",
+            "Replaced a graph with a larger table",
+            "Moved detailed figures from the slides to a handout",
+            "Decided to distribute all slides after the talk"
+          ],
+          "answer": 2,
+          "explanation": "The detailed table moves to the handout.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "A clearer presentation",
+          "stimulus": {
+            "id": "last-day-01-l2-conversation2",
+            "kind": "conversation",
+            "title": "A clearer presentation",
+            "script": "Woman: Your slides look much less crowded now.\nMan: I took out the detailed table. I’ll give people a handout instead.\nWoman: Good idea. Will you still explain where the numbers came from?\nMan: Yes. The first graph shows the main result, and I’ll explain the method before that.\nWoman: Then people who want the details can check the handout later.\nMan: Exactly. I was trying to make every slide do everything.\nWoman: This way, the slides and the handout have different jobs.",
+            "preparedPath": "./last-day/media/last-day-01-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-conversation2-q2",
+          "type": "choice",
+          "prompt": "What do the speakers agree about?",
+          "options": [
+            "The audience should examine the handout before any graph",
+            "Different materials can serve different audience needs",
+            "Every detail should be read aloud during the talk",
+            "Explaining the source of figures is unnecessary"
+          ],
+          "answer": 1,
+          "explanation": "The slides convey the main message while the handout preserves detail.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "A clearer presentation",
+          "stimulus": {
+            "id": "last-day-01-l2-conversation2",
+            "kind": "conversation",
+            "title": "A clearer presentation",
+            "script": "Woman: Your slides look much less crowded now.\nMan: I took out the detailed table. I’ll give people a handout instead.\nWoman: Good idea. Will you still explain where the numbers came from?\nMan: Yes. The first graph shows the main result, and I’ll explain the method before that.\nWoman: Then people who want the details can check the handout later.\nMan: Exactly. I was trying to make every slide do everything.\nWoman: This way, the slides and the handout have different jobs.",
+            "preparedPath": "./last-day/media/last-day-01-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-announcement1-q1",
+          "type": "choice",
+          "prompt": "What is the announcement mainly about?",
+          "options": [
+            "An increase in prices for all cafe drinks",
+            "A permanent replacement of the cafe’s cups",
+            "A temporary discount scheme for reusable takeaway cups",
+            "A rule requiring customers to eat outside"
+          ],
+          "answer": 2,
+          "explanation": "It introduces a month-long trial for takeaway drinks.",
+          "skill": "main idea",
+          "task": "announcement",
+          "title": "A reusable-cup trial",
+          "stimulus": {
+            "id": "last-day-01-l2-announcement1",
+            "kind": "announcement",
+            "title": "A reusable-cup trial",
+            "script": "Starting Monday, the cafe will offer a small discount when you bring a reusable cup. Please hand the empty cup to the server before ordering, so they can check that it fits the drink you want. We’ll run the scheme for a month and then review how it worked. The discount applies to takeaway drinks only; prices for drinks served in our own cups inside the cafe will stay the same.",
+            "preparedPath": "./last-day/media/last-day-01-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-announcement1-q2",
+          "type": "choice",
+          "prompt": "When should customers present their cups?",
+          "options": [
+            "After paying for their drinks",
+            "At the end of the month-long trial",
+            "Before placing their drink orders",
+            "Only when ordering a second drink"
+          ],
+          "answer": 2,
+          "explanation": "The server checks suitability before the order.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A reusable-cup trial",
+          "stimulus": {
+            "id": "last-day-01-l2-announcement1",
+            "kind": "announcement",
+            "title": "A reusable-cup trial",
+            "script": "Starting Monday, the cafe will offer a small discount when you bring a reusable cup. Please hand the empty cup to the server before ordering, so they can check that it fits the drink you want. We’ll run the scheme for a month and then review how it worked. The discount applies to takeaway drinks only; prices for drinks served in our own cups inside the cafe will stay the same.",
+            "preparedPath": "./last-day/media/last-day-01-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-announcement2-q1",
+          "type": "choice",
+          "prompt": "Why are audience members asked to put phones away?",
+          "options": [
+            "To prevent changes to the printed program",
+            "To avoid disturbing quiet musical passages",
+            "To stop photographs being taken before the concert",
+            "To make room for additional performers"
+          ],
+          "answer": 1,
+          "explanation": "Notifications could distract during quiet pieces.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Student performance access",
+          "stimulus": {
+            "id": "last-day-01-l2-announcement2",
+            "kind": "announcement",
+            "title": "Student performance access",
+            "script": "Welcome to the lunchtime performance. You’re welcome to take photographs before and after the music, but please put phones away while the musicians are playing. Some pieces are quiet, and even a short notification can be distracting. There will be a brief pause halfway through. If you need to leave, that’s a good opportunity to do so. The program lists the performers, but two pieces have changed; the musicians will introduce those themselves.",
+            "preparedPath": "./last-day/media/last-day-01-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-announcement2-q2",
+          "type": "choice",
+          "prompt": "How will the audience learn about the changed pieces?",
+          "options": [
+            "The changes will be shown on audience phones",
+            "The musicians will introduce them",
+            "Revised programs will be emailed after lunch",
+            "The host will announce them after the final piece"
+          ],
+          "answer": 1,
+          "explanation": "The performers will introduce the changed selections.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Student performance access",
+          "stimulus": {
+            "id": "last-day-01-l2-announcement2",
+            "kind": "announcement",
+            "title": "Student performance access",
+            "script": "Welcome to the lunchtime performance. You’re welcome to take photographs before and after the music, but please put phones away while the musicians are playing. Some pieces are quiet, and even a short notification can be distracting. There will be a brief pause halfway through. If you need to leave, that’s a good opportunity to do so. The program lists the performers, but two pieces have changed; the musicians will introduce those themselves.",
+            "preparedPath": "./last-day/media/last-day-01-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What is the main topic?",
+          "options": [
+            "How compost piles can operate without living organisms",
+            "How plant remains can be stored without decomposition",
+            "Why woody material should be removed from every compost pile",
+            "Why effective composting requires attention to changing conditions"
+          ],
+          "answer": 3,
+          "explanation": "The talk emphasizes diagnosing conditions for decomposition.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "What compost needs",
+          "stimulus": {
+            "id": "last-day-01-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "What compost needs",
+            "script": "A compost pile transforms plant remains through the activity of living organisms. It isn’t simply a heap that becomes useful if you leave it alone for long enough. The organisms breaking down the material need suitable conditions, including moisture and access to air. When the pile is very wet and compacted, air moves through it less easily, and the process can change.\nOne practical response is to mix materials with different structures. Soft, wet vegetable remains may pack tightly together. Drier stalks or small pieces of woody material can help create spaces within the mixture. Those spaces matter because they allow air to reach more of the material. Turning the pile can also redistribute material and reopen spaces that have collapsed.\nHowever, turning more often isn’t automatically better. A pile that is too dry may need moisture rather than another round of mixing. The useful action depends on what is limiting the process at that moment.\nThink of composting as managing relationships among materials and organisms. A single sign, such as slow change, can have more than one explanation. Before choosing a remedy, you need to look at the conditions. This is a small-scale example of a broader approach in environmental work: diagnose the cause, rather than applying the same treatment whenever an outcome looks similar.",
+            "preparedPath": "./last-day/media/last-day-01-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "How can drier stalks help a tightly packed mixture?",
+          "options": [
+            "They create spaces through which air can move",
+            "They remove the need for moisture",
+            "They stop organisms from reaching the soft material",
+            "They make the whole pile more compact"
+          ],
+          "answer": 0,
+          "explanation": "Their structure can preserve air spaces.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "What compost needs",
+          "stimulus": {
+            "id": "last-day-01-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "What compost needs",
+            "script": "A compost pile transforms plant remains through the activity of living organisms. It isn’t simply a heap that becomes useful if you leave it alone for long enough. The organisms breaking down the material need suitable conditions, including moisture and access to air. When the pile is very wet and compacted, air moves through it less easily, and the process can change.\nOne practical response is to mix materials with different structures. Soft, wet vegetable remains may pack tightly together. Drier stalks or small pieces of woody material can help create spaces within the mixture. Those spaces matter because they allow air to reach more of the material. Turning the pile can also redistribute material and reopen spaces that have collapsed.\nHowever, turning more often isn’t automatically better. A pile that is too dry may need moisture rather than another round of mixing. The useful action depends on what is limiting the process at that moment.\nThink of composting as managing relationships among materials and organisms. A single sign, such as slow change, can have more than one explanation. Before choosing a remedy, you need to look at the conditions. This is a small-scale example of a broader approach in environmental work: diagnose the cause, rather than applying the same treatment whenever an outcome looks similar.",
+            "preparedPath": "./last-day/media/last-day-01-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "Why does the speaker mention a pile that is too dry?",
+          "options": [
+            "To compare composting with storing harvested vegetables",
+            "To recommend turning every pile more frequently",
+            "To show that the same treatment is not suitable for every problem",
+            "To explain why all dry material should be excluded"
+          ],
+          "answer": 2,
+          "explanation": "A dry pile may need water rather than mixing.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "What compost needs",
+          "stimulus": {
+            "id": "last-day-01-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "What compost needs",
+            "script": "A compost pile transforms plant remains through the activity of living organisms. It isn’t simply a heap that becomes useful if you leave it alone for long enough. The organisms breaking down the material need suitable conditions, including moisture and access to air. When the pile is very wet and compacted, air moves through it less easily, and the process can change.\nOne practical response is to mix materials with different structures. Soft, wet vegetable remains may pack tightly together. Drier stalks or small pieces of woody material can help create spaces within the mixture. Those spaces matter because they allow air to reach more of the material. Turning the pile can also redistribute material and reopen spaces that have collapsed.\nHowever, turning more often isn’t automatically better. A pile that is too dry may need moisture rather than another round of mixing. The useful action depends on what is limiting the process at that moment.\nThink of composting as managing relationships among materials and organisms. A single sign, such as slow change, can have more than one explanation. Before choosing a remedy, you need to look at the conditions. This is a small-scale example of a broader approach in environmental work: diagnose the cause, rather than applying the same treatment whenever an outcome looks similar.",
+            "preparedPath": "./last-day/media/last-day-01-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-l2-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "Which action is most consistent with the advice?",
+          "options": [
+            "Add only soft vegetable material when air movement is poor",
+            "Check moisture and structure before deciding what to change",
+            "Turn every slow-changing pile at the same fixed interval",
+            "Ignore the organisms and measure only the pile’s size"
+          ],
+          "answer": 1,
+          "explanation": "The central advice is to diagnose the limiting condition.",
+          "skill": "application",
+          "task": "academic-talk",
+          "title": "What compost needs",
+          "stimulus": {
+            "id": "last-day-01-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "What compost needs",
+            "script": "A compost pile transforms plant remains through the activity of living organisms. It isn’t simply a heap that becomes useful if you leave it alone for long enough. The organisms breaking down the material need suitable conditions, including moisture and access to air. When the pile is very wet and compacted, air moves through it less easily, and the process can change.\nOne practical response is to mix materials with different structures. Soft, wet vegetable remains may pack tightly together. Drier stalks or small pieces of woody material can help create spaces within the mixture. Those spaces matter because they allow air to reach more of the material. Turning the pile can also redistribute material and reopen spaces that have collapsed.\nHowever, turning more often isn’t automatically better. A pile that is too dry may need moisture rather than another round of mixing. The useful action depends on what is limiting the process at that moment.\nThink of composting as managing relationships among materials and organisms. A single sign, such as slow change, can have more than one explanation. Before choosing a remedy, you need to look at the conditions. This is a small-scale example of a broader approach in environmental work: diagnose the cause, rather than applying the same treatment whenever an outcome looks similar.",
+            "preparedPath": "./last-day/media/last-day-01-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-01-w1",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The workshop has a waiting list.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "already",
+            "How",
+            "many",
+            "people",
+            "are",
+            "on it"
+          ],
+          "solution": [
+            "How",
+            "many",
+            "people",
+            "are",
+            "already",
+            "on it"
+          ],
+          "correct": [
+            1,
+            2,
+            3,
+            4,
+            0,
+            5
+          ],
+          "explanation": "How many asks about a count; are precedes the subject in the direct question.",
+          "number": 1,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w2",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I left my water bottle in the seminar room.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "was there",
+            "whether",
+            "was",
+            "Did",
+            "check",
+            "you",
+            "it"
+          ],
+          "solution": [
+            "Did",
+            "you",
+            "check",
+            "whether",
+            "it",
+            "was there"
+          ],
+          "correct": [
+            3,
+            5,
+            4,
+            1,
+            6,
+            0
+          ],
+          "explanation": "The outer question uses Did you check; whether introduces statement order.",
+          "number": 2,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w3",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The display opens on Friday.",
+          "frame": [
+            "We need",
+            " on Friday."
+          ],
+          "chunks": [
+            "to",
+            "arrive",
+            "the visitors",
+            "finish",
+            "before",
+            "the labels"
+          ],
+          "solution": [
+            "to",
+            "finish",
+            "the labels",
+            "before",
+            "the visitors",
+            "arrive"
+          ],
+          "correct": [
+            0,
+            3,
+            5,
+            4,
+            2,
+            1
+          ],
+          "explanation": "Before introduces a time clause using present tense for a future event.",
+          "number": 3,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w4",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Nadia cannot come to the rehearsal.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "the final scene",
+            "in",
+            "her place",
+            "take",
+            "Who",
+            "will"
+          ],
+          "solution": [
+            "Who",
+            "will",
+            "take",
+            "her place",
+            "in",
+            "the final scene"
+          ],
+          "correct": [
+            4,
+            5,
+            3,
+            2,
+            1,
+            0
+          ],
+          "explanation": "Who is the subject of will take; no added subject pronoun is needed.",
+          "number": 4,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w5",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I don’t understand this part of the application.",
+          "frame": [
+            "Could you explain",
+            "?"
+          ],
+          "chunks": [
+            "expect",
+            "us",
+            "to provide",
+            "do",
+            "information",
+            "what",
+            "they"
+          ],
+          "solution": [
+            "what",
+            "information",
+            "they",
+            "expect",
+            "us",
+            "to provide"
+          ],
+          "correct": [
+            5,
+            4,
+            6,
+            0,
+            1,
+            2
+          ],
+          "explanation": "The embedded clause keeps they before expect; expect takes an object and infinitive.",
+          "number": 5,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w6",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The old meeting room is being repaired.",
+          "frame": [
+            "The group",
+            " since last month."
+          ],
+          "chunks": [
+            "been",
+            "in",
+            "a",
+            "meeting",
+            "has",
+            "smaller room"
+          ],
+          "solution": [
+            "has",
+            "been",
+            "meeting",
+            "in",
+            "a",
+            "smaller room"
+          ],
+          "correct": [
+            4,
+            0,
+            3,
+            1,
+            2,
+            5
+          ],
+          "explanation": "Present perfect progressive describes an activity continuing from a past starting point.",
+          "number": 6,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w7",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The team changed the original plan.",
+          "frame": [
+            "They chose",
+            "."
+          ],
+          "chunks": [
+            "the busy road",
+            "that",
+            "could be completed",
+            "a route",
+            "crossing",
+            "without"
+          ],
+          "solution": [
+            "a route",
+            "that",
+            "could be completed",
+            "without",
+            "crossing",
+            "the busy road"
+          ],
+          "correct": [
+            3,
+            1,
+            2,
+            5,
+            4,
+            0
+          ],
+          "explanation": "That introduces a relative clause; could be completed is passive.",
+          "number": 7,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w8",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The results surprised the organizers.",
+          "frame": [
+            "Fewer",
+            "."
+          ],
+          "chunks": [
+            "had expected",
+            "registered",
+            "students",
+            "they",
+            "for the evening session",
+            "than"
+          ],
+          "solution": [
+            "students",
+            "registered",
+            "for the evening session",
+            "than",
+            "they",
+            "had expected"
+          ],
+          "correct": [
+            2,
+            1,
+            4,
+            5,
+            3,
+            0
+          ],
+          "explanation": "The comparison uses fewer with students and a past-perfect earlier expectation.",
+          "number": 8,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w9",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We still need a person to review the budget.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "willing",
+            "you",
+            "be",
+            "Would",
+            "the figures",
+            "to check",
+            "checking"
+          ],
+          "solution": [
+            "Would",
+            "you",
+            "be",
+            "willing",
+            "to check",
+            "the figures"
+          ],
+          "correct": [
+            3,
+            1,
+            2,
+            0,
+            5,
+            4
+          ],
+          "explanation": "Be willing takes a to-infinitive, not an -ing complement.",
+          "number": 9,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-w10",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The equipment arrived after the practical class.",
+          "frame": [
+            "If it",
+            "."
+          ],
+          "chunks": [
+            "had arrived",
+            "earlier,",
+            "we",
+            "during the lesson",
+            "it",
+            "could have used"
+          ],
+          "solution": [
+            "had arrived",
+            "earlier,",
+            "we",
+            "could have used",
+            "it",
+            "during the lesson"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            5,
+            4,
+            3
+          ],
+          "explanation": "An unreal past condition uses had arrived and a modal perfect result.",
+          "number": 10,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "last-day-01-w11",
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Ms. Cole, equipment coordinator",
+          "subject": "Request about a demonstration kit",
+          "scenario": "You reserved a demonstration kit for a student workshop on Friday. When you collected it, one of the items listed in the booking confirmation was missing. The workshop can still take place if the item is supplied or a suitable alternative is arranged. Write to the equipment coordinator.",
+          "points": [
+            "Identify your booking and explain what is missing.",
+            "Explain how the missing item affects the planned workshop.",
+            "Request a practical solution and say when you are available to collect it."
+          ],
+          "number": 11,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "last-day-01-w12",
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Professor Ellis",
+          "question": "Our class is considering how universities should improve student life with a limited budget. Some people favor extending the hours of existing facilities; others favor creating new activities during normal hours. Which approach should receive priority? Explain how your choice would address a real student need.",
+          "students": [
+            [
+              "Lina",
+              "I would extend opening hours. Many students have classes or jobs during the day, so an excellent facility is not useful to them if it closes before they can get there. Better access could help without constructing another building."
+            ],
+            [
+              "Omar",
+              "I would add new activities. Longer hours may benefit the same students who already use a facility. New activities could attract people who have not found anything that interests them and help them feel part of the university."
+            ]
+          ],
+          "number": 12,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are welcoming visitors to a campus workshop. Repeat each instruction exactly once.",
+      "items": [
+        {
+          "id": "last-day-01-s1",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The workshop entrance is beside the garden.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-01-repeat1",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "The workshop entrance is beside the garden.",
+            "preparedPath": "./last-day/media/last-day-01-repeat1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s2",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please leave large bags near the front desk.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-01-repeat2",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Please leave large bags near the front desk.",
+            "preparedPath": "./last-day/media/last-day-01-repeat2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s3",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "You can collect a printed schedule from the table.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-01-repeat3",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "You can collect a printed schedule from the table.",
+            "preparedPath": "./last-day/media/last-day-01-repeat3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s4",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The morning session includes a short demonstration of the equipment.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-01-repeat4",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "The morning session includes a short demonstration of the equipment.",
+            "preparedPath": "./last-day/media/last-day-01-repeat4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s5",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Anyone who needs assistance should speak to a member of staff.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-01-repeat5",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Anyone who needs assistance should speak to a member of staff.",
+            "preparedPath": "./last-day/media/last-day-01-repeat5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s6",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Before the practical activity begins, check that your work area is clear.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-01-repeat6",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Before the practical activity begins, check that your work area is clear.",
+            "preparedPath": "./last-day/media/last-day-01-repeat6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s7",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If you finish early, please leave your materials in place until the instructor checks them.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-01-repeat7",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "If you finish early, please leave your materials in place until the instructor checks them.",
+            "preparedPath": "./last-day/media/last-day-01-repeat7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "A university researcher is interviewing students about the facilities they use on campus.",
+      "items": [
+        {
+          "id": "last-day-01-s8",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Tell me about a campus facility you use regularly. What do you usually do there, and why is it useful to you?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-01-interview1",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Tell me about a campus facility you use regularly. What do you usually do there, and why is it useful to you?",
+            "preparedPath": "./last-day/media/last-day-01-interview1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s9",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe a time when a shared facility was too busy or unavailable. How did you deal with the situation?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-01-interview2",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Describe a time when a shared facility was too busy or unavailable. How did you deal with the situation?",
+            "preparedPath": "./last-day/media/last-day-01-interview2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s10",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Some universities extend opening hours instead of building new facilities. What do you think is the main advantage or disadvantage of that approach?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-01-interview3",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Some universities extend opening hours instead of building new facilities. What do you think is the main advantage or disadvantage of that approach?",
+            "preparedPath": "./last-day/media/last-day-01-interview3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-01-s11",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Imagine you could recommend one change to a campus facility. What would you change, and how would it improve students’ experience?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-01-interview4",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Imagine you could recommend one change to a campus facility. What would you change, and how would it improve students’ experience?",
+            "preparedPath": "./last-day/media/last-day-01-interview4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-01",
+          "difficulty": "mixed practice"
+        }
+      ]
+    }
+  ]
+}

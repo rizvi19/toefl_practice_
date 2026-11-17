@@ -1,5 +1,5 @@
 import {referenceSentences} from './reference.js';
-import {installSentenceDrag,sentenceSlots,sentencePool,instructions as tileInstructions} from '../assets/sentence-drag.js?v=1';
+import {installSentenceDrag,sentenceSlots,sentencePool,instructions as tileInstructions} from '../assets/sentence-drag.js?v=dragonly2';
 import {advanced,topics,EXPOSURE_KEY,readExposure,markExposure,eligibleQuestions,selectQuestions,activeWritingIds} from './advanced.js?v=sentence-standard1';
 import {shuffle,tileLabel,gradeSentence,sentenceText} from './core.js?v=sentence-standard1';
 import {KEY as WRITING_KEY} from './core.js?v=sentence-standard1';

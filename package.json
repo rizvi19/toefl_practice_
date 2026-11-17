@@ -29,7 +29,11 @@
     "typecheck:recall": "tsc -p recall/tsconfig.json",
     "lint:recall": "eslint --config eslint.recall.config.js recall tools/import-recall.mjs tools/extend-recall.mjs tools/recall-csv.mjs tests/recall*.mjs",
     "test:recall": "node --test tests/recall-core.test.mjs",
-    "test:recall:browser": "node tests/recall-browser.mjs"
+    "test:recall:browser": "node tests/recall-browser.mjs",
+    "build:last-day": "node tools/build-last-day.mjs",
+    "audit:last-day": "node tools/audit-last-day.mjs",
+    "test:last-day": "node --test tests/last-day-core.test.mjs",
+    "test:last-day:browser": "node tests/last-day-browser.mjs"
   },
   "devDependencies": {
     "eslint": "9.39.1",

@@ -9,7 +9,7 @@ destination = Path(sys.argv[1] if len(sys.argv) > 1 else 'release').resolve()
 if destination == root or root in destination.parents:
     raise SystemExit('Choose an output directory outside the repository.')
 destination.mkdir(parents=True, exist_ok=True)
-common = ['recall', 'full-tests.html', 'full-test-help.html', 'simulator', 'chapter6.html', 'chapter6', 'index.html', 'library.html', 'README.md', 'VERIFICATION.md', 'example-bank.json', 'LICENSE.txt', 'PUBLISHING.txt',
+common = ['last-day.html', 'recall', 'full-tests.html', 'full-test-help.html', 'simulator', 'chapter6.html', 'chapter6', 'index.html', 'library.html', 'README.md', 'VERIFICATION.md', 'example-bank.json', 'LICENSE.txt', 'PUBLISHING.txt',
           'THIRD_PARTY_NOTICES.md', 'assets', 'audio', 'collections', 'docs', 'exam', 'reading', 'listening', 'writing.html', 'sentence-practice.html', 'writing', 'mountain.html', 'mountain']
 source = common + ['package.json', 'package-lock.json', 'eslint.recall.config.js',
                    'tests', 'tools', '.github']
@@ -32,7 +32,7 @@ for kind, entries in [('Pages', common), ('Editable', source)]:
             output.writestr(info, path.read_bytes(), compresslevel=9)
     with zipfile.ZipFile(archive) as output:
         assert output.testzip() is None
-        assert {'recall/index.html', 'recall/lab.js', 'recall/mountain-engine.js', 'recall/data/master_bank.json', 'recall/data/activities.json', 'recall/sw.js', 'full-tests.html', 'simulator/app.js', 'simulator/transcriber-worker.js', 'simulator/forms/original-06.json', 'simulator/forms/book-01.json', 'chapter6.html', 'chapter6/app.js', 'chapter6/bank.json', 'chapter6/media/video-4.mp4', 'chapter6/media/track-53.mp3', 'reading/engine.js', 'reading/library-bank.js', 'reading/bank.json',
+        assert {'last-day.html', 'simulator/last-day/index.json', 'simulator/last-day/audio-manifest.json', 'simulator/last-day/forms/last-day-05.json', 'simulator/last-day/media/last-day-05-interview4.mp3', 'recall/index.html', 'recall/lab.js', 'recall/mountain-engine.js', 'recall/data/master_bank.json', 'recall/data/activities.json', 'recall/sw.js', 'full-tests.html', 'simulator/app.js', 'simulator/transcriber-worker.js', 'simulator/forms/original-06.json', 'simulator/forms/book-01.json', 'chapter6.html', 'chapter6/app.js', 'chapter6/bank.json', 'chapter6/media/video-4.mp4', 'chapter6/media/track-53.mp3', 'reading/engine.js', 'reading/library-bank.js', 'reading/bank.json',
                 'listening/engine.js', 'listening/library-bank.js', 'listening/bank.json',
                 'exam/bank.json', 'example-bank.json', 'index.html', 'library.html', 'writing.html', 'writing/app.js', 'writing/core.js', 'writing/content.js', 'writing/prompts.js', 'writing/style.css', 'assets/sentence-drag.js', 'assets/sentence-drag.css', 'writing/reference.js', 'writing/tst-source.js', 'writing/sentence-standard.js', 'writing/advanced.js', 'writing/advanced-source.js', 'writing/distractors.js', 'writing/practice.js', 'writing/practice-history.js', 'writing/prompts-more.js', 'sentence-practice.html', 'mountain.html'} <= set(output.namelist())
         output.extractall(destination / f'extracted-{kind.lower()}')

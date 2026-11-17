@@ -1,0 +1,2639 @@
+{
+  "id": "last-day-05",
+  "version": 1,
+  "title": "Last Day Mock 05 · Choices and Information",
+  "description": "Original fixed mixed-difficulty practice modeled on the guide’s task types and content ranges.",
+  "original": true,
+  "adaptive": false,
+  "collection": "last-day",
+  "taskIntroductions": true,
+  "baseCount": 120,
+  "audioLeadInSeconds": 3,
+  "repeatLeadInSeconds": 3,
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-05-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A written recipe is both a record and a set of instructions. It ",
+            {
+              "pre": "descr",
+              "answer": "ibes"
+            },
+            " ingredients, but it may leave some actions ",
+            {
+              "pre": "unstat",
+              "answer": "ed"
+            },
+            " ",
+            {
+              "pre": "bec",
+              "answer": "ause"
+            },
+            " the writer assumes that readers already understand them. A ",
+            {
+              "pre": "begin",
+              "answer": "ner"
+            },
+            " might need an exact ",
+            {
+              "pre": "temper",
+              "answer": "ature"
+            },
+            ", ",
+            {
+              "pre": "wh",
+              "answer": "ile"
+            },
+            " an experienced cook can judge heat from other signs. Historians studying old recipes therefore ",
+            {
+              "pre": "cons",
+              "answer": "ider"
+            },
+            " the skills that their original readers were ",
+            {
+              "pre": "expec",
+              "answer": "ted"
+            },
+            " to have. Without that context, a short instruction may seem ",
+            {
+              "pre": "conf",
+              "answer": "using"
+            },
+            ". The difficulty often comes from missing shared ",
+            {
+              "pre": "know",
+              "answer": "ledge"
+            },
+            ", rather than from an inaccurate account of the food."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A beach is a changing store of sand rather than a fixed strip of land. Waves ",
+            {
+              "pre": "car",
+              "answer": "ry"
+            },
+            " grains along the shore, and winds move some of them ",
+            {
+              "pre": "inl",
+              "answer": "and"
+            },
+            ". The ",
+            {
+              "pre": "direc",
+              "answer": "tion"
+            },
+            " and strength of this movement vary with the season. A beach may become narrower during a ",
+            {
+              "pre": "stor",
+              "answer": "my"
+            },
+            " period and grow wider ",
+            {
+              "pre": "wh",
+              "answer": "en"
+            },
+            " calmer conditions ",
+            {
+              "pre": "ret",
+              "answer": "urn"
+            },
+            ". Measuring it on only one day can therefore give a ",
+            {
+              "pre": "mislea",
+              "answer": "ding"
+            },
+            " impression. Repeated observations provide a more ",
+            {
+              "pre": "rel",
+              "answer": "iable"
+            },
+            " picture of the processes ",
+            {
+              "pre": "th",
+              "answer": "at"
+            },
+            " ",
+            {
+              "pre": "sh",
+              "answer": "ape"
+            },
+            " the coast over time."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 11,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-d0-q1",
+          "type": "choice",
+          "prompt": "What should the team do with earlier responses?",
+          "options": [
+            "Rewrite them using the new questions",
+            "Remove the unclear answers from all records",
+            "Keep them and label the survey version",
+            "Combine them with new responses without labels"
+          ],
+          "answer": 2,
+          "explanation": "The writer explicitly says to keep and label the earlier responses.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Email: survey revision",
+          "passage": "Dear survey team,\nThank you for testing the first version of our travel survey. Several volunteers found question four unclear, so I have replaced it with two shorter questions. Please use the attached version from now on. Responses collected earlier are still useful; mark them “version one” rather than deleting them. We will compare how people understood the two versions in Friday’s meeting. Before then, send me any comments that respondents make about the new wording, even if you think the comments are minor.\nAmir",
+          "documentType": "notice",
+          "stimulusId": "last-day-05-r1-d0",
+          "number": 21,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-d0-q2",
+          "type": "choice",
+          "prompt": "Why does Amir want respondents’ comments?",
+          "options": [
+            "To evaluate the revised wording",
+            "To choose a different meeting day",
+            "To decide whether to stop collecting responses",
+            "To identify volunteers who need training"
+          ],
+          "answer": 0,
+          "explanation": "The meeting will compare understanding of the two versions.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "Email: survey revision",
+          "passage": "Dear survey team,\nThank you for testing the first version of our travel survey. Several volunteers found question four unclear, so I have replaced it with two shorter questions. Please use the attached version from now on. Responses collected earlier are still useful; mark them “version one” rather than deleting them. We will compare how people understood the two versions in Friday’s meeting. Before then, send me any comments that respondents make about the new wording, even if you think the comments are minor.\nAmir",
+          "documentType": "notice",
+          "stimulusId": "last-day-05-r1-d0",
+          "number": 22,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-d1-q1",
+          "type": "choice",
+          "prompt": "Which item is within the cafe’s stated scope?",
+          "options": [
+            "A portable fan that no longer works",
+            "An appliance too large to carry",
+            "A washing machine with a damaged door",
+            "A phone needing a new screen"
+          ],
+          "answer": 0,
+          "explanation": "Small household items such as fans are specifically included.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Notice: student repair cafe",
+          "passage": "REPAIR CAFE: SATURDAY, 11–2\nVolunteers can help diagnose problems with small household items, including lamps and portable fans. They cannot repair large appliances or replace screens on phones. Bring the item, its power lead if it has one, and any removable parts. A diagnosis is free; you pay only for a replacement part if one is needed and you choose to proceed. No repair is guaranteed. If the problem cannot be fixed on the day, volunteers can suggest where to obtain a part or find specialist help.",
+          "documentType": "notice",
+          "stimulusId": "last-day-05-r1-d1",
+          "number": 23,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-d1-q2",
+          "type": "choice",
+          "prompt": "When might a visitor have to pay?",
+          "options": [
+            "When agreeing to use a needed replacement part",
+            "Whenever a volunteer examines an item",
+            "When asking for a specialist recommendation",
+            "If volunteers fail to identify the problem"
+          ],
+          "answer": 0,
+          "explanation": "Diagnosis is free; an approved replacement part is charged.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Notice: student repair cafe",
+          "passage": "REPAIR CAFE: SATURDAY, 11–2\nVolunteers can help diagnose problems with small household items, including lamps and portable fans. They cannot repair large appliances or replace screens on phones. Bring the item, its power lead if it has one, and any removable parts. A diagnosis is free; you pay only for a replacement part if one is needed and you choose to proceed. No repair is guaranteed. If the problem cannot be fixed on the day, volunteers can suggest where to obtain a part or find specialist help.",
+          "documentType": "notice",
+          "stimulusId": "last-day-05-r1-d1",
+          "number": 24,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-d1-q3",
+          "type": "choice",
+          "prompt": "What does the notice suggest about unsuccessful repairs?",
+          "options": [
+            "Visitors will receive a refund of an inspection fee",
+            "The item must be left at the cafe until repaired",
+            "Volunteers will order parts for every visitor",
+            "Visitors may still receive useful guidance"
+          ],
+          "answer": 3,
+          "explanation": "Volunteers may advise where to find parts or specialist help.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "Notice: student repair cafe",
+          "passage": "REPAIR CAFE: SATURDAY, 11–2\nVolunteers can help diagnose problems with small household items, including lamps and portable fans. They cannot repair large appliances or replace screens on phones. Bring the item, its power lead if it has one, and any removable parts. A diagnosis is free; you pay only for a replacement part if one is needed and you choose to proceed. No repair is guaranteed. If the problem cannot be fixed on the day, volunteers can suggest where to obtain a part or find specialist help.",
+          "documentType": "notice",
+          "stimulusId": "last-day-05-r1-d1",
+          "number": 25,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a0-q1",
+          "type": "choice",
+          "prompt": "What is the main idea?",
+          "options": [
+            "The main way to improve public rest space is to maximize the number of seats",
+            "A bench’s usefulness depends on its context and actual users",
+            "The intended purpose of seating should take priority over how people actually use it",
+            "The same bench design creates the same behavior everywhere"
+          ],
+          "answer": 1,
+          "explanation": "Location, access and observed use determine usefulness.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The social life of a public bench",
+          "passage": "A bench appears to be a simple facility: it provides a place to sit. Its position, however, can influence who uses a public space and how they use it. A bench beside a busy path offers opportunities to observe passing activity. One facing a quieter garden may attract people seeking a break from that activity. The same design can serve different purposes depending on where it is placed.\nSmall practical details also matter. Shade may make a seat useful during hot hours, while a nearby path allows people with limited mobility to reach it. If planners count only the total number of benches, they can overlook these differences in access and comfort. Ten poorly located seats do not necessarily provide more usable rest space than a smaller number placed with care.\nObservation is useful because intended and actual use may differ. A seating area planned for conversation might instead become a popular place to wait for a bus. This does not automatically indicate failure; it may reveal a need that planners had not recognized. The appropriate response could be to support that use rather than prevent it.\nPublic furniture therefore participates in the organization of everyday life. Evaluating it requires attention to people’s activities and the surrounding environment, not merely an inventory of objects.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a0",
+          "number": 26,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a0-q2",
+          "type": "choice",
+          "prompt": "Why might counting benches give an incomplete picture?",
+          "options": [
+            "The count does not show whether seats are accessible or comfortable",
+            "The count cannot distinguish public from private furniture",
+            "People normally avoid using seats in groups of ten",
+            "A larger number of benches prevents planners from observing them"
+          ],
+          "answer": 0,
+          "explanation": "Numbers alone omit placement, shade and practical access.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The social life of a public bench",
+          "passage": "A bench appears to be a simple facility: it provides a place to sit. Its position, however, can influence who uses a public space and how they use it. A bench beside a busy path offers opportunities to observe passing activity. One facing a quieter garden may attract people seeking a break from that activity. The same design can serve different purposes depending on where it is placed.\nSmall practical details also matter. Shade may make a seat useful during hot hours, while a nearby path allows people with limited mobility to reach it. If planners count only the total number of benches, they can overlook these differences in access and comfort. Ten poorly located seats do not necessarily provide more usable rest space than a smaller number placed with care.\nObservation is useful because intended and actual use may differ. A seating area planned for conversation might instead become a popular place to wait for a bus. This does not automatically indicate failure; it may reveal a need that planners had not recognized. The appropriate response could be to support that use rather than prevent it.\nPublic furniture therefore participates in the organization of everyday life. Evaluating it requires attention to people’s activities and the surrounding environment, not merely an inventory of objects.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a0",
+          "number": 27,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a0-q3",
+          "type": "choice",
+          "prompt": "The word “inventory” is closest in meaning to",
+          "options": [
+            "a record of public opinions",
+            "a list of available items",
+            "an explanation of behavior",
+            "a plan for future changes"
+          ],
+          "answer": 1,
+          "explanation": "An inventory counts or lists objects.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "The social life of a public bench",
+          "passage": "A bench appears to be a simple facility: it provides a place to sit. Its position, however, can influence who uses a public space and how they use it. A bench beside a busy path offers opportunities to observe passing activity. One facing a quieter garden may attract people seeking a break from that activity. The same design can serve different purposes depending on where it is placed.\nSmall practical details also matter. Shade may make a seat useful during hot hours, while a nearby path allows people with limited mobility to reach it. If planners count only the total number of benches, they can overlook these differences in access and comfort. Ten poorly located seats do not necessarily provide more usable rest space than a smaller number placed with care.\nObservation is useful because intended and actual use may differ. A seating area planned for conversation might instead become a popular place to wait for a bus. This does not automatically indicate failure; it may reveal a need that planners had not recognized. The appropriate response could be to support that use rather than prevent it.\nPublic furniture therefore participates in the organization of everyday life. Evaluating it requires attention to people’s activities and the surrounding environment, not merely an inventory of objects.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a0",
+          "number": 28,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a0-q4",
+          "type": "choice",
+          "prompt": "How does the author view an unexpected use of seating?",
+          "options": [
+            "It can reveal a need worth accommodating",
+            "It must be stopped before more people copy it",
+            "It shows that observation cannot help planning",
+            "It usually proves that the seat design is unsafe"
+          ],
+          "answer": 0,
+          "explanation": "The bus-waiting example can disclose an unrecognized need.",
+          "skill": "attitude",
+          "task": "academic-passage",
+          "title": "The social life of a public bench",
+          "passage": "A bench appears to be a simple facility: it provides a place to sit. Its position, however, can influence who uses a public space and how they use it. A bench beside a busy path offers opportunities to observe passing activity. One facing a quieter garden may attract people seeking a break from that activity. The same design can serve different purposes depending on where it is placed.\nSmall practical details also matter. Shade may make a seat useful during hot hours, while a nearby path allows people with limited mobility to reach it. If planners count only the total number of benches, they can overlook these differences in access and comfort. Ten poorly located seats do not necessarily provide more usable rest space than a smaller number placed with care.\nObservation is useful because intended and actual use may differ. A seating area planned for conversation might instead become a popular place to wait for a bus. This does not automatically indicate failure; it may reveal a need that planners had not recognized. The appropriate response could be to support that use rather than prevent it.\nPublic furniture therefore participates in the organization of everyday life. Evaluating it requires attention to people’s activities and the surrounding environment, not merely an inventory of objects.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a0",
+          "number": 29,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a0-q5",
+          "type": "choice",
+          "prompt": "Why are two different bench locations described at the start?",
+          "options": [
+            "To compare the ages of people visiting two gardens",
+            "To argue that busy paths should not contain seats",
+            "To identify which style of bench costs less to maintain",
+            "To illustrate how placement changes a similar object’s function"
+          ],
+          "answer": 3,
+          "explanation": "The contrast establishes the importance of context.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "The social life of a public bench",
+          "passage": "A bench appears to be a simple facility: it provides a place to sit. Its position, however, can influence who uses a public space and how they use it. A bench beside a busy path offers opportunities to observe passing activity. One facing a quieter garden may attract people seeking a break from that activity. The same design can serve different purposes depending on where it is placed.\nSmall practical details also matter. Shade may make a seat useful during hot hours, while a nearby path allows people with limited mobility to reach it. If planners count only the total number of benches, they can overlook these differences in access and comfort. Ten poorly located seats do not necessarily provide more usable rest space than a smaller number placed with care.\nObservation is useful because intended and actual use may differ. A seating area planned for conversation might instead become a popular place to wait for a bus. This does not automatically indicate failure; it may reveal a need that planners had not recognized. The appropriate response could be to support that use rather than prevent it.\nPublic furniture therefore participates in the organization of everyday life. Evaluating it requires attention to people’s activities and the surrounding environment, not merely an inventory of objects.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a0",
+          "number": 30,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a1-q1",
+          "type": "choice",
+          "prompt": "Why can unfinished objects be informative?",
+          "options": [
+            "They retain traces hidden by later finishing",
+            "Their visible surfaces record later alterations more clearly than early shaping",
+            "Their marks show the standard sequence normally followed by the maker",
+            "They eliminate the need to study tools and waste"
+          ],
+          "answer": 0,
+          "explanation": "Early shaping marks can remain visible.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Evidence preserved by an unfinished object",
+          "passage": "Museums often display completed objects, but unfinished work can offer unusually clear evidence of a craft process. A finished stone carving may hide the marks of early shaping beneath a smooth surface. An abandoned piece can preserve several stages at once, allowing researchers to see where rough material was removed and where finer work had begun.\nInterpreting such an object still requires caution. A partly completed feature does not necessarily show the normal order of work. The maker might have been experimenting, responding to damaged material, or following a particular customer’s request. Several unfinished examples are more informative than one because repeated patterns can be distinguished from unusual decisions.\nTools and waste material provide additional clues. A tool mark on the object may correspond to a particular cutting edge, while discarded fragments can suggest how the original block was divided. When these sources agree, a reconstruction of the process becomes more convincing. When they do not, the disagreement identifies a question for further investigation.\nAn unfinished object is thus not merely an imperfect version of a completed one. It can be evidence of actions that the finished surface no longer displays. Its value lies partly in what was left visible when production stopped.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a1",
+          "number": 31,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a1-q2",
+          "type": "choice",
+          "prompt": "Why should researchers examine several unfinished examples?",
+          "options": [
+            "To find the example closest to a modern design",
+            "To distinguish recurring methods from exceptional choices",
+            "To avoid comparing objects with discarded fragments",
+            "To determine which customer paid the highest price"
+          ],
+          "answer": 1,
+          "explanation": "Repeated evidence helps separate normal procedure from special cases.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Evidence preserved by an unfinished object",
+          "passage": "Museums often display completed objects, but unfinished work can offer unusually clear evidence of a craft process. A finished stone carving may hide the marks of early shaping beneath a smooth surface. An abandoned piece can preserve several stages at once, allowing researchers to see where rough material was removed and where finer work had begun.\nInterpreting such an object still requires caution. A partly completed feature does not necessarily show the normal order of work. The maker might have been experimenting, responding to damaged material, or following a particular customer’s request. Several unfinished examples are more informative than one because repeated patterns can be distinguished from unusual decisions.\nTools and waste material provide additional clues. A tool mark on the object may correspond to a particular cutting edge, while discarded fragments can suggest how the original block was divided. When these sources agree, a reconstruction of the process becomes more convincing. When they do not, the disagreement identifies a question for further investigation.\nAn unfinished object is thus not merely an imperfect version of a completed one. It can be evidence of actions that the finished surface no longer displays. Its value lies partly in what was left visible when production stopped.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a1",
+          "number": 32,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a1-q3",
+          "type": "choice",
+          "prompt": "The word “correspond” is closest in meaning to",
+          "options": [
+            "contrast",
+            "disappear",
+            "match",
+            "develop"
+          ],
+          "answer": 2,
+          "explanation": "A tool mark may match the shape of a cutting edge.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Evidence preserved by an unfinished object",
+          "passage": "Museums often display completed objects, but unfinished work can offer unusually clear evidence of a craft process. A finished stone carving may hide the marks of early shaping beneath a smooth surface. An abandoned piece can preserve several stages at once, allowing researchers to see where rough material was removed and where finer work had begun.\nInterpreting such an object still requires caution. A partly completed feature does not necessarily show the normal order of work. The maker might have been experimenting, responding to damaged material, or following a particular customer’s request. Several unfinished examples are more informative than one because repeated patterns can be distinguished from unusual decisions.\nTools and waste material provide additional clues. A tool mark on the object may correspond to a particular cutting edge, while discarded fragments can suggest how the original block was divided. When these sources agree, a reconstruction of the process becomes more convincing. When they do not, the disagreement identifies a question for further investigation.\nAn unfinished object is thus not merely an imperfect version of a completed one. It can be evidence of actions that the finished surface no longer displays. Its value lies partly in what was left visible when production stopped.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a1",
+          "number": 33,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a1-q4",
+          "type": "choice",
+          "prompt": "What should conflicting clues lead researchers to do?",
+          "options": [
+            "Assume the smoothest object was produced first",
+            "Ignore evidence from tools in favor of the object",
+            "Reject every unfinished example as unreliable",
+            "Investigate an unresolved question"
+          ],
+          "answer": 3,
+          "explanation": "Disagreement is presented as a prompt for further inquiry.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Evidence preserved by an unfinished object",
+          "passage": "Museums often display completed objects, but unfinished work can offer unusually clear evidence of a craft process. A finished stone carving may hide the marks of early shaping beneath a smooth surface. An abandoned piece can preserve several stages at once, allowing researchers to see where rough material was removed and where finer work had begun.\nInterpreting such an object still requires caution. A partly completed feature does not necessarily show the normal order of work. The maker might have been experimenting, responding to damaged material, or following a particular customer’s request. Several unfinished examples are more informative than one because repeated patterns can be distinguished from unusual decisions.\nTools and waste material provide additional clues. A tool mark on the object may correspond to a particular cutting edge, while discarded fragments can suggest how the original block was divided. When these sources agree, a reconstruction of the process becomes more convincing. When they do not, the disagreement identifies a question for further investigation.\nAn unfinished object is thus not merely an imperfect version of a completed one. It can be evidence of actions that the finished surface no longer displays. Its value lies partly in what was left visible when production stopped.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a1",
+          "number": 34,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r1-a1-q5",
+          "type": "choice",
+          "prompt": "What is the function of the last paragraph?",
+          "options": [
+            "It redefines unfinished work as valuable evidence",
+            "It argues that finishing usually reduces an object’s price",
+            "It introduces a different category of completed carvings",
+            "It recommends leaving modern craft projects incomplete"
+          ],
+          "answer": 0,
+          "explanation": "The conclusion explains the distinctive evidential value of incompletion.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "Evidence preserved by an unfinished object",
+          "passage": "Museums often display completed objects, but unfinished work can offer unusually clear evidence of a craft process. A finished stone carving may hide the marks of early shaping beneath a smooth surface. An abandoned piece can preserve several stages at once, allowing researchers to see where rough material was removed and where finer work had begun.\nInterpreting such an object still requires caution. A partly completed feature does not necessarily show the normal order of work. The maker might have been experimenting, responding to damaged material, or following a particular customer’s request. Several unfinished examples are more informative than one because repeated patterns can be distinguished from unusual decisions.\nTools and waste material provide additional clues. A tool mark on the object may correspond to a particular cutting edge, while discarded fragments can suggest how the original block was divided. When these sources agree, a reconstruction of the process becomes more convincing. When they do not, the disagreement identifies a question for further investigation.\nAn unfinished object is thus not merely an imperfect version of a completed one. It can be evidence of actions that the finished surface no longer displays. Its value lies partly in what was left visible when production stopped.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r1-a1",
+          "number": 35,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-05-r2-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A group discussion can help people notice information that they missed while working alone. However, its ",
+            {
+              "pre": "useful",
+              "answer": "ness"
+            },
+            " depends on ",
+            {
+              "pre": "h",
+              "answer": "ow"
+            },
+            " the ",
+            {
+              "pre": "disc",
+              "answer": "ussion"
+            },
+            " is organized. If the first speaker sounds very ",
+            {
+              "pre": "conf",
+              "answer": "ident"
+            },
+            ", other members may hesitate to offer ",
+            {
+              "pre": "contr",
+              "answer": "asting"
+            },
+            " evidence. Asking everyone to write a brief ",
+            {
+              "pre": "res",
+              "answer": "ponse"
+            },
+            " before speaking can make those ",
+            {
+              "pre": "differ",
+              "answer": "ences"
+            },
+            " more visible. The aim is not to remove ",
+            {
+              "pre": "disagree",
+              "answer": "ment"
+            },
+            ", ",
+            {
+              "pre": "b",
+              "answer": "ut"
+            },
+            " to make sure it rests on ",
+            {
+              "pre": "rea",
+              "answer": "sons"
+            },
+            " that the group can examine. A better procedure can turn conflicting views into a useful source of insight."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r2-a1-q1",
+          "type": "choice",
+          "prompt": "What problem with same-type practice is identified?",
+          "options": [
+            "It makes later assessments contain fewer problem types",
+            "It prevents learners from becoming faster at any procedure",
+            "It may hide difficulty choosing an appropriate method",
+            "It requires students to invent a new method for every question"
+          ],
+          "answer": 2,
+          "explanation": "A predictable sequence removes the need to select among methods.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Why mixing practice problems can help",
+          "passage": "A student who completes several problems of the same kind may become quick at applying a familiar procedure. This fluency can create an impression of strong understanding. On a later assessment, however, the student may struggle when different kinds of problems appear together and the appropriate procedure is no longer obvious.\nMixing problem types during practice can address this difficulty. In addition to carrying out a method, the learner must decide which method fits each problem. That decision requires attention to the structure of the problem rather than to its position in a sequence. For example, a student cannot assume that the next question calls for the same calculation as the previous one.\nMixed practice can feel slower and less successful at first. Frequent mistakes do not automatically mean that it is ineffective; they may reveal decisions that repeated same-type practice allowed the learner to avoid. Nevertheless, some initial familiarity with the individual methods is useful. A learner who has never encountered any of them may be occupied entirely with basic steps.\nThe distinction is between practice that makes performance easy now and practice that supports choosing and applying knowledge later. A useful study plan can include both concentrated work on a method and opportunities to distinguish it from alternatives.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r2-a1",
+          "number": 11,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r2-a1-q2",
+          "type": "choice",
+          "prompt": "What additional demand does mixed practice create?",
+          "options": [
+            "Completing every question in the same amount of time",
+            "Avoiding all procedures used in earlier questions",
+            "Deciding which method suits a particular problem",
+            "Memorizing the order in which questions are presented"
+          ],
+          "answer": 2,
+          "explanation": "Mixed problems require method selection.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Why mixing practice problems can help",
+          "passage": "A student who completes several problems of the same kind may become quick at applying a familiar procedure. This fluency can create an impression of strong understanding. On a later assessment, however, the student may struggle when different kinds of problems appear together and the appropriate procedure is no longer obvious.\nMixing problem types during practice can address this difficulty. In addition to carrying out a method, the learner must decide which method fits each problem. That decision requires attention to the structure of the problem rather than to its position in a sequence. For example, a student cannot assume that the next question calls for the same calculation as the previous one.\nMixed practice can feel slower and less successful at first. Frequent mistakes do not automatically mean that it is ineffective; they may reveal decisions that repeated same-type practice allowed the learner to avoid. Nevertheless, some initial familiarity with the individual methods is useful. A learner who has never encountered any of them may be occupied entirely with basic steps.\nThe distinction is between practice that makes performance easy now and practice that supports choosing and applying knowledge later. A useful study plan can include both concentrated work on a method and opportunities to distinguish it from alternatives.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r2-a1",
+          "number": 12,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r2-a1-q3",
+          "type": "choice",
+          "prompt": "The word “fluency” is closest in meaning to",
+          "options": [
+            "ease of performance",
+            "breadth of subject knowledge",
+            "accuracy of prediction",
+            "amount of written explanation"
+          ],
+          "answer": 0,
+          "explanation": "Here fluency refers to smoothly carrying out a practiced procedure.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Why mixing practice problems can help",
+          "passage": "A student who completes several problems of the same kind may become quick at applying a familiar procedure. This fluency can create an impression of strong understanding. On a later assessment, however, the student may struggle when different kinds of problems appear together and the appropriate procedure is no longer obvious.\nMixing problem types during practice can address this difficulty. In addition to carrying out a method, the learner must decide which method fits each problem. That decision requires attention to the structure of the problem rather than to its position in a sequence. For example, a student cannot assume that the next question calls for the same calculation as the previous one.\nMixed practice can feel slower and less successful at first. Frequent mistakes do not automatically mean that it is ineffective; they may reveal decisions that repeated same-type practice allowed the learner to avoid. Nevertheless, some initial familiarity with the individual methods is useful. A learner who has never encountered any of them may be occupied entirely with basic steps.\nThe distinction is between practice that makes performance easy now and practice that supports choosing and applying knowledge later. A useful study plan can include both concentrated work on a method and opportunities to distinguish it from alternatives.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r2-a1",
+          "number": 13,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r2-a1-q4",
+          "type": "choice",
+          "prompt": "Why might mixed practice be unsuitable as the only starting activity?",
+          "options": [
+            "A beginner may still need familiarity with the basic methods",
+            "The sequence must remain predictable for learning to occur",
+            "A beginner is already able to select every method accurately",
+            "Mixed practice removes opportunities to make mistakes"
+          ],
+          "answer": 0,
+          "explanation": "The passage notes the value of some initial familiarity.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Why mixing practice problems can help",
+          "passage": "A student who completes several problems of the same kind may become quick at applying a familiar procedure. This fluency can create an impression of strong understanding. On a later assessment, however, the student may struggle when different kinds of problems appear together and the appropriate procedure is no longer obvious.\nMixing problem types during practice can address this difficulty. In addition to carrying out a method, the learner must decide which method fits each problem. That decision requires attention to the structure of the problem rather than to its position in a sequence. For example, a student cannot assume that the next question calls for the same calculation as the previous one.\nMixed practice can feel slower and less successful at first. Frequent mistakes do not automatically mean that it is ineffective; they may reveal decisions that repeated same-type practice allowed the learner to avoid. Nevertheless, some initial familiarity with the individual methods is useful. A learner who has never encountered any of them may be occupied entirely with basic steps.\nThe distinction is between practice that makes performance easy now and practice that supports choosing and applying knowledge later. A useful study plan can include both concentrated work on a method and opportunities to distinguish it from alternatives.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r2-a1",
+          "number": 14,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-r2-a1-q5",
+          "type": "choice",
+          "prompt": "Which study plan is most consistent with the passage?",
+          "options": [
+            "Learn a method, then practise deciding between it and other methods",
+            "Avoid any practice session in which errors occur",
+            "Repeat one problem type until no other methods are needed",
+            "Judge every activity only by how easy it feels immediately"
+          ],
+          "answer": 0,
+          "explanation": "The conclusion supports both concentrated and discriminative practice.",
+          "skill": "application",
+          "task": "academic-passage",
+          "title": "Why mixing practice problems can help",
+          "passage": "A student who completes several problems of the same kind may become quick at applying a familiar procedure. This fluency can create an impression of strong understanding. On a later assessment, however, the student may struggle when different kinds of problems appear together and the appropriate procedure is no longer obvious.\nMixing problem types during practice can address this difficulty. In addition to carrying out a method, the learner must decide which method fits each problem. That decision requires attention to the structure of the problem rather than to its position in a sequence. For example, a student cannot assume that the next question calls for the same calculation as the previous one.\nMixed practice can feel slower and less successful at first. Frequent mistakes do not automatically mean that it is ineffective; they may reveal decisions that repeated same-type practice allowed the learner to avoid. Nevertheless, some initial familiarity with the individual methods is useful. A learner who has never encountered any of them may be occupied entirely with basic steps.\nThe distinction is between practice that makes performance easy now and practice that supports choosing and applying knowledge later. A useful study plan can include both concentrated work on a method and opportunities to distinguish it from alternatives.",
+          "documentType": "academic",
+          "stimulusId": "last-day-05-r2-a1",
+          "number": 15,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "last-day-05-l1-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I received the package yesterday.",
+            "There are several addresses on the form.",
+            "The email arrived just after lunch.",
+            "Certainly. Which address should I send it to?"
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Would it be possible to have the receipt emailed?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Would it be possible to have the receipt emailed?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The meeting is in the building next door.",
+            "Shall we go through it together?",
+            "I got here ten minutes ago.",
+            "The calculator needs a new battery."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’m not getting anywhere with this calculation.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "I’m not getting anywhere with this calculation.",
+            "preparedPath": "./last-day/media/last-day-05-l1-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The lockers are painted dark green.",
+            "The staff member is in charge today.",
+            "I charged my phone before the lecture.",
+            "No, but you’ll need to bring your own lock."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Is there a charge for using the lockers?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "Is there a charge for using the lockers?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I usually read quietly at home.",
+            "There’s an empty study room upstairs.",
+            "We met through a class project.",
+            "The study took place last year."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could we meet somewhere a bit quieter?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "Could we meet somewhere a bit quieter?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The speaker moved to the front of the room.",
+            "I brought a copy of the program.",
+            "The plan took a long time to prepare.",
+            "So we need to arrive earlier than planned."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: The speaker has brought the start time forward.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "The speaker has brought the start time forward.",
+            "preparedPath": "./last-day/media/last-day-05-l1-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response6-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, the librarian found a digital copy for me.",
+            "I managed the club last semester.",
+            "The library building is easy to find.",
+            "The article is about holding public events."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Have you managed to get hold of the article?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response6",
+            "kind": "response",
+            "title": "response",
+            "script": "Have you managed to get hold of the article?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response7-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The seat needs a small repair.",
+            "I like sitting near a window.",
+            "Yes, please. I’m on my way now.",
+            "I’ve saved the document on my computer."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Would you like me to save you a seat?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response7",
+            "kind": "response",
+            "title": "response",
+            "script": "Would you like me to save you a seat?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response8-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The instructor spoke very clearly.",
+            "I missed the bus by a minute.",
+            "Let’s check them from the beginning.",
+            "The steps outside are quite slippery."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I think we’ve missed a step in the instructions.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response8",
+            "kind": "response",
+            "title": "response",
+            "script": "I think we’ve missed a step in the instructions.",
+            "preparedPath": "./last-day/media/last-day-05-l1-response8.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response9-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "By subject, with authors listed within each section.",
+            "The shelves were arranged yesterday.",
+            "I’m taking the subject next term.",
+            "The author gives a useful example."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Are these shelves arranged by subject or by author?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response9",
+            "kind": "response",
+            "title": "response",
+            "script": "Are these shelves arranged by subject or by author?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response9.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response10-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I brought it up during the last meeting.",
+            "A notebook and a pair of comfortable shoes.",
+            "I remember enjoying the visit.",
+            "The agreement was signed last spring."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Can you remind me what we agreed to bring?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response10",
+            "kind": "response",
+            "title": "response",
+            "script": "Can you remind me what we agreed to bring?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response10.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response11-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "That’s fine; we’ll cover your part first.",
+            "I left my notes beside the entrance.",
+            "The meeting room has plenty of light.",
+            "The early bus is usually reliable."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I might have to leave the meeting a little early.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response11",
+            "kind": "response",
+            "title": "response",
+            "script": "I might have to leave the meeting a little early.",
+            "preparedPath": "./last-day/media/last-day-05-l1-response11.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-response12-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I prefer the earlier version of the chart.",
+            "The figures are shown in the appendix.",
+            "The final lecture was on Friday.",
+            "Maya is; I’m checking the references."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Who’s responsible for checking the final figures?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l1-response12",
+            "kind": "response",
+            "title": "response",
+            "script": "Who’s responsible for checking the final figures?",
+            "preparedPath": "./last-day/media/last-day-05-l1-response12.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-conversation1-q1",
+          "type": "choice",
+          "prompt": "What does the man recommend?",
+          "options": [
+            "Avoid material outside the dates on the first list",
+            "Read every box in the collection before forming a question",
+            "Begin with a focused selection while allowing time for discoveries",
+            "Cancel the appointment until all possible sources are known"
+          ],
+          "answer": 2,
+          "explanation": "He balances an initial plan with room for unexpected leads.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Using an archive appointment",
+          "stimulus": {
+            "id": "last-day-05-l1-conversation1",
+            "kind": "conversation",
+            "title": "Using an archive appointment",
+            "script": "Woman: My archive appointment is tomorrow, but I still haven’t decided which boxes to request.\nMan: Start with the dates relevant to your question. You can’t read the whole collection in one morning.\nWoman: I was hoping something interesting would turn up.\nMan: It might, but a short list will give you a starting point. Keep some time for unexpected leads after that.\nWoman: So a plan doesn’t mean I have to ignore everything else.\nMan: Exactly. It helps you use the limited time well.",
+            "preparedPath": "./last-day/media/last-day-05-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-conversation1-q2",
+          "type": "choice",
+          "prompt": "What does the woman come to understand?",
+          "options": [
+            "A plan can guide research without making it inflexible",
+            "Unexpected material should replace her original question",
+            "An archive visit is useful only after the answer is known",
+            "One morning is enough to examine the whole collection"
+          ],
+          "answer": 0,
+          "explanation": "She realizes planning does not require ignoring other evidence.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Using an archive appointment",
+          "stimulus": {
+            "id": "last-day-05-l1-conversation1",
+            "kind": "conversation",
+            "title": "Using an archive appointment",
+            "script": "Woman: My archive appointment is tomorrow, but I still haven’t decided which boxes to request.\nMan: Start with the dates relevant to your question. You can’t read the whole collection in one morning.\nWoman: I was hoping something interesting would turn up.\nMan: It might, but a short list will give you a starting point. Keep some time for unexpected leads after that.\nWoman: So a plan doesn’t mean I have to ignore everything else.\nMan: Exactly. It helps you use the limited time well.",
+            "preparedPath": "./last-day/media/last-day-05-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-conversation2-q1",
+          "type": "choice",
+          "prompt": "What is the main constraint on the revised event?",
+          "options": [
+            "The seminar room has no online equipment",
+            "The event page cannot be updated",
+            "The speaker has less time available",
+            "Students have not submitted any questions"
+          ],
+          "answer": 2,
+          "explanation": "The speaker now has only forty minutes.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "A short-notice schedule change",
+          "stimulus": {
+            "id": "last-day-05-l1-conversation2",
+            "kind": "conversation",
+            "title": "A short-notice schedule change",
+            "script": "Man: The guest speaker can only join us online now. Her train has been cancelled.\nWoman: We can use the seminar room’s video link. Does she still have the full hour?\nMan: Only forty minutes, because she has another meeting afterward.\nWoman: Then ask her to speak for twenty-five minutes and keep fifteen for questions.\nMan: We’d planned a longer introduction too.\nWoman: Put her biography on the event page instead. People can read it before they arrive.\nMan: That should protect the discussion time.",
+            "preparedPath": "./last-day/media/last-day-05-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-conversation2-q2",
+          "type": "choice",
+          "prompt": "Why does the woman suggest posting the biography online?",
+          "options": [
+            "To avoid telling students that the event has changed",
+            "To let the speaker join without using a video link",
+            "To preserve live time for speaking and questions",
+            "To replace the guest speaker’s presentation entirely"
+          ],
+          "answer": 2,
+          "explanation": "Moving the introduction online protects the limited discussion time.",
+          "skill": "purpose",
+          "task": "conversation",
+          "title": "A short-notice schedule change",
+          "stimulus": {
+            "id": "last-day-05-l1-conversation2",
+            "kind": "conversation",
+            "title": "A short-notice schedule change",
+            "script": "Man: The guest speaker can only join us online now. Her train has been cancelled.\nWoman: We can use the seminar room’s video link. Does she still have the full hour?\nMan: Only forty minutes, because she has another meeting afterward.\nWoman: Then ask her to speak for twenty-five minutes and keep fifteen for questions.\nMan: We’d planned a longer introduction too.\nWoman: Put her biography on the event page instead. People can read it before they arrive.\nMan: That should protect the discussion time.",
+            "preparedPath": "./last-day/media/last-day-05-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-conversation3-q1",
+          "type": "choice",
+          "prompt": "What should the woman clarify with the repair shop?",
+          "options": [
+            "Whether a replacement cable was used last year",
+            "Whether the shop can lend her a library laptop",
+            "The date when her assignment was first announced",
+            "The total price before approving additional work"
+          ],
+          "answer": 3,
+          "explanation": "A written total will clarify the cost of extra work.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Understanding a service estimate",
+          "stimulus": {
+            "id": "last-day-05-l1-conversation3",
+            "kind": "conversation",
+            "title": "Understanding a service estimate",
+            "script": "Woman: The repair shop estimated forty pounds for my laptop, but now they say it could cost more.\nMan: Did they say what the original estimate covered?\nWoman: Just the inspection and a basic replacement cable, apparently.\nMan: Then ask for a written total before they do any extra work.\nWoman: I’ve also got an assignment due. I can’t leave it there indefinitely.\nMan: The library lends laptops. You could use one while you decide whether the repair is worth it.\nWoman: I’ll check that today.",
+            "preparedPath": "./last-day/media/last-day-05-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-conversation3-q2",
+          "type": "choice",
+          "prompt": "Why does the man mention the library?",
+          "options": [
+            "It can negotiate the repair price on her behalf",
+            "It may provide a temporary solution to her study needs",
+            "It sells replacement cables at a lower price",
+            "It requires assignments to be written on its computers"
+          ],
+          "answer": 1,
+          "explanation": "A loan laptop could let her work during the repair decision.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Understanding a service estimate",
+          "stimulus": {
+            "id": "last-day-05-l1-conversation3",
+            "kind": "conversation",
+            "title": "Understanding a service estimate",
+            "script": "Woman: The repair shop estimated forty pounds for my laptop, but now they say it could cost more.\nMan: Did they say what the original estimate covered?\nWoman: Just the inspection and a basic replacement cable, apparently.\nMan: Then ask for a written total before they do any extra work.\nWoman: I’ve also got an assignment due. I can’t leave it there indefinitely.\nMan: The library lends laptops. You could use one while you decide whether the repair is worth it.\nWoman: I’ll check that today.",
+            "preparedPath": "./last-day/media/last-day-05-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 18,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-announcement1-q1",
+          "type": "choice",
+          "prompt": "Why is the magazine suggesting shorter articles?",
+          "options": [
+            "To replace student writers with editorial summaries",
+            "To include work from more contributors",
+            "To remove evidence from previously approved pieces",
+            "To publish fewer topics in the next issue"
+          ],
+          "answer": 1,
+          "explanation": "Shorter pieces make room for more contributors.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Changes to a student publication",
+          "stimulus": {
+            "id": "last-day-05-l1-announcement1",
+            "kind": "announcement",
+            "title": "Changes to a student publication",
+            "script": "The student magazine will accept shorter articles for the next issue because we want to include more contributors. The suggested length is now four hundred words, rather than six hundred. This is not a request to remove useful evidence from an existing article. If you have already agreed on a longer piece with an editor, contact that editor before making changes. New contributors can send a brief proposal first, so we can help them narrow their topic.",
+            "preparedPath": "./last-day/media/last-day-05-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 19,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-announcement1-q2",
+          "type": "choice",
+          "prompt": "What should a writer with an agreed longer piece do?",
+          "options": [
+            "Wait until a later issue without contacting anyone",
+            "Submit it as several unrelated proposals",
+            "Automatically cut it to four hundred words",
+            "Consult the editor before shortening it"
+          ],
+          "answer": 3,
+          "explanation": "Existing agreements should be discussed with the editor first.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Changes to a student publication",
+          "stimulus": {
+            "id": "last-day-05-l1-announcement1",
+            "kind": "announcement",
+            "title": "Changes to a student publication",
+            "script": "The student magazine will accept shorter articles for the next issue because we want to include more contributors. The suggested length is now four hundred words, rather than six hundred. This is not a request to remove useful evidence from an existing article. If you have already agreed on a longer piece with an editor, contact that editor before making changes. New contributors can send a brief proposal first, so we can help them narrow their topic.",
+            "preparedPath": "./last-day/media/last-day-05-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 20,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-announcement2-q1",
+          "type": "choice",
+          "prompt": "Where should students hold a discussion?",
+          "options": [
+            "Beside the closing-time display",
+            "At the staff desk inside this room",
+            "Anywhere in the silent room if they wear headphones",
+            "In the group room across the hall"
+          ],
+          "answer": 3,
+          "explanation": "Discussion belongs in the separate group room.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A quiet-room reminder",
+          "stimulus": {
+            "id": "last-day-05-l1-announcement2",
+            "kind": "announcement",
+            "title": "A quiet-room reminder",
+            "script": "This room is reserved for silent individual study during the examination period. If you need to discuss a problem with a friend, please use the group room across the hall. Headphones are permitted, but check that sound cannot be heard by someone beside you. Staff will not make spoken closing announcements in this room. Instead, the display near the door will show a reminder fifteen minutes before closing, so please keep an eye on it.",
+            "preparedPath": "./last-day/media/last-day-05-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 21,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-announcement2-q2",
+          "type": "choice",
+          "prompt": "How will students be reminded that the room is closing?",
+          "options": [
+            "By staff speaking to each student individually",
+            "By an email sent fifteen minutes after closing",
+            "By a spoken announcement over the room speakers",
+            "By a message on the display"
+          ],
+          "answer": 3,
+          "explanation": "The room uses a visual reminder to preserve silence.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A quiet-room reminder",
+          "stimulus": {
+            "id": "last-day-05-l1-announcement2",
+            "kind": "announcement",
+            "title": "A quiet-room reminder",
+            "script": "This room is reserved for silent individual study during the examination period. If you need to discuss a problem with a friend, please use the group room across the hall. Headphones are permitted, but check that sound cannot be heard by someone beside you. Staff will not make spoken closing announcements in this room. Instead, the display near the door will show a reminder fifteen minutes before closing, so please keep an eye on it.",
+            "preparedPath": "./last-day/media/last-day-05-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 22,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What is the purpose of a canal lock?",
+          "options": [
+            "To keep every canal at a single height",
+            "To move boats between water levels",
+            "To prevent water entering a closed chamber",
+            "To lift boats out of the water for repairs"
+          ],
+          "answer": 1,
+          "explanation": "A lock connects stretches at different heights.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "How a canal lock changes a boat’s level",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "How a canal lock changes a boat’s level",
+            "script": "A canal may need to carry boats between stretches of water at different heights. A lock provides a way to make that change in a controlled chamber. Gates separate the chamber from the higher and lower stretches, and openings allow water to enter or leave.\nImagine a boat entering from the lower side. After the lower gates close, water is admitted from the higher side. As the water level in the chamber rises, the floating boat rises with it. When the level matches the upper stretch, the upper gates can open and the boat can continue. Going down reverses the process: water leaves the closed chamber until its level matches the lower stretch.\nThe gates are not simply doors that can be opened whenever a boat is ready. A difference in water level creates pressure, so the levels on either side need to be suitably matched. The sequence of closing, filling or emptying, and opening is part of what makes the passage possible.\nA lock is a useful example of working with a physical process rather than lifting the boat directly with a machine. The boat remains supported by water throughout the change. Understanding that support helps explain why the chamber’s water level, not the boat’s position alone, determines the sequence of operations.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 23,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "What raises the boat inside the chamber?",
+          "options": [
+            "A platform pushed upward from beneath it",
+            "A reduction in the boat’s weight",
+            "The opening of both sets of gates at once",
+            "The rising water on which it floats"
+          ],
+          "answer": 3,
+          "explanation": "The boat rises with the water admitted to the chamber.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "How a canal lock changes a boat’s level",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "How a canal lock changes a boat’s level",
+            "script": "A canal may need to carry boats between stretches of water at different heights. A lock provides a way to make that change in a controlled chamber. Gates separate the chamber from the higher and lower stretches, and openings allow water to enter or leave.\nImagine a boat entering from the lower side. After the lower gates close, water is admitted from the higher side. As the water level in the chamber rises, the floating boat rises with it. When the level matches the upper stretch, the upper gates can open and the boat can continue. Going down reverses the process: water leaves the closed chamber until its level matches the lower stretch.\nThe gates are not simply doors that can be opened whenever a boat is ready. A difference in water level creates pressure, so the levels on either side need to be suitably matched. The sequence of closing, filling or emptying, and opening is part of what makes the passage possible.\nA lock is a useful example of working with a physical process rather than lifting the boat directly with a machine. The boat remains supported by water throughout the change. Understanding that support helps explain why the chamber’s water level, not the boat’s position alone, determines the sequence of operations.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 24,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "Why must water levels be matched before a gate opens?",
+          "options": [
+            "The boat needs to rest on the chamber floor",
+            "A level difference produces pressure across the gate",
+            "The gates can operate only when the chamber is dry",
+            "The upper stretch must be completely emptied first"
+          ],
+          "answer": 1,
+          "explanation": "A water-level difference creates pressure.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "How a canal lock changes a boat’s level",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "How a canal lock changes a boat’s level",
+            "script": "A canal may need to carry boats between stretches of water at different heights. A lock provides a way to make that change in a controlled chamber. Gates separate the chamber from the higher and lower stretches, and openings allow water to enter or leave.\nImagine a boat entering from the lower side. After the lower gates close, water is admitted from the higher side. As the water level in the chamber rises, the floating boat rises with it. When the level matches the upper stretch, the upper gates can open and the boat can continue. Going down reverses the process: water leaves the closed chamber until its level matches the lower stretch.\nThe gates are not simply doors that can be opened whenever a boat is ready. A difference in water level creates pressure, so the levels on either side need to be suitably matched. The sequence of closing, filling or emptying, and opening is part of what makes the passage possible.\nA lock is a useful example of working with a physical process rather than lifting the boat directly with a machine. The boat remains supported by water throughout the change. Understanding that support helps explain why the chamber’s water level, not the boat’s position alone, determines the sequence of operations.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 25,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "Why does the speaker emphasize that the boat stays supported by water?",
+          "options": [
+            "To explain why boats must unload before entering",
+            "To show that water levels do not affect the sequence",
+            "To clarify the physical mechanism of the level change",
+            "To suggest that locks are used only by very light boats"
+          ],
+          "answer": 2,
+          "explanation": "The lock changes water level rather than directly hoisting the boat.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "How a canal lock changes a boat’s level",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "How a canal lock changes a boat’s level",
+            "script": "A canal may need to carry boats between stretches of water at different heights. A lock provides a way to make that change in a controlled chamber. Gates separate the chamber from the higher and lower stretches, and openings allow water to enter or leave.\nImagine a boat entering from the lower side. After the lower gates close, water is admitted from the higher side. As the water level in the chamber rises, the floating boat rises with it. When the level matches the upper stretch, the upper gates can open and the boat can continue. Going down reverses the process: water leaves the closed chamber until its level matches the lower stretch.\nThe gates are not simply doors that can be opened whenever a boat is ready. A difference in water level creates pressure, so the levels on either side need to be suitably matched. The sequence of closing, filling or emptying, and opening is part of what makes the passage possible.\nA lock is a useful example of working with a physical process rather than lifting the boat directly with a machine. The boat remains supported by water throughout the change. Understanding that support helps explain why the chamber’s water level, not the boat’s position alone, determines the sequence of operations.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 26,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk2-q1",
+          "type": "choice",
+          "prompt": "Why should costumes be tested under stage lights?",
+          "options": [
+            "Their appearance can change with the light falling on them",
+            "Workroom lighting prevents designers from seeing fabric texture",
+            "All stage fabrics lose their original color after one performance",
+            "The audience must inspect costumes before scenery is built"
+          ],
+          "answer": 0,
+          "explanation": "The lighting changes the reflected appearance.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Lighting a stage with color",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Lighting a stage with color",
+            "script": "Stage lighting does more than make performers visible. It also affects how scenery and costumes appear. A surface looks a particular color partly because of the light it reflects. Change the light falling on it, and its appearance may change even though the material itself is unchanged.\nThis is why a costume selected under ordinary room lighting should be tested on the stage. A fabric that seems distinct from the background in the workroom may become difficult to distinguish under the performance lights. Conversely, a small difference that looked unimportant earlier may become very noticeable.\nDesigners therefore test combinations rather than choosing every element separately. Lighting, scenery, and costume teams need to see how their decisions interact. A photograph of one item under different lighting may not be enough, particularly if the camera adjusts the image automatically.\nThe goal isn’t always to make the colors look natural. An unusual change may help establish a mood or signal a transition. But it should be a deliberate effect rather than a surprise discovered during the performance. What matters is control over the relationship between light and materials. The example shows why a successful design often depends on checking components together in the conditions in which people will actually experience them.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 27,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk2-q2",
+          "type": "choice",
+          "prompt": "What might happen to a costume that looked distinct in the workroom?",
+          "options": [
+            "It would prevent lights from changing between scenes",
+            "It could become difficult to distinguish from the background",
+            "It would have to be made from a different material",
+            "It would necessarily appear brighter on stage"
+          ],
+          "answer": 1,
+          "explanation": "A change in illumination can reduce visual contrast.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Lighting a stage with color",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Lighting a stage with color",
+            "script": "Stage lighting does more than make performers visible. It also affects how scenery and costumes appear. A surface looks a particular color partly because of the light it reflects. Change the light falling on it, and its appearance may change even though the material itself is unchanged.\nThis is why a costume selected under ordinary room lighting should be tested on the stage. A fabric that seems distinct from the background in the workroom may become difficult to distinguish under the performance lights. Conversely, a small difference that looked unimportant earlier may become very noticeable.\nDesigners therefore test combinations rather than choosing every element separately. Lighting, scenery, and costume teams need to see how their decisions interact. A photograph of one item under different lighting may not be enough, particularly if the camera adjusts the image automatically.\nThe goal isn’t always to make the colors look natural. An unusual change may help establish a mood or signal a transition. But it should be a deliberate effect rather than a surprise discovered during the performance. What matters is control over the relationship between light and materials. The example shows why a successful design often depends on checking components together in the conditions in which people will actually experience them.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 28,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk2-q3",
+          "type": "choice",
+          "prompt": "What concern is raised about relying on a photograph?",
+          "options": [
+            "The camera may automatically alter the image",
+            "A photograph always shows more accurate colors than direct viewing",
+            "A camera cannot include both costume and scenery",
+            "Only printed photographs can record stage lighting"
+          ],
+          "answer": 0,
+          "explanation": "Automatic adjustment can make the photo an imperfect guide.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Lighting a stage with color",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Lighting a stage with color",
+            "script": "Stage lighting does more than make performers visible. It also affects how scenery and costumes appear. A surface looks a particular color partly because of the light it reflects. Change the light falling on it, and its appearance may change even though the material itself is unchanged.\nThis is why a costume selected under ordinary room lighting should be tested on the stage. A fabric that seems distinct from the background in the workroom may become difficult to distinguish under the performance lights. Conversely, a small difference that looked unimportant earlier may become very noticeable.\nDesigners therefore test combinations rather than choosing every element separately. Lighting, scenery, and costume teams need to see how their decisions interact. A photograph of one item under different lighting may not be enough, particularly if the camera adjusts the image automatically.\nThe goal isn’t always to make the colors look natural. An unusual change may help establish a mood or signal a transition. But it should be a deliberate effect rather than a surprise discovered during the performance. What matters is control over the relationship between light and materials. The example shows why a successful design often depends on checking components together in the conditions in which people will actually experience them.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 29,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l1-academic-talk2-q4",
+          "type": "choice",
+          "prompt": "What broader design principle does the speaker emphasize?",
+          "options": [
+            "Test interacting components under their actual conditions of use",
+            "Delay combined tests until the first public performance",
+            "Choose each component independently to avoid disagreement",
+            "Make every visual effect imitate ordinary daylight"
+          ],
+          "answer": 0,
+          "explanation": "The conclusion stresses interaction and realistic testing.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Lighting a stage with color",
+          "stimulus": {
+            "id": "last-day-05-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Lighting a stage with color",
+            "script": "Stage lighting does more than make performers visible. It also affects how scenery and costumes appear. A surface looks a particular color partly because of the light it reflects. Change the light falling on it, and its appearance may change even though the material itself is unchanged.\nThis is why a costume selected under ordinary room lighting should be tested on the stage. A fabric that seems distinct from the background in the workroom may become difficult to distinguish under the performance lights. Conversely, a small difference that looked unimportant earlier may become very noticeable.\nDesigners therefore test combinations rather than choosing every element separately. Lighting, scenery, and costume teams need to see how their decisions interact. A photograph of one item under different lighting may not be enough, particularly if the camera adjusts the image automatically.\nThe goal isn’t always to make the colors look natural. An unusual change may help establish a mood or signal a transition. But it should be a deliberate effect rather than a surprise discovered during the performance. What matters is control over the relationship between light and materials. The example shows why a successful design often depends on checking components together in the conditions in which people will actually experience them.",
+            "preparedPath": "./last-day/media/last-day-05-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 30,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "items": [
+        {
+          "id": "last-day-05-l2-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I put the pages in the correct order.",
+            "The order was delivered this morning.",
+            "There’s another one in the computer room.",
+            "The nearest room is quite small."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: The nearest printer is out of order.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l2-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "The nearest printer is out of order.",
+            "preparedPath": "./last-day/media/last-day-05-l2-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Of course. I won’t mention it to anyone.",
+            "We kept the equipment for a week.",
+            "The room is between the two staircases.",
+            "I mentioned the problem in my report."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could we keep this between ourselves for now?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l2-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "Could we keep this between ourselves for now?",
+            "preparedPath": "./last-day/media/last-day-05-l2-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "We should check who produced it and when.",
+            "I’m sure the class starts at nine.",
+            "The report was printed in blue ink.",
+            "The source is listed on the final page."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’m not sure whether that source is reliable.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l2-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "I’m not sure whether that source is reliable.",
+            "preparedPath": "./last-day/media/last-day-05-l2-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "We took the earlier train last time.",
+            "Sure, we have time to explore a little.",
+            "The route is marked in red on the map.",
+            "I said the bus was already full."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: What do you say we take a different route back?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l2-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "What do you say we take a different route back?",
+            "preparedPath": "./last-day/media/last-day-05-l2-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Neither did I. We’ll need some extra chairs.",
+            "Please turn the volume up a little.",
+            "The people in the photograph are students.",
+            "I expected to finish the work yesterday."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I didn’t expect so many people to turn up.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-05-l2-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "I didn’t expect so many people to turn up.",
+            "preparedPath": "./last-day/media/last-day-05-l2-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-conversation1-q1",
+          "type": "choice",
+          "prompt": "What change do the speakers propose?",
+          "options": [
+            "Require new members to give longer personal speeches",
+            "Remove all introductions from future club meetings",
+            "Let members prepare in pairs before group introductions",
+            "Ask established members to speak while newcomers listen"
+          ],
+          "answer": 2,
+          "explanation": "Partner discussion provides preparation before speaking to the whole group.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Making a club meeting inclusive",
+          "stimulus": {
+            "id": "last-day-05-l2-conversation1",
+            "kind": "conversation",
+            "title": "Making a club meeting inclusive",
+            "script": "Man: We always begin the club meeting by asking everyone to introduce themselves. Some new members seem uncomfortable.\nWoman: What if people talked to one partner first, then introduced their partner to the group?\nMan: That would give them a little time to prepare.\nWoman: Yes, and we can say it’s fine to share just a name and one interest. No need for a long speech.\nMan: Let’s try it next week and ask afterward whether it helped.\nWoman: Good. We shouldn’t assume everyone prefers the same arrangement.",
+            "preparedPath": "./last-day/media/last-day-05-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-conversation1-q2",
+          "type": "choice",
+          "prompt": "Why will they ask for reactions afterward?",
+          "options": [
+            "To check whether the change meets members’ needs",
+            "To identify who prepared the longest introduction",
+            "To confirm that all members have the same interests",
+            "To choose a new club leader immediately"
+          ],
+          "answer": 0,
+          "explanation": "They recognize that preferences may differ.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Making a club meeting inclusive",
+          "stimulus": {
+            "id": "last-day-05-l2-conversation1",
+            "kind": "conversation",
+            "title": "Making a club meeting inclusive",
+            "script": "Man: We always begin the club meeting by asking everyone to introduce themselves. Some new members seem uncomfortable.\nWoman: What if people talked to one partner first, then introduced their partner to the group?\nMan: That would give them a little time to prepare.\nWoman: Yes, and we can say it’s fine to share just a name and one interest. No need for a long speech.\nMan: Let’s try it next week and ask afterward whether it helped.\nWoman: Good. We shouldn’t assume everyone prefers the same arrangement.",
+            "preparedPath": "./last-day/media/last-day-05-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-conversation2-q1",
+          "type": "choice",
+          "prompt": "Why does the man want to retain earlier designs?",
+          "options": [
+            "They are all required to be displayed at the exhibition",
+            "They provide evidence of how the final design developed",
+            "They will reduce the time needed to test the handle",
+            "They can replace the final design if the folder is lost"
+          ],
+          "answer": 1,
+          "explanation": "Earlier versions document decisions informed by testing.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Keeping a useful project record",
+          "stimulus": {
+            "id": "last-day-05-l2-conversation2",
+            "kind": "conversation",
+            "title": "Keeping a useful project record",
+            "script": "Woman: We should delete the unsuccessful designs from our project folder. It’s getting messy.\nMan: Maybe move them into a separate folder instead. We’ll need to explain how the final design developed.\nWoman: You think the mistakes are worth showing?\nMan: Some of them, yes. Especially the test that made us change the handle. It shows we responded to evidence.\nWoman: All right. I’ll label the versions with dates, so we can find the important ones.\nMan: That’s better than keeping everything mixed together.",
+            "preparedPath": "./last-day/media/last-day-05-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-conversation2-q2",
+          "type": "choice",
+          "prompt": "What does the woman decide to do?",
+          "options": [
+            "Put all designs into the final presentation",
+            "Remove dates from the main project folder",
+            "Repeat every unsuccessful test before submission",
+            "Organize and label earlier versions separately"
+          ],
+          "answer": 3,
+          "explanation": "She will use a dated separate folder rather than deleting or mixing versions.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Keeping a useful project record",
+          "stimulus": {
+            "id": "last-day-05-l2-conversation2",
+            "kind": "conversation",
+            "title": "Keeping a useful project record",
+            "script": "Woman: We should delete the unsuccessful designs from our project folder. It’s getting messy.\nMan: Maybe move them into a separate folder instead. We’ll need to explain how the final design developed.\nWoman: You think the mistakes are worth showing?\nMan: Some of them, yes. Especially the test that made us change the handle. It shows we responded to evidence.\nWoman: All right. I’ll label the versions with dates, so we can find the important ones.\nMan: That’s better than keeping everything mixed together.",
+            "preparedPath": "./last-day/media/last-day-05-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-announcement1-q1",
+          "type": "choice",
+          "prompt": "Where will an uncollected booklet be available after two?",
+          "options": [
+            "At reception",
+            "Inside the new equipment room",
+            "At the project exhibition",
+            "In the closed print room"
+          ],
+          "answer": 0,
+          "explanation": "Uncollected packages are transferred to reception.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "An early collection deadline",
+          "stimulus": {
+            "id": "last-day-05-l2-announcement1",
+            "kind": "announcement",
+            "title": "An early collection deadline",
+            "script": "If you ordered a printed project booklet, please collect it from the print room by noon tomorrow. The room will be closed in the afternoon while new equipment is installed. Uncollected booklets will be moved to the reception desk, where you can collect them after two. Please check the name on the package before leaving; several groups used similar project titles. Let staff know immediately if the pages in your copy are not in order.",
+            "preparedPath": "./last-day/media/last-day-05-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-announcement1-q2",
+          "type": "choice",
+          "prompt": "Why should students check the name on the package?",
+          "options": [
+            "Similar project titles could lead to a mix-up",
+            "Only packages without names can be collected",
+            "Staff need proof that each title is original",
+            "The new printers may have changed the title"
+          ],
+          "answer": 0,
+          "explanation": "The name distinguishes groups with similar titles.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "An early collection deadline",
+          "stimulus": {
+            "id": "last-day-05-l2-announcement1",
+            "kind": "announcement",
+            "title": "An early collection deadline",
+            "script": "If you ordered a printed project booklet, please collect it from the print room by noon tomorrow. The room will be closed in the afternoon while new equipment is installed. Uncollected booklets will be moved to the reception desk, where you can collect them after two. Please check the name on the package before leaving; several groups used similar project titles. Let staff know immediately if the pages in your copy are not in order.",
+            "preparedPath": "./last-day/media/last-day-05-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-announcement2-q1",
+          "type": "choice",
+          "prompt": "Under what condition will the discussion be recorded?",
+          "options": [
+            "Most participants have spoken at least once",
+            "No participant asks a question about the topic",
+            "Every participant agrees",
+            "The speaker finishes the written summary"
+          ],
+          "answer": 2,
+          "explanation": "Recording requires everyone’s agreement.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A recording-permission request",
+          "stimulus": {
+            "id": "last-day-05-l2-announcement2",
+            "kind": "announcement",
+            "title": "A recording-permission request",
+            "script": "At the start of today’s discussion, I’ll ask whether everyone is comfortable with an audio recording. It would help me prepare an accurate summary, but we’ll record only if everyone agrees. The summary will not name individual speakers. If anyone prefers not to be recorded, I’ll take written notes instead. You don’t need to explain your reason, and choosing not to be recorded will not affect your participation in the discussion.",
+            "preparedPath": "./last-day/media/last-day-05-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-announcement2-q2",
+          "type": "choice",
+          "prompt": "What alternative is offered?",
+          "options": [
+            "Taking written notes",
+            "Asking each participant to record at home",
+            "Publishing a summary with speakers’ names",
+            "Excluding participants who object"
+          ],
+          "answer": 0,
+          "explanation": "If anyone declines, written notes replace recording.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A recording-permission request",
+          "stimulus": {
+            "id": "last-day-05-l2-announcement2",
+            "kind": "announcement",
+            "title": "A recording-permission request",
+            "script": "At the start of today’s discussion, I’ll ask whether everyone is comfortable with an audio recording. It would help me prepare an accurate summary, but we’ll record only if everyone agrees. The summary will not name individual speakers. If anyone prefers not to be recorded, I’ll take written notes instead. You don’t need to explain your reason, and choosing not to be recorded will not affect your participation in the discussion.",
+            "preparedPath": "./last-day/media/last-day-05-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What distinction does the talk make?",
+          "options": [
+            "Using landmarks versus recognizing any familiar place",
+            "Remembering a destination versus knowing its name",
+            "Following remembered turns versus understanding spatial connections",
+            "Traveling by foot versus using public transport"
+          ],
+          "answer": 2,
+          "explanation": "The talk contrasts a sequence with a connected understanding.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Following a familiar route",
+          "stimulus": {
+            "id": "last-day-05-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Following a familiar route",
+            "script": "Think about a route you travel often. At first, you may need to remember a sequence of instructions: turn at the bank, cross a street, then find a particular entrance. With experience, some decisions become easier. Familiar landmarks allow you to recognize where you are without consciously repeating every instruction.\nThis efficiency has a limit. If the usual entrance closes, knowing the familiar sequence may not be enough to choose an alternative. Someone who understands how the streets connect can take a different path, while someone relying only on a chain of remembered turns may need new directions.\nThe two kinds of knowledge aren’t necessarily separate achievements acquired once and for all. Exploring a neighborhood, looking at a map, and using different routes can gradually connect familiar landmarks into a wider understanding of the area. A person may know one district in that way while still following a rigid sequence somewhere else.\nSo successful navigation is not simply a matter of memorizing more instructions. It can also involve learning relationships that allow those instructions to be changed. A disruption that seems inconvenient may expose the difference: can we only repeat the usual route, or can we explain why another route should reach the same destination?",
+            "preparedPath": "./last-day/media/last-day-05-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "What can a closed entrance reveal?",
+          "options": [
+            "Whether maps are unnecessary for familiar places",
+            "Whether the traveler has ever seen the entrance before",
+            "Whether a traveler can choose an alternative route",
+            "Whether every street in the district has changed"
+          ],
+          "answer": 2,
+          "explanation": "A disruption tests flexibility beyond the learned sequence.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Following a familiar route",
+          "stimulus": {
+            "id": "last-day-05-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Following a familiar route",
+            "script": "Think about a route you travel often. At first, you may need to remember a sequence of instructions: turn at the bank, cross a street, then find a particular entrance. With experience, some decisions become easier. Familiar landmarks allow you to recognize where you are without consciously repeating every instruction.\nThis efficiency has a limit. If the usual entrance closes, knowing the familiar sequence may not be enough to choose an alternative. Someone who understands how the streets connect can take a different path, while someone relying only on a chain of remembered turns may need new directions.\nThe two kinds of knowledge aren’t necessarily separate achievements acquired once and for all. Exploring a neighborhood, looking at a map, and using different routes can gradually connect familiar landmarks into a wider understanding of the area. A person may know one district in that way while still following a rigid sequence somewhere else.\nSo successful navigation is not simply a matter of memorizing more instructions. It can also involve learning relationships that allow those instructions to be changed. A disruption that seems inconvenient may expose the difference: can we only repeat the usual route, or can we explain why another route should reach the same destination?",
+            "preparedPath": "./last-day/media/last-day-05-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "What can help build a wider understanding of an area?",
+          "options": [
+            "Repeating one set of turns without considering connections",
+            "Avoiding maps until every street name is memorized",
+            "Exploring different routes and relating landmarks",
+            "Using the same entrance for every journey"
+          ],
+          "answer": 2,
+          "explanation": "Maps and varied routes can connect landmarks into spatial knowledge.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Following a familiar route",
+          "stimulus": {
+            "id": "last-day-05-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Following a familiar route",
+            "script": "Think about a route you travel often. At first, you may need to remember a sequence of instructions: turn at the bank, cross a street, then find a particular entrance. With experience, some decisions become easier. Familiar landmarks allow you to recognize where you are without consciously repeating every instruction.\nThis efficiency has a limit. If the usual entrance closes, knowing the familiar sequence may not be enough to choose an alternative. Someone who understands how the streets connect can take a different path, while someone relying only on a chain of remembered turns may need new directions.\nThe two kinds of knowledge aren’t necessarily separate achievements acquired once and for all. Exploring a neighborhood, looking at a map, and using different routes can gradually connect familiar landmarks into a wider understanding of the area. A person may know one district in that way while still following a rigid sequence somewhere else.\nSo successful navigation is not simply a matter of memorizing more instructions. It can also involve learning relationships that allow those instructions to be changed. A disruption that seems inconvenient may expose the difference: can we only repeat the usual route, or can we explain why another route should reach the same destination?",
+            "preparedPath": "./last-day/media/last-day-05-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-l2-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "Why does the speaker ask about reaching the same destination by another route?",
+          "options": [
+            "To recommend that travelers avoid their normal destination",
+            "To highlight the flexibility that connected knowledge provides",
+            "To suggest that every disruption requires a new map",
+            "To explain why memorizing routes is never useful"
+          ],
+          "answer": 1,
+          "explanation": "The final question focuses on using relationships to adapt.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Following a familiar route",
+          "stimulus": {
+            "id": "last-day-05-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Following a familiar route",
+            "script": "Think about a route you travel often. At first, you may need to remember a sequence of instructions: turn at the bank, cross a street, then find a particular entrance. With experience, some decisions become easier. Familiar landmarks allow you to recognize where you are without consciously repeating every instruction.\nThis efficiency has a limit. If the usual entrance closes, knowing the familiar sequence may not be enough to choose an alternative. Someone who understands how the streets connect can take a different path, while someone relying only on a chain of remembered turns may need new directions.\nThe two kinds of knowledge aren’t necessarily separate achievements acquired once and for all. Exploring a neighborhood, looking at a map, and using different routes can gradually connect familiar landmarks into a wider understanding of the area. A person may know one district in that way while still following a rigid sequence somewhere else.\nSo successful navigation is not simply a matter of memorizing more instructions. It can also involve learning relationships that allow those instructions to be changed. A disruption that seems inconvenient may expose the difference: can we only repeat the usual route, or can we explain why another route should reach the same destination?",
+            "preparedPath": "./last-day/media/last-day-05-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-05-w1",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The campus shop has changed its opening hours.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "on",
+            "close",
+            "does",
+            "Friday evenings",
+            "When",
+            "it"
+          ],
+          "solution": [
+            "When",
+            "does",
+            "it",
+            "close",
+            "on",
+            "Friday evenings"
+          ],
+          "correct": [
+            4,
+            2,
+            5,
+            1,
+            0,
+            3
+          ],
+          "explanation": "A direct question with does requires the base verb close.",
+          "number": 1,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w2",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "My tutor asked about our project.",
+          "frame": [
+            "She wanted",
+            "."
+          ],
+          "chunks": [
+            "we",
+            "to know",
+            "for the report",
+            "had collected",
+            "the information",
+            "how"
+          ],
+          "solution": [
+            "to know",
+            "how",
+            "we",
+            "had collected",
+            "the information",
+            "for the report"
+          ],
+          "correct": [
+            1,
+            5,
+            0,
+            3,
+            4,
+            2
+          ],
+          "explanation": "The embedded how-clause retains subject-before-verb order.",
+          "number": 2,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w3",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The form was sent without the final page.",
+          "frame": [
+            "You should",
+            "."
+          ],
+          "chunks": [
+            "an attachment",
+            "them",
+            "to send",
+            "the missing page",
+            "ask",
+            "as"
+          ],
+          "solution": [
+            "ask",
+            "them",
+            "to send",
+            "the missing page",
+            "as",
+            "an attachment"
+          ],
+          "correct": [
+            4,
+            1,
+            2,
+            3,
+            5,
+            0
+          ],
+          "explanation": "Ask takes an object and a to-infinitive; as specifies its form.",
+          "number": 3,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w4",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The group needs someone to check the equipment.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "how it works",
+            "know",
+            "who",
+            "there",
+            "knows",
+            "anyone",
+            "Is"
+          ],
+          "solution": [
+            "Is",
+            "there",
+            "anyone",
+            "who",
+            "knows",
+            "how it works"
+          ],
+          "correct": [
+            6,
+            3,
+            5,
+            2,
+            4,
+            0
+          ],
+          "explanation": "Anyone is singular, so the relative clause takes knows.",
+          "number": 4,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w5",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I finally found a quiet place to study.",
+          "frame": [
+            "It is",
+            "."
+          ],
+          "chunks": [
+            "the small room",
+            "the stairs",
+            "next to",
+            "few people",
+            "seem to notice",
+            "that"
+          ],
+          "solution": [
+            "the small room",
+            "next to",
+            "the stairs",
+            "that",
+            "few people",
+            "seem to notice"
+          ],
+          "correct": [
+            0,
+            2,
+            1,
+            5,
+            3,
+            4
+          ],
+          "explanation": "That connects the room with an object relative clause.",
+          "number": 5,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w6",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Some of the old records were difficult to read.",
+          "frame": [
+            "We compared",
+            "."
+          ],
+          "chunks": [
+            "them",
+            "so that",
+            "other copies",
+            "we",
+            "could check the dates",
+            "with"
+          ],
+          "solution": [
+            "them",
+            "with",
+            "other copies",
+            "so that",
+            "we",
+            "could check the dates"
+          ],
+          "correct": [
+            0,
+            5,
+            2,
+            1,
+            3,
+            4
+          ],
+          "explanation": "So that introduces the purpose of comparing copies.",
+          "number": 6,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w7",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The discussion gave us a useful new idea.",
+          "frame": [
+            "We had",
+            "."
+          ],
+          "chunks": [
+            "a shared",
+            "using",
+            "the empty space",
+            "reading area",
+            "not considered",
+            "for"
+          ],
+          "solution": [
+            "not considered",
+            "using",
+            "the empty space",
+            "for",
+            "a shared",
+            "reading area"
+          ],
+          "correct": [
+            4,
+            1,
+            2,
+            5,
+            0,
+            3
+          ],
+          "explanation": "Considered takes an -ing complement; for introduces the proposed use.",
+          "number": 7,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w8",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The interview is scheduled for tomorrow morning.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "where",
+            "Have",
+            "you",
+            "did",
+            "been told",
+            "you",
+            "should wait"
+          ],
+          "solution": [
+            "Have",
+            "you",
+            "been told",
+            "where",
+            "you",
+            "should wait"
+          ],
+          "correct": [
+            1,
+            2,
+            4,
+            0,
+            5,
+            6
+          ],
+          "explanation": "The outer present-perfect passive question contains an embedded where-clause.",
+          "number": 8,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w9",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We changed the route after checking it on foot.",
+          "frame": [
+            "The revised route",
+            "."
+          ],
+          "chunks": [
+            "that",
+            "the one",
+            "than",
+            "shorter",
+            "we originally planned",
+            "is"
+          ],
+          "solution": [
+            "is",
+            "shorter",
+            "than",
+            "the one",
+            "that",
+            "we originally planned"
+          ],
+          "correct": [
+            5,
+            3,
+            2,
+            1,
+            0,
+            4
+          ],
+          "explanation": "The comparative phrase is followed by a relative clause modifying the one.",
+          "number": 9,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-w10",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The event was successful because everyone helped.",
+          "frame": [
+            "Without their help,",
+            "."
+          ],
+          "chunks": [
+            "arrived",
+            "would not have finished",
+            "before",
+            "we",
+            "the visitors",
+            "all the preparations"
+          ],
+          "solution": [
+            "we",
+            "would not have finished",
+            "all the preparations",
+            "before",
+            "the visitors",
+            "arrived"
+          ],
+          "correct": [
+            3,
+            1,
+            5,
+            2,
+            4,
+            0
+          ],
+          "explanation": "A modal-perfect result describes the unreal past situation without the help.",
+          "number": 10,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "last-day-05-w11",
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Maya, community project partner",
+          "subject": "A change to our community exhibition plan",
+          "scenario": "You and Maya are arranging a small exhibition of local residents’ photographs. The space you planned to use is no longer available, but you have found another possible location. You need to discuss the change before confirming it. Write to Maya.",
+          "points": [
+            "Explain why the original location cannot be used.",
+            "Describe the alternative and one advantage or limitation.",
+            "Suggest a next step and ask for Maya’s opinion before you confirm."
+          ],
+          "number": 11,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "last-day-05-w12",
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Professor Chen",
+          "question": "People increasingly rely on short summaries to keep up with information. Should schools encourage students to use summaries as a regular study tool, or should they place greater emphasis on reading complete source materials? Explain your view and how it would affect students’ learning.",
+          "students": [
+            [
+              "Sara",
+              "Summaries are useful because students face more material than they can read in full. A well-written overview helps them identify important ideas and decide which sources deserve closer attention. That is a valuable skill in itself."
+            ],
+            [
+              "Ben",
+              "Complete sources should have priority. A summary may leave out the reasoning or uncertainty behind a conclusion. Students can repeat the main point without understanding why it is supported or where it might not apply."
+            ]
+          ],
+          "number": 12,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are learning how to use a university archive reading room. Repeat each instruction exactly once.",
+      "items": [
+        {
+          "id": "last-day-05-s1",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The reading room opens at nine.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-05-repeat1",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "The reading room opens at nine.",
+            "preparedPath": "./last-day/media/last-day-05-repeat1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s2",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please keep your bags in the lockers outside.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-05-repeat2",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Please keep your bags in the lockers outside.",
+            "preparedPath": "./last-day/media/last-day-05-repeat2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s3",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "You can request more material from the service desk.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-05-repeat3",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "You can request more material from the service desk.",
+            "preparedPath": "./last-day/media/last-day-05-repeat3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s4",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Use a pencil when taking notes beside the original documents.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-05-repeat4",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Use a pencil when taking notes beside the original documents.",
+            "preparedPath": "./last-day/media/last-day-05-repeat4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s5",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The papers in each folder must remain in their present order.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-05-repeat5",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "The papers in each folder must remain in their present order.",
+            "preparedPath": "./last-day/media/last-day-05-repeat5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s6",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If you find a damaged page, leave it where it is and tell a staff member.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-05-repeat6",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "If you find a damaged page, leave it where it is and tell a staff member.",
+            "preparedPath": "./last-day/media/last-day-05-repeat6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s7",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Before returning a box, make sure you have removed your notes without moving the papers.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-05-repeat7",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Before returning a box, make sure you have removed your notes without moving the papers.",
+            "preparedPath": "./last-day/media/last-day-05-repeat7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "A researcher is asking students how they find and evaluate information.",
+      "items": [
+        {
+          "id": "last-day-05-s8",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "When you need information for an unfamiliar task, where do you usually begin? Explain why that starting point is useful.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-05-interview1",
+            "kind": "interview",
+            "title": "interview",
+            "script": "When you need information for an unfamiliar task, where do you usually begin? Explain why that starting point is useful.",
+            "preparedPath": "./last-day/media/last-day-05-interview1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s9",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Describe a time when two sources gave you different information. How did you decide what to trust?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-05-interview2",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Describe a time when two sources gave you different information. How did you decide what to trust?",
+            "preparedPath": "./last-day/media/last-day-05-interview2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s10",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Do you think short summaries help people understand complicated subjects, or can they create problems? Give reasons for your view.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-05-interview3",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Do you think short summaries help people understand complicated subjects, or can they create problems? Give reasons for your view.",
+            "preparedPath": "./last-day/media/last-day-05-interview3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-05-s11",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Imagine a friend shares a surprising claim online without naming a source. How would you check it, and how would you discuss your findings with your friend?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-05-interview4",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Imagine a friend shares a surprising claim online without naming a source. How would you check it, and how would you discuss your findings with your friend?",
+            "preparedPath": "./last-day/media/last-day-05-interview4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-05",
+          "difficulty": "mixed practice"
+        }
+      ]
+    }
+  ]
+}

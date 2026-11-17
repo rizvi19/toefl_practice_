@@ -1,0 +1,106 @@
+{
+  "collection": "Last Day Prep",
+  "forms": [
+    {
+      "id": "last-day-01",
+      "sections": {
+        "Reading": 50,
+        "Listening": 47,
+        "Writing": 12,
+        "Speaking": 11
+      },
+      "audioClips": 40,
+      "audioBytes": 5132352,
+      "audioSeconds": 639,
+      "choiceKeyDistribution": [
+        9,
+        19,
+        21,
+        18
+      ]
+    },
+    {
+      "id": "last-day-02",
+      "sections": {
+        "Reading": 50,
+        "Listening": 47,
+        "Writing": 12,
+        "Speaking": 11
+      },
+      "audioClips": 40,
+      "audioBytes": 5280192,
+      "audioSeconds": 658,
+      "choiceKeyDistribution": [
+        12,
+        15,
+        20,
+        20
+      ]
+    },
+    {
+      "id": "last-day-03",
+      "sections": {
+        "Reading": 50,
+        "Listening": 47,
+        "Writing": 12,
+        "Speaking": 11
+      },
+      "audioClips": 40,
+      "audioBytes": 5306880,
+      "audioSeconds": 661,
+      "choiceKeyDistribution": [
+        20,
+        17,
+        19,
+        11
+      ]
+    },
+    {
+      "id": "last-day-04",
+      "sections": {
+        "Reading": 50,
+        "Listening": 47,
+        "Writing": 12,
+        "Speaking": 11
+      },
+      "audioClips": 40,
+      "audioBytes": 5370816,
+      "audioSeconds": 669,
+      "choiceKeyDistribution": [
+        16,
+        16,
+        20,
+        15
+      ]
+    },
+    {
+      "id": "last-day-05",
+      "sections": {
+        "Reading": 50,
+        "Listening": 47,
+        "Writing": 12,
+        "Speaking": 11
+      },
+      "audioClips": 40,
+      "audioBytes": 5433600,
+      "audioSeconds": 677,
+      "choiceKeyDistribution": [
+        24,
+        14,
+        16,
+        13
+      ]
+    }
+  ],
+  "items": 600,
+  "verifiedKokoroClips": 200,
+  "engine": "kokoro-native-q4-prepared-v1",
+  "checks": [
+    "Section counts and unique question IDs",
+    "Four distinct options and keyed answers",
+    "Canonical sentence answers",
+    "Exact prompt-to-audio SHA-256, byte count and non-silent signal",
+    "All 200 prepared clips present"
+  ],
+  "limitations": "Original editorial practice matched to guide task types and text ranges; difficulty is not statistically calibrated by ETS."
+}

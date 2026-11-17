@@ -1,3 +1,4 @@
+import {dropSentenceTile} from './sentence-test-actions.mjs';
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -32,11 +33,11 @@ try{
   await drag(slot(0),page.locator('[data-sentence-bank]'));a[0]=null;await expectAnswer(a);assert(await pool(0).isEnabled());
   await drag(pool(2),slot(1),{outside:true});await expectAnswer(a);
   await drag(pool(2),slot(1),{cancel:true});await expectAnswer(a);assert.equal(await page.locator('.sentence-drag-ghost').count(),0);
-  await page.waitForTimeout(420);await slot(0).click();await pool(2).click();a[0]=2;await expectAnswer(a);await settled();
+  await page.waitForTimeout(420);await slot(0).click();await pool(2).click();await expectAnswer(a);await drag(pool(2),slot(0));a[0]=2;await expectAnswer(a);await settled();
   await slot(0).focus();await page.keyboard.press('Alt+ArrowRight');[a[0],a[1]]=[a[1],a[0]];await expectAnswer(a);await settled();
   await page.reload();await expectAnswer(a);assert.equal(await slot(1).getAttribute('data-sentence-token'),'2');
   await page.getByRole('button',{name:'Clear sentence',exact:true}).click();
-  for(let i=0;i<c.q.chunks.length;i++){await pool(i).click();await settled();}
+  for(let i=0;i<c.q.chunks.length;i++){await dropSentenceTile(page,pool(i));await settled();}
   // A full board still permits replacing a word, including with a distractor.
   const spare=c.q.chunks.length<c.q.chunks.length+c.q.extra.length?c.q.chunks.length:null;
   if(spare!==null){await drag(pool(spare),slot(0));assert.equal((await read()).answer[0],spare);await drag(pool(0),slot(0));}

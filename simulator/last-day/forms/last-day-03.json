@@ -1,0 +1,2639 @@
+{
+  "id": "last-day-03",
+  "version": 1,
+  "title": "Last Day Mock 03 · Making Connections",
+  "description": "Original fixed mixed-difficulty practice modeled on the guide’s task types and content ranges.",
+  "original": true,
+  "adaptive": false,
+  "collection": "last-day",
+  "taskIntroductions": true,
+  "baseCount": 120,
+  "audioLeadInSeconds": 3,
+  "repeatLeadInSeconds": 3,
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-03-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Historical maps can reveal more than the locations of roads and rivers. The choice of what to include often ",
+            {
+              "pre": "ref",
+              "answer": "lects"
+            },
+            " the purpose of the map. A map made for ",
+            {
+              "pre": "trav",
+              "answer": "elers"
+            },
+            " may show inns, while one prepared for a ",
+            {
+              "pre": "govern",
+              "answer": "ment"
+            },
+            " may emphasize boundaries. Therefore, the ",
+            {
+              "pre": "abs",
+              "answer": "ence"
+            },
+            " of a feature does not always mean that it did not ",
+            {
+              "pre": "ex",
+              "answer": "ist"
+            },
+            ". Researchers compare maps with other ",
+            {
+              "pre": "rec",
+              "answer": "ords"
+            },
+            " ",
+            {
+              "pre": "bef",
+              "answer": "ore"
+            },
+            " reaching a ",
+            {
+              "pre": "concl",
+              "answer": "usion"
+            },
+            ". This approach treats a map as a useful but ",
+            {
+              "pre": "sel",
+              "answer": "ective"
+            },
+            " source of information about the period in ",
+            {
+              "pre": "wh",
+              "answer": "ich"
+            },
+            " it was produced."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "An animal's color can serve several functions at the same time. A pattern ",
+            {
+              "pre": "th",
+              "answer": "at"
+            },
+            " helps it ",
+            {
+              "pre": "disap",
+              "answer": "pear"
+            },
+            " against leaves may also help members of its own ",
+            {
+              "pre": "spe",
+              "answer": "cies"
+            },
+            " recognize it. The ",
+            {
+              "pre": "eff",
+              "answer": "ect"
+            },
+            " depends on the light and on the ",
+            {
+              "pre": "view",
+              "answer": "er"
+            },
+            "'s position. For this reason, scientists often ",
+            {
+              "pre": "obs",
+              "answer": "erve"
+            },
+            " animals in their natural ",
+            {
+              "pre": "surrou",
+              "answer": "ndings"
+            },
+            ", rather than relying only on pictures taken in a laboratory. Such ",
+            {
+              "pre": "compa",
+              "answer": "risons"
+            },
+            " show that a color cannot be understood ",
+            {
+              "pre": "separ",
+              "answer": "ately"
+            },
+            " from the environment in ",
+            {
+              "pre": "wh",
+              "answer": "ich"
+            },
+            " it is displayed."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 11,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-d0-q1",
+          "type": "choice",
+          "prompt": "What is required before a student can collect a kit?",
+          "options": [
+            "Completion of the online safety module",
+            "A meeting with the staff training group",
+            "A booking that begins on Thursday",
+            "Attendance at the outdoor workshop"
+          ],
+          "answer": 0,
+          "explanation": "The safety module is required; the workshop is optional.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Email: equipment training",
+          "passage": "Subject: Microphone kit collection\nYour microphone kit is ready. Before collecting it, complete the short online safety module and show the completion screen at the media desk. Thursday’s practical workshop is optional, but we recommend it if you have not used a microphone outdoors. The desk closes at 3 p.m. Thursday for staff training. You can collect a kit before then or after 9 a.m. Friday. Your booking starts Friday afternoon, so either collection time will work.",
+          "documentType": "notice",
+          "stimulusId": "last-day-03-r1-d0",
+          "number": 21,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-d0-q2",
+          "type": "choice",
+          "prompt": "What is the writer suggesting about collection?",
+          "options": [
+            "Only students attending the workshop may collect early",
+            "The booking must move to Thursday morning",
+            "There are two available times before the booking begins",
+            "Friday collection will delay the start of the booking"
+          ],
+          "answer": 2,
+          "explanation": "Collection before three Thursday or after nine Friday precedes Friday afternoon.",
+          "skill": "inference",
+          "task": "daily-life",
+          "title": "Email: equipment training",
+          "passage": "Subject: Microphone kit collection\nYour microphone kit is ready. Before collecting it, complete the short online safety module and show the completion screen at the media desk. Thursday’s practical workshop is optional, but we recommend it if you have not used a microphone outdoors. The desk closes at 3 p.m. Thursday for staff training. You can collect a kit before then or after 9 a.m. Friday. Your booking starts Friday afternoon, so either collection time will work.",
+          "documentType": "notice",
+          "stimulusId": "last-day-03-r1-d0",
+          "number": 22,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-d1-q1",
+          "type": "choice",
+          "prompt": "Why is the west entrance unavailable?",
+          "options": [
+            "Bicycle racks are being installed there",
+            "The greenhouse is hosting a private event",
+            "A demonstration requires all available space",
+            "A path near it is being repaired"
+          ],
+          "answer": 3,
+          "explanation": "The notice explicitly identifies repairs to a damaged path.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Notice: community garden access",
+          "passage": "COMMUNITY GARDEN\nThe west entrance will be closed this week while a damaged path is repaired. Use the gate beside the bicycle racks instead. The greenhouse remains open, but its usual watering demonstration has moved to the potting shed. Participants should bring a clean, empty container; soil and seeds are provided. The demonstration is free, although registration is necessary because there is room for only twelve people in the shed. Visitors who simply want to walk around the garden do not need to register.",
+          "documentType": "notice",
+          "stimulusId": "last-day-03-r1-d1",
+          "number": 23,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-d1-q2",
+          "type": "choice",
+          "prompt": "Where will the watering demonstration take place?",
+          "options": [
+            "Beside the bicycle racks",
+            "At the west entrance",
+            "In the potting shed",
+            "Inside the greenhouse"
+          ],
+          "answer": 2,
+          "explanation": "The demonstration has moved from its usual location to the shed.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Notice: community garden access",
+          "passage": "COMMUNITY GARDEN\nThe west entrance will be closed this week while a damaged path is repaired. Use the gate beside the bicycle racks instead. The greenhouse remains open, but its usual watering demonstration has moved to the potting shed. Participants should bring a clean, empty container; soil and seeds are provided. The demonstration is free, although registration is necessary because there is room for only twelve people in the shed. Visitors who simply want to walk around the garden do not need to register.",
+          "documentType": "notice",
+          "stimulusId": "last-day-03-r1-d1",
+          "number": 24,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-d1-q3",
+          "type": "choice",
+          "prompt": "Who needs to register?",
+          "options": [
+            "Visitors bringing their own containers",
+            "Everyone entering through the alternate gate",
+            "People walking around the garden",
+            "People joining the demonstration"
+          ],
+          "answer": 3,
+          "explanation": "Registration is required for the small demonstration, not general garden visits.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Notice: community garden access",
+          "passage": "COMMUNITY GARDEN\nThe west entrance will be closed this week while a damaged path is repaired. Use the gate beside the bicycle racks instead. The greenhouse remains open, but its usual watering demonstration has moved to the potting shed. Participants should bring a clean, empty container; soil and seeds are provided. The demonstration is free, although registration is necessary because there is room for only twelve people in the shed. Visitors who simply want to walk around the garden do not need to register.",
+          "documentType": "notice",
+          "stimulusId": "last-day-03-r1-d1",
+          "number": 25,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a0-q1",
+          "type": "choice",
+          "prompt": "What causes water inside the container to cool?",
+          "options": [
+            "The outer surface prevents water from changing state",
+            "Evaporation removes energy from the container and water",
+            "A sealed outer coating keeps warm air away from the stored water",
+            "Heat passes into the clay because the material stays colder than the surrounding air"
+          ],
+          "answer": 1,
+          "explanation": "Evaporation carries away energy.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Cooling water with clay",
+          "passage": "An unglazed clay container can keep water cooler than the surrounding air under suitable conditions. Its usefulness does not depend on clay being a cold material. Instead, tiny connected spaces in the clay allow a little water to reach the outer surface. When that water evaporates, it takes energy from the container and the remaining water, lowering their temperature.\nThe process works better when the air can receive more water vapor. Dry air and moving air generally support evaporation, whereas humid, still air can limit it. Consequently, the same container may be effective in one climate and less useful in another. A glazed coating also changes its performance: by sealing the surface, the coating reduces the movement of water through the clay.\nThere is a trade-off between cooling and water conservation. The cooling effect requires some water to leave the container as vapor, so it is not a way to lower temperature without any loss. The amount lost must be considered when water is scarce.\nThis example illustrates why understanding a traditional technology requires attention to its environment. Its performance emerges from an interaction among the container, the liquid, and the surrounding air, rather than from a special property of the container considered alone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a0",
+          "number": 26,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a0-q2",
+          "type": "choice",
+          "prompt": "Under which conditions would cooling generally work better?",
+          "options": [
+            "In humid air that is still",
+            "When no water reaches the surface",
+            "In dry air that is moving",
+            "After the container is sealed with glaze"
+          ],
+          "answer": 2,
+          "explanation": "Dry, moving air supports evaporation.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Cooling water with clay",
+          "passage": "An unglazed clay container can keep water cooler than the surrounding air under suitable conditions. Its usefulness does not depend on clay being a cold material. Instead, tiny connected spaces in the clay allow a little water to reach the outer surface. When that water evaporates, it takes energy from the container and the remaining water, lowering their temperature.\nThe process works better when the air can receive more water vapor. Dry air and moving air generally support evaporation, whereas humid, still air can limit it. Consequently, the same container may be effective in one climate and less useful in another. A glazed coating also changes its performance: by sealing the surface, the coating reduces the movement of water through the clay.\nThere is a trade-off between cooling and water conservation. The cooling effect requires some water to leave the container as vapor, so it is not a way to lower temperature without any loss. The amount lost must be considered when water is scarce.\nThis example illustrates why understanding a traditional technology requires attention to its environment. Its performance emerges from an interaction among the container, the liquid, and the surrounding air, rather than from a special property of the container considered alone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a0",
+          "number": 27,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a0-q3",
+          "type": "choice",
+          "prompt": "The phrase “trade-off” refers to",
+          "options": [
+            "a method used only where water is abundant",
+            "a benefit that requires accepting a cost",
+            "a measurement that changes without explanation",
+            "an exchange of containers between owners"
+          ],
+          "answer": 1,
+          "explanation": "Cooling is gained at the cost of losing some water.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Cooling water with clay",
+          "passage": "An unglazed clay container can keep water cooler than the surrounding air under suitable conditions. Its usefulness does not depend on clay being a cold material. Instead, tiny connected spaces in the clay allow a little water to reach the outer surface. When that water evaporates, it takes energy from the container and the remaining water, lowering their temperature.\nThe process works better when the air can receive more water vapor. Dry air and moving air generally support evaporation, whereas humid, still air can limit it. Consequently, the same container may be effective in one climate and less useful in another. A glazed coating also changes its performance: by sealing the surface, the coating reduces the movement of water through the clay.\nThere is a trade-off between cooling and water conservation. The cooling effect requires some water to leave the container as vapor, so it is not a way to lower temperature without any loss. The amount lost must be considered when water is scarce.\nThis example illustrates why understanding a traditional technology requires attention to its environment. Its performance emerges from an interaction among the container, the liquid, and the surrounding air, rather than from a special property of the container considered alone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a0",
+          "number": 28,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a0-q4",
+          "type": "choice",
+          "prompt": "What can be inferred about glazing the container?",
+          "options": [
+            "It increases the number of open spaces in the clay",
+            "It removes the need for air movement around the container",
+            "It can conserve water while reducing evaporative cooling",
+            "It will make cooling equally effective in every climate"
+          ],
+          "answer": 2,
+          "explanation": "Sealing slows water loss but also the mechanism producing cooling.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Cooling water with clay",
+          "passage": "An unglazed clay container can keep water cooler than the surrounding air under suitable conditions. Its usefulness does not depend on clay being a cold material. Instead, tiny connected spaces in the clay allow a little water to reach the outer surface. When that water evaporates, it takes energy from the container and the remaining water, lowering their temperature.\nThe process works better when the air can receive more water vapor. Dry air and moving air generally support evaporation, whereas humid, still air can limit it. Consequently, the same container may be effective in one climate and less useful in another. A glazed coating also changes its performance: by sealing the surface, the coating reduces the movement of water through the clay.\nThere is a trade-off between cooling and water conservation. The cooling effect requires some water to leave the container as vapor, so it is not a way to lower temperature without any loss. The amount lost must be considered when water is scarce.\nThis example illustrates why understanding a traditional technology requires attention to its environment. Its performance emerges from an interaction among the container, the liquid, and the surrounding air, rather than from a special property of the container considered alone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a0",
+          "number": 29,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a0-q5",
+          "type": "choice",
+          "prompt": "What is the purpose of the final paragraph?",
+          "options": [
+            "To argue that traditional technologies should be replaced",
+            "To rank the climates in which clay is most widely used",
+            "To connect the example to a general approach to technologies",
+            "To introduce a different method for making clay containers"
+          ],
+          "answer": 2,
+          "explanation": "The final paragraph draws an environmental lesson from the example.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "Cooling water with clay",
+          "passage": "An unglazed clay container can keep water cooler than the surrounding air under suitable conditions. Its usefulness does not depend on clay being a cold material. Instead, tiny connected spaces in the clay allow a little water to reach the outer surface. When that water evaporates, it takes energy from the container and the remaining water, lowering their temperature.\nThe process works better when the air can receive more water vapor. Dry air and moving air generally support evaporation, whereas humid, still air can limit it. Consequently, the same container may be effective in one climate and less useful in another. A glazed coating also changes its performance: by sealing the surface, the coating reduces the movement of water through the clay.\nThere is a trade-off between cooling and water conservation. The cooling effect requires some water to leave the container as vapor, so it is not a way to lower temperature without any loss. The amount lost must be considered when water is scarce.\nThis example illustrates why understanding a traditional technology requires attention to its environment. Its performance emerges from an interaction among the container, the liquid, and the surrounding air, rather than from a special property of the container considered alone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a0",
+          "number": 30,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a1-q1",
+          "type": "choice",
+          "prompt": "What does the author mainly emphasize?",
+          "options": [
+            "Toll records are the most reliable way to reconstruct every use of a bridge",
+            "Maintaining a bridge involved continuing social arrangements",
+            "Physical remains are less informative than written accounts",
+            "A bridge’s initial source of funding determined how it would later be maintained"
+          ],
+          "answer": 1,
+          "explanation": "The passage treats bridge operation as an ongoing responsibility.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Reading a bridge’s financial records",
+          "passage": "A historic bridge can reveal the materials and techniques used by its builders. Financial records associated with the bridge can reveal a different kind of structure: the arrangements that kept it in operation. A bridge might have been paid for initially by a wealthy donor, yet depended afterward on small, repeated contributions from people who used it.\nToll records, for example, may distinguish charges for pedestrians, carts, and animals. These differences can help historians identify which activities supported maintenance. However, the records do not provide a complete count of movement. Some travelers may have been exempt, and certain payments may never have been entered. Treating the surviving totals as a precise picture of all traffic would therefore be misleading.\nRepair accounts add another perspective. A large expense following a flood may show how a community responded to sudden damage, while modest regular payments can suggest a routine of preventive care. Neither pattern alone establishes whether the bridge was generally reliable; the evidence must be considered alongside other records and the physical remains.\nStudying these sources together shifts attention from a bridge as a single achievement to a bridge as an ongoing responsibility. Construction created a crossing, but repeated decisions about money, labor, and access helped preserve it for later users.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a1",
+          "number": 31,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a1-q2",
+          "type": "choice",
+          "prompt": "Why might toll records understate traffic?",
+          "options": [
+            "Some travelers were not required to pay",
+            "Floods prevented bridges from carrying animals",
+            "The original donor prohibited record keeping",
+            "Pedestrians always paid more than carts"
+          ],
+          "answer": 0,
+          "explanation": "Exempt travelers may not appear in payment totals.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Reading a bridge’s financial records",
+          "passage": "A historic bridge can reveal the materials and techniques used by its builders. Financial records associated with the bridge can reveal a different kind of structure: the arrangements that kept it in operation. A bridge might have been paid for initially by a wealthy donor, yet depended afterward on small, repeated contributions from people who used it.\nToll records, for example, may distinguish charges for pedestrians, carts, and animals. These differences can help historians identify which activities supported maintenance. However, the records do not provide a complete count of movement. Some travelers may have been exempt, and certain payments may never have been entered. Treating the surviving totals as a precise picture of all traffic would therefore be misleading.\nRepair accounts add another perspective. A large expense following a flood may show how a community responded to sudden damage, while modest regular payments can suggest a routine of preventive care. Neither pattern alone establishes whether the bridge was generally reliable; the evidence must be considered alongside other records and the physical remains.\nStudying these sources together shifts attention from a bridge as a single achievement to a bridge as an ongoing responsibility. Construction created a crossing, but repeated decisions about money, labor, and access helped preserve it for later users.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a1",
+          "number": 32,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a1-q3",
+          "type": "choice",
+          "prompt": "The word “modest” is closest in meaning to",
+          "options": [
+            "relatively small",
+            "unexpectedly late",
+            "poorly documented",
+            "carefully hidden"
+          ],
+          "answer": 0,
+          "explanation": "Modest payments contrast with a large repair expense.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Reading a bridge’s financial records",
+          "passage": "A historic bridge can reveal the materials and techniques used by its builders. Financial records associated with the bridge can reveal a different kind of structure: the arrangements that kept it in operation. A bridge might have been paid for initially by a wealthy donor, yet depended afterward on small, repeated contributions from people who used it.\nToll records, for example, may distinguish charges for pedestrians, carts, and animals. These differences can help historians identify which activities supported maintenance. However, the records do not provide a complete count of movement. Some travelers may have been exempt, and certain payments may never have been entered. Treating the surviving totals as a precise picture of all traffic would therefore be misleading.\nRepair accounts add another perspective. A large expense following a flood may show how a community responded to sudden damage, while modest regular payments can suggest a routine of preventive care. Neither pattern alone establishes whether the bridge was generally reliable; the evidence must be considered alongside other records and the physical remains.\nStudying these sources together shifts attention from a bridge as a single achievement to a bridge as an ongoing responsibility. Construction created a crossing, but repeated decisions about money, labor, and access helped preserve it for later users.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a1",
+          "number": 33,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a1-q4",
+          "type": "choice",
+          "prompt": "What might regular small repair payments suggest?",
+          "options": [
+            "An absence of any damage to the structure",
+            "A decision to close the bridge to commercial traffic",
+            "A practice of maintaining the bridge before major failures",
+            "A lack of interest in preserving the crossing"
+          ],
+          "answer": 2,
+          "explanation": "Regular payments can indicate preventive care.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Reading a bridge’s financial records",
+          "passage": "A historic bridge can reveal the materials and techniques used by its builders. Financial records associated with the bridge can reveal a different kind of structure: the arrangements that kept it in operation. A bridge might have been paid for initially by a wealthy donor, yet depended afterward on small, repeated contributions from people who used it.\nToll records, for example, may distinguish charges for pedestrians, carts, and animals. These differences can help historians identify which activities supported maintenance. However, the records do not provide a complete count of movement. Some travelers may have been exempt, and certain payments may never have been entered. Treating the surviving totals as a precise picture of all traffic would therefore be misleading.\nRepair accounts add another perspective. A large expense following a flood may show how a community responded to sudden damage, while modest regular payments can suggest a routine of preventive care. Neither pattern alone establishes whether the bridge was generally reliable; the evidence must be considered alongside other records and the physical remains.\nStudying these sources together shifts attention from a bridge as a single achievement to a bridge as an ongoing responsibility. Construction created a crossing, but repeated decisions about money, labor, and access helped preserve it for later users.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a1",
+          "number": 34,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r1-a1-q5",
+          "type": "choice",
+          "prompt": "Why does the passage distinguish construction from later operation?",
+          "options": [
+            "To show that building the bridge was only one part of its history",
+            "To argue that maintenance required different building materials",
+            "To explain why financial records replaced the physical bridge",
+            "To establish that donors had no influence on bridge locations"
+          ],
+          "answer": 0,
+          "explanation": "The distinction supports the conclusion about continuing responsibility.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "Reading a bridge’s financial records",
+          "passage": "A historic bridge can reveal the materials and techniques used by its builders. Financial records associated with the bridge can reveal a different kind of structure: the arrangements that kept it in operation. A bridge might have been paid for initially by a wealthy donor, yet depended afterward on small, repeated contributions from people who used it.\nToll records, for example, may distinguish charges for pedestrians, carts, and animals. These differences can help historians identify which activities supported maintenance. However, the records do not provide a complete count of movement. Some travelers may have been exempt, and certain payments may never have been entered. Treating the surviving totals as a precise picture of all traffic would therefore be misleading.\nRepair accounts add another perspective. A large expense following a flood may show how a community responded to sudden damage, while modest regular payments can suggest a routine of preventive care. Neither pattern alone establishes whether the bridge was generally reliable; the evidence must be considered alongside other records and the physical remains.\nStudying these sources together shifts attention from a bridge as a single achievement to a bridge as an ongoing responsibility. Construction created a crossing, but repeated decisions about money, labor, and access helped preserve it for later users.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r1-a1",
+          "number": 35,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-03-r2-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "When a town changes its bus routes, planners need to know more than the total number of passengers. They ",
+            {
+              "pre": "inv",
+              "answer": "estigate"
+            },
+            " where people begin their ",
+            {
+              "pre": "jour",
+              "answer": "neys"
+            },
+            ", which stops they use, and ",
+            {
+              "pre": "wh",
+              "answer": "en"
+            },
+            " they ",
+            {
+              "pre": "trav",
+              "answer": "el"
+            },
+            ". A crowded bus may indicate high ",
+            {
+              "pre": "dem",
+              "answer": "and"
+            },
+            ", ",
+            {
+              "pre": "b",
+              "answer": "ut"
+            },
+            " it may also be the result of an ",
+            {
+              "pre": "unrel",
+              "answer": "iable"
+            },
+            " schedule. Planners therefore combine passenger counts with ",
+            {
+              "pre": "inter",
+              "answer": "views"
+            },
+            " and records of arrival times. This ",
+            {
+              "pre": "evid",
+              "answer": "ence"
+            },
+            " helps them distinguish between problems that look similar at first. The final ",
+            {
+              "pre": "dec",
+              "answer": "ision"
+            },
+            " should address the cause of a problem, rather than only its most obvious sign."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r2-a1-q1",
+          "type": "choice",
+          "prompt": "Why is a comparison group useful?",
+          "options": [
+            "It ensures that all participants have identical backgrounds",
+            "It guarantees that an intervention produces improvement",
+            "It makes repeated assessment unnecessary",
+            "It helps estimate what would happen without an intervention"
+          ],
+          "answer": 3,
+          "explanation": "A comparison supports investigation of alternative causes.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "The value of a comparison group",
+          "passage": "A change that follows an intervention is not necessarily caused by it. Students may improve after attending a workshop, for instance, because the workshop helped them, because they gained experience elsewhere, or because they were already improving. A comparison group offers one way to investigate these possibilities.\nThe purpose of such a group is not to demonstrate that participants are identical in every respect. Rather, it is to provide a reasonable picture of what might have happened without the intervention. If both groups take the same assessment at similar times, an improvement shared by both may reflect a common influence rather than the workshop itself.\nHow the groups are formed matters. Students who volunteer for extra instruction may already be more motivated than those who do not. Comparing those groups without considering this difference could exaggerate the workshop’s effect. Random assignment, when appropriate and feasible, reduces the likelihood that such preexisting differences systematically favor one group.\nEven a carefully designed comparison does not answer every question. A workshop may help one kind of learner more than another, or produce benefits that a short assessment does not capture. The strongest conclusion is therefore usually specific: it describes an observed difference under stated conditions, rather than announcing that an intervention works equally well for everyone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r2-a1",
+          "number": 11,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r2-a1-q2",
+          "type": "choice",
+          "prompt": "Why could comparing volunteers with nonvolunteers be misleading?",
+          "options": [
+            "The groups may differ in motivation before the workshop",
+            "Nonvolunteers are unable to gain experience elsewhere",
+            "Volunteers cannot complete the same assessment",
+            "The workshop changes the meaning of the assessment questions"
+          ],
+          "answer": 0,
+          "explanation": "Preexisting motivation can confound the apparent effect.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The value of a comparison group",
+          "passage": "A change that follows an intervention is not necessarily caused by it. Students may improve after attending a workshop, for instance, because the workshop helped them, because they gained experience elsewhere, or because they were already improving. A comparison group offers one way to investigate these possibilities.\nThe purpose of such a group is not to demonstrate that participants are identical in every respect. Rather, it is to provide a reasonable picture of what might have happened without the intervention. If both groups take the same assessment at similar times, an improvement shared by both may reflect a common influence rather than the workshop itself.\nHow the groups are formed matters. Students who volunteer for extra instruction may already be more motivated than those who do not. Comparing those groups without considering this difference could exaggerate the workshop’s effect. Random assignment, when appropriate and feasible, reduces the likelihood that such preexisting differences systematically favor one group.\nEven a carefully designed comparison does not answer every question. A workshop may help one kind of learner more than another, or produce benefits that a short assessment does not capture. The strongest conclusion is therefore usually specific: it describes an observed difference under stated conditions, rather than announcing that an intervention works equally well for everyone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r2-a1",
+          "number": 12,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r2-a1-q3",
+          "type": "choice",
+          "prompt": "The word “exaggerate” is closest in meaning to",
+          "options": [
+            "reproduce",
+            "clarify",
+            "overlook",
+            "overstate"
+          ],
+          "answer": 3,
+          "explanation": "Exaggerating an effect makes it seem larger than it is.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "The value of a comparison group",
+          "passage": "A change that follows an intervention is not necessarily caused by it. Students may improve after attending a workshop, for instance, because the workshop helped them, because they gained experience elsewhere, or because they were already improving. A comparison group offers one way to investigate these possibilities.\nThe purpose of such a group is not to demonstrate that participants are identical in every respect. Rather, it is to provide a reasonable picture of what might have happened without the intervention. If both groups take the same assessment at similar times, an improvement shared by both may reflect a common influence rather than the workshop itself.\nHow the groups are formed matters. Students who volunteer for extra instruction may already be more motivated than those who do not. Comparing those groups without considering this difference could exaggerate the workshop’s effect. Random assignment, when appropriate and feasible, reduces the likelihood that such preexisting differences systematically favor one group.\nEven a carefully designed comparison does not answer every question. A workshop may help one kind of learner more than another, or produce benefits that a short assessment does not capture. The strongest conclusion is therefore usually specific: it describes an observed difference under stated conditions, rather than announcing that an intervention works equally well for everyone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r2-a1",
+          "number": 13,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r2-a1-q4",
+          "type": "choice",
+          "prompt": "What does random assignment aim to reduce?",
+          "options": [
+            "The number of possible benefits of the workshop",
+            "Differences in the dates when results are published",
+            "Systematic differences that favor one group in advance",
+            "The need to state the conditions of a conclusion"
+          ],
+          "answer": 2,
+          "explanation": "Random assignment helps balance preexisting differences.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "The value of a comparison group",
+          "passage": "A change that follows an intervention is not necessarily caused by it. Students may improve after attending a workshop, for instance, because the workshop helped them, because they gained experience elsewhere, or because they were already improving. A comparison group offers one way to investigate these possibilities.\nThe purpose of such a group is not to demonstrate that participants are identical in every respect. Rather, it is to provide a reasonable picture of what might have happened without the intervention. If both groups take the same assessment at similar times, an improvement shared by both may reflect a common influence rather than the workshop itself.\nHow the groups are formed matters. Students who volunteer for extra instruction may already be more motivated than those who do not. Comparing those groups without considering this difference could exaggerate the workshop’s effect. Random assignment, when appropriate and feasible, reduces the likelihood that such preexisting differences systematically favor one group.\nEven a carefully designed comparison does not answer every question. A workshop may help one kind of learner more than another, or produce benefits that a short assessment does not capture. The strongest conclusion is therefore usually specific: it describes an observed difference under stated conditions, rather than announcing that an intervention works equally well for everyone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r2-a1",
+          "number": 14,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-r2-a1-q5",
+          "type": "choice",
+          "prompt": "Which conclusion best fits the author’s caution?",
+          "options": [
+            "A common assessment measures every benefit of an intervention",
+            "This workshop improved the measured skill for the participants studied",
+            "Any workshop will improve every student’s overall performance",
+            "Motivation has no effect on the value of additional instruction"
+          ],
+          "answer": 1,
+          "explanation": "The author favors bounded conclusions tied to participants, conditions and measurement.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "The value of a comparison group",
+          "passage": "A change that follows an intervention is not necessarily caused by it. Students may improve after attending a workshop, for instance, because the workshop helped them, because they gained experience elsewhere, or because they were already improving. A comparison group offers one way to investigate these possibilities.\nThe purpose of such a group is not to demonstrate that participants are identical in every respect. Rather, it is to provide a reasonable picture of what might have happened without the intervention. If both groups take the same assessment at similar times, an improvement shared by both may reflect a common influence rather than the workshop itself.\nHow the groups are formed matters. Students who volunteer for extra instruction may already be more motivated than those who do not. Comparing those groups without considering this difference could exaggerate the workshop’s effect. Random assignment, when appropriate and feasible, reduces the likelihood that such preexisting differences systematically favor one group.\nEven a carefully designed comparison does not answer every question. A workshop may help one kind of learner more than another, or produce benefits that a short assessment does not capture. The strongest conclusion is therefore usually specific: it describes an observed difference under stated conditions, rather than announcing that an intervention works equally well for everyone.",
+          "documentType": "academic",
+          "stimulusId": "last-day-03-r2-a1",
+          "number": 15,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "last-day-03-l1-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The glass doors open automatically.",
+            "The pair worked on the project together.",
+            "I turned the light off before leaving.",
+            "Let me check the lost-property drawer."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Did anyone turn in a pair of glasses?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Did anyone turn in a pair of glasses?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I got there just before it closed.",
+            "There’s a line outside the building.",
+            "A notebook, if they have one without lines.",
+            "The shop was crowded yesterday."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Can I get you anything while I’m at the shop?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "Can I get you anything while I’m at the shop?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I’ll ask them to move closer to the microphone.",
+            "The microphone belongs to the department.",
+            "The back door is usually locked.",
+            "I heard about the event last week."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I can barely hear the person at the back.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "I can barely hear the person at the back.",
+            "preparedPath": "./last-day/media/last-day-03-l1-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The key was difficult to explain.",
+            "In the envelope on the reception desk.",
+            "The main point is quite straightforward.",
+            "I finished the task yesterday afternoon."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Where should I leave the keys when I’m done?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "Where should I leave the keys when I’m done?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I want some time to explore before the meeting.",
+            "I came here by train last summer.",
+            "The earlier train was painted blue.",
+            "It arrives on platform three."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: How come you’re taking the earlier train?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "How come you’re taking the earlier train?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response6-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Which one is more relevant to your project?",
+            "There are two copies on the shelf.",
+            "I took the course in my first year.",
+            "The paper tore when I folded it."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’m torn between these two course options.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response6",
+            "kind": "response",
+            "title": "response",
+            "script": "I’m torn between these two course options.",
+            "preparedPath": "./last-day/media/last-day-03-l1-response6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response7-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I prefer the sheet with the diagram.",
+            "Yes, please write your name on that sheet.",
+            "The sign was put up this morning.",
+            "We entered through the side door."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Do we need to sign in before entering?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response7",
+            "kind": "response",
+            "title": "response",
+            "script": "Do we need to sign in before entering?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response8-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I walk to class most mornings.",
+            "It’s only ten minutes from here.",
+            "The path was repaired last month.",
+            "The far side of the room is quieter."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’d rather walk if it’s not too far.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response8",
+            "kind": "response",
+            "title": "response",
+            "script": "I’d rather walk if it’s not too far.",
+            "preparedPath": "./last-day/media/last-day-03-l1-response8.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response9-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The back of the form needs a signature.",
+            "I heard the lecture from the hallway.",
+            "Not yet, but they said they’d reply this week.",
+            "The application has three separate pages."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Have you heard back about your application?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response9",
+            "kind": "response",
+            "title": "response",
+            "script": "Have you heard back about your application?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response9.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response10-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Sure. Please bring it back before the practical class.",
+            "The class tape was very interesting.",
+            "The recorded lecture is on the course page.",
+            "I measured it twice this morning."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Would you be able to lend me a measuring tape?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response10",
+            "kind": "response",
+            "title": "response",
+            "script": "Would you be able to lend me a measuring tape?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response10.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response11-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I took the bus to the performance.",
+            "I realized the answer after class.",
+            "No problem. There’s a free one beside me.",
+            "The seats are made of wood."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’m sorry; I didn’t realize this seat was taken.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response11",
+            "kind": "response",
+            "title": "response",
+            "script": "I’m sorry; I didn’t realize this seat was taken.",
+            "preparedPath": "./last-day/media/last-day-03-l1-response11.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-response12-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The equipment was supplied by the university.",
+            "The earlier class uses the same room.",
+            "We handed the list to the technician.",
+            "By five, even if our booking ends earlier."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: What time are we supposed to hand in the equipment?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l1-response12",
+            "kind": "response",
+            "title": "response",
+            "script": "What time are we supposed to hand in the equipment?",
+            "preparedPath": "./last-day/media/last-day-03-l1-response12.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-conversation1-q1",
+          "type": "choice",
+          "prompt": "How can the students prepare before the new books arrive?",
+          "options": [
+            "Borrow a new edition from another student in class",
+            "Use a topic guide to locate material in an older edition",
+            "Ask the bookshop to change the course deadline",
+            "Read chapter two of any available textbook"
+          ],
+          "answer": 1,
+          "explanation": "The lecturer’s matching list identifies the relevant older-edition section.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "An unavailable textbook",
+          "stimulus": {
+            "id": "last-day-03-l1-conversation1",
+            "kind": "conversation",
+            "title": "An unavailable textbook",
+            "script": "Woman: The bookshop says our textbook won’t arrive until next week.\nMan: We need chapter two for Friday. Could we use the older edition in the library?\nWoman: The chapter numbers are different, but the lecturer posted a list matching the topics.\nMan: I hadn’t seen that. Then we can find the right section.\nWoman: Yes. The library has a short-loan copy, so we should plan when to use it.\nMan: I’m free tomorrow morning. I’ll check whether we need to reserve it.",
+            "preparedPath": "./last-day/media/last-day-03-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-conversation1-q2",
+          "type": "choice",
+          "prompt": "What will the man check?",
+          "options": [
+            "Whether the lecturer will write a new chapter",
+            "Whether the library copy requires a reservation",
+            "Whether the bookshop has cancelled their orders",
+            "Whether the course uses different topics next week"
+          ],
+          "answer": 1,
+          "explanation": "He will check reservation conditions for the short-loan copy.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "An unavailable textbook",
+          "stimulus": {
+            "id": "last-day-03-l1-conversation1",
+            "kind": "conversation",
+            "title": "An unavailable textbook",
+            "script": "Woman: The bookshop says our textbook won’t arrive until next week.\nMan: We need chapter two for Friday. Could we use the older edition in the library?\nWoman: The chapter numbers are different, but the lecturer posted a list matching the topics.\nMan: I hadn’t seen that. Then we can find the right section.\nWoman: Yes. The library has a short-loan copy, so we should plan when to use it.\nMan: I’m free tomorrow morning. I’ll check whether we need to reserve it.",
+            "preparedPath": "./last-day/media/last-day-03-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-conversation2-q1",
+          "type": "choice",
+          "prompt": "What solution does the woman propose?",
+          "options": [
+            "Replace both demonstrations with printed posters",
+            "Move one presenter to a different day",
+            "Alternate short demonstrations throughout the session",
+            "Give each presenter a single half-hour demonstration"
+          ],
+          "answer": 2,
+          "explanation": "She proposes a repeating five-minutes-each cycle.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Sharing a poster session",
+          "stimulus": {
+            "id": "last-day-03-l1-conversation2",
+            "kind": "conversation",
+            "title": "Sharing a poster session",
+            "script": "Man: Two presenters have asked to use the same screen at our poster session.\nWoman: Could they take turns every half hour?\nMan: Their demonstrations are only five minutes long, but people arrive at different times.\nWoman: Then a regular ten-minute cycle might work better: five minutes each, repeated through the session.\nMan: We’d need a little sign showing the order.\nWoman: Yes, so visitors know when to come back instead of assuming they’ve missed the demonstration.\nMan: I’ll ask both presenters if that suits them.",
+            "preparedPath": "./last-day/media/last-day-03-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-conversation2-q2",
+          "type": "choice",
+          "prompt": "Why does she recommend a sign?",
+          "options": [
+            "To explain how presenters should connect the screen",
+            "To show which presenter created the equipment",
+            "To limit the number of people entering the session",
+            "To let visitors predict when each demonstration will occur"
+          ],
+          "answer": 3,
+          "explanation": "The sign tells visitors the order and when to return.",
+          "skill": "purpose",
+          "task": "conversation",
+          "title": "Sharing a poster session",
+          "stimulus": {
+            "id": "last-day-03-l1-conversation2",
+            "kind": "conversation",
+            "title": "Sharing a poster session",
+            "script": "Man: Two presenters have asked to use the same screen at our poster session.\nWoman: Could they take turns every half hour?\nMan: Their demonstrations are only five minutes long, but people arrive at different times.\nWoman: Then a regular ten-minute cycle might work better: five minutes each, repeated through the session.\nMan: We’d need a little sign showing the order.\nWoman: Yes, so visitors know when to come back instead of assuming they’ve missed the demonstration.\nMan: I’ll ask both presenters if that suits them.",
+            "preparedPath": "./last-day/media/last-day-03-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-conversation3-q1",
+          "type": "choice",
+          "prompt": "What did the woman confuse?",
+          "options": [
+            "The tour’s starting time and the departure meeting time",
+            "The time of the return trip and the first train",
+            "The breakfast arrangement and the end of the tour",
+            "The location of the coach and the tour entrance"
+          ],
+          "answer": 0,
+          "explanation": "Nine is the tour; eight thirty is the coach meeting.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "A timetable misunderstanding",
+          "stimulus": {
+            "id": "last-day-03-l1-conversation3",
+            "kind": "conversation",
+            "title": "A timetable misunderstanding",
+            "script": "Woman: I thought the study visit was leaving at nine, but this message says eight thirty.\nMan: Nine is when the tour starts. The earlier time is when we meet the coach.\nWoman: Oh, I was about to arrange a bus that gets here at eight forty-five.\nMan: That would be too late. There’s a train arriving at eight ten, if that helps.\nWoman: It does. I’ll take that and bring breakfast with me.\nMan: Good plan. The message says we can eat before boarding.",
+            "preparedPath": "./last-day/media/last-day-03-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-conversation3-q2",
+          "type": "choice",
+          "prompt": "What does she decide to do?",
+          "options": [
+            "Keep the bus booking and meet the coach at 8:45",
+            "Take an earlier train and bring breakfast",
+            "Take the later train and have breakfast after boarding",
+            "Travel to the museum independently for the nine-o’clock tour"
+          ],
+          "answer": 1,
+          "explanation": "She chooses the train arriving at eight ten.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "A timetable misunderstanding",
+          "stimulus": {
+            "id": "last-day-03-l1-conversation3",
+            "kind": "conversation",
+            "title": "A timetable misunderstanding",
+            "script": "Woman: I thought the study visit was leaving at nine, but this message says eight thirty.\nMan: Nine is when the tour starts. The earlier time is when we meet the coach.\nWoman: Oh, I was about to arrange a bus that gets here at eight forty-five.\nMan: That would be too late. There’s a train arriving at eight ten, if that helps.\nWoman: It does. I’ll take that and bring breakfast with me.\nMan: Good plan. The message says we can eat before boarding.",
+            "preparedPath": "./last-day/media/last-day-03-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 18,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-announcement1-q1",
+          "type": "choice",
+          "prompt": "Why were the groups changed?",
+          "options": [
+            "To replace notebooks with a shared worksheet",
+            "To shorten every student’s starting time",
+            "To make equipment access more equal",
+            "To keep usual partners together"
+          ],
+          "answer": 2,
+          "explanation": "The grouping change balances access to microscopes.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A change to laboratory groups",
+          "stimulus": {
+            "id": "last-day-03-l1-announcement1",
+            "kind": "announcement",
+            "title": "A change to laboratory groups",
+            "script": "For tomorrow’s practical session, please check the updated group list on the course page. We’ve moved a few people so that each group has access to the same number of microscopes. Your starting time has not changed. If you normally work with a particular partner, you may be separated for this session, but you can compare your notes afterward. Bring your own notebook; the shared worksheet is a guide, not a replacement for recording your observations.",
+            "preparedPath": "./last-day/media/last-day-03-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 19,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-announcement1-q2",
+          "type": "choice",
+          "prompt": "What is emphasized about the shared worksheet?",
+          "options": [
+            "It replaces the need to bring personal materials",
+            "Students must still record their own observations",
+            "It contains the results for every microscope",
+            "It should be completed with a former partner beforehand"
+          ],
+          "answer": 1,
+          "explanation": "The worksheet is guidance, not a substitute for notes.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A change to laboratory groups",
+          "stimulus": {
+            "id": "last-day-03-l1-announcement1",
+            "kind": "announcement",
+            "title": "A change to laboratory groups",
+            "script": "For tomorrow’s practical session, please check the updated group list on the course page. We’ve moved a few people so that each group has access to the same number of microscopes. Your starting time has not changed. If you normally work with a particular partner, you may be separated for this session, but you can compare your notes afterward. Bring your own notebook; the shared worksheet is a guide, not a replacement for recording your observations.",
+            "preparedPath": "./last-day/media/last-day-03-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 20,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-announcement2-q1",
+          "type": "choice",
+          "prompt": "What kind of feedback is particularly requested?",
+          "options": [
+            "Ratings of the other campus’s facilities",
+            "Suggestions for student guide uniforms",
+            "Estimates of how many people visited",
+            "Identification of displays that were unclear"
+          ],
+          "answer": 3,
+          "explanation": "The speaker specifically asks which displays were hard to understand.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "An exhibition feedback request",
+          "stimulus": {
+            "id": "last-day-03-l1-announcement2",
+            "kind": "announcement",
+            "title": "An exhibition feedback request",
+            "script": "As you leave the exhibition, please consider completing the short feedback card beside the exit. We’re especially interested in displays that were difficult to understand, not just in your overall rating. Write the display number if you can. The team will use your comments to revise the labels before the exhibition travels to another campus next month. Please put completed cards in the box rather than handing them to the student guides, who are helping new visitors.",
+            "preparedPath": "./last-day/media/last-day-03-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 21,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-announcement2-q2",
+          "type": "choice",
+          "prompt": "How will the comments be used?",
+          "options": [
+            "To improve labels before the exhibition moves",
+            "To choose the destination for next year’s exhibition",
+            "To cancel displays that received no comments",
+            "To decide whether the guides should complete the cards"
+          ],
+          "answer": 0,
+          "explanation": "The stated purpose is revising labels before next month’s move.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "An exhibition feedback request",
+          "stimulus": {
+            "id": "last-day-03-l1-announcement2",
+            "kind": "announcement",
+            "title": "An exhibition feedback request",
+            "script": "As you leave the exhibition, please consider completing the short feedback card beside the exit. We’re especially interested in displays that were difficult to understand, not just in your overall rating. Write the display number if you can. The team will use your comments to revise the labels before the exhibition travels to another campus next month. Please put completed cards in the box rather than handing them to the student guides, who are helping new visitors.",
+            "preparedPath": "./last-day/media/last-day-03-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 22,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What problem is the speaker discussing?",
+          "options": [
+            "Sampling is useful only when every site is accessible",
+            "Convenient sampling locations may not represent the area studied",
+            "River conditions are identical near every bridge",
+            "Repeated measurements always produce contradictory results"
+          ],
+          "answer": 1,
+          "explanation": "The talk addresses location bias in sampling.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Sampling a river fairly",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Sampling a river fairly",
+            "script": "Imagine that you want to describe water conditions along a river. The easiest sampling point is beside a road, where you can reach the bank safely. It would be tempting to return there every time. Those samples might tell you a great deal about that location, but they wouldn’t necessarily represent the whole river.\nConditions can change near a tributary, a town, or a slow-moving stretch. If all the accessible sites share one feature, such as being beside bridges, then a collection of many samples can still overlook important differences. Increasing the number of measurements doesn’t automatically solve a problem in where those measurements are taken.\nA better plan begins with the question. If you’re investigating a change along the river, you need locations that can reveal that change. You might include several types of site and record why each was chosen. Practical limitations still matter; no one should enter an unsafe area merely to make a map look evenly covered.\nThe aim is not a perfect pattern of dots. It’s a defensible relationship between the samples and the conclusion. When some parts of the river cannot be sampled, stating that limitation helps readers understand what the evidence can and cannot support.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 23,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "Why may adding more samples fail to solve the problem?",
+          "options": [
+            "The additional samples may share the same location bias",
+            "A larger sample prevents comparisons between sites",
+            "The river will stop changing after repeated visits",
+            "The measuring equipment becomes less reliable with each use"
+          ],
+          "answer": 0,
+          "explanation": "More samples from similarly selected sites can still omit key conditions.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Sampling a river fairly",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Sampling a river fairly",
+            "script": "Imagine that you want to describe water conditions along a river. The easiest sampling point is beside a road, where you can reach the bank safely. It would be tempting to return there every time. Those samples might tell you a great deal about that location, but they wouldn’t necessarily represent the whole river.\nConditions can change near a tributary, a town, or a slow-moving stretch. If all the accessible sites share one feature, such as being beside bridges, then a collection of many samples can still overlook important differences. Increasing the number of measurements doesn’t automatically solve a problem in where those measurements are taken.\nA better plan begins with the question. If you’re investigating a change along the river, you need locations that can reveal that change. You might include several types of site and record why each was chosen. Practical limitations still matter; no one should enter an unsafe area merely to make a map look evenly covered.\nThe aim is not a perfect pattern of dots. It’s a defensible relationship between the samples and the conclusion. When some parts of the river cannot be sampled, stating that limitation helps readers understand what the evidence can and cannot support.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 24,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "What should guide the choice of sampling sites?",
+          "options": [
+            "The question the investigation is trying to answer",
+            "The visual symmetry of the final map",
+            "The places already visited by the largest number of people",
+            "The desire to avoid documenting practical limitations"
+          ],
+          "answer": 0,
+          "explanation": "Site selection should support the research question.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Sampling a river fairly",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Sampling a river fairly",
+            "script": "Imagine that you want to describe water conditions along a river. The easiest sampling point is beside a road, where you can reach the bank safely. It would be tempting to return there every time. Those samples might tell you a great deal about that location, but they wouldn’t necessarily represent the whole river.\nConditions can change near a tributary, a town, or a slow-moving stretch. If all the accessible sites share one feature, such as being beside bridges, then a collection of many samples can still overlook important differences. Increasing the number of measurements doesn’t automatically solve a problem in where those measurements are taken.\nA better plan begins with the question. If you’re investigating a change along the river, you need locations that can reveal that change. You might include several types of site and record why each was chosen. Practical limitations still matter; no one should enter an unsafe area merely to make a map look evenly covered.\nThe aim is not a perfect pattern of dots. It’s a defensible relationship between the samples and the conclusion. When some parts of the river cannot be sampled, stating that limitation helps readers understand what the evidence can and cannot support.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 25,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "Why is it useful to state where sampling was not possible?",
+          "options": [
+            "It eliminates the need to explain how the sites were chosen",
+            "It proves that unsampled sites are similar to sampled ones",
+            "It allows unsafe sites to be included in the numerical results",
+            "It clarifies the scope of conclusions supported by the data"
+          ],
+          "answer": 3,
+          "explanation": "A limitation allows readers to judge the claim’s coverage.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Sampling a river fairly",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Sampling a river fairly",
+            "script": "Imagine that you want to describe water conditions along a river. The easiest sampling point is beside a road, where you can reach the bank safely. It would be tempting to return there every time. Those samples might tell you a great deal about that location, but they wouldn’t necessarily represent the whole river.\nConditions can change near a tributary, a town, or a slow-moving stretch. If all the accessible sites share one feature, such as being beside bridges, then a collection of many samples can still overlook important differences. Increasing the number of measurements doesn’t automatically solve a problem in where those measurements are taken.\nA better plan begins with the question. If you’re investigating a change along the river, you need locations that can reveal that change. You might include several types of site and record why each was chosen. Practical limitations still matter; no one should enter an unsafe area merely to make a map look evenly covered.\nThe aim is not a perfect pattern of dots. It’s a defensible relationship between the samples and the conclusion. When some parts of the river cannot be sampled, stating that limitation helps readers understand what the evidence can and cannot support.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 26,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk2-q1",
+          "type": "choice",
+          "prompt": "What is the main topic?",
+          "options": [
+            "Why written stories should avoid familiar phrases",
+            "The roles of repetition and variation in oral storytelling",
+            "How a recording prevents changes in a performance",
+            "Why audiences cannot remember long spoken stories"
+          ],
+          "answer": 1,
+          "explanation": "The talk treats repeated frameworks and adaptable performances.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Remembering a story’s repeated phrases",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Remembering a story’s repeated phrases",
+            "script": "A long story told aloud may contain phrases that return at important moments. To a reader, the repetition might seem unnecessary. To a storyteller and a listening audience, however, it can provide structure. A familiar phrase signals where the story has reached and what kind of event may follow.\nRepeated language can also support memory. The storyteller doesn’t have to create every sentence from the beginning while speaking. A recurring description or introduction offers a stable pattern into which a new action can fit. This doesn’t mean that every performance is identical. Details may change with the occasion, the audience, or the time available.\nThink of a repeated phrase as a framework rather than a recording played back word for word. The framework can remain recognizable while allowing variation. For listeners, that combination can make a long performance easier to follow: familiar elements provide orientation, while changing elements sustain interest.\nWhen researchers compare spoken versions of a story, therefore, differences are not always signs of poor memory. Some variation may be part of the practice itself. The interesting question is how performers combine stability and change, keeping enough shared structure for recognition while shaping a particular telling for the people who are present.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 27,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk2-q2",
+          "type": "choice",
+          "prompt": "How can a recurring phrase help a storyteller?",
+          "options": [
+            "It requires the performer to avoid changing any words",
+            "It supplies a reusable structure during performance",
+            "It ensures that every event is described in full detail",
+            "It removes the need to respond to the audience"
+          ],
+          "answer": 1,
+          "explanation": "Recurring language reduces the need to formulate everything anew.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Remembering a story’s repeated phrases",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Remembering a story’s repeated phrases",
+            "script": "A long story told aloud may contain phrases that return at important moments. To a reader, the repetition might seem unnecessary. To a storyteller and a listening audience, however, it can provide structure. A familiar phrase signals where the story has reached and what kind of event may follow.\nRepeated language can also support memory. The storyteller doesn’t have to create every sentence from the beginning while speaking. A recurring description or introduction offers a stable pattern into which a new action can fit. This doesn’t mean that every performance is identical. Details may change with the occasion, the audience, or the time available.\nThink of a repeated phrase as a framework rather than a recording played back word for word. The framework can remain recognizable while allowing variation. For listeners, that combination can make a long performance easier to follow: familiar elements provide orientation, while changing elements sustain interest.\nWhen researchers compare spoken versions of a story, therefore, differences are not always signs of poor memory. Some variation may be part of the practice itself. The interesting question is how performers combine stability and change, keeping enough shared structure for recognition while shaping a particular telling for the people who are present.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 28,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk2-q3",
+          "type": "choice",
+          "prompt": "Why does the speaker compare a phrase to a framework?",
+          "options": [
+            "To show that a performance is always a fixed recording",
+            "To explain why listeners should ignore repeated language",
+            "To emphasize that stable structure can permit variation",
+            "To claim that stories must follow a physical diagram"
+          ],
+          "answer": 2,
+          "explanation": "A framework is stable without fixing every detail.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Remembering a story’s repeated phrases",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Remembering a story’s repeated phrases",
+            "script": "A long story told aloud may contain phrases that return at important moments. To a reader, the repetition might seem unnecessary. To a storyteller and a listening audience, however, it can provide structure. A familiar phrase signals where the story has reached and what kind of event may follow.\nRepeated language can also support memory. The storyteller doesn’t have to create every sentence from the beginning while speaking. A recurring description or introduction offers a stable pattern into which a new action can fit. This doesn’t mean that every performance is identical. Details may change with the occasion, the audience, or the time available.\nThink of a repeated phrase as a framework rather than a recording played back word for word. The framework can remain recognizable while allowing variation. For listeners, that combination can make a long performance easier to follow: familiar elements provide orientation, while changing elements sustain interest.\nWhen researchers compare spoken versions of a story, therefore, differences are not always signs of poor memory. Some variation may be part of the practice itself. The interesting question is how performers combine stability and change, keeping enough shared structure for recognition while shaping a particular telling for the people who are present.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 29,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l1-academic-talk2-q4",
+          "type": "choice",
+          "prompt": "What can be inferred about differences between versions?",
+          "options": [
+            "They necessarily show that the performers forgot the plot",
+            "They are caused only by the length of the original text",
+            "They prevent audiences from recognizing the story",
+            "They may reflect adaptation to a particular occasion"
+          ],
+          "answer": 3,
+          "explanation": "Some variation belongs to the storytelling practice rather than error.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "Remembering a story’s repeated phrases",
+          "stimulus": {
+            "id": "last-day-03-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Remembering a story’s repeated phrases",
+            "script": "A long story told aloud may contain phrases that return at important moments. To a reader, the repetition might seem unnecessary. To a storyteller and a listening audience, however, it can provide structure. A familiar phrase signals where the story has reached and what kind of event may follow.\nRepeated language can also support memory. The storyteller doesn’t have to create every sentence from the beginning while speaking. A recurring description or introduction offers a stable pattern into which a new action can fit. This doesn’t mean that every performance is identical. Details may change with the occasion, the audience, or the time available.\nThink of a repeated phrase as a framework rather than a recording played back word for word. The framework can remain recognizable while allowing variation. For listeners, that combination can make a long performance easier to follow: familiar elements provide orientation, while changing elements sustain interest.\nWhen researchers compare spoken versions of a story, therefore, differences are not always signs of poor memory. Some variation may be part of the practice itself. The interesting question is how performers combine stability and change, keeping enough shared structure for recognition while shaping a particular telling for the people who are present.",
+            "preparedPath": "./last-day/media/last-day-03-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 30,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "items": [
+        {
+          "id": "last-day-03-l2-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Several people know the area well.",
+            "I let my friend use my ticket.",
+            "Certainly. What’s the best number to reach you on?",
+            "The place is close to the station."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could you let me know if a place becomes available?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l2-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Could you let me know if a place becomes available?",
+            "preparedPath": "./last-day/media/last-day-03-l2-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "What would you like to change about it?",
+            "I’m trying to keep the date in mind.",
+            "I had it printed at the copy shop.",
+            "The mind is the topic of tomorrow’s lecture."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: That’s not quite what I had in mind.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l2-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "That’s not quite what I had in mind.",
+            "preparedPath": "./last-day/media/last-day-03-l2-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, but it’s returned when you bring the camera back.",
+            "The bank is on the ground floor.",
+            "I took several photographs on the trip.",
+            "The camera has a useful zoom setting."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Do you take a deposit when I borrow the camera?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l2-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "Do you take a deposit when I borrow the camera?",
+            "preparedPath": "./last-day/media/last-day-03-l2-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Then we should confirm it before inviting everyone.",
+            "I booked it through the usual website.",
+            "The room contains enough chairs.",
+            "Everyone liked the invitation design."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: The room booking is only provisional.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l2-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "The room booking is only provisional.",
+            "preparedPath": "./last-day/media/last-day-03-l2-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The first hour of class is a discussion.",
+            "I checked out two books yesterday.",
+            "At least we can come back tomorrow morning.",
+            "The opening paragraph explains the problem."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I should have checked the opening hours first.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-03-l2-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "I should have checked the opening hours first.",
+            "preparedPath": "./last-day/media/last-day-03-l2-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-conversation1-q1",
+          "type": "choice",
+          "prompt": "Why might the partner’s reaction be insufficient?",
+          "options": [
+            "She is responsible for drawing the final diagram",
+            "Her explanation will be included in the workshop",
+            "Her prior knowledge may help her interpret unclear parts",
+            "She has not seen the equipment being used"
+          ],
+          "answer": 2,
+          "explanation": "A familiar user can fill gaps that a beginner cannot.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Testing an explanation",
+          "stimulus": {
+            "id": "last-day-03-l2-conversation1",
+            "kind": "conversation",
+            "title": "Testing an explanation",
+            "script": "Man: I’ve made a diagram for the workshop, but I’m not sure it’s clear enough.\nWoman: Have you shown it to anyone who hasn’t done the activity before?\nMan: Only to my project partner, and she understood it.\nWoman: She already knows how the equipment works. Ask someone new to explain what they think each arrow means.\nMan: Without me talking them through it?\nWoman: Exactly. Then you’ll see which parts of the diagram actually communicate the steps on their own.",
+            "preparedPath": "./last-day/media/last-day-03-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-conversation1-q2",
+          "type": "choice",
+          "prompt": "What test does the woman suggest?",
+          "options": [
+            "Explain each step before asking for a reaction",
+            "Ask the partner to memorize the written instructions",
+            "Let a beginner interpret the diagram without guidance",
+            "Remove every arrow before showing the diagram"
+          ],
+          "answer": 2,
+          "explanation": "An unaided interpretation tests what the diagram communicates.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Testing an explanation",
+          "stimulus": {
+            "id": "last-day-03-l2-conversation1",
+            "kind": "conversation",
+            "title": "Testing an explanation",
+            "script": "Man: I’ve made a diagram for the workshop, but I’m not sure it’s clear enough.\nWoman: Have you shown it to anyone who hasn’t done the activity before?\nMan: Only to my project partner, and she understood it.\nWoman: She already knows how the equipment works. Ask someone new to explain what they think each arrow means.\nMan: Without me talking them through it?\nWoman: Exactly. Then you’ll see which parts of the diagram actually communicate the steps on their own.",
+            "preparedPath": "./last-day/media/last-day-03-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-conversation2-q1",
+          "type": "choice",
+          "prompt": "Why is the indoor role suitable for the woman?",
+          "options": [
+            "It avoids the extended outdoor standing she cannot do",
+            "It lets her give advice without a contact list",
+            "It requires no interaction with visitors",
+            "It takes place after all visitors have left"
+          ],
+          "answer": 0,
+          "explanation": "The indoor information table is an alternative to standing outside.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "An alternative volunteering role",
+          "stimulus": {
+            "id": "last-day-03-l2-conversation2",
+            "kind": "conversation",
+            "title": "An alternative volunteering role",
+            "script": "Woman: I’d like to help at the open day, but I can’t stand outside for the whole afternoon.\nMan: We also need someone at the indoor information table.\nWoman: Would I have to answer questions about every department?\nMan: No, you’d give visitors the program and direct specialist questions to the right desk. We’ll have a contact list.\nWoman: That sounds manageable. Is there any training?\nMan: A short briefing at eleven. The visitors start arriving at noon.\nWoman: Then please put my name down.",
+            "preparedPath": "./last-day/media/last-day-03-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-conversation2-q2",
+          "type": "choice",
+          "prompt": "What will she mainly do?",
+          "options": [
+            "Provide general information and direct specialist questions",
+            "Give detailed talks about every department",
+            "Train volunteers who arrive after noon",
+            "Organize transport for visitors"
+          ],
+          "answer": 0,
+          "explanation": "Her job is programs and referrals, not specialist advice.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "An alternative volunteering role",
+          "stimulus": {
+            "id": "last-day-03-l2-conversation2",
+            "kind": "conversation",
+            "title": "An alternative volunteering role",
+            "script": "Woman: I’d like to help at the open day, but I can’t stand outside for the whole afternoon.\nMan: We also need someone at the indoor information table.\nWoman: Would I have to answer questions about every department?\nMan: No, you’d give visitors the program and direct specialist questions to the right desk. We’ll have a contact list.\nWoman: That sounds manageable. Is there any training?\nMan: A short briefing at eleven. The visitors start arriving at noon.\nWoman: Then please put my name down.",
+            "preparedPath": "./last-day/media/last-day-03-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-announcement1-q1",
+          "type": "choice",
+          "prompt": "What remains the same during the relocation?",
+          "options": [
+            "The place where passengers should wait",
+            "The color of the permanent stop sign",
+            "The bus schedule and route numbers",
+            "Access to the usual shelter"
+          ],
+          "answer": 2,
+          "explanation": "Only the stop location changes; times and route numbers do not.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Changes near a bus stop",
+          "stimulus": {
+            "id": "last-day-03-l2-announcement1",
+            "kind": "announcement",
+            "title": "Changes near a bus stop",
+            "script": "From Wednesday, the south-gate bus stop will be temporarily relocated to the corner beside the pharmacy. The usual stop is inside the roadworks area, so please do not wait there even if you can still see the shelter. Bus times and route numbers are unchanged. The temporary stop has a yellow sign, and a staff member will be there during the first morning to answer questions. We expect the usual stop to reopen next week.",
+            "preparedPath": "./last-day/media/last-day-03-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-announcement1-q2",
+          "type": "choice",
+          "prompt": "Why does the speaker mention the visible shelter?",
+          "options": [
+            "To prevent passengers from waiting at the closed stop",
+            "To tell passengers where staff will distribute signs",
+            "To explain why the pharmacy is changing its hours",
+            "To suggest a place to wait if a bus is late"
+          ],
+          "answer": 0,
+          "explanation": "Seeing the shelter should not be taken as permission to use that stop.",
+          "skill": "purpose",
+          "task": "announcement",
+          "title": "Changes near a bus stop",
+          "stimulus": {
+            "id": "last-day-03-l2-announcement1",
+            "kind": "announcement",
+            "title": "Changes near a bus stop",
+            "script": "From Wednesday, the south-gate bus stop will be temporarily relocated to the corner beside the pharmacy. The usual stop is inside the roadworks area, so please do not wait there even if you can still see the shelter. Bus times and route numbers are unchanged. The temporary stop has a yellow sign, and a staff member will be there during the first morning to answer questions. We expect the usual stop to reopen next week.",
+            "preparedPath": "./last-day/media/last-day-03-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-announcement2-q1",
+          "type": "choice",
+          "prompt": "What is the main purpose of the recording?",
+          "options": [
+            "To replace the next rehearsal with public feedback",
+            "To help participants review their performance timing",
+            "To select a new camera position during the session",
+            "To advertise the group on social media"
+          ],
+          "answer": 1,
+          "explanation": "It is an internal review recording.",
+          "skill": "main idea",
+          "task": "announcement",
+          "title": "A rehearsal recording",
+          "stimulus": {
+            "id": "last-day-03-l2-announcement2",
+            "kind": "announcement",
+            "title": "A rehearsal recording",
+            "script": "We’ll record today’s rehearsal so that you can review the timing of your parts. This recording is for the group only and won’t be posted publicly. Please do not share clips on social media. You’ll receive a private link tomorrow, and you can tell me if there is a section you want to discuss in the next session. We’re using a fixed camera, so stay within the marked area when you are speaking.",
+            "preparedPath": "./last-day/media/last-day-03-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-announcement2-q2",
+          "type": "choice",
+          "prompt": "Why should speakers stay inside the marked area?",
+          "options": [
+            "The private link works only in that area",
+            "They need to avoid being included in the recording",
+            "Other performers are using the same microphone",
+            "The camera will not follow them around"
+          ],
+          "answer": 3,
+          "explanation": "A fixed camera frames a specific area.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A rehearsal recording",
+          "stimulus": {
+            "id": "last-day-03-l2-announcement2",
+            "kind": "announcement",
+            "title": "A rehearsal recording",
+            "script": "We’ll record today’s rehearsal so that you can review the timing of your parts. This recording is for the group only and won’t be posted publicly. Please do not share clips on social media. You’ll receive a private link tomorrow, and you can tell me if there is a section you want to discuss in the next session. We’re using a fixed camera, so stay within the marked area when you are speaking.",
+            "preparedPath": "./last-day/media/last-day-03-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What misunderstanding does the talk address?",
+          "options": [
+            "Believing that lamps can produce both heat and light",
+            "Recognizing that a complete path is needed",
+            "Confusing energy transfer with charge being used up",
+            "Assuming that a switch can break a circuit"
+          ],
+          "answer": 2,
+          "explanation": "The speaker explicitly distinguishes energy transfer from loss of charge.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "A battery in an electrical circuit",
+          "stimulus": {
+            "id": "last-day-03-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A battery in an electrical circuit",
+            "script": "A battery is often described as a container of electricity. That image is convenient, but it can make some aspects of a circuit confusing. A more useful starting point is that the battery provides a difference that can drive charge around a complete conducting path. If the path is broken, the ordinary circuit no longer carries a continuous current.\nConsider a simple lamp connected to a battery through a switch. Closing the switch completes the path, and energy is transferred to the lamp, where some becomes light and some becomes heat. The charge itself is not simply used up as it passes through the lamp. Confusing the transfer of energy with the disappearance of charge leads to mistaken predictions about what happens in other parts of the circuit.\nModels and analogies can help, provided that we keep their limits in view. Comparing a circuit to water moving around a loop can suggest why a continuous path matters. But not every feature of water in a pipe has an exact electrical counterpart.\nThe purpose of a model is to support a particular line of reasoning. When it begins to suggest the wrong answer, we need to refine it rather than insist that the real system behave exactly like the familiar example.",
+            "preparedPath": "./last-day/media/last-day-03-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "What does closing the switch do in the example?",
+          "options": [
+            "Replace the battery’s stored materials",
+            "Complete the conducting path",
+            "Stop energy from reaching the lamp",
+            "Remove charge from the other wires"
+          ],
+          "answer": 1,
+          "explanation": "The closed switch completes the loop.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "A battery in an electrical circuit",
+          "stimulus": {
+            "id": "last-day-03-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A battery in an electrical circuit",
+            "script": "A battery is often described as a container of electricity. That image is convenient, but it can make some aspects of a circuit confusing. A more useful starting point is that the battery provides a difference that can drive charge around a complete conducting path. If the path is broken, the ordinary circuit no longer carries a continuous current.\nConsider a simple lamp connected to a battery through a switch. Closing the switch completes the path, and energy is transferred to the lamp, where some becomes light and some becomes heat. The charge itself is not simply used up as it passes through the lamp. Confusing the transfer of energy with the disappearance of charge leads to mistaken predictions about what happens in other parts of the circuit.\nModels and analogies can help, provided that we keep their limits in view. Comparing a circuit to water moving around a loop can suggest why a continuous path matters. But not every feature of water in a pipe has an exact electrical counterpart.\nThe purpose of a model is to support a particular line of reasoning. When it begins to suggest the wrong answer, we need to refine it rather than insist that the real system behave exactly like the familiar example.",
+            "preparedPath": "./last-day/media/last-day-03-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "Why is water moving around a loop mentioned?",
+          "options": [
+            "As evidence that electrical wires contain moving water",
+            "As an analogy that explains one feature but has limitations",
+            "As a replacement for investigating actual circuits",
+            "As a demonstration that all models give identical predictions"
+          ],
+          "answer": 1,
+          "explanation": "The loop analogy helps with continuity but is not exact.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "A battery in an electrical circuit",
+          "stimulus": {
+            "id": "last-day-03-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A battery in an electrical circuit",
+            "script": "A battery is often described as a container of electricity. That image is convenient, but it can make some aspects of a circuit confusing. A more useful starting point is that the battery provides a difference that can drive charge around a complete conducting path. If the path is broken, the ordinary circuit no longer carries a continuous current.\nConsider a simple lamp connected to a battery through a switch. Closing the switch completes the path, and energy is transferred to the lamp, where some becomes light and some becomes heat. The charge itself is not simply used up as it passes through the lamp. Confusing the transfer of energy with the disappearance of charge leads to mistaken predictions about what happens in other parts of the circuit.\nModels and analogies can help, provided that we keep their limits in view. Comparing a circuit to water moving around a loop can suggest why a continuous path matters. But not every feature of water in a pipe has an exact electrical counterpart.\nThe purpose of a model is to support a particular line of reasoning. When it begins to suggest the wrong answer, we need to refine it rather than insist that the real system behave exactly like the familiar example.",
+            "preparedPath": "./last-day/media/last-day-03-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-l2-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "What does the speaker suggest doing when a model misleads?",
+          "options": [
+            "Revise the model’s use or limits",
+            "Reject the observations of the real system",
+            "Apply the model more literally to every situation",
+            "Avoid using any familiar examples in explanation"
+          ],
+          "answer": 0,
+          "explanation": "A model should be refined when its implications become unhelpful.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "A battery in an electrical circuit",
+          "stimulus": {
+            "id": "last-day-03-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A battery in an electrical circuit",
+            "script": "A battery is often described as a container of electricity. That image is convenient, but it can make some aspects of a circuit confusing. A more useful starting point is that the battery provides a difference that can drive charge around a complete conducting path. If the path is broken, the ordinary circuit no longer carries a continuous current.\nConsider a simple lamp connected to a battery through a switch. Closing the switch completes the path, and energy is transferred to the lamp, where some becomes light and some becomes heat. The charge itself is not simply used up as it passes through the lamp. Confusing the transfer of energy with the disappearance of charge leads to mistaken predictions about what happens in other parts of the circuit.\nModels and analogies can help, provided that we keep their limits in view. Comparing a circuit to water moving around a loop can suggest why a continuous path matters. But not every feature of water in a pipe has an exact electrical counterpart.\nThe purpose of a model is to support a particular line of reasoning. When it begins to suggest the wrong answer, we need to refine it rather than insist that the real system behave exactly like the familiar example.",
+            "preparedPath": "./last-day/media/last-day-03-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-03-w1",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The shuttle goes to the sports center.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "often",
+            "does",
+            "it",
+            "leave",
+            "How",
+            "the main gate"
+          ],
+          "solution": [
+            "How",
+            "often",
+            "does",
+            "it",
+            "leave",
+            "the main gate"
+          ],
+          "correct": [
+            4,
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "explanation": "How often asks about frequency; does takes the base verb leave.",
+          "number": 1,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w2",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I’m unsure which version of the form is current.",
+          "frame": [
+            "Please check",
+            "."
+          ],
+          "chunks": [
+            "date",
+            "has",
+            "the latest",
+            "one",
+            "which",
+            "at the top"
+          ],
+          "solution": [
+            "which",
+            "one",
+            "has",
+            "the latest",
+            "date",
+            "at the top"
+          ],
+          "correct": [
+            4,
+            3,
+            1,
+            2,
+            0,
+            5
+          ],
+          "explanation": "Which one is the subject of the embedded clause.",
+          "number": 2,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w3",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The new students have not visited the laboratory.",
+          "frame": [
+            "They need",
+            "."
+          ],
+          "chunks": [
+            "is kept",
+            "them",
+            "someone",
+            "the safety equipment",
+            "to show",
+            "where"
+          ],
+          "solution": [
+            "someone",
+            "to show",
+            "them",
+            "where",
+            "the safety equipment",
+            "is kept"
+          ],
+          "correct": [
+            2,
+            4,
+            1,
+            5,
+            3,
+            0
+          ],
+          "explanation": "Someone takes an infinitival modifier; where introduces a passive clause.",
+          "number": 3,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w4",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I think the interview went well.",
+          "frame": [
+            "The researcher",
+            "."
+          ],
+          "chunks": [
+            "seemed",
+            "I described",
+            "interested",
+            "in",
+            "the examples",
+            "that"
+          ],
+          "solution": [
+            "seemed",
+            "interested",
+            "in",
+            "the examples",
+            "that",
+            "I described"
+          ],
+          "correct": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            1
+          ],
+          "explanation": "Interested takes in; that introduces an object relative clause.",
+          "number": 4,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w5",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Our class will submit one joint report.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "the final wording",
+            "all",
+            "agreed",
+            "on",
+            "Have",
+            "the group members",
+            "agree"
+          ],
+          "solution": [
+            "Have",
+            "all",
+            "the group members",
+            "agreed",
+            "on",
+            "the final wording"
+          ],
+          "correct": [
+            4,
+            1,
+            5,
+            2,
+            3,
+            0
+          ],
+          "explanation": "Present perfect question order uses Have before the subject and agreed as participle.",
+          "number": 5,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w6",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The poster looked different after printing.",
+          "frame": [
+            "We discovered",
+            "."
+          ],
+          "chunks": [
+            "the colors",
+            "on the screen",
+            "were",
+            "than",
+            "that",
+            "less distinct"
+          ],
+          "solution": [
+            "that",
+            "the colors",
+            "were",
+            "less distinct",
+            "than",
+            "on the screen"
+          ],
+          "correct": [
+            4,
+            0,
+            2,
+            5,
+            3,
+            1
+          ],
+          "explanation": "The reported discovery contains a comparison with less distinct than.",
+          "number": 6,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w7",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Some participants could not hear the instructions.",
+          "frame": [
+            "The speaker",
+            "."
+          ],
+          "chunks": [
+            "asked",
+            "to",
+            "the microphone",
+            "closer",
+            "them",
+            "to move"
+          ],
+          "solution": [
+            "asked",
+            "them",
+            "to move",
+            "closer",
+            "to",
+            "the microphone"
+          ],
+          "correct": [
+            0,
+            4,
+            5,
+            3,
+            1,
+            2
+          ],
+          "explanation": "Asked takes an object followed by a to-infinitive.",
+          "number": 7,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w8",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "We can meet after your lecture.",
+          "frame": [
+            "I will",
+            "."
+          ],
+          "chunks": [
+            "talking to the tutor",
+            "until",
+            "you",
+            "wait",
+            "near the entrance",
+            "have finished"
+          ],
+          "solution": [
+            "wait",
+            "near the entrance",
+            "until",
+            "you",
+            "have finished",
+            "talking to the tutor"
+          ],
+          "correct": [
+            3,
+            4,
+            1,
+            2,
+            5,
+            0
+          ],
+          "explanation": "Until introduces a time clause; present perfect can mark its completed action.",
+          "number": 8,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w9",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The article refers to several earlier studies.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "provide",
+            "for the claim",
+            "evidence",
+            "of those studies",
+            "Which",
+            "provides",
+            "the strongest"
+          ],
+          "solution": [
+            "Which",
+            "of those studies",
+            "provides",
+            "the strongest",
+            "evidence",
+            "for the claim"
+          ],
+          "correct": [
+            4,
+            3,
+            5,
+            6,
+            2,
+            1
+          ],
+          "explanation": "Which of those studies has a singular head, requiring provides.",
+          "number": 9,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-w10",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The room was available, but nobody told us.",
+          "frame": [
+            "Had we known,",
+            "."
+          ],
+          "chunks": [
+            "would have held",
+            "there",
+            "cancelling it",
+            "instead of",
+            "we",
+            "the meeting"
+          ],
+          "solution": [
+            "we",
+            "would have held",
+            "the meeting",
+            "there",
+            "instead of",
+            "cancelling it"
+          ],
+          "correct": [
+            4,
+            0,
+            5,
+            1,
+            3,
+            2
+          ],
+          "explanation": "Had we known is an inverted past condition; the result uses would have held.",
+          "number": 10,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "last-day-03-w11",
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Alex, residence activities organizer",
+          "subject": "Helping with the residence welcome event",
+          "scenario": "You agreed to help visitors find their way around at a residence welcome event. A change to your class schedule means you cannot be present for the first hour. You still want to contribute, and you know some preparation work is needed before the event. Write to Alex.",
+          "points": [
+            "Explain the schedule conflict and state when you can attend.",
+            "Suggest how you could help before or during the event.",
+            "Ask Alex to confirm which arrangement would be most useful."
+          ],
+          "number": 11,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "last-day-03-w12",
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Professor Shah",
+          "question": "A city is creating information for visitors. It can invest in an interactive phone service or in more signs and printed maps around the city. Which investment would be more valuable? Support your view, considering how different visitors might use the information.",
+          "students": [
+            [
+              "Mina",
+              "A phone service would be better because information can be updated immediately. It could also suggest routes based on a visitor’s interests. Printed maps may be out of date before they are distributed."
+            ],
+            [
+              "Leo",
+              "I prefer better signs and maps. They work without a charged phone or internet connection. Clear information in the environment also lets people look around and talk to each other rather than constantly checking a screen."
+            ]
+          ],
+          "number": 12,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are receiving instructions for a student field visit. Repeat each instruction exactly once.",
+      "items": [
+        {
+          "id": "last-day-03-s1",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Our coach leaves from the east gate.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-03-repeat1",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Our coach leaves from the east gate.",
+            "preparedPath": "./last-day/media/last-day-03-repeat1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s2",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please arrive ten minutes before the departure time.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-03-repeat2",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Please arrive ten minutes before the departure time.",
+            "preparedPath": "./last-day/media/last-day-03-repeat2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s3",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The group will stop for lunch near the river.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-03-repeat3",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "The group will stop for lunch near the river.",
+            "preparedPath": "./last-day/media/last-day-03-repeat3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s4",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "You should bring comfortable shoes and something to write with.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-03-repeat4",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "You should bring comfortable shoes and something to write with.",
+            "preparedPath": "./last-day/media/last-day-03-repeat4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s5",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Photographs are permitted unless a sign says that they are restricted.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-03-repeat5",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Photographs are permitted unless a sign says that they are restricted.",
+            "preparedPath": "./last-day/media/last-day-03-repeat5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s6",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If you become separated from the group, return to the main information desk.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-03-repeat6",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "If you become separated from the group, return to the main information desk.",
+            "preparedPath": "./last-day/media/last-day-03-repeat6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s7",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Before we begin the return journey, make sure that all the members of your group are present.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-03-repeat7",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Before we begin the return journey, make sure that all the members of your group are present.",
+            "preparedPath": "./last-day/media/last-day-03-repeat7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "You have volunteered for a study about planning everyday journeys and visits.",
+      "items": [
+        {
+          "id": "last-day-03-s8",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Think of a place you enjoy visiting. Describe how you usually get there and what makes the visit worthwhile.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-03-interview1",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Think of a place you enjoy visiting. Describe how you usually get there and what makes the visit worthwhile.",
+            "preparedPath": "./last-day/media/last-day-03-interview1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s9",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Tell me about a journey that did not go as planned. What happened, and what did you do?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-03-interview2",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Tell me about a journey that did not go as planned. What happened, and what did you do?",
+            "preparedPath": "./last-day/media/last-day-03-interview2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s10",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "When visiting an unfamiliar place, is it better to plan every activity or leave some time unplanned? Give reasons for your answer.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-03-interview3",
+            "kind": "interview",
+            "title": "interview",
+            "script": "When visiting an unfamiliar place, is it better to plan every activity or leave some time unplanned? Give reasons for your answer.",
+            "preparedPath": "./last-day/media/last-day-03-interview3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-03-s11",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Imagine you are organizing a one-day visit for people with different interests. How would you decide on a plan that could work for the group?",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-03-interview4",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Imagine you are organizing a one-day visit for people with different interests. How would you decide on a plan that could work for the group?",
+            "preparedPath": "./last-day/media/last-day-03-interview4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-03",
+          "difficulty": "mixed practice"
+        }
+      ]
+    }
+  ]
+}

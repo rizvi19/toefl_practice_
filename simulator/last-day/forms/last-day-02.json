@@ -1,0 +1,2639 @@
+{
+  "id": "last-day-02",
+  "version": 1,
+  "title": "Last Day Mock 02 · Learning and Change",
+  "description": "Original fixed mixed-difficulty practice modeled on the guide’s task types and content ranges.",
+  "original": true,
+  "adaptive": false,
+  "collection": "last-day",
+  "taskIntroductions": true,
+  "baseCount": 120,
+  "audioLeadInSeconds": 3,
+  "repeatLeadInSeconds": 3,
+  "stages": [
+    {
+      "id": "reading-1",
+      "section": "Reading",
+      "label": "Module 1",
+      "seconds": 1140,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-02-r1-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Many animals are active at night rather than during the day. This ",
+            {
+              "pre": "behav",
+              "answer": "ior"
+            },
+            " can help them ",
+            {
+              "pre": "av",
+              "answer": "oid"
+            },
+            " the hottest hours, but it also ",
+            {
+              "pre": "pres",
+              "answer": "ents"
+            },
+            " challenges. Finding food in ",
+            {
+              "pre": "dark",
+              "answer": "ness"
+            },
+            " requires senses that work ",
+            {
+              "pre": "un",
+              "answer": "der"
+            },
+            " different conditions. Some animals depend on ",
+            {
+              "pre": "hear",
+              "answer": "ing"
+            },
+            ", ",
+            {
+              "pre": "wh",
+              "answer": "ile"
+            },
+            " others detect weak ",
+            {
+              "pre": "chan",
+              "answer": "ges"
+            },
+            " in light. These abilities are not equally ",
+            {
+              "pre": "devel",
+              "answer": "oped"
+            },
+            " in every species. They reflect the particular environments in which the animals live and the kinds of ",
+            {
+              "pre": "resou",
+              "answer": "rces"
+            },
+            " that are available to them."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-c2",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "A museum label is short, but writing it requires several decisions. The writer must ",
+            {
+              "pre": "sel",
+              "answer": "ect"
+            },
+            " facts that ",
+            {
+              "pre": "expl",
+              "answer": "ain"
+            },
+            " why an object matters without ",
+            {
+              "pre": "overwhe",
+              "answer": "lming"
+            },
+            " a visitor. A technical term may be useful ",
+            {
+              "pre": "i",
+              "answer": "f"
+            },
+            " its ",
+            {
+              "pre": "mean",
+              "answer": "ing"
+            },
+            " is explained clearly. However, a long list of dates can draw ",
+            {
+              "pre": "att",
+              "answer": "ention"
+            },
+            " away from the central idea. Writers therefore ",
+            {
+              "pre": "rev",
+              "answer": "ise"
+            },
+            " labels after observing how people ",
+            {
+              "pre": "resp",
+              "answer": "ond"
+            },
+            " to them. A successful label encourages closer ",
+            {
+              "pre": "obser",
+              "answer": "vation"
+            },
+            " of the object rather ",
+            {
+              "pre": "th",
+              "answer": "an"
+            },
+            " simply repeating information that is already visible."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 11,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-d0-q1",
+          "type": "choice",
+          "prompt": "Why must interested students complete the form?",
+          "options": [
+            "The director needs payment before attending",
+            "The original screening time has been cancelled",
+            "The replacement room has limited seating",
+            "The documentary has changed its subject"
+          ],
+          "answer": 2,
+          "explanation": "The new room holds fewer people.",
+          "skill": "purpose",
+          "task": "daily-life",
+          "title": "Message: documentary screening",
+          "passage": "Hi everyone,\nWe have permission to show the student documentary in Room 118 on Wednesday. The room fits fewer people than our usual space, so please use the sign-up form even if you already said you were coming. We will repeat the screening at 7:30 if the 6 p.m. session fills. The director can attend only the first session; questions for her can also be sent through the form. We will share her written replies with both groups afterward.\nLena",
+          "documentType": "notice",
+          "stimulusId": "last-day-02-r1-d0",
+          "number": 21,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-d0-q2",
+          "type": "choice",
+          "prompt": "How can students at a possible second screening get the director’s responses?",
+          "options": [
+            "By reading written replies shared after the event",
+            "By meeting her after the second screening",
+            "By joining the first screening without registering",
+            "By requesting an additional live discussion"
+          ],
+          "answer": 0,
+          "explanation": "The director attends only the first session, but replies will be shared.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Message: documentary screening",
+          "passage": "Hi everyone,\nWe have permission to show the student documentary in Room 118 on Wednesday. The room fits fewer people than our usual space, so please use the sign-up form even if you already said you were coming. We will repeat the screening at 7:30 if the 6 p.m. session fills. The director can attend only the first session; questions for her can also be sent through the form. We will share her written replies with both groups afterward.\nLena",
+          "documentType": "notice",
+          "stimulusId": "last-day-02-r1-d0",
+          "number": 22,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-d1-q1",
+          "type": "choice",
+          "prompt": "What should students remove from their notebooks?",
+          "options": [
+            "Their original observations",
+            "Their names",
+            "Drawings made during the visit",
+            "Corrections added after the visit"
+          ],
+          "answer": 1,
+          "explanation": "Assigned numbers replace names to keep the exchange anonymous.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Course page: field notebook exchange",
+          "passage": "FIELD NOTEBOOK EXCHANGE\nBring one notebook containing observations from the river visit to Tuesday’s seminar. We will exchange notebooks anonymously, so replace your name with your assigned number. Include the original notes, even if you later corrected them. The purpose is to see how observations develop, not to compare handwriting or drawing skill. If you missed the visit, use the photographs on the course page to produce a separate set of observations; label this clearly as a photograph-based exercise. No additional visit is required.",
+          "documentType": "notice",
+          "stimulusId": "last-day-02-r1-d1",
+          "number": 23,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-d1-q2",
+          "type": "choice",
+          "prompt": "Why are students asked to include original notes?",
+          "options": [
+            "To examine how their observations changed",
+            "To assess the quality of their handwriting",
+            "To determine who needs another river visit",
+            "To identify who completed each notebook"
+          ],
+          "answer": 0,
+          "explanation": "The activity concerns the development of observations.",
+          "skill": "rhetorical purpose",
+          "task": "daily-life",
+          "title": "Course page: field notebook exchange",
+          "passage": "FIELD NOTEBOOK EXCHANGE\nBring one notebook containing observations from the river visit to Tuesday’s seminar. We will exchange notebooks anonymously, so replace your name with your assigned number. Include the original notes, even if you later corrected them. The purpose is to see how observations develop, not to compare handwriting or drawing skill. If you missed the visit, use the photographs on the course page to produce a separate set of observations; label this clearly as a photograph-based exercise. No additional visit is required.",
+          "documentType": "notice",
+          "stimulusId": "last-day-02-r1-d1",
+          "number": 24,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-d1-q3",
+          "type": "choice",
+          "prompt": "What should a student who missed the trip do?",
+          "options": [
+            "Submit photographs without written observations",
+            "Make a new visit before attending the seminar",
+            "Clearly label observations made from the provided images",
+            "Copy notes from a student who attended the trip"
+          ],
+          "answer": 2,
+          "explanation": "The alternative is a labeled photograph-based observation exercise.",
+          "skill": "detail",
+          "task": "daily-life",
+          "title": "Course page: field notebook exchange",
+          "passage": "FIELD NOTEBOOK EXCHANGE\nBring one notebook containing observations from the river visit to Tuesday’s seminar. We will exchange notebooks anonymously, so replace your name with your assigned number. Include the original notes, even if you later corrected them. The purpose is to see how observations develop, not to compare handwriting or drawing skill. If you missed the visit, use the photographs on the course page to produce a separate set of observations; label this clearly as a photograph-based exercise. No additional visit is required.",
+          "documentType": "notice",
+          "stimulusId": "last-day-02-r1-d1",
+          "number": 25,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a0-q1",
+          "type": "choice",
+          "prompt": "What is the passage mainly explaining?",
+          "options": [
+            "Why the earliest wet period offers the best opportunity for the whole population",
+            "How soil prevents eggs from receiving water",
+            "How aquatic animals predict which wet period will last longest",
+            "Why delayed hatching can be useful in an unpredictable habitat"
+          ],
+          "answer": 3,
+          "explanation": "The passage explains the benefits and costs of spreading hatching across wet periods.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Life in a temporary pond",
+          "passage": "Some ponds contain water for only part of the year. They fill after rain and later shrink or dry out. For animals living in them, the disappearance of water is not merely an occasional emergency; it is a recurring feature of the habitat. Certain small aquatic animals survive these dry periods as resistant eggs, which remain in the soil until water returns.\nIt might seem that all such eggs should hatch as soon as the pond fills. However, a brief rain can create a pond that disappears before the young animals have time to reproduce. If only some eggs hatch during one filling, other eggs remain available for a later opportunity. This spreads the risk across different wet periods, rather than committing every potential offspring to the same uncertain event.\nThe strategy has a cost. An egg that stays dormant misses an opportunity if that particular wet period turns out to be long and favorable. The balance between immediate reproduction and waiting therefore depends on how predictable local conditions are.\nTemporary ponds demonstrate that an apparently inactive stage can be an important part of an animal’s life cycle. Survival depends not only on what happens while water is present, but also on how a population persists between those periods.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a0",
+          "number": 26,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a0-q2",
+          "type": "choice",
+          "prompt": "Why may a newly filled pond be unsuitable for reproduction?",
+          "options": [
+            "Its soil may prevent adults from returning",
+            "It may contain too many dormant eggs to support growth",
+            "It may dry before young animals can reproduce",
+            "Its water may remain too deep throughout the year"
+          ],
+          "answer": 2,
+          "explanation": "A short-lived pond may not last through the reproductive cycle.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Life in a temporary pond",
+          "passage": "Some ponds contain water for only part of the year. They fill after rain and later shrink or dry out. For animals living in them, the disappearance of water is not merely an occasional emergency; it is a recurring feature of the habitat. Certain small aquatic animals survive these dry periods as resistant eggs, which remain in the soil until water returns.\nIt might seem that all such eggs should hatch as soon as the pond fills. However, a brief rain can create a pond that disappears before the young animals have time to reproduce. If only some eggs hatch during one filling, other eggs remain available for a later opportunity. This spreads the risk across different wet periods, rather than committing every potential offspring to the same uncertain event.\nThe strategy has a cost. An egg that stays dormant misses an opportunity if that particular wet period turns out to be long and favorable. The balance between immediate reproduction and waiting therefore depends on how predictable local conditions are.\nTemporary ponds demonstrate that an apparently inactive stage can be an important part of an animal’s life cycle. Survival depends not only on what happens while water is present, but also on how a population persists between those periods.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a0",
+          "number": 27,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a0-q3",
+          "type": "choice",
+          "prompt": "The word “dormant” is closest in meaning to",
+          "options": [
+            "unprotected",
+            "inactive",
+            "invisible",
+            "damaged"
+          ],
+          "answer": 1,
+          "explanation": "Dormant eggs wait without developing into active young animals.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Life in a temporary pond",
+          "passage": "Some ponds contain water for only part of the year. They fill after rain and later shrink or dry out. For animals living in them, the disappearance of water is not merely an occasional emergency; it is a recurring feature of the habitat. Certain small aquatic animals survive these dry periods as resistant eggs, which remain in the soil until water returns.\nIt might seem that all such eggs should hatch as soon as the pond fills. However, a brief rain can create a pond that disappears before the young animals have time to reproduce. If only some eggs hatch during one filling, other eggs remain available for a later opportunity. This spreads the risk across different wet periods, rather than committing every potential offspring to the same uncertain event.\nThe strategy has a cost. An egg that stays dormant misses an opportunity if that particular wet period turns out to be long and favorable. The balance between immediate reproduction and waiting therefore depends on how predictable local conditions are.\nTemporary ponds demonstrate that an apparently inactive stage can be an important part of an animal’s life cycle. Survival depends not only on what happens while water is present, but also on how a population persists between those periods.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a0",
+          "number": 28,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a0-q4",
+          "type": "choice",
+          "prompt": "What is a disadvantage of waiting to hatch?",
+          "options": [
+            "An egg can miss a favorable period",
+            "Every egg must remain dry for a full year",
+            "The population must find a different kind of habitat",
+            "The young animals lose their ability to reproduce"
+          ],
+          "answer": 0,
+          "explanation": "Dormancy sacrifices a potentially successful immediate opportunity.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Life in a temporary pond",
+          "passage": "Some ponds contain water for only part of the year. They fill after rain and later shrink or dry out. For animals living in them, the disappearance of water is not merely an occasional emergency; it is a recurring feature of the habitat. Certain small aquatic animals survive these dry periods as resistant eggs, which remain in the soil until water returns.\nIt might seem that all such eggs should hatch as soon as the pond fills. However, a brief rain can create a pond that disappears before the young animals have time to reproduce. If only some eggs hatch during one filling, other eggs remain available for a later opportunity. This spreads the risk across different wet periods, rather than committing every potential offspring to the same uncertain event.\nThe strategy has a cost. An egg that stays dormant misses an opportunity if that particular wet period turns out to be long and favorable. The balance between immediate reproduction and waiting therefore depends on how predictable local conditions are.\nTemporary ponds demonstrate that an apparently inactive stage can be an important part of an animal’s life cycle. Survival depends not only on what happens while water is present, but also on how a population persists between those periods.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a0",
+          "number": 29,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a0-q5",
+          "type": "choice",
+          "prompt": "What does the final paragraph emphasize?",
+          "options": [
+            "Dry periods are part of the life cycle rather than a gap in it",
+            "Temporary ponds offer more stable conditions than permanent ones",
+            "Pond animals are active even when no water is present",
+            "Individual eggs determine when rainfall will return"
+          ],
+          "answer": 0,
+          "explanation": "The conclusion includes the inactive stage in the explanation of persistence.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Life in a temporary pond",
+          "passage": "Some ponds contain water for only part of the year. They fill after rain and later shrink or dry out. For animals living in them, the disappearance of water is not merely an occasional emergency; it is a recurring feature of the habitat. Certain small aquatic animals survive these dry periods as resistant eggs, which remain in the soil until water returns.\nIt might seem that all such eggs should hatch as soon as the pond fills. However, a brief rain can create a pond that disappears before the young animals have time to reproduce. If only some eggs hatch during one filling, other eggs remain available for a later opportunity. This spreads the risk across different wet periods, rather than committing every potential offspring to the same uncertain event.\nThe strategy has a cost. An egg that stays dormant misses an opportunity if that particular wet period turns out to be long and favorable. The balance between immediate reproduction and waiting therefore depends on how predictable local conditions are.\nTemporary ponds demonstrate that an apparently inactive stage can be an important part of an animal’s life cycle. Survival depends not only on what happens while water is present, but also on how a population persists between those periods.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a0",
+          "number": 30,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a1-q1",
+          "type": "choice",
+          "prompt": "What is the main purpose of a reference pitch?",
+          "options": [
+            "To prove that historical music used incorrect frequencies",
+            "To remove differences between musical styles",
+            "To help musicians tune to a shared starting point",
+            "To make all instruments produce the same tone quality"
+          ],
+          "answer": 2,
+          "explanation": "A common reference supports coordination.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Why a musical pitch becomes a standard",
+          "passage": "Musicians playing together need a shared starting point for tuning. If two instruments use different reference pitches, a note with the same name may sound different on each. A standard pitch makes coordination easier, particularly when instruments and performers come from different places. Yet adopting a standard is not the same as proving that one frequency is uniquely correct for every musical purpose.\nInstrument construction can make a change expensive. An instrument designed for one pitch level may not perform equally well at another, and some instruments cannot be adjusted very far. A new standard can therefore require replacement or modification of equipment. These costs help explain why older conventions may remain in use even when a different convention offers advantages for wider cooperation.\nThe choice is also affected by the music being performed. A group interested in recreating an earlier style may deliberately select a reference different from the one used by a modern orchestra. In that setting, difference is a goal rather than a failure to coordinate, provided that the participating musicians agree with one another.\nA musical standard thus solves a practical problem of compatibility. Its success should be judged partly by whether it allows people and instruments to work together, not by whether it eliminates every alternative practice.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a1",
+          "number": 31,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a1-q2",
+          "type": "choice",
+          "prompt": "Why can adopting a new pitch standard be costly?",
+          "options": [
+            "A group must employ performers from different places",
+            "Some instruments need modification or replacement",
+            "Every instrument requires a new kind of written notation",
+            "Musicians must stop performing older compositions"
+          ],
+          "answer": 1,
+          "explanation": "Construction limits how far some instruments can be retuned.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Why a musical pitch becomes a standard",
+          "passage": "Musicians playing together need a shared starting point for tuning. If two instruments use different reference pitches, a note with the same name may sound different on each. A standard pitch makes coordination easier, particularly when instruments and performers come from different places. Yet adopting a standard is not the same as proving that one frequency is uniquely correct for every musical purpose.\nInstrument construction can make a change expensive. An instrument designed for one pitch level may not perform equally well at another, and some instruments cannot be adjusted very far. A new standard can therefore require replacement or modification of equipment. These costs help explain why older conventions may remain in use even when a different convention offers advantages for wider cooperation.\nThe choice is also affected by the music being performed. A group interested in recreating an earlier style may deliberately select a reference different from the one used by a modern orchestra. In that setting, difference is a goal rather than a failure to coordinate, provided that the participating musicians agree with one another.\nA musical standard thus solves a practical problem of compatibility. Its success should be judged partly by whether it allows people and instruments to work together, not by whether it eliminates every alternative practice.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a1",
+          "number": 32,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a1-q3",
+          "type": "choice",
+          "prompt": "The word “conventions” is closest in meaning to",
+          "options": [
+            "unusual performances",
+            "technical failures",
+            "established practices",
+            "public disagreements"
+          ],
+          "answer": 2,
+          "explanation": "Older conventions are previously established ways of choosing pitch.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Why a musical pitch becomes a standard",
+          "passage": "Musicians playing together need a shared starting point for tuning. If two instruments use different reference pitches, a note with the same name may sound different on each. A standard pitch makes coordination easier, particularly when instruments and performers come from different places. Yet adopting a standard is not the same as proving that one frequency is uniquely correct for every musical purpose.\nInstrument construction can make a change expensive. An instrument designed for one pitch level may not perform equally well at another, and some instruments cannot be adjusted very far. A new standard can therefore require replacement or modification of equipment. These costs help explain why older conventions may remain in use even when a different convention offers advantages for wider cooperation.\nThe choice is also affected by the music being performed. A group interested in recreating an earlier style may deliberately select a reference different from the one used by a modern orchestra. In that setting, difference is a goal rather than a failure to coordinate, provided that the participating musicians agree with one another.\nA musical standard thus solves a practical problem of compatibility. Its success should be judged partly by whether it allows people and instruments to work together, not by whether it eliminates every alternative practice.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a1",
+          "number": 33,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a1-q4",
+          "type": "choice",
+          "prompt": "Why might performers intentionally use a different reference?",
+          "options": [
+            "To recreate aspects of an earlier musical style",
+            "To prevent visiting musicians from joining them",
+            "To demonstrate that their instruments cannot be adjusted",
+            "To avoid agreeing on how instruments should be tuned"
+          ],
+          "answer": 0,
+          "explanation": "The third paragraph gives historical performance as a deliberate reason.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Why a musical pitch becomes a standard",
+          "passage": "Musicians playing together need a shared starting point for tuning. If two instruments use different reference pitches, a note with the same name may sound different on each. A standard pitch makes coordination easier, particularly when instruments and performers come from different places. Yet adopting a standard is not the same as proving that one frequency is uniquely correct for every musical purpose.\nInstrument construction can make a change expensive. An instrument designed for one pitch level may not perform equally well at another, and some instruments cannot be adjusted very far. A new standard can therefore require replacement or modification of equipment. These costs help explain why older conventions may remain in use even when a different convention offers advantages for wider cooperation.\nThe choice is also affected by the music being performed. A group interested in recreating an earlier style may deliberately select a reference different from the one used by a modern orchestra. In that setting, difference is a goal rather than a failure to coordinate, provided that the participating musicians agree with one another.\nA musical standard thus solves a practical problem of compatibility. Its success should be judged partly by whether it allows people and instruments to work together, not by whether it eliminates every alternative practice.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a1",
+          "number": 34,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r1-a1-q5",
+          "type": "choice",
+          "prompt": "What can be inferred about the author’s view of standards?",
+          "options": [
+            "A standard is useful only if it is inexpensive to introduce",
+            "Musical standards have no value outside large orchestras",
+            "A successful standard must replace every older practice",
+            "A useful standard can coexist with purposeful alternatives"
+          ],
+          "answer": 3,
+          "explanation": "The passage distinguishes practical coordination from eliminating all alternatives.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Why a musical pitch becomes a standard",
+          "passage": "Musicians playing together need a shared starting point for tuning. If two instruments use different reference pitches, a note with the same name may sound different on each. A standard pitch makes coordination easier, particularly when instruments and performers come from different places. Yet adopting a standard is not the same as proving that one frequency is uniquely correct for every musical purpose.\nInstrument construction can make a change expensive. An instrument designed for one pitch level may not perform equally well at another, and some instruments cannot be adjusted very far. A new standard can therefore require replacement or modification of equipment. These costs help explain why older conventions may remain in use even when a different convention offers advantages for wider cooperation.\nThe choice is also affected by the music being performed. A group interested in recreating an earlier style may deliberately select a reference different from the one used by a modern orchestra. In that setting, difference is a goal rather than a failure to coordinate, provided that the participating musicians agree with one another.\nA musical standard thus solves a practical problem of compatibility. Its success should be judged partly by whether it allows people and instruments to work together, not by whether it eliminates every alternative practice.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r1-a1",
+          "number": 35,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "section": "Reading",
+      "label": "Module 2",
+      "seconds": 540,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-02-r2-c1",
+          "type": "cloze",
+          "task": "complete-words",
+          "title": "Complete the Words",
+          "pieces": [
+            "Water moves through a landscape by several different routes. Some rain ",
+            {
+              "pre": "fl",
+              "answer": "ows"
+            },
+            " across the ground, while some ",
+            {
+              "pre": "ente",
+              "answer": "rs"
+            },
+            " spaces in the soil. The amount ",
+            {
+              "pre": "th",
+              "answer": "at"
+            },
+            " is ",
+            {
+              "pre": "abs",
+              "answer": "orbed"
+            },
+            " depends partly on the material beneath the surface. A layer of loose sand usually ",
+            {
+              "pre": "all",
+              "answer": "ows"
+            },
+            " water to pass more ",
+            {
+              "pre": "eas",
+              "answer": "ily"
+            },
+            " than tightly packed clay. Plant roots can also ",
+            {
+              "pre": "cre",
+              "answer": "ate"
+            },
+            " small channels. Understanding these ",
+            {
+              "pre": "rela",
+              "answer": "tionships"
+            },
+            " helps explain why two ",
+            {
+              "pre": "neighb",
+              "answer": "oring"
+            },
+            " fields may respond differently to the same rainfall, even ",
+            {
+              "pre": "wh",
+              "answer": "en"
+            },
+            " they appear similar from a distance."
+          ],
+          "count": 10,
+          "skill": "vocabulary in context",
+          "number": 1,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r2-a1-q1",
+          "type": "choice",
+          "prompt": "What is the passage’s main point?",
+          "options": [
+            "Diagrams are useful mainly for communicating decisions after a design is complete",
+            "A clear diagram can establish connections before supporting evidence is gathered",
+            "Exhibition layouts should be drawn only after construction",
+            "Diagrams can aid reasoning but need to represent uncertainty"
+          ],
+          "answer": 3,
+          "explanation": "The passage balances the reasoning benefit with a caution about certainty.",
+          "skill": "main idea",
+          "task": "academic-passage",
+          "title": "Thinking with diagrams",
+          "passage": "A diagram is often treated as a simplified picture of something that already exists. In design work, however, it can do more than communicate a finished idea. Drawing boxes, arrows, or boundaries may help a person discover a relationship that was difficult to notice while considering the problem only in words.\nSuppose a team is planning how visitors will move through a small exhibition. A written list can specify which displays are available, but a sketch can reveal that two groups will be directed toward the same narrow doorway. The drawing makes a possible conflict visible before the exhibition is built. It therefore contributes to the reasoning rather than merely illustrating its result.\nThis advantage also creates a danger. Once a relationship has been drawn neatly, people may treat it as more certain than the evidence warrants. An arrow might represent a tested connection or only a guess. If both are shown in the same way, the diagram hides an important difference. Designers can reduce this problem by using different marks for confirmed relationships and tentative ones.\nDiagrams are most useful when people can revise and question them. Their power comes from making aspects of a problem easier to inspect, not from giving every line on a page the authority of an established fact.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r2-a1",
+          "number": 11,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r2-a1-q2",
+          "type": "choice",
+          "prompt": "What does the exhibition example demonstrate?",
+          "options": [
+            "A sketch can expose a problem absent from a written list",
+            "Narrow doorways improve the movement of visitor groups",
+            "Building an exhibition reveals problems that sketches cannot",
+            "A visitor list can predict the popularity of each display"
+          ],
+          "answer": 0,
+          "explanation": "The drawing reveals a potential collision of visitor routes.",
+          "skill": "rhetorical purpose",
+          "task": "academic-passage",
+          "title": "Thinking with diagrams",
+          "passage": "A diagram is often treated as a simplified picture of something that already exists. In design work, however, it can do more than communicate a finished idea. Drawing boxes, arrows, or boundaries may help a person discover a relationship that was difficult to notice while considering the problem only in words.\nSuppose a team is planning how visitors will move through a small exhibition. A written list can specify which displays are available, but a sketch can reveal that two groups will be directed toward the same narrow doorway. The drawing makes a possible conflict visible before the exhibition is built. It therefore contributes to the reasoning rather than merely illustrating its result.\nThis advantage also creates a danger. Once a relationship has been drawn neatly, people may treat it as more certain than the evidence warrants. An arrow might represent a tested connection or only a guess. If both are shown in the same way, the diagram hides an important difference. Designers can reduce this problem by using different marks for confirmed relationships and tentative ones.\nDiagrams are most useful when people can revise and question them. Their power comes from making aspects of a problem easier to inspect, not from giving every line on a page the authority of an established fact.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r2-a1",
+          "number": 12,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r2-a1-q3",
+          "type": "choice",
+          "prompt": "The word “tentative” is closest in meaning to",
+          "options": [
+            "unrelated to the topic",
+            "supported by many tests",
+            "not yet established",
+            "difficult to draw"
+          ],
+          "answer": 2,
+          "explanation": "Tentative connections are guesses rather than confirmed relationships.",
+          "skill": "vocabulary",
+          "task": "academic-passage",
+          "title": "Thinking with diagrams",
+          "passage": "A diagram is often treated as a simplified picture of something that already exists. In design work, however, it can do more than communicate a finished idea. Drawing boxes, arrows, or boundaries may help a person discover a relationship that was difficult to notice while considering the problem only in words.\nSuppose a team is planning how visitors will move through a small exhibition. A written list can specify which displays are available, but a sketch can reveal that two groups will be directed toward the same narrow doorway. The drawing makes a possible conflict visible before the exhibition is built. It therefore contributes to the reasoning rather than merely illustrating its result.\nThis advantage also creates a danger. Once a relationship has been drawn neatly, people may treat it as more certain than the evidence warrants. An arrow might represent a tested connection or only a guess. If both are shown in the same way, the diagram hides an important difference. Designers can reduce this problem by using different marks for confirmed relationships and tentative ones.\nDiagrams are most useful when people can revise and question them. Their power comes from making aspects of a problem easier to inspect, not from giving every line on a page the authority of an established fact.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r2-a1",
+          "number": 13,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r2-a1-q4",
+          "type": "choice",
+          "prompt": "Why can a neatly drawn arrow be misleading?",
+          "options": [
+            "Its appearance may conceal the weakness of its evidence",
+            "It gives less information than an unmarked blank space",
+            "It may make a physical boundary difficult to see",
+            "Its direction cannot be changed once it is drawn"
+          ],
+          "answer": 0,
+          "explanation": "A clean symbol can make an uncertain relationship look settled.",
+          "skill": "detail",
+          "task": "academic-passage",
+          "title": "Thinking with diagrams",
+          "passage": "A diagram is often treated as a simplified picture of something that already exists. In design work, however, it can do more than communicate a finished idea. Drawing boxes, arrows, or boundaries may help a person discover a relationship that was difficult to notice while considering the problem only in words.\nSuppose a team is planning how visitors will move through a small exhibition. A written list can specify which displays are available, but a sketch can reveal that two groups will be directed toward the same narrow doorway. The drawing makes a possible conflict visible before the exhibition is built. It therefore contributes to the reasoning rather than merely illustrating its result.\nThis advantage also creates a danger. Once a relationship has been drawn neatly, people may treat it as more certain than the evidence warrants. An arrow might represent a tested connection or only a guess. If both are shown in the same way, the diagram hides an important difference. Designers can reduce this problem by using different marks for confirmed relationships and tentative ones.\nDiagrams are most useful when people can revise and question them. Their power comes from making aspects of a problem easier to inspect, not from giving every line on a page the authority of an established fact.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r2-a1",
+          "number": 14,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-r2-a1-q5",
+          "type": "choice",
+          "prompt": "Which practice would the author most likely support?",
+          "options": [
+            "Removing uncertain ideas from every early design discussion",
+            "Completing a diagram before examining the problem",
+            "Using the same symbols to avoid drawing attention to uncertainty",
+            "Labeling an untested connection differently from a confirmed one"
+          ],
+          "answer": 3,
+          "explanation": "Different markings preserve the distinction emphasized in the passage.",
+          "skill": "inference",
+          "task": "academic-passage",
+          "title": "Thinking with diagrams",
+          "passage": "A diagram is often treated as a simplified picture of something that already exists. In design work, however, it can do more than communicate a finished idea. Drawing boxes, arrows, or boundaries may help a person discover a relationship that was difficult to notice while considering the problem only in words.\nSuppose a team is planning how visitors will move through a small exhibition. A written list can specify which displays are available, but a sketch can reveal that two groups will be directed toward the same narrow doorway. The drawing makes a possible conflict visible before the exhibition is built. It therefore contributes to the reasoning rather than merely illustrating its result.\nThis advantage also creates a danger. Once a relationship has been drawn neatly, people may treat it as more certain than the evidence warrants. An arrow might represent a tested connection or only a guess. If both are shown in the same way, the diagram hides an important difference. Designers can reduce this problem by using different marks for confirmed relationships and tentative ones.\nDiagrams are most useful when people can revise and question them. Their power comes from making aspects of a problem easier to inspect, not from giving every line on a page the authority of an established fact.",
+          "documentType": "academic",
+          "stimulusId": "last-day-02-r2-a1",
+          "number": 15,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-1",
+      "section": "Listening",
+      "label": "Module 1",
+      "items": [
+        {
+          "id": "last-day-02-l1-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The page numbers are at the bottom.",
+            "Just for one more page, then it’s yours.",
+            "I used to study in that building.",
+            "There’s still some paper in the drawer."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Are you still using the scanner?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Are you still using the scanner?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I usually run before breakfast.",
+            "Then I’ll have a sandwich instead.",
+            "Yes, I’m afraid of getting lost.",
+            "The soup bowl is beside the sink."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I’m afraid the cafe has run out of soup.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "I’m afraid the cafe has run out of soup.",
+            "preparedPath": "./last-day/media/last-day-02-l1-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I’m all right, thanks for asking.",
+            "The window was repaired last summer.",
+            "Please open the next chapter.",
+            "Please do. It’s getting warm in here."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Would it be all right if I opened the window?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "Would it be all right if I opened the window?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The line is quite long today.",
+            "At the entrance near the stairs.",
+            "Until someone moves the table.",
+            "Only about five minutes."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: How long have you been waiting?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "How long have you been waiting?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Yes, she helped me with my outline yesterday.",
+            "No, the tutorial hasn’t started yet.",
+            "I haven’t decided what to study.",
+            "The new building is opposite the library."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: You’ve met our new tutor, haven’t you?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "You’ve met our new tutor, haven’t you?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response6-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The performance was very well received.",
+            "Tomorrow is the name of our new song.",
+            "I put the instrument in its case.",
+            "That works for me; I need more practice anyway."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could we put off the rehearsal until tomorrow?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response6",
+            "kind": "response",
+            "title": "response",
+            "script": "Could we put off the rehearsal until tomorrow?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response7-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "I made a copy for the discussion.",
+            "It’s made from recycled paper.",
+            "I found its argument persuasive, but a little rushed.",
+            "The chapter starts on page ninety."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: What did you make of the final chapter?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response7",
+            "kind": "response",
+            "title": "response",
+            "script": "What did you make of the final chapter?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response8-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The sooner you arrive, the longer the lecture.",
+            "I usually book a quiet study room.",
+            "Maybe someone will cancel their reservation.",
+            "The seats were installed last year."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I wish I’d booked a seat sooner.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response8",
+            "kind": "response",
+            "title": "response",
+            "script": "I wish I’d booked a seat sooner.",
+            "preparedPath": "./last-day/media/last-day-02-l1-response8.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response9-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "We collected enough money last week.",
+            "Mine. I’ll go after lunch.",
+            "Turn left at the next corner.",
+            "The equipment works well outdoors."
+          ],
+          "answer": 1,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Whose turn is it to collect the equipment?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response9",
+            "kind": "response",
+            "title": "response",
+            "script": "Whose turn is it to collect the equipment?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response9.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response10-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The library bought several new books.",
+            "The queue moved quite quickly yesterday.",
+            "No, returns go in the slot over there.",
+            "I’ve already read that book."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Is this the queue for returning library books?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response10",
+            "kind": "response",
+            "title": "response",
+            "script": "Is this the queue for returning library books?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response10.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response11-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The spare room is already occupied.",
+            "No, I don’t charge for tutoring.",
+            "I do. You can use it until the meeting ends.",
+            "The meeting was shorter than expected."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I don’t suppose you have a spare charger?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response11",
+            "kind": "response",
+            "title": "response",
+            "script": "I don’t suppose you have a spare charger?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response11.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-response12-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "It was built more than a century ago.",
+            "The museum has six main galleries.",
+            "The exhibit explains several easy experiments.",
+            "Take the number six bus from the main gate."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: What’s the easiest way to get to the science museum?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l1-response12",
+            "kind": "response",
+            "title": "response",
+            "script": "What’s the easiest way to get to the science museum?",
+            "preparedPath": "./last-day/media/last-day-02-l1-response12.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-conversation1-q1",
+          "type": "choice",
+          "prompt": "What makes the original booking unsuitable?",
+          "options": [
+            "The room is being repaired after four",
+            "The group now has more members",
+            "The singer cannot attend that day",
+            "The instruments have been moved elsewhere"
+          ],
+          "answer": 1,
+          "explanation": "Six people would crowd the small room.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Choosing a practice room",
+          "stimulus": {
+            "id": "last-day-02-l1-conversation1",
+            "kind": "conversation",
+            "title": "Choosing a practice room",
+            "script": "Man: I booked the small music room, but our group has grown to six people.\nWoman: It’ll be crowded. The large room is free after four, though.\nMan: Our singer has to leave at five. Would an hour be enough?\nWoman: If we practise the instruments separately before four, we can use the group hour just for the pieces with singing.\nMan: That makes sense. I’ll change the booking and send everyone the plan.\nWoman: Make sure they know we’re not all starting at the same time.",
+            "preparedPath": "./last-day/media/last-day-02-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-conversation1-q2",
+          "type": "choice",
+          "prompt": "How will the group use the larger room efficiently?",
+          "options": [
+            "By extending the booking beyond five o’clock",
+            "By reserving joint rehearsal time for pieces involving the singer",
+            "By asking the singer to practise alone first",
+            "By moving every instrumental practice into the same hour"
+          ],
+          "answer": 1,
+          "explanation": "Separate preparation makes the limited shared hour useful.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Choosing a practice room",
+          "stimulus": {
+            "id": "last-day-02-l1-conversation1",
+            "kind": "conversation",
+            "title": "Choosing a practice room",
+            "script": "Man: I booked the small music room, but our group has grown to six people.\nWoman: It’ll be crowded. The large room is free after four, though.\nMan: Our singer has to leave at five. Would an hour be enough?\nWoman: If we practise the instruments separately before four, we can use the group hour just for the pieces with singing.\nMan: That makes sense. I’ll change the booking and send everyone the plan.\nWoman: Make sure they know we’re not all starting at the same time.",
+            "preparedPath": "./last-day/media/last-day-02-l1-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-conversation2-q1",
+          "type": "choice",
+          "prompt": "What does the man think the example needs?",
+          "options": [
+            "A longer description of its appearance",
+            "An explanation linking it to the argument",
+            "A replacement from a different subject",
+            "A reference to the tutor’s own work"
+          ],
+          "answer": 1,
+          "explanation": "The missing connection is between the described place and social interaction.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Understanding assignment feedback",
+          "stimulus": {
+            "id": "last-day-02-l1-conversation2",
+            "kind": "conversation",
+            "title": "Understanding assignment feedback",
+            "script": "Woman: My tutor wrote “needs a clearer connection” beside this example. I thought the example was interesting.\nMan: It is, but what point is it supposed to support?\nWoman: That public spaces can encourage people to meet.\nMan: Then you need a sentence explaining how your example shows that. At the moment, you describe the space but not what people do there.\nWoman: So I don’t necessarily need a different example?\nMan: I don’t think so. You need to make its purpose clear.",
+            "preparedPath": "./last-day/media/last-day-02-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-conversation2-q2",
+          "type": "choice",
+          "prompt": "What does the woman realize?",
+          "options": [
+            "Her example already proves the point without explanation",
+            "She needs to remove every descriptive detail",
+            "She may be able to improve the existing example",
+            "Her tutor objects to using public spaces as a topic"
+          ],
+          "answer": 2,
+          "explanation": "She asks whether the example can stay, and he agrees.",
+          "skill": "inference",
+          "task": "conversation",
+          "title": "Understanding assignment feedback",
+          "stimulus": {
+            "id": "last-day-02-l1-conversation2",
+            "kind": "conversation",
+            "title": "Understanding assignment feedback",
+            "script": "Woman: My tutor wrote “needs a clearer connection” beside this example. I thought the example was interesting.\nMan: It is, but what point is it supposed to support?\nWoman: That public spaces can encourage people to meet.\nMan: Then you need a sentence explaining how your example shows that. At the moment, you describe the space but not what people do there.\nWoman: So I don’t necessarily need a different example?\nMan: I don’t think so. You need to make its purpose clear.",
+            "preparedPath": "./last-day/media/last-day-02-l1-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-conversation3-q1",
+          "type": "choice",
+          "prompt": "What does the man need for a longer loan?",
+          "options": [
+            "A reservation at a different station",
+            "Proof that the normal loan lasts two days",
+            "Approval from his instructor",
+            "Payment for an additional bicycle"
+          ],
+          "answer": 2,
+          "explanation": "The field-course exception needs instructor approval.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Borrowing a bicycle",
+          "stimulus": {
+            "id": "last-day-02-l1-conversation3",
+            "kind": "conversation",
+            "title": "Borrowing a bicycle",
+            "script": "Man: I’d like to borrow a campus bicycle for the whole weekend.\nWoman: The usual loans are only for a day. Are you attending the field course?\nMan: Yes, we’re staying at the research station on Saturday night.\nWoman: In that case, your instructor can approve an extended loan. We need the approval before you collect the bike.\nMan: I’ll email her now. Can you hold one until this afternoon?\nWoman: Until three, yes. After that, we’ll offer it to the next person waiting.",
+            "preparedPath": "./last-day/media/last-day-02-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-conversation3-q2",
+          "type": "choice",
+          "prompt": "What will happen if he does not collect the bicycle by three?",
+          "options": [
+            "He will automatically receive a different bicycle",
+            "It may be made available to someone else",
+            "The research station will cancel his visit",
+            "His instructor will receive a penalty notice"
+          ],
+          "answer": 1,
+          "explanation": "The desk will offer the held bike to the next person.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Borrowing a bicycle",
+          "stimulus": {
+            "id": "last-day-02-l1-conversation3",
+            "kind": "conversation",
+            "title": "Borrowing a bicycle",
+            "script": "Man: I’d like to borrow a campus bicycle for the whole weekend.\nWoman: The usual loans are only for a day. Are you attending the field course?\nMan: Yes, we’re staying at the research station on Saturday night.\nWoman: In that case, your instructor can approve an extended loan. We need the approval before you collect the bike.\nMan: I’ll email her now. Can you hold one until this afternoon?\nWoman: Until three, yes. After that, we’ll offer it to the next person waiting.",
+            "preparedPath": "./last-day/media/last-day-02-l1-conversation3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 18,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-announcement1-q1",
+          "type": "choice",
+          "prompt": "Why should users preserve the document order?",
+          "options": [
+            "It makes damaged pages easier to remove",
+            "It guarantees that every date is already correct",
+            "It may provide evidence about the collection’s original use",
+            "It was chosen to match the lockers"
+          ],
+          "answer": 2,
+          "explanation": "The order can itself carry historical information.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Archive handling rules",
+          "stimulus": {
+            "id": "last-day-02-l1-announcement1",
+            "kind": "announcement",
+            "title": "Archive handling rules",
+            "script": "Before you start using the archive boxes, a reminder about handling the material. Keep the documents in their present order, even if the dates seem mixed up. That order may contain information about how the original owner used them. If you notice a page that appears damaged, leave it where it is and tell a staff member. You may use pencils for your own notes, but food, drinks, and ink pens should stay in the lockers.",
+            "preparedPath": "./last-day/media/last-day-02-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 19,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-announcement1-q2",
+          "type": "choice",
+          "prompt": "What should a user do on finding a damaged page?",
+          "options": [
+            "Repair it using material at the desk",
+            "Remove it from the box immediately",
+            "Put it with documents of a similar date",
+            "Report it without moving it"
+          ],
+          "answer": 3,
+          "explanation": "The instruction is to leave it in place and notify staff.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Archive handling rules",
+          "stimulus": {
+            "id": "last-day-02-l1-announcement1",
+            "kind": "announcement",
+            "title": "Archive handling rules",
+            "script": "Before you start using the archive boxes, a reminder about handling the material. Keep the documents in their present order, even if the dates seem mixed up. That order may contain information about how the original owner used them. If you notice a page that appears damaged, leave it where it is and tell a staff member. You may use pencils for your own notes, but food, drinks, and ink pens should stay in the lockers.",
+            "preparedPath": "./last-day/media/last-day-02-l1-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 20,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-announcement2-q1",
+          "type": "choice",
+          "prompt": "How will the activity change?",
+          "options": [
+            "It will focus on exercises suited to a smaller indoor space",
+            "It will continue outdoors with a shorter break",
+            "It will be replaced by a meeting about building work",
+            "It will become a full match starting at five"
+          ],
+          "answer": 0,
+          "explanation": "The smaller hall changes the focus to coordination exercises.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A revised sports practice",
+          "stimulus": {
+            "id": "last-day-02-l1-announcement2",
+            "kind": "announcement",
+            "title": "A revised sports practice",
+            "script": "This afternoon’s outdoor practice has been moved indoors because of the rain. We’ll use the smaller hall from four until five, so today we’ll concentrate on coordination exercises rather than the full game. Please bring clean indoor shoes; outdoor shoes can make the floor slippery. If you normally arrive by bicycle, allow time to walk around to the east entrance, as the door beside the cycle racks is closed during building work.",
+            "preparedPath": "./last-day/media/last-day-02-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 21,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-announcement2-q2",
+          "type": "choice",
+          "prompt": "What special instruction is given to cyclists?",
+          "options": [
+            "Arrive after the building work finishes",
+            "Leave bicycles inside the smaller hall",
+            "Wear outdoor shoes while entering the building",
+            "Use the east entrance instead of the nearby door"
+          ],
+          "answer": 3,
+          "explanation": "The door near the bicycle racks is closed.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A revised sports practice",
+          "stimulus": {
+            "id": "last-day-02-l1-announcement2",
+            "kind": "announcement",
+            "title": "A revised sports practice",
+            "script": "This afternoon’s outdoor practice has been moved indoors because of the rain. We’ll use the smaller hall from four until five, so today we’ll concentrate on coordination exercises rather than the full game. Please bring clean indoor shoes; outdoor shoes can make the floor slippery. If you normally arrive by bicycle, allow time to walk around to the east entrance, as the door beside the cycle racks is closed during building work.",
+            "preparedPath": "./last-day/media/last-day-02-l1-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 22,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What is the main purpose of unit pricing?",
+          "options": [
+            "To compare prices for equivalent quantities",
+            "To rank products by their overall quality",
+            "To eliminate differences in product concentration",
+            "To ensure that the largest package is always purchased"
+          ],
+          "answer": 0,
+          "explanation": "Unit pricing standardizes price by quantity.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Comparing prices by unit",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Comparing prices by unit",
+            "script": "A larger package often looks like better value, but package size alone doesn’t tell us the cost of what we’re buying. Unit pricing expresses the price for a standard quantity, perhaps a hundred grams or one liter. It lets us compare products whose packages contain different amounts.\nSuppose a small packet costs less in total than a large one. The large packet may still have a lower price per hundred grams. For someone who will use everything, that could be a saving. But if half of the larger packet is likely to be wasted, the lower unit price doesn’t necessarily mean a lower cost for the amount actually used.\nThere are other limits too. Products may differ in concentration, so an equal volume may not provide an equal amount of useful material. And two items that serve the same broad purpose may differ in quality or suitability. Unit pricing makes one comparison clearer; it doesn’t make every other consideration disappear.\nThe lesson is that a standard measure is a tool, not a decision made on our behalf. It helps answer a precise question about price and quantity. We still need to decide whether that question captures what matters in our particular situation, including storage, waste, and how we intend to use the product.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 23,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "Why might a lower unit price fail to save a buyer money?",
+          "options": [
+            "The buyer must purchase two packages at once",
+            "A smaller package always contains better material",
+            "Some of the larger purchase may not be used",
+            "Unit prices exclude the stated package amount"
+          ],
+          "answer": 2,
+          "explanation": "Waste can offset the apparent quantity-based saving.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Comparing prices by unit",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Comparing prices by unit",
+            "script": "A larger package often looks like better value, but package size alone doesn’t tell us the cost of what we’re buying. Unit pricing expresses the price for a standard quantity, perhaps a hundred grams or one liter. It lets us compare products whose packages contain different amounts.\nSuppose a small packet costs less in total than a large one. The large packet may still have a lower price per hundred grams. For someone who will use everything, that could be a saving. But if half of the larger packet is likely to be wasted, the lower unit price doesn’t necessarily mean a lower cost for the amount actually used.\nThere are other limits too. Products may differ in concentration, so an equal volume may not provide an equal amount of useful material. And two items that serve the same broad purpose may differ in quality or suitability. Unit pricing makes one comparison clearer; it doesn’t make every other consideration disappear.\nThe lesson is that a standard measure is a tool, not a decision made on our behalf. It helps answer a precise question about price and quantity. We still need to decide whether that question captures what matters in our particular situation, including storage, waste, and how we intend to use the product.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 24,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "Why does the speaker discuss concentrated products?",
+          "options": [
+            "To show that package labels contain no useful information",
+            "To recommend buying all products in liquid form",
+            "To explain how shops calculate their storage costs",
+            "To identify a limitation of comparing equal volumes"
+          ],
+          "answer": 3,
+          "explanation": "Equal volume need not mean equal useful content.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Comparing prices by unit",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Comparing prices by unit",
+            "script": "A larger package often looks like better value, but package size alone doesn’t tell us the cost of what we’re buying. Unit pricing expresses the price for a standard quantity, perhaps a hundred grams or one liter. It lets us compare products whose packages contain different amounts.\nSuppose a small packet costs less in total than a large one. The large packet may still have a lower price per hundred grams. For someone who will use everything, that could be a saving. But if half of the larger packet is likely to be wasted, the lower unit price doesn’t necessarily mean a lower cost for the amount actually used.\nThere are other limits too. Products may differ in concentration, so an equal volume may not provide an equal amount of useful material. And two items that serve the same broad purpose may differ in quality or suitability. Unit pricing makes one comparison clearer; it doesn’t make every other consideration disappear.\nThe lesson is that a standard measure is a tool, not a decision made on our behalf. It helps answer a precise question about price and quantity. We still need to decide whether that question captures what matters in our particular situation, including storage, waste, and how we intend to use the product.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 25,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "How does the speaker regard standardized measures?",
+          "options": [
+            "As complete solutions to purchasing decisions",
+            "As useful aids that do not replace judgment",
+            "As tools relevant only to large businesses",
+            "As misleading figures that should not be used"
+          ],
+          "answer": 1,
+          "explanation": "The measure answers one question while other considerations remain.",
+          "skill": "attitude",
+          "task": "academic-talk",
+          "title": "Comparing prices by unit",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk1",
+            "kind": "academic-talk",
+            "title": "Comparing prices by unit",
+            "script": "A larger package often looks like better value, but package size alone doesn’t tell us the cost of what we’re buying. Unit pricing expresses the price for a standard quantity, perhaps a hundred grams or one liter. It lets us compare products whose packages contain different amounts.\nSuppose a small packet costs less in total than a large one. The large packet may still have a lower price per hundred grams. For someone who will use everything, that could be a saving. But if half of the larger packet is likely to be wasted, the lower unit price doesn’t necessarily mean a lower cost for the amount actually used.\nThere are other limits too. Products may differ in concentration, so an equal volume may not provide an equal amount of useful material. And two items that serve the same broad purpose may differ in quality or suitability. Unit pricing makes one comparison clearer; it doesn’t make every other consideration disappear.\nThe lesson is that a standard measure is a tool, not a decision made on our behalf. It helps answer a precise question about price and quantity. We still need to decide whether that question captures what matters in our particular situation, including storage, waste, and how we intend to use the product.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 26,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk2-q1",
+          "type": "choice",
+          "prompt": "What is the talk mainly about?",
+          "options": [
+            "How every new tree immediately changes local weather",
+            "Why surface temperatures cannot be compared",
+            "Why trees affect only the appearance of a street",
+            "The conditions that determine how street trees provide cooling"
+          ],
+          "answer": 3,
+          "explanation": "The talk explains mechanisms and the importance of placement and survival.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "Trees and the temperature of a street",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Trees and the temperature of a street",
+            "script": "On a warm day, two nearby streets can feel surprisingly different. Trees are one reason. Their leaves intercept sunlight, reducing the energy that reaches a pavement or a parked car. Shade can therefore change the temperature of surfaces that would otherwise absorb strong sunlight.\nTrees also exchange water with the atmosphere. Water moves through the plant and is released from leaves as vapor. That process uses energy and can contribute to local cooling. But its extent depends on conditions such as water availability and the health of the tree. Planting a tree doesn’t immediately guarantee the same cooling effect in every street.\nThe location and shape of planting matter as well. A small new tree provides less shade than a mature one, and a tree placed far from where people walk may offer little direct protection to pedestrians. Underground space for roots can be just as important as the visible space above the ground.\nSo evaluating a street-tree program requires more than counting how many trees were planted. We need to ask whether they survive, develop useful cover, and improve conditions where people spend time. A planting count describes an action taken. A later assessment of shade and comfort tells us more about the result that action was meant to achieve.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 27,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk2-q2",
+          "type": "choice",
+          "prompt": "How does shade affect a pavement?",
+          "options": [
+            "It forces the pavement to release all stored water",
+            "It prevents any temperature change during the day",
+            "It reduces the sunlight reaching the surface",
+            "It increases the amount of light reflected by leaves"
+          ],
+          "answer": 2,
+          "explanation": "Leaves intercept incoming solar energy.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "Trees and the temperature of a street",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Trees and the temperature of a street",
+            "script": "On a warm day, two nearby streets can feel surprisingly different. Trees are one reason. Their leaves intercept sunlight, reducing the energy that reaches a pavement or a parked car. Shade can therefore change the temperature of surfaces that would otherwise absorb strong sunlight.\nTrees also exchange water with the atmosphere. Water moves through the plant and is released from leaves as vapor. That process uses energy and can contribute to local cooling. But its extent depends on conditions such as water availability and the health of the tree. Planting a tree doesn’t immediately guarantee the same cooling effect in every street.\nThe location and shape of planting matter as well. A small new tree provides less shade than a mature one, and a tree placed far from where people walk may offer little direct protection to pedestrians. Underground space for roots can be just as important as the visible space above the ground.\nSo evaluating a street-tree program requires more than counting how many trees were planted. We need to ask whether they survive, develop useful cover, and improve conditions where people spend time. A planting count describes an action taken. A later assessment of shade and comfort tells us more about the result that action was meant to achieve.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 28,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk2-q3",
+          "type": "choice",
+          "prompt": "Why is underground space mentioned?",
+          "options": [
+            "Underground water removes the need for leaves",
+            "The cooling effect occurs only beneath the pavement",
+            "Root conditions influence whether trees develop successfully",
+            "Tree roots should replace pedestrian paths"
+          ],
+          "answer": 2,
+          "explanation": "Rooting space is a condition supporting growth and later shade.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "Trees and the temperature of a street",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Trees and the temperature of a street",
+            "script": "On a warm day, two nearby streets can feel surprisingly different. Trees are one reason. Their leaves intercept sunlight, reducing the energy that reaches a pavement or a parked car. Shade can therefore change the temperature of surfaces that would otherwise absorb strong sunlight.\nTrees also exchange water with the atmosphere. Water moves through the plant and is released from leaves as vapor. That process uses energy and can contribute to local cooling. But its extent depends on conditions such as water availability and the health of the tree. Planting a tree doesn’t immediately guarantee the same cooling effect in every street.\nThe location and shape of planting matter as well. A small new tree provides less shade than a mature one, and a tree placed far from where people walk may offer little direct protection to pedestrians. Underground space for roots can be just as important as the visible space above the ground.\nSo evaluating a street-tree program requires more than counting how many trees were planted. We need to ask whether they survive, develop useful cover, and improve conditions where people spend time. A planting count describes an action taken. A later assessment of shade and comfort tells us more about the result that action was meant to achieve.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 29,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l1-academic-talk2-q4",
+          "type": "choice",
+          "prompt": "What would best evaluate the result of a planting program?",
+          "options": [
+            "Comparing the prices of young trees at purchase",
+            "Reporting only how many planting holes were prepared",
+            "Counting streets without considering where people walk",
+            "Measuring useful shade and comfort after trees develop"
+          ],
+          "answer": 3,
+          "explanation": "Outcomes rather than planting counts assess the intended benefit.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "Trees and the temperature of a street",
+          "stimulus": {
+            "id": "last-day-02-l1-academic-talk2",
+            "kind": "academic-talk",
+            "title": "Trees and the temperature of a street",
+            "script": "On a warm day, two nearby streets can feel surprisingly different. Trees are one reason. Their leaves intercept sunlight, reducing the energy that reaches a pavement or a parked car. Shade can therefore change the temperature of surfaces that would otherwise absorb strong sunlight.\nTrees also exchange water with the atmosphere. Water moves through the plant and is released from leaves as vapor. That process uses energy and can contribute to local cooling. But its extent depends on conditions such as water availability and the health of the tree. Planting a tree doesn’t immediately guarantee the same cooling effect in every street.\nThe location and shape of planting matter as well. A small new tree provides less shade than a mature one, and a tree placed far from where people walk may offer little direct protection to pedestrians. Underground space for roots can be just as important as the visible space above the ground.\nSo evaluating a street-tree program requires more than counting how many trees were planted. We need to ask whether they survive, develop useful cover, and improve conditions where people spend time. A planting count describes an action taken. A later assessment of shade and comfort tells us more about the result that action was meant to achieve.",
+            "preparedPath": "./last-day/media/last-day-02-l1-academic-talk2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 30,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "listening-2",
+      "section": "Listening",
+      "label": "Module 2",
+      "items": [
+        {
+          "id": "last-day-02-l2-response1-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "You can copy the address from the sign.",
+            "It’s another building near the river.",
+            "I made it from a simple recipe.",
+            "Yes, please. This one is missing the last page."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Shall I make another copy for you?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l2-response1",
+            "kind": "response",
+            "title": "response",
+            "script": "Shall I make another copy for you?",
+            "preparedPath": "./last-day/media/last-day-02-l2-response1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-response2-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The figure is drawn in the first chapter.",
+            "I spent a week collecting the equipment.",
+            "That gives us time to check the figures.",
+            "Yes, the line extends around the building."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: The deadline has been extended by a week.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l2-response2",
+            "kind": "response",
+            "title": "response",
+            "script": "The deadline has been extended by a week.",
+            "preparedPath": "./last-day/media/last-day-02-l2-response2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-response3-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "There are beginner courses on Tuesdays.",
+            "The workshop began half an hour late.",
+            "It is; no previous experience is required.",
+            "I know the instructor from another class."
+          ],
+          "answer": 2,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Do you know whether the workshop is suitable for beginners?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l2-response3",
+            "kind": "response",
+            "title": "response",
+            "script": "Do you know whether the workshop is suitable for beginners?",
+            "preparedPath": "./last-day/media/last-day-02-l2-response3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-response4-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "Of course. Let me repeat the last part.",
+            "I spoke to her after the lecture.",
+            "There’s little time before it starts.",
+            "The slow train leaves from platform two."
+          ],
+          "answer": 0,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: Could you speak a little more slowly?",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l2-response4",
+            "kind": "response",
+            "title": "response",
+            "script": "Could you speak a little more slowly?",
+            "preparedPath": "./last-day/media/last-day-02-l2-response4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-response5-q1",
+          "type": "choice",
+          "prompt": "Choose the best response.",
+          "options": [
+            "The crossing is beside the traffic lights.",
+            "We chose a topic for our next presentation.",
+            "I think the talk begins at noon.",
+            "Let’s clarify what each of us is trying to decide."
+          ],
+          "answer": 3,
+          "explanation": "The keyed reply addresses the speaker’s intention in this exchange: I think we’re talking at cross purposes.",
+          "skill": "pragmatic response",
+          "task": "response",
+          "title": "Listen and Choose a Response",
+          "stimulus": {
+            "id": "last-day-02-l2-response5",
+            "kind": "response",
+            "title": "response",
+            "script": "I think we’re talking at cross purposes.",
+            "preparedPath": "./last-day/media/last-day-02-l2-response5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-conversation1-q1",
+          "type": "choice",
+          "prompt": "Why does the woman question the reminder’s location?",
+          "options": [
+            "The club meets in a different kitchen each week",
+            "People encounter it at the wrong stage of their visit",
+            "The sign uses words that members cannot understand",
+            "The door is usually left open during meetings"
+          ],
+          "answer": 1,
+          "explanation": "The reminder is seen on arrival rather than departure.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "A shared kitchen problem",
+          "stimulus": {
+            "id": "last-day-02-l2-conversation1",
+            "kind": "conversation",
+            "title": "A shared kitchen problem",
+            "script": "Woman: There are still lots of unwashed cups after our club meetings.\nMan: We put a reminder on the door last week.\nWoman: People see it when they arrive, not when they leave. What if we put a tray beside the sink with a clear label?\nMan: For used cups?\nWoman: Yes, but the label should ask everyone to wash their own cup first. The tray is just for the clean ones to dry.\nMan: Right. Otherwise people might think someone else is doing the washing.",
+            "preparedPath": "./last-day/media/last-day-02-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-conversation1-q2",
+          "type": "choice",
+          "prompt": "What should the tray label make clear?",
+          "options": [
+            "The tray should be moved to the entrance",
+            "Someone will collect dirty cups after the meeting",
+            "Only cups brought from home may be used",
+            "Members must wash their cups before placing them there"
+          ],
+          "answer": 3,
+          "explanation": "The tray is for drying clean cups, not collecting dirty ones.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "A shared kitchen problem",
+          "stimulus": {
+            "id": "last-day-02-l2-conversation1",
+            "kind": "conversation",
+            "title": "A shared kitchen problem",
+            "script": "Woman: There are still lots of unwashed cups after our club meetings.\nMan: We put a reminder on the door last week.\nWoman: People see it when they arrive, not when they leave. What if we put a tray beside the sink with a clear label?\nMan: For used cups?\nWoman: Yes, but the label should ask everyone to wash their own cup first. The tray is just for the clean ones to dry.\nMan: Right. Otherwise people might think someone else is doing the washing.",
+            "preparedPath": "./last-day/media/last-day-02-l2-conversation1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-conversation2-q1",
+          "type": "choice",
+          "prompt": "What concerns the man about the interview?",
+          "options": [
+            "His project requires a longer interview",
+            "The gardener has not agreed to participate",
+            "He cannot write anything before seven o’clock",
+            "Outdoor conditions could reduce recording quality"
+          ],
+          "answer": 3,
+          "explanation": "He worries that wind will affect the recording.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Arranging a campus interview",
+          "stimulus": {
+            "id": "last-day-02-l2-conversation2",
+            "kind": "conversation",
+            "title": "Arranging a campus interview",
+            "script": "Man: The gardener agreed to speak with me for my project, but she’s only free at seven tomorrow morning.\nWoman: That’s early. Can you record the interview then and write it up later?\nMan: I can, but I’m worried about the wind outdoors.\nWoman: Ask whether you can sit inside the potting shed. It’s close to where she works, and you’d be out of the wind.\nMan: Good suggestion. I’ll check that the recording is clear before we begin properly.",
+            "preparedPath": "./last-day/media/last-day-02-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-conversation2-q2",
+          "type": "choice",
+          "prompt": "Why does the woman suggest the potting shed?",
+          "options": [
+            "It offers shelter near the gardener’s workplace",
+            "It will allow the interview to take place later",
+            "It is the location required by the instructor",
+            "It contains equipment needed for the project"
+          ],
+          "answer": 0,
+          "explanation": "The shed is both convenient and protected from wind.",
+          "skill": "detail",
+          "task": "conversation",
+          "title": "Arranging a campus interview",
+          "stimulus": {
+            "id": "last-day-02-l2-conversation2",
+            "kind": "conversation",
+            "title": "Arranging a campus interview",
+            "script": "Man: The gardener agreed to speak with me for my project, but she’s only free at seven tomorrow morning.\nWoman: That’s early. Can you record the interview then and write it up later?\nMan: I can, but I’m worried about the wind outdoors.\nWoman: Ask whether you can sit inside the potting shed. It’s close to where she works, and you’d be out of the wind.\nMan: Good suggestion. I’ll check that the recording is clear before we begin properly.",
+            "preparedPath": "./last-day/media/last-day-02-l2-conversation2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-announcement1-q1",
+          "type": "choice",
+          "prompt": "Why should borrowers test the recorders before leaving?",
+          "options": [
+            "All interview recordings must be approved in advance",
+            "A test recording extends the return deadline",
+            "Technical help is available there but may not be available later",
+            "The weekend interviews will take place in the media building"
+          ],
+          "answer": 2,
+          "explanation": "Testing while staff are present allows problems to be addressed.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Short-loan equipment reminder",
+          "stimulus": {
+            "id": "last-day-02-l2-announcement1",
+            "kind": "announcement",
+            "title": "Short-loan equipment reminder",
+            "script": "Anyone borrowing a recorder for this weekend’s interviews should collect it by three on Friday. The media desk will close early for a staff meeting. Please make a short test recording before leaving the building; staff will be available to check any problems then. We can’t guarantee technical help over the weekend. Return recorders on Monday morning, even if your interview was cancelled, so they’re ready for the next group.",
+            "preparedPath": "./last-day/media/last-day-02-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-announcement1-q2",
+          "type": "choice",
+          "prompt": "When must a recorder from a cancelled interview be returned?",
+          "options": [
+            "At three on Saturday",
+            "Only when the next group requests it",
+            "As soon as the staff meeting begins",
+            "Monday morning"
+          ],
+          "answer": 3,
+          "explanation": "The Monday return requirement applies even after cancellation.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "Short-loan equipment reminder",
+          "stimulus": {
+            "id": "last-day-02-l2-announcement1",
+            "kind": "announcement",
+            "title": "Short-loan equipment reminder",
+            "script": "Anyone borrowing a recorder for this weekend’s interviews should collect it by three on Friday. The media desk will close early for a staff meeting. Please make a short test recording before leaving the building; staff will be available to check any problems then. We can’t guarantee technical help over the weekend. Return recorders on Monday morning, even if your interview was cancelled, so they’re ready for the next group.",
+            "preparedPath": "./last-day/media/last-day-02-l2-announcement1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-announcement2-q1",
+          "type": "choice",
+          "prompt": "What should registered people do if they can attend the new date?",
+          "options": [
+            "Confirm attendance by submitting the form again",
+            "Cancel the existing booking before joining the new session",
+            "Keep the old date and watch the recording there",
+            "Keep their existing registration"
+          ],
+          "answer": 3,
+          "explanation": "Existing registrations remain valid.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A postponed discussion",
+          "stimulus": {
+            "id": "last-day-02-l2-announcement2",
+            "kind": "announcement",
+            "title": "A postponed discussion",
+            "script": "The guest discussion scheduled for this evening will now take place next Tuesday. The speaker’s flight was delayed, and she cannot join us at the original time. Your existing registration will remain valid, so you do not need to sign up again. If you can’t attend on Tuesday, please cancel through the confirmation email. That will allow us to offer your place to someone on the waiting list. A recording will be available afterward.",
+            "preparedPath": "./last-day/media/last-day-02-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 12,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-announcement2-q2",
+          "type": "choice",
+          "prompt": "Why are people unable to attend asked to cancel?",
+          "options": [
+            "So the university can choose an earlier date",
+            "So the speaker can change her flight",
+            "So the recording can be sent before the event",
+            "So another person can use the available place"
+          ],
+          "answer": 3,
+          "explanation": "Cancellation frees a place for the waiting list.",
+          "skill": "detail",
+          "task": "announcement",
+          "title": "A postponed discussion",
+          "stimulus": {
+            "id": "last-day-02-l2-announcement2",
+            "kind": "announcement",
+            "title": "A postponed discussion",
+            "script": "The guest discussion scheduled for this evening will now take place next Tuesday. The speaker’s flight was delayed, and she cannot join us at the original time. Your existing registration will remain valid, so you do not need to sign up again. If you can’t attend on Tuesday, please cancel through the confirmation email. That will allow us to offer your place to someone on the waiting list. A recording will be available afterward.",
+            "preparedPath": "./last-day/media/last-day-02-l2-announcement2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 13,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-academic-talk1-q1",
+          "type": "choice",
+          "prompt": "What is the main point of the talk?",
+          "options": [
+            "Animal communication can be studied without field conditions",
+            "A recorded signal must be interpreted in relation to its surroundings and measurement",
+            "A louder call is always more effective than a quieter one",
+            "Background noise affects instruments but not listeners"
+          ],
+          "answer": 1,
+          "explanation": "The talk links signal detection with context and measurement.",
+          "skill": "main idea",
+          "task": "academic-talk",
+          "title": "A signal against background noise",
+          "stimulus": {
+            "id": "last-day-02-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A signal against background noise",
+            "script": "Communication depends not only on producing a signal, but also on that signal standing out from its surroundings. Think about trying to hear a friend speak beside a busy road. Your friend may be speaking clearly, yet traffic noise can make the message difficult to distinguish.\nAnimals face a comparable problem. A call that travels well in one habitat may be less effective in another because vegetation, distance, and competing sounds affect what reaches a listener. Researchers therefore pay attention to the setting in which a call is produced, not just to the call recorded by itself.\nSuppose a field recording contains a call that seems faint. That observation alone doesn’t establish that the animal produced a weak call. The microphone may have been far away or pointed in the wrong direction. A second recording made under known conditions can help separate the properties of the signal from the effects of recording it.\nThis distinction matters beyond animal communication. In many kinds of research, we observe a process through an instrument. The recorded result combines something about the source with something about the conditions of measurement. Careful comparisons make it easier to decide which part of the result belongs to the thing we want to understand.",
+            "preparedPath": "./last-day/media/last-day-02-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 14,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-academic-talk1-q2",
+          "type": "choice",
+          "prompt": "Why might a call sound faint in a recording?",
+          "options": [
+            "The recording must have been made indoors",
+            "The microphone could have been far from the animal",
+            "The animal must have been unable to call normally",
+            "Vegetation always increases the loudness of calls"
+          ],
+          "answer": 1,
+          "explanation": "Distance is an alternative explanation for recorded faintness.",
+          "skill": "detail",
+          "task": "academic-talk",
+          "title": "A signal against background noise",
+          "stimulus": {
+            "id": "last-day-02-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A signal against background noise",
+            "script": "Communication depends not only on producing a signal, but also on that signal standing out from its surroundings. Think about trying to hear a friend speak beside a busy road. Your friend may be speaking clearly, yet traffic noise can make the message difficult to distinguish.\nAnimals face a comparable problem. A call that travels well in one habitat may be less effective in another because vegetation, distance, and competing sounds affect what reaches a listener. Researchers therefore pay attention to the setting in which a call is produced, not just to the call recorded by itself.\nSuppose a field recording contains a call that seems faint. That observation alone doesn’t establish that the animal produced a weak call. The microphone may have been far away or pointed in the wrong direction. A second recording made under known conditions can help separate the properties of the signal from the effects of recording it.\nThis distinction matters beyond animal communication. In many kinds of research, we observe a process through an instrument. The recorded result combines something about the source with something about the conditions of measurement. Careful comparisons make it easier to decide which part of the result belongs to the thing we want to understand.",
+            "preparedPath": "./last-day/media/last-day-02-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 15,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-academic-talk1-q3",
+          "type": "choice",
+          "prompt": "Why does the speaker begin with a friend near a road?",
+          "options": [
+            "To compare human language with written traffic signs",
+            "To make the problem of background noise familiar",
+            "To argue that roads should be excluded from field studies",
+            "To explain how microphones produce animal calls"
+          ],
+          "answer": 1,
+          "explanation": "The everyday example introduces signal-to-background difficulty.",
+          "skill": "purpose",
+          "task": "academic-talk",
+          "title": "A signal against background noise",
+          "stimulus": {
+            "id": "last-day-02-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A signal against background noise",
+            "script": "Communication depends not only on producing a signal, but also on that signal standing out from its surroundings. Think about trying to hear a friend speak beside a busy road. Your friend may be speaking clearly, yet traffic noise can make the message difficult to distinguish.\nAnimals face a comparable problem. A call that travels well in one habitat may be less effective in another because vegetation, distance, and competing sounds affect what reaches a listener. Researchers therefore pay attention to the setting in which a call is produced, not just to the call recorded by itself.\nSuppose a field recording contains a call that seems faint. That observation alone doesn’t establish that the animal produced a weak call. The microphone may have been far away or pointed in the wrong direction. A second recording made under known conditions can help separate the properties of the signal from the effects of recording it.\nThis distinction matters beyond animal communication. In many kinds of research, we observe a process through an instrument. The recorded result combines something about the source with something about the conditions of measurement. Careful comparisons make it easier to decide which part of the result belongs to the thing we want to understand.",
+            "preparedPath": "./last-day/media/last-day-02-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 16,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-l2-academic-talk1-q4",
+          "type": "choice",
+          "prompt": "What is the value of a recording made under known conditions?",
+          "options": [
+            "It removes the need to listen to the original recording",
+            "It guarantees that the animal will make a louder call",
+            "It helps distinguish source properties from measurement effects",
+            "It makes every habitat acoustically identical"
+          ],
+          "answer": 2,
+          "explanation": "Known conditions support a better interpretation of the result.",
+          "skill": "inference",
+          "task": "academic-talk",
+          "title": "A signal against background noise",
+          "stimulus": {
+            "id": "last-day-02-l2-academic-talk1",
+            "kind": "academic-talk",
+            "title": "A signal against background noise",
+            "script": "Communication depends not only on producing a signal, but also on that signal standing out from its surroundings. Think about trying to hear a friend speak beside a busy road. Your friend may be speaking clearly, yet traffic noise can make the message difficult to distinguish.\nAnimals face a comparable problem. A call that travels well in one habitat may be less effective in another because vegetation, distance, and competing sounds affect what reaches a listener. Researchers therefore pay attention to the setting in which a call is produced, not just to the call recorded by itself.\nSuppose a field recording contains a call that seems faint. That observation alone doesn’t establish that the animal produced a weak call. The microphone may have been far away or pointed in the wrong direction. A second recording made under known conditions can help separate the properties of the signal from the effects of recording it.\nThis distinction matters beyond animal communication. In many kinds of research, we observe a process through an instrument. The recorded result combines something about the source with something about the conditions of measurement. Careful comparisons make it easier to decide which part of the result belongs to the thing we want to understand.",
+            "preparedPath": "./last-day/media/last-day-02-l2-academic-talk1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 17,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "section": "Writing",
+      "label": "Build a Sentence",
+      "seconds": 360,
+      "review": true,
+      "items": [
+        {
+          "id": "last-day-02-w1",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The student film club meets every week.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "do",
+            "the films",
+            "Where",
+            "the",
+            "usually watch",
+            "members"
+          ],
+          "solution": [
+            "Where",
+            "do",
+            "the",
+            "members",
+            "usually watch",
+            "the films"
+          ],
+          "correct": [
+            2,
+            0,
+            3,
+            5,
+            4,
+            1
+          ],
+          "explanation": "A direct location question uses do before the plural subject.",
+          "number": 1,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w2",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Someone sent the corrected map to the group.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "sent",
+            "with",
+            "the revised",
+            "Who",
+            "meeting point",
+            "the map"
+          ],
+          "solution": [
+            "Who",
+            "sent",
+            "the map",
+            "with",
+            "the revised",
+            "meeting point"
+          ],
+          "correct": [
+            3,
+            0,
+            5,
+            1,
+            2,
+            4
+          ],
+          "explanation": "Who is the subject, so the past verb sent needs no additional auxiliary.",
+          "number": 2,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w3",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Our reserved room is on the top floor.",
+          "frame": [
+            "Do you know",
+            "?"
+          ],
+          "chunks": [
+            "will",
+            "the lift",
+            "whether",
+            "by",
+            "morning",
+            "will be working",
+            "tomorrow"
+          ],
+          "solution": [
+            "whether",
+            "the lift",
+            "will be working",
+            "by",
+            "tomorrow",
+            "morning"
+          ],
+          "correct": [
+            2,
+            1,
+            5,
+            3,
+            6,
+            4
+          ],
+          "explanation": "Whether introduces statement word order inside the outer question.",
+          "number": 3,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w4",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The librarian found the book for me.",
+          "frame": [
+            "It was",
+            "."
+          ],
+          "chunks": [
+            "had requested",
+            "another library",
+            "that",
+            "I",
+            "the copy",
+            "through"
+          ],
+          "solution": [
+            "the copy",
+            "that",
+            "I",
+            "had requested",
+            "through",
+            "another library"
+          ],
+          "correct": [
+            4,
+            2,
+            3,
+            0,
+            5,
+            1
+          ],
+          "explanation": "The object relative clause connects the copy with the earlier request.",
+          "number": 4,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w5",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "Sam’s explanation was useful.",
+          "frame": [
+            "He showed",
+            "."
+          ],
+          "chunks": [
+            "us",
+            "inside the case",
+            "how",
+            "the different parts",
+            "together",
+            "fit"
+          ],
+          "solution": [
+            "us",
+            "how",
+            "the different parts",
+            "fit",
+            "together",
+            "inside the case"
+          ],
+          "correct": [
+            0,
+            2,
+            3,
+            5,
+            4,
+            1
+          ],
+          "explanation": "Showed takes us as recipient and an embedded how-clause.",
+          "number": 5,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w6",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The committee wants a shorter summary.",
+          "frame": [
+            "We should",
+            "."
+          ],
+          "chunks": [
+            "include",
+            "every",
+            "rather than",
+            "individual response",
+            "list",
+            "the main findings"
+          ],
+          "solution": [
+            "include",
+            "the main findings",
+            "rather than",
+            "list",
+            "every",
+            "individual response"
+          ],
+          "correct": [
+            0,
+            5,
+            2,
+            4,
+            1,
+            3
+          ],
+          "explanation": "Should governs include; rather than coordinates a contrasting action.",
+          "number": 6,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w7",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "You can borrow the recorder for the weekend.",
+          "frame": [
+            "It must",
+            "."
+          ],
+          "chunks": [
+            "the next group",
+            "to the desk",
+            "be returned",
+            "collects",
+            "its equipment",
+            "before"
+          ],
+          "solution": [
+            "be returned",
+            "to the desk",
+            "before",
+            "the next group",
+            "collects",
+            "its equipment"
+          ],
+          "correct": [
+            2,
+            1,
+            5,
+            0,
+            3,
+            4
+          ],
+          "explanation": "The passive follows must, and the time clause uses present tense.",
+          "number": 7,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w8",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "The course has become quite popular.",
+          "frame": [
+            "This year, more people",
+            "."
+          ],
+          "chunks": [
+            "have",
+            "than",
+            "applied",
+            "for",
+            "the department can accept",
+            "places"
+          ],
+          "solution": [
+            "have",
+            "applied",
+            "for",
+            "places",
+            "than",
+            "the department can accept"
+          ],
+          "correct": [
+            0,
+            2,
+            3,
+            5,
+            1,
+            4
+          ],
+          "explanation": "The comparison links completed applications with present capacity.",
+          "number": 8,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w9",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I’m trying to arrange the interview.",
+          "frame": [
+            "",
+            "?"
+          ],
+          "chunks": [
+            "be",
+            "What",
+            "for you",
+            "time",
+            "convenient",
+            "would",
+            "is"
+          ],
+          "solution": [
+            "What",
+            "time",
+            "would",
+            "be",
+            "convenient",
+            "for you"
+          ],
+          "correct": [
+            1,
+            3,
+            5,
+            0,
+            4,
+            2
+          ],
+          "explanation": "What time is the subject of would be; a second finite verb is unnecessary.",
+          "number": 9,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-w10",
+          "type": "sentence",
+          "task": "build-sentence",
+          "title": "Build a Sentence",
+          "prompt": "I forgot to keep a copy of my first notes.",
+          "frame": [
+            "I wish",
+            "."
+          ],
+          "chunks": [
+            "before",
+            "I",
+            "the original file",
+            "them",
+            "had saved",
+            "changing"
+          ],
+          "solution": [
+            "I",
+            "had saved",
+            "them",
+            "before",
+            "changing",
+            "the original file"
+          ],
+          "correct": [
+            1,
+            4,
+            3,
+            0,
+            5,
+            2
+          ],
+          "explanation": "I wish plus past perfect expresses regret about a past action.",
+          "number": 10,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "section": "Writing",
+      "label": "Write an Email",
+      "seconds": 420,
+      "items": [
+        {
+          "id": "last-day-02-w11",
+          "type": "essay",
+          "task": "email",
+          "title": "Write an Email",
+          "to": "Dr. Raman, course instructor",
+          "subject": "Suggestion for the project feedback session",
+          "scenario": "Your class has a feedback session scheduled for its group projects. Several groups will present, and you are concerned that the current schedule leaves little time to discuss each project. You have an idea that could make the feedback more useful without extending the session. Write to the instructor.",
+          "points": [
+            "Explain your concern about the current arrangement.",
+            "Describe your proposed change to the session.",
+            "Explain how the change would benefit the class and offer to help."
+          ],
+          "number": 11,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "section": "Writing",
+      "label": "Academic Discussion",
+      "seconds": 600,
+      "items": [
+        {
+          "id": "last-day-02-w12",
+          "type": "essay",
+          "task": "discussion",
+          "title": "Write for an Academic Discussion",
+          "professor": "Professor Moreno",
+          "question": "In a course where students learn a practical skill, should instructors give detailed step-by-step directions or allow students to discover methods through trial and error? What balance would you recommend, and why? Consider both the quality of learning and the difficulties students may face.",
+          "students": [
+            [
+              "Eva",
+              "Clear directions should come first. Beginners can spend a lot of time repeating the same mistake without understanding it. Once they know a reliable method, they can try variations and compare the results."
+            ],
+            [
+              "Noah",
+              "I would allow more discovery. When students have to decide what to try, they become active problem-solvers. If the instructor explains every step in advance, students may finish the task without learning how to approach a new one."
+            ]
+          ],
+          "number": 12,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "repeat",
+      "section": "Speaking",
+      "label": "Listen and Repeat",
+      "context": "You are listening to an introduction to a student media room. Repeat each instruction exactly once.",
+      "items": [
+        {
+          "id": "last-day-02-s1",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "The media room closes at six.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-02-repeat1",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "The media room closes at six.",
+            "preparedPath": "./last-day/media/last-day-02-repeat1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 1,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s2",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Headphones are stored in the lower drawer.",
+          "responseSeconds": 8,
+          "stimulus": {
+            "id": "last-day-02-repeat2",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Headphones are stored in the lower drawer.",
+            "preparedPath": "./last-day/media/last-day-02-repeat2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 2,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s3",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Please check your recording before you leave the room.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-02-repeat3",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Please check your recording before you leave the room.",
+            "preparedPath": "./last-day/media/last-day-02-repeat3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 3,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s4",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "A staff member can help you choose the correct microphone.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-02-repeat4",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "A staff member can help you choose the correct microphone.",
+            "preparedPath": "./last-day/media/last-day-02-repeat4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 4,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s5",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "All borrowed equipment must be returned before your booking period ends.",
+          "responseSeconds": 10,
+          "stimulus": {
+            "id": "last-day-02-repeat5",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "All borrowed equipment must be returned before your booking period ends.",
+            "preparedPath": "./last-day/media/last-day-02-repeat5.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 5,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s6",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "If the sound is unclear, try moving the microphone closer to the speaker.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-02-repeat6",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "If the sound is unclear, try moving the microphone closer to the speaker.",
+            "preparedPath": "./last-day/media/last-day-02-repeat6.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 6,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s7",
+          "type": "speaking",
+          "task": "repeat",
+          "title": "Listen and Repeat",
+          "prompt": "Listen and repeat once.",
+          "target": "Save a copy of your edited project where you can access it after the session.",
+          "responseSeconds": 12,
+          "stimulus": {
+            "id": "last-day-02-repeat7",
+            "kind": "repeat",
+            "title": "repeat",
+            "script": "Save a copy of your edited project where you can access it after the session.",
+            "preparedPath": "./last-day/media/last-day-02-repeat7.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 7,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "section": "Speaking",
+      "label": "Take an Interview",
+      "context": "An interviewer is asking about how people learn practical skills.",
+      "items": [
+        {
+          "id": "last-day-02-s8",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "What is a practical skill you have learned recently or would like to learn? Explain what interests you about it.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-02-interview1",
+            "kind": "interview",
+            "title": "interview",
+            "script": "What is a practical skill you have learned recently or would like to learn? Explain what interests you about it.",
+            "preparedPath": "./last-day/media/last-day-02-interview1.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 8,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s9",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "When learning something new, do you prefer watching someone demonstrate it or trying it yourself first? Describe an example.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-02-interview2",
+            "kind": "interview",
+            "title": "interview",
+            "script": "When learning something new, do you prefer watching someone demonstrate it or trying it yourself first? Describe an example.",
+            "preparedPath": "./last-day/media/last-day-02-interview2.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 9,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s10",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "What can a teacher do when a learner keeps making the same mistake? Explain why your suggested approach would help.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-02-interview3",
+            "kind": "interview",
+            "title": "interview",
+            "script": "What can a teacher do when a learner keeps making the same mistake? Explain why your suggested approach would help.",
+            "preparedPath": "./last-day/media/last-day-02-interview3.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 10,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        },
+        {
+          "id": "last-day-02-s11",
+          "type": "speaking",
+          "task": "interview",
+          "title": "Take an Interview",
+          "prompt": "Answer the interviewer’s question.",
+          "question": "Some people say making mistakes is essential for learning. Do you agree with that statement? Explain your view and any limits you would place on it.",
+          "responseSeconds": 45,
+          "stimulus": {
+            "id": "last-day-02-interview4",
+            "kind": "interview",
+            "title": "interview",
+            "script": "Some people say making mistakes is essential for learning. Do you agree with that statement? Explain your view and any limits you would place on it.",
+            "preparedPath": "./last-day/media/last-day-02-interview4.mp3",
+            "manifestPath": "./last-day/audio-manifest.json"
+          },
+          "number": 11,
+          "testId": "last-day-02",
+          "difficulty": "mixed practice"
+        }
+      ]
+    }
+  ]
+}

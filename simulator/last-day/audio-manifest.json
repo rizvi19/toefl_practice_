@@ -1,0 +1,2632 @@
+{
+  "engine": "kokoro-native-q4-prepared-v1",
+  "model": "Kokoro-82M v1.0 Q4",
+  "sampleRate": 24000,
+  "recordings": {
+    "last-day-01-l1-response1": {
+      "path": "./last-day/media/last-day-01-l1-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "84b3be588b4993a31688a5cb10f210d11164eb80cd2fbf31389ffde7ef14146b",
+      "audioHash": "9347499350f1a1af8a8f8ae8328f0d21ed680f129fd3e339e14c02b0d2799b13",
+      "duration": 3.649,
+      "bytes": 29760,
+      "rms": 0.07708,
+      "words": 14,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response2": {
+      "path": "./last-day/media/last-day-01-l1-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "5a163184bb65e66ccd1de193e384e30a68549f913582a905e1bc07ccde5d9cbe",
+      "audioHash": "3fd2e339b1567e141c6eb647e2821fff476af047d352eea82aef715792274ecc",
+      "duration": 2.155,
+      "bytes": 17664,
+      "rms": 0.07134,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response3": {
+      "path": "./last-day/media/last-day-01-l1-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "db1157f365b480a32d2e5c2da85cc88dea0de9dbaac713edbb556391a0e3f345",
+      "audioHash": "89e30e3b317e58464691f3566e056c2d7600143e967f72b3c151728164ea52c6",
+      "duration": 1.622,
+      "bytes": 13440,
+      "rms": 0.07284,
+      "words": 5,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response4": {
+      "path": "./last-day/media/last-day-01-l1-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "3d6c9e119f0a2ad70bb219a685f59e3b2fa9f0abbb9ce7b906a2f72eb42202af",
+      "audioHash": "7e27e7a4e219189b4abc970a9000c44589637b0fc95c416761e04f8dbf8488ac",
+      "duration": 2.07,
+      "bytes": 17088,
+      "rms": 0.07223,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response5": {
+      "path": "./last-day/media/last-day-01-l1-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a03eb24eced30d032da001e6964c8d7090b2adf35a0eedfd8c4a6074b79b72a5",
+      "audioHash": "b5733d1c966028c05be0c6dbadfb5ab78b69713bf4835417efd0fa5dff450a93",
+      "duration": 2.945,
+      "bytes": 24000,
+      "rms": 0.07368,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response6": {
+      "path": "./last-day/media/last-day-01-l1-response6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "819fa88122d32ef671e15011c8ce702988535009909054626f3c297778e9113e",
+      "audioHash": "14e04d296b25adaddafa9cd194ff05dd50ddf495ad246a3ea3171a9e27c5d7e7",
+      "duration": 2.347,
+      "bytes": 19200,
+      "rms": 0.06846,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response7": {
+      "path": "./last-day/media/last-day-01-l1-response7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "625eaf737f2250de0715fd689cd20af477d4db3cfafc7e0726d350b1b1d0ad01",
+      "audioHash": "6e17390fc1080288d4c6498fa1596c99bb5ed530f3fc243534aeb5c27124bf99",
+      "duration": 2.71,
+      "bytes": 22080,
+      "rms": 0.07684,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response8": {
+      "path": "./last-day/media/last-day-01-l1-response8.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "01507c3139b8231b99f0df09b85d2bd45ce9b27654ac6c1841baca3e1d932671",
+      "audioHash": "6097de0553b4d841def2b2ee3ba09e0d994fd6ba07a7846622dead4063e332df",
+      "duration": 2.753,
+      "bytes": 22464,
+      "rms": 0.07501,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response9": {
+      "path": "./last-day/media/last-day-01-l1-response9.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "ff2f6249f5f0c32ad03a4ea68270ad0d530776771fe4e3176f251c1ff892d0c1",
+      "audioHash": "c37d91735b42e2375bef23d21e1c587824a20bcd1e9a19b813645a9f6b65fb43",
+      "duration": 2.241,
+      "bytes": 18432,
+      "rms": 0.07718,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response10": {
+      "path": "./last-day/media/last-day-01-l1-response10.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "9e05849816a4b91ae2decbf0b907437c9d1659222e99d8083b4703ac6ea942d3",
+      "audioHash": "4a5fe4e8870ff7c1e4d064f6e46a0d1dae8803aa51b15c6b4aa0b11e6f32de42",
+      "duration": 2.582,
+      "bytes": 21120,
+      "rms": 0.069,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response11": {
+      "path": "./last-day/media/last-day-01-l1-response11.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c7ba493b67d17efa87ed76fde8c109c20b75ce04a8414effa725fa1b71e4a07c",
+      "audioHash": "6caee327e53b085e660d1fa5257617d634a000b7fab04f776eefd4baa73d575e",
+      "duration": 2.817,
+      "bytes": 23040,
+      "rms": 0.07421,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-response12": {
+      "path": "./last-day/media/last-day-01-l1-response12.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "872ad2289e35b4d4900d0eaa09c5a9abe4d6d369fcf0286d6b552817efc1c198",
+      "audioHash": "f2ee5de982468fcdbc5a69ee041f5ac6165e86fe2820ec808024287c8c2b0498",
+      "duration": 2.454,
+      "bytes": 20160,
+      "rms": 0.07092,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-conversation1": {
+      "path": "./last-day/media/last-day-01-l1-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6df90ea10241b7ff3f929ec844c857e6fb07b816a53f494ada56c9bd0531d9b8",
+      "audioHash": "20bb0ee5258361a86942a30b4742000133417cccf9adaee2e03fe74eb61f7334",
+      "duration": 24.485,
+      "bytes": 196416,
+      "rms": 0.06812,
+      "words": 77,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-01-l1-conversation2": {
+      "path": "./last-day/media/last-day-01-l1-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "cab2dc8d4238a9e9e9284e3bbfb2fd85869daf1182e84387e0ce4ef63b95f83c",
+      "audioHash": "004d4d758ad8ff4d231a581eb1ce49f9743d5799550c01b07b19e262619e72c7",
+      "duration": 28.091,
+      "bytes": 225216,
+      "rms": 0.06889,
+      "words": 81,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-01-l1-conversation3": {
+      "path": "./last-day/media/last-day-01-l1-conversation3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "da3dc5357ab8ddc1d8ae65f51b65168ac816edafb5c0c62fd9eeefd7b774434f",
+      "audioHash": "f5272c9c5c8f85b8abfa06ec9c03d200c76b149b8aa60956680060580c503d66",
+      "duration": 27.453,
+      "bytes": 220032,
+      "rms": 0.07101,
+      "words": 83,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-01-l1-announcement1": {
+      "path": "./last-day/media/last-day-01-l1-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "07ffc524ff98a3b60b420e606930f61a4107e1bcc74181d5526f17118d108121",
+      "audioHash": "0f3ce71e98b6e87e51f171b22463372bc8228447bd5bc1710904263cc6d71c3b",
+      "duration": 28.825,
+      "bytes": 231168,
+      "rms": 0.06874,
+      "words": 76,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-announcement2": {
+      "path": "./last-day/media/last-day-01-l1-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c002283b0535229a2c178f80e8befcee44490132ffcf36ca66d136930ce54152",
+      "audioHash": "2382c13f80674ffaf94b2173861e2de2ad25a4f882d2f41136d9a03a4b704a24",
+      "duration": 24.35,
+      "bytes": 195264,
+      "rms": 0.06701,
+      "words": 75,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-academic-talk1": {
+      "path": "./last-day/media/last-day-01-l1-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "71fe14391754758af5e963f23440236cd6eeeb27e65b6f0b264dc3d545ebcb65",
+      "audioHash": "653e98585a2f60928c6391a3b774cbd118d979600c6b264dd07dcdd83eee61b3",
+      "duration": 81.4,
+      "bytes": 651648,
+      "rms": 0.06928,
+      "words": 203,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l1-academic-talk2": {
+      "path": "./last-day/media/last-day-01-l1-academic-talk2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "35e9df8c753a537e29ff6f7d412a568956e821632de9b36d7b31aaaeac942b7e",
+      "audioHash": "bb92c3bcae410e36ebd3692e6e7e3f90e844acb42b39e0c726886713d01ba612",
+      "duration": 97.5,
+      "bytes": 780480,
+      "rms": 0.05914,
+      "words": 209,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-01-l2-response1": {
+      "path": "./last-day/media/last-day-01-l2-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "b81d0f853af53d5ef3b827466cd5eb41c9642af101aafa57e918a0a547ecdae1",
+      "audioHash": "03a2f0ac995d93c0b9ce78c82647d20010631bb8cf7532f28e60909776b898a9",
+      "duration": 2.825,
+      "bytes": 23040,
+      "rms": 0.06607,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l2-response2": {
+      "path": "./last-day/media/last-day-01-l2-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e169a4372d05b08122add2ccb6b935505bc9d431fd368331f8bbb8b38b4b765b",
+      "audioHash": "ff0a5ffe8f4f89e887dfdd487baa711db8b53e73c40ca184b28c6f83220909dd",
+      "duration": 2.975,
+      "bytes": 24192,
+      "rms": 0.06415,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l2-response3": {
+      "path": "./last-day/media/last-day-01-l2-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "39e8449288dbac3499a1ff211f81d40f64a70abb6639ec7e79088c45b4303ec0",
+      "audioHash": "9aff9a5a51869d0e789c8a2e0fe2186a2f9c7f8c68495d9e07f2bdc2b9ba6b43",
+      "duration": 3.275,
+      "bytes": 26688,
+      "rms": 0.06176,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l2-response4": {
+      "path": "./last-day/media/last-day-01-l2-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a395ca59a22708d3b433a1aec84942d00e8af2eca8fbd4e66f4ec0e8837000e7",
+      "audioHash": "0b233dbd3ed938fb10566f17ebd8dc6e3160b199072504af48a4d7ba2cfe431d",
+      "duration": 2.675,
+      "bytes": 21888,
+      "rms": 0.06809,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l2-response5": {
+      "path": "./last-day/media/last-day-01-l2-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "bf1b65ff0f88e4f028d143e4ac2c12da988c35b99b25152795dbbe6ea6c48c4e",
+      "audioHash": "184f8b341b092bdd8a68bbf7fcabb35e12321776aaccfe9e9e5bfce29c1ef01d",
+      "duration": 3.25,
+      "bytes": 26496,
+      "rms": 0.06381,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l2-conversation1": {
+      "path": "./last-day/media/last-day-01-l2-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "9d60c78368506b405d1f93feeb235479c8a802f1f9d5ac9a409018f7c5b59fa2",
+      "audioHash": "1ebf9e00e34a0e2fd53c0616f1b72d5b3ae613dbf4513df30f49054f86016b89",
+      "duration": 35.335,
+      "bytes": 283200,
+      "rms": 0.06286,
+      "words": 76,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-01-l2-conversation2": {
+      "path": "./last-day/media/last-day-01-l2-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "4311b8aaf3acb302bba72db8bf62ad396a629eec286e74d7ec25038dcb0bd066",
+      "audioHash": "7ba223c1fb9c10a92e1cf78ab1345af50b998964c02f4a49889c9b84139c4de4",
+      "duration": 35.835,
+      "bytes": 287232,
+      "rms": 0.06208,
+      "words": 76,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-01-l2-announcement1": {
+      "path": "./last-day/media/last-day-01-l2-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fa4ee5e64062b494c69cfff8fc5cd94aeafa9700d42ce9bc838ebdd72fe5ffa7",
+      "audioHash": "b22a91cd401e51629829b4a44a95b4ef252d0734a51966f35b7742eb53748b46",
+      "duration": 25.05,
+      "bytes": 200832,
+      "rms": 0.06887,
+      "words": 71,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l2-announcement2": {
+      "path": "./last-day/media/last-day-01-l2-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "35c0f419e07eba081fc7db54eaba2d36013a123e43fc1d9391e5b0fb2fbcbfa6",
+      "audioHash": "954e5e3e3dcd35d62e503d75539a6ba361261a3a9ad563b781794aa7fe571450",
+      "duration": 29.4,
+      "bytes": 235584,
+      "rms": 0.069,
+      "words": 73,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-l2-academic-talk1": {
+      "path": "./last-day/media/last-day-01-l2-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a22d6054a979271fe27934f498a07743901556184936a1fd8300b1a388c6b73f",
+      "audioHash": "31542777b42517d3f6203a23bab3de2c85398a08a08011a8b54e807d68fe402b",
+      "duration": 90.425,
+      "bytes": 723840,
+      "rms": 0.06956,
+      "words": 217,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-repeat1": {
+      "path": "./last-day/media/last-day-01-repeat1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a1fe3261febf0a9148f58777db81d254dc6476d780d7d47badc81083922c93b1",
+      "audioHash": "d9e995d83ac14764b42886a9746e88e0ec300db8f155bcb673ac766a12d5a942",
+      "duration": 3.225,
+      "bytes": 26304,
+      "rms": 0.06687,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-repeat2": {
+      "path": "./last-day/media/last-day-01-repeat2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f75dddaeded2a0d95fec2a460766571928761a35a7e418ba88451f492e7fb97e",
+      "audioHash": "b8e6a7327b53459179e6f519ed8a59f0b5cede03a49f694905c050fe81601665",
+      "duration": 3.25,
+      "bytes": 26496,
+      "rms": 0.06333,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-repeat3": {
+      "path": "./last-day/media/last-day-01-repeat3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6f6b39bbdd4c7ad720ec100c144e786aa96437ecbb3f8a4f2d82918cc5e8ccf5",
+      "audioHash": "1ebbd1a6cca334867a127d5e479efad417344a54c42cbe3bd32de264ae527ecd",
+      "duration": 3.25,
+      "bytes": 26496,
+      "rms": 0.06707,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-repeat4": {
+      "path": "./last-day/media/last-day-01-repeat4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "77768273a88bf269b865ff3526bba941d48b8f23379163da7b7ebd3274246284",
+      "audioHash": "14747ac16d43cf7e6b1b210d64ac7021ac7272868af6da91bbee496256e5399d",
+      "duration": 4.55,
+      "bytes": 36864,
+      "rms": 0.06898,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-repeat5": {
+      "path": "./last-day/media/last-day-01-repeat5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "8b389b7acdd81fcf9d801942de77acf0c0222336594426b22f6e4059a89b84b9",
+      "audioHash": "a23b79abc4169e0780976c94ca54ebfd1c044623f8e757540ff43cd02a9a565e",
+      "duration": 4.225,
+      "bytes": 34368,
+      "rms": 0.06983,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-repeat6": {
+      "path": "./last-day/media/last-day-01-repeat6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "8f4ada5fd326c3b0d9bc29802c9ea93fd2e25fbc0eedf922525e5433d77899b2",
+      "audioHash": "b7d785cb528b3896d95af61dcddad610ebd82b0e32a81c5899b74188989669c2",
+      "duration": 4.975,
+      "bytes": 40320,
+      "rms": 0.06826,
+      "words": 12,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-repeat7": {
+      "path": "./last-day/media/last-day-01-repeat7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d1fe48e277bbc5cf2999115d085dd611f2b7ed7f79a37392914fdcb62c694156",
+      "audioHash": "bfbf495294b495c6d16e4a2064f101e1f7fc36830039ccc93b69cdcaa98d91cf",
+      "duration": 5.95,
+      "bytes": 48000,
+      "rms": 0.06994,
+      "words": 15,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-interview1": {
+      "path": "./last-day/media/last-day-01-interview1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c4dc772e5a23ab1db9f56d227191cf1c666381b6893a3f1e3978874c47d09359",
+      "audioHash": "8e673cc97ad37211d52f76780e44218cdcf33410539f71f3d403840bc6e2b16c",
+      "duration": 7.525,
+      "bytes": 60672,
+      "rms": 0.06931,
+      "words": 22,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-interview2": {
+      "path": "./last-day/media/last-day-01-interview2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "21da03b6f2138b9151266b3ff8d49a3ad20667b356815e3c22ac9f6ae357b0a3",
+      "audioHash": "f9b7444d84a5e3bfa841a37a40d2531d9dd22bea5ac8ed1053364a110dd61b62",
+      "duration": 8.45,
+      "bytes": 68160,
+      "rms": 0.05784,
+      "words": 19,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-01-interview3": {
+      "path": "./last-day/media/last-day-01-interview3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "eb371f8b86825eecd16e8358d803956dfeef6889684e2ad8942045d683d207d6",
+      "audioHash": "9ee8e49ad0eee2062bbff3d3c6bae3fe7f20e6b19d6c838cc6e720b559a21e5d",
+      "duration": 10.2,
+      "bytes": 81984,
+      "rms": 0.06841,
+      "words": 23,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-01-interview4": {
+      "path": "./last-day/media/last-day-01-interview4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "1e09209e381900b8d6ee67afa19cafa67ab5117a01b00b01faef0370a8cf73bb",
+      "audioHash": "37da39ac88b3416e73559578775eaf8f604ddbb0eb070a643165656977727160",
+      "duration": 10.075,
+      "bytes": 81024,
+      "rms": 0.06158,
+      "words": 21,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-02-l1-response1": {
+      "path": "./last-day/media/last-day-02-l1-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "85e866c5a53208d7ea9542a030b193e4281874338f7607a3e0f10d347ff10ad6",
+      "audioHash": "3570136a85ef00dc0bcd9cee432b77f3d2e8ebdc705c245d4a1d074bf6575821",
+      "duration": 2.325,
+      "bytes": 19008,
+      "rms": 0.06373,
+      "words": 6,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response2": {
+      "path": "./last-day/media/last-day-02-l1-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "5cbe1cc45b5dc2e153715b5733857f05743340c610268bd49c81bca1107679bf",
+      "audioHash": "a44065e10bf67ff0187f489ddcc7023eed3618bdafd8632e0df29e7da5cd5a5c",
+      "duration": 2.9,
+      "bytes": 23616,
+      "rms": 0.06513,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response3": {
+      "path": "./last-day/media/last-day-02-l1-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "ee90d601ed6ab20712bdf50e0a0b3bf1443ef60c26ca621be7884b2d8cec189f",
+      "audioHash": "fffe46919193d984b85edbe6eb41db58a8f1c0a566aaa98a575dbcd22ca8cbf5",
+      "duration": 2.9,
+      "bytes": 23616,
+      "rms": 0.06289,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response4": {
+      "path": "./last-day/media/last-day-02-l1-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "77ab9f99aa503973961960a13e2a455cde2aced45fdd3115c07c995fad45d5b4",
+      "audioHash": "1236d162f11d760f764133973bd9e502ce14f904ac5be21ca130651096c2cc9e",
+      "duration": 2.35,
+      "bytes": 19200,
+      "rms": 0.06116,
+      "words": 6,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response5": {
+      "path": "./last-day/media/last-day-02-l1-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c3433fcb1410db24df61d6998bb293d1a2287894e36630e1a1587d9a219ab259",
+      "audioHash": "0e3c36dfd9f435e6c68f5423974c2fe06085f4a1e1919d6d5bab48781e9b83ed",
+      "duration": 2.6,
+      "bytes": 21312,
+      "rms": 0.07039,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response6": {
+      "path": "./last-day/media/last-day-02-l1-response6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e29d1b384caf05713501c297268256a7b4b94ae9320b87a27f1bc27acb66cef6",
+      "audioHash": "1d32775d1d66e5038a0a9525d5fd53d5373af997279dafc596ad4ce831eda422",
+      "duration": 3.35,
+      "bytes": 27264,
+      "rms": 0.06683,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response7": {
+      "path": "./last-day/media/last-day-02-l1-response7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "385118dadf5bf63a9530d849b9fa9b9362fe6e3b320c93df70e778d3959e4f81",
+      "audioHash": "937b759481b35d423f39ca6e9743da1a4897145243fc37186dcbfa30d3c4a2c3",
+      "duration": 2.7,
+      "bytes": 22080,
+      "rms": 0.0655,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response8": {
+      "path": "./last-day/media/last-day-02-l1-response8.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "746ac44c4eb367f1b22351385cbfca17e2d2ec331da7bbfb2b116efba72abff9",
+      "audioHash": "b227aca5086f3edffc4e762ac69c1ed031c72b45827029f81d0ce781dd78a711",
+      "duration": 2.5,
+      "bytes": 20544,
+      "rms": 0.06546,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response9": {
+      "path": "./last-day/media/last-day-02-l1-response9.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6ef0fb73f9b29d84a92166e897601bcfa94dc3bef5b1433e05ea8d4737923a59",
+      "audioHash": "64bffece51e0d43b566ca5c8e5e5e134494bfbd484059ae04bf5c55140d9b06d",
+      "duration": 2.875,
+      "bytes": 23424,
+      "rms": 0.06753,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response10": {
+      "path": "./last-day/media/last-day-02-l1-response10.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f062c8be5177fcb92a96596e6bb9cb88f1f29ff48303cc5be27a9ecd4beee8e2",
+      "audioHash": "89ecb79a7c307eac4ead4ced06775a7082f4bdc7035cbec107c85e6178d30090",
+      "duration": 3.35,
+      "bytes": 27264,
+      "rms": 0.06319,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response11": {
+      "path": "./last-day/media/last-day-02-l1-response11.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fdd89580b3e3bac1c2085652802e75f6ed4482236c58e0fe1283f2c96f7e5d62",
+      "audioHash": "525f28d469ff7c7eb555ddbd0c40445008aea6ad42748f2ef54aecf282ec5b3d",
+      "duration": 2.9,
+      "bytes": 23616,
+      "rms": 0.06488,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-response12": {
+      "path": "./last-day/media/last-day-02-l1-response12.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "4d9a29bd55b70917304d518ab68fb1a51c7016bcea6f1956b0e34ae1f2a3acb9",
+      "audioHash": "448d82f50926682334b0fb48b37328142d28f6b616bc2f7d97295e983ff33a17",
+      "duration": 3.475,
+      "bytes": 28224,
+      "rms": 0.06666,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-conversation1": {
+      "path": "./last-day/media/last-day-02-l1-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "68c5928b12d4a89428d5d158fda85de45031fa83f40b3a6f0c24dc2a26521f19",
+      "audioHash": "55c3cdf486d14d492e7d5972bd38a785005d114a939cd0f7f0f3efabad7a6cb6",
+      "duration": 33.63,
+      "bytes": 269568,
+      "rms": 0.06355,
+      "words": 81,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-02-l1-conversation2": {
+      "path": "./last-day/media/last-day-02-l1-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6560ffed3941511944c6f68c4f02bd45e420abf2c0bad8ad32fc8f6ccca9670c",
+      "audioHash": "15d1a0b0d1fb318ee8b02448d3adbd905fc113bed6107dbdab7467ebbfe689b7",
+      "duration": 33.73,
+      "bytes": 270336,
+      "rms": 0.06263,
+      "words": 77,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-02-l1-conversation3": {
+      "path": "./last-day/media/last-day-02-l1-conversation3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "ee0644395710e66124fa5cb6119c1efbed301bb96a84b8445ba9f54bd13cde92",
+      "audioHash": "56f87267ea9628e0ad3dbc8a38b522ee6b23bbabae8b22f3aa47afc79d3053e5",
+      "duration": 34.455,
+      "bytes": 276096,
+      "rms": 0.06277,
+      "words": 78,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-02-l1-announcement1": {
+      "path": "./last-day/media/last-day-02-l1-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fd3bb06db7e765d519c22656ef94f87637f0c4f8102c6e351fbdb8ad56f13d70",
+      "audioHash": "ad66a1a33f2282a538b9e0b3d44ff3dd9f00351b148804018f7d66eded19b7df",
+      "duration": 27.35,
+      "bytes": 219264,
+      "rms": 0.06959,
+      "words": 76,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-announcement2": {
+      "path": "./last-day/media/last-day-02-l1-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "b508cc2d8a4f90aaf610ec97397d9f3c3113e0c069230dc872ca1b20fc3b96a1",
+      "audioHash": "02d96b1ff3e1c3e0213582360b2e6f3ff8e570b916403a0b60c45ea9ffe51264",
+      "duration": 29.9,
+      "bytes": 239616,
+      "rms": 0.06827,
+      "words": 72,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-academic-talk1": {
+      "path": "./last-day/media/last-day-02-l1-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "5f058f3da863721da9bdc83f69a67d45a61169b902116c00b796702f04b4d8de",
+      "audioHash": "d2c496b65c26fe42c1d175bea6c8cbbf7a501622f7a4988c6a62725fc878f675",
+      "duration": 83.95,
+      "bytes": 672000,
+      "rms": 0.06834,
+      "words": 213,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l1-academic-talk2": {
+      "path": "./last-day/media/last-day-02-l1-academic-talk2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d5b7fb810584aa88b16caccf5eb0dc3faf9c7dcf053dd200e1976bf0dda278d3",
+      "audioHash": "f6af6efb7d940917bbdbe0d6fe2fe83fb5d5473dad06af1f21d46bb754a814eb",
+      "duration": 98.725,
+      "bytes": 790272,
+      "rms": 0.05924,
+      "words": 212,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-02-l2-response1": {
+      "path": "./last-day/media/last-day-02-l2-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2fccda3b1ccc426cdd52db90d378e6cfb0dca160bd19af2193f08d7f6e1a452b",
+      "audioHash": "a0a397bc4cd92406d8441ab4d047dd525be83c7d67a33609f3919a6ab5f74fc8",
+      "duration": 2.525,
+      "bytes": 20736,
+      "rms": 0.06522,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l2-response2": {
+      "path": "./last-day/media/last-day-02-l2-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "9d19302452c5d3a82c14137948c34bf20d11ae427ea3609ec4b4ba64e7fe330f",
+      "audioHash": "5af469218e21cd4caf7369283c9dbc26142e6441cf4c3f54d46123094d355c3a",
+      "duration": 2.975,
+      "bytes": 24192,
+      "rms": 0.06429,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l2-response3": {
+      "path": "./last-day/media/last-day-02-l2-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2f158916d4e72bf9f8769726ace2cb18535ee24f7a7a7896efbdaa0b75ce4334",
+      "audioHash": "c24d5fbe9fccb9533d9ad58d880e30c6af274a1be4fa04ccb71a7a345fd389bc",
+      "duration": 3.475,
+      "bytes": 28224,
+      "rms": 0.06756,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l2-response4": {
+      "path": "./last-day/media/last-day-02-l2-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c5acd10ebb1010888206f04c351d39e0d6012d34a40ba6e63afab1c721c29541",
+      "audioHash": "e2708181606cb7fd3ac4c538027e57a1f7744b7712625d1ea24e6f3bb9af9e0b",
+      "duration": 2.5,
+      "bytes": 20544,
+      "rms": 0.06258,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l2-response5": {
+      "path": "./last-day/media/last-day-02-l2-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6afda5830715d7c1af5a2a3d30d3859572cff98520ab7e562c006104b4efd6c2",
+      "audioHash": "81feb3fe99a698df306059fc3ac2efe70b2c9a5cd11ce815f4ccafce4676c10d",
+      "duration": 2.85,
+      "bytes": 23232,
+      "rms": 0.06408,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l2-conversation1": {
+      "path": "./last-day/media/last-day-02-l2-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2c057f145d42836d031edfc5770b059a06d5a8f061b8c4c4ce80de83ea12d007",
+      "audioHash": "8a3d3bee667437e1ed6c42b53119aea00e7296f65d7413a6e8ec649994f61049",
+      "duration": 31.555,
+      "bytes": 252864,
+      "rms": 0.06272,
+      "words": 80,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-02-l2-conversation2": {
+      "path": "./last-day/media/last-day-02-l2-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "bcf83db8b70099b88ccd6619709d0ae7915941e25e1ee1eb26ba8d8e4d5af238",
+      "audioHash": "6bef3b275e363ea81f573a5a731f56b093ac6c5ca023df8cffc63d68d745605d",
+      "duration": 30.925,
+      "bytes": 247872,
+      "rms": 0.06277,
+      "words": 75,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-02-l2-announcement1": {
+      "path": "./last-day/media/last-day-02-l2-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c9484c9b9578ef198847831a84d96f806890dd439b909c3162d300041c1cf572",
+      "audioHash": "164b6745b11122ac6a449f362fa05bd9b2518a45ed7d3915c8e56f933f177f02",
+      "duration": 27.5,
+      "bytes": 220416,
+      "rms": 0.06842,
+      "words": 70,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l2-announcement2": {
+      "path": "./last-day/media/last-day-02-l2-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "08691f8d29ad504390fcc1a82f04e4c5ca70d64cfa69e2e3bc867368645c284f",
+      "audioHash": "93fa345dfd090b0caa6b3faf46622f8f29c31584e26838cba85502c3aa5eeb99",
+      "duration": 28.15,
+      "bytes": 225600,
+      "rms": 0.06752,
+      "words": 74,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-l2-academic-talk1": {
+      "path": "./last-day/media/last-day-02-l2-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f4a1be2ca1a4bd9c35b3c139f731f105ab5277b41a256ce00b04f849211cf4c1",
+      "audioHash": "d7e4f52af0ece10fe00658a57f5a9196ddc73d59abb7b5e743bbcd36ea730e90",
+      "duration": 84.925,
+      "bytes": 679872,
+      "rms": 0.06913,
+      "words": 206,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-repeat1": {
+      "path": "./last-day/media/last-day-02-repeat1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "1734b597d36ca42cb296d554a59b19d672cd78e9426d722916894dc142c66187",
+      "audioHash": "e4a0daa45c8dbcf3deb78c9a1e54223c4b91f31fc4a80e19802f0e7e931c4957",
+      "duration": 2.65,
+      "bytes": 21696,
+      "rms": 0.06579,
+      "words": 6,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-repeat2": {
+      "path": "./last-day/media/last-day-02-repeat2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "58e17e35d3dd458c3e840751e91f55db48e6f664f0959273cdad6deedf0fa984",
+      "audioHash": "2fb9693cf1cae140edb0f0a978e8fba384c9e41a4744a7b4b86ed007851666f9",
+      "duration": 2.925,
+      "bytes": 23808,
+      "rms": 0.0623,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-repeat3": {
+      "path": "./last-day/media/last-day-02-repeat3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "adcbf2adeca781dcfa2b56242519911d882125381015d10eb44939a35cfa75b6",
+      "audioHash": "96ee83fe5b78846bcd6d34b32f07dc2a43410ef00564cc7e2df1a03b0677452e",
+      "duration": 3.5,
+      "bytes": 28416,
+      "rms": 0.06605,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-repeat4": {
+      "path": "./last-day/media/last-day-02-repeat4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "feb45125b43b90d36d096d5e1bfaac8914a5fdd688fe154d92681883b2cd5aad",
+      "audioHash": "5dc1077a49d86f4f5808e06a360dc5715669d98ad29e38be0b8dbc731ff3e246",
+      "duration": 3.9,
+      "bytes": 31680,
+      "rms": 0.06805,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-repeat5": {
+      "path": "./last-day/media/last-day-02-repeat5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "12becc25b1e58fadcb4516d91f33856fd70862025fa5456b80118c01cfe1dbbe",
+      "audioHash": "8ae9f810d4f84cfbabc167a145d7d2a65463f6b77a8d937e18f0bffe3a4c97d3",
+      "duration": 4.975,
+      "bytes": 40320,
+      "rms": 0.07013,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-repeat6": {
+      "path": "./last-day/media/last-day-02-repeat6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "73c33fcc5cc8e2d4a75cdb0ab69c6c3641c3dc4fedad3b8065b6b4410d5b75f3",
+      "audioHash": "121432c6f0d14f09670eaea790d161b731392fc788a8d289e7774d1fd4b3cd91",
+      "duration": 4.95,
+      "bytes": 40128,
+      "rms": 0.07009,
+      "words": 13,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-repeat7": {
+      "path": "./last-day/media/last-day-02-repeat7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "1d818ed194e396c16110a82d090582484ad61bd7da84fe77a48f8765f26ffb38",
+      "audioHash": "632e6219498ac7961d81f9d7e006291b8d640202d2723fbff7ac02d98e9064dc",
+      "duration": 5.175,
+      "bytes": 41856,
+      "rms": 0.0683,
+      "words": 15,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-interview1": {
+      "path": "./last-day/media/last-day-02-interview1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2b42daf23c501a346c9c6170949bb4145625cf2fe56e17391748546aa2fa1a0e",
+      "audioHash": "ee9949a9f01af5c2ad0b64e4ded5e38da389cc84d657e2a3358a17fe0d28ee13",
+      "duration": 7.275,
+      "bytes": 58752,
+      "rms": 0.06584,
+      "words": 20,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-interview2": {
+      "path": "./last-day/media/last-day-02-interview2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "1f539a82c3a67d076f5c4f07cd89284bd550db6a5c4143f929e30151c18e5ff8",
+      "audioHash": "4fc63aee01040c0d63135a33adabf45320d9b72576fc83897b81ea02d63eecfb",
+      "duration": 9.925,
+      "bytes": 79872,
+      "rms": 0.05876,
+      "words": 19,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-02-interview3": {
+      "path": "./last-day/media/last-day-02-interview3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "5b115b262ddbe16a60790a979ba5c369fda8a68f7fdb130ff41c4a1b57561245",
+      "audioHash": "d18786c0ee8523457eca88d58b350b26fcbca0d73f98fc31469ab3ef805ae9f1",
+      "duration": 7.525,
+      "bytes": 60672,
+      "rms": 0.06769,
+      "words": 20,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-02-interview4": {
+      "path": "./last-day/media/last-day-02-interview4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c1f8c56a4ee5a79a438811b1d046f95700025cf10f277ea8c4d238e7d2a4af79",
+      "audioHash": "5de9d14ce118f03c29c8721bdf6a453a601308196b4c1aa57fce8e4be7b42493",
+      "duration": 11.575,
+      "bytes": 93120,
+      "rms": 0.06016,
+      "words": 26,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-03-l1-response1": {
+      "path": "./last-day/media/last-day-03-l1-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "808955a191bb7ca7f3ccf8362d0f0bd61d2cae4408426420924e4bef8706df44",
+      "audioHash": "a2bcbe78bab6ac327349fe533a325674ac1f043a059bfd99eb3c85eba5a88857",
+      "duration": 2.95,
+      "bytes": 24000,
+      "rms": 0.06387,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response2": {
+      "path": "./last-day/media/last-day-03-l1-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f8ad3f7738cc52ce998e6440f2ca71431d7c4955f49859c21f6fdc409f6fdafb",
+      "audioHash": "bf3c710fc7f90c10fd19fde21d338775cdd0b043479caacc10f3e943fbfd1ae3",
+      "duration": 3.125,
+      "bytes": 25536,
+      "rms": 0.06604,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response3": {
+      "path": "./last-day/media/last-day-03-l1-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "114a88e38fef369953648848a44dcc2622047910838c93ff19ab786606876f28",
+      "audioHash": "ceea347156523638e6dbddef6b8942259a210f3586c24bfb6f9bbd958f252c00",
+      "duration": 2.9,
+      "bytes": 23616,
+      "rms": 0.06579,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response4": {
+      "path": "./last-day/media/last-day-03-l1-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f27f19b97214d06176f6d3595b6f4e305296b1b9e4e13285ec78a44c74d47324",
+      "audioHash": "d0fc66761e6a1708bb966bd89b790bcfb33ab9f35392fbafaecbe9fc03fc75d9",
+      "duration": 2.725,
+      "bytes": 22272,
+      "rms": 0.06382,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response5": {
+      "path": "./last-day/media/last-day-03-l1-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "0a49b9382be53b6ea138a6f15e25912dac18be0fc29a87f44130a2d091fa491d",
+      "audioHash": "b5080b13a417063889cc30e7dfdde31380fd979413774270c2aa4ed87ac638b6",
+      "duration": 2.65,
+      "bytes": 21696,
+      "rms": 0.06719,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response6": {
+      "path": "./last-day/media/last-day-03-l1-response6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fe2a89ae600b44f88c4e08b41d0159ea4021df6639c6f359d71a059b84961d3e",
+      "audioHash": "ed32297dc2a5c7505af3e1a11309ca75f84117db5cad5781548fc1b7e6592ed7",
+      "duration": 3.125,
+      "bytes": 25536,
+      "rms": 0.06492,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response7": {
+      "path": "./last-day/media/last-day-03-l1-response7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "25517541f7205b20534116c52be91735c9c4078b34cbed25bed0ffe8fc5e7b9a",
+      "audioHash": "4af82f0028c7e926ab85e34142e889ce34976a9b823e1b2728df83fca57b6fa7",
+      "duration": 2.8,
+      "bytes": 22848,
+      "rms": 0.06463,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response8": {
+      "path": "./last-day/media/last-day-03-l1-response8.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "bfa3e5ea88df0864333f1620a4ec4182bcf90929faf8f6c71757a79ebc2648ef",
+      "audioHash": "838506d65404a9474b80e9b6d2815aaf3e5651f980d3c09d044fbd63a123e4c2",
+      "duration": 2.775,
+      "bytes": 22656,
+      "rms": 0.06464,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response9": {
+      "path": "./last-day/media/last-day-03-l1-response9.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "8003e98d108676bbefc77b373e3f01b84d36432ee527702de06d84c3d866a992",
+      "audioHash": "36525f4c4e444c2e10c094b220fac84502f4e27bf32eab92141bb56728f6c706",
+      "duration": 2.875,
+      "bytes": 23424,
+      "rms": 0.06153,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response10": {
+      "path": "./last-day/media/last-day-03-l1-response10.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "9508db9049eedc7101219de40a24eab681c77e44bc1c06d3a23fe3a37f8576de",
+      "audioHash": "000d1558ab7a4127142cbda44d72822ee37d2cd07f11a87b1415c0fbb272ab83",
+      "duration": 3.0,
+      "bytes": 24384,
+      "rms": 0.06202,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response11": {
+      "path": "./last-day/media/last-day-03-l1-response11.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "377a921ee444294ccfa25ed35d35b95c7622bb82e329cab0bd80df3b83a02119",
+      "audioHash": "d2daeb61ed370d726fa8fe688443c3dfa62d1e8b190494edf930120ba5878dd6",
+      "duration": 4.4,
+      "bytes": 35712,
+      "rms": 0.06619,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-response12": {
+      "path": "./last-day/media/last-day-03-l1-response12.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "06cb4067fa2d7d516fa0fcbf38730b41fc9b4155caab28a9e0b7d4ac960621f7",
+      "audioHash": "278ad983a6d16ea143c1b344428ac33ea8a88ae9cf4a04d5d864d3003498643c",
+      "duration": 3.225,
+      "bytes": 26304,
+      "rms": 0.06257,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-conversation1": {
+      "path": "./last-day/media/last-day-03-l1-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "303ef1bfa09abd3e96e82b6ac2bbca41a58763191d36b00cbb87e3705be55dfa",
+      "audioHash": "0ca709c7da14c919484f5a940a3f80c2e3f4c04052648893c6bf0f032b80ae6f",
+      "duration": 34.555,
+      "bytes": 276864,
+      "rms": 0.06207,
+      "words": 78,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-03-l1-conversation2": {
+      "path": "./last-day/media/last-day-03-l1-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7ec93de7b34e7bf3c307109d0d43fc2060326a9cce44682aee59fcbb8244587e",
+      "audioHash": "c441611ffff543f54d5f16f7b8efd6dec3719a305f285117d2c1cda94361d9e9",
+      "duration": 34.585,
+      "bytes": 277248,
+      "rms": 0.06212,
+      "words": 80,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-03-l1-conversation3": {
+      "path": "./last-day/media/last-day-03-l1-conversation3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "b5f75d507e5b41f567b3ce6e09451b4f5b69967f58d1eaa7e12938add178c0ca",
+      "audioHash": "da42c48d4bb67e6ef42698945a19829ae5c561f4464873dabe29ea87b472c75c",
+      "duration": 33.455,
+      "bytes": 268032,
+      "rms": 0.06276,
+      "words": 80,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-03-l1-announcement1": {
+      "path": "./last-day/media/last-day-03-l1-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a03459ff0d6c7974674a846a0b6099329dd218b9368bdb85486dd8377e3ca0d4",
+      "audioHash": "644e423c0310acb56a63b82f824e98359d77a70401287d74204e0619e9efdb19",
+      "duration": 29.2,
+      "bytes": 234048,
+      "rms": 0.07092,
+      "words": 76,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-announcement2": {
+      "path": "./last-day/media/last-day-03-l1-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "65a9264d35b1ec47d93d88edb682aea8881086c6e6c12f6e9a47e94bac8c4343",
+      "audioHash": "d3bab2b5e47a763effff4c6e3e523b08f45b71dba796ccef211905002b0d78cb",
+      "duration": 31.575,
+      "bytes": 253056,
+      "rms": 0.06955,
+      "words": 77,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-academic-talk1": {
+      "path": "./last-day/media/last-day-03-l1-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "9b04a08d0a465b8f3ec187509ca4ea47c4ad47469992777da1ddaef8e3b67f62",
+      "audioHash": "c911080caf7a7edac35b2eb7f31410d72ef11358df53adae36678d6cb663ca19",
+      "duration": 82.375,
+      "bytes": 659520,
+      "rms": 0.06856,
+      "words": 203,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l1-academic-talk2": {
+      "path": "./last-day/media/last-day-03-l1-academic-talk2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "43cf816ead8ad58682db94a469f5f2b092b08e32afcac5eeddafa9076e906189",
+      "audioHash": "b920f31aa56439bf01901cd18f4886163ffae1f8047f8bc705920bbff62998b4",
+      "duration": 98.65,
+      "bytes": 789696,
+      "rms": 0.05908,
+      "words": 203,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-03-l2-response1": {
+      "path": "./last-day/media/last-day-03-l2-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fefdb4ec1e81543d698c12ffea9684e9c081d65eb0739e3bd46c299f802a0cef",
+      "audioHash": "0dc36145301248339268d4cb2e33f73845dbbd6f203f2affbb78644ce35df1bf",
+      "duration": 3.45,
+      "bytes": 28032,
+      "rms": 0.06595,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l2-response2": {
+      "path": "./last-day/media/last-day-03-l2-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f387697d5a6a9a3daeb30038a8be112afafc10bc520645e735956bd2f5056db8",
+      "audioHash": "799cad50fbeff3cd80595af8107544605f5f1118e0878d8917359d15d73f04ec",
+      "duration": 2.55,
+      "bytes": 20928,
+      "rms": 0.06272,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l2-response3": {
+      "path": "./last-day/media/last-day-03-l2-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f42f1de66b4cf76ae789cc1396fd3bd135b9e8df9fec379edd5ba5458f5bb17b",
+      "audioHash": "eb620c28cfcf75e36452855a558ae9910bfa42e0e736ee754a00594c30f18e81",
+      "duration": 3.375,
+      "bytes": 27456,
+      "rms": 0.06582,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l2-response4": {
+      "path": "./last-day/media/last-day-03-l2-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a92e568c8f2eab0ba9f0f6a3bb23660d39f73a3ef5a943aa06b0299b4b47ea20",
+      "audioHash": "7309a545921956c8847d84a5da4497c165a93d5a4cd253dfbdfca9e3ef42021f",
+      "duration": 2.9,
+      "bytes": 23616,
+      "rms": 0.06727,
+      "words": 6,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l2-response5": {
+      "path": "./last-day/media/last-day-03-l2-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "0044a6891931fe0b66dccf45fb45c44816f415d44f9e4a12e51729f68ece8f13",
+      "audioHash": "cf7fb99c2dadc9ada370f62fa77df943dde235702c784747e858797c52be3d78",
+      "duration": 2.875,
+      "bytes": 23424,
+      "rms": 0.06136,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l2-conversation1": {
+      "path": "./last-day/media/last-day-03-l2-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fca84d3906dd4312aba690dd678ca10cbcceac599c52a0e6947a8c184b7d8921",
+      "audioHash": "6e1a05275ce3b648b975a851e01518baeb7d179f3d2a3f842ccd8a350c0a4449",
+      "duration": 31.38,
+      "bytes": 251520,
+      "rms": 0.06404,
+      "words": 75,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-03-l2-conversation2": {
+      "path": "./last-day/media/last-day-03-l2-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "bf99c7aa3314d9cc11a693fe0dda5fceea1b2bb85c18bf726c6ff58a5ae02e73",
+      "audioHash": "ec2d77b3b7e749a84bc4dbf5cf042d4cd99f60c9faa30cd1bb95b88a989cd4d6",
+      "duration": 36.485,
+      "bytes": 292416,
+      "rms": 0.06198,
+      "words": 78,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-03-l2-announcement1": {
+      "path": "./last-day/media/last-day-03-l2-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d041f100bd1a296b4521ea80666b9b208371d70ed47724851baf137c6ac390ba",
+      "audioHash": "8fdc2f147e25ee4c241242a6eb97dba25c2a958476407e68684ec93905810d7d",
+      "duration": 28.75,
+      "bytes": 230400,
+      "rms": 0.06838,
+      "words": 76,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l2-announcement2": {
+      "path": "./last-day/media/last-day-03-l2-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "bfb9de2619011a8cfea822c6a813bb0f3321ce8579bbf8722c22764ff4387ee0",
+      "audioHash": "d4e24372bbaea890cfbe1eac8df702439eac3aa71a7e0024c69686e7b94014dd",
+      "duration": 24.75,
+      "bytes": 198528,
+      "rms": 0.06939,
+      "words": 73,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-l2-academic-talk1": {
+      "path": "./last-day/media/last-day-03-l2-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "ba368ab5189b7a461fbc2d203ca42fcb08bb5f9d5e9af8e669ca36e1c9b92791",
+      "audioHash": "e7dd3d77eefb93e4f4c24c99e50feae70e689a1af40f3213572a6bf076054f23",
+      "duration": 82.35,
+      "bytes": 659328,
+      "rms": 0.06983,
+      "words": 210,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-repeat1": {
+      "path": "./last-day/media/last-day-03-repeat1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "85a64058aaed7c926ababb79147ab4aecade8d29f2a59e8a5185cef798df1497",
+      "audioHash": "a227626bce6d487b50ec3904f3c13bbdbe56b832a41878c1c4fa13363e6de457",
+      "duration": 2.575,
+      "bytes": 21120,
+      "rms": 0.06737,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-repeat2": {
+      "path": "./last-day/media/last-day-03-repeat2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "75311963e29f632aa4d6cd207272a496aabab98d6e4d01c9ecd455cd1d54e182",
+      "audioHash": "6903cad36553c4a52542cdc4e48ffeeffab88083557b008c4f77c1a379f40e8e",
+      "duration": 3.6,
+      "bytes": 29184,
+      "rms": 0.06835,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-repeat3": {
+      "path": "./last-day/media/last-day-03-repeat3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "16e98216d6e74a30c5b4153e2771249b539b9dcf51532eafd2063ff66e157aff",
+      "audioHash": "0443a7c1926d4d94b5572588f4e1c19be4a902a12c059ce595eb5d566469ddf4",
+      "duration": 2.9,
+      "bytes": 23616,
+      "rms": 0.06592,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-repeat4": {
+      "path": "./last-day/media/last-day-03-repeat4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "dc0434e92a9987346052847309284ca455d85fbba52e4d7fb0b267eb8e5b1685",
+      "audioHash": "37c05818b64712bf115a933216f045117eef1d6f1f570a475480e9959dc06318",
+      "duration": 3.8,
+      "bytes": 30912,
+      "rms": 0.06844,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-repeat5": {
+      "path": "./last-day/media/last-day-03-repeat5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "1278f390c0296c28f79fdc5f9b35a01059319f61ad799562bf284cda6a1a5175",
+      "audioHash": "6db6d994d87b85f2d1c78d2dbb7564f4a99c4f3bca552c59012141df28e3cf53",
+      "duration": 4.625,
+      "bytes": 37440,
+      "rms": 0.0679,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-repeat6": {
+      "path": "./last-day/media/last-day-03-repeat6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "01ee717ea69f9a8cb3b5630cb405edf87e6b43a8c97068b31a7d6d08d182bbcb",
+      "audioHash": "bcdb80586533a61be8296a85563bf61acc12000b5c2d1287f4d32507d9603693",
+      "duration": 4.925,
+      "bytes": 39936,
+      "rms": 0.0675,
+      "words": 13,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-repeat7": {
+      "path": "./last-day/media/last-day-03-repeat7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "41d86b73162a9e6255daf6198e842f713cc9bba99555d7b19445112e193ec0c4",
+      "audioHash": "68098e84791186d2257cb0f38f33ce708736af8b919d476fbd1e2957b37183ff",
+      "duration": 5.475,
+      "bytes": 44352,
+      "rms": 0.07075,
+      "words": 17,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-interview1": {
+      "path": "./last-day/media/last-day-03-interview1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "76a3e6701920b58e3dc72758fb3615f315e90a3c2b21a6a48001635ae75c3d7f",
+      "audioHash": "bc33a0abc978b2141f4489987fb9f9bd53856dd051e44d9d1fb899d234d1062e",
+      "duration": 7.3,
+      "bytes": 58944,
+      "rms": 0.06773,
+      "words": 19,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-interview2": {
+      "path": "./last-day/media/last-day-03-interview2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fdfd866a86cab510b9c5fb9736abb1b5ab0f3c9229bf19252af035d0e66578cb",
+      "audioHash": "ed646ce1f6e98a4d0938e2883188a50a7af4a066fa8d6403415020509305bf64",
+      "duration": 6.8,
+      "bytes": 54912,
+      "rms": 0.05684,
+      "words": 18,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-03-interview3": {
+      "path": "./last-day/media/last-day-03-interview3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d2c8d7fea90b5e8cb382b737fe6a1cfbaf179774a860987af6914d8e18041312",
+      "audioHash": "9456a0afc85a062b909cd540de468b92ce9608194ceff99be0f1a8a96af2217b",
+      "duration": 9.15,
+      "bytes": 73728,
+      "rms": 0.0688,
+      "words": 22,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-03-interview4": {
+      "path": "./last-day/media/last-day-03-interview4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "28fdbc1590733e1c327a38c78d2f2b38a2cee75c948974519a0207a84ba54159",
+      "audioHash": "e25ba6728efd07af2b8466e7e97c00ee4062bae91060ed5f980722d01292497c",
+      "duration": 10.025,
+      "bytes": 80640,
+      "rms": 0.05769,
+      "words": 26,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-04-l1-response1": {
+      "path": "./last-day/media/last-day-04-l1-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2c4464030cb94bc631eb4cd4540fcaedbfe050c3b5b95420cd5e616b2a2ae4e3",
+      "audioHash": "059ab5fa30871e7776f6b220180dbf9f8c35b2db0a246a9a64193dc99d44f64d",
+      "duration": 3.4,
+      "bytes": 27648,
+      "rms": 0.0667,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response2": {
+      "path": "./last-day/media/last-day-04-l1-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e90a2ad41870e23e68157c405fc663321ade43a1e28db2d235591b52bae9e6c0",
+      "audioHash": "e0564f79c7e08203e8ab1f39405af55fe51c063fc2c223e18172084aca6a9a28",
+      "duration": 3.075,
+      "bytes": 25152,
+      "rms": 0.0635,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response3": {
+      "path": "./last-day/media/last-day-04-l1-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "89b9205ed90b398a7acecf55cfc567c690045543c013d174f4ee4302b23cf9ea",
+      "audioHash": "0882226435e1691e1184e5a42691c4844e92e86ad6c654a45857bb35189ea713",
+      "duration": 2.675,
+      "bytes": 21888,
+      "rms": 0.06284,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response4": {
+      "path": "./last-day/media/last-day-04-l1-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7d729342d4ceee63add817720ee847a3c583fe51b11a7b10be2c50eda15ee72d",
+      "audioHash": "787664930531e64350280bf700a0b8350de02352b36be971a31b350d13fe7e4b",
+      "duration": 3.5,
+      "bytes": 28416,
+      "rms": 0.06626,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response5": {
+      "path": "./last-day/media/last-day-04-l1-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c9187ebd7a738afa910503c3e4b37ef1c02c346544cbe29cf4fec5a037263856",
+      "audioHash": "7e4e8404c521b58eb234cb6fb2e78012a7087c0652d402fa67d04d745edcfa3b",
+      "duration": 2.85,
+      "bytes": 23232,
+      "rms": 0.06805,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response6": {
+      "path": "./last-day/media/last-day-04-l1-response6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d71276cb67d55e8eca419aa41b8904280513629e9df32fc351381180df3b751b",
+      "audioHash": "b5f112d5303ade78d057b61a84714df7c068a6f68d826cf6ae3e39ee2543bb67",
+      "duration": 3.025,
+      "bytes": 24768,
+      "rms": 0.06304,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response7": {
+      "path": "./last-day/media/last-day-04-l1-response7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "5e915aca71b61ebce051b2009e06c21cf2bc2a1d4cebaaa0c95143efd35dc298",
+      "audioHash": "2a0a2b0d36acec6d5ca5ed24bfbe2caf4238f591d18b4a7526d54cc52927d464",
+      "duration": 3.55,
+      "bytes": 28800,
+      "rms": 0.06531,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response8": {
+      "path": "./last-day/media/last-day-04-l1-response8.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6bf4298c05fab220a1f4f8af21b8e1d1b68d96e64fa74583f3be423915806e62",
+      "audioHash": "4426994ff6e261aa470a2472318d3e8197ed4593581fbbcbfb9b0384486a4328",
+      "duration": 3.2,
+      "bytes": 26112,
+      "rms": 0.06647,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response9": {
+      "path": "./last-day/media/last-day-04-l1-response9.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7b3d46ea1860556c10a7fb0566fbeed17919d7cff9cc8ea92af7fe838ec0f18c",
+      "audioHash": "746f5d06b61c87023d12a384bc7b0b03795f3c6c028e05471729dcc80dfc4577",
+      "duration": 2.5,
+      "bytes": 20544,
+      "rms": 0.06352,
+      "words": 6,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response10": {
+      "path": "./last-day/media/last-day-04-l1-response10.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "bfaad939e1fc79204d68a4cf8fd95c91f16f35213cd64bec63d779b3db8b53c4",
+      "audioHash": "849a2afcc802c6316f923832caebfc64edd67d48fc989b642bdbc60d7a1b7710",
+      "duration": 2.525,
+      "bytes": 20736,
+      "rms": 0.06338,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response11": {
+      "path": "./last-day/media/last-day-04-l1-response11.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "ac090c406eec6c3d23ab704681c3c2c05e8e0eede2de45d7d33c1655a5c29cbd",
+      "audioHash": "5b5a972180a92f90016aa2fc69192450abddad7309aa967d83bab1d55333bad4",
+      "duration": 3.225,
+      "bytes": 26304,
+      "rms": 0.06658,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-response12": {
+      "path": "./last-day/media/last-day-04-l1-response12.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2e1296197bd31d1d5a4d367141901178eb7f1e3ee4e2b4d41abaaeaad405c945",
+      "audioHash": "99f21229ea3913fd37518887d595d4be1a552717e85e01fb77a8366b26db46c3",
+      "duration": 2.775,
+      "bytes": 22656,
+      "rms": 0.06324,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-conversation1": {
+      "path": "./last-day/media/last-day-04-l1-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "3e9a7881b7833320f1d02617a79136e714e63e7ad0713eaae0bc0602a3637d8f",
+      "audioHash": "a9ae890e30aef881ad4404c4ff411cb2b09ec5ecf3b0b88ddaa6e1a5f5f5b680",
+      "duration": 29.905,
+      "bytes": 239808,
+      "rms": 0.06274,
+      "words": 73,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-04-l1-conversation2": {
+      "path": "./last-day/media/last-day-04-l1-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "67b6545a25952bec573782f744b044a3577f9f61c1d3fd62a99f0a9f66d28fd0",
+      "audioHash": "adabb64cb95ea1f536570806638ba28ac2a485e24fb1edb73741fd348ec4332d",
+      "duration": 33.955,
+      "bytes": 272064,
+      "rms": 0.06306,
+      "words": 76,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-04-l1-conversation3": {
+      "path": "./last-day/media/last-day-04-l1-conversation3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "46c70c6d6f8f11b3156b0bdde867834a5120e9e854a051fdc4ca84e2bd858c22",
+      "audioHash": "9cd8091a036bb155bbad6e103c9833b451d3be612120f3c171667d2d854a5973",
+      "duration": 35.68,
+      "bytes": 285888,
+      "rms": 0.06218,
+      "words": 75,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-04-l1-announcement1": {
+      "path": "./last-day/media/last-day-04-l1-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "3ca4a25fb295cc465882c8fd90b7ca2686d4356c1e6d53c26938482bc6eab6f0",
+      "audioHash": "2713ee775627d4913755c948213fa370014caf3c062a0c3b37ff0d439343a446",
+      "duration": 28.125,
+      "bytes": 225408,
+      "rms": 0.0684,
+      "words": 74,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-announcement2": {
+      "path": "./last-day/media/last-day-04-l1-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "75e4a5c6f28a4cd7ecfa3f54f09edc9f9c555a5513306b2c34188703e5f52b8f",
+      "audioHash": "0cf20433e088d5d024c7ce93c7d7f5429d08a15f6867afc532977f87b9c06f62",
+      "duration": 29.65,
+      "bytes": 237696,
+      "rms": 0.07126,
+      "words": 73,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-academic-talk1": {
+      "path": "./last-day/media/last-day-04-l1-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e4b04b7c645f75bcbcfc1afb22608b11021eb5980369a476549d9d9d8dbdb010",
+      "audioHash": "141a0d03af5abf9d4bf87578594747e3cc11e755312f701e14e3bb4113ac359d",
+      "duration": 86.35,
+      "bytes": 691200,
+      "rms": 0.06941,
+      "words": 212,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l1-academic-talk2": {
+      "path": "./last-day/media/last-day-04-l1-academic-talk2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "8b7e866a0cc76168d596a2f766cedee056f1e0c24511585311a29842cba94a0e",
+      "audioHash": "79fdfa75473703666b032d12376b9887ffe2b4c9a910e3b8c097e8a4c0f0707a",
+      "duration": 101.425,
+      "bytes": 811968,
+      "rms": 0.05884,
+      "words": 209,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-04-l2-response1": {
+      "path": "./last-day/media/last-day-04-l2-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e6dacb4b4ce034d7c5bcca3199cad2614deeb7082124a3014a542df7a223e8e8",
+      "audioHash": "cedfb9b8568900ff317b6ee9e7953ce578511bfe9cb6840cde0a372e72684b7b",
+      "duration": 3.375,
+      "bytes": 27456,
+      "rms": 0.06064,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l2-response2": {
+      "path": "./last-day/media/last-day-04-l2-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "be93184ff698a80e4d9237e81527123662eb543e559f707f6c22211fa83e2c8e",
+      "audioHash": "a547f2123c16cd06df407d5f95ee034d7f72e7ea68717271bbb56d5ffd406f2d",
+      "duration": 2.975,
+      "bytes": 24192,
+      "rms": 0.06672,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l2-response3": {
+      "path": "./last-day/media/last-day-04-l2-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a31c753a83254ddef0e3c8392f13bfd72f6669e38c8a3f97aea14cbb0fb26910",
+      "audioHash": "f9417768ab172e17fe110e6e84be41a12ffecfdf6a2f5f369063425290a9a21e",
+      "duration": 2.775,
+      "bytes": 22656,
+      "rms": 0.0681,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l2-response4": {
+      "path": "./last-day/media/last-day-04-l2-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "11b152d9d30e08daae7b4aa5af2d0fd955626907fa04e1b74bb363f6fb910893",
+      "audioHash": "21ad54f7c964e3145d78f91aa6812a3d3b6f579ed2a30d67838f1e0e50b9100b",
+      "duration": 2.95,
+      "bytes": 24000,
+      "rms": 0.06756,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l2-response5": {
+      "path": "./last-day/media/last-day-04-l2-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e5ae9a575f09157e2e5a0f7278e77ca5fb21f4e0a925063b7f30ffff0f811d5b",
+      "audioHash": "214bb9c9a175d5fd9cbf0fc5db982bf99bccf7cdd1047adb042bed4536cb76c0",
+      "duration": 2.7,
+      "bytes": 22080,
+      "rms": 0.06753,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l2-conversation1": {
+      "path": "./last-day/media/last-day-04-l2-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "3a08793ab85ed9a477643953c4d2855e7b942a4f78f2e9c9d5fa2f68486e6ada",
+      "audioHash": "e7b24086ec103b1d67df13142643b87283669397612a4b9f5253131d5bb50dfa",
+      "duration": 35.48,
+      "bytes": 284352,
+      "rms": 0.06131,
+      "words": 82,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-04-l2-conversation2": {
+      "path": "./last-day/media/last-day-04-l2-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7ecddc42842b62b92767b2f494ee1b9b6c93bbebafdb6f4cd2de35b463050d45",
+      "audioHash": "4a19b208228967d5d26c615e85cbf895a0b7f7d30338c059e2f99e4f8cf468c7",
+      "duration": 34.505,
+      "bytes": 276480,
+      "rms": 0.06062,
+      "words": 77,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-04-l2-announcement1": {
+      "path": "./last-day/media/last-day-04-l2-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "46c1b7267cfc59e846e4ac202ed7288f3654a36482eec713ef32ad8ec0a883f2",
+      "audioHash": "452be56ae87f823326ff8589938949bb6c15fe2f16fb3d639618c5ae3b514cfb",
+      "duration": 29.675,
+      "bytes": 237888,
+      "rms": 0.06763,
+      "words": 77,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l2-announcement2": {
+      "path": "./last-day/media/last-day-04-l2-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "4ed12dfe4e25f78224dc203946ac3db217d8dec669c0d177a7eed4ba6e514718",
+      "audioHash": "46ebd901050aac82ef25af90585a5ca7b2c67d2a2da8f1019ae9232c58f1d670",
+      "duration": 26.9,
+      "bytes": 215616,
+      "rms": 0.06976,
+      "words": 71,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-l2-academic-talk1": {
+      "path": "./last-day/media/last-day-04-l2-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6a9443d804061e3c1b120ac7c37dc0a47dffa72744f9dfa01312627a38c3d7ff",
+      "audioHash": "d41689d15c591a375d4c2288639ba2b19f86d54c8e974d553610d79797ce267d",
+      "duration": 84.875,
+      "bytes": 679488,
+      "rms": 0.06967,
+      "words": 212,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-repeat1": {
+      "path": "./last-day/media/last-day-04-repeat1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "99fc0516db447cdcacc5b6a7fc0a5a2af54629ebacd2aa138d7ff3f83607629d",
+      "audioHash": "7442fdb93333fe1b0e59852222acc790bc94878e46243d45b7de3158b2747dbe",
+      "duration": 3.1,
+      "bytes": 25344,
+      "rms": 0.06422,
+      "words": 6,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-repeat2": {
+      "path": "./last-day/media/last-day-04-repeat2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "71a872916d1c15bc617d2db73616539a937d2e8ff10df90c1933b5d966db9a00",
+      "audioHash": "a86c047b2a4fa058761d13a4baab5dd3aa2f1fd2d90d5ebe3ac985afe2dad41e",
+      "duration": 3.525,
+      "bytes": 28608,
+      "rms": 0.06756,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-repeat3": {
+      "path": "./last-day/media/last-day-04-repeat3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "851aa72b2995d6d6b322fee6c77f43682602915a820e36629da90d8184637fd8",
+      "audioHash": "69c42c1520a584d70298779fb4ea6292dab1bff4b55d4f2990a096a17d7fe741",
+      "duration": 3.175,
+      "bytes": 25920,
+      "rms": 0.06977,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-repeat4": {
+      "path": "./last-day/media/last-day-04-repeat4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d7f1598a114212cb226871178e61a5f136b6adca94c906abe6e0e7bb998b4e3c",
+      "audioHash": "1710fa39dc474596f0834319249e484e9c4fac3c19aea212dff2121128a95cdf",
+      "duration": 3.825,
+      "bytes": 31104,
+      "rms": 0.06879,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-repeat5": {
+      "path": "./last-day/media/last-day-04-repeat5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "29b8d51a5e9ee4c998ba7c77db67720e1dace43602458774fd085328cd3de5a6",
+      "audioHash": "2766e39fee16f8188422dda56562297783d90aa699f4b9bbfe3fa1fab14e1f58",
+      "duration": 4.3,
+      "bytes": 34944,
+      "rms": 0.0675,
+      "words": 12,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-repeat6": {
+      "path": "./last-day/media/last-day-04-repeat6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "95b424467cec9fc05f81a146915b0fd6cc569a4530201caf72e8e5d693c758da",
+      "audioHash": "ed8e0cf1b5a6385cab9ab866442ce70b2c94058b458e1a2014eac664aa4f72ec",
+      "duration": 5.5,
+      "bytes": 44544,
+      "rms": 0.0676,
+      "words": 13,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-repeat7": {
+      "path": "./last-day/media/last-day-04-repeat7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "77c465aa94d6e9f242a8838dbf865b1462b62d38b0345726cea76b92b51cc578",
+      "audioHash": "04d92fc90a2c94a9f923ed48687fa217af191eaef62395c543bb13e974bfbae1",
+      "duration": 5.15,
+      "bytes": 41664,
+      "rms": 0.06832,
+      "words": 13,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-interview1": {
+      "path": "./last-day/media/last-day-04-interview1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "4ee0505f3354123cf72e8a0aa9f2ad2441651ceb21ff2dc15badefa6cdc456b4",
+      "audioHash": "02419a1280314ba5780d58588f62e57338e61f9967e4799129e4466931615a47",
+      "duration": 6.575,
+      "bytes": 52992,
+      "rms": 0.06765,
+      "words": 18,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-interview2": {
+      "path": "./last-day/media/last-day-04-interview2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "af7f1e1b46a9bea39d1df435661fa3e790395986e052b523f8af9f78403fb388",
+      "audioHash": "06290a43583d5167b4a303f1ca1914cd592792835808313db5e8b06a7dbef55a",
+      "duration": 8.45,
+      "bytes": 68160,
+      "rms": 0.0602,
+      "words": 19,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-04-interview3": {
+      "path": "./last-day/media/last-day-04-interview3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7125adfa224ed432e182f7601f25ac99e7ea3127f28b905d14300fb4287680f2",
+      "audioHash": "600898ff24d1fda6eba6d060e0d01952a00031360376fa42ee4dc2bbddef19bf",
+      "duration": 8.3,
+      "bytes": 66816,
+      "rms": 0.06837,
+      "words": 22,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-04-interview4": {
+      "path": "./last-day/media/last-day-04-interview4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d867030747dbe959bc79b4a405c35c12e6afa0f1aa270c497a878c47353c6523",
+      "audioHash": "f430991951d88af4a6b3d06f0a5518d294fd70558a88232f3274d8f08f8d3107",
+      "duration": 9.475,
+      "bytes": 76224,
+      "rms": 0.06009,
+      "words": 24,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-05-l1-response1": {
+      "path": "./last-day/media/last-day-05-l1-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d307705d460910164fee074c3cf10f07284fbf04b0f0485378a4c013dcc00339",
+      "audioHash": "f8a036f87cddf0935cece5a6e129765c954e10d93f144e731fca82ead2ba2932",
+      "duration": 3.3,
+      "bytes": 26880,
+      "rms": 0.06667,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response2": {
+      "path": "./last-day/media/last-day-05-l1-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "095b88a544ca16b328997d535123f6e47dd41f5153bd6a8aca6f8f584b1ebca9",
+      "audioHash": "77f594e5098539f423fc1377acc8b82d7f7c409e10919574fb01c9af6bad1886",
+      "duration": 3.075,
+      "bytes": 25152,
+      "rms": 0.06769,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response3": {
+      "path": "./last-day/media/last-day-05-l1-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "76bb47e22a988abf9b2ae8f30e30b89049c5b36b97da3c012d1bd064f2936435",
+      "audioHash": "e4ed2650df430ab673fe5471a68854894256602565bb1956634a140f609065c6",
+      "duration": 2.9,
+      "bytes": 23616,
+      "rms": 0.06294,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response4": {
+      "path": "./last-day/media/last-day-05-l1-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "1658bad5127cc72df9a80c27497cb55c10c356d6cb057dea9e52846c7402e1de",
+      "audioHash": "ee393794bccf4143d4a790d0a8e048ebe9db8ef85fa239ff60470269373d2390",
+      "duration": 2.525,
+      "bytes": 20736,
+      "rms": 0.06703,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response5": {
+      "path": "./last-day/media/last-day-05-l1-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e6f064c5ca2ea041c6cbdd6a5fdfc7a0cbc7a0688032e88bc824473bada70bad",
+      "audioHash": "c29ebc98d2b380f55db1050f0f77864aae5a94f512d79fe90f71b55469d4cbdc",
+      "duration": 3.15,
+      "bytes": 25728,
+      "rms": 0.06352,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response6": {
+      "path": "./last-day/media/last-day-05-l1-response6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f7cb68d80d111cc14026534464fd672e9b2af1f8ee471adf29621e6785f7fad4",
+      "audioHash": "297459645e22f046b7573affb76963c1dcc31e4ee9697b01611785acf810fadd",
+      "duration": 3.15,
+      "bytes": 25728,
+      "rms": 0.06685,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response7": {
+      "path": "./last-day/media/last-day-05-l1-response7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "c103fb318e7597f37d87bafb1e17fab9036c2f63c700989f2873b74e3000d77b",
+      "audioHash": "44d00f8d7eaec9b99924a79de955c0882bfb5c35b899d014257e9c70f60d9e87",
+      "duration": 2.5,
+      "bytes": 20544,
+      "rms": 0.07014,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response8": {
+      "path": "./last-day/media/last-day-05-l1-response8.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "046d2141a25e27338b679efceaffafd07828d2371f4fbf810b32b4736b7e91ca",
+      "audioHash": "e3f39d599c5528521cac4430031261b75bf2d7592b7d37736c05ffee1eeb9f73",
+      "duration": 3.0,
+      "bytes": 24384,
+      "rms": 0.06438,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response9": {
+      "path": "./last-day/media/last-day-05-l1-response9.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7d48e8c39fdecb02bd99cbe3a868f75be9514d8378761ce96e117b4b07b737b1",
+      "audioHash": "a4856dac38b9f1249cbf04cd19a0f45b14913f894441b275c236980deb86d423",
+      "duration": 3.8,
+      "bytes": 30912,
+      "rms": 0.06376,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response10": {
+      "path": "./last-day/media/last-day-05-l1-response10.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "96fb15a5843900549bff38ee7bd7c0a04d3a54181df55b472a1e0ab8d1af5123",
+      "audioHash": "60454eb08f7cddb6e7599401e74d6adcaecd088a3a258bced14c1c7834d34ae6",
+      "duration": 2.925,
+      "bytes": 23808,
+      "rms": 0.06838,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response11": {
+      "path": "./last-day/media/last-day-05-l1-response11.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a0910b46eae1cb0b47dd0aeba80119d63dd362d7245a3a256ec3fe04746aadb9",
+      "audioHash": "841613afccc546ef85a894b789772f73fd4c24965aefcbad19b889bfe577a21b",
+      "duration": 3.25,
+      "bytes": 26496,
+      "rms": 0.06239,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-response12": {
+      "path": "./last-day/media/last-day-05-l1-response12.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7b59fe586bf9a8ffd498ab6cbca3ea0307ef09d2ebe2cc03c319ea46f5e379c4",
+      "audioHash": "3f2a818c3e6bce18e71ff06700fb01e88ecd0dc02ad4b02200f77cba5c7f9f67",
+      "duration": 3.525,
+      "bytes": 28608,
+      "rms": 0.06774,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-conversation1": {
+      "path": "./last-day/media/last-day-05-l1-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a08706a2c88f297702c655f4cbde0b10d9addf29c0b63edc55d4c8e2910fb23e",
+      "audioHash": "0849760087b84cebc38f060f6fe2ba230fdcf45e0b504c53869daaae7482f7e3",
+      "duration": 34.78,
+      "bytes": 278784,
+      "rms": 0.06125,
+      "words": 79,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-05-l1-conversation2": {
+      "path": "./last-day/media/last-day-05-l1-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7be0d6c1fac1e29783b352c646988aff8921e6be5654ef8b52de84977289bd92",
+      "audioHash": "2e893dde9da5a8a31b6fe7257739f78e1b9fd00b60e41ee2c2e26e352d030318",
+      "duration": 35.785,
+      "bytes": 286848,
+      "rms": 0.06122,
+      "words": 79,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-05-l1-conversation3": {
+      "path": "./last-day/media/last-day-05-l1-conversation3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "8baa81619ebbffe4b29f0522c20f42e961db0a9d2a8e2aa7b01dbd3b73963456",
+      "audioHash": "5921ff238243f52951860f4ec26be7263d18a9f4097ef1b8cbd67c858526f0fc",
+      "duration": 34.91,
+      "bytes": 279744,
+      "rms": 0.06098,
+      "words": 79,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-05-l1-announcement1": {
+      "path": "./last-day/media/last-day-05-l1-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "0acbbd974ce7c85e46e40e0adbf07c802e30a5180185338e101a24caeb7fef1f",
+      "audioHash": "8e2318118f0d3bb32d839bb1c6cffe0af2bb6bf7da372f74b5ae98ab792e5814",
+      "duration": 29.025,
+      "bytes": 232704,
+      "rms": 0.06974,
+      "words": 77,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-announcement2": {
+      "path": "./last-day/media/last-day-05-l1-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2a0a5f457d88401807ab1c1a82aa0b2914064e955f9e52228bccfa85d37615c5",
+      "audioHash": "3f566f203ab24a911ab7f877fe2121ffc0d0c72b97e2b5f542d8b381c2de9ffb",
+      "duration": 28.15,
+      "bytes": 225600,
+      "rms": 0.06921,
+      "words": 75,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-academic-talk1": {
+      "path": "./last-day/media/last-day-05-l1-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7e2e4e8a0de0c2207206da4edccac1e4c41d20727a35135fc7390ebfb3542e8c",
+      "audioHash": "88f953279d2924a9a67ce2b54fc4c39ef30b066a38c8040fdefd4e14f954bad5",
+      "duration": 81.225,
+      "bytes": 650304,
+      "rms": 0.0699,
+      "words": 213,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l1-academic-talk2": {
+      "path": "./last-day/media/last-day-05-l1-academic-talk2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "dae383198923bdfab40727dc9781fe26ff0213cdc404e3ffdc0baffae361658f",
+      "audioHash": "c8e6ec531a3a1e5c789b9597489c4075b233abe033f6941289fbf8617afd43ec",
+      "duration": 100.9,
+      "bytes": 807744,
+      "rms": 0.05927,
+      "words": 208,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-05-l2-response1": {
+      "path": "./last-day/media/last-day-05-l2-response1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7b4457e079bb967d527acd9ff460ae1b9c2bf2f571823ea25d9d322e300a5374",
+      "audioHash": "deb78fee0a7fecafe47339814730a19b53c5aeaf90f2af83d47ff638bfe13c0d",
+      "duration": 2.675,
+      "bytes": 21888,
+      "rms": 0.06661,
+      "words": 7,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l2-response2": {
+      "path": "./last-day/media/last-day-05-l2-response2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "3439b974c31916a39eab11be79e3873c5e682d85a0d916e46ec395d17fef9bda",
+      "audioHash": "ae87c1067796ca68d717e480c4b51f82fb93691f2d4af2d16f05c7b7b5a7feea",
+      "duration": 2.975,
+      "bytes": 24192,
+      "rms": 0.06405,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l2-response3": {
+      "path": "./last-day/media/last-day-05-l2-response3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6fe576f95ac47fff8ce0a256c6d0c1270e2542982f9544fad4025f9a355c26aa",
+      "audioHash": "8c5397f2c15815dd0f1086f212dcebe3572d937149cf069eb5163ce0b08cc8fc",
+      "duration": 3.275,
+      "bytes": 26688,
+      "rms": 0.06301,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l2-response4": {
+      "path": "./last-day/media/last-day-05-l2-response4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "f347fd36883d692cc570f5312de54f04d4091c2a67dd7ab219b8e72dff827bc6",
+      "audioHash": "46a0fcdc803e6445f4b4cc65ef34c92f1713a5b3043455d625b4a5da6e75b153",
+      "duration": 3.175,
+      "bytes": 25920,
+      "rms": 0.0663,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l2-response5": {
+      "path": "./last-day/media/last-day-05-l2-response5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2230e5130eaca0c4b27bdd2f67674462ff37ea1bec9898e0e40ee096e2ae7aff",
+      "audioHash": "ad76e8940bf246fcdd0b105ec901c2515273ed92387ef137869275effcc76836",
+      "duration": 3.05,
+      "bytes": 24960,
+      "rms": 0.06542,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l2-conversation1": {
+      "path": "./last-day/media/last-day-05-l2-conversation1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "a39461e57b2269da41aa123b466ef48db03f0166a3c2cf1bb1dec1f7fa88fbfd",
+      "audioHash": "58df922fb3c613b633d1997938a9a797abfd619e1274b9534e47f669e67f6a1f",
+      "duration": 35.555,
+      "bytes": 284928,
+      "rms": 0.06351,
+      "words": 82,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-05-l2-conversation2": {
+      "path": "./last-day/media/last-day-05-l2-conversation2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "2e31ec92a3d207ac6137e706e79c949d4e28cbfacdfa336bbaf2555772d27e4e",
+      "audioHash": "af1363371b1bc8c8eb5113ab9261c2d6d5706aeae8e6db563a727751dd0cf3dc",
+      "duration": 37.48,
+      "bytes": 300288,
+      "rms": 0.062,
+      "words": 78,
+      "voices": [
+        "af_heart",
+        "am_michael"
+      ]
+    },
+    "last-day-05-l2-announcement1": {
+      "path": "./last-day/media/last-day-05-l2-announcement1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "5c2d6bddb2135eab018711fcb9bd34b920a8830b3bb33beaa8a62b0d387a4eca",
+      "audioHash": "6ddfab399dde43d7421965971ae5242bcc1f2cbe2dabbace2692d2a0c3c364d4",
+      "duration": 27.6,
+      "bytes": 221184,
+      "rms": 0.06995,
+      "words": 75,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l2-announcement2": {
+      "path": "./last-day/media/last-day-05-l2-announcement2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "388a74231706c13388c4defe778ea4d3eec179260ab7d980a945cad9714780ff",
+      "audioHash": "ea4539fc10fbca785bd4bdbfd90d5275b9eea1e0c49c4f554fe234ad50644669",
+      "duration": 28.0,
+      "bytes": 224448,
+      "rms": 0.06939,
+      "words": 71,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-l2-academic-talk1": {
+      "path": "./last-day/media/last-day-05-l2-academic-talk1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "7a191228e2d2bb02c79baab643fa39a9e9ef6033d897993bf42340785f196c76",
+      "audioHash": "1461cd5cf866b44866e65029ac0bfad49f5381ccceb983178a7cfcbee38bb2c8",
+      "duration": 85.425,
+      "bytes": 683904,
+      "rms": 0.06934,
+      "words": 205,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-repeat1": {
+      "path": "./last-day/media/last-day-05-repeat1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "965041715254af4aaf37950f549960df47ff08dad2ed1648aa5ba6ff01505aa4",
+      "audioHash": "f978bb0287606968ce07236d0b5828236324817e8c7027d1015c8e0638972616",
+      "duration": 2.55,
+      "bytes": 20928,
+      "rms": 0.06393,
+      "words": 6,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-repeat2": {
+      "path": "./last-day/media/last-day-05-repeat2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "014a94013f47c962ec5c127b48cb12a904e3438aa79393f419793f70dc6fc5b3",
+      "audioHash": "896031b050235042021ccea3893e24ad3491471e724a8ae133ff1af86530b2b2",
+      "duration": 3.225,
+      "bytes": 26304,
+      "rms": 0.06142,
+      "words": 8,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-repeat3": {
+      "path": "./last-day/media/last-day-05-repeat3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "36a9b588d951ef9d2c017b3263c779a8a38e85f70d156bf51d3ffe536501029b",
+      "audioHash": "3a1c59336430fbbc1bfd089b8713ce060afc3aeae92b21a3cc8a0137fc21c90e",
+      "duration": 3.525,
+      "bytes": 28608,
+      "rms": 0.06462,
+      "words": 9,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-repeat4": {
+      "path": "./last-day/media/last-day-05-repeat4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "0f6001efac9e656d880e8f2f7ffcd35423c4a578cae3dfbfddd0c48b356bfa6b",
+      "audioHash": "368b948d6f5e5de27dc11c07710ae8ffba44d584cbb9e2246ff8ac28e64d152b",
+      "duration": 4.625,
+      "bytes": 37440,
+      "rms": 0.06876,
+      "words": 10,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-repeat5": {
+      "path": "./last-day/media/last-day-05-repeat5.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "92df4565bc10f79dc0cb9a1040bd063f562d90964425c76b0cf29e4a5914eee5",
+      "audioHash": "55f789301eee88fa62aef654746bdeb2cef2427ecb4f56e607252237c54dcfdc",
+      "duration": 4.35,
+      "bytes": 35328,
+      "rms": 0.0666,
+      "words": 11,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-repeat6": {
+      "path": "./last-day/media/last-day-05-repeat6.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "b57cf64ec8f444c3ad650b4ca07f8ba8edd27327d430c076545880461c9947fc",
+      "audioHash": "f3247b287fc887c85a7ebba8e3445bc678f88f1103f9cda8bbdddb2cbd7bc036",
+      "duration": 4.925,
+      "bytes": 39936,
+      "rms": 0.06762,
+      "words": 16,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-repeat7": {
+      "path": "./last-day/media/last-day-05-repeat7.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "d8275140d611d6e93a270bcdb5a16a3dd91e0afe31cb11d3c34fee69bf049ce1",
+      "audioHash": "f241c2436587e07398f295b7244983a24b3c7b9f31fdeeb349961322e14242ae",
+      "duration": 5.35,
+      "bytes": 43200,
+      "rms": 0.07101,
+      "words": 15,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-interview1": {
+      "path": "./last-day/media/last-day-05-interview1.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "ecd0ddd98de8cec2d25e52bd54a3c978f10e14f4e387d6033c9b5b2efb54cb0e",
+      "audioHash": "0a0e89a37d3b21d8b747729ce57bf45d4061fb7dfb183494aa626754d6cb6166",
+      "duration": 8.575,
+      "bytes": 69120,
+      "rms": 0.06618,
+      "words": 20,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-interview2": {
+      "path": "./last-day/media/last-day-05-interview2.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "e835024ac2aa1de9ddbba1c863bf0876885d9ff1b28df0736279b571ff397881",
+      "audioHash": "5e81f2703d65e862220cd0df5b327acd239e18786b86e87b5b9fa5edb276cb68",
+      "duration": 8.05,
+      "bytes": 64896,
+      "rms": 0.05932,
+      "words": 17,
+      "voices": [
+        "am_michael"
+      ]
+    },
+    "last-day-05-interview3": {
+      "path": "./last-day/media/last-day-05-interview3.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "6f33387109add4789d401b31a4dbf25d3f74337f3f745d4c26e9873c7704d6d2",
+      "audioHash": "1c7f731f3c07906fdcaddc65b5aedfa225242ef768aa451de54e7ce83ce23b57",
+      "duration": 9.375,
+      "bytes": 75456,
+      "rms": 0.07022,
+      "words": 20,
+      "voices": [
+        "af_heart"
+      ]
+    },
+    "last-day-05-interview4": {
+      "path": "./last-day/media/last-day-05-interview4.mp3",
+      "engine": "kokoro-native-q4-prepared-v1",
+      "scriptHash": "fb88956151ea2217a945b027d4a98a8a8270908c7fe577bf4d7732e96ff3d489",
+      "audioHash": "436412960e7155787d32b72da22e470b5c970d58441c5a0282a7ad4ee227d182",
+      "duration": 11.15,
+      "bytes": 89664,
+      "rms": 0.05728,
+      "words": 27,
+      "voices": [
+        "am_michael"
+      ]
+    }
+  }
+}
